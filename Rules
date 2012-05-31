@@ -59,6 +59,7 @@ compile '*' do
     if %w(html haml md).include?(item[:extension])
       layout 'default'
       filter :cache_buster
+      filter :relativize_paths, {:type => :html}
     end
   end
 end

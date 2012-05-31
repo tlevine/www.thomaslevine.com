@@ -1,5 +1,10 @@
+---
+title: Prevalence of Middle Names
+---
+
 Prevalence of Middle Names
 ====
+
 Draft
 
 I was wondering what proportion of people have middle names, so I asked the Census.
@@ -46,11 +51,7 @@ all of the email addresses of then-current Cornell University students from the
 [Cornell Electronic Directory](http://www.it.cornell.edu/services/thunderbird/howto/troubleshooting_detail.cfm?id=143944)
 and came up with this plot.
 
-![A plot of middle name prevalence by school among Cornell University shows
-that 15824 students had middle names and 6649 not and that the proportion varies
-substantially by school, the graduate school having a particularly low
-rate of middle names and the agriculture school having a particularly high rate.
-](cornell_middle_names_by_school.png)
+<img alt="A plot of middle name prevalence by school among Cornell University shows that 15824 students had middle names and 6649 not and that the proportion varies substantially by school, the graduate school having a particularly low rate of middle names and the agriculture school having a particularly high rate." src="<%= @item.path %>cornell_middle_names_by_school.png" >
 
 Based on discussions with some of the students in that census,
 I suspected that students underreport rather than
@@ -62,10 +63,9 @@ I [looked at](https://github.com/tlevine/united-states-middlenames)
 the names of [85,822,194 dead Americans](http://ssdmf.info)
 and came up with some more plots.
 
-[![Plot of middle name prevalence as a function of time by state, showing
-a relatively sharp increase from 10% to 80% between 1880 and 1930, followed
-by a plateau until 1960, followed by a smaller jump to 95% by 1975
-](us_middle_names_over_time_by_state.png)](us_middle_names_over_time_by_state.pdf)
+<a href="us_middle_names_over_time_by_state.pdf">
+<img alt="Plot of middle name prevalence as a function of time by state, showing a relatively sharp increase from 10% to 80% between 1880 and 1930, followed by a plateau until 1960, followed by a smaller jump to 95% by 1975" src="us_middle_names_over_time.png" >
+</a>
 
 The rate of middle names these days is about 90%, which is a lot more
 than the Cornell University student figures; this supports my suspicion
