@@ -3,3 +3,4 @@
 .rvmrc
 output
 tmp
+Gemfile.lock

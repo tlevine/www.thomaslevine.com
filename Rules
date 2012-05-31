@@ -41,7 +41,11 @@ end
 
 compile '*' do
   if item.binary?
-    # don’t filter binary items
+    case item[:extension]
+    when 'png'
+      filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
+    end
+    # don’t filter other binary items
   else
     case item[:extension]
     when 'md'
