@@ -87,6 +87,8 @@ route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
     item.identifier.chop + '.' + item[:extension]
+# elsif item.identifier.chop.split('/')[-1] == 'index'
+#   item.identifier + '.html'
   else
     # Write item with identifier /foo/ to /foo/index.html
     item.identifier + 'index.html'
