@@ -45,9 +45,11 @@ compile '*' do
     when 'png'
       filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
     end
-    # don’t filter other binary items
+    # Don’t filter other binary items
   else
     case item[:extension]
+    when 'html'
+      # Doesn't need filtering.
     when 'md'
       filter :erb
       filter :kramdown

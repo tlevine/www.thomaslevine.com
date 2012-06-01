@@ -2,9 +2,6 @@
 title: Prevalence of Middle Names
 ---
 
-Prevalence of Middle Names
-====
-
 Draft
 
 I was wondering what proportion of people have middle names, so I asked the Census.
