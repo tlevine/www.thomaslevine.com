@@ -231,6 +231,10 @@ body {
   min-width: 250px;
 }
 
+#wrapper{
+  background: inherit;
+}
+
 p, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
 
 /* Things that look like cards */
@@ -242,47 +246,43 @@ p, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
 }
 
 /* Small cards */
-.smallcard{
-  width: 95px;
-  height: 95px;
-  float: left;
-  margin: 25px;
-  padding: 15px;
+.topic{
+  @extend .sg-3;
   border-width: 0px;
+  height: 3 * 28px;
 }
 
-/* Feed card container */
-#smallcards {
-  width: 100%;
-  max-width: 175px;
-  margin: 25px auto;
+/* Small cards container */
+#topics, #contact {
+  @extend .sg-12;
 }
 
-.bigcard {
-  width: 200px;
-  margin: 25px auto;
+#topics, #contact {
+  @extend .card;
 }
 
+#contact {
 /* The calling card */
-#card {
   /* == Card size ==============
      The smallest pretty width is 200px. This is fine because most phones are at least 320px wide.
      http://tripleodeon.com/wp-content/uploads/2011/12/table.html
      ========================= */
   height: 350px;
-  padding: 25px 25px 0 25px;
 }
-#card { position: relative; }
-#card > .logo {
+/*
+#contact { position: relative; }
+#contact > .logo {
   position: absolute;
   bottom: 0px;
 }
-#card > .logo img { width: 200px; height: 200px; } 
+#contact > .logo img { width: 200px; height: 200px; } 
 .words {margin-top: 0.8em; }
 .social {
   width: 7em;
   margin: 0 auto;
 }
+*/
+
 .social li {
   display: inline-block;
   width: 1.65em;
@@ -348,16 +348,17 @@ html.js #e-post > span { opacity: 0; }
     margin-left: 0; margin-right: 0;
     padding-left: 0; padding-right: 0;
   }
-  #card > .logo > img { width: 100%; } 
+  #contact > .logo > img { width: 100%; } 
 }
 */
 
+/*
 @media only screen and (min-width: 440px) {
   .bigcard {
     width: 350px;
     margin: 50px auto;
   }
-  #card{
+  #contact{
     height: 200px;
   }
   .social {width: 10em; height: 4em; float: left; }
@@ -371,8 +372,8 @@ html.js #e-post > span { opacity: 0; }
   .smallcard {
     margin: 20px;
   }
-  #card > div { float: left; }
-  #card > .logo {
+  #contact > div { float: left; }
+  #contact > .logo {
     bottom: 10px;
     right: 22px;
   }
@@ -383,7 +384,7 @@ html.js #e-post > span { opacity: 0; }
     width: 425px;
     margin: 50px auto;
   }
-  #card {
+  #contact {
     height: 243px;
   }
   .social {width: 10em; height: 4em; float: left; }
@@ -394,12 +395,13 @@ html.js #e-post > span { opacity: 0; }
   .card {
     text-align: left;
   }
-  #card > div { float: left; }
-  #card > .logo {
+  #contact > div { float: left; }
+  #contact > .logo {
     bottom: 10px;
     right: 55px;
   }
 }
+*/
 
 /* ==|== print styles =======================================================
    Print styles.
@@ -423,7 +425,7 @@ html.js #e-post > span { opacity: 0; }
 
 
   /* Me */
-  #card, #smallcards,
+  #contact, #smallcards,
   .card, .smallcard,
   .words, .logo,
   .social, .social li {
