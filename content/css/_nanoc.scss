@@ -220,31 +220,22 @@ td { vertical-align: top; }
    Author: Thomas Levine
    ========================================================================== */
 
+/* Containers of things that look like cards */
+#topics, #contact {
+  @extend .sg-16;
+}
 
-//@media only screen and (min-width: 630px ){
-  //
-  // Squaregrid
-  //
-  @import "squaregrid";
+/* Small cards */
+.topic{
+  @extend .sg-4;
+  border-width: 0px;
+  height: 4 * 28px;
+}
 
-  /* Containers of things that look like cards */
-  #topics, #contact {
-    @extend .sg-16;
-  }
-
-  /* Small cards */
-  .topic{
-    @extend .sg-4;
-    border-width: 0px;
-    height: 4 * 28px;
-  }
-
-  /* Calling card */
-  #contact {
-    height: (2 / 3.5) * 12 * 28px;
-  }
-
-//}
+/* Calling card */
+#contact {
+  height: (2 / 3.5) * 12 * 28px;
+}
 
 // Override Squaregrid
 body { 
@@ -271,38 +262,38 @@ p, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
 
 // Mobile comes second, unfortunately, as I'm using a fixed-width grid.
 @media only screen and (max-width: 630px ){
-#wrapper, #container,
-header, #main, footer,
-#topics {
-  width: 100%;
-}
+  #wrapper, #container,
+  header, #main, footer,
+  #topics {
+    width: 100%;
+  }
 
-/* Calling card */
-#contact {
-  width: (2 / 3.5) * 8 * 28px;
-  height: 10 * 28px;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  padding-left: 2 * 28px;
-  padding-right: 2 * 28px;
-}
+  /* Calling card */
+  #contact {
+    width: (2 / 3.5) * 8 * 28px;
+    height: 10 * 28px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 2 * 28px;
+    padding-right: 2 * 28px;
+  }
 
-#wrapper, #container,
-header, #main, footer,
-#topics, #contact, .topic {
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-top: 28px;
-  margin-bottom: 28px;
-}
+  #wrapper, #container,
+  header, #main, footer,
+  #topics, #contact, .topic {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
 
-/* Small cards */
-.topic{
-  border-width: 0px;
-  height: 4 * 28px;
-  width: 4 * 28px;
-  padding: 14px;
-}
+  /* Small cards */
+  .topic{
+    border-width: 0px;
+    height: 4 * 28px;
+    width: 4 * 28px;
+    padding: 14px;
+  }
 }
 
 /*
