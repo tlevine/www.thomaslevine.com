@@ -43,7 +43,7 @@ compile '*' do
   if item.binary?
     case item[:extension]
     when 'png'
-      filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
+#     filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
     end
     # Don’t filter other binary items
   else

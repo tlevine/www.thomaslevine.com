@@ -25,4 +25,6 @@ unless defined? LOADED_DEFAULT_CONFIG
   # javascript concatenation
   require 'nanoc/filters/javascript_concatenator'
 
+  # Sitemap
+  include Nanoc::Helpers::XMLSitemap
 end
