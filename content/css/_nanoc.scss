@@ -220,7 +220,57 @@ td { vertical-align: top; }
    Author: Thomas Levine
    ========================================================================== */
 
+
+//@media only screen and (min-width: 630px ){
+  //
+  // Squaregrid
+  //
+  @import "squaregrid";
+
+  /* Containers of things that look like cards */
+  #topics, #contact {
+    @extend .sg-16;
+  }
+
+  /* Small cards */
+  .topic{
+    @extend .sg-4;
+    border-width: 0px;
+    height: 4 * 28px;
+  }
+
+  /* Calling card */
+  #contact {
+    height: (2 / 3.5) * 12 * 28px;
+  }
+
+//}
+
+// Override Squaregrid
+body { 
+  background: #444; 
+  color: #fe57a1;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper{
+  background: inherit;
+}
+
+p, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
+
+#contact, .topic {
+  background: #FFF;
+  border-radius: 0px;
+  box-shadow: 0 0 2em #222;
+  text-align: center;
+  display: block;
+}
+
 // Mobile comes second, unfortunately, as I'm using a fixed-width grid.
+@media only screen and (max-width: 630px ){
 #wrapper, #container,
 header, #main, footer,
 #topics {
@@ -253,55 +303,7 @@ header, #main, footer,
   width: 4 * 28px;
   padding: 14px;
 }
-
-@media only screen and (min-width: 630px ){
-  //
-  // Squaregrid
-  //
-  @import "squaregrid";
-
-  /* Containers of things that look like cards */
-  #topics, #contact {
-    @extend .sg-16;
-  }
-
-  /* Small cards */
-  .topic{
-    @extend .sg-4;
-    border-width: 0px;
-    height: 4 * 28px;
-  }
-
-  /* Calling card */
-  #contact {
-    height: (2 / 3.5) * 12 * 28px;
-  }
-
 }
-
-// Override Squaregrid
-body { 
-  background: #444; 
-  color: #fe57a1;
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  height: 100%;
-}
-
-#wrapper{
-  background: inherit;
-}
-
-p, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
-
-#contact, .topic {
-  background: #FFF;
-  border-radius: 0px;
-  box-shadow: 0 0 2em #222;
-  text-align: center;
-  display: block;
-}
-
 
 /*
 #contact { position: relative; }
