@@ -47,7 +47,7 @@ This epitomizes my Tomness.
 
     Katie and Ardevan
 
-Attachment: [thomaslevine.pdf](thomaslevine.pdf)
+Attachment: [thomaslevine.pdf](<%= @item.path %>thomaslevine.pdf)
 
 
 (*Maroon* is my high school's official newspaper, and I got the position.)
