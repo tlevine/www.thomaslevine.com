@@ -1,5 +1,19 @@
-// General stuff
+// Mixins and extends
+@mixin lean
+  margin: 0
+  padding: 0
 
+.box
+  background: white
+  margin:
+    top: $square
+    bottom: $square
+    left: auto
+    right: auto
+  padding: $square
+  text-align: center
+
+// General stuff
 body
   background: #444
   color: $pink
@@ -10,13 +24,12 @@ body
   width: 100%
   height: 100%
 
-@mixin lean
-  margin: 0
-  padding: 0
-
 p, h1, h2, h3, h4, h5
-  // font: inherit
+  font: inherit
   @include lean
+
+h1, h2, h3, h4, h5
+  font-weight: bold
 
 ul.nobullet
   @include lean
@@ -33,15 +46,8 @@ a
   &:focus
     outline: thin dotted
 
-.box
-  background: white
-  margin:
-    top: $square
-    bottom: $square
-    left: auto
-    right: auto
-  padding: $square
-  text-align: center
+.logo, .logo *
+  width: 100%
 
 // The calling card
 #contact
@@ -54,19 +60,27 @@ a
   // Golden ratio
   // height: 12 * $square
 
-.social li
-  display: inline-block
-  width: 1.65em
-  height: 1.65em
-  vertical-align: baseline
-  text-align: center
-  background: $pink
-  color: white
-  margin: 0.25em
-  padding: 0.1em
-  &:hover
-    background: #444
-    color: $pink
+  .social
+    width: 6em
+    margin:
+      left: auto
+      right: auto
+    li
+      display: inline-block
+      width: 1.65em
+      height: 1.65em
+      margin: 0.25em
+      padding: 0.25em
+      vertical-align: baseline
+      text-align: center
+      background: $pink
+      color: white
+      &:hover
+        background: #444
+        color: $pink
+
+  .logo
+    margin-top: 2 * $square
 
 // The small boxes
 .topic
