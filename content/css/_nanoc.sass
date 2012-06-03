@@ -10,10 +10,17 @@ body
   width: 100%
   height: 100%
 
-p, h1, h2, h3, h4, h5, ul, li
-  // font: inherit
+@mixin lean
   margin: 0
   padding: 0
+
+p, h1, h2, h3, h4, h5
+  // font: inherit
+  @include lean
+
+ul.nobullet
+  @include lean
+  list-style-type: none
 
 a
   color: inherit
@@ -26,7 +33,6 @@ a
   &:focus
     outline: thin dotted
 
-// The calling card
 .box
   background: white
   margin:
@@ -34,27 +40,36 @@ a
     bottom: $square
     left: auto
     right: auto
-  
+  padding: $square
+  text-align: center
 
+// The calling card
 #contact
   @extend .box
-  width: 5 * $square
+  width: 6 * $square
+
+  // Standard business card size
   height: 12 * $square
-  padding:
-    top: $square
-    bottom: $square
-    left: 1.5 * $square
-    right: 1.5 * $square
+
+  // Golden ratio
+  // height: 12 * $square
+
+.social li
+  display: inline-block
+  width: 1.65em
+  height: 1.65em
+  vertical-align: baseline
+  text-align: center
+  background: $pink
+  color: white
+  margin: 0.25em
+  padding: 0.1em
+  &:hover
+    background: #444
+    color: $pink
 
 // The small boxes
-
 .topic
   @extend .box
-  width: 4 * $square
-  height: 4 * $square
-  padding:
-    top: 0.5 * $square
-    bottom: 0.5 * $square
-    left: 0.5 * $square
-    right: 0.5 * $square
-
+  width: 3 * $square
+  height: 3 * $square
