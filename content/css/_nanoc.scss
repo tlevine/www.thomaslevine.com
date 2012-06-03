@@ -42,8 +42,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: $pink; color: #fff; text-shadow: none; }
+::selection { background: $pink; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -240,7 +240,7 @@ td { vertical-align: top; }
 // Override Squaregrid
 body { 
   background: #444; 
-  color: #fe57a1;
+  color: $pink;
   font-family: 'Open Sans', sans-serif;
   width: 100%;
   height: 100%;
@@ -316,12 +316,12 @@ p, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
   height: 1.65em;
   vertical-align: baseline;
   text-align: center;
-  background: #fe57a1;
+  background: $pink;
   color: white;
   margin: 0.25em;
   padding: 0.1em;
 }
-.social li:hover {background: #444; color: #fe57a1; }
+.social li:hover {background: #444; color: $pink; }
 
 .name { font-weight: 700; }
 html.js.not-ie .card { opacity: 0; }
