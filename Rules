@@ -35,16 +35,35 @@ compile '/js/*/' do
   filter :uglify_js
 end
 
-compile '/img/*/' do
-  filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
+compile '/(apple-touch*|favicon)' do
+# filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
 end
 
-compile '*' do
+compile '/img/*/' do
+# filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
+end
+
+compile '/' do
+  filter :haml
+  layout 'base'
+  filter :cache_buster
+  filter :relativize_paths, {:type => :html}
+end
+
+compile '/!/' do
+  filter :haml
+  layout '!'
+  layout 'base'
+  filter :cache_buster
+  filter :relativize_paths, {:type => :html}
+end
+
+compile '/!/*/*' do
   if item.binary?
-    case item[:extension]
-    when 'png'
-      filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
-    end
+#   case item[:extension]
+#   when 'png'
+#     filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
+#   end
     # Don’t filter other binary items
   else
     case item[:extension]
@@ -59,7 +78,8 @@ compile '*' do
       filter :erb
     end
     if %w(html haml md).include?(item[:extension])
-      layout 'default'
+      layout 'article'
+      layout 'base'
       filter :cache_buster
       filter :relativize_paths, {:type => :html}
     end
