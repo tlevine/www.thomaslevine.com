@@ -4,4 +4,4 @@
   #topics
 - sorted_articles.each do |item|
   .topic
-    = render(item)
+    = render('_blog_post_card', :item => item)

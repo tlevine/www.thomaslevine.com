@@ -27,6 +27,7 @@ unless defined? LOADED_DEFAULT_CONFIG
 
   # blogging
   include Nanoc::Helpers::Blogging
+  include Nanoc::StringExtensions
 
   # partials
   include Nanoc::Helpers::Rendering

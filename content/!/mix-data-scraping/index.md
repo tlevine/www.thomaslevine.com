@@ -1,6 +1,8 @@
-Microfinance Data Scraping
-====
-May 24, 2012
+---
+title: Microfinance Data Scraping
+kind: article
+created_at: 2012-05-24
+---
 
 I've been scraping some websites for the [Microfinance Information Exchange](http://themix.org),
 and [DataKind](http://datakind.org) just put up our
