@@ -52,6 +52,7 @@ end
 
 compile '/!/' do
   filter :haml
+  layout '!'
   layout 'base'
   filter :cache_buster
   filter :relativize_paths, {:type => :html}
@@ -78,6 +79,7 @@ compile '/!/*/*' do
     end
     if %w(html haml md).include?(item[:extension])
       layout 'article'
+      layout '!'
       layout 'base'
       filter :cache_buster
       filter :relativize_paths, {:type => :html}

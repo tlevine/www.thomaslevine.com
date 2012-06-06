@@ -1,13 +1,5 @@
-%header
-  %nav
-    %ul
-      %li htat
-      %li ✒
-
-#main{ :role => 'main' }
-
-  -# Blog posts
-  #topics
+-# Blog posts
+#topics
 - sorted_articles.each do |item|
   .topic
     = render('_blog_post_card', :item => item)
