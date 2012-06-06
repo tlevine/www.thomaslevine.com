@@ -52,7 +52,6 @@ end
 
 compile '/!/' do
   filter :haml
-  layout '!'
   layout 'base'
   filter :cache_buster
   filter :relativize_paths, {:type => :html}
