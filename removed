@@ -1,0 +1,12 @@
+# Things I removed
+
+    #semantic.topic
+      %h3 graph
+      %ul.nobullet
+        %li
+          %a{ :href => "foaf.rdf"} foaf
+        %li
+          %a{ :href => "cv.rdf"} cv
+        %li
+          %a{ :href => "thomaslevine.gpg"} gpg
+
