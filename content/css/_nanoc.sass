@@ -10,11 +10,11 @@ $calling-card-short: 6 * $square
 .box
   background: white
   margin:
-    top: $square
-    bottom: $square
+    top: 0.5 * $square
+    bottom: 0.5 * $square
     left: auto
     right: auto
-  padding: $square
+  padding: 0.5 * $square
   text-align: center
 
 // General stuff
@@ -60,7 +60,7 @@ header, footer, #main
   margin:
     left: auto
     right: auto
-  height: 2.5 * $square
+  height: 3 * $square
 
 a
   color: inherit
@@ -79,6 +79,7 @@ a
 // The calling card
 #contact
   @extend .box
+  padding: $square
 
   // Standard business card size
   width: $calling-card-short
@@ -141,34 +142,37 @@ article img, article iframe
   border: none
 
 @media screen and (min-width: 640px)
+  .box
+    text-align: left
+
+  #topics .box
+    margin:
+      left: 0.5 * $square
+      right: 0.5 * $square
+
   #contact
     width: $calling-card-long
     height: $calling-card-short
 
-  .social
-    width: 10em
-    height: 4em
-    float: left 
-  .social li
-    margin-left: 0
+    .words
+      width: 50%
+      float: left
+
+    .logo
+      width: 4 * $square
+      float: right
+
+    .social
+      float: left
+      margin-left: -0.25em
+      ul
+        width: 12em
+
   #topics
-    max-width: 12 * $square
-  
-  .box 
-    text-align: left
-
-  #words
-    float: left
-    display: none
-    @include lean
-    width: 50%
-
-  #contact .logo
-    float: right
-    width: auto
-    height: 100%
+    width: 15 * $square
     margin:
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
+      left: auto
+      right: auto
+  
+    .topic
+      float: left
