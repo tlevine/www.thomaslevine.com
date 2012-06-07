@@ -1,3 +1,7 @@
-%article
-  %h1 #{item[:title]}
-  .body=yield
+%header
+  = render '_nav_boxes'
+
+#main{ :role => 'main' }
+  %article
+    %h1 #{item[:title]}
+    .body=yield
