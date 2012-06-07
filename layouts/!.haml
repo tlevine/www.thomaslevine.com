@@ -1,15 +1,4 @@
 %header
-  %nav.nav-boxes
-    %ul
-      %li
-        .logo
-          %a{ :href => "/" }
-            %img{ :src => "/img/pink_hat_icon-200.png", :alt => "A photo of Tom" }
-      %li
-        .nav-char
-          %a{ :href => '/!/' }
-            ✒
-
-      %li.bar
+  = render '_nav_boxes'
 
 #main{ :role => 'main' }=yield
