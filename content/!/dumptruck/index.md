@@ -1,6 +1,8 @@
-ScraperWiki Offline!
-========
-May 23, 2012
+---
+title: Local ScraperWiki Library
+created_at: 2012-06-07
+kind: article
+---
 
 It rather annoying that you can only use the scraperwiki library
 on a ScraperWiki instance; most of it could work fine elsewhere.

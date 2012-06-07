@@ -1,7 +1,9 @@
-Burqua
-=====
-April 1, 2011
-Categories: shenanigans
+---
+title: Burqua
+created_at: 2011-04-01
+categories: shenanigans
+kind: article
+---
 
 I wear a burqua to drag parties.
 

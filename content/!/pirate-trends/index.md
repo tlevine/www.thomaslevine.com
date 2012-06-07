@@ -1,6 +1,6 @@
-Pirate Trends
-======
-Draft
+---
+title: Pirate Trends
+---
 
 <!-- With the digitization of content, the cost of its distribution... -->
 

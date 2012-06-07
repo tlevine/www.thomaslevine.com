@@ -1,6 +1,8 @@
-Installing Selenium
-===========
-April 24, 2012
+---
+title: Installing Selenium
+created_at: 2012-04-24
+kind: article
+---
 
 The Selenium Server documentation is unnecessarily painful;
 installing Selenium is not hard.

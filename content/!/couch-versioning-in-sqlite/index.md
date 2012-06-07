@@ -1,6 +1,6 @@
-Couch-style data versioning in sqlite
-========
-Draft
+---
+title: Couch-style data versioning in sqlite
+---
 
 How do we retrieve old versions of data conveniently and efficiently?
 

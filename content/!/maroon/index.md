@@ -1,6 +1,6 @@
-Maroon Application
-===============
-Draft
+---
+title: Maroon Application
+---
 
 This epitomizes my Tomness.
 

@@ -1,6 +1,6 @@
+---
 Measuring Skin Temperature
-===
-Draft
+---
 
 I want to measure my skin temperature because I want to see if I
 can use hand temperature as an indicator of musculoskeletal risk.

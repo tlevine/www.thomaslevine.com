@@ -1,6 +1,6 @@
-BeagleBone Power Supply
-=======
-Draft
+---
+title: BeagleBone Power Supply
+---
 
 I want to make a cluster of [BeagleBones](http://beagleboard.org/bone),
 so I was pondering how to power them. I wanted a unit that would provide

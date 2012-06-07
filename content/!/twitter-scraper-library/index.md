@@ -1,3 +1,9 @@
+---
+title: Twitter Scraper Library 
+created_at: 2012-05-04
+kind: article
+---
+
 I wanted to save the tweets from [Transparency Camp](tcamp).
 This prompted me to turn [Anna](annaps)'s [basic Twitter scraper](basic)
 into a [library](twitter_search). Here's how you use it.

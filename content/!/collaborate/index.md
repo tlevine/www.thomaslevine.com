@@ -1,6 +1,6 @@
-Frivolity
-============
-Draft
+---
+title: Frivolity
+---
 
 I seek opportunities to help people work less and think more.
 Here are a few ways that I tend to do that.

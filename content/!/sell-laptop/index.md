@@ -1,6 +1,6 @@
-Selling my Lenovo Y560 Laptop
-=========
-Draft
+---
+title: Selling my Lenovo Y560 Laptop
+---
 
 I am selling my Lenovo IdeaPad Y560 15.6” laptop. Here is a picture of it on my head.
 http://www.flickr.com/photos/curiousjohn/6141584419/in/faves-97777721@N00/
