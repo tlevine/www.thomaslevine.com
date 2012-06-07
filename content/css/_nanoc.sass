@@ -14,6 +14,10 @@
   text-align: center
 
 // General stuff
+p, h1, h2, h3, h4, h5
+  font: inherit
+  @include lean
+
 body
   background: #444
   color: $pink
@@ -24,16 +28,28 @@ body
   width: 100%
   height: 100%
 
-p, h1, h2, h3, h4, h5
-  font: inherit
-  @include lean
-
 h1, h2, h3, h4, h5
   font-weight: bold
 
 nav ul, nav ol, ul.nobullet, ol.nobullet
   @include lean
   list-style-type: none
+
+nav li
+  @extend .box
+  float: left
+  width: 1 * $square
+  height: 1 * $square
+  padding: 0.5 * $square
+  margin: 0.5 * $square
+
+//nav li.bar
+//  width: 8 * $square
+//  margin-right: auto
+
+header, footer, #main
+  width: 100%
+  float: left
 
 a
   color: inherit
@@ -87,3 +103,9 @@ a
   @extend .box
   width: 3 * $square
   height: 3 * $square
+
+// Navigation icons
+.nav-char
+  font-size: 450%
+  text-align: center
+  line-height: 50%
