@@ -1,8 +1,8 @@
 ---
 title: Prevalence of Middle Names
+created_at: 2012-06-07
+kind: article
 ---
-
-Draft
 
 I was wondering what proportion of people have middle names, so I asked the Census.
 
