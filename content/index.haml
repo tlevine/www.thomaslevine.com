@@ -50,11 +50,15 @@
 
     #scraping.topic
       %h2 data
-      %ul.nobullet
+      %ul
         %li
           %a{ :href => "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"} tahrir supplies
         %li
           %a{ :href => "http://bettercoa.ch"} bettercoa.ch
+        %li
+          %a microfinance
+        %li
+          %a wetlands
 
     #libraries.topic
       %h2 libraries
@@ -117,8 +121,8 @@
         %li
           %a{ :href => "http://smug.thomaslevine.com/Typography/Doodles"} more
  
-    #trolling.topic
-      = render('_topic_box', :topic => 'things', :links => [['definition', ''], ['jello wrestling', ''], ['drag parties', '']])
+    #trolls.topic
+      = render('_topic_box', :topic => 'trolls', :links => [['definition', ''], ['jello wrestling', ''], ['drag parties', '']])
 
     #things.topic
       = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
