@@ -10,4 +10,4 @@ and [DataKind](http://datakind.org) just put up our
 
 And here's the map of the data.
 
-<iframe src="http://southafrica.mixmarket.org/" width="640" height="480"></iframe>
+<iframe src="http://southafrica.mixmarket.org/" width="640" height="480" class="figure"></iframe>
