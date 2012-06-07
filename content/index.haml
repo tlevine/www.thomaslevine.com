@@ -37,7 +37,7 @@
 #main{ :role => 'main' }
   #topics.clearfix
     #repositories.topic
-      %h3 repositories
+      %h2 repositories
       %ul.nobullet
         %li
           %a{ :href => "https://scraperwiki.com/profiles/tlevine"} scraperwiki
@@ -49,7 +49,7 @@
           %a{ :href => "https://gitorious.org/tlevine"} gitorious
 
     #scraping.topic
-      %h3 data
+      %h2 data
       %ul.nobullet
         %li
           %a{ :href => "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"} tahrir supplies
@@ -57,7 +57,7 @@
           %a{ :href => "http://bettercoa.ch"} bettercoa.ch
 
     #libraries.topic
-      %h3 libraries
+      %h2 libraries
       %ul.nobullet
         %li
           %a{ :href => "http://dumptruck.io/"} dumptruck
@@ -69,7 +69,7 @@
           %a{ :href => "https://github.com/tlevine/dicti"} dicti
  
     #ergonomics.topic
-      %h3
+      %h2
         %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Definitions-of-ergonomics%22%5D", :title => "Definition of &quot;ergonomics&quot;"} ergonomics
       %ul.nobullet
         %li
@@ -83,7 +83,7 @@
  
  
     #letterpress.topic
-      %h3 letterpress
+      %h2 letterpress
       %ul.nobullet
         %li
           %a{ :href => "http://smug.thomaslevine.com/Letterpress/Large-media/Nude-Jello-Wrestling/15368415_RnjWVr#!i=1130468970&k=a8288&lb=1&s=A"} wrestling
@@ -95,7 +95,7 @@
         %li
           %a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Risley-40th-anniversary/14742719_WnJwH6#!i=1098630977&k=yq9yN&lb=1&s=A"} tea party
     #installations.topic
-      %h3 installations
+      %h2 installations
       %ul.nobullet
         %li
           %a{ :href => "http://smug.thomaslevine.com/Installations/pbdq/13233432_pnjHDC#!i=1317336922&k=GjzWXK6&lb=1&s=A"} pb dq
@@ -106,7 +106,7 @@
         %li
           %a{ :href => "http://smug.thomaslevine.com/Installations/Masquerave-2010/14225818_83md3v#!i=1077318594&k=u5YzK"} fire safety
     #doodles.topic
-      %h3 doodles
+      %h2 doodles
       %ul.nobullet
         %li
           %a{ :href => "http://www.youtube.com/watch?v=rLZDvXPIDa0"} christmas
@@ -118,18 +118,13 @@
           %a{ :href => "http://smug.thomaslevine.com/Typography/Doodles"} more
  
     #trolling.topic
-      %h3
-        %a{ :href => "", :title => "Definition of &quot;trolling&quot;"} trolling
-      %ul.nobullet
-        %li
-          %a{ :href => ""} jello wrestling
-        %li
-          %a{ :href => ""} drag parties
+      = render('_topic_box', :topic => 'things', :links => [['definition', ''], ['jello wrestling', ''], ['drag parties', '']])
 
-    .topic
+    #things.topic
+      = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
 
     #etc.topic
-      %h3 &amp;c.
+      %h2 &amp;c.
       %ul.nobullet
         -#%li
           -#%a{ :href => "/!/collaborate.md"} collaborate
