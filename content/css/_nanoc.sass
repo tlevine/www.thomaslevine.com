@@ -48,8 +48,15 @@ nav li
 //  margin-right: auto
 
 header, footer, #main
+  @include lean
   width: 100%
-  float: left
+
+.nav-boxes
+  width: 9 * $square
+  margin:
+    left: auto
+    right: auto
+  height: 3 * $square
 
 a
   color: inherit
