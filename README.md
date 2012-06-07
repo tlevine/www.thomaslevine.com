@@ -48,3 +48,15 @@ Public domain
 - CSS fingerprinting doesn't seem to work...
 - Improve dependency tracking for cache busting
 - Option to turn on/off minification
+
+# Things I removed
+
+    #semantic.topic
+      %h3 graph
+      %ul.nobullet
+        %li
+          %a{ :href => "foaf.rdf"} foaf
+        %li
+          %a{ :href => "cv.rdf"} cv
+        %li
+          %a{ :href => "thomaslevine.gpg"} gpg

@@ -35,7 +35,7 @@
         %img{ :src => "/img/pink_hat_icon-200.png", :alt => "A photo of Tom" }
 
 #main{ :role => 'main' }
-  #topics
+  #topics.clearfix
     #repositories.topic
       %h3 repositories
       %ul.nobullet
@@ -47,22 +47,15 @@
           %a{ :href => "https://bitbucket.org/tlevine"} bitbucket
         %li
           %a{ :href => "https://gitorious.org/tlevine"} gitorious
-    #feed.topic
-      %h3 feed
-      %ul.nobullet
-        %li
-          %a{ :href => "!"} html
-        %li
-          %a{ :href => "!/rss1"} rss1
-        %li
-          %a{ :href => "!/rss2"} rss2
+
     #scraping.topic
-      %h3 scraping
+      %h3 data
       %ul.nobullet
         %li
           %a{ :href => "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"} tahrir supplies
         %li
           %a{ :href => "http://bettercoa.ch"} bettercoa.ch
+
     #libraries.topic
       %h3 libraries
       %ul.nobullet
@@ -123,6 +116,18 @@
           %a{ :href => "http://smug.thomaslevine.com/Typography/Risquirer/risquirer-20100504/12846614_ZbL7xv#!i=932454990&k=r7xgo&lb=1&s=A"} risquirer
         %li
           %a{ :href => "http://smug.thomaslevine.com/Typography/Doodles"} more
+ 
+    #trolling.topic
+      %h3
+        %a{ :href => "", :title => "Definition of &quot;trolling&quot;"} trolling
+      %ul.nobullet
+        %li
+          %a{ :href => ""} jello wrestling
+        %li
+          %a{ :href => ""} drag parties
+
+    .topic
+
     #etc.topic
       %h3 &amp;c.
       %ul.nobullet
@@ -134,22 +139,3 @@
           %a{ :href => "http://pinterest.com/perluette/earthmoving-equipment/"} earthmoving
         %li
           %a{ :href => "/secrets"} secrets
- 
-    #trolling.topic
-      %h3
-        %a{ :href => "", :title => "Definition of &quot;trolling&quot;"} trolling
-      %ul.nobullet
-        %li
-          %a{ :href => ""} jello wrestling
-        %li
-          %a{ :href => ""} drag parties
- 
-    #semantic.topic
-      %h3 graph
-      %ul.nobullet
-        %li
-          %a{ :href => "foaf.rdf"} foaf
-        %li
-          %a{ :href => "cv.rdf"} cv
-        %li
-          %a{ :href => "thomaslevine.gpg"} gpg
