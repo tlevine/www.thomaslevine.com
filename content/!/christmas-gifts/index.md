@@ -13,7 +13,6 @@ I decided that I'd make my own.
   width="560" height="315"
   src="http://www.youtube.com/embed/rLZDvXPIDa0"
   frameborder="0" allowfullscreen
-  class="figure"
 ></iframe>
 
 I used R to [generate a PDF](http://gitorious.org/tlevine/12daysplot/blobs/master/12daysslideshow.R)
