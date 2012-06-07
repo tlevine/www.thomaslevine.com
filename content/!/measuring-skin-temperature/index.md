@@ -1,5 +1,5 @@
 ---
-Measuring Skin Temperature
+title: Measuring Skin Temperature
 ---
 
 I want to measure my skin temperature because I want to see if I
