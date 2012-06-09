@@ -1,6 +1,7 @@
 // Parameters
 $calling-card-long: 12 * $square
 $calling-card-short: 6 * $square
+$topic-card-width: 4
 
 // Mixins and extends
 @mixin lean
@@ -46,22 +47,26 @@ header, footer, #main
 span.home-char
   display: none
 
+$nav-card-gap: 0.65
+$nav-width: $topic-card-width + $nav-card-gap
+$nav-card-width: ($topic-card-width - $nav-card-gap) / 2
+
 nav
   display: block
-  width: 5.5 * $square
+  width: $nav-width * $square
   margin:
     left: auto
     right: auto
-  height: 2.75 * $square
+  height: ( $nav-card-width + 0.5 ) * $square
 
   // Navigation icons
   li.nav-char
     @extend .box
     float: left
-    width: 1.95 * $square
-    height: 1.95 * $square
+    width: $nav-card-width * $square
+    height: $nav-card-width * $square
     padding: 0
-    margin: 0.4 * $square
+    margin: $nav-card-gap/2 * $square
 
     font-size: 350%
     line-height: 135%
@@ -119,8 +124,8 @@ a
 // The small boxes
 .topic
   @extend .box
-  width: 3 * $square
-  height: 3 * $square
+  width: ($topic-card-width - 1) * $square
+  height: ($topic-card-width - 1) * $square
   ul
     @extend ul.nobullet
 
