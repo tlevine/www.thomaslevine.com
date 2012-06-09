@@ -29,6 +29,9 @@ unless defined? LOADED_DEFAULT_CONFIG
   include Nanoc::Helpers::Blogging
   include Nanoc::StringExtensions
 
+  # syntax highlighting
+  require 'nanoc/filters/colorize_syntax'
+
   # partials
   include Nanoc::Helpers::Rendering
 

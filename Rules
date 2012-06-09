@@ -79,6 +79,7 @@ compile '/!/*/*' do
     if %w(html haml md).include?(item[:extension])
       layout 'article'
       layout 'base'
+#     filter :colorize_syntax
       filter :cache_buster
       filter :relativize_paths, {:type => :html}
     end
