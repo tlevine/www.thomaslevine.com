@@ -15,7 +15,6 @@ $calling-card-short: 6 * $square
     left: auto
     right: auto
   padding: 0.5 * $square
-  text-align: center
 
 // General stuff
 p, h1, h2, h3, h4, h5
@@ -39,29 +38,33 @@ nav ul, nav ol, ul.nobullet, ol.nobullet
   @include lean
   list-style-type: none
 
-nav li
-  @extend .box
-  float: left
-  width: 1 * $square
-  height: 1 * $square
-  padding: 0.5 * $square
-  margin: 0.5 * $square
-
-//nav li.bar
-//  width: 8 * $square
-//  margin-right: auto
-
 header, footer, #main
   @include lean
   width: 100%
 
-.nav-boxes
+span.home-char
+  display: none
+
+nav
   display: block
-  width: 9 * $square
+  width: 5.5 * $square
   margin:
     left: auto
     right: auto
-  height: 3 * $square
+  height: 2.75 * $square
+
+  // Navigation icons
+  li.nav-char
+    @extend .box
+    float: left
+    width: 1.95 * $square
+    height: 1.95 * $square
+    padding: 0
+    margin: 0.4 * $square
+
+    font-size: 350%
+    line-height: 135%
+    text-align: center
 
 a
   color: inherit
@@ -120,12 +123,6 @@ a
   ul
     @extend ul.nobullet
 
-// Navigation icons
-.nav-char
-  font-size: 450%
-  text-align: center
-  line-height: 50%
-
 // A blog post
 article
   @extend .box
@@ -164,7 +161,7 @@ article
     border: none
 
 @media screen and (min-width: 640px)
-  .box
+  #contact .box, #topics .box
     text-align: left
 
   #contact
