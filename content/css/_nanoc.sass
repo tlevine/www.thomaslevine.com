@@ -35,16 +35,6 @@ body
 h1, h2, h3, h4, h5
   font-weight: bold
 
-pre
-  background-color: #EEE
-  color: #111
-  font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace
-  border: 1px solid #CCC
-  margin:
-    top: 0.5em
-    bottom: 0.5em
-  padding: 0.5em
-
 nav ul, nav ol, ul.nobullet, ol.nobullet
   @include lean
   list-style-type: none
@@ -82,6 +72,7 @@ a
     color: #000
     text-decoration: inherit
   &:focus
+    color: inherit
     outline: thin dotted
 
 .logo, .logo *
@@ -145,14 +136,32 @@ article
     right: auto
   text-align: left
 
-article img, article iframe
-  width: 100%
-  margin:
-    top: 1.5em
-    bottom: 1.5em
-    left: auto
-    right: auto
-  border: none
+  pre
+    background-color: lighten($pink, 30%)
+    color: #333
+    font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace
+    border: 1px solid desaturate(lighten($pink, 20%), 30%)
+    margin:
+      top: 0.5em
+      bottom: 0.5em
+    padding: 0.5em
+
+  p
+    margin-bottom: 0.75em
+    color: #333
+
+  a, a:visited
+    text-decoration: underline
+    color: $pink
+
+  img, iframe
+    width: 100%
+    margin:
+      top: 1.5em
+      bottom: 1.5em
+      left: auto
+      right: auto
+    border: none
 
 @media screen and (min-width: 640px)
   .box
