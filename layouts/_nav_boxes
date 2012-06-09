@@ -1,13 +1,14 @@
 %nav.nav-boxes
   %ul
-    %li
-      .logo
-        %a{ :href => "/" }
-          %img{ :src => "/img/pink_hat_icon-200.png", :alt => "A photo of Tom" }
-    %li
-      .nav-char
-        %a{ :href => '/!/' }
-          ✒
+    %a{ :href => "/" }
+      %li.nav-char
+        t
+    %a{ :href => '/!/' }
+      %li.nav-char
+        k
+    %a{ :href => "/!/about" }
+      %li.nav-char.bar
+        l
 
-    %li.bar
-
+-#Interesting characters
+-# ✒ ? &
