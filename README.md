@@ -5,4 +5,4 @@
 * Style the articles.
 + Decide on the navigation bar icons.
 * Make the ! index article boxes more interesting
-* Remove in-contact-card / links
++ Remove in-contact-card / links
