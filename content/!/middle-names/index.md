@@ -79,7 +79,8 @@ that people under-report rather than over-report.
 
 I was somewhat surprised that reported middle name prevalance varied so much
 over time but so relatively little by state. I suspect that most of the
-increase over time is explained by improved of office procedures, but I
-wonder what explains derivative valleys around 1955 and 1990.
-But the death file provides a lot more data than I've shown you here, so
-check with me in a few weeks to see what I come up with.
+increase over time is explained by improvement of office procedures, but I
+wonder what explains slower increases around 1955 and 1990.
+
+The death file provides a lot more data than I've shown you here, so
+check with me in a couple months to see what else I come up with.
