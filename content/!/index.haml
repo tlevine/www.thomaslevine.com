@@ -1,9 +1,9 @@
-%header
+%header.clearfix
   = render '_nav_boxes'
 
 #main{ :role => 'main' }
   -# Blog posts
-  #topics
+  #topics.clearfix
     - sorted_articles.each do |item|
       .topic
         = render('_blog_post_card', :item => item)

@@ -1,4 +1,4 @@
-%nav.nav-boxes
+%nav
   %ul
     %a{ :href => "/" }
       %li.nav-char
