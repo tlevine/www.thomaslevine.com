@@ -6,7 +6,7 @@ kind: article
 
 I was wondering what proportion of people have middle names, so I asked the Census.
 
-	Recently you requested personal assistance from our on-line support=20
+	Recently you requested personal assistance from our on-line support
 	center. Below is a summary of your request and our response.
 
 	We will assume your issue has been resolved if we do not hear from you
@@ -14,7 +14,7 @@ I was wondering what proportion of people have middle names, so I asked the Cens
 
 	Thank you for allowing us to be of service to you.
 
-	To access your question from our support site, click the following=20
+	To access your question from our support site, click the following
 	link or paste it into your web browser.
 	https://ask.census.gov/app/account/questions/detail/i_id/186591
 
@@ -27,8 +27,8 @@ I was wondering what proportion of people have middle names, so I asked the Cens
 	Discussion Thread
 	---------------------------------------------------------------
 	Response Via Email(CLMSO - EMM) - 03/14/2011 16:04
-	Thank you for using the US Census Bureau's Question and Answer Center. Un=
-	fortunately, the subject you asked about is not one for which the Census =
+	Thank you for using the US Census Bureau's Question and Answer Center. Un-
+	fortunately, the subject you asked about is not one for which the Census
 	Bureau collects data. We are sorry we were not able to assist you.
 
 
@@ -39,7 +39,7 @@ I was wondering what proportion of people have middle names, so I asked the Cens
 	     Date Created: 03/14/2011 15:29
 	     Last Updated: 03/14/2011 16:04
 		   Status: Pending Closure
-		       Cc:=20
+		       Cc:
 
 Since they didn't know, I looked at students at a university. Cornell University
 email addresses can contain two or three letters, depending on whether the Cornellian
