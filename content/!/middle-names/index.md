@@ -73,9 +73,9 @@ and came up with some more plots.
   ](us_middle_names_over_time.png)
 ](us_middle_names_over_time_by_state.pdf)
 
-The rate of middle names these days is about 90%, which is a lot more
-than the Cornell University student figures; this supports my suspicion
-that people under-report rather than over-report.
+The rate of middle names for dead people born[^birth] these days is about 90%,
+which is a lot more than the Cornell University student figures; this
+supports my suspicion that people under-report rather than over-report.
 
 I was somewhat surprised that reported middle name prevalance varied so much
 over time but so relatively little by state. I suspect that most of the
@@ -84,3 +84,6 @@ wonder what explains slower increases around 1955 and 1990.
 
 The death file provides a lot more data than I've shown you here, so
 check with me in a couple months to see what else I come up with.
+
+[^birth]: The "birth year" might actually be year of Social Security
+    registration; I haven't yet figured out which one it is.
