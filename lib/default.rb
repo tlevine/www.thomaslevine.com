@@ -26,7 +26,7 @@ unless defined? LOADED_DEFAULT_CONFIG
   require 'nanoc/filters/javascript_concatenator'
 
   # coffescript
-  require 'nanoc/filters/coffeescript'
+  # require 'nanoc/filters/coffeescript'
 
   # blogging
   include Nanoc::Helpers::Blogging
