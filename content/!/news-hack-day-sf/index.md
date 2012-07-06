@@ -93,16 +93,24 @@ Considering Needlebase's name, my wisdom led me "Haystack". And Randall
 hipstamatized this by turning it into "Haystacks" and replacing "stacks"
 with "stax". So "Haystax".
 
-## Projects
+## Data Projects
+
+Since this is a "data" blog, let's talk about the weekend's "data" projects.
 
 That group that had huddled in the corner on Friday huddled in a different
-corner over the weekend. On Sunday, they unveiled their creation.
+corner over the weekend. On Sunday, they unveiled their creation, On the Record.
 
 << More here >>
 
-The ScraperWiki prize went to [Haystax](http://haystaxdata.org).
+It shows lets you search quotes from news articles by person over time.
+
+[Haystax](http://haystaxdata.org) created enough functionality to scrape one
+of the test case sites identified by Reporters Lab. And for this, they won
+the ScraperWiki prize.
 
 ## More
 
-And then I left San Francisco the following Monday night for Liverpool, which is where
-I am right now. Quite hilariously, this is the first time I've ever been here.
+After all this craziness, I left San Francisco the following Monday night
+for ScraperWiki's Liverpool office, which is where I am right now. Quite
+hilariously, this is the first time I've ever been to the office or anywhere
+in England.
