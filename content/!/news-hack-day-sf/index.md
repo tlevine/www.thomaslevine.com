@@ -4,8 +4,11 @@ created_at: 2012-06-02
 kind: article
 ---
 
-Indulge me as I brag about what I did two weekends ago at
-[News Hack Day SF](http://newshackdaysf.tumblr.com).
+Blogging about [News Hack Day SF](http://newshackdaysf.tumblr.com)
+[http://www.civicplayground.com/2012/06/25/we-liberated-the-data-at-newshack/](so)
+[http://allthingsd.com/20120626/it-may-not-be-televised-but-the-journalism-revolution-will-be-hacked/](last)
+[http://newshackdaysf.tumblr.com/post/25857744845/thank-you-newshack-day-wraps-up](week),
+but indulge me nonetheless as I brag about what I did two weekends ago.
 
 ## Before the weekend
 
@@ -21,10 +24,10 @@ Look at their authentic retro wifi.
 
 << image >>
 
-And the waitresses take orders on iPads.
+It's so retro that the waitresses take orders on iPads.
 It's like they had to go over-the-top with the dinerness in order that the
 internet access and iPads would be acceptable.
-And the food was quite awesome.
+Oh yeah and the food was quite awesome.
 
 I stayed the rest of the nights at the StartupHouse. That was rather crazy as well
 (in a different sense than the converted warehouse sense).
@@ -37,8 +40,9 @@ We had our scraping tutorial on Friday morning. The turnout was pretty good.
 If you are jealous about your non-attendance, you can take a look at the
 [video](foo) and the [slides](slides).
 
-We had a rather tasty lunch after the tutorial, then we broke into eight groups,
-nominally to work on particular projects, but more to fiddle around and hang out.
+Sam Lippman and Tim West made us some rather tasty lunch after the tutorial,
+then we broke into eight groups, nominally to work on particular projects,
+but more to fiddle around and hang out.
 
 Michael, Michael, John and I hovered around helping various groups.
 I helped a bunch of journalists with more elementary programming things,
@@ -68,20 +72,21 @@ that and making cool things.
 People always ask me how to save tweets, so I also showed off the function
 that I discussed in an earlier post.
 
-Oh and Tim West made more awesome food all weekend long. Look at our hipster
-Sunday breakfast.
+Tim West made more awesome food all weekend long. Look at our Sunday breakfast.
 
 [![https://p.twimg.com/AwKriuTCIAEB6Me.jpg](fawaffle)](http://t.co/FAiD8oIL)
 
-I'm, of course, most proud of my contribution to a group that was developing a graphical
-web-scraper tool. I helped the group plan what they would make, and it became clear
-through the conversation that they wanted a Needlebase clone (because Needlebase is gone
-now). After we figured out the easier parts--what we want in general, what to do first,
-how to do it, &c., we arrived at a much more difficult challenge: Naming it. Fortunately,
-suggested "Haystack", and Randall came up with the hipstastic adjustment "Haystax".
+I even got to tackle one of the hardest problems in Computer Science. As I was
+working with one group, it became clear that the group wanted to make a clone
+of Needlebase. We had figured out the easier parts--what we want in general,
+what to do first, how to do it, &c. But what would we name it?
 
 >  "There are only two hard problems in Computer Science: cache invalidation and naming things."
 >  Phil Karlton
+
+Considering Needlebase's name, my wisdom led me "Haystack". And Randall
+hipstamatized this by turning it into "Haystacks" and replacing "stacks"
+with "stax". So "Haystax".
 
 ## More
 
