@@ -15,8 +15,13 @@ but indulge me nonetheless as I brag about what I did two weekends ago.
 I arrived in San Francisco on Tuesday and stayed with a friend in his
 crazy warehouse in Oakland until Thursday, attending a nerdy talk every night.
 
-On Thursday, Brittney and I prepared some things for the Friday at the Chronicle.
-We had lunch at a hilarious diner.
+Michael Coren had some people (including me) contribute to this
+[resource list](http://newshackdays.pbworks.com/w/page/53777325/FrontPage)
+that in advance of the weekend. I don't know how much people used it during
+the weekend, but it might be rather useful in itself going forward.
+
+On Thursday Brittney and I prepared some things for the Friday at the Chronicle.
+Then we had lunch at a hilarious diner.
 
 << image >>
 
@@ -88,14 +93,16 @@ Considering Needlebase's name, my wisdom led me "Haystack". And Randall
 hipstamatized this by turning it into "Haystacks" and replacing "stacks"
 with "stax". So "Haystax".
 
+## Projects
+
+That group that had huddled in the corner on Friday huddled in a different
+corner over the weekend. On Sunday, they unveiled their creation.
+
+<< More here >>
+
+The ScraperWiki prize went to [Haystax](http://haystaxdata.org).
+
 ## More
 
-http://newshackdaysf.tumblr.com/
-
-I was quite impressed by the
-[resource list](http://newshackdays.pbworks.com/w/page/53777325/FrontPage)
-that we developed in advance of the weekend; I think it'll be rather useful in
-itself.
-
-I left San Francisco the following Monday night for Liverpool, which is where
+And then I left San Francisco the following Monday night for Liverpool, which is where
 I am right now. Quite hilariously, this is the first time I've ever been here.
