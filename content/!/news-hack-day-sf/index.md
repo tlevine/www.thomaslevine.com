@@ -5,20 +5,15 @@ kind: article
 ---
 
 Blogging about [News Hack Day SF](http://newshackdaysf.tumblr.com)
-[http://www.civicplayground.com/2012/06/25/we-liberated-the-data-at-newshack/](so)
-[http://allthingsd.com/20120626/it-may-not-be-televised-but-the-journalism-revolution-will-be-hacked/](last)
-[http://newshackdaysf.tumblr.com/post/25857744845/thank-you-newshack-day-wraps-up](week),
+[so](http://www.civicplayground.com/2012/06/25/we-liberated-the-data-at-newshack/)
+[last](http://allthingsd.com/20120626/it-may-not-be-televised-but-the-journalism-revolution-will-be-hacked/)
+[week](http://newshackdaysf.tumblr.com/post/25857744845/thank-you-newshack-day-wraps-up),
 but indulge me nonetheless as I brag about what I did two weekends ago.
 
 ## Before the weekend
 
 I arrived in San Francisco on Tuesday and stayed with a friend in his
 crazy warehouse in Oakland until Thursday, attending a nerdy talk every night.
-
-Michael Coren had some people (including me) contribute to this
-[resource list](http://newshackdays.pbworks.com/w/page/53777325/FrontPage)
-that in advance of the weekend. I don't know how much people used it during
-the weekend, but it might be rather useful in itself going forward.
 
 On Thursday Brittney and I prepared some things for the Friday at the Chronicle.
 Then we had lunch at a hilarious diner.
