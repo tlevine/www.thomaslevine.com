@@ -17,13 +17,9 @@ I arrived in San Francisco on Tuesday and stayed with a friend in his
 crazy warehouse in Oakland until Thursday, attending a nerdy talk every night.
 
 On Thursday Brittney and I prepared some things for the Friday at the Chronicle.
-Then we had lunch at a hilarious diner.
+Then we had lunch at a hilarious diner. Look at their authentic retro wifi!
 
-<< image >>
-
-Look at their authentic retro wifi!
-
-<< image >>
+![]()
 
 It's so retro that the waitresses take orders on iPads!
 It's like they had to go over-the-top with the dinerness in order that the
@@ -64,7 +60,7 @@ They continued working on this over the rest of the weekend.
 
 ## Weekend
 
-Through the weekend, Michael, Michael, John and I continued hovered around
+Through the weekend, Michael, Michael, John and I continued hovering around
 helping various groups.
 
 I wound up mostly helping people with some elementary programming and web
@@ -92,19 +88,19 @@ with "stax". So "Haystax".
 
 ## Data Projects
 
-Since this is a "data" blog, let's talk about the weekend's "data" projects.
+Since ScraperWiki does stuff with "data", let's talk about the weekend's "data" projects.
 
 That group that had huddled in the corner on Friday huddled in a different
 corner over the weekend. On Sunday, they unveiled their creation,
 [On the Record](https://github.com/alexredstone/on-the-record).
-
-<< More here >>
-
 It shows lets you search quotes from news articles by person over time.
 
 [Haystax](http://haystaxdata.org) created enough functionality to scrape one
 of the test case sites identified by Reporters Lab. And for this, they won
 the ScraperWiki prize.
+
+And if there had been a 404 page prize [Bird Dog](http://birddogit.herokuapp.com)
+would have [won](http://birddogit.herokuapp.com/404.html).
 
 ## More
 
