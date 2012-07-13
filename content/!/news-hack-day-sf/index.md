@@ -6,9 +6,10 @@ kind: article
 
 Blogging about [News Hack Day SF](http://newshackdaysf.tumblr.com)
 [so](http://www.civicplayground.com/2012/06/25/we-liberated-the-data-at-newshack/)
-[last](http://allthingsd.com/20120626/it-may-not-be-televised-but-the-journalism-revolution-will-be-hacked/)
-[week](http://newshackdaysf.tumblr.com/post/25857744845/thank-you-newshack-day-wraps-up),
-but indulge me nonetheless as I brag about what I did two weekends ago.
+[three](http://allthingsd.com/20120626/it-may-not-be-televised-but-the-journalism-revolution-will-be-hacked/)
+[weeks](http://newshackdaysf.tumblr.com/post/25857744845/thank-you-newshack-day-wraps-up)
+[ago](http://kiranb.scripts.mit.edu/blog/?p=359),
+but indulge me nonetheless as I brag about what I did four weekends ago.
 
 ## Before the weekend
 
@@ -20,14 +21,14 @@ Then we had lunch at a hilarious diner.
 
 << image >>
 
-Look at their authentic retro wifi.
+Look at their authentic retro wifi!
 
 << image >>
 
-It's so retro that the waitresses take orders on iPads.
+It's so retro that the waitresses take orders on iPads!
 It's like they had to go over-the-top with the dinerness in order that the
 internet access and iPads would be acceptable.
-Oh yeah and the food was quite awesome.
+Oh and the food was quite awesome.
 
 I stayed the rest of the nights at the StartupHouse. That was rather crazy as well
 (in a different sense than the converted warehouse sense).
@@ -38,13 +39,14 @@ We had our scraping tutorial on Friday morning. The turnout was pretty good.
 ![Picture](aoeu)
 
 If you are jealous about your non-attendance, you can take a look at the
-[video](foo) and the [slides](slides).
+[video](foo) and the [slides](http://scraperwiki.thomaslevine.com).
 
 Sam Lippman and Tim West made us some rather tasty lunch after the tutorial,
 then we broke into eight groups, nominally to work on particular projects,
-but more to fiddle around and hang out.
+but really to fiddle around with computers and hang out.
 
-Michael, Michael, John and I hovered around helping various groups.
+[Michael](http://www.majorplanetstudios.org), [Michael](http://www.mikejcorey.com),
+John and [I](http://thomaslevine.com) hovered around helping various groups.
 I helped a bunch of journalists with more elementary programming things,
 but I also helped some people who had particular projects in mind.
 
@@ -93,7 +95,8 @@ with "stax". So "Haystax".
 Since this is a "data" blog, let's talk about the weekend's "data" projects.
 
 That group that had huddled in the corner on Friday huddled in a different
-corner over the weekend. On Sunday, they unveiled their creation, On the Record.
+corner over the weekend. On Sunday, they unveiled their creation,
+[On the Record](https://github.com/alexredstone/on-the-record).
 
 << More here >>
 
