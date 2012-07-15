@@ -12,6 +12,7 @@ Here is most of the hardware.
 * I have three small virtual private servers hosted at Prometeus.
     Call these watermelon, honeydew and mango.
 * A bunch of websites and backups are stored on Amason S3.
+* Dynamic websites get hosted on NearlyFreeSpeech.net if possible.
 * Incremental backups of private things go to Tarsnap.
 * I access all of these through a dumb terminal, typically my Chromebook.
 
