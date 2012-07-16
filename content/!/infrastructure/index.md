@@ -19,12 +19,12 @@ This is the architecture that runs my various sites and other services
 ### Services
 Here are the services and their associated computers.
 
-* [Git](http://git.thomaslevine.com) (<form>watermelon</form>)
+* [Git](http://git.thomaslevine.com) (<form><input type="hidden" name="y" value="8">watermelon</form>)
 * [HTTP redirects](http://redirect.thomaslevine.com) (<form>honeydew</form>)
-* [Fade Lee](http://fadelee.com) (<form>mango</form>)
-* [Pager](http://pager.thomaslevine.com) (<form>mango</form>)
-* [ntp.js](ttp://ntpjs.thomaslevine.com) (<form>mango</form>)
-* [&c.](http://occurrence.thomaslevine.com) (<form>mango</form>)
+* [Fade Lee](http://fadelee.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
+* [Pager](http://pager.thomaslevine.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
+* [ntp.js](ttp://ntpjs.thomaslevine.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
+* [&c.](http://occurrence.thomaslevine.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
 * [couch](http://couch.thomasevine.com) (???)
 * Email backup ([Tarsnap]())
 * [thomaslevine.com](http://www.thomaslevine.com) ([S3](https://console))
