@@ -3,7 +3,7 @@ title: Selling my Lenovo Y560 Laptop
 ---
 
 I am selling my Lenovo IdeaPad Y560 15.6” laptop. Here is a picture of it on my head.
-![](http://www.flickr.com/photos/curiousjohn/6141584419/in/faves-97777721@N00/)
+http://www.flickr.com/photos/curiousjohn/6141584419/in/faves-97777721@N00/
 
 I purchased it two years ago from Newegg.
 http://www.newegg.com/Product/Product.aspx?Item=N82E16834146777
@@ -14,7 +14,7 @@ https://twitter.com/thomaslevine/status/226749660876906496
 
 I’ve wiped the hard drive and can install Windows 7 Home (It came with the computer.) or any reasonable GNU/Linux distribution on it.
 
-It has two significants problem.
+It has two significants problems.
 
 One problem is a line of dead pixels down the center of the screen. (It's pretty exactly in the center--maybe two millimeters off.) They died about a year ago. They haven't been a problem for me because I normally have two windows open, one on each side of the screen, but they might be a problem for you.
 
@@ -23,10 +23,10 @@ The other problem is that you can't use it on a shaggy carpet or else it'll turn
 Now some more pictures!
 
 Here it is on my desk.
-< on my desk >
+http://smug.thomaslevine.com/Dump/Lenovo-Y560/i-TpVHvkk/0/M/IMG7207-M.jpg
 
 There a scratch on the down-arrow key.
-< down-arrow key >
+http://smug.thomaslevine.com/Dump/Lenovo-Y560/i-D7Z7Bx3/0/M/IMG7205-M.jpg
 
 Newegg has a nice diagram of the size.
 http://images17.newegg.com/is/image/newegg/34-146-777-Z08?$S640W$
