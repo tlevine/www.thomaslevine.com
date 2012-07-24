@@ -14,7 +14,7 @@ https://twitter.com/thomaslevine/status/226749660876906496
 
 I’ve wiped the hard drive and can install Windows 7 Home (It came with the computer.) or any reasonable GNU/Linux distribution on it.
 
-It has two significants problems.
+It has two significant problems.
 
 One problem is a line of dead pixels down the center of the screen. (It's pretty exactly in the center--maybe two millimeters off.) They died about a year ago. They haven't been a problem for me because I normally have two windows open, one on each side of the screen, but they might be a problem for you.
 
