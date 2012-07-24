@@ -1,5 +1,5 @@
 ---
-title: Selling my Lenovo Y560 Laptop
+title: Lenovo Y560 i7 1.60GHz 15.6" 4GB RAM 500GB HDD 5400rpm DVD±R/RW
 ---
 
 I am selling my Lenovo IdeaPad Y560 15.6” laptop. Here is a picture of it on my head.
