@@ -31,8 +31,7 @@ http://smug.thomaslevine.com/Dump/Lenovo-Y560/i-D7Z7Bx3/0/M/IMG7205-M.jpg
 Newegg has a nice diagram of the size.
 http://images17.newegg.com/is/image/newegg/34-146-777-Z08?$S640W$
 
-It comes with the power adapter and cord, and, of course, the battery.
-< power adapter, power cord and battery>
+It, of course, comes with the power adapter and the battery.
 
 For comparison, here’s what it costs on eBay.
 http://www.ebay.com/sch/Laptops-Netbooks-/175672/i.html?_nkw=lenovo+y560
