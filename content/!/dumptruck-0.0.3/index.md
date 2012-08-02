@@ -37,7 +37,7 @@ Null value handling has been documented and tweaked.
 ### RowId
 `dt.insert` returns the
 the [rowid](http://www.sqlite.org/lang_createtable.html#rowid)
-of the last row inserted row of the last row being inserted.
+or rowids of the inserted row or rows.
 
 ## scraperwiki_local
 
