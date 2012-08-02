@@ -19,12 +19,14 @@ This is the architecture that runs my various sites and other services
 ### Services
 Here are the services and their associated computers.
 
-* [Git](http://git.thomaslevine.com) (<form><input type="hidden" name="y" value="8">watermelon</form>)
-* [HTTP redirects](http://redirect.thomaslevine.com) (<form>honeydew</form>)
-* [Fade Lee](http://fadelee.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
-* [Pager](http://pager.thomaslevine.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
-* [ntp.js](ttp://ntpjs.thomaslevine.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
-* [&c.](http://occurrence.thomaslevine.com) (<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="id" value="1020"><input type="hidden" name="x" value="9">mango</form>)
+<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="x" value="9"><input type="hidden" name="y" value="8">(<input type="submit" value="watermelon">)</form>
+
+* [Git](http://git.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1192)
+* [HTTP redirects](http://redirect.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1015)
+* [Fade Lee](http://fadelee.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
+* [Pager](http://pager.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
+* [ntp.js](ttp://ntpjs.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
+* [&c.](http://occurrence.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
 * [couch](http://couch.thomasevine.com) (???)
 * Email backup ([Tarsnap]())
 * [Home page](http://www.thomaslevine.com) ([S3](https://console))
