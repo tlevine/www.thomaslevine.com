@@ -4,8 +4,7 @@ created_at: 2012-08-02
 kind: article
 ---
 
-I've added some new features to DumpTruck, which is the SQLite interface library
-that powers scraperwiki_local.
+I've added some new features to [DumpTruck](http://www.dumptruck.io).
 
 ## Changes
 
