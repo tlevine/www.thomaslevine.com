@@ -37,3 +37,7 @@ do and because simple ones can still be helpful. But I generally neglect to
 mention the more fundamental aspect of data format conversion being an everyday
 problem for some people, specifically the sort of people that I tend to hang
 around.
+
+I want to try teaching people computers/programming through other annoyances.
+This might be writing papers, maintaining a calendar or saving photographs.
+(These things annoyed me, so I've come up with nerdy solutions to them.)
