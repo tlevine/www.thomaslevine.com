@@ -31,4 +31,9 @@ learn if I don't feel like learning them. But I do pick up the general
 approaches and existing methods of doing various things, so I wind up
 learning/doing them quickly when I feel like doing them.
 
-
+I often suggest that data format conversion scripts are good projects for
+people who want to learn to program. I like them because it is clear what they
+do and because simple ones can still be helpful. But I generally neglect to
+mention the more fundamental aspect of data format conversion being an everyday
+problem for some people, specifically the sort of people that I tend to hang
+around.
