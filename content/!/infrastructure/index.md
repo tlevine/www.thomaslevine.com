@@ -9,17 +9,18 @@ This is the architecture that runs my various sites and other services
 * My office houses a Beaglebone cluster, called "cluster", my main
     workstation, called "desk", and sometimes my Lenovo IdeaPad Y560,
     called "laptop".
-* I have three small virtual private servers hosted at Prometeus.
+* I have three small virtual private servers hosted at Prometeus in Italy.
     Call these watermelon, honeydew and mango.
+* I have one small virtual private servers hosted at ChicagoVPS in Chicago.
 * A bunch of websites and backups are stored on Amason S3.
 * Dynamic websites get hosted on NearlyFreeSpeech.net if possible.
-* Incremental backups of private things go to Tarsnap.
-* I access all of these through a dumb terminal, typically my Chromebook.
+* Incremental backups of private things might go to Tarsnap eventually.
+* I access all of these through a dumb terminal, typically my desk, Chromebook
+    or Android netbook.
 
 ### Services
-Here are the services and their associated computers.
-
-<form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="x" value="9"><input type="hidden" name="y" value="8">(<input type="submit" value="watermelon">)</form>
+Here are the services and their associated computers. This might be out-of-date.
+Also, I need a better way of structuring this.
 
 * [Git](http://git.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1192)
 * [HTTP redirects](http://redirect.thomaslevine.com) ([ChicagoVPS cvps_4746](https://manage.chicagovps.net:5656/control.php?_v=w2v2r2y2q2r2c4u2v284))

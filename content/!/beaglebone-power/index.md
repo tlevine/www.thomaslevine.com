@@ -1,5 +1,6 @@
 ---
 title: BeagleBone Power Supply
+kind: article
 ---
 
 I want to make a cluster of [BeagleBones](http://beagleboard.org/bone),
@@ -75,9 +76,12 @@ except with several barrel connectors coming out of it. So I bought a
 [5V 40W power supply](http://www.bonanza.com/listings/200W-5V-40A-Regulated-Switching-LED-Power-Supply-New-200W%C2%A0-5V-%C2%A0DC-40A-Regula/75325441) and a bunch of
 [plugs](http://www.allspectrum.com/store/dc-plug-55x21mm-male-to-fixed-screw-terminal-each-p-8133.html).
 
-    Add pictures here.
+    If you're reading this, remind me to add pictures here.
 
-I mounted the BeagleBones right on top of each other, so I made a little post and
-just soldered some wires to it.
+Right now, I just have the beaglebones, switch and power supply inside of a
+pizza box, taped in place so they don't move.
 
-    Add a picture here.
+    If you're reading this, remind me to add pictures here.
+
+If I get more, I might mount the BeagleBones right on top of each other by
+making a little post and just soldering some wires to it.

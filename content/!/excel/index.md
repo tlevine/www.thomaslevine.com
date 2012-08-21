@@ -1,5 +1,6 @@
 ---
 title: Do all "analysts" use Excel?
+kind: article
 ---
 
 We were wondering how common spreadsheets are as a platform for data analysis.

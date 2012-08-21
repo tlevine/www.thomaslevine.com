@@ -1,3 +1,8 @@
+---
+title: Bare domain redirect server
+created_at: 2012-06-18
+kind: article
+---
 I just switched most of my sites to S3. This has made things so simple and
 easy. I have a script that mounts my S3 buckets in ~/s3 (I'll blog about it
 and link that here). It uses s3fs, so when I copy my websites, it sets

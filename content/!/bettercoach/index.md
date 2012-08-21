@@ -1,5 +1,5 @@
 ---
-title: BetterCoach
+title: BetterCoach and the merits of the inferior schedule-finder
 created_at: 2012-05-23
 kind: article
 ---
@@ -10,7 +10,6 @@ so I made a [better one](http://bettercoa.ch).
 
 But the official schedule-finder is actually sort of cool,
 at least for its time.
-
 
 ## Original finder
 The Coach site's way of changing one drop-down menu option when you change another

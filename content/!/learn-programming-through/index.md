@@ -1,5 +1,7 @@
 ---
 title: Learn Computers Through _____
+created_at: 2012-08-09
+kind: article
 ---
 Some people write software to solve annoyances in their everyday lives. Here
 are some such annoyances.
@@ -13,16 +15,21 @@ the thing that solves the annoyance, I normally don't need to write anything
 more than a configuration file. Some recent examples
 
 * I was using Gmail. Ugh. Now, my email is hosted by [Gandi](http://gandi.net),
-    downloaded by [offlineimap](), searched by [notmuch](), composed and read
-    with [mutt]() or [roundcube]() and backed up on [Tarsnap]().
+    downloaded by [offlineimap](http://offlineimap.org), searched by
+    [notmuch](http://notmuchmail.org), composed and read Gandi-hosted
+    [Roundcube](http://roundcube.net/)
+    <!--with [mutt]() or [roundcube]() and backed up on [Tarsnap]().-->
 * I make a lot of Git repositories. Some of them contain secrets. I could host
     them on Gitorious, Bitbucket, GitHub, &c., but creating repositories on
-    these sites is annoying, and private ones are expensive. So I installed
-    [cgit](), configured the web server to do some basic authentication and
-    wrote a tiny script for creating the repositories. I also installed
-    [hub](), which makes it easy to create repositories on GitHub.
-* Connecting Python with SQLite is annoying, so I wrote [DumpTruck](). But now
-    I know enough about SQLite that I can use it directly just fine.
+    these sites is annoying ([Hub](http://defunkt.io/hub/) helps though.), and
+    private ones are expensive. So I installed
+    [cgit](http://hjemli.net/git/cgit/), configured the web server to do some
+    authentication and wrote a tiny script for creating the repositories. See
+    my configuration on [a cgit server](http://git.thomaslevine.com) or on
+    [GitHub](https://github.com/tlevine/treegit).
+* Connecting Python with SQLite is annoying, so I wrote
+    [DumpTruck](http://www.dumptruck.io). But now that I know enough about
+    SQLite, partly from writing DumpTruck, I can use SQLite directly just fine.
 
 I suspect that solving everyday problems provides motivation for learning to
 program. With this mindset, I avoid learning things until I want to fix
