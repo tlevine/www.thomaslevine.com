@@ -32,7 +32,8 @@
 
 #main{ :role => 'main' }
   #topics.clearfix
-    = render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
+    #repositories.topic
+      = render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
     #data.topic
       = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping'], ['wetlands', 'http://wetlands.thomaslevine.com'], ['dead people', 'http://www.deadpeoplebornonmybirthday.com']])
