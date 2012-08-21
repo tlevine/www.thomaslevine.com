@@ -1,5 +1,6 @@
 ---
 title: Do all "analysts" use Excel?
+created_at: 2012-07-23
 kind: article
 ---
 

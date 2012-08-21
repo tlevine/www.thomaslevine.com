@@ -1,5 +1,6 @@
 ---
 title: BeagleBone Power Supply
+created_at: 2012-05-07
 kind: article
 ---
 
