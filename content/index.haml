@@ -33,53 +33,26 @@
 #main{ :role => 'main' }
   #topics.clearfix
     #repositories.topic
-      %h2 repositories
-      %ul.nobullet
-        %li
-          %a{ :href => "https://scraperwiki.com/profiles/tlevine"} scraperwiki
-        %li
-          %a{ :href => "https://github.com/tlevine"} github
-        %li
-          %a{ :href => "https://bitbucket.org/tlevine"} bitbucket
-        %li
-          %a{ :href => "https://gitorious.org/tlevine"} gitorious
+      = render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
-    #scraping.topic
-      %h2 data
-      %ul
-        %li
-          %a{ :href => "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"} tahrir supplies
-        %li
-          %a{ :href => "http://bettercoa.ch"} bettercoa.ch
-        %li
-          %a microfinance
-        %li
-          %a wetlands
+    #data.topic
+      = render('_topic_box', :topic => 'data', :links => [['microfinance', 'http://datakind.org/2012/05/642/'], ['wetlands', 'http://wetlands.thomaslevine.com']])
 
     #libraries.topic
-      %h2 libraries
-      %ul.nobullet
-        %li
-          %a{ :href => "http://dumptruck.io/"} dumptruck
-        %li
-          %a{ :href => "https://github.com/tlevine/scraperwiki_offline"} scraperwiki
-        %li
-          %a{ :href => "http://pap.io/ntp.js.html"} ntp.js
-        %li
-          %a{ :href => "https://github.com/tlevine/dicti"} dicti
+      = render('_topic_box', :topic => 'libraries', :links => [['dumptruck', "http://dumptruck.io/"], ['local scraperwiki', "https://github.com/tlevine/scraperwiki_offline"], ['sqlite web api', 'https://github.com/scraperwiki/dumptruck-web'], ['dicti', 'https://github.com/tlevine/dicti']])
  
-    #ergonomics.topic
+    -##ergonomics.topic
       %h2
         %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Definitions-of-ergonomics%22%5D", :title => "Definition of &quot;ergonomics&quot;"} ergonomics
       %ul.nobullet
         %li
           %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-research-interests%22%5D"} research
-        %li
+        -#%li
           %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-consulting%22%5D"} tips
         %li
           %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
         -#%li
-        -#  %a{ :href => ""} toilets
+          %a{ :href => ""} toilets
  
  
     #letterpress.topic
@@ -94,6 +67,7 @@
             -#complicity
         %li
           %a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Risley-40th-anniversary/14742719_WnJwH6#!i=1098630977&k=yq9yN&lb=1&s=A"} tea party
+
     #installations.topic
       %h2 installations
       %ul.nobullet
@@ -105,6 +79,9 @@
           %a{ :href => "http://smug.thomaslevine.com/Installations/Crosswalk/14816734_p5fTK9#!i=1169127198&k=vtgWk"} jaywalking
         %li
           %a{ :href => "http://smug.thomaslevine.com/Installations/Masquerave-2010/14225818_83md3v#!i=1077318594&k=u5YzK"} fire safety
+        %li
+          %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
+
     #doodles.topic
       %h2 doodles
       %ul.nobullet
@@ -117,20 +94,11 @@
         %li
           %a{ :href => "http://smug.thomaslevine.com/Typography/Doodles"} more
  
-    #trolls.topic
+    -##trolls.topic
       = render('_topic_box', :topic => 'trolls', :links => [['definition', ''], ['jello wrestling', ''], ['drag parties', '']])
 
-    #things.topic
+    -##things.topic
       = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
 
     #etc.topic
-      %h2 &amp;c.
-      %ul.nobullet
-        -#%li
-          -#%a{ :href => "/!/collaborate.md"} collaborate
-        %li
-          %a{ :href => "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"} bubbles
-        %li
-          %a{ :href => "http://pinterest.com/perluette/earthmoving-equipment/"} earthmoving
-        %li
-          %a{ :href => "/secrets"} secrets
+      = render('_topic_box', :topic => '&c.', :links => [['tahrir supplies', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['bus schedules', "http://bettercoa.ch"], ['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"]])

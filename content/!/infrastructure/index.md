@@ -22,12 +22,12 @@ Here are the services and their associated computers.
 <form method="post" action="https://www.prometeus.net/billing/clientarea.php?action=productdetails"><input type="hidden" name="x" value="9"><input type="hidden" name="y" value="8">(<input type="submit" value="watermelon">)</form>
 
 * [Git](http://git.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1192)
-* [HTTP redirects](http://redirect.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1015)
+* [HTTP redirects](http://redirect.thomaslevine.com) ([ChicagoVPS cvps_4746](https://manage.chicagovps.net:5656/control.php?_v=w2v2r2y2q2r2c4u2v284))
 * [Fade Lee](http://fadelee.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
 * [Pager](http://pager.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
 * [ntp.js](ttp://ntpjs.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
 * [&c.](http://occurrence.thomaslevine.com) ([Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1020)
-* [couch](http://couch.thomasevine.com) (???)
+* [couch](http://couch.thomasevine.com) (XXX [Prometeus](https://www.prometeus.net/billing/clientarea.php?action=products) id 1015)
 * Email backup ([Tarsnap]())
 * [Home page](http://www.thomaslevine.com) ([S3](https://console))
 * [Scraping tutorial](http://scraperwiki.thomaslevine.com) ([S3](https://console.aws.amazon.com/s3/home))
@@ -38,8 +38,8 @@ Here are the services and their associated computers.
 * [Urchin](http://www.urchin.sh) ([S3](https://console.aws.amazon.com/s3/home))
 * [Christian Students for Gender-Neutral Housing](http://www.genderneutralhousing.org) ([S3](https://console.aws.amazon.com/s3/home))
 * [Whitby Group](http://www.whitbygroup.com) ([S3](https://console.aws.amazon.com/s3/home))
-* [Piwik](http://piwik.thomaslevine.com) ([NearlyFreeSpeech.net]())
-* [Status](http://piwik.thomaslevine.com) ([NearlyFreeSpeech.net]())
+* [Piwik](http://piwik.thomaslevine.com) ([NearlyFreeSpeech.net](https://members.nearlyfreespeech.net/tlevine/sites/thomaslevine-piwik))
+* [Status](http://piwik.thomaslevine.com) ([NearlyFreeSpeech.net](https://members.nearlyfreespeech.net/tlevine/sites/thomaslevine-status))
 
 ### Home network
 My [home network](http://chainsaw.chickenkiller.com) does assorted things.
