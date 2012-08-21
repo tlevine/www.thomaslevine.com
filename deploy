@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+grep nanoc Rakefile > /dev/null ||
+  (echo This doesn\'t look like a nanoc directory. && exit 1)
+
+nanoc compile
+mkdir -p "$HOME/s3/www.thomaslevine.com"
+s3fs -o use_rss="1" "www.thomaslevine.com" "$HOME/s3/www.thomaslevine.com"
+cp -R output/* "$HOME/s3/www.thomaslevine.com"
+sudo umount "$HOME/s3/www.thomaslevine.com"
