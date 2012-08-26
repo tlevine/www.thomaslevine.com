@@ -58,7 +58,19 @@ ergonomics very differently, but the International Ergonomics Association
 > the scientific discipline concerned with the understanding of the interactions
 > among humans and other elements of a system, and the profession that applies
 > theoretical principles, data and methods to design in order to optimize human
-> well being and overall system [productivity]
+> well being and overall system [productivity].
 
+(At the time that I cited this webpage, the definition stopped mid-sentence,
+but I doubt that that was on purpose.)
+
+I see the definition as emphasizing **well-being** and **productivity**, so
 I figured that a particularly simple study would yield a dataset with minimally
-three columns: 
+three columns:
+
+1. A measure of well-being
+2. A measure of productivity
+3. Time of the observation
+
+If I ran this on more than me, there would be a fourth column for participant,
+which would link to some demographic information that would not be collected
+as often.
