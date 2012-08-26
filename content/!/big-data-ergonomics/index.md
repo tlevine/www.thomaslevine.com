@@ -43,10 +43,22 @@ I wanted to make a simple something that would explain my concept of
 "big data ergonomics" and see whether it made sense. This would be a study
 of sorts, preferrably with the following properties
 
-* The data would have many rows so I have big data
-* The data would have few columns to keep things simple
-* The study would be an experiment rather than an observational study
+* The data would have many rows, probably collected over time, so I have big data.
+* The data would have few columns to keep things simple.
+* The study would be an experiment rather than an observational study.
+* I would run the initial study on a small group of people (like maybe just me),
+    but it would have to be easy and cost-effective to run it across many people.
 * The study would address a topic that isn't addressed well by the more
     typical small-data ergonomics studies.
 
+Now I should explain further the concept of ergonomics. Different people define
+ergonomics very differently, but the International Ergonomics Association
+[defines](http://iea.cc/01_what/What%20is%20Ergonomics.html) it as
 
+> the scientific discipline concerned with the understanding of the interactions
+> among humans and other elements of a system, and the profession that applies
+> theoretical principles, data and methods to design in order to optimize human
+> well being and overall system [productivity]
+
+I figured that a particularly simple study would yield a dataset with minimally
+three columns: 
