@@ -28,10 +28,16 @@ also might be more representative of some population because they might be
 spread out more frequently and continuously over time and might involve more
 random sampling.
 
+Ergonomics is already using "small data" in the form of lab studies,
+questionnaires and other observations by people. If we replaced the human
+observers with computers, we could collect some "big data".
+
 It sounds like "big data" would solve some of these "ergonomics" problems quite
 well; ergonomics would like to study small effects over long periods of time.
 A large sample (or better, a population) might help us tease out small effects,
 and collection over a long time-span might help us see long-term impacts of
 interventions of ergonomic interest.
 
-
+## Demonstration of the concept
+I wanted to make something that would explain my concept of "big data ergonomics"
+and see whether it made sense.
