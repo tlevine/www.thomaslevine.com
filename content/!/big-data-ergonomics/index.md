@@ -39,5 +39,14 @@ and collection over a long time-span might help us see long-term impacts of
 interventions of ergonomic interest.
 
 ## Demonstration of the concept
-I wanted to make something that would explain my concept of "big data ergonomics"
-and see whether it made sense.
+I wanted to make a simple something that would explain my concept of
+"big data ergonomics" and see whether it made sense. This would be a study
+of sorts, preferrably with the following properties
+
+* The data would have many rows so I have big data
+* The data would have few columns to keep things simple
+* The study would be an experiment rather than an observational study
+* The study would address a topic that isn't addressed well by the more
+    typical small-data ergonomics studies.
+
+
