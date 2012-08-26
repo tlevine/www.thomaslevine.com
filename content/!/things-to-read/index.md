@@ -5,6 +5,10 @@ title: Things to read
 Emacs
 
 * [Org-mode guide](http://orgmode.org/orgguide.pdf)
+* [Org-mode tutorials](http://orgmode.org/worg/org-tutorials/index.html)
+* [Org-mode talks](http://orgmode.org/talks.html)
+* [Calculator](http://www.xemacs.org/Documentation/packages/html/calc_1.html)
+* [The Insidious Big Brother Database](http://bbdb.sourceforge.net/)
 
 Tiny boxes
 
@@ -30,3 +34,7 @@ Elegant financial investment strategy
 
 * "[Morals](http://earlyretirementextreme.com/kantian-morals-and-early-retirement.html)"
 * "[Ethics](http://forum.earlyretirementextreme.com/topic.php?id=1126)"
+
+Other
+
+* [Pussy Riot](http://nplusonemag.com/pussy-riot-closing-statements)
