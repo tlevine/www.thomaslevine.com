@@ -38,7 +38,7 @@ A large sample (or better, a population) might help us tease out small effects,
 and collection over a long time-span might help us see long-term impacts of
 interventions of ergonomic interest.
 
-## Demonstration of the concept
+## Brainstorming a simple big data ergonomic study
 I wanted to make a simple something that would explain my concept of
 "big data ergonomics" and see whether it made sense. This would be a study
 of sorts, preferrably with the following properties
@@ -77,3 +77,15 @@ which would link to some demographic information that would not be collected as 
 Now I just needed to think of the well-being and productivity variables.
 I thought of a bunch of things, but it turned out that there was a study that
 I'd been wanting to do and that would benefit from a big-data twist.
+
+## (How) do people move their keyboards around the desk?
+<!-- This is lifted from my 2011 NSF GRFP application -->
+
+### Background
+With the goal of figuring out how to make computer work more productive and safe, much research has related the design of computer workstations both to productivity and to risk factors for musculoskeletal injury. This research leads to guidelines for designers and engineers [3,4]. Because computers are so new and constantly changing, the guidelines are continuously being refined and expanded. My research contributes to this effort.
+
+My focus has been on computer keyboards and mice. Through my research on keyboards and mice, I’ve identified a particular limitation of many ergonomics studies of computer workstation design. In many such studies, keyboards are attached to the desk so participants cannot move them. This is done to control variables and reduce error variance, but it poses an external validity issue: Do the results still apply if people tend to move keyboards in the real world? People touch the keyboard when they type, so a change in keyboard positioning (KP) probably changes arm posture and muscle activity. (A similar relationship has actually been demonstrated for mouse position [5,6].)
+
+One of my past studies found wide variations in KP [7]; some keyboards were positioned far to the left, whereas others were far to the right. In order to make more general conclusions about the use of computer keyboards, we need to address this variability.
+
+### 
