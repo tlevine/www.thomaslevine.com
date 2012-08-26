@@ -14,10 +14,24 @@ I remarked one day that there was no "big data ergonomics", so I decided to
 invent it. But what would it be? Ergonomics already uses "data", so the
 emphasis here is on "big" rather than "data".
 
+## What would "big data ergonomics" be?
 Without trying to define "ergonomics", (The concept is as nebulous as "big data"
 and "data science".) let's say for now that ergonomics, or at least the aspect
 that interests me, tends to study human phenomena with small effects and long-term
 consequences. This includes making things easier to use, studying/reducing
 repetitive strain injuries, finding ways to work more productively and safely,
 and sizing and otherwise adapting objects for different people.
+
+Regardless of how you define them, "big data" will have way more observations
+than small data. "Big data" probably thus has larger sample sizes, but they
+also might be more representative of some population because they might be
+spread out more frequently and continuously over time and might involve more
+random sampling.
+
+It sounds like "big data" would solve some of these "ergonomics" problems quite
+well; ergonomics would like to study small effects over long periods of time.
+A large sample (or better, a population) might help us tease out small effects,
+and collection over a long time-span might help us see long-term impacts of
+interventions of ergonomic interest.
+
 
