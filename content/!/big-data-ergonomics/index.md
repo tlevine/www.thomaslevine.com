@@ -47,7 +47,7 @@ of sorts, preferrably with the following properties
 * The data would have few columns to keep things simple.
 * The study would be an experiment rather than an observational study.
 * I would run the initial study on a small group of people (like maybe just me),
-    but it would have to be easy and cost-effective to run it across many people.
+    but it would have to be easy and inexpensive to run it across many people.
 * The study would address a topic that isn't addressed well by the more
     typical small-data ergonomics studies.
 
@@ -71,6 +71,9 @@ three columns:
 2. A measure of productivity
 3. Time of the observation
 
-If I ran this on more than me, there would be a fourth column for participant,
-which would link to some demographic information that would not be collected
-as often.
+If I ran this on more people than me, there would be a fourth column for participant,
+which would link to some demographic information that would not be collected as often.
+
+Now I just needed to think of the well-being and productivity variables.
+I thought of a bunch of things, but it turned out that there was a study that
+I'd been wanting to do and that would benefit from a big-data twist.
