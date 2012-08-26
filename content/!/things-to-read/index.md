@@ -15,5 +15,18 @@ Tiny boxes
 * [Cheap boxes at Avante Hosting](http://www.lowendbox.com/blog/avante-hosting-6half-yearly-128mb-kvm-or-xen-in-florida-usa/)
 * [Cheap boxes at ChicagoVPS](http://chicagovps.net) (I already have one.)
 
+Blog
 
+* [Nanoc tagging module](http://nanoc.stoneship.org/docs/api/3.4/Nanoc/Helpers/Tagging.html)
 
+Elegant financial investment strategy
+
+* http://earlyretirementextreme.com/day-21-investing-for-early-retirement.html
+* http://www.dogsofthedow.com/
+* http://www.dogsofthedow.com/doggish.htm
+* http://www.indexarb.com/dividendYieldSorteddj.html
+
+"Early retirement extreme"
+
+* "[Morals](http://earlyretirementextreme.com/kantian-morals-and-early-retirement.html)"
+* "[Ethics](http://forum.earlyretirementextreme.com/topic.php?id=1126)"
