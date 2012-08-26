@@ -23,7 +23,7 @@ repetitive strain injuries, finding ways to work more productively and safely,
 and sizing and otherwise adapting objects for different people.
 
 Regardless of how you define them, "big data" will have way more observations
-than small data. "Big data" probably thus has larger sample sizes, but they
+than small data. "Big data" thus have larger sample sizes, and they
 also might be more representative of some population because they might be
 spread out more frequently and continuously over time and might involve more
 random sampling.
