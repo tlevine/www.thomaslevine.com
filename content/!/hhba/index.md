@@ -12,7 +12,14 @@ I gave a talk on [how awesome I am](http://talks.thomaslevine.com/hh-ba-media-pa
 [cleaning data](http://mediaparty.hhba.info/es/agosto2012/talleres/56/Taller-18-De-la-web-al-spreadsheet-%C2%BFPara-qu%C3%A9-sirve-Scraper-Wiki.htm).
 The latter involved no computers and no slides, so I held it outside!
 
-I had no slides for the workshop, but here are some of my notes/outlines.
+I modeled an analog version of the
+[Army Corps 404 Website Scraper](https://github.com/tlevine/wetlands)---what
+it might have been like before the internet. I took volunteers to play the
+a courier, an army secretary and staff/volunteers at an advocacy group. The
+simulated advocacy group acquired paper notices about applications to build
+on wetlands, archived the notices, recorded some structured information on a
+table (with four legs!) and then tried to find notices that should not be
+approved. I had no slides for the workshop, but here are some of my notes/outlines.
 
 ![Outline/sketch about the workshop in a paper notebook](workshop-outline-1.png)
 ![Outline/sketch about the workshop in a paper notebook](workshop-outline-2.png)
@@ -22,14 +29,15 @@ I had no slides for the workshop, but here are some of my notes/outlines.
 The third day was a shockingly organized hackathon. Hacks/Hackers Buenos Aires has
 a [website for discussing hackathon ideas](http://hackdash.hhba.info/dashboard).
 And people worked on it [during the hackathon](http://hackdash.hhba.info/p/4443109)!
-[My team](https://twitter.com/titayna/status/247533822600699904)
-[looked](https://gist.github.com/3762741) for references of money in court documents.
+Anyway, [my team](https://twitter.com/titayna/status/247533822600699904)
+[found](https://gist.github.com/3762741) references of money in court documents.
 
 More importantly, I ate
 [pizza](http://es.wikipedia.org/wiki/Guerr%C3%ADn),
 [milanesa](http://es.wikipedia.org/wiki/Milanesa),
-[empanadas](http://es.wikipedia.org/wiki/Empanadas) and
-[dulce de leche](http://en.wikipedia.org/wiki/Dulce_de_leche).
+[empanadas](http://es.wikipedia.org/wiki/Empanadas),
+[dulce de leche](http://en.wikipedia.org/wiki/Dulce_de_leche) and
+[ice cream](http://www.unaltravolta.com.ar/).
 
 ## More links
 
