@@ -21,10 +21,10 @@ on wetlands, archived the notices, recorded some structured information on a
 table (with four legs!) and then tried to find notices that should not be
 approved. I had no slides for the workshop, but here are some of my notes/outlines.
 
-![Outline/sketch about the workshop in a paper notebook](workshop-outline-1.png)
-![Outline/sketch about the workshop in a paper notebook](workshop-outline-2.png)
-![Outline/sketch about the workshop in a paper notebook](workshop-outline-3.png)
-![Outline/sketch about the workshop in a paper notebook](workshop-outline-4.png)
+![Early outline/sketch about the workshop in a paper notebook](workshop-outline-1.png)
+![Early outline/sketch about the workshop in a paper notebook](workshop-outline-2.png)
+![Outline/sketch about the workshop's layout in a paper notebook](workshop-outline-3.png)
+![Outline/sketch about the data-cleaning steps in a paper notebook](workshop-outline-4.png)
 
 The third day was a shockingly organized hackathon. Hacks/Hackers Buenos Aires has
 a [website for discussing hackathon ideas](http://hackdash.hhba.info/dashboard).
