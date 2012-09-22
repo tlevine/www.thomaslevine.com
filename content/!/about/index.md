@@ -14,5 +14,10 @@ Silviana Russo <!-- notmuch show thread:00000000000053af -->
 
 Silviana Russo <!-- notmuch show thread:0000000000000290 -->
 
-"Thomas Levine... doesn't know who Messi is." [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
+> Thomas Levine... doesn't know who Messi is.
 
+[Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
+
+> [One] of my favorite superheroes
+
+[Jake Porway](http://www.youtube.com/watch?v=rluDDbzX5S4)
