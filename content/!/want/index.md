@@ -10,3 +10,4 @@ title: Things I want
   * A book-scanner would be even better.
 * Many toe-socks of the same type
 * More TechWick shirts
+* Soldering iron with a thin tip
