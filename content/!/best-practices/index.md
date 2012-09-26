@@ -8,3 +8,5 @@ created_at: 2012-09-24
 **Sunscreen** Blue Lizard
 
 **Instant soup** Dried split-pea soup
+
+See my notebook for more
