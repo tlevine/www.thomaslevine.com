@@ -1,6 +1,6 @@
 > Thomas Levine is a unique and special snowflake.
 
-Nicola Hughes (Not confirmed, and [here](http://www.quotegarden.com/bk-fc.html) are two more hilarious options.)
+Nicola Hughes, cited by David Jones (Not confirmed, and [here](http://www.quotegarden.com/bk-fc.html) are two more hilarious options.)
 
 > [Thomas Levine] care[s] only about [his] social experiments. [He does]
 > not discriminate between frivolities and things of actual importance
