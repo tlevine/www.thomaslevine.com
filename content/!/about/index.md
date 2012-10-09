@@ -20,4 +20,6 @@ Silviana Russo <!-- notmuch show thread:0000000000000290 -->
 
 > [One] of my favorite superheroes
 
-[Jake Porway](http://www.youtube.com/watch?v=rluDDbzX5S4)
+[Jake Porway](http://jakeporway.com/)
+at [DataGotham](http://www.youtube.com/watch?v=rluDDbzX5S4) and
+[Strata London 2012](http://www.youtube.com/watch?v=5dnSamOwpmI)
