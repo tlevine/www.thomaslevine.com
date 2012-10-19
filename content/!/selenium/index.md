@@ -16,6 +16,10 @@ Download the selenium **standalone** version.
 
 Run it.
 
+    # If you're using a virtual framebuffer, start it like so
+    Xvfb :99 -ac &
+    export DISPLAY=:99seleniumrc
+    
     java -jar selenium-server-standalone-2.21.0.jar -port 4443
 
 Set that up as a daemon if you wish.
