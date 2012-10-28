@@ -18,6 +18,9 @@ If a few different phrases from one country seem about right and I can't decide
 which to use, (This is normally for American phrases.) I separate the different
 phrases with commas.
 
+If parts of speech are not obvious, the word is preceded by the abbreviated part
+of speech and a colon
+
 ## Vocabulary
 
     English                     American
@@ -27,10 +30,39 @@ phrases with commas.
     shop                        store
     holiday                     vacation
     scheme                      program
+    torch                       flashlight
+    proper, properly            real, really
+    single (ticket)             one-way (ticket)
+    return (ticket)             round-trip (ticket)
+    cross                       angry, pissed
+    adj: rubbish                shit
+    n: rubbish                  garbage, trash
+    take away (food)            take out (food)
+    (food) to take away         (food) to go
+    set down                    drop off
+    cheers                      thanks
+    massively                   really
+    porridge                    oatmeal
+
 
 ## Grammar
 
+    English                     American
+    -------------------------   -------------------------
+
 ## Equivalents
+I use different syntax in this section because I need to explain more about the words.
+
+Where you go for a proverbial drink: In England, you go to a **pub**, and in
+America, you go to a **bar**. They're different things, and both exist in both
+countries.
+
+The hypothetical disgusting fast food establishment that you would never go to
+is the **kebab shop** in England or the **McDonalds** in America.
+
+The canonical cheap food in America is pizza. In England, it might be a
+**kebab** or anything from a **chippy**, which often much different from a
+kebab shop.
 
 ## English-only
 You should see this table as definitions of English phrases rather than
@@ -40,3 +72,4 @@ in the English column.
     English                     American
     -------------------------   -------------------------
     other half                  significant other
+    brilliant                   great! wonderful!
