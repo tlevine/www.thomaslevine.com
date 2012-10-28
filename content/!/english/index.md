@@ -43,6 +43,13 @@ of speech and a colon
     cheers                      thanks
     massively                   really
     porridge                    oatmeal
+    pavement                    sidewalk
+    cycling                     biking
+    v: cycle                    v: bike
+    nought, naught              zero, O
+    full stop                   period
+    cash machine                atm
+    Hoover                      vacuum
 
 
 ## Grammar
@@ -54,8 +61,9 @@ of speech and a colon
 I use different syntax in this section because I need to explain more about the words.
 
 Where you go for a proverbial drink: In England, you go to a **pub**, and in
-America, you go to a **bar**. They're different things, and both exist in both
-countries.
+America, you go to a **bar**. But they're different things, and both exist in both
+countries. In particular, you would only go to a bar for a drink, but you might
+go to a pub for only food.
 
 The hypothetical disgusting fast food establishment that you would never go to
 is the **kebab shop** in England or the **McDonalds** in America.
@@ -73,3 +81,18 @@ in the English column.
     -------------------------   -------------------------
     other half                  significant other
     brilliant                   great! wonderful!
+    fortnight                   two weeks
+
+## Other differences
+Here are some general differences.
+
+### Measurement
+Different measurements units are used in each country. In England, metric is
+normally seen as the standard, but in America, a subset of the imperial units
+are seen as standard.
+
+In both countries, certain imperial units are used specifically for specific
+purposes. Some examples follow.
+
+* **Bushel** in American (maybe English too) for measuring farm produce
+* **Stone** in English for measuring body weight
