@@ -149,7 +149,7 @@ in the English column.
     tea towel                   small towel used for washing dishes
 
 ## Other differences
-Here are some general differences.
+Here are some differences that didn't fit in my other categories.
 
 ### Measurement
 Different measurements units are used in each country. In England, metric is
