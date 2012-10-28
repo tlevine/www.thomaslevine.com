@@ -1,5 +1,9 @@
-English and American
-====
+---
+title: English and American
+created_at: 2012-10-28
+kind: article
+---
+
 While in England (mostly Liverpool), I composed a list of translations between
 English and American. I group them into four categories
 
