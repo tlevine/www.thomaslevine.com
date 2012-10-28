@@ -11,8 +11,8 @@ English and American. I group them into four categories
   4. **English-only** are phrases that exist in English for which I haven't
     found an American equivalent with a matching connotation.
 
-I present the first two in tables and the latter two in lists. See the appendix
-for documentation of the tables' formatting.
+I present the first two in tables and the latter two in lists. See the
+"Table Formatting" section at the end for documentation of the tables' formatting.
 
 ## Vocabulary
 
@@ -148,10 +148,11 @@ in the English column.
     pelican crossing            specific type of crosswalk
     tea towel                   small towel used for washing dishes
 
-## Other differences
-Here are some differences that didn't fit in my other categories.
+## Other things
 
 ### Measurement
+I noted a difference in measurement that didn't fit in my other categories.
+
 Different measurements units are used in each country. In England, metric is
 normally seen as the standard, but in America, a subset of the imperial units
 are seen as standard.
@@ -161,8 +162,6 @@ purposes. Some examples follow.
 
 * **Bushel** in American (maybe English too) for measuring farm produce
 * **Stone** in English for measuring body weight
-
-## Appendix
 
 ### Table formatting
 The Vocabulary and Equivalents are presented in tables formatted thusly.
