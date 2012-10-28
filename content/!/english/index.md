@@ -50,7 +50,9 @@ of speech and a colon
     full stop                   period
     cash machine                atm
     Hoover                      vacuum
-
+    let                         lease
+    hire                        rent
+    cover                       sub(stitute teacher)
 
 ## Grammar
 
@@ -71,6 +73,11 @@ is the **kebab shop** in England or the **McDonalds** in America.
 The canonical cheap food in America is pizza. In England, it might be a
 **kebab** or anything from a **chippy**, which often much different from a
 kebab shop.
+
+The big meal you proverbially have on Sunday around noon is a **roast** in
+England or a **brunch** in America. Brunch also exists in England, but it's
+not the thing that you talk about and see written on restaurant signs. You
+can read elsewhere about Sunday roasts and Sunday brunches.
 
 ## English-only
 You should see this table as definitions of English phrases rather than
