@@ -20,4 +20,5 @@ advice is mainly intended; I think the supposed difference is generally that I'm
 systematic differences between the sort of person who would give advice without
 solicitation and the sort of person who would listen to it. 
 
-
+Talk here about how maybe you listen less if you talk more and that maybe the
+thresholds for taking things seriously differ
