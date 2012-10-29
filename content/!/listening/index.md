@@ -91,3 +91,8 @@ advice. I think this distinction between baseline language strength is
 relevant, but I might put off that discussion to some other writing.
 
 ### Relationships between competence and manner of speech
+I find that people use more jargon, act more like they know what they're doing,
+and talk more in general when they don't (in hopes to seem like they do).
+This could translate to giving more advice or to giving stronger advice. If
+this is the case, people who don't know what they're doing would be giving more
+advice or stronger advice than people who do know what they're doing.
