@@ -48,5 +48,46 @@ This situation shows how there could be relevant systematic differences between
 the sort of person who would give advice and the sort who would listen to advice.
 
 ### Thresholds for taking things seriously
-maybe you listen less if you talk more and that maybe the
-thresholds for taking things seriously differ
+Grossly simplifying human language, let's consider all adjective phrases to
+be interpreted by people as having a direction and a magnitude.
+
+For example, "hungry" could have a direction of "hunger" and a magnitude of
+"sort of", and "fasmished" could have the same direction of "hunger" but a
+magnitude of "very". To someone else, the words might have the same direction
+of "hunger" but have different magnitudes magnitude; "hungry" might be "very",
+and "famished" might have a magnitude of "deathly".
+
+Adding adverbs can, of course, modify the magnitude of the phrase; consider
+"sort of hungry", "hungry" and "deathly hungry".
+
+And let's put opposites on the same scale; "full" might have a direction of
+"hungry and a magnitude of "not at all".
+
+Let's consider people to have a baseline magnitude and to have different
+magnitudes for different directions. By "baseline", I mean that this is the
+strength of word that they use to describe a typical situation. They'll also
+different baselines for different directions.
+
+If I had the numbers, I might model this as different people having different
+baselines that are randomly distributed around some center and as different
+within-person directions having their own baselines.
+
+<!-- Draw a picture of that. -->
+
+Now that that's all explained, I can get to the point. Consider a conversation
+between a person with a high baseline magnitude (Call her Amy.) and a person
+with a low baseline magnitude. (Call her Betty.) Let's say their views are
+equally strong/weak. Despite that, Amy might see Betty's speech/advice as less
+strong than Betty would see Amy's advice.
+
+For example, Amy might say "You definately need to read that book." where Betty
+might say "I think you should consider reading that book". To Amy, the first
+version might be medium-strong, and the other might be weak. To Betty, the
+first version might be super-strong, and the other might be medium-strong.
+
+In this situation, the person who uses strong language receives seemingly weak
+advice, and the person who uses weak languages receives seemingly strong
+advice. I think this distinction between baseline language strength is
+relevant, but I might put off that discussion to some other writing.
+
+### Relationships between competence and manner of speech
