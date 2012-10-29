@@ -19,11 +19,20 @@ I needed.
 Install the packages I want.
 
     #!/usr/bin/env Rscript
-    pkgs <- c(
-        'snowfall', 'parallel', 'foreach', 'doParallel', 'doSNOW',
-        'plyr', 'ggplot2', 'reshape', 'stringr', 'ProjectTemplate'
-    )
-    install.packages(pkgs)
+    #
+    # These run in different lines so they can be separated if need be.
+    #
+
+    # General
+    install.packages(c('plyr', 'ggplot2', 'reshape', 'stringr', 'ProjectTemplate'))
+
+    # One parallel framework
+    install.packages('snowfall')
+
+    # Another, with two backends
+    install.packages(c('foreach'))
+    install.packages(c('parallel', 'doParallel'))
+    install.packages(c('snow', 'doSNOW'))
 
 I tried making symlinks to make the CentOS R environment look more like mine,
 but I started getting problems without error messages, so I stopped trying.
