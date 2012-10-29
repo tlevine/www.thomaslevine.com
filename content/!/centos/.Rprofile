@@ -29,7 +29,8 @@ rm(r)
 options(showWarnCalls=T, showErrorCalls=T)
 
 # Name for the history
-.history.stamp <- paste(format(Sys.time(), '%Y-%m-%d') round(runif(1) * 100000), sep = '_')
+#.history.stamp <- paste(format(Sys.time(), '%Y-%m-%d'), round(runif(1) * 100000), sep = '_')
+.history.stamp <- Sys.time()
 
 #History size
 Sys.setenv(R_HISTSIZE='100000')
@@ -82,6 +83,6 @@ cl.foreach.snow <- function(){
 .Last <- function() {
   if (!any(commandArgs()=='--no-readline') && interactive()){
     require(utils)
-    try(savehistory(.R_HISTFILE)))
+    try(savehistory(.R_HISTFILE))
   }
 }

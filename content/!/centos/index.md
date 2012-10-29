@@ -16,6 +16,15 @@ I needed.
     rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-7.noarch.rpm  
     yum install R
 
+Install the packages I want.
+
+    #!/usr/bin/env Rscript
+    pkgs <- c(
+        'snowfall', 'parallel', 'foreach', 'doParallel', 'doSNOW',
+        'plyr', 'ggplot2', 'reshape', 'stringr', 'ProjectTemplate'
+    )
+    install.packages(pkgs)
+
 I tried making symlinks to make the CentOS R environment look more like mine,
 but I started getting problems without error messages, so I stopped trying.
 I wound up just running the master on another NodeDeploy server.
