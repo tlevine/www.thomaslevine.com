@@ -14,7 +14,11 @@ I needed.
 [Install R](http://stackoverflow.com/questions/9468164/problems-installing-r-on-linux-centos-6-2)
 
     rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-7.noarch.rpm  
-    yum install R
+    yum install R make
+
+Other nice packages
+
+    yum install htop
 
 Install the packages I want.
 
