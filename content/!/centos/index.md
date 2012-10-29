@@ -41,3 +41,6 @@ Install the packages I want.
 I tried making symlinks to make the CentOS R environment look more like mine,
 but I started getting problems without error messages, so I stopped trying.
 I wound up just running the master on another NodeDeploy server.
+
+Try configuring hosts to deal with those errors.
+http://serverfault.com/questions/260706/possible-break-in-attempt-in-var-log-secure-what-does-this-mean
