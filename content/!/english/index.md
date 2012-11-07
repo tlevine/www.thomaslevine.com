@@ -57,6 +57,7 @@ I present the first two in tables and the latter two in lists. See the
     take register               take attendance
     bin                         dumpster
     bin                         garbage (can)
+    bin bag                     garbage bag
     half-(ten)                  (ten)-thirty
     (home) help                 housekeeper
     a tener                     a ten, a ten-dollar bill
@@ -80,6 +81,7 @@ I present the first two in tables and the latter two in lists. See the
     beetroot                    beet(s)
     brown (bread)               (whole) wheat (bread)
     local pub                   dive bar
+    tea towel                   dish towel
 
 ## Grammar
 
@@ -151,7 +153,6 @@ in the English column.
     fortnight                   two weeks
     zebra crossing              specific type of crosswalk
     pelican crossing            specific type of crosswalk
-    tea towel                   small towel used for washing dishes
 
 ## Other things
 
