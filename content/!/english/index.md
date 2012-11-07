@@ -111,8 +111,8 @@ The hypothetical disgusting fast food establishment that you would never go to
 is the **kebab shop** in England or the **McDonalds** in America.
 
 The canonical cheap food in America is pizza. In England, it might be a
-**kebab** or anything from a **chippy**, which often much different from a
-kebab shop.
+**kebab** or anything from a **chippy**, which might not be much different
+from a kebab shop.
 
 The big meal you proverbially have on Sunday around noon is a **roast** in
 England or a **brunch** in America. Brunch also exists in England, but it's
@@ -122,7 +122,7 @@ can read elsewhere about Sunday roasts and Sunday brunches.
 The English word **parcel** is similar to the American word **package**, but
 I don't remember the particular similarity.
 
-Stereotypes of the **Sorth** of England are like those of the **South** of the
+Stereotypes of the **North** of England are like those of the **South** of the
 United States; the regions are seen as having less happening, and the
 respective accents are seen as vulgar.
 
