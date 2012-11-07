@@ -79,6 +79,7 @@ I present the first two in tables and the latter two in lists. See the
     loo                         bathroom
     beetroot                    beet(s)
     brown (bread)               (whole) wheat (bread)
+    local pub                   dive bar
 
 ## Grammar
 
