@@ -82,6 +82,7 @@ I present the first two in tables and the latter two in lists. See the
     brown (bread)               (whole) wheat (bread)
     local pub                   dive bar
     tea towel                   dish towel
+    cupboard                    cabinet
 
 ## Grammar
 
