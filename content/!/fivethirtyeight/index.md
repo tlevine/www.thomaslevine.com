@@ -10,6 +10,8 @@ If you don't feel like reading this whole post, skip to the section at the end
 called "Why are people so excited about Nate Silver's model?"
 
 ## My discovery of Nate Silver
+My discovery of Nate Silver is sort of hilarious.
+
 I first learned of Nate Silver and fivethirtyeight a few days ago from a tweet by
 Travis Swicegood referencing an article by Andrew Gelman. Before this, I hadn't
 ever heard of Nate Silver or his blog. And after reading this, I still didn't
@@ -19,7 +21,8 @@ New York Times.
 The article discussed the practical meaning of Nate Silver's probabilities but didn't
 go in to how these probabilities are computed. I figured that they must be computed
 from some crazy Bayesian model that relates newly released data to data from past
-elections. So it sounded like utter nonsense to me.
+elections; to say it less technically, I figured it must be some fancy new model.
+Because I thought it was such complex nonsense, I figured it was probably wrong.
 
 ## Recognition of Nate Silver as a pop culture phenomenon.
 I recognized over the next few days through various conversations that people see
@@ -28,22 +31,23 @@ girls want to have his babies.
 
 I also finally figured out (The [Wikipedia article]()
 was informative.) that it was a blog on the New York Times, so I read some
-of it. Most of his statistics/graphs/tables make sense to me, but I don't understand
+of it. Most of his statistics/graphs/tables make sense to me, but I didn't understand
 why the graphs at the top of prediction over time change when you switch between the 
-forecast and the nowcast.
+forecast and the nowcast. (And I still don't, so please tell me if you know.)
 
-But I still didn't understand how he arrived at his predictions.
+But I still didn't understand his model at all; how did he arrived at his predictions?
 
 ## Figuring out the model
 
 After soliciting some explanations [on Twitter]()
 and reading about Nate Silver [on the NICAR list](),
-I realized that fivethirtyeight's model was stupidly simple and was hyped up to be
-may more complex than it was.
+I finally realized that fivethirtyeight's model had been making loads of correct
+predictions for the past few years. I also realized that the model was stupidly simple
+and was hyped up to sound more complex than it was.
 
-> Nate Silver's model is simple aggregation of polls that ask which candidate people
-> plan to vote for. The simulation part can be seen as an approximation of the
-> probability that you supposedly learned in middle school.
+**Nate Silver's model is simple aggregation of polls that ask which candidate people
+plan to vote for. The simulation part can be seen as an approximation of the
+probability that you supposedly learned in middle school.**
 
 ## Merits of such simplicity
 
