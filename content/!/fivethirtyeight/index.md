@@ -1,4 +1,3 @@
-
 Fivethirtyeight and all of the talk about it is interesting, but his statistical
 model, in particular, is not. In this post, I recount the story of how I recognized
 this, I praise the boringness of his model and I ponder what the interest in such
@@ -30,9 +29,12 @@ forecast and the nowcast.
 But I still didn't understand how he arrived at his predictions.
 
 ## Figuring out the model
-A model like the nonsense I describe above might be seen as statistically complicated
-and
-novel technology.
 
-After soliciting some explanations on Twitter and reading about it on the NICAR list,
-I realized that fivethirtyeight's model
+After soliciting some explanations [on Twitter]()
+and reading about Nate Silver [on the NICAR list](),
+I realized that fivethirtyeight's model was stupidly simple and was hyped up to be
+may more complex than it was.
+
+> Nate Silver's model is simple aggregation of polls that ask which candidate people
+> plan to vote for. The simulation part can be seen as an approximation of the
+> probability that you supposedly learned in middle school.
