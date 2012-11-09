@@ -15,7 +15,7 @@ members of different the user groups, observed the space several times, read
 some relevant literature. Based on all this, we also composed a questionnaire
 and distributed it to people in several Cornell libraries.
 
-<!-- graphs -->
+![Line plot of number of people using kiosk computers over time between 3:50 and 4:50](kiosk.png)
 
 We identified key environmental qualities that may be contributing to the
 decreased use of the Dean Room. We also had some thoughts about how people use
@@ -23,6 +23,10 @@ libraries in general.
 
 The full paper is [here](poe.pdf).
 
-If you dare, you can also take a look at the
-[questionnaire](questionnaire.pdf) and its [resulting data](questionnaire-data.csv).
+All of the source code is on [Gitorious](http://gitorious.org/tlevine/dea2500).
+
+    git clone git://gitorious.org/tlevine/dea2500.git
+
+If you dare, take a look at the [questionnaire](questionnaire.pdf) and its
+[resulting data](questionnaire-data.csv).
 Here's a [summary](questionnaire-summary.pdf) of the data.
