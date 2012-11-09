@@ -6,6 +6,9 @@ model, in particular, is not. In this post,
 3. I praise the boringness of his model and
 4. I ponder what the interest in such a boring model tells us about the world in general.
 
+If you don't feel like reading this whole post, skip to the section at the end
+called "Why are people so excited about Nate Silver's model?"
+
 ## My discovery of Nate Silver
 I first learned of Nate Silver and fivethirtyeight a few days ago from a tweet by
 Travis Swicegood referencing an article by Andrew Gelman. Before this, I hadn't
@@ -58,5 +61,8 @@ But some people are excited specifically by the model. As I explain above, it is
 mathematically interesting, so why are people interested?
 
 1. Simple models are often more accurate and easier to explain.
+    (See "Merits of such simplicity".)
 2. The New York Times talked about this model as if it was some fancy new technology.
-3. People are bad at math, or at least not as good as you might expect.
+    (See "Figuring out the model".)
+3. People don't realize how simple the model is.
+
