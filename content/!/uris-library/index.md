@@ -7,7 +7,7 @@ Library administration at Cornell University recognized that one library's
 main reading room was always empty while the one across the street was always
 full. Tal Gluck and I tried to figure out why.
 
-<!-- designerly picture -->
+![Picture of a library reading room](room.jpg)
 
 We established functions and user groups for this reading room and then
 compared the library to other similar libraries. We conducted interviews with
@@ -21,5 +21,8 @@ We identified key environmental qualities that may be contributing to the
 decreased use of the Dean Room. We also had some thoughts about how people use
 libraries in general.
 
-Read our paper \ahref{\paperurl{2010_deanroom_poe.pdf}}{here}.
+The full paper is [here](poe.pdf).
 
+If you dare, you can also take a look at the
+[questionnaire](questionnaire.pdf) and its [resulting data](questionnaire-data.csv).
+Here's a [summary](questionnaire-summary.pdf) of the data.
