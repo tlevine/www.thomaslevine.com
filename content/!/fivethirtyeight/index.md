@@ -12,11 +12,13 @@ called "Why are people so excited about Nate Silver's model?"
 ## My discovery of Nate Silver
 My discovery of Nate Silver is sort of hilarious.
 
-I first learned of Nate Silver and fivethirtyeight a few days ago from a tweet by
-Travis Swicegood referencing an article by Andrew Gelman. Before this, I hadn't
-ever heard of Nate Silver or his blog. And after reading this, I still didn't
-realize that Nate Silver was so well-known or that the blog was published in the
-New York Times.
+I first learned of Nate Silver and fivethirtyeight a few days ago from a
+[tweet by Travis Swicegood](https://twitter.com/tswicegood/status/265077206223556608)
+referencing
+[an article by Alex Tabarrok](http://marginalrevolution.com/marginalrevolution/2012/11/a-bet-is-a-tax-on-bullshit.html).
+Before that, I hadn't ever heard of Nate Silver or his blog. And after reading that,
+I still didn't realize that Nate Silver was so well-known or that the blog was published
+in the New York Times.
 
 The article discussed the practical meaning of Nate Silver's probabilities but didn't
 go in to how these probabilities are computed. I figured that they must be computed
@@ -42,12 +44,14 @@ But I still didn't understand his model at all; how did he arrived at his predic
 After soliciting some explanations [on Twitter]()
 and reading about Nate Silver [on the NICAR list](),
 I finally realized that fivethirtyeight's model had been making loads of correct
-predictions for the past few years. I also realized that the model was stupidly simple
-and was hyped up to sound more complex than it was.
+predictions for the past few years. I also realized that the model was kind of simple
+but was hyped up to sound more complex than it was.
 
-**Nate Silver's model is simple aggregation of polls that ask which candidate people
-plan to vote for. The simulation part can be seen as an approximation of the
-probability that you supposedly learned in middle school.**
+At its core, Nate Silver's model is simple aggregation of polls that ask which candidate
+people plan to vote for. The simulation part can be seen as an approximation of the
+probability that you supposedly learned in middle school. He apparently does some
+slightly fancier things to combine polls from different companies over time, and he uses
+some demographic data.
 
 ## Merits of such simplicity
 
