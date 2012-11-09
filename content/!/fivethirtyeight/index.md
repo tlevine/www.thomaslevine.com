@@ -1,7 +1,10 @@
 Fivethirtyeight and all of the talk about it is interesting, but his statistical
-model, in particular, is not. In this post, I recount the story of how I recognized
-this, I praise the boringness of his model and I ponder what the interest in such
-a boring model tells us about the world in general.
+model, in particular, is not. In this post,
+
+1. I recount the story of how I recognized this,
+2. I explain how the model works,
+3. I praise the boringness of his model and
+4. I ponder what the interest in such a boring model tells us about the world in general.
 
 ## My discovery of Nate Silver
 I first learned of Nate Silver and fivethirtyeight a few days ago from a tweet by
@@ -38,3 +41,22 @@ may more complex than it was.
 > Nate Silver's model is simple aggregation of polls that ask which candidate people
 > plan to vote for. The simulation part can be seen as an approximation of the
 > probability that you supposedly learned in middle school.
+
+## Merits of such simplicity
+
+
+## Why are people so excited about Nate Silver's model?
+
+There are loads of reasons why you might love Nate Silver's blog. For example, it is
+quite wonderful that everyone can have access to such easy-to-read, visual
+presentations; any old person can take a look and get an idea of what's going on,
+and that is valuable. People also see this as a victory for science or statistics;
+it demonstrates that numbers and thought might sometimes be right. (Without the
+weasel-words, I would see that last sentence as non-scientific.)
+
+But some people are excited specifically by the model. As I explain above, it is not
+mathematically interesting, so why are people interested?
+
+1. Simple models are often more accurate and easier to explain.
+2. The New York Times talked about this model as if it was some fancy new technology.
+3. People are bad at math, or at least not as good as you might expect.
