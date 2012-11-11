@@ -1,7 +1,7 @@
 ---
 title: CentOS cluster slaves
 kind: article
-created_at: 2012-01-02
+created_at: 2012-10-29
 ---
 I'm setting up workers for my cluster to be accessed from R. I got a VPS from
 NodeDeploy and found CentOS easiest to install. Here's the extra configuration
