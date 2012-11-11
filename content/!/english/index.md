@@ -83,6 +83,7 @@ I present the first two in tables and the latter two in lists. See the
     local pub                   dive bar
     tea towel                   dish towel
     cupboard                    cabinet
+    data dictionary             codebook
 
 ## Grammar
 
