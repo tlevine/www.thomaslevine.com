@@ -58,6 +58,46 @@ each-other.
 I'll define "data science" by relating it to "statistics" and to software
 engineering. Let's start with the comparison with "statistics".
 
+#### "Data science" and "statistics"
+The statistical methods used in "data science" and "big data" seem quite
+unsophisticated compared to those used in "statistics".
+
+Often, it's just search. For example, the data team at [La Nación]()
+showed me how they're acquiring loads of documents and allowing journalists to
+search them. I'm sure that they'll eventually start doing crude quantitative
+analyses on the overall document sets, but even the search has already been
+valuable.
+
+The quantitative analyses that do happen are still quite simple. Consider
+the FourSquare checkin analyses that a couple people from FourSquare showed at
+DataGotham. It was mostly scatterplots of checkins on top of a map and
+sometimes played over time. They touched on the models they were using to
+guess the location to which someone wanted to check in, but the main points of
+their talks were the knowledge that we gain by looking at checkin histories,
+and these simple plots were more helpful for conveying this.
+
+These "data" fields are more concerned about consuming and practically
+applying gobs of data than they are about modeling the data.
+
+#### "Data science" and "software engineering"
+The products of "software engineering" tend to be tools, and the products of
+"data science" tend to be knowledge. I've broken that distinction into some
+technical components. Nota bene: These components exaggerate the differences.
+
+**Realtime v. batch**: If something is "realtime", it is the result of
+"software engineering"; "data science" is always batch. (Let's avoid worrying
+too much about what "realtime" means. I happen to take "realtime" to mean push
+rather than pull, but this claim should work for any reasonable definition of
+"realtime".)
+
+**Organization**: "Data scientists" are embedded within organizations that have
+questions about data (typically about their own data, though that depends on
+how we think of ownership). Consider any hip web startup with a large database.
+"Software engineers", on the other hand, make products to be used by other
+organizations or by other departments within a large organization. Consider
+any hip web startup ever. Also consider some teams within large companies; I
+know someone who worked at Google as a "software engineer" to write code for
+packaging ChromeBooks.
 
 ### Conflating "data science" and "big data"
 Some people conflate "data science" and "big data". For some definitions of
