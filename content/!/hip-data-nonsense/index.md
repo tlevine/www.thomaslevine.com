@@ -23,6 +23,8 @@ Other people propose thresholds, like when the data don't fit in random-access
 memory or when the data don't fit on one computer. (Some talk at Strata NY 2011
 used this one.) More generally, we might say that data are "big" when they
 don't physically fit the world's standard data analysis tool, [Excel](/!/excel/).
+When this happens, you need to know something more about computers in order to
+store and analyze the data.
 
 Judging data-bigness by physical size works today, but the size that seems big
 today is different from what seemed big twenty years ago and from what will
@@ -57,8 +59,20 @@ I'll define "data science" by relating it to "statistics" and to software
 engineering. Let's start with the comparison with "statistics".
 
 
-### Relationships among these terms
+### Conflating "data science" and "big data"
 Some people conflate "data science" and "big data". For some definitions of
-these two phrases, the conflation makes perfect sense, particularly
+these two phrases, the conflation makes perfect sense, like when "big data"
+means that the data are big enough that you need to know something about
+computers.
 
+Some people are more concerned with "data science" than they are with "big
+data", and vice-versa. For example, "big data" is much talked-about at Strata,
+but "data science" isn't discussed as much. I sort of think that "big data"
+is buzzier and more popular among the marketing departments.
 
+On the other hand, "data science" is more common among people I hang out with,
+and we don't seem to talk about "big data" very much. Part of this is that we
+can do useful things with small datasets too. But I feel like we don't talk
+about "big data" even when a dataset gets large. It might be that we want some
+word to describe what we do. "Statistician" and "computer stuff" aren't close
+enough; "big data" might do just fine for this.
