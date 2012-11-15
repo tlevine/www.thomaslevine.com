@@ -7,8 +7,15 @@ kind: article
 I've been at loads of hip and non-hip data talks here and there and have come
 up with some ideas about what this data nonsense is.
 
-"Big data"
----
+## Terms
+I think that "big data" and "data science" are usually defined such that the
+person defining the term is using it. For example,
+
+> line from the DataKind EMC video
+
+But these terms do seem to be somewhat meaningful sometimes.
+
+### "Big data"
 When people describe something as "big data", the thing is usually physically
 big (in bytes). So a petabyte of data would might be big data.
 
@@ -39,3 +46,19 @@ to take part in the data collection. Today, we already have all of our emails,
 Twitter posts and other internet presense in reasonably standard digital
 formats, so this process is much more automatic. I thus propose that automation
 of data collection is part of the big data thing.
+
+### "Data science"
+What is "data science"? It broadly seems to be some combination of "statistics"
+and "computer engineering". They're in quotes because they're all stupidly
+ambiguous and because I don't feel like defining them except in relation to
+each-other.
+
+I'll define "data science" by relating it to "statistics" and to software
+engineering. Let's start with the comparison with "statistics".
+
+
+### Relationships among these terms
+Some people conflate "data science" and "big data". For some definitions of
+these two phrases, the conflation makes perfect sense, particularly
+
+
