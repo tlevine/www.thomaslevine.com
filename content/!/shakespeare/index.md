@@ -4,8 +4,9 @@ created_at: 2012-11-17
 kind: article
 ---
 I want to perform a play on the internet. People seem to like the idea.
-http://www.facebook.com/perluette/posts/2193579043716
-https://twitter.com/thomaslevine/status/269907498755047425
+
+* http://www.facebook.com/perluette/posts/2193579043716
+* https://twitter.com/thomaslevine/status/269907498755047425
 
 ## Concept
 Characters/actors post in an internet channel instead of acting on a stage.
