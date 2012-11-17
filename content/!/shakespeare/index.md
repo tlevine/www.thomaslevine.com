@@ -45,7 +45,8 @@ to really rehearse this, so I think the only other thing is the performance.
 
 I have some questions.
 
-1. Does this general idea sound interesting?
+1. Does this general idea sound interesting? Or were you expecting something
+    else?
 2. Would you act in it?
 3. Does anyone want to work with me on the planning part? I think it would
     help to have someone who knows something about conventional theater.
