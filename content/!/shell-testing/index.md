@@ -1,22 +1,40 @@
 ---
-title: Big Data Ergonomics
-created_at: 2012-10-30
+title: Shell Testing
+created_at: 2012-12-01
 kind: article
 ---
-Discuss shell testing approaches
+Extreme hipster superheroes like me need tests for their shell. Here's what's
+available.
 
-* No automated testing
+## YOLO: No automated testing
+Few shell scripts have any automated testing because shell programmers live
+life on the edge. Inevitably, this results in tedious manual 'testing'. Here
+are some projects that use this approach
+
+## Indecision: Automated commands with manual human review
+
+* [git-achievements]()
+https://github.com/icefox/git-achievements/blob/9a8921e5a6fbf6adf2c20d34165d9269b693e40a/test/testscript
+
+## Simple assertion functions
+This is often a bespoke artisinal function written for a specific project.
+
 * custom (rvm, treegit, )
 * https://code.google.com/p/shunit2/
-* http://bmizerany.github.com/roundup/
+
+## Protocals
+
+* https://github.com/apenwarr/wvtest/blob/master/sh/t/twvtest.sh
 * http://testanything.org/wiki/index.php/Tap-functions
+
+## Designed for the shell
+
+* http://bmizerany.github.com/roundup/
 * urchin
 
-## Distinctions
-Testing stdout or arbitrary tests
+Distinguishing among frameworks
 
-Test functions
-
-Specifying stdin
-
-Urchin's API is files rather than functions.
+* Testing stdout or arbitrary tests
+* Test functions
+* Specifying stdin
+* Urchin's API is files rather than functions.
