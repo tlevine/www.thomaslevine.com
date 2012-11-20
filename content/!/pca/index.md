@@ -47,6 +47,8 @@ In the new system it has an *x* value of 13 and a *y* value of 0,
 
 ![A scatterplot with the rotated axes and the same red point](5.png)
 
+That's how PCA works, but **what does it tell us**?
+
 Remember, we're thinking of this plot as a map of the houses in a town. Without
 losing precision, we could decide to switch to the new coordinate system.
 Instead of using north-south and east-west as the axes, we could use
@@ -64,12 +66,12 @@ Based on that, let's come up with better names for these new axes; let's call
 the new *x*-axis "location along the river", and let's call the new *y*-axis
 "distance from the river".
 
-The PCA has helped us find this line along which the houses stand. This was
+The PCA has helped us **find this line** along which the houses stand. This was
 already obvious because we only had two variables and were thus able to plot
 them on a map; similar relationships are less obvious when you have 80
 variables. That alone is useful.
 
-But another benefit is that PCA lets us reduce the number of variables. We
+But another benefit is that PCA lets us **reduce the number of variables**. We
 started with east and west as the two variables, but it turns out that people
 tend to live close to the river, so we might be able to get away with just
 using the "location along the river" variable for future analyses. Having just
