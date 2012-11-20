@@ -34,7 +34,7 @@ This approach is somewhat standard in other languages. Write functions inside
 of files or classes, and run assertions within those functions. Failed
 assertions and other errors are caught and raised.
 
-[Roundup](http://bmizerany.github.com/roundup/) lets you define tests as
+In [Roundup](http://bmizerany.github.com/roundup/), test cases are
 functions, and their return code determines whether the test passes. Shell
 already has a nice assertion function called `test`, so Roundup doesn't need
 to implement its own. It also helps you structure your tests; you can use the
@@ -71,11 +71,11 @@ and [treegit](https://github.com/tlevine/treegit/blob/master/tests).
 Assertion libraries are common and reasonable in other languages, but I don't
 think they work as well for shell. Shell uses a bizarre concept of input and
 output, so the sort of assertion functions that work in other languages don't
-feel natural to me in shell.
+feel natural to me in shell; shell thinks differently.
+
+In [urchin](http://www.urchin.sh), test cases are files
 
 [cmdtest](http://liw.fi/cmdtest/) is 
-
-* urchin
 
 
 nvm and lithium and urchin and ?
@@ -97,3 +97,8 @@ Some general ways of categorizing these frameworks? Maybe?
 * Urchin's API is files rather than functions.
 
 Conclusionary conclusion
+
+
+1. If you are writing anything complicated in shell, it could probably use some tests.
+2. If you are testing 
+You should write your tests in
