@@ -66,7 +66,7 @@ Based on that, let's come up with better names for these new axes; let's call
 the new *x*-axis "location along the river", and let's call the new *y*-axis
 "distance from the river".
 
-The PCA has helped us **find this line** along which the houses stand. This was
+The PCA has helped us find this line along which the houses stand. This was
 already obvious because we only had two variables and were thus able to plot
 them on a map; similar relationships are less obvious when you have 80
 variables. That alone is useful.
