@@ -42,8 +42,8 @@ point from the old coordinate system.
 
 ![A scatterplot with a red point at (12, 6)](4.png)
 
-In the new system it has an *x* value of 13 and a *y* value of 0,
-(I'm rounding.) so it would be (13, 0).
+In the new system it has an *x* value of 8 and a *y* value of -1,
+so it would be (8, -1).
 
 ![A scatterplot with the rotated axes and the same red point](5.png)
 
