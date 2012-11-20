@@ -67,6 +67,12 @@ often specially crafted for a specific projects. This is the case for
 [bash-toolbox](https://github.com/codigorama/bash-toolbox/blob/master/lib/asserts.sh)
 and [treegit](https://github.com/tlevine/treegit/blob/master/tests).
 
+Implementing your own framework like this is pretty simple; the main thing you
+need to know is that `$?` gives you the exit code of the previous command, so
+something like this will tell you whether the previous command passed.
+
+    [ "$?" = '0' ]
+
 ## Ironic elegance: Design for the shell
 Assertion libraries are common and reasonable in other languages, but I don't
 think they work as well for shell. Shell uses a bizarre concept of input and
@@ -77,8 +83,9 @@ In [Urchin](http://www.urchin.sh), test cases are executable files. A test
 passes if its exit code is 0. You can define setup and teardown procedures;
 these are also files. For an example of Urchin tests, check out
 [nvm](https://github.com/creationix/nvm/tree/master/test/fast).
+(By the way, I wrote both Urchin and the nvm tests.)
 
-In [cmdtest](http://liw.fi/cmdtest/), one test case spans multiple file.
+In [cmdtest](http://liw.fi/cmdtest/), one test case spans multiple files.
 Minimally, you provide the test script, but you can also provide files for the
 stdin, the intended stdout, the intended stderr and the intended exit code.
 Like in urchin, the setup and teardown procedures are files.
@@ -112,4 +119,10 @@ side-effect, you make a subdirectory, put the command of interest in the
 Urchin is also easier to install; it's just a shell script.
 
 I recommend cmdtest if you are mainly testing input and output; otherwise, I
-recommend Urchin.
+recommend Urchin. If you are working on a very simple project, you might also
+consider writing your own framework.
+
+For whatever reason, test-driven development is mainstream in other languages
+but uncommon in shell. Nobody does test-driven development in shell, so all of
+these approaches are ahead of the curve. A hip programmer like you should be
+testing his shell scripts **now**, before shell testing gets big.
