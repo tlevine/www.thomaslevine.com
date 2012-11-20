@@ -29,30 +29,51 @@ actually living multiple times. Here are some examples.
 * [git-achievements](https://github.com/icefox/git-achievements/blob/9a8921e5a6fbf6adf2c20d34165d9269b693e40a/test/testscript).
 * [xcat](http://sourceforge.net/apps/mediawiki/xcat/index.php?title=Programming_Tips#Testing_Man_Pages)
 
-## Mainstream: Assertion functions
+## Mainstream: Test cases are functions
 This approach is somewhat standard in other languages. Write functions inside
 of files or classes, and run assertions within those functions. Failed
-assertions and other errors are caught and raised. There is a 
-[shunit](https://code.google.com/p/shunit2/), and some projects use it.
+assertions and other errors are caught and raised.
 
-* [git-ftp](https://github.com/resmo/git-ftp/blob/develop/tests/git-ftp-test.sh)
+[Roundup](http://bmizerany.github.com/roundup/) lets you define tests as
+functions, and their return code determines whether the test passes. Shell
+already has a nice assertion function called `test`, so Roundup doesn't need
+to implement its own. It also helps you structure your tests; you can use the
+`describe` function to name your tests, and you can define `before` and `after`
+functions to be run before and after test cases, respectively. For an example
+of roundup in action, check out [spark](https://github.com/holman/spark/blob/master/spark-test.sh)
 
-But this is often an artisinal function, specially crafted for a specific project.
+[shunit](https://code.google.com/p/shunit2/) is similar. One notable difference
+is that it defines its own assertion functions, like `assertEquals` and
+`assertFalse` [git-ftp](https://github.com/resmo/git-ftp/blob/develop/tests/git-ftp-test.sh)
+uses it.
 
-* [treegit](https://github.com/tlevine/treegit/blob/master/tests)
-* [bash-toolbox](https://github.com/codigorama/bash-toolbox/blob/master/lib/asserts.sh)
+There are some language-agnostic protocals with assertion libraries in multiple
+languages. The idea is that you can combine test results from several
+languages. I guess this is more of a big deal for shell than for other
+languages because shell is likely to be used for a small componend of a project
+that mostly uses another language.
+[WvTest](https://github.com/apenwarr/wvtest/blob/master/sh/t/twvtest.sh) and
+[Test Anything Protocal](http://testanything.org/wiki/index.php/Tap-functions)
+(This site is down for me right now.) are examples of that.
 
-## Protocals
+Even though all of these frameworks exist, the artisinal test frameworks are
+often specially crafted for a specific projects. This is the case for
+[bash-toolbox](https://github.com/codigorama/bash-toolbox/blob/master/lib/asserts.sh)
+and [treegit](https://github.com/tlevine/treegit/blob/master/tests).
 
-* https://github.com/apenwarr/wvtest/blob/master/sh/t/twvtest.sh
-* http://testanything.org/wiki/index.php/Tap-functions
+## Ironic elegance: Design for the shell
+Assertion libraries are common and reasonable in other languages, but I don't
+think they work as well for shell. Shell uses a bizarre concept of input and
+output, so the sort of assertion functions that work in other languages don't
+feel natural to me in shell.
 
-## Design for the shell
+[tf](https://github.com/mpapis/tf) provides some special shell-style assertions
+that are specified as shell comments. Rather than just testing status codes or
+stdout, you can test
+* rvm uses it https://github.com/wayneeseguin/rvm-test
 
-* [tf](https://github.com/mpapis/tf)
-  * rvm uses it https://github.com/wayneeseguin/rvm-test
-* http://bmizerany.github.com/roundup/
-  * spark uses this https://github.com/holman/spark/blob/master/spark-test.sh
+http://liw.fi/cmdtest/
+
 * urchin
 
 
