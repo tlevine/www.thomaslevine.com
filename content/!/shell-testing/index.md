@@ -47,6 +47,12 @@ is that it defines its own assertion functions, like `assertEquals` and
 `assertFalse` [git-ftp](https://github.com/resmo/git-ftp/blob/develop/tests/git-ftp-test.sh)
 uses it.
 
+[tf](https://github.com/mpapis/tf) is also similar, but it is cool because it
+provides some special shell-style assertions ("Matchers") that are specified as
+shell comments. Rather than just testing status codes or stdout, you can also
+test environment characteristics, and you can test multiple properties of one
+command. [rvm](https://github.com/wayneeseguin/rvm-test) uses it.
+
 There are some language-agnostic protocals with assertion libraries in multiple
 languages. The idea is that you can combine test results from several
 languages. I guess this is more of a big deal for shell than for other
@@ -67,12 +73,7 @@ think they work as well for shell. Shell uses a bizarre concept of input and
 output, so the sort of assertion functions that work in other languages don't
 feel natural to me in shell.
 
-[tf](https://github.com/mpapis/tf) provides some special shell-style assertions
-that are specified as shell comments. Rather than just testing status codes or
-stdout, you can test
-* rvm uses it https://github.com/wayneeseguin/rvm-test
-
-http://liw.fi/cmdtest/
+[cmdtest](http://liw.fi/cmdtest/) is 
 
 * urchin
 
