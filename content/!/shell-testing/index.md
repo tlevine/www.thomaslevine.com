@@ -73,32 +73,43 @@ think they work as well for shell. Shell uses a bizarre concept of input and
 output, so the sort of assertion functions that work in other languages don't
 feel natural to me in shell; shell thinks differently.
 
-In [urchin](http://www.urchin.sh), test cases are files
+In [Urchin](http://www.urchin.sh), test cases are executable files. A test
+passes if its exit code is 0. You can define setup and teardown procedures;
+these are also files. For an example of Urchin tests, check out
+[nvm](https://github.com/creationix/nvm/tree/master/test/fast).
 
-[cmdtest](http://liw.fi/cmdtest/) is 
+In [cmdtest](http://liw.fi/cmdtest/), one test case spans multiple file.
+Minimally, you provide the test script, but you can also provide files for the
+stdin, the intended stdout, the intended stderr and the intended exit code.
+Like in urchin, the setup and teardown procedures are files.
 
+The fundamental similarity that I see between Urchin and cmdtest is that they
+are based on files rather than functions; this is totally the shell way to do
+things. There are obviously other similarities between these two frameworks,
+but I think most of the other similarities can be seen as stemming from the
+file basis of test cases.
 
-nvm and lithium and urchin and ?
+Here's one particularly cool feature that might not be obvious.
+Earlier, I mentioned some protocals for testing in multiple languages. I found
+them somewhat strange because I see shell as the standard interface between
+languages. In Urchin and cmdtest, test cases are just files, so you can
+actually use these frameworks to test code written in any language.
 
-## Final thoughts
-blah blah
+## Which framework should I use?
+If you are writing anything complicated in shell, it could probably use some
+tests. For the simplest tests, writing your own framework is fine, but for
+anything complicated, I recommend either Urchin or cmdtest. You'll want to use
+a different one depending on your project.
 
-Note that you can always test one language in another. This is quite ugly in
-most languages, but testing other languages from shell isn't so bad. For most
-of the approaches above, you'd just run the other-language program from the
-test case. In urchin, you can even write the test in the other language and
-return an appropriate exit code.
+cmdtest makes it easy to specify inputs and test outputs, but it doesn't have
+a special way of testing what files have changed. Also, the installation is a
+bit more involved.
 
-Some general ways of categorizing these frameworks? Maybe?
+Urchin doesn't help you at all with outputs, but it makes testing side-effects
+easier. In urchin, you can nest tests inside of directories; to test a
+side-effect, you make a subdirectory, put the command of interest in the
+`setup_dir` file and then test your side effects in your test files.
+Urchin is also easier to install; it's just a shell script.
 
-* Testing stdout or arbitrary tests
-* Test functions
-* Specifying stdin
-* Urchin's API is files rather than functions.
-
-Conclusionary conclusion
-
-
-1. If you are writing anything complicated in shell, it could probably use some tests.
-2. If you are testing 
-You should write your tests in
+I recommend cmdtest if you are mainly testing input and output; otherwise, I
+recommend Urchin.
