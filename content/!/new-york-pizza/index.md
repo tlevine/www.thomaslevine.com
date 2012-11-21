@@ -8,7 +8,7 @@ I hadn't eaten much New York pizza, so I asked
 [a list](pizza.txt), but it didn't have addresses, so I found the addresses and
 plotted them on a map.
 
-<iframe src='https://tlevine.cartodb.com/tables/new_york_pizza/embed_map'>
+<iframe src='https://tlevine.cartodb.com/tables/new_york_pizza/embed_map' height="589px">
   <img src='preview.png' alt = 'A preview of the map'>
 </iframe>
 
