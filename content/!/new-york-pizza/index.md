@@ -5,8 +5,9 @@ kind: article
 ---
 I hadn't eaten much New York pizza, so I asked
 [Jared Lander](http://www.jaredlander.com) for some recommendations. He gave me
-a list, grouped by expertly chosen categories. I needed to know which one was
-closest to me at any given time, so I found the addresses and plotted them on a map.
+a list of 22 establishments grouped by expertly chosen categories. I needed to
+know which one was closest to me at any given time, so I found the addresses
+and plotted them on a map.
 
 <iframe src='https://tlevine.cartodb.com/tables/new_york_pizza/embed_map' height="589px">
   <img src='preview.png' alt = 'A preview of the map'>
