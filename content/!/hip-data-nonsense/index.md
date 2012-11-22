@@ -4,9 +4,7 @@ created_at: 2012-11-15
 kind: article
 ---
 I think that "big data" and "data science" are usually defined such that the
-person defining the term is using it. For example,
-
-> line from the DataKind EMC video
+person defining the term is using it.
 
 But these terms do seem to be somewhat meaningful sometimes. I've been at loads
 of hip and non-hip data talks here and there and have come up with some ideas
@@ -15,7 +13,7 @@ describe how the terms "big data" and "data science" are used these days.
 
 ## "Big data"
 When people describe something as "big data", the thing is usually physically
-big (in bytes). So a petabyte of data would might be big data.
+big (in bytes). So a petabyte of data would might be big data, at least today.
 
 Other people propose thresholds, like when the data don't fit in random-access
 memory or when the data don't fit on one computer. (Some talk at Strata NY 2011
@@ -34,7 +32,7 @@ becomes less expensive to store data than it is to decide whether to delete
 the data. We've recently moved from filing cabinets and libraries all the
 way to Hadoop clusters and
 [low-power hard drives](http://aws.amazon.com/glacier/), so it recently has
-become reasonable to just save anything. Or so this guy might say.
+become reasonable to just save anything.
 
 Where do all of these data come from? I think part of this big data thing is
 that the data are collected more automatically than they were before. Before
@@ -64,7 +62,7 @@ Often, it's just search. For example, the data team at [La Nación]()
 showed me how they're acquiring loads of documents and allowing journalists to
 search them. I'm sure that they'll eventually start doing crude quantitative
 analyses on the overall document sets, but even the search has already been
-valuable.
+valuable. Their team is, of course "data journalism", 
 
 The quantitative analyses that do happen are still quite simple. Consider
 the FourSquare checkin analyses that a couple people from FourSquare showed at
@@ -74,7 +72,12 @@ guess the location to which someone wanted to check in, but the main points of
 their talks were the knowledge that we gain by looking at checkin histories,
 and these simple plots were more helpful for conveying this.
 
-These "data" fields are more concerned about consuming and practically
+In other cases, "data science" simply implies "machine learning". Compared to
+"statistics", I think "machine learning" just implies a focus on prediction
+rather than inference.
+
+The "statistics" fields seem to do more complex models on simpler datasets,
+and these "data" fields are more concerned with consuming and practically
 applying gobs of data than they are about modeling the data.
 
 ### "Data science" and "software engineering"
@@ -114,3 +117,13 @@ can do useful things with small datasets too. But I feel like we don't talk
 about "big data" even when a dataset gets large. It might be that we want some
 word to describe what we do. "Statistician" and "computer stuff" aren't close
 enough; "big data" might do just fine for this.
+
+## Utility of these definitions
+Consider taking everything I said with a grain of salt. First, most of my
+knowledge of how companies work is second-hand. Second, in order to explain
+these vague differences, I used examples that may have made the differences
+seem more clear than they are.
+
+On the other hand, I intended for these definitions to be descriptive rather
+than prescriptive, so they might be more useful than some other definitions
+that you've heard.
