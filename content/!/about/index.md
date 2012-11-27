@@ -1,3 +1,7 @@
+## About Thomas Levine
+Thomas Levine avoids telling you about hiw, so here are some things
+that other people say about him.
+
 > Thomas Levine is a unique and special snowflake!
 
 [Nicola Hughes](http://www.guardian.co.uk/profile/nicola-hughes) <!-- notmuch show thread:00000000000215a7 -->
@@ -23,3 +27,12 @@ Silviana Russo <!-- notmuch show thread:0000000000000290 -->
 [Jake Porway](http://jakeporway.com/)
 at [DataGotham](http://www.youtube.com/watch?v=rluDDbzX5S4) and
 [Strata London 2012](http://www.youtube.com/watch?v=5dnSamOwpmI)
+
+## About this site
+Tom didn't put much thought into this site; it works decently for him, but
+other people seem to have lots of trouble finding things on it, particularly
+his email address.
+
+Thomas Levine reads the text before images and he doesn't really pay attention
+to images unless he is explicitly told to do so, so he has avoided putting many
+images on the site.
