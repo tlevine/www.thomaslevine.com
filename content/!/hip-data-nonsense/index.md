@@ -18,7 +18,7 @@ big (in bytes). So a petabyte of data would might be big data, at least today.
 Other people propose thresholds, like when the data don't fit in random-access
 memory or when the data don't fit on one computer. (Some talk at Strata NY 2011
 used this one.) More generally, we might say that data are "big" when they
-don't physically fit the world's standard data analysis tool, [Excel](/!/excel/).
+don't physically fit the world's standard data analysis tool, [Excel](http://blog.scraperwiki.com/2012/07/31/do-all-analysts-use-excel/).
 When this happens, you need to know something more about computers in order to
 store and analyze the data.
 
