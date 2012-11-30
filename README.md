@@ -1,3 +1,7 @@
+This is based on jingoro's nanoc-html5boilerplate
+
+    git://github.com/jingoro/nanoc-html5boilerplate.git
+
 ## To do
 
 + Add the email address javascript.
