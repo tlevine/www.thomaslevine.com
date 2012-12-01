@@ -1,4 +1,6 @@
-## About Thomas Levine
+---
+title: About Thomas Levine
+---
 Thomas Levine avoids telling you about hiw, so here are some things
 that other people say about him.
 
