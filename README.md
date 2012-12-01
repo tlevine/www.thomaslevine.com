@@ -5,7 +5,8 @@ This is based on jingoro's nanoc-html5boilerplate
 ## Styles
 
 ### Cards
-Each page is composed of one `big-card` and several `little-card` boxes.
+Each page is composed of one `big-card`, several `little-card` boxes and
+possibly an `article` box.
 A `big-card` is 336 pixels by 168 pixels, with 28-pixel padding and 14-pixel margin.
 a `little-card` is 84 pixels square, with 14-pixel padding and 14-pixel margin.
 A `big-card` takes a full line, and three `little-card` boxes fit on one line.
@@ -29,7 +30,14 @@ On the blog category pages, the second is up to three `little-card` boxes, one
 for each of three blog categories. Each one is a different color, according to
 the section's color.
 
-The second row is always the `big-card` box.
+The next row is always the `big-card` box.
+
+On blog posts, the`big-card` is followed by an `article`. After the article are
+two `little-cards`, with an empty space in the middle. One links to the previous
+post, and the other links to the next post.
+
+On other pages, the `big-card` is followed by a bunch of `little-card` boxes
+that link to different places.
 
 ### Sections
 The main blog is at `/!/` and contains a box for each post. Special sections
