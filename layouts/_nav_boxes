@@ -1,20 +1,12 @@
-%nav
-  %ul
-    %a{ :href => "/" }
-      %li.nav-char
-        %div ~
+%ul.nobullet
+  %a{ :href => "/" }
+    %li.link
+      %div ~
 
-    %a{ :href => '/!/' }
-      %li.nav-char
-        %div !
+  %a{ :href => '/!/' }
+    %li.link
+      %div !
 
-    %a{ :href => "/!/about" }
-      %li.nav-char.bar
-        %div ?
-
--#Interesting characters
--# ? &
--# ☮
--# ☎ ☏
--# ✒ ✑
--# ⚛ ⚠ ⚡
+  %a{ :href => "/!/about" }
+    %li.link
+      %div ?

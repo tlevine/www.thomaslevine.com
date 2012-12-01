@@ -38,31 +38,6 @@ header, footer, #main
 span.home-char
   display: none
 
-$nav-card-gap: 0.65
-$nav-width: $topic-card-width + $nav-card-gap
-$nav-card-width: ($topic-card-width - $nav-card-gap) / 2
-
-nav
-  display: block
-  width: $nav-width * $square
-  margin:
-    left: auto
-    right: auto
-  height: ( $nav-card-width + 0.5 ) * $square
-
-  // Navigation icons
-  li.nav-char
-    @extend .box
-    float: left
-    width: $nav-card-width * $square
-    height: $nav-card-width * $square
-    padding: 0
-    margin: $nav-card-gap/2 * $square
-
-    font-size: 350%
-    line-height: 135%
-    text-align: center
-
 a
   color: inherit
   text-decoration: inherit
@@ -78,11 +53,9 @@ a
 .logo, .logo *
   width: 100%
 
-
-
-
 // Base classes =========================================== //
 .base-card
+  text-align: center
   background: white
   margin:
     top: 0.5 * $square
@@ -92,23 +65,28 @@ a
   padding: 0.5 * $square
 
 .base-big-card
+  @extend .base-card
+  width: $calling-card-short
+  height: $calling-card-long
+  padding: $square
 
 .base-little-card
+  @extend .base-card
+  width: ($topic-card-width - 1) * $square
+  height: ($topic-card-width - 1) * $square
+
+// Navigation ============================================= //
+
+// Make the top and bottom of the page have the same margin as everything else.
+nav, #categories, #pagination
+  margin-top: 0.5 * $square
+  margin-bottom: 0.5 * $square
 
 // Big-cards ============================================== //
 
 // The calling card
 .business-card
-  @extend .box
-  padding: $square
-
-  // Standard business card size
-  width: $calling-card-short
-  height: $calling-card-long
-
-  // Golden ratio
-  // height: 12 * $square
-
+  @extend .base-big-card
   .social
     width: 6em
     margin:
@@ -132,6 +110,9 @@ a
     margin-top: 1 * $square
 
 .title-card
+  @extend .base-big-card
+  font-size: 6em
+  line-height: 3 * $square
 
 
 // Little-cards =========================================== //
@@ -139,12 +120,19 @@ a
 
 // One big link
 .link
+  @extend .base-little-card
+
+#links .link
+  font-size: 2em
+  line-height: $square
+
+nav .link, #categories .link
+  font-size: 6em
+  line-height: 3 * $square
 
 // Several small links
 .link-group
-  @extend .box
-  width: ($topic-card-width - 1) * $square
-  height: ($topic-card-width - 1) * $square
+  @extend .base-little-card
   ul
     @extend ul.nobullet
 
@@ -153,7 +141,7 @@ a
 
 // A blog post
 article
-  @extend .box
+  @extend .base-card
   width: 90%
   max-width: 28 * $square
   margin:
@@ -188,17 +176,13 @@ article
       right: auto
     border: none
 
-#links
-  text-align: center
-
-#pagination
 
 
 @media screen and (min-width: 640px)
-  #contact, #topics 
+  .title-card, .business-card
     text-align: left
 
-  #contact
+  .title-card, .business-card
     width: $calling-card-long
     height: $calling-card-short
 
@@ -216,13 +200,16 @@ article
       ul
         width: 12em
 
-  #topics
+  nav, #categories
+    height: ($topic-card-width + 1) * $square
+
+  nav, #categories, #links, #pagination
     width: 15 * $square
     margin:
       left: auto
       right: auto
   
-  .topic
+  .link, .link-group
     float: left
     margin:
       left: 0.5 * $square
