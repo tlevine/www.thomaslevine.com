@@ -2,6 +2,19 @@ This is based on jingoro's nanoc-html5boilerplate
 
     git://github.com/jingoro/nanoc-html5boilerplate.git
 
+## Styles
+Each page is composed of one `big-card` and several `little-card` boxes.
+A `big-card` is 336 pixels by 168 pixels, with 28-pixel padding and 14-pixel margin.
+a `little-card` is 84 pixels square, with 14-pixel padding and 14-pixel margin.
+A `big-card` takes a full line, and three `little-card` boxes fit on one line.
+Each line is centered to the page.
+
+A big card contains either a business card or a title.
+On the index page (`/`), the big card is a business card.
+On the index page for a particular blog section (`/!/`, `/scarsdale/`, &c.),
+the big card is the title of the section.
+On a blog post, the big card is the title of the blog post.
+
 ## To do
 
 + Add the email address javascript.
@@ -32,25 +45,3 @@ This is based on jingoro's nanoc-html5boilerplate
     nanoc compile
 
 You can view the skeleton site by browsing the generated `output/index.html` file.
-
-# Extra Functionality
-
-- [jQuery](http://jquery.com/)
-- [Haml](http://haml-lang.com/)
-- [Sass](http://sass-lang.com/)
-- [Compass](http://compass-style.org/)
-- [Markdown](https://github.com/gettalong/kramdown)
-- [Cache busting](https://github.com/avdgaag/nanoc-cachebuster)
-- [Image compression](https://github.com/jingoro/nanoc-image-compressor)
-- [Javascript concatenation](https://github.com/jingoro/nanoc-javascript-concatenator)
-- [Javascript minification](https://github.com/lautis/uglifier)
-
-# License
-
-Public domain
-
-# Todo
-
-- CSS fingerprinting doesn't seem to work...
-- Improve dependency tracking for cache busting
-- Option to turn on/off minification
