@@ -8,15 +8,6 @@ $topic-card-width: 4
   margin: 0
   padding: 0
 
-.box
-  background: white
-  margin:
-    top: 0.5 * $square
-    bottom: 0.5 * $square
-    left: auto
-    right: auto
-  padding: 0.5 * $square
-
 // General stuff
 p, h1, h2, h3, h4, h5
   font: inherit
@@ -87,8 +78,27 @@ a
 .logo, .logo *
   width: 100%
 
+
+
+
+// Base classes =========================================== //
+.base-card
+  background: white
+  margin:
+    top: 0.5 * $square
+    bottom: 0.5 * $square
+    left: auto
+    right: auto
+  padding: 0.5 * $square
+
+.base-big-card
+
+.base-little-card
+
+// Big-cards ============================================== //
+
 // The calling card
-#contact
+.business-card
   @extend .box
   padding: $square
 
@@ -121,13 +131,25 @@ a
   .logo
     margin-top: 1 * $square
 
-// The small boxes
-.topic
+.title-card
+
+
+// Little-cards =========================================== //
+
+
+// One big link
+.link
+
+// Several small links
+.link-group
   @extend .box
   width: ($topic-card-width - 1) * $square
   height: ($topic-card-width - 1) * $square
   ul
     @extend ul.nobullet
+
+// Section containing a bunch of little-boxes
+#links
 
 // A blog post
 article
@@ -166,8 +188,12 @@ article
       right: auto
     border: none
 
-#contact, #topics 
+#links
   text-align: center
+
+#pagination
+
+
 @media screen and (min-width: 640px)
   #contact, #topics 
     text-align: left
