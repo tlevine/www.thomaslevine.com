@@ -24,8 +24,21 @@ body
   height: 100%
   text-align: inherit
 
-h1, h2, h3, h4, h5
-  font-weight: bold
+h1
+  line-height: $square * 3 / 2
+  font-size: $square * 3 / 2
+
+h2
+  line-height: $square
+  font-size: $square 
+
+h3
+  line-height: $square * 2 / 3
+  font-size: $square * 2 / 3
+
+h4
+  line-height: $square * 4 / 9
+  font-size: $square * 4 / 9
 
 nav ul, nav ol, ul.nobullet, ol.nobullet
   @include lean
@@ -113,9 +126,6 @@ nav
 
 .title-card
   @extend .base-big-card
-  font-size: 6em
-  line-height: 3 * $square
-
 
 // Little-cards =========================================== //
 
@@ -125,10 +135,14 @@ nav
   @extend .base-little-card
 
 #links .link
-  font-size: 2em
-  line-height: $square
+  font-size: 1.5em
+  line-height: 1.5em
 
-nav .link, #categories .link
+#categories .link
+  font-size: 1.5em
+  line-height: $topic-card-width
+
+nav .link
   font-size: 6em
   line-height: 3 * $square
 
@@ -154,6 +168,11 @@ article
   display: block
   text-align: left
 
+
+  h1, h2, h3, h4, h5
+    margin-bottom: 0.25em
+    background-color: #444
+
   pre
     font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace
 
@@ -168,7 +187,7 @@ article
       right: 0
     padding: 0.5em
 
-  p
+  p, li
     margin-bottom: 0.75em
     color: #333
 
@@ -184,8 +203,6 @@ article
       left: auto
       right: auto
     border: none
-
-
 
 @media screen and (min-width: 640px)
   .title-card, .business-card
