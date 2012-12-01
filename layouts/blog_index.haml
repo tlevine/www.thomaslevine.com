@@ -2,9 +2,16 @@
   = render '_nav_boxes'
 
 #categories
-  .link 1
-  .link 2
-  .link 3
+  %ul.nobullet
+    %a{ :href => "/ergonomics" }
+      %li.link 
+        %div ergonomics
+    %a{ :href => "/data" }
+      %li.link 
+        %div data
+    %a{ :href => "/type" }
+      %li.link 
+        %div type
 
 %header.title-card
   %h1 Section title
