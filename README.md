@@ -13,7 +13,7 @@ A `big-card` takes a full line, and three `little-card` boxes fit on one line.
 Each line is centered to the page.
 
 A `big-card` can be either a `business-card` or a `title-card`.
-A `little-card` can be either `multi-line` or `single-line`.
+A `little-card` can be either `link` or `link-group`.
 
 A big card contains either a business card or a title.
 On the index page (`/`), the big card is a business card.
@@ -22,7 +22,7 @@ the big card is the title of the section.
 On a blog post, the big card is the title of the blog post.
 
 ### Order
-The first row of the page is the `nav`. It is always the following three
+The first row of the page is the `#nav`. It is always the following three
 `little-card` boxes, in this order
 
 1. "~", a link to `/`
@@ -35,14 +35,13 @@ colored according to the section's color.
 
 The next row is always the `big-card` box. It is also the `header`
 
-The rest of the page is called `#main`.
-
 On blog posts, the `big-card` is followed by an `article`. After the article are
-two `little-cards`, with an empty space in the middle. One links to the previous
-post, and the other links to the next post.
+two `little-card` boxes, with an empty space in the middle. One links to the
+previous post, and the other links to the next post. These two `little-card`
+boxes are the `#pagination`.
 
 On other pages, the `big-card` is followed by a bunch of `little-card` boxes
-that link to different places.
+that link to different places. These are the `#links`.
 
 ### Sections
 The main blog is at `/!/` and contains a box for each post. Special sections

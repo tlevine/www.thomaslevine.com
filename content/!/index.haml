@@ -1,12 +1,15 @@
-#nav-top
+#nav
   = render '_nav_boxes'
 
-%header#blog-title.big-card
+#categories
+  1
+  2
+  3
+
+%header.title-card
   %h1 Section title
 
-#main{ :role => 'main' }
-  -# Blog posts
-  #topics.clearfix
-    - sorted_articles.each do |item|
-      .topic
-        = render('_blog_post_card', :item => item)
+#links.clearfix
+  - sorted_articles.each do |item|
+    .link
+      = render('_blog_post_card', :item => item)
