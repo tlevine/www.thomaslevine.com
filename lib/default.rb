@@ -35,6 +35,9 @@ unless defined? LOADED_DEFAULT_CONFIG
   # syntax highlighting
   require 'nanoc/filters/colorize_syntax'
 
+  # tagging
+  include Nanoc::Helpers::Tagging
+
   # partials
   include Nanoc::Helpers::Rendering
 

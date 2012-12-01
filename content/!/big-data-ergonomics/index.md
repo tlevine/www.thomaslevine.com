@@ -1,6 +1,7 @@
 ---
 title: Big Data Ergonomics
 created_at: 2012-08-26
+kind: article
 tags: [ 'ergonomics' ]
 ---
 I know enough about "data science" that people

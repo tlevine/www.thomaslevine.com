@@ -47,6 +47,10 @@ compile '/!/feed/' do
   filter :erb
 end
 
+compile '/ergonomics/' do
+  filter :erb
+end
+
 compile '/' do
   filter :haml
   layout 'base'
