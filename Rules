@@ -47,10 +47,6 @@ compile '/!/feed/' do
   filter :erb
 end
 
-compile '/ergonomics/' do
-  filter :erb
-end
-
 compile '/' do
   filter :haml
   layout 'base'
@@ -58,8 +54,9 @@ compile '/' do
   filter :relativize_paths, {:type => :html}
 end
 
-compile '/!/' do
+compile '/(ergonomics|!)/' do
   filter :haml
+  layout 'blog_index'
   layout 'base'
   filter :cache_buster
   filter :relativize_paths, {:type => :html}
