@@ -26,8 +26,6 @@ compile %r{/_.+/$} do
   # don't filter partials
 end
 
-# require 'compass'
-# Compass.add_project_configuration 'compass-config.rb'
 compile '/css/*/' do
   filter :sass, Compass.sass_engine_options
 end
@@ -43,6 +41,10 @@ end
 
 compile '/img/*/' do
 # filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
+end
+
+compile '/!/feed/' do
+  filter :erb
 end
 
 compile '/' do
@@ -106,6 +108,10 @@ end
 route '/js/*/' do
   fp = fingerprint(item[:filename])
   item.identifier.chop + fp + '.js'
+end
+
+route '/!/feed/' do
+  '/!/feed.xml'
 end
 
 route '*' do
