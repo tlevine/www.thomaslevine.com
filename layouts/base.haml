@@ -17,7 +17,7 @@
     -# Place favicon.ico and apple-touch-icon.png in the root directory
 
     %link{ :rel => "stylesheet", :href => "http://fonts.googleapis.com/css?family=Open+Sans:400,700", :type => "text/css" }
-    %link{ :rel => "stylesheet", :href => "css/style.css" }
+    %link{ :rel => "stylesheet", :href => "/css/style.css" }
     %script{ :src => "js/vendor/modernizr.js" }
 
     -# More ideas for your <head> here: h5bp.com/d/head-Tips
@@ -35,9 +35,6 @@
 
     #wrapper
       #container= yield
-
-      %footer
-        = render '_nav_boxes'
      
       -# JavaScript at the bottom for fast page loading:
       -# http://developer.yahoo.com/performance/rules.html#js_bottom

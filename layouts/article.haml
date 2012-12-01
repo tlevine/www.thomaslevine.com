@@ -1,7 +1,12 @@
-%header
+#nav-top
   = render '_nav_boxes'
+
+%header#blog-title.big-card
+  %h1 #{item[:title]}
 
 #main{ :role => 'main' }
   %article
-    %h1 #{item[:title]}
     .body=yield
+
+#nav-bottom
+  = render '_nav_boxes'

@@ -1,5 +1,8 @@
-%header.clearfix
+#nav-top
   = render '_nav_boxes'
+
+%header#blog-title.big-card
+  %h1 Section title
 
 #main{ :role => 'main' }
   -# Blog posts
@@ -7,3 +10,6 @@
     - sorted_articles.each do |item|
       .topic
         = render('_blog_post_card', :item => item)
+
+#nav-bottom
+  = render '_nav_boxes'
