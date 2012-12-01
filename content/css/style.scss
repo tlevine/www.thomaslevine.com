@@ -3,7 +3,7 @@
 // https://github.com/sporkd/compass-h5bp
 // http://html5boilerplate.com/
 //
-@import "h5bp";
+//@import "h5bp";
 
 //
 // compass-h5bp normalize
@@ -19,21 +19,21 @@
 // $selected-background-color: #fe57a1;
 // $invalid-background-color: #f0dddd;
 //
-@include h5bp-normalize;
+//@include h5bp-normalize;
 
 //
 // compass-h5bp helper mixins
 // https://github.com/sporkd/compass-h5bp/blob/master/stylesheets/h5bp/_helpers.scss
 //
-@include h5bp-helpers;
+//@include h5bp-helpers;
 
 //
 // compass-h5bp chromeframe
 // https://github.com/sporkd/compass-h5bp/blob/master/stylesheets/h5bp/_chromeframe.scss
 //
-@include h5bp-chromeframe;
-//@import "normalize";
-//@import "main";
+//@include h5bp-chromeframe;
+@import "normalize";
+@import "main";
 
 //
 // Parameters
@@ -49,4 +49,4 @@
 // compass-h5bp media and print
 // https://github.com/sporkd/compass-h5bp/blob/master/stylesheets/h5bp/_media.scss
 //
-@include h5bp-media;
+//@include h5bp-media;
