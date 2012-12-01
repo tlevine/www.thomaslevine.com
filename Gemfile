@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'nanoc', '~> 3.4.0'
 gem 'haml', '~> 3.1'
-gem 'sass', '~> 3.1'
+gem 'sass', '= 3.2.1'
 gem 'compass', '~> 0.12'
 gem 'nanoc-cachebuster', '>= 0.3.1'
 gem 'nanoc-image-compressor', '>= 0.1.1'
