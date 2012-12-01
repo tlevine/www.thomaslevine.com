@@ -78,8 +78,10 @@ a
 // Navigation ============================================= //
 
 // Make the top and bottom of the page have the same margin as everything else.
-nav, #categories, #pagination
+nav
   margin-top: 0.5 * $square
+
+#pagination
   margin-bottom: 0.5 * $square
 
 // Big-cards ============================================== //
@@ -141,12 +143,14 @@ nav .link, #categories .link
 
 // A blog post
 article
-  @extend .base-card
+  @extend .base-big-card
   width: 90%
-  max-width: 28 * $square
   margin:
     left: auto
     right: auto
+    top: $square
+    bottom: $square
+  display: block
   text-align: left
 
   pre
@@ -182,10 +186,11 @@ article
   .title-card, .business-card
     text-align: left
 
-  .title-card, .business-card
+  .title-card, .business-card, article
     width: $calling-card-long
     height: $calling-card-short
 
+  .business-card
     .words
       width: 40%
       float: left
@@ -201,6 +206,7 @@ article
         width: 12em
 
   nav, #categories
+    display: block
     height: ($topic-card-width + 1) * $square
 
   nav, #categories, #links, #pagination
