@@ -14,7 +14,6 @@ Here are some of our members
 ![](michael.png)
 ![](dave.png)
 ![](uchendu.png)
-![](gareth.png)
 ![](tieg.png)
 
 ## The first talk
