@@ -1,5 +1,5 @@
 ---
-title: Shell Testing
+title: Tests for your shell
 created_at: 2012-12-01
 kind: article
 ---
