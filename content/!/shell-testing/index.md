@@ -62,7 +62,7 @@ that mostly uses another language.
 [Test Anything Protocal](http://testanything.org/wiki/index.php/Tap-functions)
 (This site is down for me right now.) are examples of that.
 
-Even though all of these frameworks exist, the artisinal test frameworks are
+Even though all of these frameworks exist, artisinal test frameworks are
 often specially crafted for a specific projects. This is the case for
 [bash-toolbox](https://github.com/codigorama/bash-toolbox/blob/master/lib/asserts.sh)
 and [treegit](https://github.com/tlevine/treegit/blob/master/tests).
@@ -122,7 +122,8 @@ I recommend cmdtest if you are mainly testing input and output; otherwise, I
 recommend Urchin. If you are working on a very simple project, you might also
 consider writing your own framework.
 
+## For hip trend-setters like me
 For whatever reason, test-driven development is mainstream in other languages
 but uncommon in shell. Nobody does test-driven development in shell, so all of
-these approaches are ahead of the curve. A hip programmer like you should be
-testing his shell scripts **now**, before shell testing gets big.
+these approaches are ahead of the curve. Hip programmers like me know this, so
+we're testing our shell scripts now, before shell testing gets big.
