@@ -1,6 +1,6 @@
 ---
 title: Tests for your shell
-created_at: 2012-12-01
+created_at: 2012-12-12
 kind: article
 ---
 Extreme hipster superheroes like me need tests for their shell. Here's what's
