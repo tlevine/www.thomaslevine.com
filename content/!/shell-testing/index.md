@@ -51,7 +51,7 @@ is that it defines its own assertion functions, like `assertEquals` and
 uses it.
 
 [tf](https://github.com/mpapis/tf) is also similar, but it is cool because it
-provides some special shell-style assertions ("Matchers") that are specified as
+provides some special shell-style assertions ("matchers") that are specified as
 shell comments. Rather than just testing status codes or stdout, you can also
 test environment characteristics, and you can test multiple properties of one
 command. [rvm](https://github.com/wayneeseguin/rvm-test) uses it.
@@ -59,7 +59,7 @@ command. [rvm](https://github.com/wayneeseguin/rvm-test) uses it.
 There are some language-agnostic protocals with assertion libraries in multiple
 languages. The idea is that you can combine test results from several
 languages. I guess this is more of a big deal for shell than for other
-languages because shell is likely to be used for a small componend of a project
+languages because shell is likely to be used for a small component of a project
 that mostly uses another language.
 [WvTest](https://github.com/apenwarr/wvtest/blob/master/sh/t/twvtest.sh) and
 [Test Anything Protocal](http://testanything.org/wiki/index.php/Tap-functions)
