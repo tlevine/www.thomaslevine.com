@@ -12,14 +12,17 @@ life on the edge. Inevitably, this results in tedious manual 'testing'. Loads
 of projects use this approach.
 
 * [git flow](https://github.com/nvie/gitflow)
-* [rbenv](https://github.com/sstephenson/rbenv)
-* Shell frameworks
-  * [bashinator](http://www.bashinator.org/)
-  * [bash-it](https://github.com/revans/bash-it)
-  * [prezto](https://github.com/sorin-ionescu/prezto)
-  * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [homeshick](https://github.com/andsens/homeshick)
 * [ievms](https://github.com/xdissent/ievms/blob/master/ievms.sh)
+* [rbenv](https://github.com/sstephenson/rbenv)
 * [z](https://github.com/rupa/z)
+
+Here are some more. I separated them because they're all shell profiles.
+
+* [bashinator](http://www.bashinator.org/)
+* [bash-it](https://github.com/revans/bash-it)
+* [prezto](https://github.com/sorin-ionescu/prezto)
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 ## Posers: Automated commands with manual human review
 You can easily generate a rough test suite by just saving the commands you used
