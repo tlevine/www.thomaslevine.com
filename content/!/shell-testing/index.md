@@ -74,7 +74,7 @@ Implementing your own framework like this is pretty simple; the main thing you
 need to know is that `$?` gives you the exit code of the previous command, so
 something like this will tell you whether the previous command passed.
 
-    [ "$?" = '0' ]
+    test "$?" = '0'
 
 ## Ironic elegance: Design for the shell
 Assertion libraries are common and reasonable in other languages, but I don't
