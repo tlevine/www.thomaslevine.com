@@ -51,14 +51,14 @@ and "computer engineering". They're in quotes because they're all stupidly
 ambiguous and because I don't feel like defining them except in relation to
 each-other.
 
-I'll define "data science" by relating it to "statistics" and to software
-engineering. Let's start with the comparison with "statistics".
+I'll define "data science" by relating it to "statistics" and to "software
+engineering". Let's start with the comparison with "statistics".
 
 ### "Data science" and "statistics"
 The statistical methods used in "data science" and "big data" seem quite
 unsophisticated compared to those used in "statistics".
 
-Often, it's just search. For example, the data team at [La Nación]()
+Often, it's just search. For example, the data team at [La Nación](http://www.lanacion.com.ar)
 showed me how they're acquiring loads of documents and allowing journalists to
 search them. I'm sure that they'll eventually start doing crude quantitative
 analyses on the overall document sets, but even the search has already been
@@ -100,6 +100,12 @@ any hip web startup ever. Also consider some teams within large companies; I
 know someone who worked at Google as a "software engineer" to write code for
 packaging ChromeBooks.
 
+## What about "analysts"?
+If we simplify the world to a two-dimensional space, "data scientists",
+"statisticians", "software engineers" and "engineers" might land here.
+
+![Plot of the four professions' abilities with analysis and abilities with computers](data-people.png)
+
 ## Conflating "data science" and "big data"
 Some people conflate "data science" and "big data". For some definitions of
 these two phrases, the conflation makes perfect sense, like when "big data"
@@ -116,7 +122,7 @@ and we don't seem to talk about "big data" very much. Part of this is that we
 can do useful things with small datasets too. But I feel like we don't talk
 about "big data" even when a dataset gets large. It might be that we want some
 word to describe what we do. "Statistician" and "computer stuff" aren't close
-enough; "big data" might do just fine for this.
+enough, but "data scientist" is decent.
 
 ## Utility of these definitions
 Consider taking everything I said with a grain of salt. First, most of my
