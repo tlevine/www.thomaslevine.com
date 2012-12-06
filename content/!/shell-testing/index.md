@@ -126,7 +126,7 @@ recommend Urchin. If you are working on a very simple project, you might also
 consider writing your own framework.
 
 ## For hip trend-setters like me
-For whatever reason, test-driven development is mainstream in other languages
+Test-driven development is mainstream in other languages
 but uncommon in shell. Nobody does test-driven development in shell, so all of
 these approaches are ahead of the curve. Hip programmers like me know this, so
 we're testing our shell scripts now, before shell testing gets big.
