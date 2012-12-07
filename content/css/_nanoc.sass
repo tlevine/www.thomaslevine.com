@@ -47,7 +47,7 @@ nav > ul, nav > ol, ul.nobullet, ol.nobullet
 nav .exclamation
   font-size: 5em
   font-weight: bold
-  margin-top: 0.5em
+  line-height: 1em
 
 header, footer, #main
   @include lean
@@ -56,20 +56,73 @@ header, footer, #main
 span.home-char
   display: none
 
+.logo, .logo *
+  width: 100%
+
+// Colors ================================================= //
+body
+  color: $pink
+
+  pre, blockquote
+    background-color: lighten($pink, 30%)
+    border: 1px solid desaturate(lighten($pink, 20%), 30%)
+
+  a, a:visited
+    color: $pink
+
+body.ergonomics
+  color: brown
+
+  pre, blockquote
+    background-color: lighten(brown, 30%)
+    border: 1px solid desaturate(lighten(brown, 20%), 30%)
+
+  a, a:visited
+    color: brown
+
+body.data
+  color: green
+
+  pre, blockquote
+    background-color: lighten(green, 30%)
+    border: 1px solid desaturate(lighten(green, 20%), 30%)
+
+  a, a:visited
+    color: green
+
+body.scarsdale
+  color: red
+
+  pre, blockquote
+    background-color: lighten(red, 30%)
+    border: 1px solid desaturate(lighten(red, 20%), 30%)
+
+  a, a:visited
+    color: red
+
+body.doodles
+  color: gray
+
+  pre, blockquote
+    background-color: lighten(gray, 30%)
+    border: 1px solid desaturate(lighten(gray, 20%), 30%)
+
+  a, a:visited
+    color: gray
+
+// Links ================================================= //
+
 a
   color: inherit
   text-decoration: inherit
   &:visited
     color: inherit
   &:hover
-    color: #000
+    color: #000 !important
     text-decoration: inherit
   &:focus
     color: inherit
     outline: thin dotted
-
-.logo, .logo *
-  width: 100%
 
 // Base classes =========================================== //
 .base-card
@@ -157,8 +210,8 @@ nav .link
   ul
     @extend ul.nobullet
 
-// Section containing a bunch of little-boxes
-//#links
+// Different sections are different colors
+
 
 // A blog post
 article
@@ -182,9 +235,7 @@ article
     font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace
 
   pre, blockquote
-    background-color: lighten($pink, 30%)
     color: #333
-    border: 1px solid desaturate(lighten($pink, 20%), 30%)
     margin:
       top: 0.5em
       bottom: 0.5em
@@ -198,7 +249,6 @@ article
 
   a, a:visited
     text-decoration: underline
-    color: $pink
 
   img, iframe
     width: 100%
