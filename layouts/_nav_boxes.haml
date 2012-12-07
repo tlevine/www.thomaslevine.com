@@ -3,9 +3,15 @@
     %li.link
       %div ~
 
-  %a{ :href => '/!/' }
-    %li.link
-      %div !
+  %li.link-group
+    %a.exclamation{ :href => '/!/' } !
+    %ul.nobullet
+      %a{ :href => "/ergonomics" }
+        %li ergonomics
+      %a{ :href => "/scarsdale" }
+        %li scarsdale
+      %a{ :href => "/doodles" }
+        %li doodles
 
   %a{ :href => "/!/about" }
     %li.link

@@ -40,9 +40,14 @@ h4
   line-height: $square * 4 / 9
   font-size: $square * 4 / 9
 
-nav ul, nav ol, ul.nobullet, ol.nobullet
+nav > ul, nav > ol, ul.nobullet, ol.nobullet
   @include lean
   list-style-type: none
+
+nav .exclamation
+  font-size: 5em
+  font-weight: bold
+  margin-top: 0.5em
 
 header, footer, #main
   @include lean
@@ -153,7 +158,7 @@ nav .link
     @extend ul.nobullet
 
 // Section containing a bunch of little-boxes
-#links
+//#links
 
 // A blog post
 article

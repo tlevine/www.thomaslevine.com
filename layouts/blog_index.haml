@@ -1,21 +1,8 @@
 %nav
   = render '_nav_boxes'
 
-#categories
-  %ul.nobullet
-    %a{ :href => "/ergonomics" }
-      %li.link 
-        %div ergonomics
-    %a{ :href => "/scarsdale" }
-      %li.link 
-        %div scarsdale
-    %a{ :href => "/doodles" }
-      %li.link 
-        %div doodles
-
 %header.title-card
   %h1 Section title
 
 #links.clearfix
   = yield
-
