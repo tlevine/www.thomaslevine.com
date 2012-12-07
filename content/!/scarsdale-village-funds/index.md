@@ -34,7 +34,8 @@ just being transferred to the other funds.
 Something interesting apparently happened to the capital projects fund in 2009,
 but the changes in the smaller funds aren't apparent on this scale. I adjusted
 the scale to use the proportional change in appropriation by fund. This way,
-we can compare changes among funds of very different sizes.
+we can compare changes among funds of very different sizes. The width of the
+lines represents the absolute appropriation of the fund at each year.
 
 ![Changes in appropriation by fund relative 2003](changes.png)
 
@@ -42,16 +43,11 @@ The INT..., General Fund and Public Library Fund increase at a similar rate.
 This rate happens to be about half the rate of inflation (based on the Consumer
 Price Index).
 
-The Pool and Water funds are marketly different. Water appropriations went up
-a lot for a few years and have come back down a bit. Pool appropriations have
-stayed about the same, rather than slightly increasing.
+The Pool, Water and Capital Projects funds are marketly different.
+Water appropriations went up a lot for a few years and have come back down a bit.
+Pool appropriations have stayed about the same, rather than slightly increasing.
+And Capital Projects appropriations dropped suddenly in 2009.
 
-Keep in mind that these funds are relatively small; it makes sense that these
-vary more than the bigger General Fund for the same reason that you're more
-likely to have different numbers of heads and dails if you flip a coin four
-times rather than forty times.
-
-Thus, it is 
-
-You can find original budgets and some tables I composed
-[over here](https://github.com/tlevine/scarsdale-data/tree/master/budget).
+Precisely what happened? It's in the
+[budgets](https://github.com/tlevine/scarsdale-data/tree/master/budget).
+And I'll blog about it eventually.
