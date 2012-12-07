@@ -1,0 +1,57 @@
+---
+title: Changes in appropriations to Scarsdale Village funds
+---
+
+What does Scarsdale Village spend money on, and how does it change over time?
+The village [budgets](www.scarsdale.com/Home/Departments/VillageTreasurer.aspx)
+might be informative.
+
+The budget is divided into six funds.
+
+* General Fund
+* Capital Projects
+* Public Library
+* INT SVCE CEN GAR
+* Pool
+* Water
+
+The various funds receive money from several sources. One of these sources is
+taxes; village taxes go into the general fund, but much of the general fund is
+transferred to other funds. At least I think that's how it works.
+
+I looked at the appropriations (spending) of the respective funds. Well I
+actually looked at the planned appropriations for each coming year; the actual
+appropriations were generally a bit lower. (That's a story for another blog post.)
+
+Anyway, what did the government spend?
+
+![Appropriation by year and fund](appropriations.png)
+
+The general fund and capital projects are the big ones, but capital projects
+suddenly dropped in 2009. Keep in mind that some of the general fund money is
+just being transferred to the other funds.
+
+Something interesting apparently happened to the capital projects fund in 2009,
+but the changes in the smaller funds aren't apparent on this scale. I adjusted
+the scale to use the proportional change in appropriation by fund. This way,
+we can compare changes among funds of very different sizes.
+
+![Changes in appropriation by fund relative 2003](changes.png)
+
+The INT..., General Fund and Public Library Fund increase at a similar rate.
+This rate happens to be about half the rate of inflation (based on the Consumer
+Price Index).
+
+The Pool and Water funds are marketly different. Water appropriations went up
+a lot for a few years and have come back down a bit. Pool appropriations have
+stayed about the same, rather than slightly increasing.
+
+Keep in mind that these funds are relatively small; it makes sense that these
+vary more than the bigger General Fund for the same reason that you're more
+likely to have different numbers of heads and dails if you flip a coin four
+times rather than forty times.
+
+Thus, it is 
+
+You can find original budgets and some tables I composed
+[over here](https://github.com/tlevine/scarsdale-data/tree/master/budget).
