@@ -47,7 +47,7 @@ nav > ul, nav > ol, ul.nobullet, ol.nobullet
 nav .exclamation
   font-size: 5em
   font-weight: bold
-  line-height: 1em
+  line-height: 0.7em
 
 header, footer, #main
   @include lean
@@ -71,44 +71,44 @@ body
     color: $pink
 
 body.ergonomics
-  color: brown
+  color: $tan
 
   pre, blockquote
-    background-color: lighten(brown, 30%)
-    border: 1px solid desaturate(lighten(brown, 20%), 30%)
+    background-color: lighten($tan, 30%)
+    border: 1px solid desaturate(lighten($tan, 20%), 30%)
 
   a, a:visited
-    color: brown
+    color: $tan
 
 body.data
-  color: green
+  color: $green
 
   pre, blockquote
-    background-color: lighten(green, 30%)
-    border: 1px solid desaturate(lighten(green, 20%), 30%)
+    background-color: lighten($green, 30%)
+    border: 1px solid desaturate(lighten($green, 20%), 30%)
 
   a, a:visited
-    color: green
+    color: $green
 
 body.scarsdale
-  color: red
+  color: $maroon
 
   pre, blockquote
-    background-color: lighten(red, 30%)
-    border: 1px solid desaturate(lighten(red, 20%), 30%)
+    background-color: lighten($maroon, 30%)
+    border: 1px solid desaturate(lighten($maroon, 20%), 30%)
 
   a, a:visited
-    color: red
+    color: $maroon
 
 body.doodles
-  color: gray
+  color: $gray
 
   pre, blockquote
-    background-color: lighten(gray, 30%)
-    border: 1px solid desaturate(lighten(gray, 20%), 30%)
+    background-color: lighten($gray, 30%)
+    border: 1px solid desaturate(lighten($gray, 20%), 30%)
 
   a, a:visited
-    color: gray
+    color: $gray
 
 // Links ================================================= //
 
