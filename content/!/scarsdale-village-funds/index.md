@@ -1,5 +1,7 @@
 ---
 title: Changes in appropriations to Scarsdale Village funds
+kind: article
+created_at: 2013-01-07
 ---
 
 What does Scarsdale Village spend money on, and how does it change over time?
