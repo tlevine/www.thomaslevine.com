@@ -25,7 +25,7 @@
     -# All JavaScript at the bottom, except this Modernizr build.
     -# Modernizr enables HTML5 elements & feature detects for optimal performance.
     -# Create your own custom Modernizr build: www.modernizr.com/download/
-  %body
+  %body{ :class => item[:main_class] }
     /[if lt IE 7 ]
       %p.chromeframe
         You are using an <strong>outdated</strong> browser.

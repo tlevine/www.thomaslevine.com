@@ -1,3 +1,13 @@
+---
+main_class: ergonomics
+---
+%header.title-card
+  %h1
+    = link_to(items_with_tag('ergonomics')[0][:title], items_with_tag('ergonomics')[0].path)
+
+%article
+  = items_with_tag('ergonomics')[0].compiled_content
+
 - items_with_tag('ergonomics').each do |item|
   .link
     = render('_blog_post_card', :item => item)

@@ -1,3 +1,13 @@
+---
+main_class: blog
+---
+%header.title-card
+  %h1
+    = link_to(sorted_articles[0][:title], sorted_articles[0].path)
+
+%article
+  = sorted_articles[0].compiled_content
+
 - sorted_articles.each do |item|
   .link
     = render('_blog_post_card', :item => item)

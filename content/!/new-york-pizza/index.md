@@ -2,6 +2,7 @@
 title: New York Pizza
 created_at: 2012-11-21
 kind: article
+tags: ['doodles', 'data']
 ---
 I hadn't eaten much New York pizza, so I asked
 [Jared Lander](http://www.jaredlander.com) for some recommendations. He gave me
