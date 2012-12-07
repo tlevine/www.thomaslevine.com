@@ -5,10 +5,10 @@ $square: 28px;
 $pink: #fe57a1;
 
 // Scarsdale section
-$maroon: #800000;
+$maroon: lighten(#800000, 10%);
 
 // Ergonomics section
-$tan: #D2B48C;
+$tan: darken(#D2B48C, 20%);
 
 // Data section
 $green: #0F0;
