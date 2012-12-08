@@ -1,6 +1,7 @@
 ---
 title: Random Person of the Week
 created_at: 2008-04-01
+tags: ['shenanigans']
 ---
 
 My friend Greg Zecchini ran for school president our junior year with the platform of bringing more awesome to the school. Among his proposals was instituting a Random Person of the Week to be chosen at random each week and announced over the public announcement system in homeroom.

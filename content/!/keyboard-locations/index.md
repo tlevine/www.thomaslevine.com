@@ -1,4 +1,5 @@
 ---
+tags: ['ergonomics']
 kind: article
 created_at: 2009-09-24
 title: Where do people position computer keyboards?

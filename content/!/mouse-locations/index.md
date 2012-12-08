@@ -2,6 +2,7 @@
 title: Effect of the number pad on mousing location
 created_at: 2008-11-08
 kind: article
+tags: ['ergonomics']
 ```
 \workimg{http://smug.thomaslevine.com/Works/numberpad/numberpad/932457459_Wd94o-480x480.png}
 According to some ergonomics research, the location in which one mouses affects

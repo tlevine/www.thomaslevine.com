@@ -2,6 +2,7 @@
 title: Local ScraperWiki Library
 created_at: 2012-06-07
 kind: article
+tags: ['data']
 ---
 
 It rather annoying that you can only use the scraperwiki library

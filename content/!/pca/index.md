@@ -2,6 +2,7 @@
 title: How principle component analysis works
 created_at: 2012-11-19
 kind: article
+tags: ['data', 'doodles']
 ---
 Principal component analysis (PCA) finds relationships in numerical
 (as opposed to categorical) data. It works by plotting the data on a

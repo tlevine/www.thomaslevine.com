@@ -2,6 +2,7 @@
 title: Hacks Hackers Buenos Aires Media Party
 kind: article
 created_at: 2012-09-21
+tags: ['data']
 ---
 
 I went to a [three-day party](http://mediaparty.hhba.info) in Buenos Aires this

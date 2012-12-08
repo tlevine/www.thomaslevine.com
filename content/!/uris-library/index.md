@@ -2,6 +2,7 @@
 title: Why don't people use this reading room?
 created_at: 2011-01-28
 kind: article
+tags: ['ergonomics']
 ---
 
 Library administration at Cornell University recognized that one library's

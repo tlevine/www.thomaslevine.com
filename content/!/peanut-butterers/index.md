@@ -1,5 +1,6 @@
 ---
 title: Industrial Remote-Controlled Peanut Butterers Parts & Supplies and Bagels Company
+tags: ['shenanigans']
 ---
 
 At some point, through conversations with my brother, I decided to start filling in the "Company" field in online forms.

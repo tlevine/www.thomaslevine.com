@@ -2,6 +2,7 @@
 title: Scalable Big Data Cloud ROI Agile Fixie API with HTML9 Responsive Boilerstrap JS
 created_at: 2012-11-11
 kind: article
+tags: ['shenanigans']
 ---
 
 I used to run the now-defunct [Web Data Buzz App Hack NYC Biz API Tech](www.meetup.com/Web-Data-Buzz-App-Hack-NYC-Biz-API-Tech/) meetup.

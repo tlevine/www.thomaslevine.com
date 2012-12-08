@@ -2,6 +2,7 @@
 title: DumpTruck Version 0.0.3
 created_at: 2012-08-02
 kind: article
+tags: ['data']
 ---
 
 I've added some new features to [DumpTruck](http://www.dumptruck.io).

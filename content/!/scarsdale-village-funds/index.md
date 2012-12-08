@@ -1,5 +1,6 @@
 ---
 title: Changes in appropriations to Scarsdale Village funds
+tags: ['scarsdale', 'data']
 kind: article
 created_at: 2013-01-07
 ---

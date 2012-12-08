@@ -2,6 +2,7 @@
 title: Christmas Gifts
 created_at: 2011-01-05
 kind: article
+tags: ['data']
 ---
 
 How many gifts did my true love give to me on all twelve nights of Christmas?

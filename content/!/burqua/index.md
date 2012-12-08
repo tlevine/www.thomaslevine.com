@@ -1,7 +1,7 @@
 ---
 title: Burqua
 created_at: 2011-04-01
-categories: shenanigans
+tags: ['shenanigans']
 kind: article
 ---
 

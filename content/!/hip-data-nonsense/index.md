@@ -2,6 +2,7 @@
 title: Nonsensical Hip 'Data' Terms
 created_at: 2012-11-15
 kind: article
+tags: ['data']
 ---
 I think that 'big data' and 'data science' are usually defined such that the
 person defining the term is using it.
