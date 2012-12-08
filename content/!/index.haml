@@ -2,8 +2,7 @@
 main_class: blog
 ---
 %header.title-card
-  %h1
-    = link_to(sorted_articles[0][:title], sorted_articles[0].path)
+  = render('_title_card', :item => item)
 
 %article
   = sorted_articles[0].compiled_content

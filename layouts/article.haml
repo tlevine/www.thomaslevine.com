@@ -2,8 +2,7 @@
   = render '_nav_boxes'
 
 %header.title-card
-  %h1 #{item[:title]}
-  %footer #{item[:created_at]}
+  = render('_title_card', :item => item)
 
 %article=yield
 
