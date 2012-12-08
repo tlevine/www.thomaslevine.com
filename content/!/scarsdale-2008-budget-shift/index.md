@@ -1,5 +1,5 @@
 ---
-title: Reduction in Scarsdale expenditures following the 2008
+title: Changes in Scarsdale appropriations
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2012-01-14
