@@ -2,7 +2,7 @@
 title: Scarsdale Village tax rates and inflation
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2012-02-02
+created_at: 2013-01-14
 ---
 
 I took some [information](https://github.com/tlevine/scarsdale-data/blob/master/budget/appendix_a1-tax.csv)

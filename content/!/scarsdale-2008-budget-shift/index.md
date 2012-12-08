@@ -2,7 +2,7 @@
 title: Changes in Scarsdale appropriations
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2012-01-14
+created_at: 2013-01-21
 ---
 The village substantially reduced expenditures after 2008, mainly in
 the capital projects fund.

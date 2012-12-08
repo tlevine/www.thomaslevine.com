@@ -2,7 +2,7 @@
 title: How is the market value of your house estimated on your tax bill?
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2012-02-02
+created_at: 2013-01-14
 ---
 Scarsdale's tax bills say this at the end.
 

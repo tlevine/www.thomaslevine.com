@@ -2,7 +2,7 @@
 title: Scarsdale High School bus schedule weirdness
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2012-02-02
+created_at: 2013-02-04
 ---
 
 Scarsdale High School bus schedules are
