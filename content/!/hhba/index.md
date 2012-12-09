@@ -1,5 +1,6 @@
 ---
 title: Hacks Hackers Buenos Aires Media Party
+short_title: HHBA Media Party
 kind: article
 created_at: 2012-09-21
 tags: ['data']

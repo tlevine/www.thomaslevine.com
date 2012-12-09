@@ -1,5 +1,6 @@
 ---
 title: Scalable Big Data Cloud ROI Agile Fixie API with HTML9 Responsive Boilerstrap JS
+short_title: Buzz buzz buzz
 created_at: 2012-11-11
 kind: article
 tags: ['shenanigans']

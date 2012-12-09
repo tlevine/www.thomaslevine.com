@@ -3,6 +3,7 @@ tags: ['ergonomics']
 kind: article
 created_at: 2009-09-24
 title: Where do people position computer keyboards?
+short_title: Keyboard locations
 ---
 While studying how number pads relate to mouse locations [1],
 I noticed people trying to move the keyboard around. They couldn't because it

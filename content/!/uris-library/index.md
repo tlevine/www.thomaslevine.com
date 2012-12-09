@@ -1,5 +1,6 @@
 ---
 title: Why don't people use this reading room?
+short_title: Library reading room
 created_at: 2011-01-28
 kind: article
 tags: ['ergonomics']
