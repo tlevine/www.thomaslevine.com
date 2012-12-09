@@ -1,5 +1,6 @@
 ---
 title: Changes in appropriations to Scarsdale Village funds
+short_title: Villiage funds
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2013-02-11

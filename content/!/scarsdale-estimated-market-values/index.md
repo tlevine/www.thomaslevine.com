@@ -1,5 +1,6 @@
 ---
 title: How is the market value of your house estimated on your tax bill?
+short_title: Tax bill "market value"
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2013-01-14
