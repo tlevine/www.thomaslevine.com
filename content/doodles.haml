@@ -1,14 +1,8 @@
 ---
 main_class: doodles
 ---
-%header.title-card
-  %h1
-    = link_to(items_with_tag('doodles')[0][:title], items_with_tag('doodles')[0].path)
+%nav
+  = render '_nav_boxes'
 
-%article
-  = items_with_tag('doodles')[0].compiled_content
-
-- items_with_tag('doodles').each do |item|
-  .link
-    = render('_blog_post_card', :item => item)
-
+#links.clearfix
+  = render('_blog_index_stuff', :items => items_with_tag('doodles'))

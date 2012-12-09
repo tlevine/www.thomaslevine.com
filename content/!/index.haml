@@ -1,12 +1,8 @@
 ---
 main_class: blog
 ---
-%header.title-card
-  = render('_title_card', :item => item)
+%nav
+  = render '_nav_boxes'
 
-%article
-  = sorted_articles[0].compiled_content
-
-- sorted_articles.each do |item|
-  .link
-    = render('_blog_post_card', :item => item)
+#links.clearfix
+  = render('_blog_index_stuff', :items => sorted_articles)

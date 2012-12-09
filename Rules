@@ -56,7 +56,6 @@ end
 
 compile '/(ergonomics|scarsdale|doodles|!)/' do
   filter :haml
-  layout 'blog_index'
   layout 'base'
   filter :cache_buster
   filter :relativize_paths, {:type => :html}

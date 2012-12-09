@@ -1,13 +1,8 @@
 ---
 main_class: scarsdale
 ---
-- first_post = items_with_tag('scarsdale')[0]
-%header.title-card
-  = render('_title_card', :item => first_post)
+%nav
+  = render '_nav_boxes'
 
-%article
-  = first_post.compiled_content
-
-- items_with_tag('scarsdale').each do |item|
-  .link
-    = render('_blog_post_card', :item => item)
+#links.clearfix
+  = render('_blog_index_stuff', :items => items_with_tag('scarsdale'))
