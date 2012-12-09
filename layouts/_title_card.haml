@@ -1,5 +1,4 @@
 %h1
   #{link_to(item[:title], item.path)}
 %footer
-  #{item[:created_at]}
-  -#{attribute_to_time(item[:created_at]).strftime('%b, %d, %Y')}
+  = item[:created_at].strftime('%B, %d, %Y') rescue ''
