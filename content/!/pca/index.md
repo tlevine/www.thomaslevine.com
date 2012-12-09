@@ -1,5 +1,6 @@
 ---
 title: How principle component analysis works
+short_title: How PCA works
 created_at: 2012-11-19
 kind: article
 tags: ['data', 'doodles']

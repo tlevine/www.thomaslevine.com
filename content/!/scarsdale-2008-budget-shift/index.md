@@ -1,6 +1,6 @@
 ---
 title: Changes in Scarsdale appropriations
-short_title: Villiage appropriations
+short_title: Villiage appro-priations
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2013-01-21
