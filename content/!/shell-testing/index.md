@@ -29,9 +29,10 @@ This is actually okay much of the time. Shell is often convenient for
 connecting different programs and configuring stuff, but other languages have
 structures and syntax that are convenient for more complex things. If your
 shell scripts are short and easy to read, maybe you don't need tests.
-Actually, I often see shell scripts as just notes of what I did to configure
-software on a particular computer rather than as a program that I intend for
-many other people to use.
+
+I often see shell scripts as just notes of what I did to configure software on
+a particular computer rather than as a program that I intend for many other
+people to use.
 
 ## Posers: Automated commands with manual human review
 You can easily generate a rough test suite by just saving the commands you used
