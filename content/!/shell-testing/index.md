@@ -25,6 +25,15 @@ Here are some more. I separated them because they're all shell profiles.
 * [prezto](https://github.com/sorin-ionescu/prezto)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
+This is actually okay much of the time. Shell is often convenient for
+connecting different programs and configuring stuff, but other languages have
+structures and syntax that are convenient for more complex things. If your
+shell scripts are short and easy to read, maybe you don't need tests.
+
+I often see shell scripts as just notes of what I did to configure software on
+a particular computer rather than as a program that I intend for many other
+people to use.
+
 ## Posers: Automated commands with manual human review
 You can easily generate a rough test suite by just saving the commands you used
 for manual debugging; this creates the illusion of living only once while
