@@ -4,7 +4,6 @@ created_at: 2011-04-27
 kind: article
 tags: ['ergonomics', 'shenanigans']
 ---
-
 Some concerns over sanitation of bathrooms in
 [my dorm](http://en.wikipedia.org/wiki/Risley_Residential_College) in the
 2010--11 school year. Rather than unproductively join the circular argument

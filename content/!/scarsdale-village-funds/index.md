@@ -3,11 +3,11 @@ title: Changes in appropriations to Scarsdale Village funds
 short_title: Villiage funds
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2013-02-11
+created_at: 2012-12-11
 ---
 
 What does Scarsdale Village spend money on, and how does it change over time?
-The village [budgets](www.scarsdale.com/Home/Departments/VillageTreasurer.aspx)
+The village [budgets](http://www.scarsdale.com/Home/Departments/VillageTreasurer.aspx)
 might be informative.
 
 The budget is divided into six funds.
@@ -29,7 +29,7 @@ appropriations were generally a bit lower. (That's a story for another blog post
 
 Anyway, what did the government spend?
 
-![Appropriation by year and fund](appropriations.png)
+![Appropriation by year and fund](/!/scarsdale-village-funds/appropriations.png)
 
 The general fund and capital projects are the big ones, but capital projects
 suddenly dropped in 2009. Keep in mind that some of the general fund money is
@@ -41,7 +41,7 @@ the scale to use the proportional change in appropriation by fund. This way,
 we can compare changes among funds of very different sizes. The width of the
 lines represents the absolute appropriation of the fund at each year.
 
-![Changes in appropriation by fund relative 2003](changes.png)
+![Changes in appropriation by fund relative 2003](/!/scarsdale-village-funds/changes.png)
 
 The INT..., General Fund and Public Library Fund increase at a similar rate.
 This rate happens to be about half the rate of inflation (based on the Consumer
