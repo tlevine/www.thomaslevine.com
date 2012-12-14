@@ -12,7 +12,7 @@ redirects.
 
 I sort of wanted [mod_rewrite as a service](https://twitter.com/thomaslevine/status/214749416635105281),
 but I couldn't find that, so I looked for a cheap VPS. I found a bunch of
-them through [http://www.lowendbox.com](lowendbox). I settled on the cheapest
+them through [lowendbox](http://www.lowendbox.com). I settled on the cheapest
 plan I could find. Here are the specs.
 
     KVM1 Budget KVM VPS

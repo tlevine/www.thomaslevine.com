@@ -12,11 +12,11 @@ I used to run the now-defunct [Web Data Buzz App Hack NYC Biz API Tech](www.meet
 
 Here are some of our members
 
-![](gareth.png)
-![](michael.png)
-![](dave.png)
-![](uchendu.png)
-![](tieg.png)
+![Can't wait to lean bootstrap cloudera backbone restfully with other mongodb buzz growth hackers! On rails! (Not sure if this is some kind of joke or spam...](gareth.png)
+![I use a multispeed fixi api with analog torque diffs](michael.png)
+![Maybe this meetup is for real. Or maybe someone is having a manic episode.... :) Any how staying tuned to see what we might meetup and discuss some things that are being...](dave.png)
+![I'm a html5 js jquery knockout less bootstrap rockstar](uchendu.png)
+![?](tieg.png)
 
 ## The first talk
 I gave a talk to this group on Scalable Big Data Cloud ROI Agile Fixie
@@ -34,4 +34,4 @@ API with [HTML9 Responsive Boilerstrap JS](http://html9responsiveboilerstrapjs.c
 
 ![Here's a ventilator that I made in HTML9ResponsiveBoilerstrapJS.](ventilator.png)
 
-![Vietnhi's says "The biggest mind fuck I have ever been subjected to :)".](mindfuck.png)
+![The biggest mind fuck I have ever been subjected to :)](mindfuck.png)
