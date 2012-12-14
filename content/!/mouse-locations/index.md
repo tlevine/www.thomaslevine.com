@@ -1,9 +1,9 @@
-````
+---
 title: Effect of the number pad on mousing location
-created_at: 2012-03-08
+created_at: 2010-03-08
 kind: article
 tags: ['ergonomics']
-````
+---
 
 ![](http://smug.thomaslevine.com/Works/numberpad/numberpad/932457459_Wd94o-480x480.png)
 
