@@ -46,9 +46,12 @@ unless defined? LOADED_DEFAULT_CONFIG
 
   # sorted articles by tag, excluding future articles
   require 'date'
-  def sorted_articles_by_tag(tag)
-    unsorted = items_with_tag(tag).select { |i| i[:created_at] <= Date.today }
-    unsorted.sort_by do |a|
+  def published_articles(items)
+    items.select { |i| i[:created_at] && i[:created_at] <= Date.today }
+  end
+
+  def sort_articles(as)
+    as.sort_by do |a|
       attribute_to_time(a[:created_at])
     end.reverse
   end

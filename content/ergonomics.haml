@@ -5,4 +5,4 @@ main_class: ergonomics
   = render '_nav_boxes'
 
 #links.clearfix
-  = render('_blog_index_stuff', :items => sorted_articles_by_tag('ergonomics'))
+  = render('_blog_index_stuff', :items => sort_articles(published_articles(items_with_tag('ergonomics'))))
