@@ -15,7 +15,7 @@ The budget is divided into six funds.
 * General Fund
 * Capital Projects
 * Public Library
-* INT SVCE CEN GAR
+* Internal Service Fund Central Garage (INT SVCE CEN GAR)
 * Pool
 * Water
 
