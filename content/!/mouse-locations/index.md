@@ -1,6 +1,6 @@
 ```
 title: Effect of the number pad on mousing location
-created_at: 2008-11-08
+created_at: 2012-03-08
 kind: article
 tags: ['ergonomics']
 ```
