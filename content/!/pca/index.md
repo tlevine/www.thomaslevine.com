@@ -79,4 +79,4 @@ tend to live close to the river, so we might be able to get away with just
 using the "location along the river" variable for future analyses. Having just
 one variable can make statistics easier to compute and easier to explain.
 
-(This explanation is taken from my work [for Place2Be](http://tlevine.github.com/place2be/).)
+<!-- (This explanation is taken from my work [for Place2Be](http://tlevine.github.com/place2be/).) -->
