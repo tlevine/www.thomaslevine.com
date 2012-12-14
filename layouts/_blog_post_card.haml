@@ -1,2 +1,4 @@
 %strong
   = link_to(item[:short_title] || item[:title], item.identifier)
+%footer
+  = item[:created_at].strftime('%b %d, %Y')
