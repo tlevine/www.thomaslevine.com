@@ -3,7 +3,7 @@ title: Changes in appropriations to Scarsdale Village funds
 short_title: Villiage funds
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2012-12-11
+created_at: 2012-12-14
 ---
 
 What does Scarsdale Village spend money on, and how does it change over time?
