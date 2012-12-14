@@ -54,7 +54,7 @@ compile '/' do
   filter :relativize_paths, {:type => :html}
 end
 
-compile '/(ergonomics|scarsdale|doodles|!)/' do
+compile '/(data|ergonomics|scarsdale|doodles|!)/' do
   filter :haml
   layout 'base'
   filter :cache_buster
