@@ -85,7 +85,7 @@ compile '/!/*/*' do
       layout 'base'
 #     filter :colorize_syntax
       filter :cache_buster
-      filter :relativize_paths, {:type => :html}
+#     filter :relativize_paths, {:type => :html}
     end
   end
 end
