@@ -43,7 +43,7 @@ lines represents the absolute appropriation of the fund at each year.
 
 [![Changes in appropriation by fund relative 2003](<%= @item.identifier %>changes.png)](<%= @item.identifier %>changes.png)
 
-The INT..., General Fund and Public Library Fund increase at a similar rate.
+The Internal Service Fund Central Garage, General Fund and Public Library Fund increase at a similar rate.
 This rate happens to be about half the rate of inflation (based on the Consumer
 Price Index).
 
