@@ -1,6 +1,6 @@
 ---
 title: Hip 'Data' Terms
-created_at: 2012-11-15
+created_at: 2012-01-15
 kind: article
 tags: ['data']
 ---

@@ -1,5 +1,6 @@
 ---
 title: htmltable2matrix
+short_title: HTML table to matrix
 created_at: 2012-02-02
 kind: article
 ---
