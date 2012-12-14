@@ -29,7 +29,7 @@ appropriations were generally a bit lower. (That's a story for another blog post
 
 Anyway, what did the government spend?
 
-![Appropriation by year and fund](<%= @item.path %>appropriations.png)
+![Appropriation by year and fund](<%= @item.identifier %>appropriations.png)
 
 The general fund and capital projects are the big ones, but capital projects
 suddenly dropped in 2009. Keep in mind that some of the general fund money is
@@ -41,7 +41,7 @@ the scale to use the proportional change in appropriation by fund. This way,
 we can compare changes among funds of very different sizes. The width of the
 lines represents the absolute appropriation of the fund at each year.
 
-![Changes in appropriation by fund relative 2003](<%= @item.path %>changes.png)
+![Changes in appropriation by fund relative 2003](<%= @item.identifier %>changes.png)
 
 The INT..., General Fund and Public Library Fund increase at a similar rate.
 This rate happens to be about half the rate of inflation (based on the Consumer

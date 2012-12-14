@@ -27,7 +27,7 @@ API and whatnot, it's not that helpful that Cobalt has them. Loads of different
 tools can already accomplish most of these components, so there's probably an
 easier way to set up a simple project than using Cobalt.
 
-![Manually drawn line plot of 'Utility of Cobalt' as a function of 'Project Complexity'](<%= @item.path %>doodle.png)
+![Manually drawn line plot of 'Utility of Cobalt' as a function of 'Project Complexity'](<%= @item.identifier %>doodle.png)
 
 The benefit of Cobalt comes in encapsulating different projects into different
 computers and in standardizing the ways that different people do things.

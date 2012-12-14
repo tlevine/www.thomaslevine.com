@@ -60,7 +60,7 @@ I tried it anyway to be sure, and I couldn't connect.
 
 ![Table of power usage indicating that plugging in the only USB cable
   uses about three-halves the power of plugging in only the DC cable
-](<%= @item.path %>beaglebone-power-consumption.png)
+](<%= @item.identifier %>beaglebone-power-consumption.png)
 
 <!-- The table in LaTeX format
 MODE                  & USB &  DC & DC+USB \\
