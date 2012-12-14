@@ -43,6 +43,10 @@ compile '/img/*/' do
 # filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
 end
 
+compile '/CNAME' do
+# just copy it.
+end
+
 compile '/!/feed/' do
   filter :erb
 end
@@ -112,6 +116,10 @@ end
 
 route '/!/feed/' do
   '/!/feed.xml'
+end
+
+route '/CNAME' do
+  '/CNAME'
 end
 
 route '*' do
