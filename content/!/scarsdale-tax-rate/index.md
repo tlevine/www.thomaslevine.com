@@ -9,7 +9,7 @@ created_at: 2013-01-14
 I took some [information](https://github.com/tlevine/scarsdale-data/blob/master/budget/appendix_a1-tax.csv)
 out of the Scarsdale budgets and noticed that the property tax rate increases quite consisently.
 
-![Tax rate over time](tax_rate_by_year.png)
+![Tax rate over time](<%= @item.path %>tax_rate_by_year.png)
 
 The property tax rate is a proportion of the assessed value of the house; if
 your house is assessed at $10,000 and the tax rate is 24%, you pay $2,400 in
@@ -26,7 +26,7 @@ I wondered whether the increase could be explained by inflation, so I plotted
 the tax rate against the value of a dollar in today's dollars based on the
 Consumer Price Index. (This tries to adjust for inflation.)
 
-![Raw and inflation-adjusted tax rate over time](adj_tax_rate.png)
+![Raw and inflation-adjusted tax rate over time](<%= @item.path %>adj_tax_rate.png)
 
 This doesn't look that different from the previous plot becauses the value of
 a dollar changes quite consistently. I didn't find it that helpful for figuring
@@ -37,7 +37,7 @@ rate (dotted line) as the fair tax rate for each year if you were to pay for
 that year's taxes (the solid line) in 2009 rather than in the year to which
 they correspond.
 
-![Tax rate as a function of inflation](tax_rate_by_inflation.png)
+![Tax rate as a function of inflation](<%= @item.path %>tax_rate_by_inflation.png)
 
 If the increase in property tax rate is explained only by inflation, this line
 should be flat. Well, it would have bumps, bu wouldn't increase or decrease on

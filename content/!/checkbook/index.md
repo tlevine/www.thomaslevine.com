@@ -1,6 +1,6 @@
 ---
 title: On balancing checkbooks
-created_at: 2012-08-21
+created_at: 2013-03-21
 kind: article
 ---
 
