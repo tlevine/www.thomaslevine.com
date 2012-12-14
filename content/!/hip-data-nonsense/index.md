@@ -1,5 +1,5 @@
 ---
-title: Nonsensical Hip 'Data' Terms
+title: Hip 'Data' Terms
 created_at: 2012-11-15
 kind: article
 tags: ['data']
