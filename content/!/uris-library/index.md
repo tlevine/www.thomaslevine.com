@@ -1,7 +1,7 @@
 ---
 title: Why don't people use this reading room?
 short_title: Library reading room
-created_at: 2011-01-28
+created_at: 2011-07-18
 kind: article
 tags: ['ergonomics']
 ---
@@ -10,7 +10,7 @@ Library administration at Cornell University recognized that one library's
 main reading room was always empty while the one across the street was always
 full. Tal Gluck and I tried to figure out why.
 
-![Picture of a library reading room](room.jpg)
+![Picture of a library reading room](<%= @item.identifier %>room.jpg)
 
 We established functions and user groups for this reading room and then
 compared the library to other similar libraries. We conducted interviews with
@@ -24,12 +24,12 @@ We identified key environmental qualities that may be contributing to the
 decreased use of the Dean Room. We also had some thoughts about how people use
 libraries in general.
 
-The full paper is [here](poe.pdf).
+The full paper is [here](<%= @item.identifier %>poe.pdf).
 
 All of the source code is on [Gitorious](http://gitorious.org/tlevine/dea2500).
 
     git clone git://gitorious.org/tlevine/dea2500.git
 
-If you dare, take a look at the [questionnaire](questionnaire.pdf) and its
-[resulting data](questionnaire-data.csv).
-Here's a [summary](questionnaire-summary.pdf) of the data.
+If you dare, take a look at the [questionnaire](<%= @item.identifier %>questionnaire.pdf) and its
+[resulting data](<%= @item.identifier %>questionnaire-data.csv).
+Here's a [summary](<%= @item.identifier %>questionnaire-summary.pdf) of the data.

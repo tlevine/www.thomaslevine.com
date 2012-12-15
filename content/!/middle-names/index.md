@@ -54,7 +54,7 @@ and came up with this plot.
   proportion varies substantially by school, the graduate school
   having a particularly low rate of middle names and the agriculture
   school having a particularly high rate.
-](cornell_middle_names_by_school.png)
+](<%= @item.identifier %>cornell_middle_names_by_school.png)
 
 Based on discussions with some of the students in that census,
 I suspected that students underreport rather than
@@ -71,8 +71,8 @@ and came up with some more plots.
     showing a relatively sharp increase from 10% to 80% between 1880
     and 1930, followed by a plateau until 1960, followed by a
     smaller jump to 95% by 1975
-  ](us_middle_names_over_time.png)
-](us_middle_names_over_time_by_state.pdf)
+  ](<%= @item.identifier %>us_middle_names_over_time.png)
+](<%= @item.identifier %>us_middle_names_over_time_by_state.pdf)
 
 The rate of middle names for dead people born[^birth] these days is about 90%,
 which is a lot more than the Cornell University student figures; this

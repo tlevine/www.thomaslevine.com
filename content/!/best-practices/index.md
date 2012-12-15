@@ -1,6 +1,6 @@
 ---
 title: Tom Life Best Practices
-created_at: 2012-09-24
+created_at: 2013-02-24
 ---
 
 **Socks** Injinji mini-crew black original-weight ([a](socks-a.png), [b](socks-b.png))

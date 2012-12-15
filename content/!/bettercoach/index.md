@@ -1,7 +1,7 @@
 ---
 title: BetterCoach and the merits of the inferior schedule-finder
 short_title: BetterCoach
-created_at: 2012-05-23
+created_at: 2011-11-13
 kind: article
 ---
 

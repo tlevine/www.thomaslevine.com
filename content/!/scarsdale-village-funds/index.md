@@ -1,13 +1,13 @@
 ---
 title: Changes in appropriations to Scarsdale Village funds
-short_title: Villiage funds
+short_title: Village funds
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2013-02-11
+created_at: 2012-12-14
 ---
 
 What does Scarsdale Village spend money on, and how does it change over time?
-The village [budgets](www.scarsdale.com/Home/Departments/VillageTreasurer.aspx)
+The village [budgets](http://www.scarsdale.com/Home/Departments/VillageTreasurer.aspx)
 might be informative.
 
 The budget is divided into six funds.
@@ -15,7 +15,7 @@ The budget is divided into six funds.
 * General Fund
 * Capital Projects
 * Public Library
-* INT SVCE CEN GAR
+* Internal Service Fund Central Garage (INT SVCE CEN GAR)
 * Pool
 * Water
 
@@ -29,7 +29,7 @@ appropriations were generally a bit lower. (That's a story for another blog post
 
 Anyway, what did the government spend?
 
-![Appropriation by year and fund](appropriations.png)
+[![Appropriation by year and fund](<%= @item.identifier %>appropriations.png)](<%= @item.identifier %>appropriations.png)
 
 The general fund and capital projects are the big ones, but capital projects
 suddenly dropped in 2009. Keep in mind that some of the general fund money is
@@ -41,13 +41,13 @@ the scale to use the proportional change in appropriation by fund. This way,
 we can compare changes among funds of very different sizes. The width of the
 lines represents the absolute appropriation of the fund at each year.
 
-![Changes in appropriation by fund relative 2003](changes.png)
+[![Changes in appropriation by fund relative 2003](<%= @item.identifier %>changes.png)](<%= @item.identifier %>changes.png)
 
-The INT..., General Fund and Public Library Fund increase at a similar rate.
+The Internal Service Fund Central Garage, General Fund and Public Library Fund increase at a similar rate.
 This rate happens to be about half the rate of inflation (based on the Consumer
 Price Index).
 
-The Pool, Water and Capital Projects funds are marketly different.
+The Pool, Water and Capital Projects funds are markedly different.
 Water appropriations went up a lot for a few years and have come back down a bit.
 Pool appropriations have stayed about the same, rather than slightly increasing.
 And Capital Projects appropriations dropped suddenly in 2009.

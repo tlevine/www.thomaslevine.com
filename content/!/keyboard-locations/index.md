@@ -1,7 +1,7 @@
 ---
 tags: ['ergonomics']
 kind: article
-created_at: 2009-09-24
+created_at: 2011-08-24
 title: Where do people position computer keyboards?
 short_title: Keyboard locations
 ---
@@ -10,7 +10,7 @@ I noticed people trying to move the keyboard around. They couldn't because it
 was taped to the table, but it got me thinking. Maybe people move the keyboard
 a bit to the left instead of just mousing all the way to the right.
 
-![Plot of keyboard locations on a desk showing a wide range of placements](placements.png)
+![Plot of keyboard locations on a desk showing a wide range of placements](<%= @item.identifier %>placements.png)
 
 I measured the locations of computer keyboards in a computer lab for a few days
 to get an idea of how they are placed [2]. At first glance, it looks like they are

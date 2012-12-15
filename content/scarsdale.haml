@@ -5,4 +5,4 @@ main_class: scarsdale
   = render '_nav_boxes'
 
 #links.clearfix
-  = render('_blog_index_stuff', :items => items_with_tag('scarsdale'))
+  = render('_blog_index_stuff', :items => sort_articles(published_articles(items_with_tag('scarsdale'))))

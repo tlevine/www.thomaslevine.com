@@ -5,6 +5,7 @@ tags: ['scarsdale', 'data']
 kind: article
 created_at: 2013-01-21
 ---
+<% budget = 'https://github.com/tlevine/scarsdale-data/raw/master/budget/' %>
 The village substantially reduced expenditures after 2008, mainly in
 the capital projects fund.
 
@@ -17,15 +18,15 @@ or about two-thirds.
 ## 2009 Changes
 More specifically, public building costs were decreased by about $11.5 million,
 and highway improvement costs were decreased by about $8.5 million.
-(See page 109 of the [2009-2010 budget](2009-2010_adopted_budget.pdf))
+(See page 109 of the [2009-2010 budget](<%= budget %>2009-2010_adopted_budget.pdf))
 
 The decrease in public building cost can be explained by reduced work on the
 Public Safety HQ Renovation/Expansion, which had cost $12 million in 2008-2009.
-(See page 117 of the [2009-2010 budget](2009-2010_adopted_budget.pdf))
+(See page 117 of the [2009-2010 budget](<%= budget %>2009-2010_adopted_budget.pdf))
 
 The decrease in highway improvement cost can be explained by reduced bridge
 construction, for which about $9 million had been allocated in 2009-2010.
-(See page 119 of the [2009-2010 budget](2009-2010_adopted_budget.pdf))
+(See page 119 of the [2009-2010 budget](<%= budget %>2009-2010_adopted_budget.pdf))
 
 ## Previous appropriations
 Each budget shows the information for a few years prior. Based on this, it
