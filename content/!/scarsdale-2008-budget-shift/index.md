@@ -6,10 +6,10 @@ kind: article
 created_at: 2013-01-04
 ---
 <% budget = 'https://github.com/tlevine/scarsdale-data/raw/master/budget/' %>
-The village substantially reduced expenditures after 2008, mainly in
-the capital projects fund.
+The village substantially reduced its budget after 2008, mainly in the capital
+projects fund.
 
-(I have a graph.)
+[![Appropriation by year and fund](<%= @item.identifier %>appropriations.png)](<%= @item.identifier %>appropriations.png)
 
 The fund's appropriation typically increases by a couple million dollars each
 year, but the appropriation was decreased by about $20 million in 2009-2010,
@@ -40,17 +40,17 @@ not undertaken. It was to be funded by a bond, so I guess they just didn't take
 out the loan.
 
 The same happened in 2006-2007. It happened yet again in 2007-2008, but the
-cost estimate was $11 million instead of $5.5 million. It finally happened in
-2009-2010. That year, the cost was originally predicted to be $12 million, but
-it appears to have wound up costing only $11.5 million.
+cost estimate was $11 million instead of $5.5 million. The project was finally
+realized in 2009-2010. That year, the cost was originally predicted to be $12
+million, but it appears to have wound up costing only $11.5 million.
 
 ## Popham Road Bridge construction
 The same sort of thing happened for the Popham Road Bridge construction. In
 2005-2006, 2006-2007 and 2007-2008 it had been budget $6.8 million of grant
 money, but the money. In 2008-2009, it was budgeted at $8.5 million of grant
-money. It finally happened, but it was funded by the federal stimulus.
+money. It finally got built, but it was funded by the federal stimulus.
 
-These numbers are a bit off; I need to add things up properly.
+<!-- These numbers are a bit off; I need to add things up properly. -->
 
 ## Difference between adopted (planned) expenditures and actual expenditures
 There had been plans for years to spend money on the public safety HQ and the
