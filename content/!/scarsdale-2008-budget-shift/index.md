@@ -3,7 +3,7 @@ title: Changes in Scarsdale appropriations
 short_title: Villiage appro-priations
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2013-12-23
+created_at: 2012-12-23
 ---
 <% budget = 'https://github.com/tlevine/scarsdale-data/raw/master/budget/' %>
 The village substantially reduced its budget after 2008, mainly in the capital
