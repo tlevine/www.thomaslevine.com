@@ -13,7 +13,7 @@ projects fund.
 
 The fund's appropriation typically increases by a couple million dollars each
 year, but the appropriation was decreased by about $20 million in 2009-2010,
-or about two-thirds.
+or about two-thirds. Let's figure out why.
 
 ## 2009 Changes
 More specifically, public building costs were decreased by about $11.5 million,
