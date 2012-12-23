@@ -1,6 +1,6 @@
 ---
 title: Scarsdale data journalism
-created_at: 2012-12-07
+created_at: 2012-12-02
 kind: article
 tags: ['scarsdale']
 ---
