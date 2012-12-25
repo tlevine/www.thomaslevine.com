@@ -84,6 +84,12 @@ I present the first two in tables and the latter two in lists. See the
     tea towel                   dish towel
     cupboard                    cabinet
     data dictionary             codebook
+    free phone                  toll-free
+    diversion                   detour
+    flat                        apartment
+    lift                        elevator
+    top up                      fill, refill
+    local pub                   dive bar
 
 ## Grammar
 
