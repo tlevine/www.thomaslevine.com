@@ -17,6 +17,5 @@ so I figured I could do some data journalism, perhaps with more of an emphasis
 on the "data" than the "journalism".
 
 I grew up in and still live in [Scarsdale](http://www.scarsdale.com), a town
-and village of about 17,000 people. Data journalism hasn't entirely caught on
-in the big cities, so it's not a surprise that none of it is happening in
-Scarsdale. So I figured I'd change that.
+and village of about 17,000 people, so there isn't even much conventional
+journalism here.
