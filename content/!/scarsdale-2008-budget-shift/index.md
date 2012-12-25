@@ -1,6 +1,5 @@
 ---
-title: Changes in Scarsdale appropriations
-short_title: Villiage appro-priations
+title: Capital projects
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2012-12-23
