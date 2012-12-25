@@ -13,7 +13,8 @@ and I've recently been
 [hanging](http://pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
 [around](http://www.american.edu/americantoday/campus-news/20120420-SOC-Partners-with-Washington-Post-for-ScraperWiki-Event.cfm)
 [journalists](http://allthingsd.com/20120623/scraperwiki-tries-to-turn-journalists-into-hackers/),
-so I figured I could do some data journalism.
+so I figured I could do some data journalism, perhaps with more of an emphasis
+on the "data" than the "journalism".
 
 I grew up in and still live in [Scarsdale](http://www.scarsdale.com), a town
 and village of about 17,000 people. Data journalism hasn't entirely caught on
