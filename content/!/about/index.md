@@ -44,7 +44,7 @@ He's weird in other ways.
 >
 > [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
 
-He would not do well in Fight club.
+He would not do well in Fight Club.
 
 > Thomas Levine is a unique and special snowflake!
 >
