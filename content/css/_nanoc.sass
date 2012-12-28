@@ -214,7 +214,7 @@ nav .link
 // A blog post
 article
   @extend .base-big-card
-  width: 90%
+  max-width: 100%
   height: auto !important
   margin:
     left: auto
@@ -257,13 +257,13 @@ article
       right: auto
     border: none
 
-@media screen and (min-width: 640px)
+@media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
   .title-card, .business-card
     text-align: left
 
   .title-card, .business-card, article
-    width: $calling-card-long
     height: $calling-card-short
+    width: $calling-card-long
 
   .business-card
     .words
@@ -296,3 +296,8 @@ article
       left: 0.5 * $square
       right: 0.5 * $square
 
+@media screen and (min-width: 2 * $calling-card-long)
+
+  article
+    // Four little-card margins plus five little cards
+    width: 4 * (($calling-card-long - (3 * $topic-card-width * $square))/2) + 5 * $topic-card-width * $square 
