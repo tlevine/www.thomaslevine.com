@@ -72,6 +72,8 @@ compile '/!/*/*' do
 #     filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
 #   end
     # Don’t filter other binary items
+  elsif item.identifier.chop.gsub(/[^\/]/, '').length != 2
+  # Not the index page, so just copy it
   else
     case item[:extension]
     when 'html'
@@ -84,15 +86,16 @@ compile '/!/*/*' do
     else
       filter :erb
     end
-    if %w(html haml md).include?(item[:extension])
-      layout 'article'
-      layout 'base'
-#     filter :colorize_syntax
-      filter :cache_buster
-#     filter :relativize_paths, {:type => :html}
-    end
+    layout 'article'
+    layout 'base'
+#   filter :colorize_syntax
+    filter :cache_buster
+#   filter :relativize_paths, {:type => :html}
   end
 end
+
+# For filters
+layout '*', :haml, :format => :html5
 
 BYPASS_FILES.each do |file|
   route("/#{file.sub /\..+/, ''}/") do
@@ -122,6 +125,16 @@ route '/CNAME' do
   '/CNAME'
 end
 
+route '/!/*/*' do
+  basename = item[:filename].split('/')[-1]
+  if basename[0..4] == 'index'
+    suffix = '/index.html'
+  else
+    suffix = '.' + item[:extension]
+  end
+  item.identifier.chop + suffix
+end
+
 route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
@@ -134,4 +147,3 @@ route '*' do
   end
 end
 
-layout '*', :haml, :format => :html5

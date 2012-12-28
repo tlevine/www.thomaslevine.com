@@ -1,0 +1,181 @@
+<!--
+  I'm sorry for you if you are reading this source code. It's an ugly mess, but
+  it seemed to work, so I haven't refactored it.
+-->
+<link rel="stylesheet" href="style.css">
+
+<!-- Layout -->
+<div id="app">
+    <div id="about">
+        <h1>How to read your tax bill</h1>
+        <p>
+            Scarsdale's <a href="https://github.com/tlevine/scarsdale-data/blob/master/grandma/village.jpg">tax bills</a>
+            (and surely those of most governments) aren't
+            the most straightforward of documents. They've been this bad for
+            years, and I don't expect any change soon, so here's a guide for
+            reading them.
+        </p>
+        <p>
+            Your house is assessed to determine its Assessed Total Value, then
+            excemptions are subtracted to it to produce the Assessed Taxable Value.
+            This times the tax rate (in permil) produces your Tax Amount.
+        </p>
+        <p>
+            If you add up the county, village and school tax rates, it comes to about
+            $1,000, so your tax payments are about equal to the assessed value of your
+            house. There are also the sewer and solid waste taxes, but those are much
+            smaller.
+        </p>
+    </div>
+    <div id="directions">
+        <p>
+            Enter the assessed taxable value of your house to find out what you pay in
+            taxes and how you compare to everyone else. You can find your house's
+            assessed total and taxable values <a href="https://github.com/tlevine/scarsdale-data/blob/master/assessor/2012.pdf?raw=true">here</a>.
+        </p>
+    </div>
+    <div id="input">
+    </div>
+    <table class="levy">
+        <thead>
+            <tr>
+                <th class="levy-description">Levy Description</th>
+                <th class="total-tax-levy">Total Tax Levy</th>
+                <th class="percent-change">% Change from Prior Year</th>
+                <th class="assessed-total-value">Assessed Total Value</th>
+                <th class="assessed-taxable-value">Assessed Taxable Value</th>
+                <th class="tax-rate">Tax Rate</th>
+                <th class="tax-amount">Tax Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="county">
+                <td class="levy-description">2012 COUNTY TAX</td>
+                <td class="total-tax-levy">27,078,607</td>
+                <td class="percent-change">3.17</td>
+                <td class="assessed-total-value"></td>
+                <td class="assessed-taxable-value"></td>
+                <td class="tax-rate">194.908400</td>
+                <td class="tax-amount"></td>
+            </tr>
+            <tr class="village">
+                <td class="levy-description">2012-2013 VILLAGE TX</td>
+                <td class="total-tax-levy">33,093,095</td>
+                <td class="percent-change">3.72</td>
+                <td class="assessed-total-value"></td>
+                <td class="assessed-taxable-value"></td>
+                <td class="tax-rate">238.420000</td>
+                <td class="tax-amount"></td>
+            </tr>
+            <tr class="school">
+                <td class="levy-description">2012-2013 School Tax</td>
+                <td class="total-tax-levy">127,045,773</td>
+                <td class="percent-change">2.89</td>
+                <td class="assessed-total-value"></td>
+                <td class="assessed-taxable-value"></td>
+                <td class="tax-rate">868.927000</td>
+                <td class="tax-amount"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total">
+                <td class="note" colspan="6" style="text-align: right;">Total:</td>
+                <td class="tax-amount"></td>
+            </tr>
+        </thead>
+    </table>
+    <div id="distribution"></div>
+</div>
+
+
+<!-- Libraries -->
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="underscore-min.js" type="text/javascript"></script>
+<script src="backbone-min.js"></script>
+<script src="backbone.queryparams.js"></script>
+<script>
+$.fn.serializeObject = function() {
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};
+</script>
+
+<!-- Templates -->
+<script type="text/template" id="input-basic">
+    <form class="calculator calculator-basic">
+        <label for="total">Assessed total value</label>
+        <input class="slider" name="total" type="range" min="0" max="100000" value="<%= total %>" step="1000" />
+        <div class="scale">
+            <span class="min">$0</span>
+            <span class="current" style="left: <%= slider %>;">$<%= pretty_total %></span>
+            <span class="max">$100,000</span>
+        </div>
+        <a href="#?advanced=true&total=<%= total %>">Advanced version</a>
+    </form>
+</script>
+<script type="text/template" id="input-advanced">
+    <form class="calculator calculator-advanced">
+        <div class="form-field">
+            <label for="total">Assessed total value</label>
+            <input name="total" type="text" value="<%= total %>" pattern="[0-9]*" />
+        </div>
+        <div class="form-field">
+            <label for="taxable_county">Assessed taxable value for county tax</label>
+            <input name="taxable_county" type="text" value="<%= taxable_county %>" pattern="[0-9]*" />
+        </div>
+        <div class="form-field">
+            <label for="taxable_village">Assessed taxable value for village tax</label>
+            <input name="taxable_village" type="text" value="<%= taxable_village %>" pattern="[0-9]*" />
+        </div>
+        <div class="form-field">
+            <label for="taxable_school">Assessed taxable value for school tax</label>
+            <input name="taxable_school" type="text" value="<%= taxable_school %>" pattern="[0-9]*" />
+        </div>
+        <div class="form-field">
+            <a href="#?advanced=false&total=<%= total %>">Simple version</a>
+            <input type="submit" value="Go">
+        </div>
+    </form>
+</script>
+<script type="text/template" id="distribution-template">
+    <table class="additional-information">
+        <thead>
+            <tr>
+                <th colspan="2">Additional Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Full market value of this Property</td>
+                <td class="number"><%= market_value %></td>
+            </tr>
+            <tr>
+                <td>Uniform percent used to calculate full market value</td>
+                <td class="number">1.87</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <li>You house's assessed <strong>total</strong> value is greater than that of <strong><%= total %></strong> of properties.</li>
+        <li>You house's assessed taxable value for <strong>county</strong> taxes is greater than that of <strong><%= taxable_county %></strong> of properties.</li>
+        <li>You house's assessed taxable value for <strong>village</strong> taxes is greater than that of <strong><%= taxable_village %></strong> of properties.</li>
+        <li>You house's assessed taxable value for <strong>school</strong> taxes is greater than that of <strong><%= taxable_school %></strong> of properties.</li>
+    </ul>
+</script>
+
+<!-- Assessed value distribution data -->
+<script src="data.js" type="text/javascript"></script>
+
+<!-- Go -->
+<script src="main.js" type="text/javascript"></script>
