@@ -1,8 +1,4 @@
 ---
 main_class: blog
 ---
-%nav
-  = render '_nav_boxes'
-
-#links.clearfix
-  = render('_blog_index_stuff', :items => published_articles(sorted_articles))
+= render('_blog_index_stuff', :items => published_articles(sorted_articles))

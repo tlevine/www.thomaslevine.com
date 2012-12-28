@@ -21,6 +21,17 @@ On the index page for a particular blog section (`/!/`, `/scarsdale/`, &c.),
 the big card is the title of the section.
 On a blog post, the big card is the title of the blog post.
 
+### Parameters
+`$square` is the base square for the layout in pixels.
+
+`$calling-card-long` and `$calling-card-short` are the long and short sides,
+respectively of a `big-card` in pixels.
+
+`$topic-card-width` is the width of a `little-card` in squares, including
+its half-square padding.
+
+The parameters could be refactors.
+
 ### Order
 The first row of the page is the `#nav`. It is always the following three
 `little-card` boxes, in this order
