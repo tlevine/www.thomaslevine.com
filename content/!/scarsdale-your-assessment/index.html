@@ -5,37 +5,36 @@
 <link rel="stylesheet" href="style.css">
 
 <!-- Layout -->
+<div id="about">
+    <h1>How to read your tax bill</h1>
+    <p>
+        Scarsdale's <a href="https://github.com/tlevine/scarsdale-data/blob/master/grandma/village.jpg">tax bills</a>
+        (and surely those of most governments) aren't
+        the most straightforward of documents. They've been this bad for
+        years, and I don't expect any change soon, so here's a guide for
+        reading them.
+    </p>
+    <p>
+        Your house is assessed to determine its Assessed Total Value, then
+        excemptions are subtracted to it to produce the Assessed Taxable Value.
+        This times the tax rate (in permil) produces your Tax Amount.
+    </p>
+    <p>
+        If you add up the county, village and school tax rates, it comes to about
+        $1,000, so your tax payments are about equal to the assessed value of your
+        house. There are also the sewer and solid waste taxes, but those are much
+        smaller.
+    </p>
+</div>
+<div id="directions">
+    <p>
+        Enter the assessed taxable value of your house to find out what you pay in
+        taxes and how you compare to everyone else. You can find your house's
+        assessed total and taxable values <a href="https://github.com/tlevine/scarsdale-data/blob/master/assessor/2012.pdf?raw=true">here</a>.
+    </p>
+</div>
 <div id="app">
-    <div id="about">
-        <h1>How to read your tax bill</h1>
-        <p>
-            Scarsdale's <a href="https://github.com/tlevine/scarsdale-data/blob/master/grandma/village.jpg">tax bills</a>
-            (and surely those of most governments) aren't
-            the most straightforward of documents. They've been this bad for
-            years, and I don't expect any change soon, so here's a guide for
-            reading them.
-        </p>
-        <p>
-            Your house is assessed to determine its Assessed Total Value, then
-            excemptions are subtracted to it to produce the Assessed Taxable Value.
-            This times the tax rate (in permil) produces your Tax Amount.
-        </p>
-        <p>
-            If you add up the county, village and school tax rates, it comes to about
-            $1,000, so your tax payments are about equal to the assessed value of your
-            house. There are also the sewer and solid waste taxes, but those are much
-            smaller.
-        </p>
-    </div>
-    <div id="directions">
-        <p>
-            Enter the assessed taxable value of your house to find out what you pay in
-            taxes and how you compare to everyone else. You can find your house's
-            assessed total and taxable values <a href="https://github.com/tlevine/scarsdale-data/blob/master/assessor/2012.pdf?raw=true">here</a>.
-        </p>
-    </div>
-    <div id="input">
-    </div>
+    <div id="input"></div>
     <table class="levy">
         <thead>
             <tr>

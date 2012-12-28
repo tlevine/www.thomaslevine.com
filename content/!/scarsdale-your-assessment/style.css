@@ -1,67 +1,67 @@
-table {
+article table {
     border-collapse: collapse;
 }
 
-form.calculator {
+article form.calculator {
     height: 10em;
     position: relative;
 }
 
-form.calculator-basic label,
-form.calculator-basic .scale,
-form.calculator-basic input,
-form.calculator-basic a {
+article form.calculator-basic label,
+article form.calculator-basic .scale,
+article form.calculator-basic input,
+article form.calculator-basic a {
     display: block;
     width: 100%;
 }
-form.calculator-basic label {
+article form.calculator-basic label {
     font-weight: bold;
     text-align: center;
 }
-form.calculator-basic input {
+article form.calculator-basic input {
     height: 45%;
 }
-form.calculator-basic a {
+article form.calculator-basic a {
     text-align: right;
 }
-form.calculator-basic .scale {
+article form.calculator-basic .scale {
     font-weight: bold;
     height: 20%;
 }
-form.calculator-basic .scale .min {
+article form.calculator-basic .scale .min {
     float: left;
     text-align: left;
 }
-form.calculator-basic .scale .current {
+article form.calculator-basic .scale .current {
     position: absolute;
     bottom: 35%;
 }
-form.calculator-basic .scale .max {
+article form.calculator-basic .scale .max {
     float: right;
     text-align: right;
 }
 
 
-form.calculator-advanced .form-field {
+article form.calculator-advanced .form-field {
     height: 2em;
     float: right;
     width: 100%;
     display: block;
 }
-form.calculator-advanced .form-field label,
-form.calculator-advanced .form-field a,
-form.calculator-advanced .form-field input {
+article form.calculator-advanced .form-field label,
+article form.calculator-advanced .form-field a,
+article form.calculator-advanced .form-field input {
     display: inline-block;
     margin-left: 1%;
     margin-right: 1%;
     padding: 0;
 }
-form.calculator-advanced .form-field label,
-form.calculator-advanced .form-field a {
+article form.calculator-advanced .form-field label,
+article form.calculator-advanced .form-field a {
     width: 87%;
     text-align: right;
 }
-form.calculator-advanced .form-field input {
+article form.calculator-advanced .form-field input {
     border-width: 2px;
     width: 8%;
 }
@@ -70,10 +70,10 @@ form.calculator-advanced .form-field input {
 #app {
     width: 800px;
 }
-table {
+article table {
     width: 100%;
 }
-table.levy th, table.levy td {
+article table.levy th, article table.levy td {
     width: 14.28571%;
 }
 
@@ -85,45 +85,48 @@ table.levy th, table.levy td {
 */
 
 /* Borders */
-table.levy, table.levy tbody {
+article table.levy, article table.levy tbody {
     border: 1px solid black;
 }
-table.levy thead th, table.levy thead td ,
-table.levy tbody th, table.levy tbody td {
+article table.levy thead th, article table.levy thead td ,
+article table.levy tbody th, article table.levy tbody td {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
 
-/* Background color */
-table.levy thead th {
+/* Color */
+article table.levy thead th {
     background-color: #DDD;
+}
+#app * {
+    color: black;
+    font-family: aoeu, Arial, sans-serif;
 }
 
 /* Text alignment */
-table.levy thead th {
+article table.levy thead th {
     text-align: center;
 }
-table.levy tbody .total-tax-levy, table.levy tbody .percent-change,
-table.levy tbody .assessed-total-value, table.levy tbody .assessed-taxable-value, 
-table.levy tbody .tax-rate,  table.levy tbody .tax-amount, tfoot .tax-amount {
+article table.levy tbody .total-tax-levy, article table.levy tbody .percent-change,
+article table.levy tbody .assessed-total-value, article table.levy tbody .assessed-taxable-value, 
+article table.levy tbody .tax-rate,  article table.levy tbody .tax-amount, tfoot .tax-amount {
     text-align: right;
 }
 
-/* Additional information table */
-table.additional-information {
+/* Additional information article table */
+article table.additional-information {
     margin-top: 2em;
     text-transform: uppercase;
     line-height: 2em;
 }
-table.additional-information thead {
+article table.additional-information thead {
     text-align: left;
     font-weight: bold;
 }
-table.additional-information tbody {
+article table.additional-information tbody {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-table.additional-information td.number {
+article table.additional-information td.number {
     text-align: right;
 }
-
