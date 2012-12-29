@@ -76,6 +76,9 @@ compile '/!/*/*' do
   # Not the index page, so just copy it
   else
     case item[:extension]
+    when 'html'
+    when 'rhtml'
+      filter :erb
     when 'md'
       filter :erb
       filter :kramdown
