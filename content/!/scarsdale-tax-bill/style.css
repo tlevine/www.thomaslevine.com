@@ -117,7 +117,8 @@
 
 /* Additional information app table */
 #app table.additional-information {
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     text-transform: uppercase;
     line-height: 2em;
 }
