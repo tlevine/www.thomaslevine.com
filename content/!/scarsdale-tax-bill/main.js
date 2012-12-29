@@ -155,7 +155,7 @@ var Router = Backbone.Router.extend({
         // Parse parameters
         if (!params) {
             // Use the median by default
-            var params = {total: 19000}
+            var params = {total: 19500}
         }
 
         var fields = ['taxable_county', 'taxable_village', 'taxable_school']

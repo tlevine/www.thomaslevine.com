@@ -123,7 +123,7 @@ $.fn.serializeObject = function() {
 <script type="text/template" id="input-basic">
     <form class="calculator calculator-basic">
         <label for="total">Assessed total value</label>
-        <input class="slider" name="total" type="range" min="0" max="100000" value="<!%= total %>" step="1000" />
+        <input class="slider" name="total" type="range" min="0" max="100000" value="<!%= total %>" step="100" />
         <div class="scale">
             <span class="min">$0</span>
             <span class="current" style="left: <!%= slider %>;">$<!%= pretty_total %></span>
