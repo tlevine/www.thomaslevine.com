@@ -1,79 +1,81 @@
-article table {
+#app table {
     border-collapse: collapse;
 }
 
-article form.calculator {
+#app form.calculator {
     height: 10em;
     position: relative;
 }
 
-article form.calculator-basic label,
-article form.calculator-basic .scale,
-article form.calculator-basic input,
-article form.calculator-basic a {
+#app form.calculator-basic label,
+#app form.calculator-basic .scale,
+#app form.calculator-basic input,
+#app form.calculator-basic a {
     display: block;
     width: 100%;
 }
-article form.calculator-basic label {
+#app form.calculator-basic label {
     font-weight: bold;
     text-align: center;
 }
-article form.calculator-basic input {
+#app form.calculator-basic input {
     height: 45%;
 }
-article form.calculator-basic a {
+#app form.calculator-basic a {
     text-align: right;
 }
-article form.calculator-basic .scale {
+#app form.calculator-basic .scale {
     font-weight: bold;
     height: 20%;
 }
-article form.calculator-basic .scale .min {
+#app form.calculator-basic .scale .min {
     float: left;
     text-align: left;
 }
-article form.calculator-basic .scale .current {
+#app form.calculator-basic .scale .current {
     position: absolute;
     bottom: 35%;
 }
-article form.calculator-basic .scale .max {
+#app form.calculator-basic .scale .max {
     float: right;
     text-align: right;
 }
 
 
-article form.calculator-advanced .form-field {
+#app form.calculator-advanced .form-field {
     height: 2em;
-    float: right;
     width: 100%;
+    max-width: 540px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-article form.calculator-advanced .form-field label,
-article form.calculator-advanced .form-field a,
-article form.calculator-advanced .form-field input {
-    display: inline-block;
+#app form.calculator-advanced .form-field label,
+#app form.calculator-advanced .form-field a,
+#app form.calculator-advanced .form-field input {
     margin-left: 1%;
     margin-right: 1%;
     padding: 0;
 }
-article form.calculator-advanced .form-field label,
-article form.calculator-advanced .form-field a {
-    width: 87%;
+#app form.calculator-advanced .form-field label,
+#app form.calculator-advanced .form-field a {
+    width: 80%;
     text-align: right;
 }
-article form.calculator-advanced .form-field input {
+#app form.calculator-advanced .form-field input {
+    float: right;
     border-width: 2px;
-    width: 8%;
+    width: 15%;
 }
 
 /* Widths */
 #app {
-    width: 800px;
-}
-article table {
     width: 100%;
 }
-article table.levy th, article table.levy td {
+#app table {
+    width: 100%;
+}
+#app table.levy th, #app table.levy td {
     width: 14.28571%;
 }
 
@@ -85,17 +87,17 @@ article table.levy th, article table.levy td {
 */
 
 /* Borders */
-article table.levy, article table.levy tbody {
+#app table.levy, #app table.levy tbody {
     border: 1px solid black;
 }
-article table.levy thead th, article table.levy thead td ,
-article table.levy tbody th, article table.levy tbody td {
+#app table.levy thead th, #app table.levy thead td ,
+#app table.levy tbody th, #app table.levy tbody td {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
 
 /* Color */
-article table.levy thead th {
+#app table.levy thead th {
     background-color: #DDD;
 }
 #app * {
@@ -104,29 +106,42 @@ article table.levy thead th {
 }
 
 /* Text alignment */
-article table.levy thead th {
+#app table.levy thead th {
     text-align: center;
 }
-article table.levy tbody .total-tax-levy, article table.levy tbody .percent-change,
-article table.levy tbody .assessed-total-value, article table.levy tbody .assessed-taxable-value, 
-article table.levy tbody .tax-rate,  article table.levy tbody .tax-amount, tfoot .tax-amount {
+#app table.levy tbody .total-tax-levy, #app table.levy tbody .percent-change,
+#app table.levy tbody .assessed-total-value, #app table.levy tbody .assessed-taxable-value, 
+#app table.levy tbody .tax-rate,  #app table.levy tbody .tax-amount, tfoot .tax-amount {
     text-align: right;
 }
 
-/* Additional information article table */
-article table.additional-information {
+/* Additional information app table */
+#app table.additional-information {
     margin-top: 2em;
     text-transform: uppercase;
     line-height: 2em;
 }
-article table.additional-information thead {
+#app table.additional-information thead {
     text-align: left;
     font-weight: bold;
 }
-article table.additional-information tbody {
+#app table.additional-information tbody {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-article table.additional-information td.number {
+#app table.additional-information td.number {
     text-align: right;
+}
+
+/* thomaslevine.com is too skinny until 1008px */
+#screen-size-warning { display: none; }
+@media screen and (max-width: 1008px) {
+    #app { display: none; }
+    #screen-size-warning {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid;
+        padding: 0.5em;
+    }
 }
