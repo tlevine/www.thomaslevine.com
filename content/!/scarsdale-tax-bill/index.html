@@ -115,39 +115,42 @@ $.fn.serializeObject = function() {
 };
 </script>
 
-<!-- Templates -->
+<!--
+  Templates 
+  The exclamation points are so Nanoc's erb filter doesn't try to fill them in.
+-->
 <script type="text/template" id="input-basic">
     <form class="calculator calculator-basic">
         <label for="total">Assessed total value</label>
-        <input class="slider" name="total" type="range" min="0" max="100000" value="<%= total %>" step="1000" />
+        <input class="slider" name="total" type="range" min="0" max="100000" value="<!%= total %>" step="1000" />
         <div class="scale">
             <span class="min">$0</span>
-            <span class="current" style="left: <%= slider %>;">$<%= pretty_total %></span>
+            <span class="current" style="left: <!%= slider %>;">$<!%= pretty_total %></span>
             <span class="max">$100,000</span>
         </div>
-        <a href="#?advanced=true&total=<%= total %>">Advanced version</a>
+        <a href="#?advanced=true&total=<!%= total %>">Advanced version</a>
     </form>
 </script>
 <script type="text/template" id="input-advanced">
     <form class="calculator calculator-advanced">
         <div class="form-field">
             <label for="total">Assessed total value</label>
-            <input name="total" type="text" value="<%= total %>" pattern="[0-9]*" />
+            <input name="total" type="text" value="<!%= total %>" pattern="[0-9]*" />
         </div>
         <div class="form-field">
             <label for="taxable_county">Assessed taxable value for county tax</label>
-            <input name="taxable_county" type="text" value="<%= taxable_county %>" pattern="[0-9]*" />
+            <input name="taxable_county" type="text" value="<!%= taxable_county %>" pattern="[0-9]*" />
         </div>
         <div class="form-field">
             <label for="taxable_village">Assessed taxable value for village tax</label>
-            <input name="taxable_village" type="text" value="<%= taxable_village %>" pattern="[0-9]*" />
+            <input name="taxable_village" type="text" value="<!%= taxable_village %>" pattern="[0-9]*" />
         </div>
         <div class="form-field">
             <label for="taxable_school">Assessed taxable value for school tax</label>
-            <input name="taxable_school" type="text" value="<%= taxable_school %>" pattern="[0-9]*" />
+            <input name="taxable_school" type="text" value="<!%= taxable_school %>" pattern="[0-9]*" />
         </div>
         <div class="form-field">
-            <a href="#?advanced=false&total=<%= total %>">Simple version</a>
+            <a href="#?advanced=false&total=<!%= total %>">Simple version</a>
             <input type="submit" value="Go">
         </div>
     </form>
@@ -162,7 +165,7 @@ $.fn.serializeObject = function() {
         <tbody>
             <tr>
                 <td>Full market value of this Property</td>
-                <td class="number"><%= market_value %></td>
+                <td class="number"><!%= market_value %></td>
             </tr>
             <tr>
                 <td>Uniform percent used to calculate full market value</td>
@@ -171,10 +174,10 @@ $.fn.serializeObject = function() {
         </tbody>
     </table>
     <ul>
-        <li>You house's assessed <strong>total</strong> value is greater than that of <strong><%= total %></strong> of properties.</li>
-        <li>You house's assessed taxable value for <strong>county</strong> taxes is greater than that of <strong><%= taxable_county %></strong> of properties.</li>
-        <li>You house's assessed taxable value for <strong>village</strong> taxes is greater than that of <strong><%= taxable_village %></strong> of properties.</li>
-        <li>You house's assessed taxable value for <strong>school</strong> taxes is greater than that of <strong><%= taxable_school %></strong> of properties.</li>
+        <li>You house's assessed <strong>total</strong> value is greater than that of <strong><!%= total %></strong> of properties.</li>
+        <li>You house's assessed taxable value for <strong>county</strong> taxes is greater than that of <strong><!%= taxable_county %></strong> of properties.</li>
+        <li>You house's assessed taxable value for <strong>village</strong> taxes is greater than that of <strong><!%= taxable_village %></strong> of properties.</li>
+        <li>You house's assessed taxable value for <strong>school</strong> taxes is greater than that of <strong><!%= taxable_school %></strong> of properties.</li>
     </ul>
 </script>
 

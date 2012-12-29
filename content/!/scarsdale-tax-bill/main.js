@@ -1,3 +1,8 @@
+// Hack to render templates without clashing with Nanoc's erb filter
+var load_template = function(css) {
+    return $(css).html().replace(/<!%/g, '<%')
+}
+
 // Views for basic and advanced statistics
 var InputView = Backbone.View.extend({
     el: "#input",
@@ -6,7 +11,7 @@ var InputView = Backbone.View.extend({
         houseparams.pretty_total = pretty(houseparams.total)
         houseparams.slider = slider_loc(houseparams.total)
         var template_css = '#input-' + template
-        var template = _.template($(template_css).html(), houseparams)
+        var template = _.template(load_template(template_css), houseparams)
         this.$el.html(template)
     },
     output: function(e) {
@@ -133,7 +138,7 @@ var DistributionView = Backbone.View.extend({
             taxable_school: percentile(TAXABLE_SCHOOL_POPULATION, houseparams.total)
         }
 
-        var template = _.template($('#distribution-template').html(), info)
+        var template = _.template(load_template('#distribution-template'), info)
         this.$el.html(template)
     }
 })
