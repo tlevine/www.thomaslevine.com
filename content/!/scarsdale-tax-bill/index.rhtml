@@ -8,7 +8,7 @@ tags: ['scarsdale']
   I'm sorry for you if you are reading this source code. It's an ugly mess, but
   it seemed to work, so I haven't refactored it.
 -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="<%= item.identifier %>style.css">
 
 <!-- Layout -->
 <div id="about">
@@ -94,10 +94,10 @@ tags: ['scarsdale']
 
 
 <!-- Libraries -->
-<script src="jquery.min.js" type="text/javascript"></script>
-<script src="underscore-min.js" type="text/javascript"></script>
-<script src="backbone-min.js"></script>
-<script src="backbone.queryparams.js"></script>
+<script src="/js/vendor/jquery.js" type="text/javascript"></script>
+<script src="<%= item.identifier %>underscore-min.js" type="text/javascript"></script>
+<script src="<%= item.identifier %>backbone-min.js"></script>
+<script src="<%= item.identifier %>backbone.queryparams.js"></script>
 <script>
 $.fn.serializeObject = function() {
     var o = {};
@@ -116,7 +116,7 @@ $.fn.serializeObject = function() {
 };
 </script>
 <!-- https://github.com/fryn/html5slider/raw/master/html5slider.js -->
-<script src="html5slider.js"></script>
+<script src="<%= item.identifier %>html5slider.js"></script>
 
 <!--
   Templates 
@@ -183,7 +183,7 @@ $.fn.serializeObject = function() {
 </script>
 
 <!-- Assessed value distribution data -->
-<script src="data.js" type="text/javascript"></script>
+<script src="<%= item.identifier %>data.js" type="text/javascript"></script>
 
 <!-- Go -->
-<script src="main.js" type="text/javascript"></script>
+<script src="<%= item.identifier %>main.js" type="text/javascript"></script>
