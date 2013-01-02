@@ -1,5 +1,5 @@
 ---
-title: Searching lots of inconveniently files at once
+title: Searching lots of inconveniently formatted files at once
 ---
 
 At [TechCamp Sarajevo](http://wiki.techcampglobal.org/index.php?title=TechCamp:Sarajevo_Agenda),
