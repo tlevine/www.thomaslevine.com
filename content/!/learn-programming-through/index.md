@@ -9,7 +9,7 @@ are some such annoyances.
 
 * [Collaborating on music](http://en.wikipedia.org/wiki/SoundCloud#History)
 * [Forgetting a USB drive](http://en.wikipedia.org/wiki/Dropbox_(service)#History)
-* [Making complex HTTP requests in Python](http:/python-requests.org)
+* [Making complex HTTP requests in Python](http://python-requests.org)
 
 I do the same. But once I learn all of the technical stuff about how to make
 the thing that solves the annoyance, I normally don't need to write anything
