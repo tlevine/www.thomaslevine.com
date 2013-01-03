@@ -156,16 +156,16 @@ nav
 .business-card
   @extend .base-big-card
   .social
-    width: 6em
+    width: 5 * $square
     margin:
       left: auto
       right: auto
-    li
+    a.elsewhere
       display: inline-block
-      width: 1.65em
-      height: 1.65em
-      margin: 0.25em
-      padding: 0.25em
+      width: $square / 2
+      height: $square / 2
+      margin: $square / 8
+      padding: $square / 4
       vertical-align: baseline
       text-align: center
       background: $pink
