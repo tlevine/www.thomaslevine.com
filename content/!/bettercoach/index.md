@@ -7,7 +7,7 @@ kind: article
 
 The [Coach](http://coachusa.com) [bus](http://coachcanada.ca)
 [schedule-finder](http://shortlinebus.com) is hard-to-use,
-so I made a [better one](http://bettercoa.ch).
+so I made a [better one](http://bettercoach.thomaslevine.com).
 
 But the official schedule-finder is actually sort of cool,
 at least for its time.
