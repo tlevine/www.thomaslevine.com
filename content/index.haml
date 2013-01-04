@@ -43,7 +43,10 @@
     = render('_topic_box', :topic => 'libraries', :links => [['dumptruck', "http://dumptruck.io/"], ['scraperwiki', "https://github.com/tlevine/scraperwiki_offline"], ['sqlite web api', 'https://github.com/scraperwiki/dumptruck-web'], ['dicti', 'https://github.com/tlevine/dicti']])
 
   #buttons.link-group
-    = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['web forms', 'https://gist.github.com/1231284'], ['usps', 'https://views.scraperwiki.com/run/usps_lookup/'], ['unwatermark', 'https://github.com/tlevine/unwatermark']])
+    = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['usps', 'https://views.scraperwiki.com/run/usps_lookup/']])
+
+  #nerd-cred.link-group
+    = render('_topic_box', :topic => 'nerd cred', :links => [['web forms', 'https://gist.github.com/1231284'], ['unwatermark', 'https://github.com/tlevine/unwatermark'], ['.profile', 'https://github.com/tlevine/.prophyl-teh-awesum']])
 
   -##ergonomics.link-group
     %h3
@@ -103,5 +106,9 @@
 
   -##things.link-group
     = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
+
+  #shenanigans.link-group
+    = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"], ['twinkle', '/!/twinkle/']])
+
   #etc.link-group
-    = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"], ['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"], ['twinkle', '/!/twinkle/']])
+    = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"]])
