@@ -107,8 +107,14 @@
   -##things.link-group
     = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
 
+  #toilets.link-group
+    = render('_topic_box', :topic => 'toilets', :links => [['hovering', ''], ['dorm', ''], ['sewer', ''], ['map', '']])
+
   #shenanigans.link-group
     = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"], ['twinkle', '/!/twinkle/']])
 
   #etc.link-group
     = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"]])
+
+  -##blog.link-group
+    = render('_topic_box', :topic => 'blog.', :links => [['scarsdale', '/scarsdale/'], ['doodles', '/doodles/'], ['data', '/data/'], ['everything', '/!/'])
