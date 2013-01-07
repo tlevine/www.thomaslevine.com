@@ -19,12 +19,17 @@ Most meetings list the day and time at which they meet, so we can also see when
 they happen during the week. Getting this to render nicely in a web browser was
 annoying, so you get it as a [pdf](<%= item.identifier %>over-week.pdf).
 
-The data aren't particularly clean; in particular, I sometimes treated meetings
+It also turns out that some of the coordinates
+are totally wrong, like those of the most-listed location,
+[993 Intervale Avenue](https://maps.google.com/maps?q=993+intervale+avenue+10457&hl=en&ll=40.823013,-73.896908&spn=0.00352,0.006968&hnear=993+Intervale+Ave,+Bronx,+New+York+10459&gl=us&t=h&z=18).
+But I suspect that these plots over time are still informative.
+
+The data are unpleasant in other ways; in particular, I sometimes treated meetings
 after noon as having happened twelve hours earlier. This explains the 1 am
 meetings. Aside from these errors, meetings tend to happen when people are
 neither working nor sleeping.
 
-Some particularly popular locations stand out. I think these are easier to see
+Anyway, some particularly popular locations stand out. But I think these are easier to see
 in table form; here are the locations that had at least ten meetings.
 (Some of these locations are actually the same place with different links.)
 

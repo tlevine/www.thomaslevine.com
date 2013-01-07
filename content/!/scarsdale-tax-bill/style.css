@@ -87,7 +87,7 @@
 */
 
 /* Borders */
-#app table.levy, #app table.levy tbody {
+#app table.levy, #app table.levy tbody , #app table.levy tfoot {
     border: 1px solid black;
 }
 #app table.levy thead th, #app table.levy thead td ,

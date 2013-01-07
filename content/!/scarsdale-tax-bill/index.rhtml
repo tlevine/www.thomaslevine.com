@@ -1,6 +1,6 @@
 ---
 title: Reading your tax bill
-created_at: 2012-01-03
+created_at: 2013-01-03
 kind: article
 tags: ['scarsdale']
 ---
@@ -8,7 +8,7 @@ tags: ['scarsdale']
   I'm sorry for you if you are reading this source code. It's an ugly mess, but
   it seemed to work, so I haven't refactored it.
 -->
-<link rel="stylesheet" href="<%= item.identifier %>style.css">
+<style scoped>@import url("<%= item.identifier %>style.css");</style>
 
 <!-- Layout -->
 <div id="about">
@@ -87,7 +87,7 @@ tags: ['scarsdale']
                 <td class="note" colspan="6" style="text-align: right;">Total:</td>
                 <td class="tax-amount"></td>
             </tr>
-        </thead>
+        </tfoot>
     </table>
     <div id="distribution"></div>
 </div>

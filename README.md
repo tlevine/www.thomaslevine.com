@@ -92,3 +92,9 @@ All other pages use the color pink.
     nanoc compile
 
 You can view the skeleton site by browsing the generated `output/index.html` file.
+
+7\. Validate the output
+
+    nanoc validate-html
+    nanoc validate-css
+    nanoc validate-links
