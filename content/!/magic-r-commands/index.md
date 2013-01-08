@@ -23,6 +23,10 @@ Use ProjectTemplate.
 
 `mapply` maps along a matrix, passing multiple arguments to the function
 
+Show all factor levels in a ggplot
+
+    ggplot(iris[1:50,]) + aes(x = Species, y = Sepal.Length) +
+      scale_x_discrete('Species', drop = F) + geom_point()
 
 ## Maintenance
 Update your packages.
