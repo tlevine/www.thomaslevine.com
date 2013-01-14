@@ -101,7 +101,8 @@
     = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
 
   #toilets.link-group
-    = render('_topic_box', :topic => 'toilets', :links => [['hovering', ''], ['dorm', ''], ['sewer', ''], ['map', '']])
+    -#= render('_topic_box', :topic => 'toilets', :links => [['hovering', ''], ['dorm', ''], ['sewer', ''], ['map', '']])
+    = render('_topic_box', :topic => 'toilets', :links => [['dorm', '/!/risley-toilets'], ['map', 'http://mapsh.it']])
 
   #shenanigans.link-group
     = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"], ['twinkle', '/!/twinkle/']])
