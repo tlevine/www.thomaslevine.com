@@ -177,6 +177,14 @@ nav
   .logo
     margin-top: 1 * $square
 
+
+// Hack so that overflows but is still centered
+.e-post
+  width: 200%
+  text-align: center
+  margin-left: -50%
+  margin-right: -50%
+
 .title-card
   @extend .base-big-card
   position: relative
@@ -269,6 +277,12 @@ article
     .words
       width: 40%
       float: left
+
+      .e-post
+        text-align: left
+        width: 100%
+        margin-left: 0
+        margin-right: 0
 
     .logo
       width: 5 * $square
