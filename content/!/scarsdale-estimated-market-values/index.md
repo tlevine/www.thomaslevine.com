@@ -3,7 +3,7 @@ title: Where does the "market value" on your tax bill come from?
 short_title: Tax bill "market value"
 tags: ['scarsdale', 'data']
 kind: article
-created_at: 2013-01-12
+created_at: 2013-01-14
 ---
 Scarsdale's tax bills look like this.
 
