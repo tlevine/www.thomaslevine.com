@@ -1,7 +1,6 @@
-
-
-Postures of toilet use
-====
+---
+title: Postures of toilet use
+---
 
 ## Introduction
 Western sitting-style toilets are presumably intended to be used in a seated
@@ -234,7 +233,6 @@ Nobody had marked "squat", so that didn't need to be converted.
 Using only the data from private toilet scenarios, I fitted a multilevel
 logistic regression in `MCMCglmm` with the participant as a random effect.
 
-
 ```
 ## dirtyposture ~ 1 + dirty * defecate * male
 ```
@@ -244,38 +242,35 @@ I used the default weakly informative prior.
 
 Some output is here
 
-```
-## 
-##  Iterations = 9001:12991
-##  Thinning interval  = 10
-##  Sample size  = 400 
-## 
-##  DIC: 356 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId      4.32     2.99     5.48      7.7
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units    0.0211   0.0036   0.0509     5.88
-## 
-##  Location effects: dirtyposture ~ 1 + dirty * defecate * male 
-## 
-##                     post.mean l-95% CI u-95% CI eff.samp  pMCMC   
-## (Intercept)            -3.018   -3.653   -2.387     8.12 <0.003 **
-## dirty                   6.102    5.508    6.780     3.11 <0.003 **
-## defecate               -1.350   -1.702   -0.765     4.31 <0.003 **
-## male                   -2.351   -3.259   -1.674    10.41 <0.003 **
-## dirty:defecate          0.349   -0.430    0.860     5.62   0.33   
-## dirty:male             -4.733   -5.685   -3.990     5.30 <0.003 **
-## defecate:male          -0.453   -1.633    0.479     3.83   0.26   
-## dirty:defecate:male     5.944    4.162    7.720     3.09 <0.003 **
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
+     Iterations = 9001:12991
+     Thinning interval  = 10
+     Sample size  = 400 
+    
+     DIC: 356 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId      4.32     2.99     5.48      7.7
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units    0.0211   0.0036   0.0509     5.88
+    
+     Location effects: dirtyposture ~ 1 + dirty * defecate * male 
+    
+                        post.mean l-95% CI u-95% CI eff.samp  pMCMC   
+    (Intercept)            -3.018   -3.653   -2.387     8.12 <0.003 **
+    dirty                   6.102    5.508    6.780     3.11 <0.003 **
+    defecate               -1.350   -1.702   -0.765     4.31 <0.003 **
+    male                   -2.351   -3.259   -1.674    10.41 <0.003 **
+    dirty:defecate          0.349   -0.430    0.860     5.62   0.33   
+    dirty:male             -4.733   -5.685   -3.990     5.30 <0.003 **
+    defecate:male          -0.453   -1.633    0.479     3.83   0.26   
+    dirty:defecate:male     5.944    4.162    7.720     3.09 <0.003 **
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 I simulated observations based on the posterior distribution, and the
@@ -308,47 +303,39 @@ only the scenarios where I did not specify cleanliness. If this model
 is similar to the privacy model, we might see cleanliness and privacy as
 indicators of each other.
 
-
-```
-## dirtyposture ~ 1 + public * defecate * male
-```
-
+    dirtyposture ~ 1 + public * defecate * male
 
 More output is here
 
-```
-## 
-##  Iterations = 9001:12991
-##  Thinning interval  = 10
-##  Sample size  = 400 
-## 
-##  DIC: 302.1 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId      9.34     7.38     11.6     65.9
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units    0.0472  0.00434    0.126     5.54
-## 
-##  Location effects: dirtyposture ~ 1 + public * defecate * male 
-## 
-##                      post.mean l-95% CI u-95% CI eff.samp  pMCMC   
-## (Intercept)             -4.629   -5.431   -3.854     7.06 <0.003 **
-## public                   5.357    4.730    5.937     7.31 <0.003 **
-## defecate                -1.905   -2.578   -1.160     4.42 <0.003 **
-## male                    -0.598   -2.002    0.789     6.78   0.46   
-## public:defecate         -1.416   -2.207   -0.546     6.00 <0.003 **
-## public:male             -4.397   -5.856   -2.797     3.11 <0.003 **
-## defecate:male            0.632   -0.757    1.355     6.64   0.31   
-## public:defecate:male     3.806    2.997    4.653    12.90 <0.003 **
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
-
+     Iterations = 9001:12991
+     Thinning interval  = 10
+     Sample size  = 400 
+    
+     DIC: 302.1 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId      9.34     7.38     11.6     65.9
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units    0.0472  0.00434    0.126     5.54
+    
+     Location effects: dirtyposture ~ 1 + public * defecate * male 
+    
+                         post.mean l-95% CI u-95% CI eff.samp  pMCMC   
+    (Intercept)             -4.629   -5.431   -3.854     7.06 <0.003 **
+    public                   5.357    4.730    5.937     7.31 <0.003 **
+    defecate                -1.905   -2.578   -1.160     4.42 <0.003 **
+    male                    -0.598   -2.002    0.789     6.78   0.46   
+    public:defecate         -1.416   -2.207   -0.546     6.00 <0.003 **
+    public:male             -4.397   -5.856   -2.797     3.11 <0.003 **
+    defecate:male            0.632   -0.757    1.355     6.64   0.31   
+    public:defecate:male     3.806    2.997    4.653    12.90 <0.003 **
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 These models are structurally quite similar, so let's compare their
 corresponding coefficients. The corresponding fixed effect coefficients are
