@@ -15,7 +15,7 @@ In my [resulting spreadsheet](https://raw.github.com/tlevine/scarsdale-data/mast
 each row is a bus stop on a trip. (The trip from home to school and the trip
 from school to home are different trips.)
 
-I found some funny rows in the spreadsheet.
+I found some funny rows in the data.
 
 The same stop is presented twice.
 
