@@ -1,7 +1,9 @@
-
-
-Postures of toilet use
-====
+---
+title: The hovering cycle
+created_at: 2013-02-01
+kind: article
+tags: ['toilets', 'ergonomics']
+---
 
 ## Introduction
 Western sitting-style toilets are presumably intended to be used in a seated
@@ -49,7 +51,8 @@ toilets get dirty, so people hover, so the toilets get dirty, so people hover.
 ![Cycle of hovering and toilet cleanliness](https://raw.github.com/tlevine/toilet-posture-toilet-hackers-presentation/master/2-cycle.png)
 
 In other contexts, this cycle is sometimes termed the
-"[broken windows theory](http://en.wikipedia.org/wiki/Broken_windows_theory)".
+"[broken windows theory](http://en.wikipedia.org/wiki/Broken_windows_theory)",
+or the feeling of "[maintenance](http://en.wikipedia.org/wiki/Crime_prevention_through_environmental_design)" of a space.
 Understanding the mechanisms of toilet cleanliness can help us design and
 maintain efficient toilets that people want to use, so it would be nice to
 see whether this this model explains toilet sanitation issues.
@@ -161,7 +164,6 @@ four situations of unspecified cleanliness for each of the two sexes.
 
 ![plot of chunk pie.matrix.1](figure/pie.matrix.1.png) 
 
-
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
 Cornell University students who would say they use the posture if I
@@ -223,7 +225,7 @@ variable. I considered "hover" and "other" to be dirty, and I considered
 "sit" to be clean. I considered "stand" to be dirty unless it was marked
 by a male for a scenario involving urination. (Standing is actually
 [pretty]((http://sormlandlandsting.vansterpartiet.se/files/2011/05/motion-k%C3%B6nl%C3%B6sa-toaletter.pdf),
-[dirty](/!/risley-toilets/),
+[dirty](<%= @item.identifier %>/!/risley-toilets/),
 and some males
 [choose to sit](http://isitnormal.com/story/peeing-sitting-down-920/),
 but I see standing as the conventional, baseline posture for these scenarios.)
@@ -235,52 +237,49 @@ Using only the data from private toilet scenarios, I fitted a multilevel
 logistic regression in `MCMCglmm` with the participant as a random effect.
 
 
-```
-## dirtyposture ~ 1 + dirty * defecate * male
-```
+    dirtyposture ~ 1 + dirty * defecate * male
 
 
 I used the default weakly informative prior.
 
 Some output is here
 
-```
-## 
-##  Iterations = 9001:12991
-##  Thinning interval  = 10
-##  Sample size  = 400 
-## 
-##  DIC: 356 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId      4.32     2.99     5.48      7.7
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units    0.0211   0.0036   0.0509     5.88
-## 
-##  Location effects: dirtyposture ~ 1 + dirty * defecate * male 
-## 
-##                     post.mean l-95% CI u-95% CI eff.samp  pMCMC   
-## (Intercept)            -3.018   -3.653   -2.387     8.12 <0.003 **
-## dirty                   6.102    5.508    6.780     3.11 <0.003 **
-## defecate               -1.350   -1.702   -0.765     4.31 <0.003 **
-## male                   -2.351   -3.259   -1.674    10.41 <0.003 **
-## dirty:defecate          0.349   -0.430    0.860     5.62   0.33   
-## dirty:male             -4.733   -5.685   -3.990     5.30 <0.003 **
-## defecate:male          -0.453   -1.633    0.479     3.83   0.26   
-## dirty:defecate:male     5.944    4.162    7.720     3.09 <0.003 **
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
+     Iterations = 100001:149991
+     Thinning interval  = 10
+     Sample size  = 5000 
+    
+     DIC: 188.1 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId      17.6     13.9     21.4     5000
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units  0.000104    5e-07 0.000603     22.4
+    
+     Location effects: dirtyposture ~ 1 + dirty * defecate * male 
+    
+                        post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)            -5.357   -6.207   -4.534  5000.00 <2e-04 ***
+    dirty                  10.257   10.207   10.497     3.75 <2e-04 ***
+    defecate               -1.281   -1.382   -1.221    24.38 <2e-04 ***
+    male                   -5.466   -6.780   -4.213  4644.87 <2e-04 ***
+    dirty:defecate         -0.871   -0.964   -0.777    25.40 <2e-04 ***
+    dirty:male             -6.382   -6.583   -6.336    10.15 <2e-04 ***
+    defecate:male           3.133    3.078    3.284    19.99 <2e-04 ***
+    dirty:defecate:male     6.909    6.864    7.116    22.95 <2e-04 ***
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-
+To check that the models fit,
 I simulated observations based on the posterior distribution, and the
 simulated rates of dirty posture in each of the eight scenarios matched
 the observed rates. <!-- XXX Add links. They're graphs/posturetype*.pdf -->
+<!-- Adjust the function so I can do the cleanliness factor; it currently
+only does logical (dummy) variables. -->
 
 If the toilet is very clean, females will probably use a clean posture
 (normally sitting), and males are even more likely to use a clean posture
@@ -308,46 +307,39 @@ only the scenarios where I did not specify cleanliness. If this model
 is similar to the privacy model, we might see cleanliness and privacy as
 indicators of each other.
 
-
-```
-## dirtyposture ~ 1 + public * defecate * male
-```
-
+    dirtyposture ~ 1 + public * defecate * male
 
 More output is here
 
-```
-## 
-##  Iterations = 9001:12991
-##  Thinning interval  = 10
-##  Sample size  = 400 
-## 
-##  DIC: 302.1 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId      9.34     7.38     11.6     65.9
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units    0.0472  0.00434    0.126     5.54
-## 
-##  Location effects: dirtyposture ~ 1 + public * defecate * male 
-## 
-##                      post.mean l-95% CI u-95% CI eff.samp  pMCMC   
-## (Intercept)             -4.629   -5.431   -3.854     7.06 <0.003 **
-## public                   5.357    4.730    5.937     7.31 <0.003 **
-## defecate                -1.905   -2.578   -1.160     4.42 <0.003 **
-## male                    -0.598   -2.002    0.789     6.78   0.46   
-## public:defecate         -1.416   -2.207   -0.546     6.00 <0.003 **
-## public:male             -4.397   -5.856   -2.797     3.11 <0.003 **
-## defecate:male            0.632   -0.757    1.355     6.64   0.31   
-## public:defecate:male     3.806    2.997    4.653    12.90 <0.003 **
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
+     Iterations = 100001:149991
+     Thinning interval  = 10
+     Sample size  = 5000 
+    
+     DIC: 7.074 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId     84281    30819   136785     38.6
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units     13407     4833    24129     74.3
+    
+     Location effects: dirtyposture ~ 1 + public * defecate * male 
+    
+                         post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)             -365.7   -494.4   -224.4     46.7 <2e-04 ***
+    public                   399.2    260.6    522.0     64.0 <2e-04 ***
+    defecate                 -75.3   -172.4     16.3    805.8 0.1004    
+    male                    -168.7   -351.5     11.7    240.7 0.0468 *  
+    public:defecate         -191.2   -320.2    -72.0    281.3 0.0040 ** 
+    public:male             -263.4   -433.7    -85.8    386.7 0.0036 ** 
+    defecate:male             27.2   -153.1    225.7    565.1 0.7816    
+    public:defecate:male     306.2     85.2    562.6    522.2 0.0064 ** 
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 These models are structurally quite similar, so let's compare their
@@ -401,6 +393,103 @@ As I discussed earlier, the probabilities are generally higher in the latter
 table, but the differences between probabilities are in the same direction
 and of similar magnitude. This is another way that we can see that
 cleanliness and privacy seem to affect posture choice similarly.
+
+### Do public toilets promote hovering for reasons other than dirt?
+
+Many people say they hover at public toilets but not private toilets. I suspect
+that part of this is because public toilets are dirtier, but is there some 
+other reason?
+
+To answer this, I compared the various private conditions to the
+corresponding public conditions; for example, a male urinating in a private
+toilet was compared to a male urinating in a private toilet.
+More precisely, I fit a model with all of the 24 factor combinations (two sexes
+and 12 scenarios). Like the previous models, I used a `participantId` random effect.
+
+
+    dirtyposture ~ 1 + cleanliness * defecate * male * public
+
+A summary of the output is here.
+
+     Iterations = 100001:149991
+     Thinning interval  = 10
+     Sample size  = 5000 
+    
+     DIC: 34.14 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId     25378    14682    36636     68.8
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units     10036     6140    13770       58
+    
+     Location effects: dirtyposture ~ 1 + cleanliness * defecate * male * public 
+    
+                                          post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)                             -242.79  -313.27  -171.20    137.2 <2e-04 ***
+    cleanlinessclean                          15.42   -49.81    73.69   1694.0 0.6064    
+    cleanlinessdirty                         457.91   352.90   551.64     86.3 <2e-04 ***
+    defecate                                 -46.39  -111.19    25.06   1354.3 0.1776    
+    male                                     -29.85  -124.87    65.13   1026.2 0.5424    
+    public                                   275.12   195.78   345.31    146.3 <2e-04 ***
+    cleanlinessclean:defecate                 13.46   -85.17   104.04   1367.3 0.7908    
+    cleanlinessdirty:defecate                -53.19  -135.95    39.41   1569.2 0.2224    
+    cleanlinessclean:male                   -198.19  -381.19   -19.43    236.4 0.0164 *  
+    cleanlinessdirty:male                   -442.94  -574.89  -312.45    164.2 <2e-04 ***
+    defecate:male                             23.00   -83.57   144.86   1059.1 0.6980    
+    cleanlinessclean:public                  -67.81  -149.12     3.97   1660.0 0.0800 .  
+    cleanlinessdirty:public                 -220.71  -318.29  -115.83    214.6 <2e-04 ***
+    defecate:public                         -133.91  -215.49   -44.17    961.3 0.0020 ** 
+    male:public                             -219.42  -316.98  -107.63    371.8 <2e-04 ***
+    cleanlinessclean:defecate:male           103.64  -137.80   323.24    296.2 0.3680    
+    cleanlinessdirty:defecate:male           355.58   196.15   519.88    365.0 <2e-04 ***
+    cleanlinessclean:defecate:public          96.93   -13.64   215.84   1417.9 0.0980 .  
+    cleanlinessdirty:defecate:public         108.11   -19.00   225.44   1405.8 0.0728 .  
+    cleanlinessclean:male:public             109.98  -113.72   323.33    252.9 0.3044    
+    cleanlinessdirty:male:public             164.91     7.03   314.50    895.2 0.0280 *  
+    defecate:male:public                     192.50    53.06   347.40    886.2 0.0096 ** 
+    cleanlinessclean:defecate:male:public   -216.80  -494.20    55.19    383.8 0.1120    
+    cleanlinessdirty:defecate:male:public   -108.51  -292.19    97.40   1256.2 0.2716    
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+Like for my other models, I added the posterior distributions of the various
+coefficients to get scores for each scenario. Unlike in the other models,
+I kept these distributions as log-likelihoods rather than converting them to
+probabilities, and I took the difference in log likelihood between the public
+and private scenarios. This gives me twelve distributions, one for each of
+six cleanliness-task combinations. XXX Link to the pdf.
+
+Positive values indicate a greater chance of using a dirty posture at the
+public toilet than at the private toilet, and negative coefficients indicate
+a greater chance of using a dirty posture at a private toilet than at a public
+toilet. These are log likelihoods, so a value of $$4$$ means that a person
+in the particular scenario is $$e^4$$ (about 50) times as likely to use a
+dirty posture if it's a public toilet than if it's a private toilet. Likewise,
+a value of $$-4$$ means that a person is about $$e^{4}$$ times as likely to
+use a dirty posture if it's a **private** toilet than than if it's a public toilet.
+
+Eleven of the twelve coefficients are each significantly positive.
+The one exception was for males urinating at dirty toilets. This makes sense.
+Recall that I counted males standing while urinating as a clean posture.
+In this scenario, males mainly stand regardless of the privacy of the toilet.
+
+It appears that public toilets encourage dirty postures for reasons other than
+public toilets' chance of being dirty.
+
+That said, do consider the nature of the data
+collection. Participants were asked about "clean private toilet[s]" and
+"clean public toilet[s]", and they could have interpret the word "clean"
+differently in the two contexts; a clean public toilet might just be
+clean relative an ordinary public toilet. If participants saw
+clean private toilets as cleaner than clean public toilets, this result
+about the difference between public and private scenarios doesn't separate
+the effect of cleanliness from the other effects of the privacy of the space.
 
 ### Reliability testing
 
