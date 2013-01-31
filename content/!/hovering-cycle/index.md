@@ -11,7 +11,6 @@ position (McClelland & Ward, 1982), except when used by males for exclusively ur
 But the word on the street is that people often adopt a hovering posture
 instead of the seated posture in order to cope with unsanitary toilets.
 
-
 [In](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
 [several](http://www.yelp.com/topic/san-francisco-toilets-sit-or-hover)
 [threads](http://www.yelp.com/topic/queens-public-bathroom-in-nyc)
@@ -437,7 +436,7 @@ corresponding public conditions; for example, a male urinating in a private
 toilet was compared to a male urinating in a private toilet.
 More precisely, I fit a model with all of the 24 factor combinations (two sexes
 and 12 scenarios). Like the previous models, I used a `participantId` random effect.
-
+Here's the summary output, tidied up a bit so it is less wide.
 
     dirtyposture ~ 1 + cleanliness * defecate * male * public
 
@@ -461,31 +460,31 @@ and 12 scenarios). Like the previous models, I used a `participantId` random eff
     
      Location effects: dirtyposture ~ 1 + cleanliness * defecate * male * public 
     
-                                          post.mean l-95% CI u-95% CI eff.samp  pMCMC    
-    (Intercept)                             -242.79  -313.27  -171.20    137.2 <2e-04 ***
-    cleanlinessclean                          15.42   -49.81    73.69   1694.0 0.6064    
-    cleanlinessdirty                         457.91   352.90   551.64     86.3 <2e-04 ***
-    defecate                                 -46.39  -111.19    25.06   1354.3 0.1776    
-    male                                     -29.85  -124.87    65.13   1026.2 0.5424    
-    public                                   275.12   195.78   345.31    146.3 <2e-04 ***
-    cleanlinessclean:defecate                 13.46   -85.17   104.04   1367.3 0.7908    
-    cleanlinessdirty:defecate                -53.19  -135.95    39.41   1569.2 0.2224    
-    cleanlinessclean:male                   -198.19  -381.19   -19.43    236.4 0.0164 *  
-    cleanlinessdirty:male                   -442.94  -574.89  -312.45    164.2 <2e-04 ***
-    defecate:male                             23.00   -83.57   144.86   1059.1 0.6980    
-    cleanlinessclean:public                  -67.81  -149.12     3.97   1660.0 0.0800 .  
-    cleanlinessdirty:public                 -220.71  -318.29  -115.83    214.6 <2e-04 ***
-    defecate:public                         -133.91  -215.49   -44.17    961.3 0.0020 ** 
-    male:public                             -219.42  -316.98  -107.63    371.8 <2e-04 ***
-    cleanlinessclean:defecate:male           103.64  -137.80   323.24    296.2 0.3680    
-    cleanlinessdirty:defecate:male           355.58   196.15   519.88    365.0 <2e-04 ***
-    cleanlinessclean:defecate:public          96.93   -13.64   215.84   1417.9 0.0980 .  
-    cleanlinessdirty:defecate:public         108.11   -19.00   225.44   1405.8 0.0728 .  
-    cleanlinessclean:male:public             109.98  -113.72   323.33    252.9 0.3044    
-    cleanlinessdirty:male:public             164.91     7.03   314.50    895.2 0.0280 *  
-    defecate:male:public                     192.50    53.06   347.40    886.2 0.0096 ** 
-    cleanlinessclean:defecate:male:public   -216.80  -494.20    55.19    383.8 0.1120    
-    cleanlinessdirty:defecate:male:public   -108.51  -292.19    97.40   1256.2 0.2716    
+                             post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)                -242.79  -313.27  -171.20    137.2 <2e-04 ***
+    clean                        15.42   -49.81    73.69   1694.0 0.6064    
+    dirty                       457.91   352.90   551.64     86.3 <2e-04 ***
+    defecate                    -46.39  -111.19    25.06   1354.3 0.1776    
+    male                        -29.85  -124.87    65.13   1026.2 0.5424    
+    public                      275.12   195.78   345.31    146.3 <2e-04 ***
+    clean:defecate               13.46   -85.17   104.04   1367.3 0.7908    
+    dirty:defecate              -53.19  -135.95    39.41   1569.2 0.2224    
+    clean:male                 -198.19  -381.19   -19.43    236.4 0.0164 *  
+    dirty:male                 -442.94  -574.89  -312.45    164.2 <2e-04 ***
+    defecate:male                23.00   -83.57   144.86   1059.1 0.6980    
+    clean:public                -67.81  -149.12     3.97   1660.0 0.0800 .  
+    dirty:public               -220.71  -318.29  -115.83    214.6 <2e-04 ***
+    defecate:public            -133.91  -215.49   -44.17    961.3 0.0020 ** 
+    male:public                -219.42  -316.98  -107.63    371.8 <2e-04 ***
+    clean:defecate:male         103.64  -137.80   323.24    296.2 0.3680    
+    dirty:defecate:male         355.58   196.15   519.88    365.0 <2e-04 ***
+    clean:defecate:public        96.93   -13.64   215.84   1417.9 0.0980 .  
+    dirty:defecate:public       108.11   -19.00   225.44   1405.8 0.0728 .  
+    clean:male:public           109.98  -113.72   323.33    252.9 0.3044    
+    dirty:male:public           164.91     7.03   314.50    895.2 0.0280 *  
+    defecate:male:public        192.50    53.06   347.40    886.2 0.0096 ** 
+    clean:defecate:male:public -216.80  -494.20    55.19    383.8 0.1120    
+    dirty:defecate:male:public -108.51  -292.19    97.40   1256.2 0.2716    
     ---
     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
@@ -511,8 +510,10 @@ Recall that I counted males standing while urinating as a clean posture.
 In this scenario, males mainly stand regardless of the privacy of the toilet.
 
 #### Approach 1b: Generating fake odds ratios from the regression coefficients
-These odds ratios were suspiciously high. I suspected this to be a typo in
-my code, but I found none, so I also computed these ratios from the fake
+Those odds ratios were suspiciously high. I suspected this to be a typo in
+my code, but I found none. Darn.
+
+As a check, I also computed these ratios from the fake
 data. I arrived at odds-ratios that were much smaller but still in the same
 direction. I was still suspicious, also because I got some bimodal
 probability distributions when I compared the chance of using a dirty posture
@@ -749,7 +750,7 @@ might make for fun dinner conversation.
 * Clara Greed (2003). Inclusive Urban Design: Public Toilets. Oxford, UK: Architectural Press.
 * Alexander Kira (1976). The Bathroom. New York: Viking Press.
 * Barbro Lundblad and Anna-Lena Hellström (2005). Perceptions of School Toilets as a Cause for Irregular Toilet Habits Among Schoolchildren Aged 6 to 16 Years. Journal of School Health, 75(4): 125-128.
-* Moore, K. H. and Richmond, D. H. and Sutherst, J. R. and Imrie, A. H. and Hutton, J. L. (1991). Crouching over the toilet seat: prevalence among British gynaecological outpatients and its effect upon micturition. BJOG: An International Journal of Obstetrics \& Gynaecology, 98(6).
+* Moore, K. H. and Richmond, D. H. and Sutherst, J. R. and Imrie, A. H. and Hutton, J. L. (1991). Crouching over the toilet seat: prevalence among British gynaecological outpatients and its effect upon micturition. BJOG: An International Journal of Obstetrics & Gynaecology, 98(6).
 * Ian L. McClelland and Joan S. Ward (1982). The Ergonomics of Toilet Seats. Human Factors, 24(6): 713--725.
 * A. Rane & A. Corstiaans (2008). Does micturition improve in the squatting position? Journal of Obstetrics and Gynaecology, 28(3): 317--319.
 * Ali Unsal and Ersin Cimentepe (2004). Effect of Voiding Position on Uroflowmetric Parameters and Post-void Residual Urine Volume in Patients with
