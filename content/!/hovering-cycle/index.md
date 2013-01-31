@@ -530,8 +530,12 @@ In this scenario, males mainly stand regardless of the privacy of the toilet.
 These odds ratios were suspiciously high. I suspected this to be a typo in
 my code, but I found none, so I also computed these ratios from the fake
 data. I arrived at odds-ratios that were much smaller but still in the same
-direction. I was still suspicious, also because [XXX of the polarized probability distribution],
-so I used yet another model.
+direction. I was still suspicious, also because I got some bimodal
+probability distributions when I compared the chance of using a dirty posture
+between corresponding public and private scenarios (XXX these graphs).
+
+I got more confident of my assessment that dirty postures are more common
+in public bathrooms, but I still wanted to try a different approach to check that.
 
 #### Approach 2: Does posture change, ignoring the direction of change?
 I reshaped the data such that the `dirtyposture` variable became two, one
