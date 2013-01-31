@@ -7,16 +7,19 @@ tags: ['toilets', 'ergonomics']
 
 ## Introduction
 Western sitting-style toilets are presumably intended to be used in a seated
-position,[^mclelland1982] except when used by males for exclusively urination.
+position (McClelland & Ward, 1982), except when used by males for exclusively urination.
 But the word on the street is that people often adopt a hovering posture
 instead of the seated posture in order to cope with unsanitary toilets.
 
-[Several](http://www.yelp.com/topic/san-francisco-toilets-sit-or-hover)
+
+[In](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
+[several](http://www.yelp.com/topic/san-francisco-toilets-sit-or-hover)
 [threads](http://www.yelp.com/topic/queens-public-bathroom-in-nyc)
 [on](http://www.yelp.com/topic/oakland-toilet-seat-dilemma)
-[Yelp](http://www.yelp.com/topic/redwood-city-for-the-ladies-public-toilets-sit-or-squat)
-[discuss this issue.](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
-One person admitted to PostSecret that he or she hasn't sat on a toilet for the
+[Yelp](http://www.yelp.com/topic/redwood-city-for-the-ladies-public-toilets-sit-or-squat),
+people discuss this issue quite openly.
+But there's more that isn't discussed so openly;
+one person admitted to PostSecret that he or she hasn't sat on a toilet for the
 [four years](http://www.flickr.com/photos/withinreason/2593730231/), and this
 sparked [some](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
 [discussion](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98095)
@@ -24,11 +27,7 @@ on PostSecret forums.
 There's even a website that reviews toilets and tells
 you whether to [Sit or Squat](https://www.sitorsquat.com/).
 
-Also, I recently remarked that sitting is unpleasant because the toilet seat
-tends to be colder than I would like. But other people don't seem to bring
-this reason up in conversation or in writing.
-
-Greed[^greed1995] and Moore[^moore1991] anecdotally found that young ladies
+Greed (1995) and Moore (1991) anecdotally found that young ladies
 are often taught that hovering is proper and that sitting is unclean. 
 [Several](http://www.wikihow.com/Use-a-Public-Restroom)
 [WikiHow](http://www.wikihow.com/Urinate-Standing-up-As-a-Female)
@@ -36,8 +35,8 @@ are often taught that hovering is proper and that sitting is unclean.
 provide examples of this phenomenon.
 
 Formal quantitative studies have found hovering to be common among
-Taiwanese people[^cai1998] and
-British gynaecological outpatients [^moore1991],
+Taiwanese people (Cai & You, 1998)  and
+British gynaecological outpatients (Moore & al, 1991).
 
 ### The hovering cycle
 
@@ -61,7 +60,7 @@ or the feeling of "[maintenance](http://en.wikipedia.org/wiki/Crime_prevention_t
 I focused on this broken windows theory in the current paper, but I also thought
 about other impacts on posture. Anecdotes suggest that public toilets tend to be
 dirtier than private toilets, or people or at least more concerned with
-sanitation at public toilets than at private toilets [^cai1998], so we might
+sanitation at public toilets than at private toilets  (Cai & You, 1998) , so we might
 expect that a more public toilet would effect posture similarly to how a more
 dirty toilet would.
 
@@ -73,6 +72,14 @@ public toilets because hovering is considered more proper than sitting; since
 people can see others' feet and lower legs under the bathroom stalls in public
 restrooms, people might be more likely to follow this convention of hovering
 in public than in private.
+
+### Other possibilities
+I focused on this hovering cycle, but keep in mind that other things might
+be at play. For example,
+I recently remarked that sitting is unpleasant because the toilet seat
+tends to be colder than I would like. Other people don't seem to bring
+this reason up in conversation or in writing, and I suspect that it is
+is less influential than the cleanliness, but it's worth keeping in mind.
 
 ### Goals
 Understanding the mechanisms of toilet cleanliness can help us design and
@@ -86,22 +93,22 @@ I was mainly concerned with how cleanliness influenced the decision
 of what posture to use, but I tried to separate effects of privacy
 from effects of cleanliness.
 
-### Terms
+## Terms
 Western toilets typically consist of a bowl and a seat with a large hole in the
 middle. The seat typically can lie on the bowl or be lifted above the bowl.
 I consider four categories of postures in which this contraption can be used.
 
-#### Sitting
+### Sitting
 Sitting-style toilets are designed
-to be used in a seated posture [^mclelland1982],
+to be used in a seated posture (McClelland & Ward, 1982),
 which we define as one where the buttocks or thighs touch the toilet.
 
-#### Hovering
+### Hovering
 Hovering, also called squatting or semi-squatting, describes postures where the
 feet are on the floor but the buttocks and thighs are above the toilet. This is
-accomplished through knee extension and trunk flexion.[^greed2003]
+accomplished through knee extension and trunk flexion (Greed, 2003).
 
-#### Squatting
+### Squatting
 In squatting, the thighs touch the legs and the trunk touches or nearly touches
 the thighs.  In order to accomplish this on a sitting-style toilet, one puts his
 or her feet on the toilet seat. This is probably much less common in countries
@@ -109,7 +116,7 @@ where sitting toilets are the norm.
 
 Confusingly, term "squatting" is also often used to refer to what I term "hovering".
 
-#### Standing
+### Standing
 Males commonly stand at toilets when they are urinating.
 In this posture, the person faces the toilet and stands in front of the toilet.
 
@@ -592,8 +599,8 @@ A note of caution about my attempt to separate effects of toilet
 privacy from effects of toilet cleanliness:
 Considing the nature of the data collection, it is hard to tell whether
 this analysis really does disentangle toilet privacy and toilet cleanliness.
-Participants were asked about "clean private toilet[s]" and
-"clean public toilet[s]", and they could have interpret the word "clean"
+Participants were asked about "a clean private toilet" and
+"a clean public toilet", and they could have interpret the word "clean"
 differently in the two contexts; a clean public toilet might just be
 clean relative an ordinary public toilet. If participants saw
 clean private toilets as cleaner than clean public toilets, this result
@@ -691,20 +698,20 @@ make people happier?
 Maybe we can make toilets fit a wider range of people. Men have
 the luxary of calmly standing while urinating, whereas women have
 to either hover or bear touching the seat. Could toilets be
-designed in some way that matched the female anatomy? Clara Greed
-[^greed2003] might give you us ideas. More generally, can we
+designed in some way that matched the female anatomy? Clara Greed (2003)
+might give us ideas. More generally, can we
 design healthful toilets that still align with our cultural
-expectations? Alexander Kira[^kira1976] has ideas on that.
+expectations? Alexander Kira (1976) has ideas on that.
 
 The insistence on hovering over a public toilet can also be seen
 as a silly obsession with cleanliness. Sitting on the public
 toilet is probably perfectly safe, and hovering is known to
 have undesirable health outcomes, like
-taking longer to pee [^moore1991].
+taking longer to pee (Moore & al, 1991).
 
 As an aside, we should consider squatting. Among other benefits,
-it might make peeing faster.[^amjadi2006][^rane2008]
-On the other hand, it might not.[^unsal2004]
+it might make peeing faster (Amjadi & al, 2006; Rane & Corstiaans, 2008).
+On the other hand, it might not (Unsal & Cimentepe, 2004).
 
 Maybe we should just get over this.
 Alternatively, maybe we can keep toilets from feeling dirty.
@@ -712,7 +719,7 @@ Alternatively, maybe we can keep toilets from feeling dirty.
 ### Keeping toilets clean
 
 Public bathrooms are notoriously dirty.
-(They even scare children.[^vernon2003][^lundblad2005])
+They even scare children. (Vernon & al, 2003; Lundblad & Hellström, 2005).
 The present study
 provides insights into how we can efficiently reduce this dirt.
 The current study has related the broken windows theory to the
@@ -736,15 +743,15 @@ might make for fun dinner conversation.
 
 ## Proprietary references
 
-[^amjadi2006]: Mohsen Amjadi, Seyed Kazem Madaen, Hamid Pour-Moazen (2006). Uroflowmetry Findings in Patients with Bladder Outlet Obstruction Symptoms in Standing and Crouching Positions. Urology Journal, 3(1): 49--53.
-[^cai1998]: Dengchuan Cai and Manlai You (1998). An ergonomic approach to public squatting-type toilet design. Applied Ergonomics, 29(2): 147--153.
-[^greed1995]: Clara H. Greed (1995). Public toilet provision for women in britain: an investigation of discrimination against urination. Women's Studies International Forum, 18(5--6): 573-584.
-[^greed2003]: Clara Greed (2003). Inclusive Urban Design: Public Toilets. Oxford, UK: Architectural Press.
-[^kira1976]: Alexander Kira (1976). The Bathroom. New York: Viking Press.
-[^lundblad2005]: Barbro Lundblad and Anna-Lena Hellström (2005). Perceptions of School Toilets as a Cause for Irregular Toilet Habits Among Schoolchildren Aged 6 to 16 Years. Journal of School Health, 75(4): 125-128.
-[^moore1991]: Moore, K. H. and Richmond, D. H. and Sutherst, J. R. and Imrie, A. H. and Hutton, J. L. (1991). Crouching over the toilet seat: prevalence among British gynaecological outpatients and its effect upon micturition. BJOG: An International Journal of Obstetrics \& Gynaecology, 98(6).
-[^mclelland1982]: Ian L. McClelland and Joan S. Ward (1982). The Ergonomics of Toilet Seats. Human Factors, 24(6): 713--725.
-[^rane2008]: A. Rane & A. Corstiaans (2008). Does micturition improve in the squatting position? Journal of Obstetrics and Gynaecology, 28(3): 317--319.
-[^unsal2004]: Ali Unsal and Ersin Cimentepe (2004). Effect of Voiding Position on Uroflowmetric Parameters and Post-void Residual Urine Volume in Patients with
-Benign Prostatic Hyperplasia. Scand J Urol Nephrol, 38: 240–242.
-[^vernon2003]: S. Vernon, B. Lundblad and A. L. Hellstrom (2003). Children's experiences of school toilets present a risk to their physical and psychological health. Care, Health & Development, 29(1): 47--53.
+* Mohsen Amjadi, Seyed Kazem Madaen, Hamid Pour-Moazen (2006). Uroflowmetry Findings in Patients with Bladder Outlet Obstruction Symptoms in Standing and Crouching Positions. Urology Journal, 3(1): 49--53.
+* Dengchuan Cai and Manlai You (1998). An ergonomic approach to public squatting-type toilet design. Applied Ergonomics, 29(2): 147--153.
+* Clara H. Greed (1995). Public toilet provision for women in britain: an investigation of discrimination against urination. Women's Studies International Forum, 18(5--6): 573-584.
+* Clara Greed (2003). Inclusive Urban Design: Public Toilets. Oxford, UK: Architectural Press.
+* Alexander Kira (1976). The Bathroom. New York: Viking Press.
+* Barbro Lundblad and Anna-Lena Hellström (2005). Perceptions of School Toilets as a Cause for Irregular Toilet Habits Among Schoolchildren Aged 6 to 16 Years. Journal of School Health, 75(4): 125-128.
+* Moore, K. H. and Richmond, D. H. and Sutherst, J. R. and Imrie, A. H. and Hutton, J. L. (1991). Crouching over the toilet seat: prevalence among British gynaecological outpatients and its effect upon micturition. BJOG: An International Journal of Obstetrics \& Gynaecology, 98(6).
+* Ian L. McClelland and Joan S. Ward (1982). The Ergonomics of Toilet Seats. Human Factors, 24(6): 713--725.
+* A. Rane & A. Corstiaans (2008). Does micturition improve in the squatting position? Journal of Obstetrics and Gynaecology, 28(3): 317--319.
+* Ali Unsal and Ersin Cimentepe (2004). Effect of Voiding Position on Uroflowmetric Parameters and Post-void Residual Urine Volume in Patients with
+* Benign Prostatic Hyperplasia. Scand J Urol Nephrol, 38: 240–242.
+* S. Vernon, B. Lundblad and A. L. Hellstrom (2003). Children's experiences of school toilets present a risk to their physical and psychological health. Care, Health & Development, 29(1): 47--53.
