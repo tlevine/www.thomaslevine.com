@@ -263,47 +263,43 @@ Using only the data from private toilet scenarios, I fitted a multilevel
 logistic regression in `MCMCglmm` with the participant as a random effect.
 
 
-```
-## dirtyposture ~ 1 + dirty * defecate * male
-```
+    dirtyposture ~ 1 + dirty * defecate * male
 
 
 I used the default weakly informative prior.
 
 Some output is here
 
-```
-## 
-##  Iterations = 100001:149991
-##  Thinning interval  = 10
-##  Sample size  = 5000 
-## 
-##  DIC: 188.1 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId      17.6     13.9     21.4     5000
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units  0.000104    5e-07 0.000603     22.4
-## 
-##  Location effects: dirtyposture ~ 1 + dirty * defecate * male 
-## 
-##                     post.mean l-95% CI u-95% CI eff.samp  pMCMC    
-## (Intercept)            -5.357   -6.207   -4.534  5000.00 <2e-04 ***
-## dirty                  10.257   10.207   10.497     3.75 <2e-04 ***
-## defecate               -1.281   -1.382   -1.221    24.38 <2e-04 ***
-## male                   -5.466   -6.780   -4.213  4644.87 <2e-04 ***
-## dirty:defecate         -0.871   -0.964   -0.777    25.40 <2e-04 ***
-## dirty:male             -6.382   -6.583   -6.336    10.15 <2e-04 ***
-## defecate:male           3.133    3.078    3.284    19.99 <2e-04 ***
-## dirty:defecate:male     6.909    6.864    7.116    22.95 <2e-04 ***
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
+    
+     Iterations = 100001:149991
+     Thinning interval  = 10
+     Sample size  = 5000 
+    
+     DIC: 188.1 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId      17.6     13.9     21.4     5000
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units  0.000104    5e-07 0.000603     22.4
+    
+     Location effects: dirtyposture ~ 1 + dirty * defecate * male 
+    
+                        post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)            -5.357   -6.207   -4.534  5000.00 <2e-04 ***
+    dirty                  10.257   10.207   10.497     3.75 <2e-04 ***
+    defecate               -1.281   -1.382   -1.221    24.38 <2e-04 ***
+    male                   -5.466   -6.780   -4.213  4644.87 <2e-04 ***
+    dirty:defecate         -0.871   -0.964   -0.777    25.40 <2e-04 ***
+    dirty:male             -6.382   -6.583   -6.336    10.15 <2e-04 ***
+    defecate:male           3.133    3.078    3.284    19.99 <2e-04 ***
+    dirty:defecate:male     6.909    6.864    7.116    22.95 <2e-04 ***
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 At first glance, we see that most of the coefficients are significantly
@@ -342,46 +338,40 @@ is similar to the privacy model, we might see cleanliness and privacy as
 indicators of each other.
 
 
-```
-## dirtyposture ~ 1 + public * defecate * male
-```
+    dirtyposture ~ 1 + public * defecate * male
 
 
 More output is here
 
-```
-## 
-##  Iterations = 100001:149991
-##  Thinning interval  = 10
-##  Sample size  = 5000 
-## 
-##  DIC: 7.074 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId     84281    30819   136785     38.6
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units     13407     4833    24129     74.3
-## 
-##  Location effects: dirtyposture ~ 1 + public * defecate * male 
-## 
-##                      post.mean l-95% CI u-95% CI eff.samp  pMCMC    
-## (Intercept)             -365.7   -494.4   -224.4     46.7 <2e-04 ***
-## public                   399.2    260.6    522.0     64.0 <2e-04 ***
-## defecate                 -75.3   -172.4     16.3    805.8 0.1004    
-## male                    -168.7   -351.5     11.7    240.7 0.0468 *  
-## public:defecate         -191.2   -320.2    -72.0    281.3 0.0040 ** 
-## public:male             -263.4   -433.7    -85.8    386.7 0.0036 ** 
-## defecate:male             27.2   -153.1    225.7    565.1 0.7816    
-## public:defecate:male     306.2     85.2    562.6    522.2 0.0064 ** 
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
-
+     Iterations = 100001:149991
+     Thinning interval  = 10
+     Sample size  = 5000 
+    
+     DIC: 7.074 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId     84281    30819   136785     38.6
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units     13407     4833    24129     74.3
+    
+     Location effects: dirtyposture ~ 1 + public * defecate * male 
+    
+                         post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)             -365.7   -494.4   -224.4     46.7 <2e-04 ***
+    public                   399.2    260.6    522.0     64.0 <2e-04 ***
+    defecate                 -75.3   -172.4     16.3    805.8 0.1004    
+    male                    -168.7   -351.5     11.7    240.7 0.0468 *  
+    public:defecate         -191.2   -320.2    -72.0    281.3 0.0040 ** 
+    public:male             -263.4   -433.7    -85.8    386.7 0.0036 ** 
+    defecate:male             27.2   -153.1    225.7    565.1 0.7816    
+    public:defecate:male     306.2     85.2    562.6    522.2 0.0064 ** 
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 These models are structurally quite similar, so let's compare their
 corresponding coefficients. The corresponding fixed effect coefficients are
@@ -449,61 +439,55 @@ More precisely, I fit a model with all of the 24 factor combinations (two sexes
 and 12 scenarios). Like the previous models, I used a `participantId` random effect.
 
 
-```
-## dirtyposture ~ 1 + cleanliness * defecate * male * public
-```
+    dirtyposture ~ 1 + cleanliness * defecate * male * public
 
 
 
-```
-## 
-##  Iterations = 100001:149991
-##  Thinning interval  = 10
-##  Sample size  = 5000 
-## 
-##  DIC: 34.14 
-## 
-##  G-structure:  ~participantId
-## 
-##               post.mean l-95% CI u-95% CI eff.samp
-## participantId     25378    14682    36636     68.8
-## 
-##  R-structure:  ~units
-## 
-##       post.mean l-95% CI u-95% CI eff.samp
-## units     10036     6140    13770       58
-## 
-##  Location effects: dirtyposture ~ 1 + cleanliness * defecate * male * public 
-## 
-##                                       post.mean l-95% CI u-95% CI eff.samp  pMCMC    
-## (Intercept)                             -242.79  -313.27  -171.20    137.2 <2e-04 ***
-## cleanlinessclean                          15.42   -49.81    73.69   1694.0 0.6064    
-## cleanlinessdirty                         457.91   352.90   551.64     86.3 <2e-04 ***
-## defecate                                 -46.39  -111.19    25.06   1354.3 0.1776    
-## male                                     -29.85  -124.87    65.13   1026.2 0.5424    
-## public                                   275.12   195.78   345.31    146.3 <2e-04 ***
-## cleanlinessclean:defecate                 13.46   -85.17   104.04   1367.3 0.7908    
-## cleanlinessdirty:defecate                -53.19  -135.95    39.41   1569.2 0.2224    
-## cleanlinessclean:male                   -198.19  -381.19   -19.43    236.4 0.0164 *  
-## cleanlinessdirty:male                   -442.94  -574.89  -312.45    164.2 <2e-04 ***
-## defecate:male                             23.00   -83.57   144.86   1059.1 0.6980    
-## cleanlinessclean:public                  -67.81  -149.12     3.97   1660.0 0.0800 .  
-## cleanlinessdirty:public                 -220.71  -318.29  -115.83    214.6 <2e-04 ***
-## defecate:public                         -133.91  -215.49   -44.17    961.3 0.0020 ** 
-## male:public                             -219.42  -316.98  -107.63    371.8 <2e-04 ***
-## cleanlinessclean:defecate:male           103.64  -137.80   323.24    296.2 0.3680    
-## cleanlinessdirty:defecate:male           355.58   196.15   519.88    365.0 <2e-04 ***
-## cleanlinessclean:defecate:public          96.93   -13.64   215.84   1417.9 0.0980 .  
-## cleanlinessdirty:defecate:public         108.11   -19.00   225.44   1405.8 0.0728 .  
-## cleanlinessclean:male:public             109.98  -113.72   323.33    252.9 0.3044    
-## cleanlinessdirty:male:public             164.91     7.03   314.50    895.2 0.0280 *  
-## defecate:male:public                     192.50    53.06   347.40    886.2 0.0096 ** 
-## cleanlinessclean:defecate:male:public   -216.80  -494.20    55.19    383.8 0.1120    
-## cleanlinessdirty:defecate:male:public   -108.51  -292.19    97.40   1256.2 0.2716    
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
-
+     Iterations = 100001:149991
+     Thinning interval  = 10
+     Sample size  = 5000 
+    
+     DIC: 34.14 
+    
+     G-structure:  ~participantId
+    
+                  post.mean l-95% CI u-95% CI eff.samp
+    participantId     25378    14682    36636     68.8
+    
+     R-structure:  ~units
+    
+          post.mean l-95% CI u-95% CI eff.samp
+    units     10036     6140    13770       58
+    
+     Location effects: dirtyposture ~ 1 + cleanliness * defecate * male * public 
+    
+                                          post.mean l-95% CI u-95% CI eff.samp  pMCMC    
+    (Intercept)                             -242.79  -313.27  -171.20    137.2 <2e-04 ***
+    cleanlinessclean                          15.42   -49.81    73.69   1694.0 0.6064    
+    cleanlinessdirty                         457.91   352.90   551.64     86.3 <2e-04 ***
+    defecate                                 -46.39  -111.19    25.06   1354.3 0.1776    
+    male                                     -29.85  -124.87    65.13   1026.2 0.5424    
+    public                                   275.12   195.78   345.31    146.3 <2e-04 ***
+    cleanlinessclean:defecate                 13.46   -85.17   104.04   1367.3 0.7908    
+    cleanlinessdirty:defecate                -53.19  -135.95    39.41   1569.2 0.2224    
+    cleanlinessclean:male                   -198.19  -381.19   -19.43    236.4 0.0164 *  
+    cleanlinessdirty:male                   -442.94  -574.89  -312.45    164.2 <2e-04 ***
+    defecate:male                             23.00   -83.57   144.86   1059.1 0.6980    
+    cleanlinessclean:public                  -67.81  -149.12     3.97   1660.0 0.0800 .  
+    cleanlinessdirty:public                 -220.71  -318.29  -115.83    214.6 <2e-04 ***
+    defecate:public                         -133.91  -215.49   -44.17    961.3 0.0020 ** 
+    male:public                             -219.42  -316.98  -107.63    371.8 <2e-04 ***
+    cleanlinessclean:defecate:male           103.64  -137.80   323.24    296.2 0.3680    
+    cleanlinessdirty:defecate:male           355.58   196.15   519.88    365.0 <2e-04 ***
+    cleanlinessclean:defecate:public          96.93   -13.64   215.84   1417.9 0.0980 .  
+    cleanlinessdirty:defecate:public         108.11   -19.00   225.44   1405.8 0.0728 .  
+    cleanlinessclean:male:public             109.98  -113.72   323.33    252.9 0.3044    
+    cleanlinessdirty:male:public             164.91     7.03   314.50    895.2 0.0280 *  
+    defecate:male:public                     192.50    53.06   347.40    886.2 0.0096 ** 
+    cleanlinessclean:defecate:male:public   -216.80  -494.20    55.19    383.8 0.1120    
+    cleanlinessdirty:defecate:male:public   -108.51  -292.19    97.40   1256.2 0.2716    
+    ---
+    Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Like for my other models, I added the posterior distributions of the various
 coefficients to get scores for each scenario. Unlike in the other models,
