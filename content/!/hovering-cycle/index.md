@@ -35,7 +35,7 @@ provide examples of this phenomenon.
 
 Formal quantitative studies have found hovering to be common among
 Taiwanese people (Cai & You, 1998)  and
-British gynaecological outpatients (Moore & al, 1991).
+British gynecological outpatients (Moore & al, 1991).
 
 ### The hovering cycle
 
@@ -126,8 +126,8 @@ presently present, but I'll just explain the relevant questions.
 
 ### Questions
 I asked each participant for his or her sex. Participants were required to
-choose the more appropriate of "male" or "female". I also asked each particpant
-what posture he or she would use in 12 different scenarious. For each scenario,
+choose the more appropriate of "male" or "female". I also asked each participant
+what posture he or she would use in 12 different scenarios. For each scenario,
 the participant was required to respond with one of these postures:
 
 * Sit
@@ -239,7 +239,7 @@ posture choice.
 ### General trends
 Recall that I have a factorial layout of questions within participant
 and that I collected sex at the participant level. I thus used a
-multitlevel model with participant as a random effect.
+multilevel model with participant as a random effect.
 
 As the earlier summaries indicate, people generally either followed
 our societally expected posture or hovered. Thus, I'm using the binary
@@ -381,7 +381,7 @@ Said otherwise, the differences between different scenarios are similar,
 but people are overall more likely to use a dirty posture in the cleanliness
 model than in the privacy model. Keep in mind that these models use different
 subsets of the data; the first model uses only private scenarios, and the
-second uses only scenarious that did not mention cleanliness.
+second uses only scenarios that did not mention cleanliness.
 
 This is all to say that privacy level and cleanliness level appear to
 have similar impacts on choice of posture.
@@ -645,7 +645,7 @@ The present study supports this hypothesis; people were more likely to
 say that they'd hover or use a different dirtying posture at dirty or
 public toilets than at clean or private toilets. For a more complete
 verification of this hypothesis, another study could observe how
-posture choice affects the dirting of the toilet and see whether my
+posture choice affects the dirtying of the toilet and see whether my
 categorization of postures into clean postures and dirty postures is
 reasonable.
 
@@ -683,7 +683,7 @@ likely to hover at an unpleasant toilet.
 
 The current study compared males and females, but loads of other things that
 could affect how people use a toilet. These things include anthropometry,
-fatigue and disablities.
+fatigue and disabilities.
 
 ### Toilet design
 
@@ -697,7 +697,7 @@ adding bars to stalls help people hover? And would that, in turn,
 make people happier?
 
 Maybe we can make toilets fit a wider range of people. Men have
-the luxary of calmly standing while urinating, whereas women have
+the luxury of calmly standing while urinating, whereas women have
 to either hover or bear touching the seat. Could toilets be
 designed in some way that matched the female anatomy? Clara Greed (2003)
 might give us ideas. More generally, can we
