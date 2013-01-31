@@ -187,8 +187,7 @@ Notable exceptions are when men are urinating (They stand) and when women are
 urinating at dirty or public toilets. This first series of eight plots looks at the
 four situations of unspecified cleanliness for each of the two sexes.
 
-![plot of chunk pie.matrix.1](figure/pie.matrix.1.png) 
-
+![plot of chunk pie.matrix.1](<%= @item.identifier %>pie.matrix.png) 
 
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
@@ -262,15 +261,12 @@ Nobody had marked "squat", so that didn't need to be converted.
 Using only the data from private toilet scenarios, I fitted a multilevel
 logistic regression in `MCMCglmm` with the participant as a random effect.
 
-
     dirtyposture ~ 1 + dirty * defecate * male
-
 
 I used the default weakly informative prior.
 
 Some output is here
 
-    
      Iterations = 100001:149991
      Thinning interval  = 10
      Sample size  = 5000 
@@ -300,7 +296,6 @@ Some output is here
     dirty:defecate:male     6.909    6.864    7.116    22.95 <2e-04 ***
     ---
     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
 
 At first glance, we see that most of the coefficients are significantly
 different from zero, which suggests that people react differently in the
@@ -337,9 +332,7 @@ only the scenarios where I did not specify cleanliness. If this model
 is similar to the privacy model, we might see cleanliness and privacy as
 indicators of each other.
 
-
     dirtyposture ~ 1 + public * defecate * male
-
 
 More output is here
 
