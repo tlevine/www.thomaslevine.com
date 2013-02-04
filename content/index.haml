@@ -82,11 +82,12 @@
       %li
         %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
 
+  #music.link-group
+    = render('_topic_box', :topic => 'music', :links => [['christmas', 'http://www.youtube.com/watch?v=rLZDvXPIDa0'], ['fed spending', 'http://fms.csvsoundsystem.com'], ['twinkle', '/!/twinkle/']])
+
   #doodles.link-group
     %strong doodles
     %ul.nobullet
-      %li
-        %a{ :href => "http://www.youtube.com/watch?v=rLZDvXPIDa0"} christmas
       %li
         %a{ :href => "http://smug.thomaslevine.com/Typography/Pizza-Boxes"} pizza boxes
       %li
@@ -105,7 +106,7 @@
     = render('_topic_box', :topic => 'toilets', :links => [['dorm', '/!/risley-toilets'], ['map', 'http://mapsh.it']])
 
   #shenanigans.link-group
-    = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"], ['twinkle', '/!/twinkle/']])
+    = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"]])
 
   #etc.link-group
     = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"]])
