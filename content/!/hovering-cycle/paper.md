@@ -338,88 +338,72 @@ TRUE | TRUE | FALSE | TRUE | FALSE | FALSE
 Cells say "TRUE" if posture was the same in the corresponding public and
 private scenarios, and they say "FALSE" if it wasn't.
 
+We saw in the graph that sex has the largest impact on the difference between
+the public and private locations for the unspecified_urinate, clean_urinate
+and clean_defecate scenarios. We see the same thing in the MANOVA coefficients.
 
-```
-## Call:
-##    manova(as.matrix(person[-(1:2)]) ~ person$sex)
-## 
-## Terms:
-##                 person$sex Residuals
-## resp 1                0.33     20.34
-## resp 2               8.526    28.619
-## resp 3               1.821    18.850
-## resp 4               4.684    24.403
-## resp 5               0.153    14.367
-## resp 6               0.001     6.716
-## Deg. of Freedom          1       171
-## 
-## Residual standard error: 0.3449 0.4091 0.332 0.3778 0.2899 0.1982 
-## Estimated effects may be unbalanced
-```
+                           person$sex Residuals
+    unspecified_defecate         0.33     20.34
+    unspecified_urinate         8.526    28.619
+    clean_defecate              1.821    18.850
+    clean_urinate               4.684    24.403
+    dirty_defecate              0.153    14.367
+    dirty_urinate               0.001     6.716
+    Deg. of Freedom                 1       171
 
-```
-##             Df Pillai approx F num Df den Df  Pr(>F)    
-## person$sex   1  0.268     10.1      6    166 1.6e-09 ***
-## Residuals  171                                          
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-##             Df Wilks approx F num Df den Df  Pr(>F)    
-## person$sex   1 0.732     10.1      6    166 1.6e-09 ***
-## Residuals  171                                         
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-##             Df Hotelling-Lawley approx F num Df den Df  Pr(>F)    
-## person$sex   1            0.365     10.1      6    166 1.6e-09 ***
-## Residuals  171                                                    
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-##             Df   Roy approx F num Df den Df  Pr(>F)    
-## person$sex   1 0.365     10.1      6    166 1.6e-09 ***
-## Residuals  171                                         
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-```
+    Residual standard error: 0.3449 0.4091 0.332 0.3778 0.2899 0.1982 
+    Estimated effects may be unbalanced
 
-```
-##  Response unspecified_defecate :
-##              Df Sum Sq Mean Sq F value Pr(>F)  
-## person$sex    1   0.33   0.330    2.78  0.097 .
-## Residuals   171  20.34   0.119                 
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-## 
-##  Response unspecified_urinate :
-##              Df Sum Sq Mean Sq F value  Pr(>F)    
-## person$sex    1   8.53    8.53    50.9 2.6e-11 ***
-## Residuals   171  28.62    0.17                    
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-## 
-##  Response clean_defecate :
-##              Df Sum Sq Mean Sq F value  Pr(>F)    
-## person$sex    1   1.82    1.82    16.5 7.3e-05 ***
-## Residuals   171  18.85    0.11                    
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-## 
-##  Response clean_urinate :
-##              Df Sum Sq Mean Sq F value  Pr(>F)    
-## person$sex    1   4.68    4.68    32.8 4.5e-08 ***
-## Residuals   171  24.40    0.14                    
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-## 
-##  Response dirty_defecate :
-##              Df Sum Sq Mean Sq F value Pr(>F)
-## person$sex    1   0.15   0.153    1.82   0.18
-## Residuals   171  14.37   0.084               
-## 
-##  Response dirty_urinate :
-##              Df Sum Sq Mean Sq F value Pr(>F)
-## person$sex    1   0.00  0.0007    0.02    0.9
-## Residuals   171   6.72  0.0393
-```
+All of the standard four hypothesis tests suggest that sex has a significant
+difference on the difference between public and private scenarios.
 
+                Df           Pillai approx F num Df den Df  Pr(>F)    
+    person$sex   1            0.268     10.1      6    166 1.6e-09 ***
+    Residuals  171                                          
+
+                Df            Wilks approx F num Df den Df  Pr(>F)    
+    person$sex   1            0.732     10.1      6    166 1.6e-09 ***
+    Residuals  171                                         
+
+                Df Hotelling-Lawley approx F num Df den Df  Pr(>F)    
+    person$sex   1            0.365     10.1      6    166 1.6e-09 ***
+    Residuals  171                                                    
+
+                Df              Roy approx F num Df den Df  Pr(>F)    
+    person$sex   1            0.365     10.1      6    166 1.6e-09 ***
+    Residuals  171                                         
+
+I ran univariate ANOVAs for the six scenarios.
+
+    unspecified_defecate
+                 Df Sum Sq Mean Sq F value Pr(>F)  
+    person$sex    1   0.33   0.330    2.78  0.097 .
+    Residuals   171  20.34   0.119                 
+    
+    unspecified_urinate
+                 Df Sum Sq Mean Sq F value  Pr(>F)    
+    person$sex    1   8.53    8.53    50.9 2.6e-11 ***
+    Residuals   171  28.62    0.17                    
+    
+    clean_defecate
+                 Df Sum Sq Mean Sq F value  Pr(>F)    
+    person$sex    1   1.82    1.82    16.5 7.3e-05 ***
+    Residuals   171  18.85    0.11                    
+    
+    clean_urinate
+                 Df Sum Sq Mean Sq F value  Pr(>F)    
+    person$sex    1   4.68    4.68    32.8 4.5e-08 ***
+    Residuals   171  24.40    0.14                    
+    
+    dirty_defecate
+                 Df Sum Sq Mean Sq F value Pr(>F)
+    person$sex    1   0.15   0.153    1.82   0.18
+    Residuals   171  14.37   0.084               
+    
+    dirty_urinate
+                 Df Sum Sq Mean Sq F value Pr(>F)
+    person$sex    1   0.00  0.0007    0.02    0.9
+    Residuals   171   6.72  0.0393
 
 The MANOVA doesn't tell us anything we didn't already figure out from
 the graph; all of the MANOVA significance tests find a difference by sex
