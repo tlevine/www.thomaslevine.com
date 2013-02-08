@@ -185,7 +185,7 @@ Notable exceptions are when men are urinating (They stand) and when women are
 urinating at dirty or public toilets. This first series of eight plots looks at the
 four situations of unspecified cleanliness for each of the two sexes.
 
-![plot of chunk pie-matrix-1](figure/pie-matrix-1.png) 
+![Polar plots of posture choice (sit, stand, hover, other) by scenario](figure/pie-matrix-1.png) 
 
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
@@ -237,7 +237,6 @@ but I see standing as the conventional, baseline posture for these scenarios.)
 Nobody had marked "squat", so that didn't need to be converted.
 
 That results in this table.
-
 
 sex | privacy | task | cleanliness | count | p
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -311,7 +310,7 @@ I also plotted them, separating by sex. The error bars are 12% tall in
 each direction; the reasoning for this is the same as in the earlier
 table.
 
-![plot of chunk privacy-plot](figure/privacy-plot.png) 
+![Polar plots of posture dirtiness (clean versus dirty) by scenario](figure/privacy-plot.png) 
 
 
 In most situations, the figures are quite close to 100%, but a couple are
@@ -461,7 +460,7 @@ I used hierarchical clustering to group the participants based on their
 responses to the twelve questions. I used the Ward method with
 euclidean distances. The grouping looks like this.
 
-![plot of chunk basic-dendrogram](figure/basic-dendrogram.png) 
+![Dendrogram](figure/basic-dendrogram.png) 
 
 We can cut off this dendrogram at any level and look at the average
 (really the centroid) value within each cluster. If we cut it before
@@ -474,7 +473,7 @@ responses only, not based on sex.)
 I cut off the dendrogram at successively lower levels until it got boring,
 annotating the clusters as I went. Here's the first cut.
 
-![Dendrogram](figure/a-2-plot-raw.png) 
+![Dendrogram with boxes around two clusters](figure/a-2-plot-raw.png) 
 
 And here are the centroids. (I didn't cluster based on sex, but I included sex
 in the table below.)
@@ -498,7 +497,7 @@ dirty_urinate_public        | 0.21739 | 0.98765
 
 After studying the centroids, I came up with these groupings.
 
-![Dendrogram with boxes around two clusters](figure/a-2-plot.png) 
+![Dendrogram with boxes around two clusters, one labeled "male" and the other labeled "female"](figure/a-2-plot.png) 
 
 Here it is at six clusters.
 
