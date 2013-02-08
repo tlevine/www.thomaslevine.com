@@ -177,7 +177,6 @@ they had won before.
 ## Results
 Of the 390 students to which questionnaires were sent, 173 completed the
 questionnaire. There were 103 females and 70 males.
-<!-- select sex, count(*) from demographic where questionnaire_round = 'test' group by sex;  -->
 
 ### Popularity of posture by situation
 Within each of the 12 situations, the most popular posture was normally
@@ -187,7 +186,6 @@ urinating at dirty or public toilets. This first series of eight plots looks at 
 four situations of unspecified cleanliness for each of the two sexes.
 
 ![plot of chunk pie-matrix-1](figure/pie-matrix-1.png) 
-
 
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
@@ -481,7 +479,6 @@ euclidean distances. The grouping looks like this.
 
 ![plot of chunk basic-dendrogram](figure/basic-dendrogram.png) 
 
-
 We can cut off this dendrogram at any level and look at the average
 (really the centroid) value within each cluster. If we cut it before
 the first split and have one "cluster", the centroid will just be the
@@ -495,54 +492,46 @@ annotating the clusters as I went. Here's the first cut.
 
 ![plot of chunk a-2-plot-raw](figure/a-2-plot-raw.png) 
 
-
 And here are the centroids. (I didn't cluster based on sex, but I included sex
 in the table below.)
 
-
-```
-##                                 [,1]    [,2]
-## male                         0.71739 0.04938
-## unspecified_defecate_private 0.03261 0.08642
-## unspecified_defecate_public  0.07609 0.30864
-## unspecified_urinate_private  0.04348 0.13580
-## unspecified_urinate_public   0.14130 0.66667
-## clean_defecate_private       0.01087 0.12346
-## clean_defecate_public        0.03261 0.39506
-## clean_urinate_private        0.00000 0.16049
-## clean_urinate_public         0.03261 0.58025
-## dirty_defecate_private       0.41304 0.97531
-## dirty_defecate_public        0.53261 0.98765
-## dirty_urinate_private        0.18478 0.98765
-## dirty_urinate_public         0.21739 0.98765
-```
-
+    male                         0.71739 0.04938
+    unspecified_defecate_private 0.03261 0.08642
+    unspecified_defecate_public  0.07609 0.30864
+    unspecified_urinate_private  0.04348 0.13580
+    unspecified_urinate_public   0.14130 0.66667
+    clean_defecate_private       0.01087 0.12346
+    clean_defecate_public        0.03261 0.39506
+    clean_urinate_private        0.00000 0.16049
+    clean_urinate_public         0.03261 0.58025
+    dirty_defecate_private       0.41304 0.97531
+    dirty_defecate_public        0.53261 0.98765
+    dirty_urinate_private        0.18478 0.98765
+    dirty_urinate_public         0.21739 0.98765
 
 After studying the centroids, I came up with these groupings.
 
 ![plot of chunk a-2-plot](figure/a-2-plot.png) 
-
 
 Here it is at six clusters.
 
 ![plot of chunk a-6-plot](figure/a-6-plot.png) 
 
 
-
---- | --- | --- | --- | --- | --- | --- | ---
-0.772727272727273 | 0.730769230769231 | 0.0701754385964912 | 1 | 0 | 0
-0.136363636363636 | 0 | 0.12280701754386 | 0 | 0 | 0
-0.318181818181818 | 0 | 0.43859649122807 | 0 | 0 | 0
-0.181818181818182 | 0 | 0.192982456140351 | 0 | 0 | 0
-0.227272727272727 | 0 | 0.947368421052632 | 0 | 0.571428571428571 | 0
-0.0454545454545455 | 0 | 0.175438596491228 | 0 | 0 | 0
-0.136363636363636 | 0 | 0.56140350877193 | 0 | 0 | 0
-0 | 0 | 0.228070175438596 | 0 | 0 | 0
-0 | 0 | 0.824561403508772 | 0 | 0.214285714285714 | 0
-0.363636363636364 | 0 | 0.964912280701754 | 1 | 0 | 1
-0.863636363636364 | 0 | 0.982456140350877 | 1 | 0 | 1
-0.181818181818182 | 0 | 0.982456140350877 | 0 | 0.928571428571429 | 1
-0.272727272727273 | 0 | 0.982456140350877 | 0 | 1 | 1
+---- | ---- | ---- |---| ---- | ---
+0.77 | 0.73 | 0.07 | 1 | 0    | 0
+0.14 | 0.00 | 0.12 | 0 | 0    | 0
+0.31 | 0.00 | 0.44 | 0 | 0    | 0
+0.18 | 0.00 | 0.19 | 0 | 0    | 0
+0.23 | 0.00 | 0.95 | 0 | 0.57 | 0
+0.05 | 0.00 | 0.18 | 0 | 0    | 0
+0.13 | 0.00 | 0.56 | 0 | 0    | 0
+0.00 | 0.00 | 0.23 | 0 | 0    | 0
+0.00 | 0.00 | 0.82 | 0 | 0.21 | 0
+0.36 | 0.00 | 0.96 | 1 | 0    | 1
+0.86 | 0.00 | 0.98 | 1 | 0    | 1
+0.18 | 0.00 | 0.98 | 0 | 0.93 | 1
+0.27 | 0.00 | 0.98 | 0 | 1    | 1
 
 
 And I stopped at 17.
