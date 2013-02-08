@@ -1,8 +1,10 @@
-The Hovering Cycle
-====
+---
+title: The Hovering Cycle
+created_at: 2012-02-09
+kind: article
+tags: ['data', 'toilets', 'ergonomics']
+---
 
-
-## Introduction
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
 But the word on the street is that people often adopt a hovering posture
