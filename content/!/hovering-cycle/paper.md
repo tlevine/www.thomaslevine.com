@@ -490,54 +490,56 @@ responses only, not based on sex.)
 I cut off the dendrogram at successively lower levels until it got boring,
 annotating the clusters as I went. Here's the first cut.
 
-![plot of chunk a-2-plot-raw](figure/a-2-plot-raw.png) 
+![Dendrogram](figure/a-2-plot-raw.png) 
 
 And here are the centroids. (I didn't cluster based on sex, but I included sex
 in the table below.)
 
-    male                         0.71739 0.04938
-    unspecified_defecate_private 0.03261 0.08642
-    unspecified_defecate_public  0.07609 0.30864
-    unspecified_urinate_private  0.04348 0.13580
-    unspecified_urinate_public   0.14130 0.66667
-    clean_defecate_private       0.01087 0.12346
-    clean_defecate_public        0.03261 0.39506
-    clean_urinate_private        0.00000 0.16049
-    clean_urinate_public         0.03261 0.58025
-    dirty_defecate_private       0.41304 0.97531
-    dirty_defecate_public        0.53261 0.98765
-    dirty_urinate_private        0.18478 0.98765
-    dirty_urinate_public         0.21739 0.98765
+----------------------------|---------|----------
+Variable/Scenario           |Cluster 1|Cluster 2
+----------------------------| ------- | -------
+male                        | 0.71739 | 0.04938
+unspecified_defecate_private| 0.03261 | 0.08642
+unspecified_defecate_public | 0.07609 | 0.30864
+unspecified_urinate_private | 0.04348 | 0.13580
+unspecified_urinate_public  | 0.14130 | 0.66667
+clean_defecate_private      | 0.01087 | 0.12346
+clean_defecate_public       | 0.03261 | 0.39506
+clean_urinate_private       | 0.00000 | 0.16049
+clean_urinate_public        | 0.03261 | 0.58025
+dirty_defecate_private      | 0.41304 | 0.97531
+dirty_defecate_public       | 0.53261 | 0.98765
+dirty_urinate_private       | 0.18478 | 0.98765
+dirty_urinate_public        | 0.21739 | 0.98765
 
 After studying the centroids, I came up with these groupings.
 
-![plot of chunk a-2-plot](figure/a-2-plot.png) 
+![Dendrogram with boxes around two clusters](figure/a-2-plot.png) 
 
 Here it is at six clusters.
 
-![plot of chunk a-6-plot](figure/a-6-plot.png) 
+![Dendrogram with boxes around six clusters](figure/a-6-plot.png) 
 
-
----- | ---- | ---- |---| ---- | ---
-0.77 | 0.73 | 0.07 | 1 | 0    | 0
-0.14 | 0.00 | 0.12 | 0 | 0    | 0
-0.31 | 0.00 | 0.44 | 0 | 0    | 0
-0.18 | 0.00 | 0.19 | 0 | 0    | 0
-0.23 | 0.00 | 0.95 | 0 | 0.57 | 0
-0.05 | 0.00 | 0.18 | 0 | 0    | 0
-0.13 | 0.00 | 0.56 | 0 | 0    | 0
-0.00 | 0.00 | 0.23 | 0 | 0    | 0
-0.00 | 0.00 | 0.82 | 0 | 0.21 | 0
-0.36 | 0.00 | 0.96 | 1 | 0    | 1
-0.86 | 0.00 | 0.98 | 1 | 0    | 1
-0.18 | 0.00 | 0.98 | 0 | 0.93 | 1
-0.27 | 0.00 | 0.98 | 0 | 1    | 1
-
+----------------------------|---- | ---- | ---- |---| ---- |---
+Variable/Scenario           |Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Cluster 5 | Cluster 6
+----------------------------|---- | ---- | ---- |---| ---- |---
+male                        |0.77 | 0.73 | 0.07 | 1 | 0    | 0
+unspecified_defecate_private|0.14 | 0.00 | 0.12 | 0 | 0    | 0
+unspecified_defecate_public |0.31 | 0.00 | 0.44 | 0 | 0    | 0
+unspecified_urinate_private |0.18 | 0.00 | 0.19 | 0 | 0    | 0
+unspecified_urinate_public  |0.23 | 0.00 | 0.95 | 0 | 0.57 | 0
+clean_defecate_private      |0.05 | 0.00 | 0.18 | 0 | 0    | 0
+clean_defecate_public       |0.13 | 0.00 | 0.56 | 0 | 0    | 0
+clean_urinate_private       |0.00 | 0.00 | 0.23 | 0 | 0    | 0
+clean_urinate_public        |0.00 | 0.00 | 0.82 | 0 | 0.21 | 0
+dirty_defecate_private      |0.36 | 0.00 | 0.96 | 1 | 0    | 1
+dirty_defecate_public       |0.86 | 0.00 | 0.98 | 1 | 0    | 1
+dirty_urinate_private       |0.18 | 0.00 | 0.98 | 0 | 0.93 | 1
+dirty_urinate_public        |0.27 | 0.00 | 0.98 | 0 | 1    | 1
 
 And I stopped at 17.
 
-![plot of chunk a-17-plot](figure/a-17-plot.png) 
-
+![Dendrogram with boxes around 17 clusters](figure/a-17-plot.png) 
 
 The above groupings help us understand the questionnaire responses by person,
 but they don't tell us how well the groupings might apply to people outside
@@ -580,8 +582,7 @@ in each of twelve scenarios and that the postures were grouped into clean
 and dirty postures. Since we are able to narrow down the marginal reasons why
 a person would switch postures, the following plot is informative.
 
-![plot of chunk p-ndirty](figure/p-ndirty.png) 
-
+![How many participants marked how many scenarios?](figure/p-ndirty.png) 
 
 The x-axis is the number of questions for which dirty
 postures were marked, and the y-axis is the proportion of participants.
