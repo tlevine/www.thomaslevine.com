@@ -767,9 +767,10 @@ The paper is mostly compiled with
 * Clara Greed (2003). Inclusive Urban Design: Public Toilets. Oxford, UK: Architectural Press.
 * Alexander Kira (1976). The Bathroom. New York: Viking Press.
 * Barbro Lundblad and Anna-Lena Hellström (2005). Perceptions of School Toilets as a Cause for Irregular Toilet Habits Among Schoolchildren Aged 6 to 16 Years. Journal of School Health, 75(4): 125-128.
-* Moore, K. H. and Richmond, D. H. and Sutherst, J. R. and Imrie, A. H. and Hutton, J. L. (1991). Crouching over the toilet seat: prevalence among British gynaecological outpatients and its effect upon micturition. BJOG: An International Journal of Obstetrics \& Gynaecology, 98(6).
+* Moore, K. H. and Richmond, D. H. and Sutherst, J. R. and Imrie, A. H. and Hutton, J. L. (1991). Crouching over the toilet seat: prevalence among British gynaecological outpatients and its effect upon micturition. BJOG: An International Journal of Obstetrics & Gynaecology, 98(6).
 * Ian L. McClelland and Joan S. Ward (1982). The Ergonomics of Toilet Seats. Human Factors, 24(6): 713--725.
 * A. Rane & A. Corstiaans (2008). Does micturition improve in the squatting position? Journal of Obstetrics and Gynaecology, 28(3): 317--319.
-* Ali Unsal and Ersin Cimentepe (2004). Effect of Voiding Position on Uroflowmetric Parameters and Post-void Residual Urine Volume in Patients with
-* 240–242.
-* S. Vernon, B. Lundblad and A. L. Hellstrom (2003). Children's experiences of school toilets present a risk to their physical and psychological health. Care, Health & Development, 29(1): 47--53.
+* Ali Unsal and Ersin Cimentepe (2004). Effect of Voiding Position on Uroflowmetric
+    Parameters and Post-void Residual Urine Volume in Patients with Benign Prostatic 
+    Hyperplasia. Scand J Urol Nephrol, 38: 240–242. 
+* S. Vernon, B. Lundblad and A. L. Hellström (2003). Children's experiences of school toilets present a risk to their physical and psychological health. Care, Health & Development, 29(1): 47--53.
