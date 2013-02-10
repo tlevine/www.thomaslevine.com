@@ -778,9 +778,10 @@ similarly small request.
 
 ### Trivia
 
+> 54% of women hover when urinating in public toilets.
+
 The estimated prevalences of various postures of toilet use
-(For example, 54% of women hover when urinating in public toilets.)
-might make for fun dinner conversation.
+make for fun dinner conversation.
 
 ## Helpful tools
 
