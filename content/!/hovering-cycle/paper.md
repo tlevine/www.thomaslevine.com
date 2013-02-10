@@ -299,12 +299,14 @@ There were instances where posture was different, so the quick answer is
 I actually checked how often the posture was the same. Here are the raw
 proportions.
 
-----|unspecified
-sex | unspecified_defecate | unspecified_urinate | clean_defecate | clean_urinate | dirty_defecate | dirty_urinate
---- | --- | --- | --- | --- | --- | --- | ---
-male   | 0.9143 | 0.9571 | 0.9857 | 0.9857 | 0.8714 | 0.9571
-female | 0.8252 | 0.5049 | 0.7767 | 0.6505 | 0.9320 | 0.9612
-
+   Task   |Cleanliness | Male |Female
+----------|------------|------|------
+ Urinate  |Clean       |  99% |  65%
+          |Unspecified |  96% |  50%
+          |Dirty       |  96% |  96%
+ Defecate |Clean       |  99% |  78%
+          |Unspecified |  91% |  83%
+          |Dirty       |  87% |  93%
 
 I also plotted them, separating by sex. The error bars are 12% tall in
 each direction; the reasoning for this is the same as in the earlier
