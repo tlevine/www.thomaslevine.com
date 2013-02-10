@@ -452,7 +452,11 @@ same as the people who hover when toilets are dirty.
 
 #### Plots by person
 First, I made a separate plot for each participant to characterize that
-participant's posture choice. XXX Add a link.
+participant's posture choice. I ordered the scenarios by likelihood to
+use a posture other than the standard sitting (or standing for males
+urinating) and made separate files for
+[males](<%= @item.identifier %>answers-male.pdf) and
+[females](<%= @item.identifier %>answers-female.pdf).
 
 Flipping through all of those is sort of interesting, but I would like
 to condense the trends into something more easily digested.
