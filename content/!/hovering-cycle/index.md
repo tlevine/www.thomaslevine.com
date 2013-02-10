@@ -241,34 +241,35 @@ and some males
 but I see standing as the conventional, baseline posture for these scenarios.)
 Nobody had marked "squat", so that didn't need to be converted.
 
-That results in this table.
+That results in this table. It shows the numbers and proportions of participants
+who said they used dirty postures in response to each of the questions.
 
-sex | privacy | task | cleanliness | Count(dirty posture) | P(dirty posture)
---- | --- | --- | --- | --- | --- | --- | ---
-male | private | defecate | unspecified |  4 | 6%
-male | private | defecate | clean |  2 | 3%
-male | private | defecate | dirty | 41 | 59%
-male | private | urinate | unspecified |  5 | 7%
-male | private | urinate | clean |  1 | 1%
-male | private | urinate | dirty |  5 | 7%
-male | public | defecate | unspecified | 10 | 14%
-male | public | defecate | clean |  3 | 4%
-male | public | defecate | dirty | 48 | 69%
-male | public | urinate | unspecified |  8 | 11%
-male | public | urinate | clean |  2 | 3%
-male | public | urinate | dirty |  4 | 6%
-female | private | defecate | unspecified |  6 | 6%
-female | private | defecate | clean |  9 | 9%
-female | private | defecate | dirty | 76 | 74%
-female | private | urinate | unspecified | 10 | 10%
-female | private | urinate | clean | 12 | 12%
-female | private | urinate | dirty | 92 | 89%
-female | public | defecate | unspecified | 22 | 21%
-female | public | defecate | clean | 32 | 31%
-female | public | defecate | dirty | 81 | 79%
-female | public | urinate | unspecified | 59 | 57%
-female | public | urinate | clean | 48 | 47%
-female | public | urinate | dirty | 96 | 93%
+sex | privacy | task | cleanliness | Dirty posture
+--- | --- | --- | --- | --- | --- | ------
+male | private | defecate | unspecified |  4 (6%)
+male | private | defecate | clean |  2 (3%)
+male | private | defecate | dirty | 41 (59%)
+male | private | urinate | unspecified |  5 (7%)
+male | private | urinate | clean |  1 (1%)
+male | private | urinate | dirty |  5 (7%)
+male | public | defecate | unspecified | 10 (14%)
+male | public | defecate | clean |  3 (4%)
+male | public | defecate | dirty | 48 (69%)
+male | public | urinate | unspecified |  8 (11%)
+male | public | urinate | clean |  2 (3%)
+male | public | urinate | dirty |  4 (6%)
+female | private | defecate | unspecified |  6 (6%)
+female | private | defecate | clean |  9 (9%)
+female | private | defecate | dirty | 76 (74%)
+female | private | urinate | unspecified | 10 (10%)
+female | private | urinate | clean | 12 (12%)
+female | private | urinate | dirty | 92 (89%)
+female | public | defecate | unspecified | 22 (21%)
+female | public | defecate | clean | 32 (31%)
+female | public | defecate | dirty | 81 (79%)
+female | public | urinate | unspecified | 59 (57%)
+female | public | urinate | clean | 48 (47%)
+female | public | urinate | dirty | 96 (93%)
 
 ### Does dirt promote dirt?
 The above table about the use of dirty postures versus clean postures
