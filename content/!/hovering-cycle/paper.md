@@ -506,7 +506,7 @@ After studying the centroids, I came up with these groupings.
 
 ![Dendrogram with boxes around two clusters, one labeled "male" and the other labeled "female"](figure/a-2-plot.png) 
 
-Here it is at six clusters.
+Here it is at six clusters, grouped.
 
 ![Dendrogram with boxes around six clusters](figure/a-6-plot.png) 
 
@@ -527,7 +527,9 @@ dirty_defecate_public       |0.86 | 0.00 | 0.98 | 1 | 0    | 1
 dirty_urinate_private       |0.18 | 0.00 | 0.98 | 0 | 0.93 | 1
 dirty_urinate_public        |0.27 | 0.00 | 0.98 | 0 | 1    | 1
 
-And I stopped at 17.
+<!-- XXX The cluster numbers correspond to these names. -->
+
+I stopped at 17.
 
 ![Dendrogram with boxes around 17 clusters](figure/a-17-plot.png) 
 
