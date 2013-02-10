@@ -1,6 +1,6 @@
 ---
 title: Words that are hard to spell
-created_at: 2013-01-28
+created_at: 2013-03-28
 kind: article
 tags: ['shenanigans']
 ---
