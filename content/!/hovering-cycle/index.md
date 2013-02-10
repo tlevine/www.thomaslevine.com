@@ -9,6 +9,7 @@ article table {
     text-align: right;
     width: 100%;
 }
+.half-img { width: 50%; }
 </style>
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
@@ -741,13 +742,44 @@ cleanliness of bathrooms. When people use dirty bathrooms,
 they tend to use postures that make toilets dirtier. Thus,
 clean bathrooms stay clean, but dirty bathrooms get dirtier.
 
+Perhaps we can schedule bathroom cleanings better with this knowledge.
 Rather than cleaning bathrooms once a day or waiting until
-they get messy, consider quickly tidying them up every hour
+they get messy, it may make sense to quickly tidy them up every hour
 or so; wipe the toilets and the sinks, pick trash up from the
 ground, and flush any toilets that haven't been flushed.
 This may stop toilets from getting particularly dirty,
 allowing toilets to stay reasonably clean throughout the day
 without major cleaning.
+
+We can also install signs in the bathroom that encourage people to
+clean up minor messes. When I was in my senior year of college, the
+cleanliness of my dorm's bathrooms became a topic of
+[epic controversy](/!/risley-toilets).
+Around that time, I observed a couple signs that requested that
+men avoid getting urine on the toilet seats and that they wipe the
+toilet in case they did get urine on the toilet.
+
+<img alt="Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat"
+  class="half-img" src="<%= @item.identifier %>gentlemen.jpg" />
+<img alt="Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat"
+  class="half-img" src="<%= @item.identifier %>alright.jpg" />
+
+</div>
+
+The above notices are phrased in a way that is somewhat hostile towards
+males; they might be more effective if they requested that less unpleasant
+unsanitary conditions be avoided. Based on the results from the present
+study, I suspect that the prevention of minor messes that people don't
+complain about would prevent the major messes that people complain about.
+
+There was one sign in my dorm that made this sort of request.
+
+![Sign requesting people to flush the toilets](<%= @item.identifier %>flush.jpg)
+
+A bathroom in the Columbia University School of Journalism contains a
+similarly small request.
+
+![Sign requesting people to pick up dropped toilet paper](<%= @item.identifier %>toiletpaper.jpg)
 
 ### Trivia
 
