@@ -649,19 +649,18 @@ posture choice affects the dirtying of the toilet and see whether my
 categorization of postures into clean postures and dirty postures is
 reasonable.
 
-### Decision processes
+### Do public toilets promote hovering for reasons other than dirtiness?
 
 The study also gives us an idea of how people might decide whether to hover when
 using a public toilet or a dirty toilet.
 
 Dirtier toilets and more public toilets encourage hovering and other dirty
-postures. I tried separating the effects of cleanliness and privacy, and there
-might be a difference, but the manner in which the questions were asked makes
+postures. Toilet cleanliness and privacy might be correlated with each other,
+(I didn't address that in the present study.) but they also might have effects
+separate from each other. The data seem to suggest that toilet privacy affects
+posture for reasons other than toilet cleanliness, but the manner in which the
+questionnaire questions were asked makes
 it difficult to claim whether I have truly isolated the effect of privacy.
-
-Men and women are both unlikely to
-hover while defecating, presumably because it is difficult. This might change
-if toilets were designed in ways that made hovering easier or harder.
 
 ### Men and women
 
@@ -669,7 +668,8 @@ Moreover, the study shows how the cleanliness of a bathroom might affect
 different groups differently.
 
 When using a clean or private toilet ("pleasant toilet" henceforth),
-people are more likely to use a clean posture.
+people are more likely to use a clean posture. More specifically,
+men and women are both unlikely to hover while defecating, presumably because it is difficult. 
 
 For use of an dirty or public ("unpleasant") toilet, the differences between males
 and females become relevant. For defecation, both sexes generally
