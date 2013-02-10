@@ -38,7 +38,7 @@ Formal quantitative studies have found hovering to be common among
 Taiwanese people (Cai & You, 1998) and
 British gynaecological outpatients  (Moore & al, 1991),
 
-### The hovering cycle
+### Toilets get dirty, so people hover.
 
 Many of the referenced forum discussions explain that hovering, rather than
 sitting, creates more of a mess. Presumably, this is because hovering puts the
@@ -238,33 +238,32 @@ Nobody had marked "squat", so that didn't need to be converted.
 
 That results in this table.
 
-sex | privacy | task | cleanliness | count | p
+sex | privacy | task | cleanliness | Count(dirty posture) | P(dirty posture)
 --- | --- | --- | --- | --- | --- | --- | ---
-male | private | defecate | unspecified |  4 | 0.0571428571428571
-male | private | defecate | clean |  2 | 0.0285714285714286
-male | private | defecate | dirty | 41 | 0.585714285714286
-male | private | urinate | unspecified |  5 | 0.0714285714285714
-male | private | urinate | clean |  1 | 0.0142857142857143
-male | private | urinate | dirty |  5 | 0.0714285714285714
-male | public | defecate | unspecified | 10 | 0.142857142857143
-male | public | defecate | clean |  3 | 0.0428571428571429
-male | public | defecate | dirty | 48 | 0.685714285714286
-male | public | urinate | unspecified |  8 | 0.114285714285714
-male | public | urinate | clean |  2 | 0.0285714285714286
-male | public | urinate | dirty |  4 | 0.0571428571428571
-female | private | defecate | unspecified |  6 | 0.058252427184466
-female | private | defecate | clean |  9 | 0.087378640776699
-female | private | defecate | dirty | 76 | 0.737864077669903
-female | private | urinate | unspecified | 10 | 0.0970873786407767
-female | private | urinate | clean | 12 | 0.116504854368932
-female | private | urinate | dirty | 92 | 0.893203883495146
-female | public | defecate | unspecified | 22 | 0.213592233009709
-female | public | defecate | clean | 32 | 0.310679611650485
-female | public | defecate | dirty | 81 | 0.786407766990291
-female | public | urinate | unspecified | 59 | 0.572815533980582
-female | public | urinate | clean | 48 | 0.466019417475728
-female | public | urinate | dirty | 96 | 0.932038834951456
-
+male | private | defecate | unspecified |  4 | 6%
+male | private | defecate | clean |  2 | 3%
+male | private | defecate | dirty | 41 | 59%
+male | private | urinate | unspecified |  5 | 7%
+male | private | urinate | clean |  1 | 1%
+male | private | urinate | dirty |  5 | 7%
+male | public | defecate | unspecified | 10 | 14%
+male | public | defecate | clean |  3 | 4%
+male | public | defecate | dirty | 48 | 69%
+male | public | urinate | unspecified |  8 | 11%
+male | public | urinate | clean |  2 | 3%
+male | public | urinate | dirty |  4 | 6%
+female | private | defecate | unspecified |  6 | 6%
+female | private | defecate | clean |  9 | 9%
+female | private | defecate | dirty | 76 | 74%
+female | private | urinate | unspecified | 10 | 10%
+female | private | urinate | clean | 12 | 12%
+female | private | urinate | dirty | 92 | 89%
+female | public | defecate | unspecified | 22 | 21%
+female | public | defecate | clean | 32 | 31%
+female | public | defecate | dirty | 81 | 79%
+female | public | urinate | unspecified | 59 | 57%
+female | public | urinate | clean | 48 | 47%
+female | public | urinate | dirty | 96 | 93%
 
 ### Does dirt promote dirt?
 The above table about the use of dirty postures versus clean postures
@@ -300,9 +299,10 @@ There were instances where posture was different, so the quick answer is
 I actually checked how often the posture was the same. Here are the raw
 proportions.
 
+----|unspecified
 sex | unspecified_defecate | unspecified_urinate | clean_defecate | clean_urinate | dirty_defecate | dirty_urinate
 --- | --- | --- | --- | --- | --- | --- | ---
-male | 0.9143 | 0.9571 | 0.9857 | 0.9857 | 0.8714 | 0.9571
+male   | 0.9143 | 0.9571 | 0.9857 | 0.9857 | 0.8714 | 0.9571
 female | 0.8252 | 0.5049 | 0.7767 | 0.6505 | 0.9320 | 0.9612
 
 
