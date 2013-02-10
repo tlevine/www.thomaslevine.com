@@ -4,7 +4,12 @@ created_at: 2012-02-09
 kind: article
 tags: ['data', 'toilets', 'ergonomics']
 ---
-
+<style>
+article table {
+    text-align: right;
+    width: 100%;
+}
+</style>
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
 But the word on the street is that people often adopt a hovering posture
