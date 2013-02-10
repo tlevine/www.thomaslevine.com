@@ -12,25 +12,30 @@ article table {
 </style>
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
+
+![Sign on a door with symbols for both sex and a stylized person sitting on a stylized toilet](<%= @item.identifier %>sitting.jpg)
+
+(This picture comes from the four-and-a-half bathroom in my college dorm.)
+
 But the word on the street is that people often adopt a hovering posture
 instead of the seated posture in order to cope with unsanitary toilets.
-
-[Several](http://www.yelp.com/topic/san-francisco-toilets-sit-or-hover)
+To start,
+[several](http://www.yelp.com/topic/san-francisco-toilets-sit-or-hover)
 [threads](http://www.yelp.com/topic/queens-public-bathroom-in-nyc)
-[on](http://www.yelp.com/topic/oakland-toilet-seat-dilemma)
-[Yelp](http://www.yelp.com/topic/redwood-city-for-the-ladies-public-toilets-sit-or-squat)
-[discuss this issue.](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
-One person admitted to PostSecret that he or she hasn't sat on a toilet for the
+on
+[Yelp](http://www.yelp.com/topic/oakland-toilet-seat-dilemma)
+contain
+[discussion](http://www.yelp.com/topic/redwood-city-for-the-ladies-public-toilets-sit-or-squat)
+and
+[complaint](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
+about toilet cleanliness and preferred postures.
+Also, one person admitted to PostSecret that he or she hasn't sat on a toilet for the
 [four years](http://www.flickr.com/photos/withinreason/2593730231/), and this
 sparked [some](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
 [discussion](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98095)
 on PostSecret forums.
 There's even a website that reviews toilets and tells
 you whether to [Sit or Squat](https://www.sitorsquat.com/).
-
-Also, I recently remarked that sitting is unpleasant because the toilet seat
-tends to be colder than I would like. But other people don't seem to bring
-this reason up in conversation or in writing.
 
 Greed (Greed, 1995) and Moore (Moore & al, 1991) anecdotally found that young ladies
 are often taught that hovering is proper and that sitting is unclean. 
