@@ -329,7 +329,7 @@ public and private scenarios were the response variables. I haven't figured
 out a straightforward way of writing that, so here are three rows from the
 response variable matrix.
 
-unspecified_defecate | unspecified_urinate | clean_defecate | clean_urinate | dirty_defecate | dirty_urinate
+unspecified, defecate | unspecified, urinate | clean, defecate | clean, urinate | dirty, defecate | dirty, urinate
 --- | --- | --- | --- | --- | --- | --- | ---
 FALSE | TRUE | TRUE | TRUE | FALSE | TRUE
 TRUE | TRUE | TRUE | TRUE | TRUE | TRUE
@@ -340,8 +340,8 @@ Cells say "TRUE" if posture was the same in the corresponding public and
 private scenarios, and they say "FALSE" if it wasn't.
 
 We saw in the graph that sex has the largest impact on the difference between
-the public and private locations for the unspecified_urinate, clean_urinate
-and clean_defecate scenarios. We see the same thing in the MANOVA coefficients.
+the public and private locations for the `unspecified_urinate`, `clean_urinate`
+and `clean_defecate` scenarios. We see the same thing in the MANOVA coefficients.
 
                            person$sex Residuals
     unspecified_defecate         0.33     20.34
