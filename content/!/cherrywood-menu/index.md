@@ -4,7 +4,8 @@ created_at: 2013-02-09
 kind: article
 tags: ['ergonomics']
 ---
-The smoothies section of this menu from Cherrywood Coffeehouse is designed for
+The smoothies section of this menu from
+[Cherrywood Coffeehouse](http://cherrywoodcoffeehouse.com/) is designed for
 both beginners and intermediates; beginners immediately see the five smoothie
 choices at the top and intermediates know to look at the bottom to "design
 [their] own". Experts can order things that aren’t on the menu.
