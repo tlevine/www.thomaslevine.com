@@ -9,7 +9,6 @@ article table {
     text-align: right;
     width: 100%;
 }
-.half-img { width: 50%; }
 </style>
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
@@ -759,12 +758,8 @@ Around that time, I observed a couple signs that requested that
 men avoid getting urine on the toilet seats and that they wipe the
 toilet in case they did get urine on the toilet.
 
-<img alt="Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat"
-  class="half-img" src="<%= @item.identifier %>gentlemen.jpg" />
-<img alt="Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat"
-  class="half-img" src="<%= @item.identifier %>alright.jpg" />
-
-</div>
+![Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>gentlemen.jpg)
+![Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>alright.jpg)
 
 The above notices are phrased in a way that is somewhat hostile towards
 males; they might be more effective if they requested that less unpleasant
