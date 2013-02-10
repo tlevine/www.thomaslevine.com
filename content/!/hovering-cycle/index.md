@@ -190,17 +190,17 @@ questionnaire. There were 103 females and 70 males.
 
 ### Popularity of posture by situation
 Within each of the 12 situations, the most popular posture was normally
-sitting. This makes sense given that they are called "sitting toilets".
-Notable exceptions are when men are urinating (They stand) and when women are
-urinating at dirty or public toilets. This first series of eight plots looks at the
-four situations of unspecified cleanliness for each of the two sexes.
+sitting. We can see more in these plots. Each circular thingy represents
+the posture choices for a question about a particular task and privacy
+with no mention of cleanliness (like "If you are urinating at a private
+toilet, which posture are you most likely to use?"). The top row is the
+male responses, and the bottom row is the female responses.
 
 ![Polar plots of posture choice (sit, stand, hover, other) by scenario](figure/pie-matrix-1.png) 
 
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
-Cornell University students who would say they use the posture if I
-asked.
+students who would say they use the posture if I asked.
 
 sex | task | privacy | cleanliness | hover | other | sit | stand
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -229,6 +229,9 @@ female | urinate | public | unspecified | 55 (53%) | 2 (2%) | 44 (43%) | 2 (2%)
 female | urinate | public | clean | 45 (44%) | 0 (0%) | 55 (53%) | 3 (3%)
 female | urinate | public | dirty | 81 (79%) | 8 (8%) | 7 (7%) | 7 (7%)
 
+The popularity of sitting makes sense given that they are called "sitting toilets".
+Notable exceptions are when men are urinating (They stand) and when women are
+urinating at dirty or public toilets.
 
 The "other" option was especially popular for dirty toilet situations.
 I suspect that participants chose this to indicate that they would never
