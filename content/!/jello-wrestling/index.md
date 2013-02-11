@@ -41,9 +41,11 @@ them. I suspect that many more people saw them.
 
 It happened that February 18 was the day before the
 [Students for Free Culture conference](http://conf11.freeculture.org/),
-so I missed the non-event, but I heard that a couple were considering going.
+so I missed the non-event, but I heard that several people had at least considered going.
+I didn't hear of anyone actually showing up, and I suspect that the weather had something
+to do with that.
 
-That was fun. But I wanted to see more reactions. On the same night in December
+I wanted to know more about people react to these posters. On the same night in December
 2010 when I had printed the February 18 posters, I had also printed some of these.
 
 ![Poster advertising nude jello wrestling to happen at Risley Hall on April 15](<%= @item.identifier %>apr15.jpg)
