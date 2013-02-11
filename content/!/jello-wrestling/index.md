@@ -5,8 +5,7 @@ created_at: 2011-04-21
 tags: ['performance', 'letterpress']
 ---
 
-I did a lot of letterpress printing in college. I actually ran my dorm's
-letterpress shop, but that's just because nobody else wanted to.
+I did a lot of letterpress printing in college.
 
 After having made some letterpress prints for various events and initiatives,
 I determined that few mortal endeavours were worthy of my wonderful posters,
