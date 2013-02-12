@@ -3,7 +3,7 @@
 notmuch search --output=files $(date -d 2005-03-30 +%s)..$(date -d 2006-03-30 +%s) from:Thomas\ Levine|grep 'All Mail' > /tmp/filenames
 
 header() {
-  echo email,datetime,line.count,char.count
+  echo "email\tdatetime\tline.count\tchar.count\tfrom\tto"
 }
 
 features() {
@@ -20,10 +20,10 @@ features() {
   from=$(sed -n 's/From: //p' "$email")
   to=$(sed -n 's/To: //p' "$email")
 
-  echo "$email,$stddate,$lines,$chars,$from,$to"
+  echo "$email\t$stddate\t$lines\t$chars\t$from\t$to"
 }
 
-header
+header > /tmp/email.tsv
 while read line; do
-  features "$line"
+  features "$line" >> /tmp/email.tsv
 done < /tmp/filenames
