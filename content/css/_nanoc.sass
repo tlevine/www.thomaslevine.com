@@ -231,7 +231,7 @@ article
     bottom: $square
   display: block
   text-align: left
-
+  color: black
 
   h1, h2, h3, h4, h5
     margin-bottom: 0.25em
@@ -264,6 +264,13 @@ article
       left: auto
       right: auto
     border: none
+
+  a, a:visited, a:hover, a:active, 
+  h1, h2, h3, h4, h5
+    color: $pink
+
+  table
+    margin-bottom: 1em
 
 @media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
   .title-card, .business-card
