@@ -323,7 +323,7 @@ a hard part. It might be, but it doesn't really change this decision process.
 If I care about where the images are positioned on the page, I'd probably
 use Inkscape. If I don't, I'd probably use `pdfimages`, as I did here.
 
-## tl;dr
+## Review
 When I'm parsing PDFs, I use some combination of these tools.
 
 I prefer the
