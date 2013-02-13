@@ -18,9 +18,12 @@ this decision process.
 1. Do we need to read the file contents at all?
 2. Do we only need to extract the text and/or images?
 3. Do we care about the layout of the file?
-4. Do we need to process images at all, like with optical character recognition (OCR)?
 
-A somewhat separate issue is how clean the result needs to be.
+I also think about a couple other things, but these are somewhat separate
+from that initial decision process.
+
+* Do we need to process images at all, like with optical character recognition (OCR)?
+* A somewhat separate issue is how clean the result needs to be.
 
 I'll show a few different approaches to parsing and analyzing
 [these](https://github.com/tlevine/scott-documents) PDF files.
@@ -204,3 +207,118 @@ Anyway, we got somewhere interesting without looking at the files. Now let's
 look at them.
 
 ## If messy, raw file contents are fine
+The main automatic processing that I run on the PDFs is a search for a few
+identification numbers. The Army Corps of Engineers uses a number that starts
+with "MVN", but other agencies use different numbers. I also search for two
+key paragraphs
+
+[My approach](https://github.com/tlevine/scott/blob/master/reader/bin/translate)
+is pretty crude. For the PDFs that aren't scans, I just use `pdftotext`.
+
+    # translate
+    pdftotext "$FILE" "$FILE"
+
+Then I just use regular expressions to search the resulting text file.
+
+`pdftotext` normally screws up the layout of PDF files, especially when they
+have multiple columns, but it's fine for what I'm doing because I only need to
+find small chunks of text rather than a whole table or a specific line on
+multiple pages.
+
+As we saw earlier, most of the files contain images, so I need to run OCR.
+Like `pdftotext`, OCR programs often mess up the page layout, but I don't
+care because I'm using regular expressions to look for small chunks.
+
+I don't even care whether the images are in order; I just use `pdfimages`
+to pull out the images and then `tesseract` to OCR each image and add that
+to the text file. (This is all in the
+[`translate`](https://github.com/tlevine/scott/blob/master/reader/bin/translate)
+script that I linked above.)
+
+## If I care about the layout of the page
+If I care about the layout of the page, `pdftotext` probably won't work.
+Instead, I use `pdftohtml` or `inkscape`. I've never needed to go deeper,
+but if I did, I'd use something like
+[PDFMiner](http://www.unixuser.org/~euske/python/pdfminer/).
+
+### pdftohtml
+`pdftohtml` is useful because of its `-xml` flag.
+
+    $ pdftohtml -xml MVN-2013-00180-ETT/public_notice.pdf
+    Page-1
+    Page-2
+    Page-3
+    $ head MVN-2013-00180-ETT/public_notice.xml 
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+    <pdf2xml producer="poppler" version="0.22.0">
+    <page number="1" position="absolute" top="0" left="0" height="1188" width="918">
+            <fontspec id="0" size="37" family="Times" color="#000000"/>
+            <fontspec id="1" size="21" family="Times" color="#000000"/>
+            <fontspec id="2" size="16" family="Times" color="#000000"/>
+            <fontspec id="3" size="13" family="Times" color="#000000"/>
+            <fontspec id="4" size="16" family="Times" color="#000000"/>
+
+Open that with an XML parser like lxml
+
+    # This is python
+    import lxml.etree
+    pdf2xml = lxml.etree.parse('MVN-2013-00180-ETT/public_notice.xml')
+
+One of the things that I try to extract is the "CHARACTER OF WORK" section.
+I do this with regular expressions, but we could also do this with the XML.
+Here are some XPath selectors that get us somewhere.
+
+    # This is python
+    print pdf2xml.xpath('//text/b[text()="CHARACTER OF WORK"]/../text()')
+    print pdf2xml.xpath('//text/b[text()="CHARACTER OF WORK"]/../following-sibling::text/text()')      
+
+### Inkscape
+Inkscape can convert a PDF page to an SVG file. I have a
+[little script](https://github.com/scraperwiki/pdf2svg) that runs this across
+all pages within a PDF file.
+
+Once you've converted the PDF file to a bunch of SVG files, you can open it
+with an XML parser just like you could with the `pdftohtml` output, except
+this time much more of the layout is preserved, including the groupings of
+elements on the page.
+
+Here's a snippet from one project where I used Inkscape to parse PDF files.
+I created a crazy system for receiving a very messy PDF table over email and
+converting it into a spreadsheet that is hosted on a website.
+
+This function is contains all of the parsing functions for a specific page of
+the pdf file once it has been converted to SVG. It takes an
+`lxml.etree._ElementTree` object like the one we get from lxml.etree.parse,
+along with some metadata. It runs a crazy XPath selector (determined only after
+much test-driven development) to pick out the table rows, and then runs a bunch
+of functions (not included) to pick out the cells within the rows.
+
+    def page(svg, file_name, page_number):
+        'I turn a svg tree into a list of dictionaries.'
+        # County name
+        county = unicode(svg.xpath(
+            '//svg:g/svg:path[position()=1]/following-sibling::svg:text/svg:tspan/text()',
+            namespaces = { 'svg': 'http://www.w3.org/2000/svg' }
+        )[0])
+        rows = _page_tspans(svg)
+
+        def skip(reason):
+            print 'Skipped a row on %s page %d because %s.' % (file_name, page_number, reason)
+
+        data = []
+        for _row in rows:
+            row_text = [text.xpath('string()') for text in _row]
+            try:
+                if row_text == []:
+                    skip('the row is empty')
+                    print row_text
+                elif _is_header(row_text):
+                    skip('it appears to be a header.')
+                    print row_text
+        # ...
+
+I'd like to point out the `string()` xpath command. That converts the current
+node and its decendents into plain text; it's particularly nice for
+inconsistently structured files like this one.
