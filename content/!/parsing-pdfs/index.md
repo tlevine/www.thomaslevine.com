@@ -44,4 +44,68 @@ Basic things like file size, file name and modification date might be useful
 in some contexts. In the case of PDFs, file size will give you an idea of how
 many/much of the PDFs are text and how many/much are images.
 
-an initial pass through the data
+Let's [plot a histogram](https://github.com/dzerbino/ascii_plots/blob/master/hist)
+of the file sizes. I'm running this from the root of the documents repository,
+and I cleaned up the output a tiny bit.
+
+    $ ls --block-size=K -Hs */public_notice.pdf | sed 's/[^0-9 ].*//' | hist 5
+      15 |   2 | **
+      20 |  55 | ********************************************************************************
+      25 |   4 | *****
+      30 |   4 | *****
+      35 |  11 | ****************
+      40 |   4 | *****
+      45 |   2 | **
+      50 |   2 | **
+      60 |   1 | *
+      75 |   1 | *
+      80 |   1 | *
+      95 |   1 | *
+     100 |   2 | **
+     120 |   1 | *
+     125 |   2 | **
+     135 |   1 | *
+     145 |   3 | ****
+     150 |   6 | ********
+     155 |   4 | *****
+     160 |   8 | ***********
+     165 |   3 | ****
+     170 |   6 | ********
+     175 |   7 | **********
+     180 |  24 | **********************************
+     185 |  11 | ****************
+     190 |   6 | ********
+     195 |   4 | *****
+     200 |  23 | *********************************
+     205 |   7 | **********
+     210 |   7 | **********
+     215 |   3 | ****
+     220 |   3 | ****
+     225 |   1 | *
+     230 |   1 | *
+     235 |   1 | *
+     240 |   2 | **
+     245 |   2 | **
+     250 |   1 | *
+     255 |   3 | ****
+     265 |   1 | *
+     280 |   1 | *
+     460 |   1 | *
+     545 |   1 | *
+     585 |   1 | *
+     740 |   1 | *
+     860 |   2 | **
+     885 |   1 | *
+     915 |   1 | *
+     920 |   1 | *
+     945 |   1 | *
+     950 |   1 | *
+     980 |   1 | *
+    2000 |   1 | *
+    2240 |   1 | *
+    2335 |   1 | *
+    7420 |   1 | *
+    TOTAL| 248 |
+
+
+The histogram two modes
