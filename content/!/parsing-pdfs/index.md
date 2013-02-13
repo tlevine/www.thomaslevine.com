@@ -107,5 +107,88 @@ and I cleaned up the output a tiny bit.
     7420 |   1 | *
     TOTAL| 248 |
 
+The histogram shows us two modes. The smaller mode, around 20 kb, corresponds to
+files with no images (PDF export from Microsoft Word), and the larger mode
+corresponds to files with images (scans of print-outs of the Microsoft Word
+documents). It looks like about 80 are just text and the other 170 are scans.
 
-The histogram two modes
+This isn't a real histogram, but if we'd used a real one with an interval scale,
+the outliers would be more obvious. Let's cut off the distribution at 400 kb
+and look more closely at the unusually large documents that are above that
+cutoff.
+
+What's in that 7 mb file? Well let's find it.
+
+    $ ls --block-size=K -Hs */public_notice.pdf | grep '742.K'
+    7424K MVN-2010-1080-WLL_MVN-2010-1032-WLLB/public_notice.pdf
+
+You can see it [here](https://github.com/tlevine/scott-documents/raw/master/MVN-2010-1080-WLL_MVN-2010-1032-WLLB/public_notice-2012-08-09.pdf).
+It's not a typical public notice; rather, it is a series of scanned documents
+related to a permit transfer request. Interesting.
+
+Next, how are two large files within 5 kb of each other?
+
+    $ ls --block-size=K -Hs */public_notice.pdf | grep 860K
+    860K MVN-2012-006152-WII/public_notice.pdf
+    860K MVN-2012-1797-CU/public_notice.pdf
+
+Those are here
+
+* [MVN-2012-006152-WII](https://github.com/tlevine/scott-documents/raw/master/MVN-2012-006152-WII/public_notice-2012-11-20.pdf).
+* [MVN-2012-1797-CU](https://github.com/tlevine/scott-documents/raw/master/MVN-2012-1797-CU/public_notice-2012-10-02.pdf).
+
+Hmm. Nothing special about those. People see patterns in randomness.
+
+Now let's look at some basic properties of the pdf files. This will give us a
+basic overview of one file.
+
+    $ pdfinfo MVN-2013-00026-WKK/public_notice.pdf
+    Creator:        FUJITSU fi-4010CU
+    Producer:       Adobe Acrobat 9.52 Paper Capture Plug-in
+    CreationDate:   Fri Jan 25 09:45:08 2013
+    ModDate:        Fri Jan 25 09:46:16 2013
+    Tagged:         yes
+    Form:           none
+    Pages:          3
+    Encrypted:      no
+    Page size:      606.1 x 792 pts
+    Page rot:       0
+    File size:      199251 bytes
+    Optimized:      yes
+    PDF version:    1.6
+
+Let's run it on all of the files.
+
+    $ for file in */public_notice.pdf; do pdfinfo $file && echo; done
+    # Lots of output here
+
+What was used to produce these files?
+
+    $ for file in */public_notice.pdf; do pdfinfo $file|sed -n 's/Creator: *//p' ; done|sort|uniq -c
+    33 Acrobat PDFMaker 10.1 for Word
+    48 Acrobat PDFMaker 9.1 for Word
+    10 FUJITSU fi-4010CU
+    135 HardCopy
+    7 HP Digital Sending Device
+    2 Oracle9iAS Reports Services
+    6 PScript5.dll Version 5.2.2
+    4 Writer
+
+
+How many pages do they have?
+
+    $ for file in */public_notice.pdf; do pdfinfo $file|sed -n 's/Pages: *//p' ; done | hist 1
+     1    |   1 | 
+     2    |  27 | **********
+     3    | 198 | ********************************************************************************
+     4    |  16 | ******
+     5    |   1 | 
+     8    |   2 | 
+    10    |   1 | 
+    31    |   1 | 
+    40    |   1 | 
+    TOTAL | 248 |
+
+
+
+Anyway, we got somewhere interesting without looking at the files.
