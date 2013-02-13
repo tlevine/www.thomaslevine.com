@@ -22,3 +22,8 @@ this decision process.
 
 A somewhat separate issue is how clean the result needs to be.
 
+I'll show a few different approaches to parsing and analyzing
+[these](https://github.com/tlevine/scott-documents) PDF files.
+Different approaches make sense depending on the question you ask.
+
+## If you don't need the file contents
