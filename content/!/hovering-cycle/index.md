@@ -12,10 +12,9 @@ article table {
 </style>
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
+A sign on a bathroom in my college dorm illustrates this expectation.
 
 ![Sign on a door with symbols for both sex and a stylized person sitting on a stylized toilet](<%= @item.identifier %>sitting.jpg)
-
-(This picture comes from the four-and-a-half bathroom in my college dorm.)
 
 But the word on the street is that people often adopt a hovering posture
 instead of the seated posture in order to cope with unsanitary toilets.
