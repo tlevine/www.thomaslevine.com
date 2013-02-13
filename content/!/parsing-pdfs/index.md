@@ -19,12 +19,6 @@ this decision process.
 2. Do we only need to extract the text and/or images?
 3. Do we care about the layout of the file?
 
-I also think about a couple other things, but these are somewhat separate
-from that initial decision process.
-
-* Do we need to process images at all, like with optical character recognition (OCR)?
-* A somewhat separate issue is how clean the result needs to be.
-
 I'll show a few different approaches to parsing and analyzing
 [these](https://github.com/tlevine/scott-documents) PDF files.
 Different approaches make sense depending on the question you ask.
@@ -322,3 +316,29 @@ of functions (not included) to pick out the cells within the rows.
 I'd like to point out the `string()` xpath command. That converts the current
 node and its decendents into plain text; it's particularly nice for
 inconsistently structured files like this one.
+
+## Optical character recognition
+People often think that optical character recognition (OCR) is going to be
+a hard part. It might be, but it doesn't really change this decision process.
+If I care about where the images are positioned on the page, I'd probably
+use Inkscape. If I don't, I'd probably use `pdfimages`, as I did here.
+
+## tl;dr
+When I'm parsing PDFs, I use some combination of these tools.
+
+I prefer the
+ones earlier in the list when the parsing is less involved because the tools
+do more of the work for me. I prefer the ones towards the end as the job gets
+more complex because these tools give me more control.
+
+1. Basic file analysis tools (`ls` or another language's equivalent)
+2. PDF metadata tools (`pdfinfo` or an equivalent)
+3. `pdftotext`
+4. `pdftohtml -xml`
+5. Inkscape via [`pdf2svg`](https://github.com/scraperwiki/pdf2svg)
+6. [PDFMiner](http://www.unixuser.org/~euske/python/pdfminer/)
+
+If I need OCR, I use `pdfimages` to remove the images and `tesseract` to run
+OCR. If I needed to run OCR and know more about the layout, I might convert the
+PDFs to SVG with Inkscape and, and then take the images out of the SVG in order
+to know more precisely where they are in the page's structure.
