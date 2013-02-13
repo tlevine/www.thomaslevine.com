@@ -174,6 +174,14 @@ What was used to produce these files?
     6 PScript5.dll Version 5.2.2
     4 Writer
 
+When were they created?
+
+    for file in */public_notice.pdf; do pdfinfo $file|grep CreationDate: > /dev/null && date -d "$(pdfinfo $file|sed -n 's/CreationDate: *//p')" --rfc-3339 date ; done
+    2012-07-03
+    2012-07-06
+    2012-07-06
+    2012-07-06
+    # ...
 
 How many pages do they have?
 
@@ -189,6 +197,10 @@ How many pages do they have?
     40    |   1 | 
     TOTAL | 248 |
 
+It might actually be fun to see relate these variables to each other. For
+example, when did the Corps upgrade from PDFMaker 9.1 to PDFMaker 10.1?
 
+Anyway, we got somewhere interesting without looking at the files. Now let's
+look at them.
 
-Anyway, we got somewhere interesting without looking at the files.
+## If messy, raw file contents are fine
