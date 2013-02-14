@@ -173,7 +173,7 @@ What was used to produce these files?
 
 When were they created?
 
-    for file in */public_notice.pdf; do pdfinfo $file|grep CreationDate: > /dev/null && date -d "$(pdfinfo $file|sed -n 's/CreationDate: *//p')" --rfc-3339 date ; done
+    $ for file in */public_notice.pdf; do pdfinfo $file|grep CreationDate: > /dev/null && date -d "$(pdfinfo $file|sed -n 's/CreationDate: *//p')" --rfc-3339 date ; done
     2012-07-03
     2012-07-06
     2012-07-06
