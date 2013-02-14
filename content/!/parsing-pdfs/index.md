@@ -5,7 +5,7 @@ kind: article
 tags: ['data']
 ---
 <style>
-article code { font-size: 0.7em; }
+article pre code { font-size: 0.7em; }
 </style>
 Much of the world's data are stored in portable document format (PDF) files.
 This is not my preferred storage or presentation format, so I often convert
