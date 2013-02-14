@@ -1,4 +1,8 @@
-
+---
+title: Foo
+created_at: 2013-10-10
+kind: article
+---
 
 This happened.
 
