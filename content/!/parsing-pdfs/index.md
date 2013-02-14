@@ -1,5 +1,5 @@
 ---
-title: Parsing PDF Files
+title: How I parse PDF files
 created_at: 2013-02-13
 kind: article
 tags: ['data']
