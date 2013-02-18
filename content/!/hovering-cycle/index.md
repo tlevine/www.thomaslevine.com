@@ -748,7 +748,7 @@ On the other hand, it might not. (Unsal & Cimentepe, 2004)
 ### Keeping toilets clean
 
 Public bathrooms are notoriously dirty.
-(They even scare children. (Vernon & al, 2003; Lundblad & Hellström, 2005))
+(They even scare children. (Vernon & al, 2003; Lundblad & Hellström, 2005)
 The present study
 provides insights into how we can efficiently reduce this dirt.
 The current study has related the broken windows theory to the
