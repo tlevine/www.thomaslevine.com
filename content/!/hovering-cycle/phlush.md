@@ -130,7 +130,7 @@ As an aside, we should consider squatting. Among other benefits,
 it might make peeing faster. (Amjadi & al, 2006; Rane & Corstiaans, 2008)
 On the other hand, it might not. (Unsal & Cimentepe, 2004)
 
-### Keeping toilets clean
+## Keeping toilets clean
 
 Without changing our toilets, maybe we can keep them from getting
 dirty or from seeming dirty.
@@ -171,3 +171,51 @@ A bathroom in the Columbia University School of Journalism contains a
 similarly small request.
 
 ![Sign requesting people to pick up dropped toilet paper](<%= @item.identifier %>toiletpaper.jpg)
+
+## Making public toilets more like private toilets
+
+If public and private toilets really encourage the use of different
+postures, we could try making public toilets feel more private.
+Here are some ideas based on my hypothesized reasons for this
+hypothesized effect.
+
+Public toilets might encourage people to follow social norms more
+strongly because people in the bathroom can hear each other, smell
+each other and see each other's feet. If stalls were made more
+enclosed, people might be less concerned about the social norms.
+
+People might trust the cleanliness of public toilets more because
+people aren't shamed when they make a mess. If we station an
+attendant at the bathroom, people might feel more ashamed of making
+a mess, and people might thus trust that people aren't being too messy.
+
+## Different people use toilets differently
+
+Ignoring the reasons why people choose posture, we still see wide range
+in choice of posture for toilet-use.
+
+The various formal studies suggest that
+
+* at least half of British and American women usually hover in public toilets.
+* American males usually sit or stand.
+* Chinese people often squat on sitting toilets, with their feet on the toilet seat.
+
+The anecdotes and toilet use directions tell us about some other postures,
+like standing for females, and show us the varied complex posture decision
+processes that people use.
+
+I've discussed how different sexes choose different postures, but loads of
+other personal characteristics might affect the posture that makes sense.
+For example, height matters (Cohen, 2009).
+
+## Talk about toilets.
+
+People don't talk about toilets, so it's easy to think that everyone uses
+them the same way you do. At a more fundamental level, this may explain many
+of the problems with them: People don't think much about toilet design in
+general, and when they do think about toilets, they don't think about how
+different people use toilets differently.
+
+The use of toilets is about as varied and complicated as anything else,
+but social norms discourage us from discussing this complexity. I think
+we'll get somewhere if we make the discussion of toilets seem less weird.
