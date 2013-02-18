@@ -39,8 +39,9 @@ are often taught that hovering is proper and that sitting is unclean.
 provide examples of this phenomenon.
 
 Formal quantitative studies have found hovering to be common among
-Taiwanese people (Cai & You, 1998) and
+Taiwanese people (Cai & You, 1998),
 British gynaecological outpatients  (Moore & al, 1991),
+and [American university students](/!/hovering-cycle)
 
 ### Toilets get dirty, so people hover.
 
@@ -61,8 +62,7 @@ or the feeling of "[maintenance](http://en.wikipedia.org/wiki/Crime_prevention_t
 
 ### Effects of privacy on posture choice
 
-I focused on this broken windows theory in the current paper, but I also thought
-about other impacts on posture. Anecdotes suggest that public toilets tend to be
+Anecdotes suggest that public toilets tend to be
 dirtier than private toilets, or people or at least more concerned with
 sanitation at public toilets than at private toilets  (Cai & You, 1998), so we might
 expect that a more public toilet would effect posture similarly to how a more
@@ -71,6 +71,7 @@ dirty toilet would.
 On the other hand, privacy might have a secular impact on posture choice.
 For example, social norms might have more of an impact in public toilets than
 in private toilets.
+
 A lady once told me that she thought people would be more likely to hover at
 public toilets because hovering is considered more proper than sitting; since
 people can see others' feet and lower legs under the bathroom stalls in public
