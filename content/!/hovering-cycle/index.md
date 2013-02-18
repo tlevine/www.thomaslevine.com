@@ -1,6 +1,6 @@
 ---
 title: The Hovering Cycle
-created_at: 2012-02-13
+created_at: 2013-02-18
 kind: article
 tags: ['data', 'toilets', 'ergonomics']
 ---
@@ -8,6 +8,12 @@ tags: ['data', 'toilets', 'ergonomics']
 article table {
     text-align: right;
     width: 100%;
+}
+article img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
 Western sitting-style toilets are presumably intended to be used in a seated
@@ -199,7 +205,7 @@ with no mention of cleanliness (like "If you are urinating at a private
 toilet, which posture are you most likely to use?"). The top row is the
 male responses, and the bottom row is the female responses.
 
-![Polar plots of posture choice (sit, stand, hover, other) by scenario](figure/pie-matrix-1.png) 
+![Polar plots of posture choice (sit, stand, hover, other) by scenario](<%= @image.identifier %>figure/pie-matrix-1.png) 
 
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
@@ -329,7 +335,7 @@ I also plotted them, separating by sex. The error bars are 12% tall in
 each direction; the reasoning for this is the same as in the earlier
 table.
 
-![Polar plots of posture dirtiness (clean versus dirty) by scenario](figure/privacy-plot.png) 
+![Polar plots of posture dirtiness (clean versus dirty) by scenario](<%= @image.identifier %>figure/privacy-plot.png) 
 
 
 In most situations, the figures are quite close to 100%, but a couple are
@@ -483,7 +489,7 @@ I used hierarchical clustering to group the participants based on their
 responses to the twelve questions. I used the Ward method with
 euclidean distances. The grouping looks like this.
 
-![Dendrogram](figure/basic-dendrogram.png) 
+![Dendrogram](<%= @image.identifier %>figure/basic-dendrogram.png) 
 
 We can cut off this dendrogram at any level and look at the average
 (really the centroid) value within each cluster. If we cut it before
@@ -496,7 +502,7 @@ responses only, not based on sex.)
 I cut off the dendrogram at successively lower levels until it got boring,
 annotating the clusters as I went. Here's the first cut.
 
-![Dendrogram with boxes around two clusters](figure/a-2-plot-raw.png) 
+![Dendrogram with boxes around two clusters](<%= @image.identifier %>figure/a-2-plot-raw.png) 
 
 And here are the centroids. (I didn't cluster based on sex, but I included sex
 in the table below.)
@@ -520,11 +526,11 @@ dirty_urinate_public        | 0.21739 | 0.98765
 
 After studying the centroids, I came up with these groupings.
 
-![Dendrogram with boxes around two clusters, one labeled "male" and the other labeled "female"](figure/a-2-plot.png) 
+![Dendrogram with boxes around two clusters, one labeled "male" and the other labeled "female"](<%= @image.identifier %>figure/a-2-plot.png) 
 
 Here it is at six clusters, grouped.
 
-![Dendrogram with boxes around six clusters](figure/a-6-plot.png) 
+![Dendrogram with boxes around six clusters](<%= @image.identifier %>figure/a-6-plot.png) 
 
 ----------------------------|---- | ---- | ---- |---| ---- |---
 Variable/Scenario           |Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Cluster 5 | Cluster 6
@@ -547,7 +553,7 @@ dirty_urinate_public        |0.27 | 0.00 | 0.98 | 0 | 1    | 1
 
 I stopped at 17.
 
-![Dendrogram with boxes around 17 clusters](figure/a-17-plot.png) 
+![Dendrogram with boxes around 17 clusters](<%= @image.identifier %>figure/a-17-plot.png) 
 
 The above groupings help us understand the questionnaire responses by person,
 but they don't tell us how well the groupings might apply to people outside
@@ -590,7 +596,7 @@ in each of twelve scenarios and that the postures were grouped into clean
 and dirty postures. Since we are able to narrow down the marginal reasons why
 a person would switch postures, the following plot is informative.
 
-![How many participants marked how many scenarios?](figure/p-ndirty.png) 
+![How many participants marked how many scenarios?](<%= @image.identifier %>figure/p-ndirty.png) 
 
 The x-axis is the number of questions for which dirty
 postures were marked, and the y-axis is the proportion of participants.
