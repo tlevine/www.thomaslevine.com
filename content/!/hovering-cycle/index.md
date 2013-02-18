@@ -305,7 +305,7 @@ of the binomial distribution. I conservatively assumed that the proportion
 was $$0.5$$ when computing the standard error. Also conservatively, I only
 computed it for the male sub-sample ($$n = 70$$ rather than $$n = 173$$).
 
-$$SE\left(p)\right) = \sqrt{\frac{\hat{p}\times\left(1 - \hat{p}\right)}{n - 1}} = \sqrt{\frac{0.5^2}{69}}$$
+$$SE\left(p\right) = \sqrt{\frac{\hat{p}\times\left(1 - \hat{p}\right)}{n - 1}} = \sqrt{\frac{0.5^2}{69}}$$
 
 Then multiply it by $$z = 2$$ in each direction to get 12%, so we can
 be quite confident that these percentages figures are within 12% of the
@@ -596,7 +596,7 @@ Said differently,
 * If a female uses a dirty posture when defecating, she probably uses a dirty
     posture when urinating at the same toilet. (But the converse is not true.)
 
-Recall that each participant marked what posture they would most likely use
+Recall that each participant marked what posture he or she would most likely use
 in each of twelve scenarios and that the postures were grouped into clean
 and dirty postures. Since we are able to narrow down the marginal reasons why
 a person would switch postures, the following plot is informative.
