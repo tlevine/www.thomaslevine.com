@@ -771,9 +771,9 @@ unsanitary conditions be avoided. Based on the results from the present
 study, I suspect that the prevention of minor messes that people don't
 complain about would prevent the major messes that people complain about.
 
-There was one sign in my dorm that made this sort of request.
+A sign at [General Assembly](http://generalassemb.ly) ungrammatically makes this sort of request.
 
-![Sign requesting people to flush the toilets](<%= @item.identifier %>flush.jpg)
+![Sign requesting people to flush the toilets](<%= @item.identifier %>flush-ga.jpg)
 
 A bathroom in the Columbia University School of Journalism contains a
 similarly small request.
