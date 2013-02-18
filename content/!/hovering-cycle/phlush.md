@@ -154,8 +154,8 @@ Around that time, I observed a couple signs that requested that
 men avoid getting urine on the toilet seats and that they wipe the
 toilet in case they did get urine on the toilet.
 
-![Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>gentlemen.jpg)
-![Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>alright.jpg)
+![Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat]()
+![Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat]()
 
 The above notices are phrased in a way that is somewhat hostile towards
 males; they might be more effective if they requested that less unpleasant
@@ -165,12 +165,12 @@ complain about would prevent the major messes that people complain about.
 
 There was one sign in my dorm that made this sort of request.
 
-![Sign requesting people to flush the toilets](<%= @item.identifier %>flush.jpg)
+![Sign requesting people to flush the toilets]()
 
 A bathroom in the Columbia University School of Journalism contains a
 similarly small request.
 
-![Sign requesting people to pick up dropped toilet paper](<%= @item.identifier %>toiletpaper.jpg)
+![Sign requesting people to pick up dropped toilet paper]()
 
 ## Making public toilets more like private toilets
 
