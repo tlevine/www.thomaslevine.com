@@ -9,7 +9,7 @@ article table {
     text-align: right;
     width: 100%;
 }
-article img {
+article img.half-wide {
     width: 50%;
     display: block;
     margin-left: auto;
@@ -20,7 +20,8 @@ Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
 A sign on a bathroom in my college dorm illustrates this expectation.
 
-![Sign on a door with symbols for both sex and a stylized person sitting on a stylized toilet](<%= @item.identifier %>sitting.jpg)
+<img alt="Sign on a door with symbols for both sex and a stylized person sitting on a stylized toilet"
+     src="<%= @item.identifier %>sitting.jpg" class="half-wide" />
 
 But the word on the street is that people often adopt a hovering posture
 instead of the seated posture in order to cope with unsanitary toilets.
@@ -37,7 +38,9 @@ about toilet cleanliness and preferred postures.
 Also, one person admitted to PostSecret that he or she hadn't sat on a toilet for the
 [four years](http://www.flickr.com/photos/withinreason/2593730231/).
 
-![I haven't sat on a toilet seat in over 4 years.](<%= @item.identifier %>i-hover.jpg)
+<img alt="I haven't sat on a toilet seat in over 4 years."
+     src="<%= @item.identifier %>i-hover.jpg"
+     class="half-wide" />
 
 (This sparked [further](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
 [discussion](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98095)
@@ -68,7 +71,9 @@ If these anecdotes about the causes and effects of hovering are correct, then
 the clean toilet is an unstable equilibrium of a toilet's sanitary state;
 toilets get dirty, so people hover, so the toilets get dirty, so people hover.
 
-![Cycle of hovering and toilet cleanliness](<%= @item.identifier %>cycle.png)
+<img alt="Cycle of hovering and toilet cleanliness"
+     src="<%= @item.identifier %>cycle.png"
+     class="half-wide" />
 
 In other contexts, this cycle is sometimes termed the
 "[broken windows theory](http://en.wikipedia.org/wiki/Broken_windows_theory)",
@@ -768,8 +773,13 @@ Around that time, I observed a couple signs that requested that
 men avoid getting urine on the toilet seats and that they wipe the
 toilet in case they did get urine on the toilet.
 
-![Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>gentlemen.jpg)
-![Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>alright.jpg)
+<img alt="Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat"
+     src="<%= @item.identifier %>gentlemen.jpg"
+     class="half-wide" />
+
+<img alt="Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat"
+     src="<%= @item.identifier %>alright.jpg"
+     class="half-wide" />
 
 The above notices are phrased in a way that is somewhat hostile towards
 males; they might be more effective if they requested that less unpleasant
@@ -779,14 +789,20 @@ complain about would prevent the major messes that people complain about.
 
 A sign at [General Assembly](http://generalassemb.ly) ungrammatically makes this sort of request.
 
-![Sign requesting people to flush the toilets](<%= @item.identifier %>flush-ga.jpg)
+<img alt="Sign requesting people to flush the toilets"
+     src="<%= @item.identifier %>flush-ga.jpg"
+     class="half-wide" />
 
 A bathroom in the Columbia University School of Journalism contains a
 couple of similarly small requests.
 
-![Please don't throw paper towels in the urinals!](<%= @item.identifier %>jschool-sink.jpg)
+<img alt="Please don't throw paper towels in the urinals!"
+     src="<%= @item.identifier %>jschool-sink.jpg"
+     class="half-wide" />
 
-![This is a common bathroom, and the Journalism School's hard working staff must maintain it. Please clean up when you are done, and do not leave toilet paper on the floor.](<%= @item.identifier %>jschool-stall.jpg)
+<img alt="This is a common bathroom, and the Journalism School's hard working staff must maintain it. Please clean up when you are done, and do not leave toilet paper on the floor."
+     src="<%= @item.identifier %>jschool-stall.jpg"
+     class="half-wide" />
 
 By asking people to keep the bathrooms clean in small ways, we may delay
 the onset of this vicious hovering/dirt cycle.
