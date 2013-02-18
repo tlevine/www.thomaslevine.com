@@ -788,6 +788,9 @@ couple of similarly small requests.
 
 ![This is a common bathroom, and the Journalism School's hard working staff must maintain it. Please clean up when you are done, and do not leave toilet paper on the floor.](<%= @item.identifier %>jschool-stall.jpg)
 
+By asking people to keep the bathrooms clean in small ways, we may delay
+the onset of this vicious hovering/dirt cycle.
+
 ### Trivia
 
 > 54% of women hover when urinating in public toilets.
