@@ -62,7 +62,7 @@ If these anecdotes about the causes and effects of hovering are correct, then
 the clean toilet is an unstable equilibrium of a toilet's sanitary state;
 toilets get dirty, so people hover, so the toilets get dirty, so people hover.
 
-![Cycle of hovering and toilet cleanliness](https://raw.github.com/tlevine/toilet-posture-toilet-hackers-presentation/master/2-cycle.png)
+![Cycle of hovering and toilet cleanliness](<%= @item.identifier %>cycle.png)
 
 In other contexts, this cycle is sometimes termed the
 "[broken windows theory](http://en.wikipedia.org/wiki/Broken_windows_theory)",
