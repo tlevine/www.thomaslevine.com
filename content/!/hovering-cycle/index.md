@@ -776,9 +776,11 @@ A sign at [General Assembly](http://generalassemb.ly) ungrammatically makes this
 ![Sign requesting people to flush the toilets](<%= @item.identifier %>flush-ga.jpg)
 
 A bathroom in the Columbia University School of Journalism contains a
-similarly small request.
+couple of similarly small requests.
 
-![Sign requesting people to pick up dropped toilet paper](<%= @item.identifier %>toiletpaper.jpg)
+![Please don't throw paper towels in the urinals!](<%= @item.identifier %>jschool-sink.jpg)
+
+![This is a common bathroom, and the Journalism School's hard working staff must maintain it. Please clean up when you are done, and do not leave toilet paper on the floor.](<%= @item.identifier %>jschool-stall.jpg)
 
 ### Trivia
 
