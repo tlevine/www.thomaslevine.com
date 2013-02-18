@@ -95,3 +95,79 @@ people and think that they are reasonably clean, I trust that they would keep
 the bathroom clean. I do not have the same trust in a public toilet; any manner
 of anonymous crazy person might have used the toilet without being compelled
 to keep it clean.
+
+
+
+
+
+## Considerations for toilet design
+
+Toilets are called "sitting" toilets, but lots of people hover,
+even in the most desirable of conditions. Something is wrong here;
+the design and conventions of toilets do not match the way that
+toilets are used.
+
+If people want to hover, maybe we should let them hover. Would
+adding bars to stalls help people hover? And would that, in turn,
+make people happier?
+
+Maybe we can make toilets fit a wider range of people. Men have
+the luxury of calmly standing while urinating, whereas women have
+to either hover or bear touching the seat. Could toilets be
+designed in some way that matched the female anatomy? Clara Greed
+(Greed, 2003) might give us ideas. More generally, can we
+design healthful toilets that still align with our cultural
+expectations? Alexander Kira (Kira, 1976) has ideas on that.
+
+The insistence on hovering over a public toilet can also be seen
+as a silly obsession with cleanliness. Sitting on the public
+toilet is probably perfectly safe, and hovering is known to
+have undesirable health outcomes, like
+taking longer to pee  (Moore & al, 1991). Can we just get over
+our concern for such cleanliness?
+
+As an aside, we should consider squatting. Among other benefits,
+it might make peeing faster. (Amjadi & al, 2006; Rane & Corstiaans, 2008)
+On the other hand, it might not. (Unsal & Cimentepe, 2004)
+
+### Keeping toilets clean
+
+Without changing our toilets, maybe we can keep them from getting
+dirty or from seeming dirty.
+
+Knowing that dirty toilets promote hovering and, in turn, dirtier
+toilets, we can schedule bathroom cleanings more efficiently.
+
+Rather than cleaning bathrooms once a day or waiting until
+they get messy, we could quickly tidy them up every hour
+or so; wipe the toilets and the sinks, pick trash up from the
+ground, and flush any toilets that haven't been flushed.
+This may stop toilets from getting particularly dirty,
+allowing toilets to stay reasonably clean throughout the day
+without major cleaning.
+
+We can also install signs in the bathroom that encourage people to
+clean up minor messes. When I was in my senior year of college, the
+cleanliness of my dorm's bathrooms became a topic of
+[epic controversy](/!/risley-toilets).
+Around that time, I observed a couple signs that requested that
+men avoid getting urine on the toilet seats and that they wipe the
+toilet in case they did get urine on the toilet.
+
+![Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>gentlemen.jpg)
+![Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat](<%= @item.identifier %>alright.jpg)
+
+The above notices are phrased in a way that is somewhat hostile towards
+males; they might be more effective if they requested that less unpleasant
+unsanitary conditions be avoided. Based on the results from the present
+study, I suspect that the prevention of minor messes that people don't
+complain about would prevent the major messes that people complain about.
+
+There was one sign in my dorm that made this sort of request.
+
+![Sign requesting people to flush the toilets](<%= @item.identifier %>flush.jpg)
+
+A bathroom in the Columbia University School of Journalism contains a
+similarly small request.
+
+![Sign requesting people to pick up dropped toilet paper](<%= @item.identifier %>toiletpaper.jpg)
