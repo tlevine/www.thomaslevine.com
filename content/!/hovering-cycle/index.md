@@ -28,11 +28,15 @@ contain
 and
 [complaint](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
 about toilet cleanliness and preferred postures.
-Also, one person admitted to PostSecret that he or she hasn't sat on a toilet for the
-[four years](http://www.flickr.com/photos/withinreason/2593730231/), and this
-sparked [some](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
+Also, one person admitted to PostSecret that he or she hadn't sat on a toilet for the
+[four years](http://www.flickr.com/photos/withinreason/2593730231/).
+
+![I haven't sat on a toilet seat in over 4 years.](<%= @item.identifier %>i-hover.jpg)
+
+(This sparked [further](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
 [discussion](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98095)
-on PostSecret forums.
+on PostSecret forums.)
+
 There's even a website that reviews toilets and tells
 you whether to [Sit or Squat](https://www.sitorsquat.com/).
 
