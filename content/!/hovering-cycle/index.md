@@ -28,11 +28,15 @@ contain
 and
 [complaint](http://www.yelp.com/topic/chicago-toilet-seats-piss-discuss)
 about toilet cleanliness and preferred postures.
-Also, one person admitted to PostSecret that he or she hasn't sat on a toilet for the
-[four years](http://www.flickr.com/photos/withinreason/2593730231/), and this
-sparked [some](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
+Also, one person admitted to PostSecret that he or she hadn't sat on a toilet for the
+[four years](http://www.flickr.com/photos/withinreason/2593730231/).
+
+![I haven't sat on a toilet seat in over 4 years.](<%= @item.identifier %>i-hover.jpg)
+
+(This sparked [further](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
 [discussion](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98095)
-on PostSecret forums.
+on PostSecret forums.)
+
 There's even a website that reviews toilets and tells
 you whether to [Sit or Squat](https://www.sitorsquat.com/).
 
@@ -58,7 +62,7 @@ If these anecdotes about the causes and effects of hovering are correct, then
 the clean toilet is an unstable equilibrium of a toilet's sanitary state;
 toilets get dirty, so people hover, so the toilets get dirty, so people hover.
 
-![Cycle of hovering and toilet cleanliness](https://raw.github.com/tlevine/toilet-posture-toilet-hackers-presentation/master/2-cycle.png)
+![Cycle of hovering and toilet cleanliness](<%= @item.identifier %>cycle.png)
 
 In other contexts, this cycle is sometimes termed the
 "[broken windows theory](http://en.wikipedia.org/wiki/Broken_windows_theory)",
@@ -703,9 +707,9 @@ fatigue and disabilities.
 ### Toilet design
 
 Toilets are called "sitting" toilets, but lots of people hover,
-even in the most desirable of conditions. Something is wrong here.
-The design and conventions of toilets do not match the way that
-toilets are used. Let's consider changing that.
+even in the most desirable of conditions. Something is wrong here;
+the design and conventions of toilets do not match the way that
+toilets are used.
 
 If people want to hover, maybe we should let them hover. Would
 adding bars to stalls help people hover? And would that, in turn,
@@ -715,7 +719,7 @@ Maybe we can make toilets fit a wider range of people. Men have
 the luxury of calmly standing while urinating, whereas women have
 to either hover or bear touching the seat. Could toilets be
 designed in some way that matched the female anatomy? Clara Greed
- (Greed, 2003) might give you us ideas. More generally, can we
+(Greed, 2003) might give us ideas. More generally, can we
 design healthful toilets that still align with our cultural
 expectations? Alexander Kira (Kira, 1976) has ideas on that.
 
@@ -723,14 +727,12 @@ The insistence on hovering over a public toilet can also be seen
 as a silly obsession with cleanliness. Sitting on the public
 toilet is probably perfectly safe, and hovering is known to
 have undesirable health outcomes, like
-taking longer to pee  (Moore & al, 1991).
+taking longer to pee  (Moore & al, 1991). Can we just get over
+our concern for such cleanliness?
 
 As an aside, we should consider squatting. Among other benefits,
 it might make peeing faster. (Amjadi & al, 2006; Rane & Corstiaans, 2008)
 On the other hand, it might not. (Unsal & Cimentepe, 2004)
-
-Maybe we should just get over this.
-Alternatively, maybe we can keep toilets from feeling dirty.
 
 ### Keeping toilets clean
 
