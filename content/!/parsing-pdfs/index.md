@@ -129,8 +129,8 @@ Next, how are two large files within 5 kb of each other?
 
 Those are here
 
-* [MVN-2012-006152-WII](https://github.com/tlevine/scott-documents/raw/master/MVN-2012-006152-WII/public_notice-2012-11-20.pdf).
-* [MVN-2012-1797-CU](https://github.com/tlevine/scott-documents/raw/master/MVN-2012-1797-CU/public_notice-2012-10-02.pdf).
+* [MVN-2012-006152-WII](https://github.com/tlevine/scott-documents/raw/master/MVN-2012-006152-WII/public_notice-2012-11-20.pdf)
+* [MVN-2012-1797-CU](https://github.com/tlevine/scott-documents/raw/master/MVN-2012-1797-CU/public_notice-2012-10-02.pdf)
 
 Hmm. Nothing special about those. People see patterns in randomness.
 
