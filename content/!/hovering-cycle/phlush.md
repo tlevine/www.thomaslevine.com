@@ -1,6 +1,3 @@
----
-title: The Hovering Cycle
----
 ## "Sitting" toilets
 Western sitting-style toilets are presumably intended to be used in a seated
 position, (McClelland & Ward, 1982) except when used by males for exclusively urination.
