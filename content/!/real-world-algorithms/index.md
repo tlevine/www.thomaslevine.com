@@ -1,6 +1,6 @@
 ---
 title: Real World Algorithms
-created_at: 2013-03-01
+created_at: 2013-03-02
 kind: article
 ---
 I regularly discuss computation at
