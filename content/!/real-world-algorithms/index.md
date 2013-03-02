@@ -8,9 +8,14 @@ I regularly discuss computation at
 but this gets boring. I would like some other setting. Here are ideas.
 Would anyone care to join me?
 
-## Maze traversal
-Meet at a corn maze, then break into groups. Each group starts at the beginning
-and follows a different maze solving algorithm.
+## Clock synchronization
+Two unsynchronized large clocks, each with a second hand, are placed far apart
+from each other in a busy, public area. As a group, synchronize the clocks
+without absolute-time--pieces (Stopwatches are okay.) and with no inter-human
+communication beyond quiet speech (no yelling or visual messaging).
+
+If you want to be more intense, disallow any non-human timepiece; relative
+time must be measured by a person.
 
 ## Person-clustering
 Meet somewhere in Central Park, then spread out. Don't spread out randomly;
@@ -20,14 +25,9 @@ consider that Euclidean physical length is not the only distance measure.)
 As you form clusters, consider talking about why you chose to sit in the
 same part of the park.
 
-## Clock synchronization
-Two unsynchronized large clocks, each with a second hand, are placed far apart
-from each other in a busy, public area. As a group, synchronize the clocks
-without absolute-time--pieces (Stopwatches are okay.) and with no inter-human
-communication beyond quiet speech (no yelling or visual messaging).
-
-If you want to be more intense, disallow any non-human timepiece; relative
-time must be measured by a person.
+## Maze traversal
+Meet at a corn maze, then break into groups. Each group starts at the beginning
+and follows a different maze solving algorithm.
 
 ## Dining philosophers
 Meet at an Italian restaurant and sit down at a table. Everyone orders
