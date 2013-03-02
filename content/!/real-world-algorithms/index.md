@@ -1,6 +1,12 @@
+---
+title: Real World Algorithms
+created_at: 2013-03-01
+kind: article
+---
 I regularly discuss computation at
 [lectures in offices followed by beer in loud bars](http://www.meetup.com),
 but this gets boring. I would like some other setting. Here are ideas.
+Would anyone care to join me?
 
 ## Maze traversal
 Meet at a corn maze, then break into groups. Each group starts at the beginning
@@ -13,6 +19,15 @@ has spread out, apply some clustering algorithm. (In choosing the algorithm,
 consider that Euclidean physical length is not the only distance measure.)
 As you form clusters, consider talking about why you chose to sit in the
 same part of the park.
+
+## Clock synchronization
+Two unsynchronized large clocks, each with a second hand, are placed far apart
+from each other in a busy, public area. As a group, synchronize the clocks
+without absolute-time--pieces (Stopwatches are okay.) and with no inter-human
+communication beyond quiet speech (no yelling or visual messaging).
+
+If you want to be more intense, disallow any non-human timepiece; relative
+time must be measured by a person.
 
 ## Dining philosophers
 Meet at an Italian restaurant and sit down at a table. Everyone orders
