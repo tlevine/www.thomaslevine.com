@@ -1,6 +1,7 @@
 ---
 title: Addiction Recovery Meetings
 tags: ['data']
+relationships: ['addicaid']
 ---
 I collected some information about addiction recovery meetings from
 [In The Rooms](http://www.intherooms.com) for [Addicaid](http://addicaid.com/).

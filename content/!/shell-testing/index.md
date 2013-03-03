@@ -3,6 +3,7 @@ title: Tests for your shell
 created_at: 2012-12-12
 kind: article
 tags: ['computer']
+relationships: ['scraperwiki']
 ---
 Extreme hipster superheroes like me need tests for their shell. Here's what's
 available.

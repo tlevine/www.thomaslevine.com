@@ -4,6 +4,7 @@ short_title: Library reading room
 created_at: 2011-07-18
 kind: article
 tags: ['ergonomics']
+relationships: ['cornell']
 ---
 
 Library administration at Cornell University recognized that one library's

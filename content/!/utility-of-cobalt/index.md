@@ -3,6 +3,7 @@ title: Utlity of Cobalt
 tags: ['computer']
 kind: article
 created_at: 2013-05-05
+relationships: ['scraperwiki']
 ---
 
 x.scraperwiki.com uses a new infrastructure for running scripts. We call it

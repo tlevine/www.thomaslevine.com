@@ -2,6 +2,7 @@
 title: News Hack Day SF
 created_at: 2012-06-02
 tags: ['data']
+relationships: ['scraperwiki']
 ---
 
 Blogging about [News Hack Day SF](http://newshackdaysf.tumblr.com)
