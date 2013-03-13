@@ -1,6 +1,6 @@
 ---
 title: Searching lots of inconveniently formatted files at once
-relationships: ['state-dept']
+relationships: ['techsoup', 'state-dept']
 ---
 
 At [TechCamp Sarajevo](http://wiki.techcampglobal.org/index.php?title=TechCamp:Sarajevo_Agenda),
