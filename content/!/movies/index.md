@@ -1,6 +1,6 @@
 ---
 title: Movies I like
-created_at: 2013-03-08
+created_at: 2013-03-09
 kind: article
 ---
 I tend to fall asleep during movies, so I prefer movies for which falling
@@ -16,7 +16,7 @@ asleep enhances the following movies for other reasons.
 
 * Inception
 * Clerks, Clerks 2 and Jay and Silent Bob Strike Back, watched in succession
-* Snakes on a Plane
+* Snakes on a Plane 
 
 These lists are both quite short, so I'd love to hear any other suggestions of
 movies that are enhanced when the viewer falls asleep.

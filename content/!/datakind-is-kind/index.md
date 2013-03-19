@@ -1,7 +1,11 @@
 ---
 title: Meeting nice people at DataKind events
+created_at: 2013-03-18
+kind: article
 ---
-Today, the day after the Big Data Dive, I started pondering that I might like
+Today, the day after the "[Big](/!/datakind-world-bank)" Data Dive
+[at the World Bank](http://datakind.org/events/dc-datadive-world-bank/),
+I started pondering that I might like
 these DataKind events because they attract nice people and that this might be
 more important to me than helping non-profit organizations.
 
