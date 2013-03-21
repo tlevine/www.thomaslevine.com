@@ -22,6 +22,16 @@ multisensory display of treasury data.
 Küechenstudio made a [podcast](http://www.kuechenstud.io/datenschau/podcast/ds008/)
 about some of the other recent advances in data music.
 
+Leveraging animation and multiple senses reduces information overload,
+but it also appeals to a younger audience. Here's a music video that the White
+House released to advertise the State of the Union Address.
+
 higgs
+
+Data animations are also becoming popular in experimental physics, for both the
+ATLAS and CMS experiments.
+
+<!-- https://twiki.cern.ch/twiki/pub/CMSPublic/Hig13002TWiki/HZZ4l_animated.gif -->
+<!-- https://twiki.cern.ch/twiki/pub/AtlasPublic/HiggsPublicResults//4l-FixedScale-NoMuProf2.gif -->
 
 multisensory experience to transforming big data in business
