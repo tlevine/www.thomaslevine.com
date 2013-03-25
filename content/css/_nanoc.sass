@@ -173,64 +173,65 @@ nav .link
   background-color: $article-background
   width: 100%
 
-article
-  max-width: 100%
-  height: auto !important
-  padding:
-    top: $square
-    bottom: $square
-  margin:
-    left: auto
-    right: auto
-    top: $square
-    bottom: $square
-  display: block
-  text-align: left
-
-  table, pre, blockquote
-    background-color: $page-background
-
-  h1, h2, h3, h4, h5
-    margin-bottom: 0.25em
-
-  table, pre, code
-    font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
-
-  table, pre, blockquote
-    color: $article-text
+  article
+    max-width: 100%
+    height: auto !important
+    padding:
+      top: $square
+      bottom: $square
     margin:
-      top: 0.5em
-      bottom: 0.5em
-      left: 0
-      right: 0
-    padding: 0.5em
-
-  p, li
-    margin-bottom: 0.75em
-    color: $article-text
-
-  a, a:visited
-    text-decoration: underline
-    color: $pink
-
-  img, iframe
-    width: 100%
-    margin:
-      top: 1.5em
-      bottom: 1.5em
       left: auto
       right: auto
-    border: none
-    background-color: white
-
-  a, a:visited, a:hover, a:active, 
-  h1, h2, h3, h4, h5
-    color: $pink
-
-  table
-    margin-bottom: 1em
-    border: 1px solid
-    border-color: $article-background
+      top: $square
+      bottom: $square
+    display: block
+    text-align: left
+  
+    table, pre, blockquote
+      background-color: $page-background
+  
+    h1, h2, h3, h4, h5
+      margin-bottom: 0.25em
+  
+    table, pre, code
+      font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
+  
+    table, pre, blockquote
+      color: $article-text
+      margin:
+        top: 0.5em
+        bottom: 0.5em
+        left: 0
+        right: 0
+      padding: 0.5em
+  
+    p, li
+      margin-bottom: 0.75em
+      color: $article-text
+  
+    a, a:visited
+      text-decoration: underline
+      color: $pink
+  
+    img, iframe
+      width: 100%
+      margin:
+        top: 1.5em
+        bottom: 1.5em
+        left: auto
+        right: auto
+      border: none
+      background-color: white
+  
+    a, a:visited, a:hover, a:active, 
+    h1, h2, h3, h4, h5
+      color: $pink
+  
+    table
+      margin-bottom: 1em
+      th, td
+        border-bottom: 1px solid
+        border-bottom-color: $article-background
 
 // Wide screen
 @media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
