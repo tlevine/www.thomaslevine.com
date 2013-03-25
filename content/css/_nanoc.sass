@@ -187,7 +187,7 @@ nav .link
     display: block
     text-align: left
   
-    table, pre, blockquote
+    pre, blockquote
       background-color: $page-background
   
     h1, h2, h3, h4, h5
@@ -196,7 +196,7 @@ nav .link
     table, pre, code
       font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
   
-    table, pre, blockquote
+    pre, blockquote
       color: $article-text
       margin:
         top: 0.5em
@@ -218,24 +218,28 @@ nav .link
       margin:
         top: 1.5em
         bottom: 1.5em
-        left: auto
-        right: auto
       border: none
       background-color: white
   
     a, a:visited, a:hover, a:active, 
     h1, h2, h3, h4, h5
       color: $pink
+      font-weight: bold
   
     table
       margin-bottom: 1em
-      border-bottom: 1px solid
-      border-bottom-color: $article-text
-      border-top: 1px solid
-      border-top-color: $article-text
-      th, td
-        border-bottom: 1px solid
-        border-bottom-color: $article-background
+      color: $article-text
+      border:
+        bottom: 0.25em solid
+        bottom-color: $page-background
+        top: 0.25em solid
+        top-color: $page-background
+      thead
+        border-bottom: 0.25em solid
+        border-bottom-color: $page-background
+      tfoot
+        border-top: 0.25em solid
+        border-top-color: $page-background
 
 // Wide screen
 @media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
@@ -282,6 +286,12 @@ nav .link
     margin:
       left: 0.5 * $square
       right: 0.5 * $square
+
+  article .half-wide
+    width: 50% !important
+    margin:
+      left: 25%
+      right: 25%
 
 @media screen and (min-width: 2 * $calling-card-long)
 
