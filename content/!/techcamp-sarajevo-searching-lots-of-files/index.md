@@ -4,11 +4,10 @@ relationships: ['techsoup', 'state-dept']
 ---
 
 At [TechCamp Sarajevo](http://wiki.techcampglobal.org/index.php?title=TechCamp:Sarajevo_Agenda),
-it came up that some people wanted a simple way to search lots of PDF and Word
+some transparency advocates wanted a simple way to search lots of PDF and Word
 documents at once without knowing much about computers. Here's what we came up with.
 
 ## What sort of search?
-
 To decide which software to use, first decide which of these three software
 types you want.
 
@@ -19,14 +18,13 @@ all of the occurrences of a particular phrase, like when you use one of those
 If your files start as scans of paper documents (images), you'll need to run
 the files through **optical character recognition** first.
 
-Rather than searching specific phrases, consider clustering the many documents
+Rather than searching specific phrases, you might consider clustering the many documents
 by **document similarity**. This is probably a bit different than you are used
 to, so it might yield results that you hadn't anticipated.
 
 ## Full text search
 
 ### Software
-
 There are a lot of tools in this area. First decide whether you want the files
 to be stored online. This can help with collaboration and can simplify backup.
 On the other hand, keeping files offline can be more secure, reduce your
@@ -66,8 +64,8 @@ each other. For these,
 5. Search.
 
 ## Optical character recognition
-
 Adobe Acrobat Pro can run optical character recognition on several files in batch.
+
 If that doesn't work for you or if you are opposed to proprietary software,
 consider the many free/libre/open-source graphical OCR tools.
 
@@ -75,10 +73,11 @@ consider the many free/libre/open-source graphical OCR tools.
 * [lime-OCR](http://code.google.com/p/lime-ocr/)
 * [tesseract-gui](http://tesseract-gui.sourceforge.net/)
 
-These also support batch OCR across many files, but batch jobs might be less
+These free tools do batch OCR across many files, but batch jobs might be less
 convenient in these programs than in Adobe Acrobat Pro.
 
 ## Document similarity
-Try [Overview](http://overview.ap.org/) in conjunction with DocumentCloud.
-Here are some videos on [how to use it](http://vimeo.com/38609710) and
-[how it works](http://vimeo.com/20450035).
+Try [Overview](https://www.overviewproject.org/) in conjunction with
+[DocumentCloud](http://www.documentcloud.org/).
+To learn more, you can watch a [video](https://www.overviewproject.org/help)
+about it or read its [blog](http://overview.ap.org/).
