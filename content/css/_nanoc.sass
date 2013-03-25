@@ -54,16 +54,6 @@ span.home-char
 .logo, .logo *
   width: 100%
 
-// Colors ================================================= //
-article
-  color: $pink
-
-  table, pre, blockquote
-    background-color: $page-background
-
-  a, a:visited
-    color: $pink
-
 // Links ================================================= //
 
 a
@@ -196,7 +186,9 @@ article
     bottom: $square
   display: block
   text-align: left
-  color: white
+
+  table, pre, blockquote
+    background-color: $page-background
 
   h1, h2, h3, h4, h5
     margin-bottom: 0.25em
@@ -219,6 +211,7 @@ article
 
   a, a:visited
     text-decoration: underline
+    color: $pink
 
   img, iframe
     width: 100%
@@ -236,6 +229,8 @@ article
 
   table
     margin-bottom: 1em
+    border: 1px solid
+    border-color: $article-background
 
 // Wide screen
 @media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
