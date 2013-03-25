@@ -18,11 +18,12 @@ all of the occurrences of a particular phrase, like when you use one of those
 If your files start as scans of paper documents (images), you'll need to run
 the files through **optical character recognition** first.
 
-Rather than searching specific phrases, consider clustering the many documents
+Rather than searching specific phrases, you might consider clustering the many documents
 by **document similarity**. This is probably a bit different than you are used
 to, so it might yield results that you hadn't anticipated.
 
 ## Full text search
+
 ### Software
 There are a lot of tools in this area. First decide whether you want the files
 to be stored online. This can help with collaboration and can simplify backup.
