@@ -4,7 +4,8 @@
 %header.title-card
   = render('_title_card', :item => item)
 
-%article=yield
+#article-wrapper
+  %article=yield
 
 #pagination
   .base-little-card
