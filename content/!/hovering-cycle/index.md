@@ -15,7 +15,7 @@ position, (McClelland & Ward, 1982) except when used by males for exclusively ur
 A sign on a bathroom in my college dorm illustrates this expectation.
 
 <img alt="Sign on a door with symbols for both sex and a stylized person sitting on a stylized toilet"
-     src="<%= @item.identifier %>sitting.jpg" class="half-wide" />
+     src="<%= @item.identifier %>sitting.jpg" />
 
 But the word on the street is that people often adopt a hovering posture
 instead of the seated posture in order to cope with unsanitary toilets.
@@ -33,8 +33,7 @@ Also, one person admitted to PostSecret that he or she hadn't sat on a toilet fo
 [four years](http://www.flickr.com/photos/withinreason/2593730231/).
 
 <img alt="I haven't sat on a toilet seat in over 4 years."
-     src="<%= @item.identifier %>i-hover.jpg"
-     class="half-wide" />
+     src="<%= @item.identifier %>i-hover.jpg" />
 
 (This sparked [further](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98076)
 [discussion](http://www.postsecretcommunity.com/chat/viewtopic.php?t=98095)
@@ -66,8 +65,7 @@ the clean toilet is an unstable equilibrium of a toilet's sanitary state;
 toilets get dirty, so people hover, so the toilets get dirty, so people hover.
 
 <img alt="Cycle of hovering and toilet cleanliness"
-     src="<%= @item.identifier %>cycle.png"
-     class="half-wide" />
+     src="<%= @item.identifier %>cycle.png" />
 
 In other contexts, this cycle is sometimes termed the
 "[broken windows theory](http://en.wikipedia.org/wiki/Broken_windows_theory)",
@@ -204,7 +202,9 @@ with no mention of cleanliness (like "If you are urinating at a private
 toilet, which posture are you most likely to use?"). The top row is the
 male responses, and the bottom row is the female responses.
 
-![Polar plots of posture choice (sit, stand, hover, other) by scenario](<%= @item.identifier %>figure/pie-matrix-1.png) 
+<img alt="Polar plots of posture choice (sit, stand, hover, other) by scenario"
+     src="<%= @item.identifier %>figure/pie-matrix-1.png"
+     class="wide" />
 
 The table below presents the popularity of the two most popular
 postures for each situation. By "popularity", I mean the proportion of
@@ -334,8 +334,10 @@ I also plotted them, separating by sex. The error bars are 12% tall in
 each direction; the reasoning for this is the same as in the earlier
 table.
 
-![Polar plots of posture dirtiness (clean versus dirty) by scenario](<%= @item.identifier %>figure/privacy-plot.png) 
 
+<img alt="Polar plots of posture dirtiness (clean versus dirty) by scenario"
+     src="<%= @item.identifier %>figure/privacy-plot.png"
+     class="wide" />
 
 In most situations, the figures are quite close to 100%, but a couple are
 quite relatively low. In particular, the figure is 50% for females in the
@@ -488,7 +490,7 @@ I used hierarchical clustering to group the participants based on their
 responses to the twelve questions. I used the Ward method with
 euclidean distances. The grouping looks like this.
 
-![Dendrogram](<%= @item.identifier %>figure/basic-dendrogram.png) 
+<img alt="Dendrogram" src="<%= @item.identifier %>figure/basic-dendrogram.png" class="wide" />
 
 We can cut off this dendrogram at any level and look at the average
 (really the centroid) value within each cluster. If we cut it before
@@ -501,7 +503,9 @@ responses only, not based on sex.)
 I cut off the dendrogram at successively lower levels until it got boring,
 annotating the clusters as I went. Here's the first cut.
 
-![Dendrogram with boxes around two clusters](<%= @item.identifier %>figure/a-2-plot-raw.png) 
+<img alt="Dendrogram with boxes around two clusters"
+     src="<%= @item.identifier %>figure/a-2-plot-raw.png"
+     class="wide" />
 
 And here are the centroids. (I didn't cluster based on sex, but I included sex
 in the table below.)
@@ -525,11 +529,15 @@ dirty_urinate_public        | 0.21739 | 0.98765
 
 After studying the centroids, I came up with these groupings.
 
-![Dendrogram with boxes around two clusters, one labeled "male" and the other labeled "female"](<%= @item.identifier %>figure/a-2-plot.png) 
+<img alt="Dendrogram with boxes around two clusters, one labeled &quot;male&quot; and the other labeled &quot;female&quot;"
+     src="<%= @item.identifier %>figure/a-2-plot.png"
+     class="wide" />
 
 Here it is at six clusters, grouped.
 
-![Dendrogram with boxes around six clusters](<%= @item.identifier %>figure/a-6-plot.png) 
+<img alt="Dendrogram with boxes around six clusters"
+     src="<%= @item.identifier %>figure/a-6-plot.png"
+     class="wide" />
 
 ----------------------------|---- | ---- | ---- |---| ---- |---
 Variable/Scenario           |Cluster 1 | Cluster 2 | Cluster 3 | Cluster 4 | Cluster 5 | Cluster 6
@@ -552,7 +560,9 @@ dirty_urinate_public        |0.27 | 0.00 | 0.98 | 0 | 1    | 1
 
 I stopped at 17.
 
-![Dendrogram with boxes around 17 clusters](<%= @item.identifier %>figure/a-17-plot.png) 
+<img alt="Dendrogram with boxes around 17 clusters"
+     src="<%= @item.identifier %>figure/a-17-plot.png"
+     class="wide" />
 
 The above groupings help us understand the questionnaire responses by person,
 but they don't tell us how well the groupings might apply to people outside
@@ -595,7 +605,9 @@ in each of twelve scenarios and that the postures were grouped into clean
 and dirty postures. Since we are able to narrow down the marginal reasons why
 a person would switch postures, the following plot is informative.
 
-![How many participants marked how many scenarios?](<%= @item.identifier %>figure/p-ndirty.png) 
+<img alt="How many participants marked how many scenarios?"
+     src="<%= @item.identifier %>figure/p-ndirty.png"
+     class="wide" />
 
 The x-axis is the number of questions for which dirty
 postures were marked, and the y-axis is the proportion of participants.
@@ -768,12 +780,10 @@ men avoid getting urine on the toilet seats and that they wipe the
 toilet in case they did get urine on the toilet.
 
 <img alt="Letter written on notebook paper and posted inside a bathroom stall encouraging gentlement to be neat"
-     src="<%= @item.identifier %>gentlemen.jpg"
-     class="half-wide" />
+     src="<%= @item.identifier %>gentlemen.jpg" />
 
 <img alt="Annotated drawing of a toilet posted inside a bathroom stall encouraging gentlement to be neat"
-     src="<%= @item.identifier %>alright.jpg"
-     class="half-wide" />
+     src="<%= @item.identifier %>alright.jpg" />
 
 The above notices are phrased in a way that is somewhat hostile towards
 males; they might be more effective if they requested that less unpleasant
@@ -784,19 +794,16 @@ complain about would prevent the major messes that people complain about.
 A sign at [General Assembly](http://generalassemb.ly) ungrammatically makes this sort of request.
 
 <img alt="Sign requesting people to flush the toilets"
-     src="<%= @item.identifier %>flush-ga.jpg"
-     class="half-wide" />
+     src="<%= @item.identifier %>flush-ga.jpg" />
 
 A bathroom in the Columbia University School of Journalism contains a
 couple of similarly small requests.
 
 <img alt="Please don't throw paper towels in the urinals!"
-     src="<%= @item.identifier %>jschool-sink.jpg"
-     class="half-wide" />
+     src="<%= @item.identifier %>jschool-sink.jpg" />
 
 <img alt="This is a common bathroom, and the Journalism School's hard working staff must maintain it. Please clean up when you are done, and do not leave toilet paper on the floor."
-     src="<%= @item.identifier %>jschool-stall.jpg"
-     class="half-wide" />
+     src="<%= @item.identifier %>jschool-stall.jpg" />
 
 By asking people to keep the bathrooms clean in small ways, we may delay
 the onset of this vicious hovering/dirt cycle.
