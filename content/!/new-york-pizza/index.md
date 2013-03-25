@@ -10,9 +10,8 @@ a list of 22 establishments grouped by expertly chosen categories. I needed to
 know which one was closest to me at any given time, so I found the addresses
 and plotted them on a map.
 
-<iframe src='https://tlevine.cartodb.com/tables/new_york_pizza/embed_map' height="600">
-  <img src='preview.png' alt = 'A preview of the map'>
-</iframe>
+<iframe src='https://tlevine.cartodb.com/tables/new_york_pizza/embed_map' height="600"></iframe>
+<!-- <img src="<%= @item.identifier %>preview.png" alt="A preview of the map" class="wide"> -->
 
 Here's the original list, by the way.
 

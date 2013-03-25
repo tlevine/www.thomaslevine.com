@@ -10,7 +10,9 @@ both beginners and intermediates; beginners immediately see the five smoothie
 choices at the top and intermediates know to look at the bottom to "design
 [their] own". Experts can order things that aren’t on the menu.
 
-![Menu says "Smoothies", lists five types of smoothies, then has a "Design your own" section.](<%= item.identifier %>menu.jpg)
+<img alt="Menu says &quot;Smoothies&quot;, lists five types of smoothies, then has a &quot;Design your own&quot; section."
+     src="<%= item.identifier %>menu.jpg"
+     class="wide" />
 
 If you don’t know what I’m talking about when I discuss beginners,
 intermediates and experts, read

@@ -1,7 +1,7 @@
 ---
 title: symph.io is the future of data presentation
 kind: article
-created_at: 2013-03-20
+created_at: 2013-04-20
 ---
 A couple of data scientist friends and I founded [symph.io](http://symph.io)
 to transform the use of realtime big data in business. People have been asking

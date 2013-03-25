@@ -11,7 +11,10 @@ Scarsdale's tax bills look like this.
 
 At the end, they use a "uniform percent" to calculate a "full market value".
 
-[![Picture of the "ADDITIONAL INFORMATION" section of the bill](<%= @item.identifier %>additional.jpg)](<%= @item.identifier %>additional.jpg)
+[<img alt="Picture of the &quot;ADDITIONAL INFORMATION&quot; section of the bill"
+      src="<%= @item.identifier %>additional.jpg"
+      class="wide" />
+](<%= @item.identifier %>additional.jpg)
 
 ## What does that percentage mean?
 
@@ -32,7 +35,10 @@ attempt at adjusting for inflation.) The percentages are just the percentages
 listed on the tax bills, which are equivalent to the y-axis estimated house
 market value.
 
-[![Plot of nominal market value as a function of the value of a dollar over time](<%= @item.identifier %>plot.png)](<%= @item.identifier %>plot.png)
+[<img alt="Plot of nominal market value as a function of the value of a dollar over time"
+      src="<%= @item.identifier %>plot.png"
+      class="wide" />
+](<%= @item.identifier %>plot.png)
 
 If the percentage were simply a crude adjustment for inflation, the line would
 be straight and increasing. It looks sort of like that until 2008, but it went
