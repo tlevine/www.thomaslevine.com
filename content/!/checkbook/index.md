@@ -1,7 +1,6 @@
 ---
 title: On balancing checkbooks
 created_at: 2013-03-21
-kind: article
 ---
 
 Balancing checkbooks is one of those things that people say everyone should
