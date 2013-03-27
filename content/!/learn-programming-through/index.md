@@ -1,5 +1,5 @@
 ---
-title: Learn Computers Through _____
+title: Learn Computers Through ______
 tags: ['computer']
 created_at: 2012-08-09
 kind: article

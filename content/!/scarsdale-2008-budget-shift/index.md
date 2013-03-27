@@ -8,7 +8,10 @@ created_at: 2012-12-23
 The village substantially reduced its budget after 2008, mainly in the capital
 projects fund.
 
-[![Appropriation by year and fund](<%= @item.identifier %>appropriations.png)](<%= @item.identifier %>appropriations.png)
+[<img alt="Appropriation by year and fund"
+      src="<%= @item.identifier %>appropriations.png"
+      class="wide" />
+](<%= @item.identifier %>appropriations.png)
 
 The fund's appropriation typically increases by a couple million dollars each
 year, but the appropriation was decreased by about $20 million in 2009-2010,
@@ -33,7 +36,10 @@ appears that the budgeted appropriations jumped to a higher level a few years
 ago.
 
 ### Public Safety HQ expansion
-[![](<%= @item.identifier %>04-public_safety.png)](<%= @item.identifier %>04-public_safety.png)
+[<img alt=""
+      src="<%= @item.identifier %>04-public_safety.png"
+      class="wide" />
+](<%= @item.identifier %>04-public_safety.png)
 
 In 2005-2006, the public safety HQ expansion was budgeted $6 million, of which
 about $500,000 was for planning and $5.5 million was for construction.
@@ -48,7 +54,10 @@ realized in 2009-2010. That year, the cost was originally predicted to be $12
 million, but it wound up costing only $11.5 million.
 
 ### Popham Road Bridge construction
-[![](<%= @item.identifier %>04-popham_road_bridge.png)](<%= @item.identifier %>04-popham_road_bridge.png)
+[<img alt=""
+      src="<%= @item.identifier %>04-popham_road_bridge.png"
+      class="wide" />
+](<%= @item.identifier %>04-popham_road_bridge.png)
 
 The same sort of thing happened for the Popham Road Bridge construction. In
 2005-2006, 2006-2007 and 2007-2008 it had been budget $10.5 million of mostly
@@ -63,7 +72,10 @@ Popham Road Bridge, but it took a few years before they were realized. They
 remained in the budget, however, so you might get the wrong impression of what
 the village is spending if you just look at the budget every year.
 
-[![](<%= @item.identifier %>04-difference.png)](<%= @item.identifier %>04-difference.png)
+[<img alt=""
+      src="<%= @item.identifier %>04-difference.png"
+      class="wide" />
+](<%= @item.identifier %>04-difference.png)
 
 The differences between the adopted (planned) expenditures and the estimated
 (close to the actual) expenditures for these two projects is on the order of

@@ -66,12 +66,9 @@ I [looked at](https://github.com/tlevine/united-states-middlenames)
 the names of [85,822,194 dead Americans](http://ssdmf.info)
 and came up with some more plots.
 
-[
-  ![Plot of middle name prevalence as a function of time by state,
-    showing a relatively sharp increase from 10% to 80% between 1880
-    and 1930, followed by a plateau until 1960, followed by a
-    smaller jump to 95% by 1975
-  ](<%= @item.identifier %>us_middle_names_over_time.png)
+[<img alt="Plot of middle name prevalence as a function of time by state, showing a relatively sharp increase from 10% to 80% between 1880 and 1930, followed by a plateau until 1960, followed by a smaller jump to 95% by 1975"
+      src="<%= @item.identifier %>us_middle_names_over_time.png"
+      class="wide" />
 ](<%= @item.identifier %>us_middle_names_over_time_by_state.pdf)
 
 The rate of middle names for dead people born[^birth] these days is about 90%,

@@ -32,6 +32,15 @@
   #data.link-group
     = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['dead people', 'http://www.deadpeoplebornonmybirthday.com'], ['hipstogram', 'https://github.com/tlevine/hipstogram'], ['scarsdale', '/scarsdale/']])
 
+  -#data-good.link-group
+    = render('_topic_box', :topic => 'data4good', :links => [['microfinance', 'datakind'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupar', '']])
+
+  -#data-nonsense.link-group
+    = render('_topic_box', :topic => 'data4fun', :links => [['dead people', 'http://www.deadpeoplebornonmybirthday.com'], ['scarsdale', '/scarsdale/']])
+
+  -#hipsterdom.link-group
+    = render('_topic_box', :topic => 'hipsterdom', :links => [['hipstogram', 'https://github.com/tlevine/hipstogram']])
+
   #libraries.link-group
     = render('_topic_box', :topic => 'libraries', :links => [['dumptruck', "http://dumptruck.io/"], ['scraperwiki', "https://github.com/tlevine/scraperwiki_offline"], ['sqlite web api', 'https://github.com/scraperwiki/dumptruck-web'], ['dicti', 'https://github.com/tlevine/dicti']])
 
@@ -102,14 +111,11 @@
     = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
 
   #toilets.link-group
-    -#= render('_topic_box', :topic => 'toilets', :links => [['hovering', ''], ['dorm', ''], ['sewer', ''], ['map', '']])
     = render('_topic_box', :topic => 'toilets', :links => [['dorm', '/!/risley-toilets'], ['map', 'http://mapsh.it'], ['hovering', '/!/hovering-cycle']])
+    -# = render('_topic_box', :topic => 'toilets', :links => [['dorm', '/!/risley-toilets'], ['map', 'http://mapsh.it'], ['hovering', 'phlush'], ['overflows', '']])
 
   #shenanigans.link-group
     = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"]])
 
   #etc.link-group
     = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"]])
-
-  -##blog.link-group
-    = render('_topic_box', :topic => 'blog.', :links => [['scarsdale', '/scarsdale/'], ['doodles', '/doodles/'], ['data', '/data/'], ['everything', '/!/'])

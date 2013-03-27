@@ -8,14 +8,18 @@ I collected some information about addiction recovery meetings from
 [In The Rooms](http://www.intherooms.com) for [Addicaid](http://addicaid.com/).
 I got information on meetings within 125 miles of Brooklyn.
 
-![Meetings plotted as points on a map of the New York metropolitan area](<%= item.identifier %>map.png)
+<img alt="Meetings plotted as points on a map of the New York metropolitan area"
+     src="<%= item.identifier %>map.png"
+     class="wide" />
 
 They just wanted this information so they could list the meetings on a phone
 application, but I thought I could have more fun with the data.
 
 Let's focus on New York city because most of them are there.
 
-![Meetings plotted as points on a map New York City](<%= item.identifier %>nyc.png)
+<img alt="Meetings plotted as points on a map New York City"
+     src="<%= item.identifier %>nyc.png"
+     class="wide" />
 
 Most meetings list the day and time at which they meet, so we can also see when
 they happen during the week. Getting this to render nicely in a web browser was
@@ -36,11 +40,8 @@ in table form; here are the locations that had at least ten meetings.
 (Some of these locations are actually the same place with different links.)
 
 <style>
-#top-locations thead tr,
-#top-locations tbody tr:nth-child(6n + 4),
-#top-locations tbody tr:nth-child(6n + 5),
-#top-locations tbody tr:nth-child(6n + 6) {
-    background-color: #DDD;
+#top-locations tbody tr:nth-child(3n) {
+    border-top: 0.125em solid;
 }
 #top-locations th:first-child,
 #top-locations td:first-child {

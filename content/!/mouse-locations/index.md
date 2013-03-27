@@ -5,7 +5,9 @@ kind: article
 tags: ['ergonomics']
 ---
 
-![](http://smug.thomaslevine.com/Works/numberpad/numberpad/932457459_Wd94o-480x480.png)
+<img src="http://smug.thomaslevine.com/Works/numberpad/numberpad/932457459_Wd94o-480x480.png"
+     alt=""
+     class="wide" />
 
 According to some ergonomics research, the location in which one mouses affects
 the posture with which one mouses. Thus, the location of the mouse might impact

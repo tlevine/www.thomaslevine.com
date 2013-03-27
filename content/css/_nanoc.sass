@@ -9,7 +9,7 @@ p, h1, h2, h3, h4, h5
   @include lean
 
 body
-  background: #444
+  background: $page-background
   color: $pink
   font:
     family: 'Open Sans', sans-serif
@@ -54,57 +54,6 @@ span.home-char
 .logo, .logo *
   width: 100%
 
-// Colors ================================================= //
-body
-  color: $pink
-
-  pre, blockquote
-    background-color: lighten($pink, 30%)
-    border: 1px solid desaturate(lighten($pink, 20%), 30%)
-
-  a, a:visited
-    color: $pink
-
-body.ergonomics
-  color: $tan
-
-  pre, blockquote
-    background-color: lighten($tan, 30%)
-    border: 1px solid desaturate(lighten($tan, 20%), 30%)
-
-  a, a:visited
-    color: $tan
-
-body.data
-  color: $green
-
-  pre, blockquote
-    background-color: lighten($green, 30%)
-    border: 1px solid desaturate(lighten($green, 20%), 30%)
-
-  a, a:visited
-    color: $green
-
-body.scarsdale
-  color: $maroon
-
-  pre, blockquote
-    background-color: lighten($maroon, 30%)
-    border: 1px solid desaturate(lighten($maroon, 20%), 30%)
-
-  a, a:visited
-    color: $maroon
-
-body.doodles
-  color: $gray
-
-  pre, blockquote
-    background-color: lighten($gray, 30%)
-    border: 1px solid desaturate(lighten($gray, 20%), 30%)
-
-  a, a:visited
-    color: $gray
-
 // Links ================================================= //
 
 a
@@ -113,7 +62,7 @@ a
   &:visited
     color: inherit
   &:hover
-    color: #000 !important
+    color: inherit
     text-decoration: inherit
   &:focus
     color: inherit
@@ -171,7 +120,7 @@ nav
       background: $pink
       color: white
       &:hover
-        background: #444
+        background: $page-background
         color: $pink
 
   .logo
@@ -220,57 +169,79 @@ nav .link
 
 
 // A blog post
-article
-  @extend .base-big-card
-  max-width: 100%
-  height: auto !important
-  margin:
-    left: auto
-    right: auto
-    top: $square
-    bottom: $square
-  display: block
-  text-align: left
-  color: black
+#article-wrapper
+  background-color: $article-background
+  width: 100%
 
-  h1, h2, h3, h4, h5
-    margin-bottom: 0.25em
-    background-color: #444
-
-  pre, code
-    font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
-
-  pre, blockquote
-    color: #333
+  article
+    max-width: 100%
+    height: auto !important
+    padding:
+      top: $square
+      bottom: $square
     margin:
-      top: 0.5em
-      bottom: 0.5em
-      left: 0
-      right: 0
-    padding: 0.5em
-
-  p, li
-    margin-bottom: 0.75em
-    color: #333
-
-  a, a:visited
-    text-decoration: underline
-
-  img, iframe
-    width: 100%
-    margin:
-      top: 1.5em
-      bottom: 1.5em
       left: auto
       right: auto
-    border: none
+      top: $square
+      bottom: $square
+    display: block
+    text-align: left
+  
+    pre, blockquote
+      background-color: $page-background
+  
+    h1, h2, h3, h4, h5
+      margin-bottom: 0.25em
+  
+    table, pre, code
+      font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
+  
+    pre, blockquote
+      color: $article-text
+      margin:
+        top: 0.5em
+        bottom: 0.5em
+        left: 0
+        right: 0
+      padding: 0.5em
+  
+    p, li
+      margin-bottom: 0.75em
+      color: $article-text
+  
+    a, a:visited
+      text-decoration: underline
+      color: $pink
+  
+    img, iframe
+      width: 100%
+      margin:
+        top: 1.5em
+        bottom: 1.5em
+      border: none
+      background-color: white
+  
+    a, a:visited, a:hover, a:active, 
+    h1, h2, h3, h4, h5
+      color: $pink
 
-  a, a:visited, a:hover, a:active, 
-  h1, h2, h3, h4, h5
-    color: $pink
-
-  table
-    margin-bottom: 1em
+    h1, h2, h3, h4, h5
+      font-weight: bold
+  
+    table
+      margin-bottom: 1em
+      color: $article-text
+      border:
+        bottom: 0.25em solid
+        bottom-color: $page-background
+        top: 0.25em solid
+        top-color: $page-background
+      thead
+        border-bottom: 0.25em solid
+        border-bottom-color: $page-background
+      tfoot
+        border-top: 0.25em solid
+        border-top-color: $page-background
 
 // Wide screen
 @media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
@@ -317,6 +288,12 @@ article
     margin:
       left: 0.5 * $square
       right: 0.5 * $square
+
+  article img:not(.wide)
+    width: 50% !important
+    margin:
+      left: 25%
+      right: 25%
 
 @media screen and (min-width: 2 * $calling-card-long)
 
