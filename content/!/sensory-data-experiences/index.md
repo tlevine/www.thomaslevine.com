@@ -1,5 +1,5 @@
 ---
-title: Multisensory data experiences: The future of data presentation
+title: Multisensory data experiences are the future of data presentation
 short_title: Multisensory data experiences
 kind: article
 created_at: 2013-04-05
