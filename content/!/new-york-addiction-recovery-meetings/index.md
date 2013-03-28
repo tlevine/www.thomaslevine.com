@@ -2,7 +2,8 @@
 title: Addiction Recovery Meetings
 tags: ['data']
 relationships: ['addicaid']
-created_at: 2013-03-04
+created_at: 2013-03-30
+kind: article
 ---
 I collected some information about addiction recovery meetings from
 [In The Rooms](http://www.intherooms.com) for [Addicaid](http://addicaid.com/).
@@ -41,7 +42,7 @@ in table form; here are the locations that had at least ten meetings.
 
 <style>
 #top-locations tbody tr:nth-child(3n) {
-    border-top: 0.125em solid;
+    border-bottom: 0.125em solid;
 }
 #top-locations th:first-child,
 #top-locations td:first-child {
@@ -88,5 +89,5 @@ in table form; here are the locations that had at least ten meetings.
     </tbody>
 </table>
 
-I wonder how these locations manage to have so many meetings listed. Hmm and
-maybe it's worth telling them about Addicaid.
+I've since downloaded more meetings from In the Rooms. What else can we learn
+from these data?

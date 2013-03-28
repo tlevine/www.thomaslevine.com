@@ -1,7 +1,5 @@
 ---
 title: Words that are hard to spell
-created_at: 2013-03-28
-kind: article
 tags: ['shenanigans']
 ---
 I previously used "(es)perluette" as my name in a bunch of places. (It's a
