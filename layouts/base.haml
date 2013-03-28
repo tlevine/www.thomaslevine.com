@@ -8,7 +8,7 @@
   %head
     %meta{ :charset => "utf-8" }
     -#%meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }
-    %title= @item[:title]
+    %title= @item[:title] || 'Thomas Levine'
     %meta{ :name => "description", :content => "#{@item[:description]}" }
     %meta{ :name => "author", :content => "Thomas Levine" }
     %meta{ :name => "generator", :content => "nanoc #{Nanoc::VERSION}" }
@@ -16,6 +16,9 @@
 
     -# Place favicon.ico and apple-touch-icon.png in the root directory
     %link{ :rel => "icon", :href => "/favicon.ico", :type => "image/x-icon" }
+
+    -# Feed link
+    %link{ :rel => "alternate", :type => "application/atom+xml", :title => "Thomas Levine", :href => "/!/feed.xml" }
 
     -# Style
     %link{ :rel => "stylesheet", :href => "http://fonts.googleapis.com/css?family=Open+Sans:400,700", :type => "text/css" }
