@@ -1,9 +1,10 @@
 ---
-title: Multisensory data experiences are the future of data presentation
-short_title: Multisensory data experiences
+title: Multisensory data experiences
 kind: article
 created_at: 2013-04-05
 ---
+Multisensory data experiences are the future of big data presentation.
+
 With our current tools, big data leads quickly to information overload.
 
 <blockquote class="twitter-tweet"><p>For handle big data, solution is very simple: buy bigger monitor and use smaller font in the terminal.</p>&mdash; MySQL Borat (@mysqlborat) <a href="https://twitter.com/mysqlborat/status/306078371182428161">February 25, 2013</a></blockquote>
