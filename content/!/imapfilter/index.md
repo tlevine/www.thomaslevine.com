@@ -6,16 +6,28 @@ kind: article
 I use [imapfilter](https://github.com/lefcha/imapfilter) to filter my mail.
 It's awesome.
 
-I wrote a `~/.imapfilter/config.lua` file, and then I added it
+## So simple
+I just wrote a `~/.imapfilter/config.lua` file and added `imapfilter`
 to my email-synchronization [crontab](https://github.com/tlevine/.prophyl-teh-awesum/blob/54c7b7ec472ac53c2dbf445e81b393c3bc26ad3e/crontab) entry.
 
     @hourly imapfilter && offlineimap && notmuch new 
 
-Mail comes into the "INBOX", and then I use imapfilter to move some messages
-into "Spam" and others into "Pulse". "Spam" is for spam, "Pulse" is for emails
-that I use for statistical modelling but don't read directly. (Most of my
-emails go to "Pulse".)
+## Overview of filters
+All mail comes into the "INBOX" folder.
 
+I use imapfilter to move some messages into "Spam" and others into "Pulse".
+"Spam" is for spam, "Pulse" is for emails that I use for statistical
+modelling but don't read directly.
+
+Most of my emails go to "Pulse", but some stay in "INBOX".
+
+            Pulse
+              |
+    Mail -> INBOX
+              |
+            Spam 
+
+## My configuration
 Some of the filters that I use contain information that could be unsafe to post
 publically, so I've removed some of the pulse filters, replaced them with the
 line `-- ...`, and posted the configuration [here](<%= @item.identifier %>config.lua).
