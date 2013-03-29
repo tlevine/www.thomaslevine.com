@@ -55,10 +55,6 @@ Second, I define a function for pulling my email address and password from my
 
 Third, I set the IMAP account credentials.
 
-    ----------------
-    --  Accounts  --
-    ----------------
-
     T = IMAP {
         server   = offlineimap('remotehost'),
         username = offlineimap('remoteuser'),
@@ -71,13 +67,9 @@ Third, I set the IMAP account credentials.
 I select the things to be moved into "Pulse".
 
     pulse = (
-        T.INBOX:contain_from('facebookmail.com') +
-        T.INBOX:contain_from('twitter.com') +
-        T.INBOX:contain_from('voice.google.com') +
-        T.INBOX:contain_from('postmaster.twitter.com') +
-        T.INBOX:contain_from('linkedin.com') + T.INBOX:contain_field('Reply-To', 'reply.linkedin.com') +
         T.INBOX:contain_from('voice-noreply@google.com') +
-        T.INBOX:contain_from('plus.google.com') +
+        T.INBOX:contain_from('linkedin.com') +
+        T.INBOX:contain_field('Reply-To', 'reply.linkedin.com') +
         -- ...
         T.INBOX:contain_from('github.com')
     )
