@@ -36,13 +36,9 @@ T = IMAP {
 --  modeling  --
 ----------------
 pulse = (
-    T.INBOX:contain_from('facebookmail.com') +
-    T.INBOX:contain_from('twitter.com') +
-    T.INBOX:contain_from('voice.google.com') +
-    T.INBOX:contain_from('postmaster.twitter.com') +
-    T.INBOX:contain_from('linkedin.com') + T.INBOX:contain_field('Reply-To', 'reply.linkedin.com') +
     T.INBOX:contain_from('voice-noreply@google.com') +
-    T.INBOX:contain_from('plus.google.com') +
+    T.INBOX:contain_from('linkedin.com') +
+    T.INBOX:contain_field('Reply-To', 'reply.linkedin.com') +
     -- ...
     T.INBOX:contain_from('github.com')
 )
