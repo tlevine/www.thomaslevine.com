@@ -12,6 +12,8 @@ to my email-synchronization [crontab](https://github.com/tlevine/.prophyl-teh-aw
 
     @hourly imapfilter && offlineimap && notmuch new 
 
+The configuration file is quite well documented in `man imapfilter_config`.
+
 ## Overview of filters
 All mail comes into the "INBOX" folder.
 
@@ -33,8 +35,8 @@ publically, so I've removed some of the pulse filters, replaced them with the
 line `-- ...`, and posted the configuration [here](<%= @item.identifier %>config.lua).
 I walk through it below.
 
-First, I set some options that were in the configuration files that I based
-mine on. I don't know what they do.
+First, I set some options that were in some other configuration files.
+If you want to know what they do see `man imapfilter_config`.
 
     options.timeout = 120
     options.subscribe = true
