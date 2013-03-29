@@ -85,3 +85,12 @@ And I do the same for "Spam".
         T.INBOX:contain_subject('PMX:#')
     )
     spam:move_messages(T.Spam)
+
+## References
+Here are some other posts on imapfilter. I don't remember which ones I used
+when writing the file, but they're probably in this list.
+
+* [Filtering IMAP mails using imapfilter](http://noorul.com/blog/2010/07/09/filtering-imap-mails-using-imapfilter/)
+* [linux task: sorting mail with imapfilter](http://www.npcglib.org/~stathis/blog/2012/07/09/linux-task-sorting-mail-with-imapfilter/)
+* [Sorting IMAP Mail with Imapfilter](http://moiristo.wordpress.com/2008/11/18/sorting-imap-mail-with-imapfilter/)
+* [Server-side IMAP filtering done right](http://gaillourdet.net/2011/05/server-side-imap-filtering-done-right/)
