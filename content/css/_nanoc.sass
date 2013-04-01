@@ -300,3 +300,13 @@ nav .link
   article
     // Four little-card margins plus five little cards
     width: 4 * (($calling-card-long - (3 * $topic-card-width * $square))/2) + 5 * $topic-card-width * $square 
+
+
+@media print
+  nav
+    display: none
+  .title-card
+    width: 100%
+    height: auto
+    text-align: left
+
