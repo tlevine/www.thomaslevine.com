@@ -2,19 +2,18 @@
 title: Addiction Recovery Meetings
 tags: ['data']
 relationships: ['addicaid']
-created_at: 2013-03-30
+created_at: 2013-04-07
 kind: article
 ---
-I collected some information about addiction recovery meetings from
-[In The Rooms](http://www.intherooms.com) for [Addicaid](http://addicaid.com/).
-I got information on meetings within 125 miles of Brooklyn.
+I've been helping [Addicaid](http://addicaid.com/) think about data.
+
+Here's part of an analysis I did for them a while ago. I collected
+information about addiction recovery meetings within 125 miles of Brooklyn
+from [In The Rooms](http://www.intherooms.com).
 
 <img alt="Meetings plotted as points on a map of the New York metropolitan area"
      src="<%= item.identifier %>map.png"
      class="wide" />
-
-They just wanted this information so they could list the meetings on a phone
-application, but I thought I could have more fun with the data.
 
 Let's focus on New York city because most of them are there.
 
@@ -89,5 +88,4 @@ in table form; here are the locations that had at least ten meetings.
     </tbody>
 </table>
 
-I've since downloaded more meetings from In the Rooms. What else can we learn
-from these data?
+This begins to show us who runs addiction recovery meetings, what places host them, &c.
