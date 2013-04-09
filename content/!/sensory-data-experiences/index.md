@@ -31,9 +31,9 @@ Data animations are also becoming popular in experimental physics, for both the
 ATLAS and CMS experiments.
 
 <!-- https://twiki.cern.ch/twiki/pub/AtlasPublic/HiggsPublicResults//4l-FixedScale-NoMuProf2.gif -->
-![ATLAS](<% @item.identifier %>4l-FixedScale-NoMuProf2.gif)
+[![ATLAS]](4l-FixedScale-NoMuProf2-preview.png)](<% @item.identifier %>4l-FixedScale-NoMuProf2.gif)
 
 <!-- https://twiki.cern.ch/twiki/pub/CMSPublic/Hig13002TWiki/HZZ4l_animated.gif -->
-![CMS](<% @item.identifier %>HZZ4l_animated.gif)
+[![CMS](HZZ4l_animated-preview.png)](<% @item.identifier %>HZZ4l_animated.gif)
 
 Data music videos are the future.
