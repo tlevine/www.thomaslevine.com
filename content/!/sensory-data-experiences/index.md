@@ -14,7 +14,7 @@ experiences. I started toying with this a few years ago around Christmas time.
 <iframe width="560" height="315" src="http://www.youtube.com/embed/rLZDvXPIDa0" frameborder="0" allowfullscreen></iframe>
 
 They've recently become more popular. My [band](http://csvsoundsystem.com)
-and I developed a music video of treasury data.
+made a music video of treasury data.
 
 [<img alt="FMS Symphony" src="<% @item.identifier %>fms.png" class="wide" />](http://fms.csvsoundsystem.com)
 
@@ -22,7 +22,12 @@ Küechenstudio made a [podcast](http://www.kuechenstud.io/datenschau/podcast/ds0
 about some of the other recent advances in data music.
 
 Combining data with music, specifically, may also appeal to a younger audience.
-Here's a music video that the White House released to advertise the State of the
+This is because both data is "in".
+
+> [S]tatisticians are the new sexy vampires, only even more pasty.
+> ([Emma Gertlowitz](http://www.newyorker.com/humor/2012/11/19/121119sh_shouts_rudnick))
+
+Recognizing this, the White House released to advertise the State of the
 Union Address. It uses pie charts and dubstep to appeal to a younger audience.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/i85haOoK5os" frameborder="0" allowfullscreen></iframe>
@@ -36,4 +41,11 @@ ATLAS and CMS experiments.
 <!-- https://twiki.cern.ch/twiki/pub/CMSPublic/Hig13002TWiki/HZZ4l_animated.gif -->
 [![CMS](HZZ4l_animated-preview.png)](<% @item.identifier %>HZZ4l_animated.gif)
 
-Data music videos are the future.
+Dynamic, multisensory data experiences will help us make sense of big data.
+In the long term, we really need to gastronomify data in order to experience
+them with all of the senses, but that isn't feasible right now because of the
+reasonably high cost of food printers (three-dimensional printers).
+
+Until we develop cheaper taste and smell APIs, we are stuck with what we have
+on our smartphones, laptops, &c., which is vision, hearing and touch. We need
+to make data music videos in order to make the most of these tools.
