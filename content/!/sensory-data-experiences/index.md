@@ -61,3 +61,6 @@ my [code](http://tlevine.github.io/music-videos-in-r/live-code-christmas.r)
 [demos](http://tlevine.github.io/music-videos-in-r/live-code-fms.r),
 [Brian's slides](http://csv.github.io/ddr_nyhackr/) and Brian's
 [data-driven rhythms](https://github.com/csv/ddr) package.
+A video of the talk is below.
+
+<iframe width="560" height="340" src="http://cdn.livestream.com/embed/knerd?layout=4&amp;clip=pla_a5d59285-9399-47dc-aaef-2b9a77142d5e&amp;height=340&amp;width=560&amp;autoplay=false" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe>
