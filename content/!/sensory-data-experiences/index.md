@@ -1,5 +1,7 @@
 ---
 title: Multisensory data experiences
+kind: article
+created_at: 2013-04-10
 ---
 Big data leads quickly to information overload.
 
@@ -49,3 +51,13 @@ reasonably high cost of food printers (three-dimensional printers).
 Until we develop cheaper taste and smell APIs, we are stuck with what we have
 on our smartphones, laptops, &c., which is vision, hearing and touch. We need
 to make data music videos in order to make the most of these tools.
+
+## Other resources
+[Brian Abelson](http://brianabelson.com)
+and I gave a [talk](http://www.meetup.com/nyhackr/events/111193682/) on this at the
+[New York Open Statistical Programming Meetup](http://www.meetup.com/nyhackr/).
+Here are [my slides](http://tlevine.github.com/music-videos-in-r),
+my [code](http://tlevine.github.io/music-videos-in-r/live-code-christmas.r)
+[demos](http://tlevine.github.io/music-videos-in-r/live-code-fms.r),
+[Brian's slides](http://csv.github.io/ddr_nyhackr/) and Brian's
+[data-driven rhythms](https://github.com/csv/ddr) package.
