@@ -43,5 +43,5 @@ you probably wanted a colon to be in the function. If you really did want to
 run the command without a colon, you can just run it with `env !!`.
 
 Elsewhere in my `.profile`, I make sure that the `.profile` is only applied in
-login shells, and not in scripts, so if scripts that use `scp` without a colon
+login shells, and not in scripts, so scripts that use `scp` without a colon
 are still fine.
