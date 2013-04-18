@@ -20,8 +20,7 @@ I copied the file to the local computer, naming it `chainsaw.thomaslevine.com`.
     $ ls
     bicycles.csv  chainsaw.thomaslevine.com
 
-<!--- finish the link -->
-[Here](https://github.com/tlevine/.prophyl-teh-awesum) is my solution.
+[Here](https://github.com/tlevine/.prophyl-teh-awesum/blob/master/source/scp) is my solution.
 
     scp() {
       # Require a colon to be provided.
