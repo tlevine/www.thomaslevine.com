@@ -1,6 +1,8 @@
 ---
 title: scp wrapper
 tags: ['dotfiles']
+created_at: 2013-04-17
+kind: article
 ---
 
 This has happened to me too many times.
