@@ -15,11 +15,11 @@ the full market value, which is equivalent to the assessed value. (It's
 I wanted to know what the general distribution of assessed values was like,
 so I plotted a histogram.
 
-![](<%= item.path %>total-assets-simple.png)
+![](<%= item.path %>total-assessed-simple.png)
 
 The data were very positively skewed, so I plotted them on a log scale.
 
-![](<%= item.path %>total-assets-log.png)
+![](<%= item.path %>total-assessed-log.png)
 
 The mound at the far-left is the 210 of 5954 properties that were assessed
 at $0. (These are the properties in the wholly exempt section of the roll.)
