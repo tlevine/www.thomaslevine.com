@@ -1,5 +1,7 @@
 ---
 title: Five stages of PhD
+created_at: 2013-04-21
+kind: article
 ---
 
 In my categorical data analysis class (BTRY 6030), 
@@ -16,4 +18,5 @@ On April 20, 2011, we learned about the five stages of PhD. They're
 
 Here's a picture of my notes from that day.
 
-![A hand-written list of the five stages of PhD](<%= item.identifier %>notebook.jpg)
+<img alt="A hand-written list of the five stages of PhD"
+     src="<%= item.identifier %>notebook.jpg" class="wide" />
