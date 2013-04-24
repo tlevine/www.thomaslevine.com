@@ -1,8 +1,9 @@
 ---
-title: Statistics indicate resolutions of indecision regarding April 25 statistics talks
+title: Attendees decide between statistics talks
 kind: article
 created_at: 2013-04-24
 ---
+Recent statistics indicate resolutions of indecision regarding April 25 statistics talks.
 
 Two statistics talks are competing in New York on April 25, 2013.
 
