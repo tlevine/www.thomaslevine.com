@@ -1,5 +1,5 @@
 ---
-title: wsync
+title: Datestamped archives of a webpage
 kind: article
 created_at: 2013-04-28
 ---
