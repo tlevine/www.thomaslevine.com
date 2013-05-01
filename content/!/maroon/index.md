@@ -1,5 +1,5 @@
 ---
-title: Maroon Application
+title: My appointment and termination at my high school newspaper
 tags: ['shenanigans']
 ---
 
@@ -44,6 +44,8 @@ This epitomizes my Tomness.
 
 Attachment: [thomaslevine.pdf](<%= @item.identifier %>thomaslevine.pdf)
 
+*Maroon* is my high school's official newspaper, and I got the position.
 
-(*Maroon* is my high school's official newspaper, and I got the position.)
-
+My Tomness is further demonstrated in my departure from that position.
+I'll reveal that story some other time.
+<!-- notmuch show id:677ee07e0708111912p5ba03ebfke35a51165198ae45@mail.gmail.com -->
