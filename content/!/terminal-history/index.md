@@ -1,6 +1,8 @@
 ---
 title: Terminal history
 tags: ['dotfiles']
+created_at: 2013-05-09
+kind: article
 ---
 If you use the default shell environment settings, you'll probably wind up
 storing very little of your history. Computers are so big, powerful and cheap
@@ -57,8 +59,8 @@ session's history, search the last month's history.
       fi
     }
 
-I've just documented the contents of [this file]().
-The other part is a [crontab entry]() that synchronizes my `~/.history`
+The above discourse is just documention of [this file](https://github.com/tlevine/.prophyl-teh-awesum/blob/master/source/history-sh).
+The other part is a [crontab](https://github.com/tlevine/.prophyl-teh-awesum/blob/master/crontab) entry that synchronizes my `~/.history`
 directory every hour.
 
     @hourly cd "${HOME}/.history" && git init && git add . &&  git commit . -m "@hourly commit" && git pull ; git push
