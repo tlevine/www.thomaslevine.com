@@ -1,6 +1,8 @@
 ---
 title: tmux aliases
 tags: ['dotfiles']
+created_at: 2013-06-07
+kind: article
 ---
 Before I implemented my `tmuxa` and `tmuxl` aliases, the three `tmux` calls
 that I used most often were `tmux`, `tmux list-sessions` and `tmux attach`.
@@ -27,7 +29,7 @@ that I used most often were `tmux`, `tmux list-sessions` and `tmux attach`.
           1 tmux --list-sessions
           7 tmux list-sessions
 
-Those commands are long, so I [made them shorter]().
+Those commands are long, so I [made them shorter](https://github.com/tlevine/.prophyl-teh-awesum/blob/master/source/tmux).
 
     alias tmuxl='tmux list-sessions'
     alias tmuxa='tmux attach'

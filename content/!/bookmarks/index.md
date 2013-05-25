@@ -1,5 +1,7 @@
 ---
 title: Bookmarks
+kind: article
+created_at: 2013-05-25
 ---
 I used to use [delicious](),
 but I always found it rather clumsy. I tried

@@ -1,7 +1,8 @@
 ---
 title: Inspiration for questions
+kind: article
+created_at: 2013-05-29
 ---
-
 
 I have various mental lists of ways of asking more questions, but I only seem
 to remember them when I need them. I'm trying to write them all down here.
@@ -27,3 +28,5 @@ to the sentence "I like broccili".
 * Vocabulary
   * "What is broccili?"
   * "What do you mean by 'like'?"
+* Motivation
+  * Why do you mention that you like broccili?

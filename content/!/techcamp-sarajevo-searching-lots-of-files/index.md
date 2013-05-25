@@ -1,7 +1,10 @@
 ---
 title: Searching lots of inconveniently formatted files at once
+kind: article
+created_at: 2013-05-25
 relationships: ['techsoup', 'state-dept']
 ---
+*This is cross-posted to [community boost_r](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once).*
 
 At [TechCamp Sarajevo](http://wiki.techcampglobal.org/index.php?title=TechCamp:Sarajevo_Agenda),
 some transparency advocates wanted a simple way to search lots of PDF and Word

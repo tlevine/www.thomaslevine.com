@@ -1,6 +1,8 @@
 ---
 title: URL Encoding and Decoding
 tags: ['dotfiles']
+created_at: 2012-06-15
+kind: article
 ---
 There was a time when I quite often wanted to encode or decode a URL.
 Conveniently, someone had already written
