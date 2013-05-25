@@ -103,14 +103,13 @@ You can view the skeleton site by browsing the generated `output/index.html` fil
     nanoc validate-css
     nanoc validate-links
 
-## Branches
+## Development
 
 ### Composing
 `master` should always have a presentable website state, including `created_at`
 dates. This way, the site can be recompiled automatically every day, and queued
-posts can be added automatically.
-
-Develop new posts in other branches.
+posts can be added automatically. Developing on master is okay as long as
+articles in progress are not given a `kind` `article` and a `created_at` date.
 
 There are a few helpful scripts for reviewing the various queued posts.
 Run `./non-articles.sh` to find files named `content/!/*/index.md`
