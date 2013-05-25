@@ -1,12 +1,13 @@
 ---
 title: BetterCoach and the merits of the inferior schedule-finder
-created_at: 2012-05-23
+short_title: BetterCoach
+created_at: 2011-11-13
 kind: article
 ---
 
 The [Coach](http://coachusa.com) [bus](http://coachcanada.ca)
 [schedule-finder](http://shortlinebus.com) is hard-to-use,
-so I made a [better one](http://bettercoa.ch).
+so I made a [better one](http://bettercoach.thomaslevine.com).
 
 But the official schedule-finder is actually sort of cool,
 at least for its time.

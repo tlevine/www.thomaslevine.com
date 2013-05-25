@@ -1,5 +1,6 @@
 ---
 title: My personal computer infrastructure
+tags: ['compumter']
 ---
 
 This is the architecture that runs my various sites and other services
@@ -47,3 +48,9 @@ My [home network](http://chainsaw.chickenkiller.com) does assorted things.
 * cluster: distributed computations)
 * desk: database, email (offlineimap, notmuch, mutt), main workstation
 * laptop: arduino and distributed computations
+
+### Services that need to keep running
+
+* Facebook study data logger
+* Wetlands importer
+* Human trafficking importer

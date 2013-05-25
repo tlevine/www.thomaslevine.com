@@ -1,0 +1,153 @@
+#app table {
+    border-collapse: collapse;
+}
+
+#app form.calculator {
+    height: 10em;
+    position: relative;
+}
+
+#app form.calculator-basic label,
+#app form.calculator-basic .scale,
+#app form.calculator-basic input,
+#app form.calculator-basic a {
+    display: block;
+    width: 100%;
+}
+#app form.calculator-basic label {
+    font-weight: bold;
+    text-align: center;
+}
+#app form.calculator-basic input {
+    height: 45%;
+}
+#app form.calculator-basic a {
+    text-align: right;
+}
+#app form.calculator-basic .scale {
+    font-weight: bold;
+    height: 20%;
+}
+#app form.calculator-basic .scale .min {
+    float: left;
+    text-align: left;
+}
+#app form.calculator-basic .scale .current {
+    position: absolute;
+    bottom: 35%;
+}
+#app form.calculator-basic .scale .max {
+    float: right;
+    text-align: right;
+}
+
+
+#app form.calculator-advanced .form-field {
+    height: 2em;
+    width: 100%;
+    max-width: 540px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#app form.calculator-advanced .form-field label,
+#app form.calculator-advanced .form-field a,
+#app form.calculator-advanced .form-field input {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0;
+}
+#app form.calculator-advanced .form-field label,
+#app form.calculator-advanced .form-field a {
+    width: 80%;
+    text-align: right;
+}
+#app form.calculator-advanced .form-field input {
+    float: right;
+    border-width: 2px;
+    width: 15%;
+}
+
+/* Widths */
+#app {
+    width: 95%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#app table {
+    width: 100%;
+}
+#app table.levy th, #app table.levy td {
+    width: 14.28571%;
+}
+
+/* Match the styling of the paper. This includes
+   - Text alignment
+   - Line breaks
+   - Borders
+   - Colors
+*/
+
+/* Borders */
+#app table.levy, #app table.levy tbody , #app table.levy tfoot {
+    border: 1px solid black;
+}
+#app table.levy thead th, #app table.levy thead td ,
+#app table.levy tbody th, #app table.levy tbody td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* Color */
+#app { background-color: white; }
+#app table.levy thead th {
+    background-color: #DDD;
+}
+#app * {
+    color: black;
+    font-family: aoeu, Arial, sans-serif;
+}
+
+/* Text alignment */
+#app table.levy thead th {
+    text-align: center;
+}
+#app table.levy tbody .total-tax-levy, #app table.levy tbody .percent-change,
+#app table.levy tbody .assessed-total-value, #app table.levy tbody .assessed-taxable-value, 
+#app table.levy tbody .tax-rate,  #app table.levy tbody .tax-amount, tfoot .tax-amount {
+    text-align: right;
+}
+
+/* Additional information app table */
+#app table.additional-information {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+#app table.additional-information thead {
+    text-align: left;
+    font-weight: bold;
+}
+#app table.additional-information tbody {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#app table.additional-information td.number {
+    text-align: right;
+}
+
+/* thomaslevine.com is too skinny until 1008px */
+#screen-size-warning { display: none; }
+@media screen and (max-width: 1008px) {
+    #app { display: none; }
+    #screen-size-warning {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid;
+        padding: 0.5em;
+    }
+}

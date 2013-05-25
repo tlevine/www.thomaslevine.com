@@ -1,7 +1,6 @@
 ---
 title: Words that are hard to spell
-created_at: 2012-11-28
-kind: article
+tags: ['shenanigans']
 ---
 I previously used "(es)perluette" as my name in a bunch of places. (It's a
 French word for "ampersand".) As such, people who didn't know French wouldn't

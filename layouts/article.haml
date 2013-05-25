@@ -1,7 +1,13 @@
-%header
+%nav
   = render '_nav_boxes'
 
-#main{ :role => 'main' }
-  %article
-    %h1 #{item[:title]}
-    .body=yield
+%header.title-card
+  = render('_title_card', :item => item, :link => false)
+
+#article-wrapper
+  %article=yield
+
+#pagination
+  .base-little-card
+    = link_to('View source', 'https://github.com/tlevine/www.thomaslevine.com/tree/master/content' + @item.identifier + 'index.md')
+    = link_to('Discuss', 'https://twitter.com/thomaslevine')

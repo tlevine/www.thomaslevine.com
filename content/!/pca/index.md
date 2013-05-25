@@ -1,7 +1,9 @@
 ---
 title: How principle component analysis works
+short_title: How PCA works
 created_at: 2012-11-19
 kind: article
+tags: ['data', 'doodles']
 ---
 Principal component analysis (PCA) finds relationships in numerical
 (as opposed to categorical) data. It works by plotting the data on a
@@ -11,7 +13,7 @@ Here's a simple explanation of how PCA works. For this explanation, I'll
 assume that we only have two variables, but it's conceptually the same with
 more variables. Here are two variables.
 
-![A scatterplot](1.png)
+![A scatterplot](<%= @item.identifier %>1.png)
 
 These variables could be any numerical variable. Maybe *x* is height and *y*
 is arm length. For this explanation, however, let's use coordinates on a map.
@@ -22,30 +24,30 @@ the town. Let's say that the points are houses. We can refer to the locations
 of these houses their *x* and *y* coordinates; the red point has an *x* of 12
 and a *y* of 6, so it is at (12, 6).
 
-![A scatterplot with a red point at (12, 6)](4.png)
+![A scatterplot with a red point at (12, 6)](<%= @item.identifier %>4.png)
 
 We start by drawing the best-fit line between these two variables.
 
-![The same scatterplot with a best-fit line](2.png)
+![The same scatterplot with a best-fit line](<%= @item.identifier %>2.png)
 
 This best-fit line is called the 'first component'.
 
 Next, we change axes so that the x-axis is the best-fit line and the y-axis
 is perpendicular to the best-fit line and in the middle of the cloud of points.
 
-![The scatterplot with the best-fit line and a line perpendicular the best-fit line](3.png)
+![The scatterplot with the best-fit line and a line perpendicular the best-fit line](<%= @item.identifier %>3.png)
 
 This second line is called the 'second component'.
 
 Now, we can refer to points using the new coordinate system. Recall the (12, 6)
 point from the old coordinate system.
 
-![A scatterplot with a red point at (12, 6)](4.png)
+![A scatterplot with a red point at (12, 6)](<%= @item.identifier %>4.png)
 
 In the new system it has an *x* value of 8 and a *y* value of -1,
 so it would be (8, -1).
 
-![A scatterplot with the rotated axes and the same red point](5.png)
+![A scatterplot with the rotated axes and the same red point](<%= @item.identifier %>5.png)
 
 That's how PCA works, but **what does it tell us**?
 
@@ -77,4 +79,4 @@ tend to live close to the river, so we might be able to get away with just
 using the "location along the river" variable for future analyses. Having just
 one variable can make statistics easier to compute and easier to explain.
 
-(This explanation is taken from my work [for Place2Be](http://tlevine.github.com/place2be/).)
+<!-- (This explanation is taken from my work [for Place2Be](http://tlevine.github.com/place2be/).) -->

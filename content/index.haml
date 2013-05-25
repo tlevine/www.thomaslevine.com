@@ -1,106 +1,121 @@
-%header.clearfix
-  = render('_nav_boxes')
+%nav
+  = render '_nav_boxes'
+
+%header.business-card
   #contact.clearfix
     .words
       .name thomas levine
       .e-post#e-post
         %span occurrence at this domain
       .phone
-        607 699 1866
+        
       .social
-        %ul.nobullet
-          %a{ :href => "http://facebook.com/perluette"}
-            %li
-              fb
-          %a{ :href => "http://twitter.com/thomaslevine"}
-            %li
-              tw
-          %a{ :href => "http://www.linkedin.com/profile/view?id=13142929"}
-            %li
-              li
-          %a{ :href => "http://stackexchange.com/users/176493"}
-            %li
-              se
-          %a{ :href => "https://plus.google.com/112237825767532686869"}
-            %li
-              g+
-          %a{ :href => "https://joindiaspora.com/u/tlevine"}
-            %li
-              d* 
+        %a.elsewhere{ :href => "http://facebook.com/perluette"}
+          fb
+        %a.elsewhere{ :href => "http://twitter.com/thomaslevine"}
+          tw
+        %a.elsewhere{ :href => "http://www.linkedin.com/profile/view?id=13142929"}
+          li
+        %a.elsewhere{ :href => "http://stackexchange.com/users/176493"}
+          se
+        %a.elsewhere{ :href => "https://plus.google.com/112237825767532686869"}
+          g+
+        %a.elsewhere{ :href => "https://joindiaspora.com/u/tlevine"}
+          d* 
     .logo
-      %img{ :src => "/img/pink_hat_icon-200.png", :alt => "A photo of Tom" }
+      %img{ :src => "/img/pink_hat_icon-200.png", :alt => "Tom's hat" }
 
-#main{ :role => 'main' }
-  #topics.clearfix
-    #repositories.topic
-      = render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
+#links.clearfix
+  #repositories.link-group
+    = render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
-    #data.topic
-      = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://wetlands.thomaslevine.com'], ['dead people', 'http://www.deadpeoplebornonmybirthday.com'], ['hipstogram', 'https://github.com/tlevine/hipstogram']])
+  #data.link-group
+    = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['dead people', 'http://www.deadpeoplebornonmybirthday.com'], ['hipstogram', 'https://github.com/tlevine/hipstogram'], ['scarsdale', '/scarsdale/']])
 
-    #libraries.topic
-      = render('_topic_box', :topic => 'libraries', :links => [['dumptruck', "http://dumptruck.io/"], ['local scraperwiki', "https://github.com/tlevine/scraperwiki_offline"], ['sqlite web api', 'https://github.com/scraperwiki/dumptruck-web'], ['dicti', 'https://github.com/tlevine/dicti']])
- 
-    #buttons.topic
-      = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['school application', 'https://gist.github.com/1231284'], ['postal addresses', 'https://views.scraperwiki.com/run/usps_lookup/'], ['unwatermark', 'https://github.com/tlevine/unwatermark']])
- 
-    -##ergonomics.topic
-      %h2
-        %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Definitions-of-ergonomics%22%5D", :title => "Definition of &quot;ergonomics&quot;"} ergonomics
-      %ul.nobullet
-        %li
-          %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-research-interests%22%5D"} research
-        -#%li
-          %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-consulting%22%5D"} tips
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
-        -#%li
-          %a{ :href => ""} toilets
- 
- 
-    #letterpress.topic
-      %h2 letterpress
-      %ul.nobullet
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Letterpress/Large-media/Nude-Jello-Wrestling/15368415_RnjWVr#!i=1130468970&k=a8288&lb=1&s=A"} wrestling
-        %li
-          %a{ :href => "http://cornell.freeculture.org/2009/08/30/a-new-semester-meeting-thursday-september-3/"} free culture
-        -#%li
-          -#%a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Orpheus-Myth/16330167_v962vW#!i=1208776292&k=n928N&lb=1&s=A"}
-            -#complicity
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Risley-40th-anniversary/14742719_WnJwH6#!i=1098630977&k=yq9yN&lb=1&s=A"} tea party
+  -#data-good.link-group
+    = render('_topic_box', :topic => 'data4good', :links => [['microfinance', 'datakind'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupar', '']])
 
-    #installations.topic
-      %h2 installations
-      %ul.nobullet
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Installations/pbdq/13233432_pnjHDC#!i=1317336922&k=GjzWXK6&lb=1&s=A"} pb dq
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Installations/Gullible-on-the-ceiling/12815982_8pTftB#!i=924144438&k=PwiGz&lb=1&s=A"} gullible
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Installations/Crosswalk/14816734_p5fTK9#!i=1169127198&k=vtgWk"} jaywalking
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Installations/Masquerave-2010/14225818_83md3v#!i=1077318594&k=u5YzK"} fire safety
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
+  -#data-nonsense.link-group
+    = render('_topic_box', :topic => 'data4fun', :links => [['dead people', 'http://www.deadpeoplebornonmybirthday.com'], ['scarsdale', '/scarsdale/']])
 
-    #doodles.topic
-      %h2 doodles
-      %ul.nobullet
-        %li
-          %a{ :href => "http://www.youtube.com/watch?v=rLZDvXPIDa0"} christmas
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Typography/Pizza-Boxes"} pizza boxes
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Typography/Risquirer/risquirer-20100504/12846614_ZbL7xv#!i=932454990&k=r7xgo&lb=1&s=A"} risquirer
-        %li
-          %a{ :href => "http://smug.thomaslevine.com/Typography/Doodles"} more
- 
-    -##trolls.topic
-      = render('_topic_box', :topic => 'trolls', :links => [['definition', ''], ['jello wrestling', ''], ['drag parties', '']])
+  -#hipsterdom.link-group
+    = render('_topic_box', :topic => 'hipsterdom', :links => [['hipstogram', 'https://github.com/tlevine/hipstogram']])
 
-    -##things.topic
-      = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
-    #etc.topic
-      = render('_topic_box', :topic => '&c.', :links => [['tahrir supplies', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['bus schedules', "http://bettercoa.ch"], ['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"], ['twinkle', '/!/twinkle/']])
+  #libraries.link-group
+    = render('_topic_box', :topic => 'libraries', :links => [['dumptruck', "http://dumptruck.io/"], ['scraperwiki', "https://github.com/tlevine/scraperwiki_offline"], ['sqlite web api', 'https://github.com/scraperwiki/dumptruck-web'], ['dicti', 'https://github.com/tlevine/dicti']])
+
+  #buttons.link-group
+    = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['usps', 'https://views.scraperwiki.com/run/usps_lookup/']])
+
+  #nerd-cred.link-group
+    = render('_topic_box', :topic => 'nerd cred', :links => [['web forms', 'https://gist.github.com/1231284'], ['unwatermark', 'https://github.com/tlevine/unwatermark'], ['.profile', 'https://github.com/tlevine/.prophyl-teh-awesum']])
+
+  -##ergonomics.link-group
+    %h3
+      %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Definitions-of-ergonomics%22%5D", :title => "Definition of &quot;ergonomics&quot;"} ergonomics
+    %ul.nobullet
+      %li
+        %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-research-interests%22%5D"} research
+      -#%li
+        %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-consulting%22%5D"} tips
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
+      -#%li
+        %a{ :href => ""} toilets
+
+
+  #letterpress.link-group
+    %strong letterpress
+    %ul.nobullet
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Letterpress/Large-media/Nude-Jello-Wrestling/15368415_RnjWVr#!i=1130468970&k=a8288&lb=1&s=A"} wrestling
+      %li
+        %a{ :href => "http://cornell.freeculture.org/2009/08/30/a-new-semester-meeting-thursday-september-3/"} free culture
+      -#%li
+        -#%a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Orpheus-Myth/16330167_v962vW#!i=1208776292&k=n928N&lb=1&s=A"}
+          -#complicity
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Risley-40th-anniversary/14742719_WnJwH6#!i=1098630977&k=yq9yN&lb=1&s=A"} tea party
+
+  #installations.link-group
+    %strong installations
+    %ul.nobullet
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Installations/pbdq/13233432_pnjHDC#!i=1317336922&k=GjzWXK6&lb=1&s=A"} pb dq
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Installations/Gullible-on-the-ceiling/12815982_8pTftB#!i=924144438&k=PwiGz&lb=1&s=A"} gullible
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Installations/Crosswalk/14816734_p5fTK9#!i=1169127198&k=vtgWk"} jaywalking
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Installations/Masquerave-2010/14225818_83md3v#!i=1077318594&k=u5YzK"} fire safety
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
+
+  #music.link-group
+    = render('_topic_box', :topic => 'music', :links => [['christmas', 'http://www.youtube.com/watch?v=rLZDvXPIDa0'], ['fed spending', 'http://fms.csvsoundsystem.com'], ['twinkle', '/!/twinkle/']])
+
+  #doodles.link-group
+    %strong doodles
+    %ul.nobullet
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Typography/Pizza-Boxes"} pizza boxes
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Typography/Risquirer/risquirer-20100504/12846614_ZbL7xv#!i=932454990&k=r7xgo&lb=1&s=A"} risquirer
+      %li
+        %a{ :href => "http://smug.thomaslevine.com/Typography/Doodles"} more
+
+  -##trolls.link-group
+    = render('_topic_box', :topic => 'trolls', :links => [['definition', ''], ['jello wrestling', ''], ['drag parties', '']])
+
+  -##things.link-group
+    = render('_topic_box', :topic => 'things', :links => [['stenotype', ''], ['emg', '']])
+
+  #toilets.link-group
+    = render('_topic_box', :topic => 'toilets', :links => [['dorm', '/!/risley-toilets'], ['map', 'http://mapsh.it'], ['hovering', '/!/hovering-cycle']])
+    -# = render('_topic_box', :topic => 'toilets', :links => [['dorm', '/!/risley-toilets'], ['map', 'http://mapsh.it'], ['hovering', 'phlush'], ['overflows', '']])
+
+  #shenanigans.link-group
+    = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"]])
+
+  #etc.link-group
+    = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"]])

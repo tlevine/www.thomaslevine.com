@@ -1,7 +1,9 @@
 ---
-title: Shell Testing
-created_at: 2012-12-01
+title: Tests for your shell
+created_at: 2012-12-12
 kind: article
+tags: ['computer']
+relationships: ['scraperwiki']
 ---
 Extreme hipster superheroes like me need tests for their shell. Here's what's
 available.
@@ -12,14 +14,26 @@ life on the edge. Inevitably, this results in tedious manual 'testing'. Loads
 of projects use this approach.
 
 * [git flow](https://github.com/nvie/gitflow)
-* [rbenv](https://github.com/sstephenson/rbenv)
-* Shell frameworks
-  * [bashinator](http://www.bashinator.org/)
-  * [bash-it](https://github.com/revans/bash-it)
-  * [prezto](https://github.com/sorin-ionescu/prezto)
-  * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [homeshick](https://github.com/andsens/homeshick)
 * [ievms](https://github.com/xdissent/ievms/blob/master/ievms.sh)
+* [rbenv](https://github.com/sstephenson/rbenv)
 * [z](https://github.com/rupa/z)
+
+Here are some more. I separated them because they're all shell profiles.
+
+* [bashinator](http://www.bashinator.org/)
+* [bash-it](https://github.com/revans/bash-it)
+* [prezto](https://github.com/sorin-ionescu/prezto)
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+This is actually okay much of the time. Shell is often convenient for
+connecting different programs and configuring stuff, but other languages have
+structures and syntax that are convenient for more complex things. If your
+shell scripts are short and easy to read, maybe you don't need tests.
+
+I often see shell scripts as just notes of what I did to configure software on
+a particular computer rather than as a program that I intend for many other
+people to use.
 
 ## Posers: Automated commands with manual human review
 You can easily generate a rough test suite by just saving the commands you used
@@ -48,7 +62,7 @@ is that it defines its own assertion functions, like `assertEquals` and
 uses it.
 
 [tf](https://github.com/mpapis/tf) is also similar, but it is cool because it
-provides some special shell-style assertions ("Matchers") that are specified as
+provides some special shell-style assertions ("matchers") that are specified as
 shell comments. Rather than just testing status codes or stdout, you can also
 test environment characteristics, and you can test multiple properties of one
 command. [rvm](https://github.com/wayneeseguin/rvm-test) uses it.
@@ -56,13 +70,13 @@ command. [rvm](https://github.com/wayneeseguin/rvm-test) uses it.
 There are some language-agnostic protocals with assertion libraries in multiple
 languages. The idea is that you can combine test results from several
 languages. I guess this is more of a big deal for shell than for other
-languages because shell is likely to be used for a small componend of a project
+languages because shell is likely to be used for a small component of a project
 that mostly uses another language.
 [WvTest](https://github.com/apenwarr/wvtest/blob/master/sh/t/twvtest.sh) and
 [Test Anything Protocal](http://testanything.org/wiki/index.php/Tap-functions)
 (This site is down for me right now.) are examples of that.
 
-Even though all of these frameworks exist, the artisinal test frameworks are
+Even though all of these frameworks exist, artisinal test frameworks are
 often specially crafted for a specific projects. This is the case for
 [bash-toolbox](https://github.com/codigorama/bash-toolbox/blob/master/lib/asserts.sh)
 and [treegit](https://github.com/tlevine/treegit/blob/master/tests).
@@ -71,7 +85,7 @@ Implementing your own framework like this is pretty simple; the main thing you
 need to know is that `$?` gives you the exit code of the previous command, so
 something like this will tell you whether the previous command passed.
 
-    [ "$?" = '0' ]
+    test "$?" = '0'
 
 ## Ironic elegance: Design for the shell
 Assertion libraries are common and reasonable in other languages, but I don't
@@ -122,7 +136,8 @@ I recommend cmdtest if you are mainly testing input and output; otherwise, I
 recommend Urchin. If you are working on a very simple project, you might also
 consider writing your own framework.
 
-For whatever reason, test-driven development is mainstream in other languages
+## For hip trend-setters like me
+Test-driven development is mainstream in other languages
 but uncommon in shell. Nobody does test-driven development in shell, so all of
-these approaches are ahead of the curve. A hip programmer like you should be
-testing his shell scripts **now**, before shell testing gets big.
+these approaches are ahead of the curve. Hip programmers like me know this, so
+we're testing our shell scripts now, before shell testing gets big.

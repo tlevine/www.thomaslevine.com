@@ -22,68 +22,74 @@ I present the first two in tables and the latter two in lists. See the
 
     English                     American
     -------------------------   -------------------------
-    carry on (with)             keep (on), keep going
-    happy to                    okay with, fine with
-    shop                        store
-    holiday                     vacation
-    scheme                      program
-    torch                       flashlight
-    proper, properly            real, really
-    single (ticket)             one-way (ticket)
-    return (ticket)             round-trip (ticket)
-    cross                       angry, pissed
-    adj: rubbish                shit
-    n: rubbish                  garbage, trash
-    take away (food)            take out (food)
-    (food) to take away         (food) to go
-    set down                    drop off
-    cheers                      thanks
-    massively                   really
-    porridge                    oatmeal
-    pavement                    sidewalk
-    cycling                     biking
-    v: cycle                    v: bike
-    nought, naught              zero, O
-    full stop                   period
-    cash machine                atm
-    Hoover                      vacuum
-    let                         lease
-    hire                        rent
-    cover                       sub(stitute teacher)
-    petrol                      gas
-    candy floss                 cotton candy
-    hob                         stove
-    crossing                    crosswalk
-    take register               take attendance
+    4-way plug, 6-way socket    power strip, surge protector
+    advert                      advertisement
+    beetroot                    beet(s)
+    the bill (at a restaurant)  the check (at a restaurant)
+    bin bag                     garbage bag
     bin                         dumpster
     bin                         garbage (can)
-    bin bag                     garbage bag
+    brown (bread)               (whole) wheat (bread)
+    candy floss                 cotton candy
+    car park                    parking lot
+    carry on (with)             keep (on), keep going
+    cash machine                atm
+    cheers                      thanks
+    cover                       sub(stitute teacher)
+    cross                       angry, pissed
+    crossing                    crosswalk
+    cupboard                    cabinet
+    v: cycle                    v: bike
+    cycling                     biking
+    data dictionary             codebook
+    diary                       agenda, planner
+    diversion                   detour
+    dummy                       pacifier
+    flat                        apartment
+    free phone                  toll-free
+    full stop                   period
     half-(ten)                  (ten)-thirty
+    happy to                    okay with, fine with
     (home) help                 housekeeper
+    hire                        rent
+    hob                         stove
+    holiday                     vacation
+    Hoover                      vacuum
+    let                         lease
+    lift                        elevator
+    local pub                   dive bar
+    local pub                   dive bar
+    loo                         bathroom
+    massively                   really
+    nought, naught              zero, O
+    pavement                    sidewalk
+    petrol                      gas
+    porridge                    oatmeal
+    proper, properly            real, really
+    queue                       line
+    return (ticket)             round-trip (ticket)
+    adj: rubbish                shit
+    n: rubbish                  garbage, trash
+    scheme                      program
+    set down                    drop off
+    shop                        store
+    single (ticket)             one-way (ticket)
+    speech mark                 quotation mark
+    strimmer                    weed-wacker
+    sweetie(s)                  sweet(s)
+    take away (food)            take out (food)
+    (food) to take away         (food) to go
+    take register               take attendance
+    tea towel                   dish towel
     a tener                     a ten, a ten-dollar bill
     a tener, ten-pound note     a ten
+    top up                      fill, refill
+    torch                       flashlight
+    veg                         veggie
     washing                     laundry
     washing-up                  dishes
     washing-up liquid           dish soap
-    the bill (at a restaurant)  the check (at a restaurant)
-    veg                         veggie
-    sweetie(s)                  sweet(s)
-    car park                    parking lot
-    advert                      advertisement
-    queue                       line
-    dummy                       pacifier
-    speech mark                 quotation mark
-    strimmer                    weed-wacker
-    diary                       agenda, planner
-    4-way plug, 6-way socket    power strip, surge protector
     you lot                     y'all, you all
-    loo                         bathroom
-    beetroot                    beet(s)
-    brown (bread)               (whole) wheat (bread)
-    local pub                   dive bar
-    tea towel                   dish towel
-    cupboard                    cabinet
-    data dictionary             codebook
 
 ## Grammar
 
@@ -150,11 +156,11 @@ in the English column.
 
     English                     American
     -------------------------   -------------------------
-    other half                  significant other
     brilliant                   great! wonderful!
     fortnight                   two weeks
-    zebra crossing              specific type of crosswalk
+    other half                  significant other
     pelican crossing            specific type of crosswalk
+    zebra crossing              specific type of crosswalk
 
 ## Other things
 
@@ -171,7 +177,7 @@ purposes. Some examples follow.
 * **Bushel** in American (maybe English too) for measuring farm produce
 * **Stone** in English for measuring body weight
 
-### Table formatting
+### Table Formatting
 The Vocabulary and Equivalents are presented in tables formatted thusly.
 
 Words in **parentheses** are optional; I include them for context or because the
@@ -184,3 +190,4 @@ phrases with commas.
 If parts of speech are not obvious, the word is preceded by the abbreviated part
 of speech and a colon
 
+Rows are sorted alphabetically by the English version.

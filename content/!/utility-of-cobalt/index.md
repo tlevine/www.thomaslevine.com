@@ -1,9 +1,11 @@
 ---
 title: Utlity of Cobalt
+tags: ['computer']
+relationships: ['scraperwiki']
 ---
 
 x.scraperwiki.com uses a new infrastructure for running scripts. We call it
-[Cobalt](github.com/scraperwiki/cobalt).
+[Cobalt](https://github.com/scraperwiki/cobalt).
 
 It gives you HTTP APIs for creating computer boxes, running code inside them
 and querying SQLite databases stored inside them. It also gives you a static
@@ -24,7 +26,7 @@ API and whatnot, it's not that helpful that Cobalt has them. Loads of different
 tools can already accomplish most of these components, so there's probably an
 easier way to set up a simple project than using Cobalt.
 
-![Manually drawn line plot of 'Utility of Cobalt' as a function of 'Project Complexity'](doodle.png)
+![Manually drawn line plot of 'Utility of Cobalt' as a function of 'Project Complexity'](<%= @item.identifier %>doodle.png)
 
 The benefit of Cobalt comes in encapsulating different projects into different
 computers and in standardizing the ways that different people do things.

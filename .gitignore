@@ -4,6 +4,6 @@
 .ruby-version
 Gemfile.lock
 output
+.rvmrc
 tmp
-Gemfile.lock
 crash.log

@@ -2,6 +2,7 @@
 title: Prevalence of Middle Names
 created_at: 2012-06-12
 kind: article
+tags: ['data']
 ---
 
 I was wondering what proportion of people have middle names, so I asked the Census.
@@ -53,7 +54,7 @@ and came up with this plot.
   proportion varies substantially by school, the graduate school
   having a particularly low rate of middle names and the agriculture
   school having a particularly high rate.
-](cornell_middle_names_by_school.png)
+](<%= @item.identifier %>cornell_middle_names_by_school.png)
 
 Based on discussions with some of the students in that census,
 I suspected that students underreport rather than
@@ -65,13 +66,10 @@ I [looked at](https://github.com/tlevine/united-states-middlenames)
 the names of [85,822,194 dead Americans](http://ssdmf.info)
 and came up with some more plots.
 
-[
-  ![Plot of middle name prevalence as a function of time by state,
-    showing a relatively sharp increase from 10% to 80% between 1880
-    and 1930, followed by a plateau until 1960, followed by a
-    smaller jump to 95% by 1975
-  ](us_middle_names_over_time.png)
-](us_middle_names_over_time_by_state.pdf)
+[<img alt="Plot of middle name prevalence as a function of time by state, showing a relatively sharp increase from 10% to 80% between 1880 and 1930, followed by a plateau until 1960, followed by a smaller jump to 95% by 1975"
+      src="<%= @item.identifier %>us_middle_names_over_time.png"
+      class="wide" />
+](<%= @item.identifier %>us_middle_names_over_time_by_state.pdf)
 
 The rate of middle names for dead people born[^birth] these days is about 90%,
 which is a lot more than the Cornell University student figures; this

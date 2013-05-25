@@ -1,4 +1,4 @@
-- url = "#{item.identifier}"
-%h3
-  %a{ :href => "#{url}" }
-    #{item[:title]}
+%strong
+  = link_to(item[:short_title] || item[:title], item.identifier)
+%footer
+  = item[:created_at].strftime('%b %d, %Y')

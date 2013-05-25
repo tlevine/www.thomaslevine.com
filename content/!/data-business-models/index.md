@@ -1,7 +1,9 @@
 ---
 title: Data business models
-created_at: 2012-11-15
+created_at: 2013-04-15
 kind: article
+tags: ['data']
+relationships: ['scraperwiki']
 ---
 
 I've been at loads of hip and non-hip data talks here and there and have come

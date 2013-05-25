@@ -2,6 +2,8 @@
 title: Handling exceptions in scrapers
 created_at: 2012-04-17
 kind: article
+tags: ['data']
+relationships: ['scraperwiki']
 ---
 
 When requesting and parsing data from a source with unknown properties

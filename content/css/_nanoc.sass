@@ -1,21 +1,7 @@
-// Parameters
-$calling-card-long: 12 * $square
-$calling-card-short: 6 * $square
-$topic-card-width: 4
-
 // Mixins and extends
 @mixin lean
   margin: 0
   padding: 0
-
-.box
-  background: white
-  margin:
-    top: 0.5 * $square
-    bottom: 0.5 * $square
-    left: auto
-    right: auto
-  padding: 0.5 * $square
 
 // General stuff
 p, h1, h2, h3, h4, h5
@@ -23,22 +9,40 @@ p, h1, h2, h3, h4, h5
   @include lean
 
 body
-  background: #444
+  background: $page-background
   color: $pink
-  font: 0.5 * $square
+  font:
     family: 'Open Sans', sans-serif
-    size: 62.5%
+    size: 4/9 * $square
   line-height: 0.5 * $square
   width: 100%
   height: 100%
   text-align: inherit
 
-h1, h2, h3, h4, h5
-  font-weight: bold
+h1
+  line-height: $square * 3 / 2
+  font-size: $square * 3 / 2
 
-nav ul, nav ol, ul.nobullet, ol.nobullet
+h2
+  line-height: $square
+  font-size: $square 
+
+h3
+  line-height: $square * 2 / 3
+  font-size: $square * 2 / 3
+
+h4
+  line-height: $square * 4 / 9
+  font-size: $square * 4 / 9
+
+nav > ul, nav > ol, ul.nobullet, ol.nobullet
   @include lean
   list-style-type: none
+
+nav .exclamation
+  font-size: 5em
+  font-weight: bold
+  line-height: 0.7em
 
 header, footer, #main
   @include lean
@@ -47,30 +51,10 @@ header, footer, #main
 span.home-char
   display: none
 
-$nav-card-gap: 0.65
-$nav-width: $topic-card-width + $nav-card-gap
-$nav-card-width: ($topic-card-width - $nav-card-gap) / 2
+.logo, .logo *
+  width: 100%
 
-nav
-  display: block
-  width: $nav-width * $square
-  margin:
-    left: auto
-    right: auto
-  height: ( $nav-card-width + 0.5 ) * $square
-
-  // Navigation icons
-  li.nav-char
-    @extend .box
-    float: left
-    width: $nav-card-width * $square
-    height: $nav-card-width * $square
-    padding: 0
-    margin: $nav-card-gap/2 * $square
-
-    font-size: 350%
-    line-height: 135%
-    text-align: center
+// Links ================================================= //
 
 a
   color: inherit
@@ -78,107 +62,206 @@ a
   &:visited
     color: inherit
   &:hover
-    color: #000
+    color: inherit
     text-decoration: inherit
   &:focus
     color: inherit
     outline: thin dotted
 
-.logo, .logo *
-  width: 100%
+// Base classes =========================================== //
+.base-card
+  text-align: center
+  background: white
+  margin:
+    top: 0.5 * $square
+    bottom: 0.5 * $square
+    left: auto
+    right: auto
+  padding: 0.5 * $square
 
-// The calling card
-#contact
-  @extend .box
-  padding: $square
-
-  // Standard business card size
+.base-big-card
+  @extend .base-card
   width: $calling-card-short
   height: $calling-card-long
+  padding: $square
 
-  // Golden ratio
-  // height: 12 * $square
+.base-little-card
+  @extend .base-card
+  width: ($topic-card-width - 1) * $square
+  height: ($topic-card-width - 1) * $square
 
+// Navigation ============================================= //
+
+// Make the top and bottom of the page have the same margin as everything else.
+nav
+  margin-top: 0.5 * $square
+
+#pagination
+  margin-bottom: 0.5 * $square
+
+// Big-cards ============================================== //
+
+// The calling card
+.business-card
+  @extend .base-big-card
   .social
-    width: 6em
+    width: 5 * $square
     margin:
       left: auto
       right: auto
-    li
+    a.elsewhere
       display: inline-block
-      width: 1.65em
-      height: 1.65em
-      margin: 0.25em
-      padding: 0.25em
+      width: $square / 2
+      height: $square / 2
+      margin: $square / 8
+      padding: $square / 4
       vertical-align: baseline
       text-align: center
       background: $pink
       color: white
       &:hover
-        background: #444
+        background: $page-background
         color: $pink
 
   .logo
     margin-top: 1 * $square
 
-// The small boxes
-.topic
-  @extend .box
-  width: ($topic-card-width - 1) * $square
-  height: ($topic-card-width - 1) * $square
+
+// Hack so that overflows but is still centered
+.e-post
+  width: 200%
+  text-align: center
+  margin-left: -50%
+  margin-right: -50%
+
+.title-card
+  @extend .base-big-card
+  position: relative
+  .date
+    position: absolute
+    bottom: 0
+    right: 0
+    text-align: right
+    margin: 0.5 * $square
+
+// Little-cards =========================================== //
+
+
+// One big link
+.link
+  @extend .base-little-card
+
+#categories .link
+  font-size: 1.5em
+  line-height: $topic-card-width
+
+nav .link
+  font-size: 6em
+  line-height: 3 * $square
+
+// Several small links
+.link-group
+  @extend .base-little-card
   ul
     @extend ul.nobullet
 
+// Different sections are different colors
+
+
 // A blog post
-article
-  @extend .box
-  width: 90%
-  max-width: 28 * $square
-  margin:
-    left: auto
-    right: auto
-  text-align: left
+#article-wrapper
+  background-color: $article-background
+  width: 100%
 
-  pre
-    background-color: lighten($pink, 30%)
-    color: #333
-    font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace
-    border: 1px solid desaturate(lighten($pink, 20%), 30%)
+  article
+    max-width: 100%
+    height: auto !important
+    padding:
+      top: $square
+      bottom: $square
     margin:
-      top: 0.5em
-      bottom: 0.5em
-    padding: 0.5em
-
-  p
-    margin-bottom: 0.75em
-    color: #333
-
-  a, a:visited
-    text-decoration: underline
-    color: $pink
-
-  img, iframe
-    width: 100%
-    margin:
-      top: 1.5em
-      bottom: 1.5em
       left: auto
       right: auto
-    border: none
+      top: $square
+      bottom: $square
+    display: block
+    text-align: left
+  
+    pre, blockquote
+      background-color: $page-background
+  
+    h1, h2, h3, h4, h5
+      margin-bottom: 0.25em
+  
+    table, pre, code
+      font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
+  
+    pre, blockquote
+      color: $article-text
+      margin:
+        top: 0.5em
+        bottom: 0.5em
+        left: 0
+        right: 0
+      padding: 0.5em
+  
+    p, li
+      margin-bottom: 0.75em
+      color: $article-text
+  
+    a, a:visited
+      text-decoration: underline
+      color: $pink
+  
+    img, iframe
+      width: 100%
+      margin:
+        top: 1.5em
+        bottom: 1.5em
+      border: none
+      background-color: white
+  
+    a, a:visited, a:hover, a:active, 
+    h1, h2, h3, h4, h5
+      color: $pink
 
-#contact, #topics 
-  text-align: center
-@media screen and (min-width: 640px)
-  #contact, #topics 
+    h1, h2, h3, h4, h5
+      font-weight: bold
+  
+    table
+      margin-bottom: 1em
+      color: $article-text
+      border:
+        bottom: 0.25em solid
+        bottom-color: $page-background
+        top: 0.25em solid
+        top-color: $page-background
+      thead
+        border-bottom: 0.25em solid
+        border-bottom-color: $page-background
+      tfoot
+        border-top: 0.25em solid
+        border-top-color: $page-background
+
+// Wide screen
+@media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
+  .title-card, .business-card
     text-align: left
 
-  #contact
-    width: $calling-card-long
+  .title-card, .business-card, article
     height: $calling-card-short
+    width: $calling-card-long
 
+  .business-card
     .words
       width: 40%
       float: left
+
+      .e-post
+        text-align: left
+        width: 100%
+        margin-left: 0
+        margin-right: 0
 
     .logo
       width: 5 * $square
@@ -190,15 +273,46 @@ article
       ul
         width: 12em
 
-  #topics
+  nav, #categories
+    display: block
+    height: ($topic-card-width + 1) * $square
+
+  nav, #categories, #links, #pagination
     width: 15 * $square
     margin:
       left: auto
       right: auto
   
-  .topic
+  .link, .link-group
     float: left
     margin:
       left: 0.5 * $square
       right: 0.5 * $square
+
+  article img:not(.wide)
+    width: 50% !important
+    margin:
+      left: 25%
+      right: 25%
+
+@media screen and (min-width: 2 * $calling-card-long)
+
+  article
+    // Four little-card margins plus five little cards
+    width: 4 * (($calling-card-long - (3 * $topic-card-width * $square))/2) + 5 * $topic-card-width * $square 
+
+
+@media print
+  nav, #pagination
+    display: none
+
+  .title-card
+    width: 100%
+    height: auto
+    text-align: left
+    .date
+      position: inherit
+      margin: 0
+      float: left
+      text-align: left
 

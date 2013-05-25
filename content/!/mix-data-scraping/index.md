@@ -2,6 +2,8 @@
 title: Microfinance Data Scraping
 kind: article
 created_at: 2012-05-24
+tags: ['data']
+relationships: ['mix']
 ---
 
 I've been scraping some websites for the

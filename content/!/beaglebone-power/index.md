@@ -22,7 +22,7 @@ the following specifications, taken from the
 > up anything over the USB. The actual power consumption will vary
 > greatly with changes on the USB load.
 
-BeagleBoard [recommendeds](http://beagleboard.org/peripheral#5V)
+BeagleBoard [recommends](http://beagleboard.org/peripheral#5V)
 accomplishing this with a Digi-Key-supplied PHIHONG USA PSC12R-050.
 
 ## Approaches I don't want
@@ -40,7 +40,7 @@ but that would be heavy and quite inefficient.
 
 ### USB
 
-Powering the BeagleBones over [USB might not work](http://beagleboard.org/support/faq).
+Powering the BeagleBones over [USB might work](http://beagleboard.org/support/faq).
 
 > The USB specification requires devices to power up under 100mA (~500mW)
 > and the USB hub circuit on the BeagleBoard-xM may consume around 100mA
@@ -56,11 +56,9 @@ If it does, it would substantially increase power consumption; Revision 0.0 of t
 (February 2, 2012) analyzes the "power consumption of the board in ...
 various scenarious" in this table.
 
-I tried it anyway to be sure, and I couldn't connect.
-
 ![Table of power usage indicating that plugging in the only USB cable
   uses about three-halves the power of plugging in only the DC cable
-](<%= @item.path %>beaglebone-power-consumption.png)
+](<%= @item.identifier %>beaglebone-power-consumption.png)
 
 <!-- The table in LaTeX format
 MODE                  & USB &  DC & DC+USB \\
@@ -69,6 +67,8 @@ UBoot                 & 363 & 230 &    340 \\
 Kernel Booting (Peak) & 502 & 350 &    470 \\
 Kernel Idling         & 305 & 170 &    290 \\
 -->
+
+I tried it anyway to be sure, and I couldn't connect.
 
 ## What I wanted and made
 

@@ -1,9 +1,14 @@
-```
+---
 title: Effect of the number pad on mousing location
-created_at: 2008-11-08
+created_at: 2012-01-08
 kind: article
-```
-\workimg{http://smug.thomaslevine.com/Works/numberpad/numberpad/932457459_Wd94o-480x480.png}
+tags: ['ergonomics']
+---
+
+<img src="http://smug.thomaslevine.com/Works/numberpad/numberpad/932457459_Wd94o-480x480.png"
+     alt=""
+     class="wide" />
+
 According to some ergonomics research, the location in which one mouses affects
 the posture with which one mouses. Thus, the location of the mouse might impact
 health. Some people have recommended that large keyboards with number pads be

@@ -30,3 +30,6 @@ gem 'systemu'
 # needed to run validations
 gem 'w3c_validators'
 gem 'nokogiri'
+
+# needed for xml generation
+gem 'builder', '= 3.1.3'

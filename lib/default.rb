@@ -35,9 +35,25 @@ unless defined? LOADED_DEFAULT_CONFIG
   # syntax highlighting
   require 'nanoc/filters/colorize_syntax'
 
+  # tagging
+  include Nanoc::Helpers::Tagging
+
   # partials
   include Nanoc::Helpers::Rendering
 
   # sitemap
   include Nanoc::Helpers::XMLSitemap
+
+  # sorted articles by tag, excluding future articles
+  require 'date'
+  def published_articles(items)
+    items.select { |i| i[:created_at] && i[:created_at] <= Date.today }
+  end
+
+  def sort_articles(as)
+    as.sort_by do |a|
+      attribute_to_time(a[:created_at])
+    end.reverse
+  end
+
 end

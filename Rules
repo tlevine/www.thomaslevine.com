@@ -26,8 +26,6 @@ compile %r{/_.+/$} do
   # don't filter partials
 end
 
-# require 'compass'
-# Compass.add_project_configuration 'compass-config.rb'
 compile '/css/*/' do
   filter :sass, Compass.sass_engine_options
 end
@@ -45,6 +43,14 @@ compile '/img/*/' do
 # filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
 end
 
+compile '/CNAME' do
+# just copy it.
+end
+
+compile '/!/feed/' do
+  filter :erb
+end
+
 compile '/' do
   filter :haml
   layout 'base'
@@ -52,7 +58,7 @@ compile '/' do
   filter :relativize_paths, {:type => :html}
 end
 
-compile '/!/' do
+compile '/(data|ergonomics|scarsdale|doodles|!)/' do
   filter :haml
   layout 'base'
   filter :cache_buster
@@ -66,10 +72,14 @@ compile '/!/*/*' do
 #     filter :image_compressor, IMAGE_COMPRESS_OPTIONS if item.binary?
 #   end
     # Don’t filter other binary items
+  elsif item.identifier.chop.gsub(/[^\/]/, '').length != 2
+  # Not the index page, so just copy it
   else
     case item[:extension]
     when 'html'
-      # Doesn't need filtering.
+    # Nothing
+    when 'rhtml'
+      filter :erb
     when 'md'
       filter :erb
       filter :kramdown
@@ -78,15 +88,16 @@ compile '/!/*/*' do
     else
       filter :erb
     end
-    if %w(html haml md).include?(item[:extension])
-      layout 'article'
-      layout 'base'
-#     filter :colorize_syntax
-      filter :cache_buster
-      filter :relativize_paths, {:type => :html}
-    end
+    layout 'article'
+    layout 'base'
+#   filter :colorize_syntax
+    filter :cache_buster
+#   filter :relativize_paths, {:type => :html}
   end
 end
+
+# For filters
+layout '*', :haml, :format => :html5
 
 BYPASS_FILES.each do |file|
   route("/#{file.sub /\..+/, ''}/") do
@@ -108,6 +119,24 @@ route '/js/*/' do
   item.identifier.chop + fp + '.js'
 end
 
+route '/!/feed/' do
+  '/!/feed.xml'
+end
+
+route '/CNAME' do
+  '/CNAME'
+end
+
+route '/!/*/*' do
+  basename = item[:filename].split('/')[-1]
+  if basename[0..4] == 'index'
+    suffix = '/index.html'
+  else
+    suffix = '.' + item[:extension]
+  end
+  item.identifier.chop + suffix
+end
+
 route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
@@ -120,4 +149,3 @@ route '*' do
   end
 end
 
-layout '*', :haml, :format => :html5

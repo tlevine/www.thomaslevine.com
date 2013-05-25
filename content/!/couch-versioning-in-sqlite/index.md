@@ -50,8 +50,6 @@ When combining two database files that have gotten out of sync,
 find the discrepencies and add a newer `_currentrev` that merges
 the changes.
 
-    -- Figure this out.
-
 Simplify
 -------------
 
@@ -63,3 +61,7 @@ And let's allow you to specify tags.
 
     SELECT * FROM foo WHERE version(*) = "master";
     SELECT * FROM foo WHERE version(*) = "0.2.1";
+
+Sudden ending
+------
+I got bored of writing. Please imagine some awesome insightful continuation.
