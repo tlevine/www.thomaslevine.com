@@ -28,10 +28,34 @@ AP60212 had. This makes them more comfortable and less durable, at least accordi
 to the reviews.
 
 I decided to get an active hearing protector as well. The following models each
-had at least ten reviews and cost at least $50.
+had at least ten reviews and cost at least $50. I put them here in ascending order
+by price.
 
-* [Howard Leight Impact Sport Electronic Noise Amplification Earmuffs R-01526](http://www.opticsplanet.com/howard-leight-impact-sound-management-electronic-hearing-proctection-earmuffs-r01526.html)
-* [3M Peltor 6S Tactical Hearing Protection Ear Muffs](http://www.opticsplanet.com/peltor-tactical-hearing-protectors.html)
-* [Browning Midas Electronic Hearing Protector - Black 12627](http://www.opticsplanet.com/browning-midas-electronic-hearing-protector-black-12627.html)
-* [Pro-Ears Pro 300 Shooting Hearing Protection Headsets](http://www.opticsplanet.com/pro-ears-predator-plus-shooting-hearing-protection-headsets-p300p-black.html)
-* [Peltor TacticalPro Electronic Hearing Protector - Collapsable Folding Headband MT15H7F-SV](http://www.opticsplanet.com/peltor-protac-electronic-headset-collapsable-folding-headband-mt15h7f-sv.html)
+1. [Howard Leight Impact Sport Electronic Noise Amplification Earmuffs R-01526](http://www.opticsplanet.com/howard-leight-impact-sound-management-electronic-hearing-proctection-earmuffs-r01526.html)
+2. [3M Peltor 6S Tactical Hearing Protection Ear Muffs](http://www.opticsplanet.com/peltor-tactical-hearing-protectors.html)
+3. [Browning Midas Electronic Hearing Protector - Black 12627](http://www.opticsplanet.com/browning-midas-electronic-hearing-protector-black-12627.html)
+4. [Pro-Ears Pro 300 Shooting Hearing Protection Headsets](http://www.opticsplanet.com/pro-ears-predator-plus-shooting-hearing-protection-headsets-p300p-black.html)
+5. [Peltor TacticalPro Electronic Hearing Protector - Collapsable Folding Headband MT15H7F-SV](http://www.opticsplanet.com/peltor-protac-electronic-headset-collapsable-folding-headband-mt15h7f-sv.html)
+
+The first is also noise "amplification". Maybe I don't want that.
+Reviews for 2 and 3 suggest that they're good value. Reviews for the fourth
+suggest that it's good but overpriced. The reviews for the last one suggest that
+it's quite good in all possible aspects. And one of these aspects, which the other
+reviews mentioned less, was comfort over an extended period of time.
+
+Reading these reviews, I get the impression that the fancy active hearing protectors
+detect loud noises and add more noise cancelling when things get particularly loud.
+This is quite nice for things like shooting guns, but I started wondering whether it
+would work for me. Here are the things I want them for
+
+* Ambient noise in offices and whatnot
+* Train, bus, car, &c. noise
+* Loud music at parties
+
+Active noise reduction is supposedly best at ambient noise, so the special part about
+the fancy ones is how they handle sudden noises like gunshots.
+
+Anyway, I think I'm going with these two pairs of ear muffs.
+
+* **Passive**: [Pro-Ears Ultra Passive 33](http://www.opticsplanet.com/pro-ears-ultra-passive-33-shooting-hearing-protection-heads-pe-33-u-b-black.html).
+* **Active**: [Peltor TacticalPro Electronic Hearing Protector - Collapsable Folding Headband MT15H7F-SV](http://www.opticsplanet.com/peltor-protac-electronic-headset-collapsable-folding-headband-mt15h7f-sv.html)
