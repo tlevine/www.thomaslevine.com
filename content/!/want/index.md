@@ -1,6 +1,4 @@
 ---
-kind: article
-created_at: 2013-09-24
 title: Things I want
 ---
 

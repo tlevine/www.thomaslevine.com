@@ -1,7 +1,7 @@
 ---
 title: setxkbmap aliases
 kind: article
-created_at: 2013-05-25
+created_at: 2013-07-01
 tags: ['dotfiles']
 ---
 
