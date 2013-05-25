@@ -1,10 +1,11 @@
 /* Dependency 2012-12-10 */
 @import "normalize";
 @import "main";
+@import "params";
 @import "nanoc";
 
 //
 // compass-h5bp media and print
 // https://github.com/sporkd/compass-h5bp/blob/master/stylesheets/h5bp/_media.scss
 //
-@include h5bp-media;
+// @include h5bp-media;

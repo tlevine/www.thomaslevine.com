@@ -29,7 +29,7 @@ end
 # require 'compass'
 # Compass.add_project_configuration 'compass-config.rb'
 compile '/css/*/' do
-# filter :sass, Compass.sass_engine_options
+  filter :sass, Compass.sass_engine_options
 end
 
 compile '/js/*/' do
