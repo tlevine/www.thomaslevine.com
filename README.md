@@ -102,3 +102,37 @@ You can view the skeleton site by browsing the generated `output/index.html` fil
     nanoc validate-html
     nanoc validate-css
     nanoc validate-links
+
+## Branches
+`master` should always have a presentable website state, including `created_at`
+dates. This way, the site can be recompiled automatically every day, and queued
+posts can be added automatically.
+
+Develop new posts in other branches.
+
+To upgrade to a newer version of the boilerplate, checkout `nanoc-h5bp`, then
+pull the new version.
+
+    git checkout nanoc-h5bp
+    git pull git://github.com/jingoro/nanoc-html5boilerplate.git master
+
+Then checkout `upgrade`, which is an old version of the site, and merge the changes.
+
+    git checkout upgrade
+    git merge nanoc-h5bp
+    # Deal with merge crap.
+    # Compile the site, and make sure it works.
+    git commit -a
+
+Now, merge with `master` and deal with more merge crap.
+
+    git checkout upgrade
+    git merge nanoc-h5bp
+    # Deal with merge crap.
+    # Compile the site, and make sure it works.
+    git commit -a
+
+Finally, you can merge into master.
+
+    git checkout master
+    git merge upgrade
