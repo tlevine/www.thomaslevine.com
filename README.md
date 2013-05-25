@@ -2,6 +2,10 @@ This is based on jingoro's nanoc-html5boilerplate
 
     git://github.com/jingoro/nanoc-html5boilerplate.git
 
+[![Dependency Status](https://gemnasium.com/jingoro/nanoc-html5boilerplate.png)](https://gemnasium.com/jingoro/nanoc-html5boilerplate)
+
+**NOTE: The boilerplate project is no longer being maintained after June 1, 2013. I should consider taking the project over.
+
 ## To do
 
 + Add the email address javascript.
@@ -10,6 +14,7 @@ This is based on jingoro's nanoc-html5boilerplate
 + Decide on the navigation bar icons.
 * Make the ! index article boxes more interesting
 + Remove in-contact-card / links
+
 ## Quick Start
 
 1\. Make sure you have [Ruby](http://www.ruby-lang.org/en/downloads/) and [bundler](http://gembundler.com/) installed.
@@ -47,7 +52,7 @@ You can view the skeleton site by browsing the generated `output/index.html` fil
 
 # License
 
-Public domain
+Public domain unless otherwise noted
 
 # Todo
 
