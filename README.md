@@ -112,6 +112,12 @@ posts can be added automatically.
 
 Develop new posts in other branches.
 
+There are a few helpful scripts for reviewing the various queued posts.
+Run `./non-articles.sh` to find files named `content/!/*/index.md`
+that are not marked as kind `article`. These are typically drafts.
+Run `./posts-by-date.sh` to list these posts by `created_at` date. This
+is helpful for planning when queued posts will post themselves.
+
 ### Deploying
 To push new version of the site, check out master, compile the site, make sure that
 all is well, then commit and push the submodule `output` directory, which has only
