@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nanoc', '~> 3.6.3'
+gem 'nanoc', '>= 3.6.3'
 gem 'haml'
 gem 'sass'
 gem 'compass'
@@ -32,4 +32,4 @@ gem 'w3c_validators'
 gem 'nokogiri'
 
 # needed for xml generation
-gem 'builder', '= 3.1.3'
+gem 'builder', '>= 3.2.0'
