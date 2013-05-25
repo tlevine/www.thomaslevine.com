@@ -16,3 +16,6 @@ I wound up with "occurrence". Here are some other ideas.
 * definitely
 
 Some other ideas are [here](http://marvin.cs.uidaho.edu/misspell.html).
+
+I settled on a large list of them that randomly populates a field on my website.
+Now to make calling cards with random hard-to-spell words.

@@ -18,9 +18,6 @@ I was thus able to post 75 of the posters!
 ## First random person
 Initially, I called people beforehand to make sure they wouldn't totally freak out by being named Random Person of the Week. The first time, two people declined to be the Random Person of the Week. I knew the first Random Person of the Week, Melissa Perry, so she accepted and also said I could use her picture in the poster. Acquiring pictures wound up to be more work than I felt like putting into this, so that was the only one to ever have a picture of the person.
 
-## Concern over selection bias
-Initially, the Random Person of the Week was selected from students. I soon acquired a list of faculty and added them to the pool. At some point, some people started questioning the randomness because it seemed that disproportionately many faculty were being selected, so I analyzed this statistically. I found more faculty were indeed being selected than one would expect on average but that such variability was not significant enough to suggest bias in the selection process. I wrote this up and posted it around school.
-
 ## Extensions
 I eventually had Random Person of the Week announcements run in the daily paper bulletin sent to homerooms and in the announcements "board" in the high school commons.
   (It was really a television screen hooked up to a desktop computer.
@@ -31,5 +28,9 @@ I also started the "Poke the Random Person of the Week" Facebook group
 and developed automated systems for selecting random persons weekly and
 creating posters.
 
-## University
-I tried starting it up at university, but it didn't catch on. I think part of the issue was that the university was too large.
+## Concern over selection bias
+Initially, the Random Person of the Week was selected from students. I soon acquired a list of faculty and added them to the pool. At some point, some people started questioning the randomness because it seemed that disproportionately many faculty were being selected, so I analyzed this statistically. I found more faculty were indeed being selected than one would expect on average but that such variability was not significant enough to suggest bias in the selection process. I wrote this up and posted it around school.
+
+## Appeal
+People were quite into it. Like people got excited when they learned that they
+had been selected. I should find some more stories about that.
