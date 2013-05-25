@@ -104,12 +104,29 @@ You can view the skeleton site by browsing the generated `output/index.html` fil
     nanoc validate-links
 
 ## Branches
+
+### Composing
 `master` should always have a presentable website state, including `created_at`
 dates. This way, the site can be recompiled automatically every day, and queued
 posts can be added automatically.
 
 Develop new posts in other branches.
 
+### Deploying
+To push new version of the site, check out master, compile the site, make sure that
+all is well, then commit and push the submodule `output` directory, which has only
+a `gh-pages` branch.
+
+    git checkout master
+    nanoc
+    cd output
+    git commit . -m compile
+    git push
+    cd ..
+    git commit . -m update\ submodule
+    git push
+
+### Upgrading
 To upgrade to a newer version of the boilerplate, checkout `nanoc-h5bp`, then
 pull the new version.
 
