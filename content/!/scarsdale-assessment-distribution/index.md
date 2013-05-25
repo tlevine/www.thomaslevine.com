@@ -38,7 +38,7 @@ waste tax. I skipped these for now because they're small.
 
 ## Apartments
 Looking at variation in assessed value will give us an idea of the different
-types of excemptions for each particular tax. Here's a plot of standard
+types of exemptions for each particular tax. Here's a plot of standard
 deviation of taxable assessment by mean taxable assessment. It excludes
 properties that had the same assessment for all three taxes.
 
@@ -56,8 +56,8 @@ that they pay proportionately less in school taxes.
 ## Common exemptions
 Note also the horizontal bands of points. These bands show that properties of
 very different assessed values have the same variation in the size of
-excemptions. This might have even received the exact same size of excemption.
-This indicates that excemptions are often given as flat reductions in the
+exemptions. This might have even received the exact same size of exemptions.
+This indicates that exemptions are often given as flat reductions in the
 effective assessed value rather than as proportions or based on some more
 continuous equation.
 
@@ -89,19 +89,19 @@ The first record seems to correspond to the Wabecks (page 608 of the roll).
      src="<%= item.identifier %>wabeck.png"
      class="wide" />
 
-They, like many others, have the `41854 RES STAR` excemption code. Here are a
-couple other records with different excemption codes (from page 685).
+They, like many others, have the `41854 RES STAR` exemption code. Here are a
+couple other records with different exemption codes (from page 685).
 
 <img alt="Two records in the roll"
      src="<%= item.identifier %>685.png"
      class="wide" />
 
-The first record has both the `41854 RES STAR` excemption and the
-`41121 WAR VET` excemption. The `41854 RES STAR` excemption seems to deduct
-$1,830 from the shchool taxes, as we found above. The `41121 WAR VET`
-excemption seems to deduct $1,010 from the county and village taxes.
+The first record has both the `41854 RES STAR` exemption and the
+`41121 WAR VET` exemption. The `41854 RES STAR` exemption seems to deduct
+$1,830 from the school taxes, as we found above. The `41121 WAR VET`
+exemption seems to deduct $1,010 from the county and village taxes.
 
-The second record has no excemptions, so the assessed value equals the
+The second record has no exemptions, so the assessed value equals the
 taxable values.
 
 If you look in the last few pages of the roll, you'll see summaries of these
@@ -125,7 +125,7 @@ Curious as to what that stood for, I looked around a bit.
 > 
 > STAR exemptions apply only to school district taxes. They don't apply to property taxes for other purposes, such as county, town or city (except in cities where city property taxes fund schools - Buffalo, New York City, Rochester, Syracuse and Yonkers).
 
-We can see the specific excemption amount for Scarsdale on
+We can see the specific exemption amount for Scarsdale on
 [this page](http://www.tax.ny.gov/pit/property/star/star55.htm).
 That page says $1,830, which is $30 less than the number I found. Hmm.
 
