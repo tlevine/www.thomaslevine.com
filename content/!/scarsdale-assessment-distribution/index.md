@@ -15,11 +15,11 @@ the full market value, which is equivalent to the assessed value. (It's
 I wanted to know what the general distribution of assessed values was like,
 so I plotted a histogram.
 
-![](<%= item.path %>total-assessed-simple.png)
+![Histogram from $0 to $2,000,000 with one bin far towards the left](<%= item.path %>total-assessed-simple.png)
 
 The data were very positively skewed, so I plotted them on a log scale.
 
-![](<%= item.path %>total-assessed-log.png)
+![Histogram on a log scale with several bins, peaking around $100,000](<%= item.path %>total-assessed-log.png)
 
 The mound at the far-left is the 210 of 5954 properties that were assessed
 at $0. (These are the properties in the wholly exempt section of the roll.)
@@ -38,14 +38,16 @@ types of excemptions for each particular tax. Here's a plot of standard
 deviation of taxable assessment by mean taxable assessment. It excludes
 properties that had the same assessment for all three taxes.
 
-![]()
+![Scatterplot of standard deviation of different taxes by mean tax, each point being a house](<%= item.path %>apartments.png)
 
-The standard deviation is inherently correlated with the mean; so we should
-expect this line to move right and up.
+We find the standard deviation correlated with the mean; this makes sense
+because they're both indicators of the scale of the assessment; as the mean
+tax rate for a house increases, we should expect the standard deviation of
+tax rates across government divisions to increase. And this is what we find.
 
-The first thing I notice is the two outliers on the top-right. It turns out
-that these two points are apartment buildings and that they pay proportionately
-less in school taxes.
+The main thing I notice in this plot, however, is the two outliers on the
+top-right. It turns out that these two points are apartment buildings and
+that they pay proportionately less in school taxes.
 
 Note also the horizontal bands of points. These bands show that properties of
 very different assessed values have the same variation in the size of
