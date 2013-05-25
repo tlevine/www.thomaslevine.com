@@ -137,16 +137,20 @@ Then checkout `upgrade`, which is an old version of the site, and merge the chan
 
     git checkout upgrade
     git merge nanoc-h5bp
-    # Deal with merge crap.
-    # Compile the site, and make sure it works.
+    echo Deal with merge crap.
+    bundle # figure out how to set the directory; it uses the system directory, so i wound up installing stuff manually with gem
+    nanoc
+    echo Compile the site, and make sure it works.
     git commit -a
 
 Now, merge with `master` and deal with more merge crap.
 
     git checkout upgrade
     git merge nanoc-h5bp
-    # Deal with merge crap.
-    # Compile the site, and make sure it works.
+    echo Deal with merge crap.
+    bundle
+    nanoc
+    echo Compile the site, and make sure it works.
     git commit -a
 
 Finally, you can merge into master.
