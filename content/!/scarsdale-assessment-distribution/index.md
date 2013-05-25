@@ -56,4 +56,21 @@ This indicates that excemptions are often given as flat reductions in the
 effective assessed value rather than as proportions or based on some more
 continuous equation.
 
+For example, 2358 properties have a standard deviation of village, county
+and school taxes of about $1057. I randomly sampled ten of these.
 
+ county | village |  school
+------- | ------- | -------
+$15,000 | $15,000 | $13,170
+$15,800 | $15,800 | $13,970
+$28,150 | $28,150 | $26,320
+$28,150 | $28,150 | $26,320
+$18,975 | $18,975 | $17,145
+$19,850 | $19,850 | $18,020
+$22,700 | $22,700 | $20,870
+$19,450 | $19,450 | $17,620
+$21,200 | $21,200 | $19,370
+$20,500 | $20,500 | $18,670
+
+I never extracted the address or any other convenient identifier, so I looked
+for a few of these properties in the roll just based on the tax rates.
