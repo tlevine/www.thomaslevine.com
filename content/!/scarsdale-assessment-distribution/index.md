@@ -7,22 +7,22 @@ kind: article
 [Jake](https://twitter.com/jbialer/) found me the Scarsdale Assessor's 
 [roll](https://github.com/tlevine/scarsdale-data/blob/master/assessor/2012.pdf?raw=true).
 It appears to contain the address, size and assessed values, among other
-things, of all 5954 properties in Scarsdale. I pulled some information out and
+things, of all 5,954 properties in Scarsdale. I pulled some information out and
 had some fun.
 
 I started by collecting the assessed values of the properties. I collected
 the full market value, which is equivalent to the assessed value. (It's 
-[not really]() the market value.)
+not really the market value.)
 
 ## Overview
 I wanted to know what the general distribution of assessed values was like,
 so I plotted a histogram.
 
-![Histogram from $0 to $2,000,000 with one bin far towards the left](<%= item.path %>total-assessed-simple.png)
+![Histogram from $0 to $2,000,000 with one bin far towards the left](<%= item.identifier %>total-assessed-simple.png)
 
 The data were very positively skewed, so I plotted them on a log scale.
 
-![Histogram on a log scale with several bins, peaking around $100,000](<%= item.path %>total-assessed-log.png)
+![Histogram on a log scale with several bins, peaking around $100,000](<%= item.identifier %>total-assessed-log.png)
 
 The mound at the far-left is the 210 of 5954 properties that were assessed
 at $0. (These are the properties in the wholly exempt section of the roll.)
@@ -42,7 +42,7 @@ types of excemptions for each particular tax. Here's a plot of standard
 deviation of taxable assessment by mean taxable assessment. It excludes
 properties that had the same assessment for all three taxes.
 
-![Scatterplot of standard deviation of different taxes by mean tax, each point being a house](<%= item.path %>apartments.png)
+![Scatterplot of standard deviation of different taxes by mean tax, each point being a house](<%= item.identifier %>apartments.png)
 
 We find the standard deviation correlated with the mean; this makes sense
 because they're both indicators of the scale of the assessment; as the mean
@@ -85,12 +85,16 @@ for a few of these properties in the roll just based on the tax rates.
 
 The first record seems to correspond to the Wabecks (page 608 of the roll).
 
-![Record in the roll for the Wabecks](<%= item.path %>wabeck.png)
+<img alt="Record in the roll for the Wabecks"
+     src="<%= item.identifier %>wabeck.png"
+     class="wide" />
 
 They, like many others, have the `41854 RES STAR` excemption code. Here are a
 couple other records with different excemption codes (from page 685).
 
-![Two records in the roll](<%= item.path %>685.png)
+<img alt="Two records in the roll"
+     src="<%= item.identifier %>685.png"
+     class="wide" />
 
 The first record has both the `41854 RES STAR` excemption and the
 `41121 WAR VET` excemption. The `41854 RES STAR` excemption seems to deduct
@@ -129,3 +133,10 @@ That page says $1,830, which is $30 less than the number I found. Hmm.
 I've been learning fun things about the financial structure of Scarsdale,
 Westchester and New York through studies like this. I hope I managed to convey
 some of the knowledge to you.
+
+Here are some ways of building on the current analysis.
+
+* Look for properties with unusual combinations of exemptions.
+* Parse more information from the roll.
+* Figure out why the exemption amount from the roll is different from the
+    amount from the New York website.
