@@ -8,6 +8,8 @@
     'hamster',
     'mayonnaise',
     'mosquito',
+    'perluette',
+    'occurrence',
     'orangutan',
     'pamphlet',
     'syllable',
