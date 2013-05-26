@@ -1,7 +1,6 @@
 //$(function(){
   var words = [
     // http://marvin.cs.uidaho.edu/misspell.html
-    'acceptance',
     'accessible',
     'accidentally',
     'definitely'
