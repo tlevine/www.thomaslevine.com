@@ -67,11 +67,9 @@ All other pages use the color pink.
 
 ## To do
 
-* Make sure links are correct.
-* Style the articles.
-+ Decide on the navigation bar icons.
-* Make the ! index article boxes more interesting
-+ Remove in-contact-card / links
+* After I compile, I want to make sure links are correct.
+* When I click on the first article in the `/!` section, it should be clear that the change has changed.
+* Prune the random email addresses so that only awesome ones come up.
 
 ## Quick Start
 
