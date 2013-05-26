@@ -2,7 +2,7 @@
 title: About Thomas Levine
 ---
 
-## Efficiency
+## ?
 
 Thomas Levine likes to make things more efficient. When he was a young child,
 he built assembly lines for fun. He only realized that this was weird in
