@@ -3,7 +3,7 @@
     // http://marvin.cs.uidaho.edu/misspell.html
     'accessible',
     'accidentally',
-    'definitely'
+    'definitely',
     'fuchsia',
     'hamster',
     'mayonnaise',
