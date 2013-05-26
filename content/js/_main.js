@@ -1087,6 +1087,8 @@
     'pamphlet',
     'definitely'
   ]
+  // console.log(words.join('\nis '))
+
   // http://stackoverflow.com/questions/11935175/sampling-a-random-subset-from-an-array
   var word = words[Math.floor(Math.random()*words.length)]
   var chainsaw=[word,'thomaslevine.com'].join('@')
@@ -1095,3 +1097,4 @@
     epost.innerHTML=chainsaw
   }
 //})
+
