@@ -11,11 +11,8 @@ After having made some letterpress prints for various events and initiatives,
 I determined that few mortal endeavours were worthy of my wonderful posters,
 so I decided to cool posters, even if I didn't have anything to print them about.
 
-I had also become quite interested in the power of public notices. Anyone can
-put up a sign, and people tend to obey the signs. See my
-[emergency exit only](/!/emergency-exit-only) signs.
-
-Here's one non-advertisement I made.
+I had also become quite interested in the power of public notices. Although
+anyone can put up a sign, and people take signs pretty seriously.
 
 My dorm had a history of nude jello wrestling, but I don't think it ever
 happened while I was at school. In my freshman year, it was sort of legendary
@@ -68,8 +65,12 @@ But I learned a few days later of a wonderful phone call that one of my dormmate
 received that night. She had known that this wasn't happening. One of her friends had
 apparently snuck into the dorm and then called her. The call went something like this.
 
-    A: Yo, where's the nude jello wrestling?
-    B: There is no nude jello wrestling; you got trolled.
-    A: No, it's real, we saw posters!
+> A: Yo, where's the nude jello wrestling?
+> 
+> B: There is no nude jello wrestling; you got trolled.
+> 
+> A: No, it's real, we saw posters!
 
 Success.
+
+If you liked that, you might also like my [emergency exit only](/!/emergency-exit-only) signs.
