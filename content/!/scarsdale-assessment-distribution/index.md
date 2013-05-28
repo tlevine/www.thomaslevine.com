@@ -2,6 +2,7 @@
 title: Assessed property values
 created_at: 2013-05-25
 kind: article
+tags: ['scarsdale']
 ---
 
 [Jake](https://twitter.com/jbialer/) found me the Scarsdale Assessor's 
