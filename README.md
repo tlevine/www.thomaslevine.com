@@ -1,10 +1,5 @@
-This is based on jingoro's nanoc-html5boilerplate
-
-    git://github.com/jingoro/nanoc-html5boilerplate.git
-
-[![Dependency Status](https://gemnasium.com/jingoro/nanoc-html5boilerplate.png)](https://gemnasium.com/jingoro/nanoc-html5boilerplate)
-
-**NOTE: The boilerplate project is no longer being maintained after June 1, 2013. I should consider taking the project over.
+www.thomaslevine.com
+===
 
 ## Styles
 
@@ -72,7 +67,6 @@ All other pages use the color pink.
 * Prune the random email addresses so that only awesome ones come up.
 
 ## Quick Start
-
 1\. Make sure you have [Ruby](http://www.ruby-lang.org/en/downloads/) and [bundler](http://gembundler.com/) installed.
 
     gem install bundler
@@ -159,3 +153,10 @@ Finally, you can merge into master.
 
     git checkout master
     git merge upgrade
+
+## References
+This is based on jingoro's nanoc-html5boilerplate
+
+    git://github.com/jingoro/nanoc-html5boilerplate.git
+
+**NOTE: The boilerplate project is no longer being maintained after June 1, 2013. I should consider taking the project over.
