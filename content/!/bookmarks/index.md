@@ -1,7 +1,7 @@
 ---
 title: Bookmarks
 kind: article
-created_at: 2013-05-29
+created_at: 2013-05-30
 ---
 I used to use [delicious](https://delicious.com/tlevine),
 but I always found it rather clumsy. I tried
