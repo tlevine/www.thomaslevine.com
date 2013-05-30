@@ -35,6 +35,9 @@ gem 'i18n', '>=0.6.4'
 # needed to run nanoc view
 gem 'adsf', '>=1.1.1'
 
+# instead of nanoc watch
+gem 'guard-nanoc', '>=1.0.1'
+
 # needed to run nanoc deploy
 gem 'systemu', '>=2.5.2'
 

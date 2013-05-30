@@ -108,6 +108,15 @@ that are not marked as kind `article`. These are typically drafts.
 Run `./posts-by-date.sh` to list these posts by `created_at` date. This
 is helpful for planning when queued posts will post themselves.
 
+## Rendering
+Compile the site, and recompile when files are changed.
+
+    guard exec nanoc
+
+Serve the compiled files.
+
+    nanoc view
+
 ### Deploying
 To push new version of the site, check out master, compile the site, make sure that
 all is well, then commit and push the submodule `output` directory, which has only
