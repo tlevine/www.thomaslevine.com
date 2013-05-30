@@ -12,6 +12,7 @@
     'occurrence',
     'orangutan',
     'pamphlet',
+    'paraphernalia',
     'syllable',
     'vinaigrette',
     'wildebeest',
