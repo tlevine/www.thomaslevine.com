@@ -4,17 +4,20 @@ title: About Thomas Levine
 
 ## ?
 
-Thomas Levine likes to make things more efficient. When he was a young child,
-he built assembly lines for fun. He only realized that this was weird in
-college as he was refactoring a business process for piling snow onto a snow
+Thomas Levine likes to help peole make things work more smoothly. When he was a
+young child, he built assembly lines for fun. He only realized that this was
+weird in college as he was refactoring a process for piling snow onto a snow
 fort. Tom apparently knows how to improve human processes, and that's nice, but
-entirely replacing them with computers is better and normally easier.
+he recently has found it easier to replace them entirely with computers.
 
-While it's nice when Tom can make things more efficient, he suspects that
+While it's nice that Tom can make things more efficient, he suspects that
 improving efficiency is more efficiently accomplished when he teaches other
 people to make things more efficient more efficiently. Tom thinks that this
-explains why he does "ergonomics research" and "data science".
+explains why he does ergonomics research and data science. (By the way, Tom
+is known to do ergonomics research and data science, and he means to write
+a satisfying definition of those concepts eventually.)
 
+<!--
 Consideration of the efficiency of a process involves consideration of some
 costs and goals. People often select stupid costs and goals when supposedly
 considering efficiency. As such, the word "efficiency" isn't particularly
@@ -28,6 +31,7 @@ supposed preference for efficiency.
 > to his own pursuit of knowledge
 >
 > Silviana Russo <!-- notmuch show thread:0000000000000290 -->
+-->
 
 ## Other things
 
@@ -38,11 +42,8 @@ Tom sees no distinction between work and play.
 >
 > Silviana Russo <!-- notmuch show thread:00000000000053af -->
 
-He's weird in other ways.
-
-> Thomas Levine... doesn't know who Messi is.
->
-> [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
+He [plays spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets)
+in a band called [CSV Soundsystem](http://csvsoundsystem.com).
 
 He would not do well in Fight Club.
 
@@ -50,13 +51,19 @@ He would not do well in Fight Club.
 >
 > [Nicola Hughes](http://www.guardian.co.uk/profile/nicola-hughes) <!-- notmuch show thread:00000000000215a7 -->
 
-And he has superpowers.
+He has superpowers.
 
 > [One] of my favorite superheroes
 >
 > [Jake Porway](http://jakeporway.com/)
 > at [DataGotham](http://www.youtube.com/watch?v=rluDDbzX5S4) and
 > [Strata London 2012](http://www.youtube.com/watch?v=5dnSamOwpmI)
+
+And he's strange in other ways.
+
+> Thomas Levine... doesn't know who Messi is.
+>
+> [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
 
 ## About this site
 
