@@ -160,6 +160,20 @@ the project.)
 The mess could be the real world, collected with sensors or a
 previously-digitized repository, like book scans.
 
+### Answer a question
+The project should answer a question. This could be one specific
+question, like "which copy should we use on the product", but it could
+also be a class of questions that consumers of the project might ask,
+like "which hair stylist should I choose".
+
+### Teaching
+The project should explain how it works to people with no knowledge of
+data science. That is, the math and software should be explained in
+simple or simplified terms and related to the question(s) at hand.
+
+Visuals (or some other high-dimensional data presentation format) should
+be present and explained.
+
 ### Web
 The project should be explained as a website. Minimally, this could be
 just a Tumblr blog post about an analysis, but it would be more cool if
@@ -170,6 +184,27 @@ or to make a story that is more relevant to the particular viewer.
 * Writing of some HTML, CSS, Javascript, &c.
 * Sexy moving visuals and whatnot
 * Website automatically updates with new data from a data feed.
+
+This is partly for my convenience, but it's mainly because it's worth
+learning these webby things and because I'd be able to teach them.
+
+### Selling the data mindset
+It's cool if the project can get people thinking more about how they
+can use the data science mindset for related things. For example, if
+someone assembled a dataset of preferred olive oils and related it
+to personality types, it might be fun to comment on what other data
+could be collected about olive oils or about what would happen if we
+combined the dataset with a dataset about the olive farms and their
+weather.
+
+This sort of commentary is most appropriate for projects where the
+student worked closely with a specific client organization or where
+the project is related to the student's own work.
+
+### Live
+Students should present their projects in person because that's fun.
+Maybe they get like five minutes each because I get bored of long
+presentations.
 
 ## General relationship to existing fields
 People with data science mindset want to start studying things in certain
