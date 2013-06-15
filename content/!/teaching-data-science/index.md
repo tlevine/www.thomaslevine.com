@@ -42,7 +42,7 @@ If you want to do that and you are alive today, you might get excited by the
 potential off the ease of collecting and storing quantitative information,
 and the aspects above follow logically.
 
-## Specific implementations
+## Specific lessons
 If I were to teach data science, I would teach things that are obvious
 consequences of the above mindset. That is, I would expose and reinforce
 the above mindset, and I would teach methods that allow people to embody
@@ -75,6 +75,18 @@ I would have students write some small program that converts some
 inconvenient data source into a table that would produce an interesting
 plot.
 
+### Lesson XXX: Tidy data
+I would say that "data" means "table" to me. And if you're doing
+calculations on a non-relational database, you're approximating a table;
+the non-relational structure is just an implementation detail.
+
+I would talk about the concept and merits of tidyness and about how you
+can achieve this with `plyr` and `reshape2`. I'd discuss some theory and
+language that is embodied in the two libraries.
+
+I'd have students tidy a dataset to the point that they can grammatically
+plot it or run a regression or whatnot.
+
 ### Lesson XXX: Visual displays of quantitative information
 I would talk about different kinds of plots and how they relate to types
 of variables. I read an awesome book by Bill Clevelend in the Cornell
@@ -91,19 +103,73 @@ I might also look at other recommendations regarding visual displays.
 There might also be some general graphic design things. I quite like
 *Design Elements*, by Timothy Samara.
 
+### Lesson XXX: Quantifying the real world
+I would teach people enough about microcontrollers that they would be able
+to hook up a sensor to an Arduino and send the sensings to some safe place.
+
+As a project, students could select a sensor, put it in a breadboard,
+connect it to an Arduino, write some program, leave it somewhere for a
+week, and make a plot. For added fun, they could assemble a Boarduino,
+solder it to a breadboard and solder the sensor to it.
+
+I feel like this project and lesson should be optional.
+
 ### Lesson XXX: Grammar of graphics
 When exploring data, producing mundane visuals or planning complex visuals,
 I find the grammar of graphics to be quite helpful. I would explain the
 concepts, show examples in `ggplot2` or `d3`, and have students make plots
 that slice a complex dataset in `ggplot2` or `d3`.
 
-### Lesson XXX: Tidy data
-I would talk about the concept and merits of tidyness and about how you
-can achieve this with `plyr` and `reshape2`. I'd discuss some theory and
-language that is embodied in the two libraries.
+### Lesson XXX: Storytelling and interactivity
+People in journalism talk about telling stories with data to make things
+more real. I'd pick from my talk on interactive data from Kelton's
+symposium.
 
-I'd have students tidy a dataset to the point that they can grammatically
-plot it or run a regression or whatnot.
+If students don't know much about web development, there could be a basic
+project where students are given a data source with a convenient web API
+and they make a website that displays the data in a way that lets people
+find their own stories.
+
+## Specific projects
+Preferably, there wouldn't be much of me standing in a room giving formal
+lessons; there would be more of people working on related projects with
+my help. People would work on complex projects that interest them.
+
+Creation of any reasonably complex data project should help convince
+an employer to employ someone as a data scientist, but if people are
+particularly concerned for their employability, I could make sure that
+projects hit a few skill sets that would be relevant for their desired
+employment.
+
+If people can't come up with an idea, I would seed their thoughts with
+
+1. the various projects that I've started and maybe collected data for
+2. studies of their personal information, like emails, chat logs,
+    activity on websites, &c.
+3. projects of relevance to their work or to a non-profit organization
+
+Depending on the length of the course, it might be one or three projects
+that embody the data science mindset and use some skills that were discussed.
+Here follow some components of these projects
+
+### Mess to numbers
+The project should convert a mess of information into at least one
+tidy table. (This table might not be exposed directly to consumers of
+the project.)
+
+The mess could be the real world, collected with sensors or a
+previously-digitized repository, like book scans.
+
+### Web
+The project should be explained as a website. Minimally, this could be
+just a Tumblr blog post about an analysis, but it would be more cool if
+interactions and animations can be used to add more dimensions of data
+or to make a story that is more relevant to the particular viewer.
+
+* Automatic compilation of the website (with knitr, for example)
+* Writing of some HTML, CSS, Javascript, &c.
+* Sexy moving visuals and whatnot
+* Website automatically updates with new data from a data feed.
 
 ## General relationship to existing fields
 People with data science mindset want to start studying things in certain
