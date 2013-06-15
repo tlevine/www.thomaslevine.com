@@ -121,6 +121,18 @@ A toy project could involve querying a JSON API, loading that into a
 fancy database, querying that database, maybe serializing the output
 as CSV, and then doing something pretty with the resulting data.
 
+### Lesson XXX: Development practices
+This stuff will be quite helpful in the projects, and people don't usually
+teach this in school. Students don't have to follow these processes
+diligently, but it's nice to know about them.
+
+* Test-driven development
+* Documentation-driven development
+* Behavior-driven development
+* Agile
+
+I'd want to read more about these too.
+
 ### Lesson XXX: The shell and dotfiles
 I would talk about some shell concepts.
 
