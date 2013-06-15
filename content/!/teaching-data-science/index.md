@@ -124,11 +124,11 @@ as CSV, and then doing something pretty with the resulting data.
 ### Lesson XXX: The shell and dotfiles
 I would talk about some shell concepts.
 
-* `#!`
-* `$PATH`
 * Pipes
 * Directing output
 * STDIN, STDOUT, STDERR
+* `#!`
+* `$PATH`
 * Access environment variables from other languages
 * `set -e`
 
