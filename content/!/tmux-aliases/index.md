@@ -1,7 +1,7 @@
 ---
 title: tmux aliases
 tags: ['dotfiles']
-created_at: 2013-06-15
+created_at: 2013-06-26
 kind: article
 ---
 Before I implemented my `tmuxa` and `tmuxl` aliases, the three `tmux` calls
