@@ -49,7 +49,13 @@ the above mindset, and I would teach methods that allow people to embody
 the above mindset.
 
 The following sections are these various topics, grouped into lessons
-and ordered in the order I would give them
+and ordered in the order I would give them. (But if a lesson is titled
+"Lesson XXX", I haven't figured out where it goes yet.)
+
+I happen to mention R libraries for most things, but I actually think
+people should be using some other language. Python (pandas) and Scala
+(Saddle) seem better because they're faster. I wouldn't really care what
+students use.
 
 ### Lesson 1: Everything can be quantified
 I would break down distinctions between qualitative information and
@@ -68,10 +74,6 @@ this with an example of the review of permits to dredge or fill wetlands.)
 I would have students write some small program that converts some
 inconvenient data source into a table that would produce an interesting
 plot.
-
-### Lesson 2: 
-
-
 
 ### Lesson XXX: Visual displays of quantitative information
 I would talk about different kinds of plots and how they relate to types
@@ -95,7 +97,13 @@ I find the grammar of graphics to be quite helpful. I would explain the
 concepts, show examples in `ggplot2` or `d3`, and have students make plots
 that slice a complex dataset in `ggplot2` or `d3`.
 
-### Lesson XXX: 
+### Lesson XXX: Tidy data
+I would talk about the concept and merits of tidyness and about how you
+can achieve this with `plyr` and `reshape2`. I'd discuss some theory and
+language that is embodied in the two libraries.
+
+I'd have students tidy a dataset to the point that they can grammatically
+plot it or run a regression or whatnot.
 
 ## General relationship to existing fields
 People with data science mindset want to start studying things in certain
