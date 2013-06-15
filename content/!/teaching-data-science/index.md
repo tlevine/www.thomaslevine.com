@@ -12,6 +12,11 @@ conclusion from this ramble on the utility of teaching the nebulous concept of
 "data science" was that it would be nice to figure out what data science
 involves and how I would teach it.
 
+The only data science course syllabus that I recall reading is the one from
+General Assebly in New York, and I haven't read any books with "data science"
+in the title. After I write all this, it'll be fun to compare this with what
+other people think should be taught.
+
 ## The mindset
 First, I see data science as a mindset. I also see ergonomics (another thing
 I apparently know a lot about) as a mindset, so it might just be that everything
@@ -106,6 +111,32 @@ language that is embodied in the two libraries.
 I'd have students tidy a dataset to the point that they can grammatically
 plot it or run a regression or whatnot.
 
+### Lesson XXX: Data storage
+Data is a table, but you can store it in a lot of ways.
+
+I'll also talk about how data stores can be used as interfaces between
+languages.
+
+A toy project could involve querying a JSON API, loading that into a
+fancy database, querying that database, maybe serializing the output
+as CSV, and then doing something pretty with the resulting data.
+
+### Lesson XXX: Performance concerns
+When data gets more than tiny, you have to think about RAM, storage,
+speed, &c. I would discuss how this stuff comes up and how you can
+deal with it.
+
+I'd rather not assign any practical work that involves dealing with
+more than a few gigabytes of data; it would take a while, and the
+result wouldn't be that interesting. But some smaller-scale things
+would be fun for students who haven't dealt them.
+
+* Extract some bits of information from a shit ton of huge files
+    without using much memory at once.
+* Optimize some code in a dynamic language by calling C. For example,
+    in R, you might vectorize the code or use Rcpp.
+* Randomly sample a dataset.
+
 ### Lesson XXX: Visual displays of quantitative information
 I would talk about different kinds of plots and how they relate to types
 of variables. I read an awesome book by Bill Clevelend in the Cornell
@@ -162,16 +193,6 @@ thing, show how to use some web APIs, and show how to build up a web
 request that matches the one your web browser made. I would finish the
 part of the site from the web scraping lesson that involved the messy
 HTTP request.
-
-### Lesson XXX: Data storage
-Data is a table, but you can store it in a lot of ways.
-
-I'll also talk about how data stores can be used as interfaces between
-languages.
-
-A toy project could involve querying a JSON API, loading that into a
-fancy database, querying that database, maybe serializing the output
-as CSV, and then doing something pretty with the resulting data.
 
 ### Lessons XXX: Statistics, machine learning, &c.
 I think it's too easy for people to talk more than is helpful about
