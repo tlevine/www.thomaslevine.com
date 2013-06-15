@@ -48,23 +48,31 @@ ways, so they wind up deciding to learn certain sorts of things.
 
 At a high level, 
 
+### Not domain knowledge
 Drew Conway says that domain knowledge is also part of the data science thing,
 but I don't like including that. Here are few reasons why.
 
-1. It's probably good for anyone working in a particular area to know about
-    that area. For example, analysts need to know the area so they can analyze
-    it, statisticians need to know the area so they can specify appropriate
-    models and write good reports, and engineers need to understand how their
-    users use things. So domain expertise doesn't distinguish data scientists
-    from anyone else.
-2. In contemporary organizations, domain knowledge appears to be the role of
-    the analyst. With experience, the analyst learns a lot about a particular
-    domain, whereas other roles get better at other things that can be applied
-    to different domains.
-3. The data science mindset is about the using digital quantitative
-    information to learn how complex systems work and to convey this
-    knowledge to others; the specific manner of system isn't part of the
-    mindset.
-4. What is a domain anyway? When I'm with a group of people who don't know
-    computer stuff know that computers could help their organization do stuff
-    better, maybe I'm acting as an expert in the domain of data science.
+#### 1. Domain knowledge is good for everyone.
+It's probably good for anyone working in a particular area to know about
+that area. For example, analysts need to know the area so they can analyze
+it, statisticians need to know the area so they can specify appropriate
+models and write good reports, and engineers need to understand how their
+users use things. So domain expertise doesn't distinguish data scientists
+from anyone else.
+
+#### 2. Domain knowledge is seen as the role of the analyst or the academic
+In contemporary organizations and society, domain knowledge appears to be
+the role of the analyst or the academic. With experience, the
+analyst/academic learns a lot about a particular domain, whereas other role
+get better at other things that can be applied to different domains.
+
+#### 3. The data science mindset is about learning and teaching
+The data science mindset is about the using digital quantitative
+information to learn how complex systems work and to convey this
+knowledge to others; the specific manner of system isn't part of the
+mindset.
+
+#### 4. What is a domain anyway?
+When I'm with a group of people who don't know computer stuff know that
+computers could help their organization do stuff better, maybe I'm acting
+as an expert in the domain of data science.
