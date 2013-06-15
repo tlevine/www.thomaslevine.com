@@ -1,7 +1,7 @@
 ---
 title: Inspiration for questions
 kind: article
-created_at: 2013-07-14
+created_at: 2013-06-09
 ---
 
 I have various mental lists of ways of asking more questions, but I only seem
@@ -24,9 +24,8 @@ to the sentence "I like broccili".
   * smell ("What does broccili smell like?")
   * taste ("What does broccili taste like?")
   * look ("What does broccili look like?")
-* Switch the roles of observers. ("Does broccili like you?")
-* Vocabulary
+* Switch the roles of participants. ("Does broccili like you?")
+* Vocabulary; examples:
   * "What is broccili?"
   * "What do you mean by 'like'?"
-* Motivation
-  * Why do you mention that you like broccili?
+* Motivation ("Why do you mention that you like broccili?")

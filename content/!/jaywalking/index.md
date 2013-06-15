@@ -1,5 +1,5 @@
 ---
-title: pbdq
+title: Jaywalking
 ---
 
 <img alt='A "JAYWALKING PROHIBITED" sign posted on a bus stop and a crowd of people across the street'
