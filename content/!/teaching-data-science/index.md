@@ -42,7 +42,14 @@ If you want to do that and you are alive today, you might get excited by the
 potential off the ease of collecting and storing quantitative information,
 and the aspects above follow logically.
 
-## Implementation
+## Specific implementations
+If I were to teach data science, I would teach things that are obvious
+consequences of the above mindset. That is, I would teach methods that
+allow people to non-rudely collect and use quantitative information in order
+to learn things about complex systems and to use/disseminate the resulting
+knowledge. Here we go.
+
+## General relationship to existing fields
 People with data science mindset want to start studying things in certain
 ways, so they wind up deciding to learn certain sorts of things. At a high
 level, the following doodle explains those things.
@@ -80,3 +87,4 @@ mindset.
 When I'm with a group of people who don't know computer stuff know that
 computers could help their organization do stuff better, maybe I'm acting
 as an expert in the domain of data science.
+
