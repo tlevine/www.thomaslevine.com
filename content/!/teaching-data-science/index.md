@@ -48,14 +48,33 @@ consequences of the above mindset. That is, I would expose and reinforce
 the above mindset, and I would teach methods that allow people to embody
 the above mindset.
 
+The course would generally follow this schedule, with a few lessons per item.
+
+1. The data mindset
+2. Converting a mess into data
+3. Stuff you can do once you have data.
+  * Graphs
+  * Interactives
+  * Statistics and predictions
+
+The numbered points would go in order, but the different stuff that you do
+once you have data could be ordered quite flexibly. I would want students to
+be learning that stuff only after they have a unique dataset to try them on.
+
 The following sections are these various topics, grouped into lessons
 and ordered in the order I would give them. (But if a lesson is titled
 "Lesson XXX", I haven't figured out where it goes yet.)
 
+### But first, some small notes
 I happen to mention R libraries for most things, but I actually think
 people should be using some other language. Python (pandas) and Scala
 (Saddle) seem better because they're faster. I wouldn't really care what
 students use.
+
+One point I want to get across is that **you** can do data science too.
+I don't mention many buzzwords in the following descriptions, but I
+would define them as they come up and briefly rant about how they're
+not usually much more meaningful than ordinary words.
 
 ### Lesson 1: Everything can be quantified
 I would break down distinctions between qualitative information and
@@ -143,6 +162,32 @@ thing, show how to use some web APIs, and show how to build up a web
 request that matches the one your web browser made. I would finish the
 part of the site from the web scraping lesson that involved the messy
 HTTP request.
+
+### Lesson XXX: Data storage
+Data is a table, but you can store it in a lot of ways.
+
+I'll also talk about how data stores can be used as interfaces between
+languages.
+
+A toy project could involve querying a JSON API, loading that into a
+fancy database, querying that database, maybe serializing the output
+as CSV, and then doing something pretty with the resulting data.
+
+### Lessons XXX: Statistics, machine learning, &c.
+I think it's too easy for people to talk more than is helpful about
+statistics or machine learning. I don't know how many lessons I would
+devote to this, but here are some things that would get discussed
+
+* Fundamental statistical concepts like mean and variance
+* Emphasizing prediction versus inference, which I see as the main
+    distinction between machine learning and statistics
+* Categorizing algorithms
+  * Unsupervised versus supervised
+  * Type signature (like this: one discrete variables ~ many continuous variables)
+  * Frequentist versus Bayesian
+
+A project could involve computing some quantity or building some model
+based on some data that students already have.
 
 ## Specific projects
 Preferably, there wouldn't be much of me standing in a room giving formal
