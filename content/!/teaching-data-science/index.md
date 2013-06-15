@@ -26,11 +26,11 @@ mindset.
         Tweets).
     * I actually don't see those two approaches as different; it's more like
         they're different ways of saying the same thing.
-3. 
+3. As a corallary to the previous point, if collecting data on complex behaviors
+    is convenient/inexpensive, you should collect the data even if you have no
+    plans to use them. For example, if you make a website that starts getting
+    much traffic, you should log every interaction that you can conveniently
+    log, or at least every HTTP request that is made.
+4. When asked a question about the world, adapt the question so that it can be
+    answered with an existing and convenient dataset.
 
-So I decided to think about how I would teach data science
-
-associated offerings
-
-I decided to think about what I would teach if I were to teach data
-science
