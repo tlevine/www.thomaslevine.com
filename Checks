@@ -7,7 +7,7 @@ check :no_pre_indent do
     html = Nokogiri::HTML(file)
     html.xpath('//code').each do |code|
       lines = code.text.split "\n"
-      if (lines.length >= 2) and (lines[1][0..3] == "    ")
+      if (lines.length >= 2) and (lines[1][0..4] == "     ")
         # If the second line is indented
         self.add_issue("Indented pre tag", :subject => fn)
       end
