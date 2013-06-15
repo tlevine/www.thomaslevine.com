@@ -2,7 +2,6 @@
 .sass-cache
 .ruby-gemset
 .ruby-version
-Gemfile.lock
 output
 .rvmrc
 tmp
