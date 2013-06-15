@@ -43,10 +43,14 @@ potential off the ease of collecting and storing quantitative information,
 and the aspects above follow logically.
 
 ## Implementation
-People who with data science mindset want to start studying things in certain
-ways, so they wind up deciding to learn certain sorts of things.
+People with data science mindset want to start studying things in certain
+ways, so they wind up deciding to learn certain sorts of things. At a high
+level, the following doodle explains those things.
 
-At a high level, 
+![Plot of the four professions' abilities with analysis and abilities with computers](<%= @item.identifier %>data-people.png)
+
+Data scientists know both how to learn things from numbers (analysis skills)
+and how to turn things into numbers (computer skills).
 
 ### Not domain knowledge
 Drew Conway says that domain knowledge is also part of the data science thing,
