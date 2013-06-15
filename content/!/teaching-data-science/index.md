@@ -44,10 +44,58 @@ and the aspects above follow logically.
 
 ## Specific implementations
 If I were to teach data science, I would teach things that are obvious
-consequences of the above mindset. That is, I would teach methods that
-allow people to non-rudely collect and use quantitative information in order
-to learn things about complex systems and to use/disseminate the resulting
-knowledge. Here we go.
+consequences of the above mindset. That is, I would expose and reinforce
+the above mindset, and I would teach methods that allow people to embody
+the above mindset.
+
+The following sections are these various topics, grouped into lessons
+and ordered in the order I would give them
+
+### Lesson 1: Everything can be quantified
+I would break down distinctions between qualitative information and
+quantitative information and distinctions between unstructured and structured
+data.
+
+I would discuss what people mean by "qualitative" and "quantitative"
+information, what they mean by "unstructured" and "structured" data, and how
+people can convert between these opposites.
+
+I would model flows of information through a bureaucracy and show
+how that could be gradually converted to computer program. (If you've
+seen me give a talk in the last year, I've probably done something like
+this with an example of the review of permits to dredge or fill wetlands.)
+
+I would have students write some small program that converts some
+inconvenient data source into a table that would produce an interesting
+plot.
+
+### Lesson 2: 
+
+
+
+### Lesson XXX: Visual displays of quantitative information
+I would talk about different kinds of plots and how they relate to types
+of variables. I read an awesome book by Bill Clevelend in the Cornell
+Math Library that categoriezed plots based on the types of input data.
+
+I would talk about some of Edward Tufte's principles, and I would have
+people draw graphs on paper that embody some of his principles. The main
+ones that I think about day to day are below, but I might add others, and
+I might also look at other recommendations regarding visual displays.
+
+* Data:ink ratio
+* Multidimensionality
+
+There might also be some general graphic design things. I quite like
+*Design Elements*, by Timothy Samara.
+
+### Lesson XXX: Grammar of graphics
+When exploring data, producing mundane visuals or planning complex visuals,
+I find the grammar of graphics to be quite helpful. I would explain the
+concepts, show examples in `ggplot2` or `d3`, and have students make plots
+that slice a complex dataset in `ggplot2` or `d3`.
+
+### Lesson XXX: 
 
 ## General relationship to existing fields
 People with data science mindset want to start studying things in certain
