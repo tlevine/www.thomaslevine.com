@@ -130,6 +130,20 @@ project where students are given a data source with a convenient web API
 and they make a website that displays the data in a way that lets people
 find their own stories.
 
+### Lesson a: Web Scraping
+It's sort of hard to avoid this series if I'm teaching. I would do
+something akin to my talks at the ScraperWiki data camps; I would show
+how to diagram a website, make GET requests and parse the HTML. I would
+use a website that had one page involving a messy HTTP request, and I
+would skip that for now.
+
+### Lesson a + 1: HTTP
+I would discuss the components of an HTTP request, talk about the ReST
+thing, show how to use some web APIs, and show how to build up a web
+request that matches the one your web browser made. I would finish the
+part of the site from the web scraping lesson that involved the messy
+HTTP request.
+
 ## Specific projects
 Preferably, there wouldn't be much of me standing in a room giving formal
 lessons; there would be more of people working on related projects with
