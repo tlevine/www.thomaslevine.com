@@ -121,6 +121,31 @@ A toy project could involve querying a JSON API, loading that into a
 fancy database, querying that database, maybe serializing the output
 as CSV, and then doing something pretty with the resulting data.
 
+### Lesson XXX: The shell and dotfiles
+I would talk about some shell concepts.
+
+* `#!`
+* `$PATH`
+* Pipes
+* Directing output
+* STDIN, STDOUT, STDERR
+* Access environment variables from other languages
+* `set -e`
+
+I'd also talk about some useful specific programs.
+
+I would have students write a shell script that ties together some things
+we've already done. And I'd encourage students play with vim or emacs and
+git if they aren't already.
+
+### Lesson XXX: Querying data stores
+I would discuss a few general paradigms
+
+* Filesystem
+* MapReduce
+* SQL and variants
+* ReST
+
 ### Lesson XXX: Performance concerns
 When data gets more than tiny, you have to think about RAM, storage,
 speed, &c. I would discuss how this stuff comes up and how you can
