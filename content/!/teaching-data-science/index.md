@@ -12,7 +12,21 @@ conclusion from this ramble on the utility of teaching the nebulous concept of
 "data science" was that it would be nice to figure out what data science
 involves and how I would teach it.
 
+First, I see data science as a mindset. I also see ergonomics (another thing
+I apparently know a lot about) as a mindset, so it might just be that everything
+becomes a mindset once you get good at it. Here are some main aspects of this
+mindset.
 
+1. Everything can be turned into a number.
+2. It is rude and statistically unsound to ask people questions that will only
+    be used for study.
+    * It is better to surveille people unobtrusobly (like by watching security
+        cameras or reading web server logs) or to use questions that they have
+        other reason to answer (like by reading credit card purchases or
+        Tweets).
+    * I actually don't see those two approaches as different; it's more like
+        they're different ways of saying the same thing.
+3. 
 
 So I decided to think about how I would teach data science
 
