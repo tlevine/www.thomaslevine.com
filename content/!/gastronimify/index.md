@@ -1,7 +1,5 @@
 ---
 title: gastronomify
-created_at: 2013-06-06
-kind: article
 ---
 I just wrote an R package that lets you turn data into food.
 It's called [`gastronomify`](https://github.com/tlevine/gastronomify).

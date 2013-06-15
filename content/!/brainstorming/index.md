@@ -1,7 +1,7 @@
 ---
 title: Inspiration for questions
 kind: article
-created_at: 2013-06-14
+created_at: 2013-07-14
 ---
 
 I have various mental lists of ways of asking more questions, but I only seem
