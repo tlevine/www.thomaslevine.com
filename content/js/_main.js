@@ -1,4 +1,5 @@
-//$(function(){
+// Email address
+(function(){
   var words = [
     'hamster',
     'paraphernalia',
@@ -28,5 +29,10 @@
   if (epost){
     epost.innerHTML=chainsaw
   }
-//})
+})()
 
+$(function(){
+  setTimeout(function(){
+    $('#feedback').fadeIn()
+  }, 20 * 1000)
+})

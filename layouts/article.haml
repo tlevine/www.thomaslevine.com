@@ -11,3 +11,6 @@
   .base-little-card
     = link_to('View source', 'https://github.com/tlevine/www.thomaslevine.com/tree/master/content' + @item.identifier + 'index.md')
     = link_to('Discuss', @item[:tweet_link] || 'https://twitter.com/thomaslevine')
+
+:javascript
+  //$()

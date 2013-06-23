@@ -43,7 +43,7 @@
     %link{ :rel => "stylesheet", :href => "http://fonts.googleapis.com/css?family=Open+Sans:400,700", :type => "text/css" }
     %link{ :rel => "stylesheet", :href => "/css/style.css" }
     %script{ :type => "text/javascript", :src => "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" }
-    %script{ :src => "/js/vendor/modernizr.js" }
+    %script{ :src => "/js/modernizr.js" }
 
     -# More ideas for your <head> here: h5bp.com/d/head-Tips
 
@@ -60,23 +60,35 @@
 
     #wrapper
       #container= yield
+
+    #feedback
+      %strong
+        Tom requests your feedback.
+      %p
+        I can never decide what to write;
+        tell me what you like,
+        and my decision will be easier.
+        (Contact information is <a href="/">here</a>.)
+      %a.close{ :href => 'javascript:$("#feedback").fadeOut()' }
+        Close
+
      
-      -# JavaScript at the bottom for fast page loading:
-      -# http://developer.yahoo.com/performance/rules.html#js_bottom
+    -# JavaScript at the bottom for fast page loading:
+    -# http://developer.yahoo.com/performance/rules.html#js_bottom
 
-      -# scripts concatenated and minified
-      %script{ :src => '/js/application.js' }
-      -# end scripts
+    -# scripts concatenated and minified
+    %script{ :src => '/js/application.js' }
+    -# end scripts
 
-      <!-- Piwik --> 
-      <script type="text/javascript">
-      var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.thomaslevine.com/" : "http://piwik.thomaslevine.com/");
-      document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-      </script><script type="text/javascript">
-      try {
-      var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
-      piwikTracker.trackPageView();
-      piwikTracker.enableLinkTracking();
-      } catch( err ) {}
-      </script><noscript><p><img src="http://piwik.thomaslevine.com/piwik.php?idsite=2" style="border:0" alt="Piwik tracking image" /></p></noscript>
-      <!-- End Piwik Tracking Code -->
+    <!-- Piwik --> 
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.thomaslevine.com/" : "http://piwik.thomaslevine.com/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://piwik.thomaslevine.com/piwik.php?idsite=2" style="border:0" alt="Piwik tracking image" /></p></noscript>
+    <!-- End Piwik Tracking Code -->

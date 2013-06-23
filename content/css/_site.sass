@@ -179,15 +179,26 @@ nav .link
 
 #feedback
   @extend .base-card
+  color: $article-text
   @include style-links
   width: 100%
   position: fixed
   bottom: 0
   background-color: black
   margin-bottom: 0
+  display: none
+  a.close, a.close:visited
+    background-color: $article-text
+    padding: 0.5em
+    position: absolute
+    top: 0
+    left: 0
+    color: black
+
 //border-top-style: solid
 //border-top-color: black
 //border-top-width: 2 * $square
+    
 
 // A blog post
 #article-wrapper
