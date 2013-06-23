@@ -2,6 +2,9 @@
 title: Bookmarks
 kind: article
 created_at: 2013-06-23
+tweet: Meta-hipsters do bookmarking in shell
+description: Underwhelmed by existing bookmark programs, I wound up writing my own.
+twitter_image: tags.png
 ---
 I used to use [delicious](https://delicious.com/tlevine),
 but I always found it rather clumsy. I tried
@@ -57,6 +60,37 @@ an `mtl` command for it. I just run something like this.
 You could also search within the files, including the saved files.
 
     grep -r ruby ~/.medial_temporal_lobe/memories
+
+Or see which how many things are in each tag.
+
+    $ find ~/.medial_temporal_lobe/tags -type l|cut -d/ -f2|uniq -c|head -n20
+      2 happstack
+      1 encoding
+      3 html
+      1 poverty
+      1 s3cmd
+      1 plots
+     11 passwords
+      1 heroku
+      3 bundler
+      6 javascript
+      1 popular
+      1 ggplot
+      5 shell
+      2 new_york
+      4 aluminum_bed
+      2 statistics
+      2 hlm
+      2 foi
+      1 video
+      1 networkx
+
+And combine tags.
+
+    cd ~/.medial_temporal_lobe/tags
+    git mv arch/* arch_linux
+    rmdir arch
+    git commit . -m 'Combine arch tags'
 
 I also use this as a mirror for files I want to read. This is especially
 helpful when I'm on a train. (I like trains.) I can bookmark/download a
