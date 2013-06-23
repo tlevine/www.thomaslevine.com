@@ -2,14 +2,14 @@
 title: Bookmarks
 kind: article
 created_at: 2013-06-23
-tweet_text: Meta-hipsters do bookmarking in shell
-tweet_link: 
+tweet_text: Ironic hipsters do web bookmarking in shell.
+tweet_link: https://twitter.com/thomaslevine/status/348835176618553346
 description: Underwhelmed by existing bookmark programs, I wound up writing my own.
 twitter_image: tags.png
 ---
 I used to use [delicious](https://delicious.com/tlevine),
 but I always found it rather clumsy. I tried
-[gitmarks](https://github.com/tlevine/medial_temporal_lobe),
+[gitmarks](https://github.com/FarMcKon/gitmarks_2),
 but it also seemed clumsy. So I made my own bookmark manager,
 [medial-temporal lobe](https://github.com/tlevine/medial_temporal_lobe).
 
