@@ -2,7 +2,8 @@
 title: Bookmarks
 kind: article
 created_at: 2013-06-23
-tweet: Meta-hipsters do bookmarking in shell
+tweet_text: Meta-hipsters do bookmarking in shell
+tweet_link: 
 description: Underwhelmed by existing bookmark programs, I wound up writing my own.
 twitter_image: tags.png
 ---
