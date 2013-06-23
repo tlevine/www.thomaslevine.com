@@ -73,6 +73,11 @@ a
     color: inherit
     outline: thin dotted
 
+@mixin style-links
+  a, a:visited
+    text-decoration: underline
+    color: $pink
+
 // Base classes =========================================== //
 .base-card
   text-align: center
@@ -172,6 +177,17 @@ nav .link
 
 // Different sections are different colors
 
+#feedback
+  @extend .base-card
+  @include style-links
+  width: 100%
+  position: fixed
+  bottom: 0
+  background-color: black
+  margin-bottom: 0
+//border-top-style: solid
+//border-top-color: black
+//border-top-width: 2 * $square
 
 // A blog post
 #article-wrapper
@@ -219,10 +235,6 @@ nav .link
 
     table, p, li, pre, blockquote
       margin-bottom: 1em
-
-    a, a:visited
-      text-decoration: underline
-      color: $pink
   
     img, iframe
       width: 100%
@@ -231,6 +243,8 @@ nav .link
         bottom: 1.5em
       border: none
       background-color: white
+
+    @include style-links
   
     a, a:visited, a:hover, a:active, 
     h1, h2, h3, h4, h5
