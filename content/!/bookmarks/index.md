@@ -43,6 +43,7 @@ I find it much easier and faster and generally more convenient to
 add bookmarks with `mtl` than with Delicious, and I wind up saving
 more things.
 
+### Tagging is easy.
 It is quite easy to tag things, so I add more tags. I generally make an
 alias to facilitate this. For example, I was reading about configuring
 bundler earlier today, so I wound up with a bunch of things that I wanted
@@ -52,6 +53,7 @@ to tag with "ruby" and "bundler", so I made this alias.
 
 And then I ran `a $url` for a bunch of urls.
 
+### Searching is easy.
 It is also quite easy to search things, even though I haven't implemented
 an `mtl` command for it. I just run something like this.
 
@@ -86,6 +88,7 @@ Or see which how many things are in each tag.
       1 video
       1 networkx
 
+### Editing is easy.
 And combine tags.
 
     cd ~/.medial_temporal_lobe/tags
@@ -93,6 +96,7 @@ And combine tags.
     rmdir arch
     git commit . -m 'Combine arch tags'
 
+### Mirroring is built in.
 I also use this as a mirror for files I want to read. This is especially
 helpful when I'm on a train. (I like trains.) I can bookmark/download a
 bunch of files, commit them, push them, pull them from my laptop, get on
