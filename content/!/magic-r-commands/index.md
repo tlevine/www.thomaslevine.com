@@ -1,7 +1,7 @@
 ---
 title: Magic R commands
 kind: article
-created_at: 2013-06-22
+created_at: 2013-07-06
 tags: ['data']
 ---
 
