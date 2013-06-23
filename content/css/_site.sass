@@ -199,6 +199,9 @@ nav .link
       font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
       color: $article-text
       background-color: $page-background
+
+    blockquote
+      background-color: $page-background
   
     pre, blockquote
       margin:
@@ -212,9 +215,11 @@ nav .link
       line-height: 0.75 * $square
 
     p, li
-      margin-bottom: 0.75em
       color: $article-text
-  
+
+    table, p, li, pre, blockquote
+      margin-bottom: 1em
+
     a, a:visited
       text-decoration: underline
       color: $pink
@@ -237,7 +242,6 @@ nav .link
     table
       width: 100%
       text-align: right
-      margin-bottom: 1em
       border:
         bottom: 0.25em solid
         bottom-color: $page-background
