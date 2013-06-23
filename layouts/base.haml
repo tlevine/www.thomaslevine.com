@@ -16,11 +16,11 @@
 
     -# Twitter
     %meta{ :name => "twitter:card", :content => "summary" }
-    %meta{ :name => "twitter:site", :content => "@thomaslevine" }
+    %meta{ :name => "twitter:site", :content => '@thomaslevine' }
     %meta{ :name => "twitter:title", :content => "#{@item[:title] || 'Thomas Levine'}" }
-    %meta{ :name => "twitter:description", :content => "#{@item[:description}" }
-    %meta{ :name => "twitter:creator", :content => "@thomaslevine" }
-    %meta{ :name => "twitter:image:src", :content => "http://thomaslevine.com#{@item.identifier + @item[:twitter_image]}" }
+    %meta{ :name => "twitter:description", :content => "#{@item[:description]}" }
+    %meta{ :name => "twitter:creator", :content => '@thomaslevine' }
+    %meta{ :name => "twitter:image:src", :content => "http://thomaslevine.com#{@item[:twitter_image] ? (@item.identifier + @item[:twitter_image]) : '/apple-touch-icon-144x144-precomposed.png'}" }
     %meta{ :name => "twitter:domain", :content => "thomaslevine.com" }
     %meta{ :name => "twitter:app:name:iphone", :content => "" }
     %meta{ :name => "twitter:app:name:ipad", :content => "" }
