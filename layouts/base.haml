@@ -14,6 +14,24 @@
     %meta{ :name => "generator", :content => "nanoc #{Nanoc::VERSION}" }
     %meta{ :name => "viewport", :content => "width=device-width" }
 
+    -# Twitter
+    %meta{ :name => "twitter:card", :content => "summary" }
+    %meta{ :name => "twitter:site", :content => "@thomaslevine" }
+    %meta{ :name => "twitter:title", :content => "#{@item[:title] || 'Thomas Levine'}" }
+    %meta{ :name => "twitter:description", :content => "#{@item[:description}" }
+    %meta{ :name => "twitter:creator", :content => "@thomaslevine" }
+    %meta{ :name => "twitter:image:src", :content => "http://thomaslevine.com#{@item.identifier + @item[:twitter_image]}" }
+    %meta{ :name => "twitter:domain", :content => "thomaslevine.com" }
+    %meta{ :name => "twitter:app:name:iphone", :content => "" }
+    %meta{ :name => "twitter:app:name:ipad", :content => "" }
+    %meta{ :name => "twitter:app:name:googleplay", :content => "" }
+    %meta{ :name => "twitter:app:url:iphone", :content => "" }
+    %meta{ :name => "twitter:app:url:ipad", :content => "" }
+    %meta{ :name => "twitter:app:url:googleplay", :content => "" }
+    %meta{ :name => "twitter:app:id:iphone", :content => "" }
+    %meta{ :name => "twitter:app:id:ipad", :content => "" }
+    %meta{ :name => "twitter:app:id:googleplay", :content => "" }
+
     -# Place favicon.ico and apple-touch-icon.png in the root directory
     %link{ :rel => "icon", :href => "/favicon.ico", :type => "image/x-icon" }
 
