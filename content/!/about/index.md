@@ -4,10 +4,11 @@ title: About Thomas Levine
 
 ## Short version
 
-Tom has given in to buzzwords.
 Data science, ergonomics,
 typography, toilets, data
-gastronomy, free software.
+gastronomy, free software,
+pretend-ironic buzzwords
+and the color pink.
 
 ## Complicated version
 
