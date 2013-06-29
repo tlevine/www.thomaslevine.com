@@ -2,7 +2,14 @@
 title: About Thomas Levine
 ---
 
-## ?
+## Short version
+
+Tom has given in to buzzwords.
+Data science, ergonomics,
+typography, toilets, data
+gastronomy, free software.
+
+## Complicated version
 
 Thomas Levine likes to help peole make things work more smoothly. When he was a
 young child, he built assembly lines for fun. He only realized that this was
