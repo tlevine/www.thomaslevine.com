@@ -13,12 +13,13 @@ and the color pink.
 ## Longer version
 
 Thomas Levine has been playing with computers since he was young. In the
-process, he developed back and wrist pain. Then he started studying
-ergonomics. After some study, his back and wrist hurt less, but he continued
-doing ergonomics research and went to school for ergonomics. By studying
-computers and ergonomics, he accidentally became a data scientist. He likes
-using data to make peoples' jobs run more smoothly. He also has a band called
-[CSV Soundsystem](http://csvsoundsystem.com) that makes music from spreadsheets.
+process, he developed back and wrist pain. Then he started studying                                                                                                  
+ergonomics. After some study, his back and wrist hurt less, but he
+continued doing ergonomics research and went to school for ergonomics.                                                                                               
+By studying computers and ergonomics, he accidentally became a data
+scientist. He likes using data to make peoples' jobs run more smoothly.                                                                                              
+He also has a band called [CSV Soundsystem](http://csvsoundsystem.com)
+that makes music from spreadsheets. 
 
 ## Complicated version
 
