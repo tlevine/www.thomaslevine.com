@@ -77,12 +77,14 @@ a
   a, a:visited
     text-decoration: underline
     color: $pink
-  code a, code a:visited
-    text-decoration: inherit
-    background-color: $pink
-  code a:hover, code a:focus
-    text-decoration: inherit
-    background-color: inherit
+    code
+      text-decoration: none !important
+      border-style: dotted
+      border-color: $pink
+      border-width: 1px
+  a:hover, a:focus
+    code
+      text-decoration: none !important
 
 // Base classes =========================================== //
 .base-card
