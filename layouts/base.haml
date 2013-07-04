@@ -33,6 +33,15 @@
     %meta{ :name => "twitter:app:id:ipad", :content => "" }
     %meta{ :name => "twitter:app:id:googleplay", :content => "" }
 
+    -# Facebook
+    -# https://developers.facebook.com/docs/opengraph/creating-object-types
+    -# https://developers.facebook.com/tools/debug
+    %meta{ :property => "og:url",         :content => "#{@item.identifier}" } 
+    %meta{ :property => "og:site_name",   :content => "thomaslevine.com" } 
+    %meta{ :property => "og:description", :content => "#{@item[:facebook_description] || @item[:description]}" } 
+    %meta{ :property => "og:title",       :content => "#{@item[:facebook_title] || @item[:title]}" } 
+    %meta{ :property => "og:image",       :content => "http://thomaslevine.com#{@item[:facebook_image] ? (@item.identifier + @item[:facebook_image]) : '/apple-touch-icon-144x144-precomposed.png'}" }
+
     -# Place favicon.ico and apple-touch-icon.png in the root directory
     %link{ :rel => "icon", :href => "/favicon.ico", :type => "image/x-icon" }
 
