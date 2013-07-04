@@ -1,4 +1,4 @@
-# nanoc/project directories to ignore
+# nanoc and other compiler-related stuff
 .sass-cache
 .ruby-gemset
 .ruby-version
@@ -7,3 +7,6 @@ output
 tmp
 crash.log
 Guardfile
+
+# Bugs Everywhere lookup cache
+.be/id-cache
