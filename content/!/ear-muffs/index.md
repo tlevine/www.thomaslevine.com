@@ -58,10 +58,10 @@ would work for me. Here are the things I want them for
 * Train, bus, car, &c. noise
 * Loud music at parties
 
-Active noise reduction is supposedly best at ambient noise, so the special part about
-the fancy ones is how they handle sudden noises like gunshots.
+I read somewhere that active noise reduction is best at ambient noise, so the special
+part about the fancy ones might be how they handle sudden noises like gunshots.
 
-## Impressions now that I have them
+## The ear muffs I chose
 I ordered (and received) these two pairs of ear muffs.
 
 * **Passive**: [Pro-Ears Ultra Passive 33](http://www.opticsplanet.com/pro-ears-ultra-passive-33-shooting-hearing-protection-heads-pe-33-u-b-black.html).
@@ -74,10 +74,9 @@ It's a bit small for my head, though it's fine if I rotate it back a bit.
 And I think it's more comfortable than my pair that broke.
 
 ### Peltor TacticalPro
-And here are my thoughts on the second.
-Like the other pair, it is quite comfortable and reduces noise quite a bit.
+Like the other pair, this one is quite comfortable, and it reduces noise quite a bit.
 
-The "active" bit is more interesting.
+And now I know what "active" means.
 It has a microphone outside each earmuff (half of an earmuffs?) and a speaker inside
 each earmuff. When the earmuffs are off, they make thing quiet. When they're on, the
 speakers play the sounds that the microphones pick up, but at a lower volume. (You can
