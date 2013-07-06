@@ -2,6 +2,7 @@
 title: Earmuffs
 ---
 
+## Previous ear muffs
 Ear plugs get annoying, so I got a pair of ear muffs two and a half years ago on
 Christmas. <!-- thread:00000000000116c9 -->
 They're the [Glock Peltor Hearing Protector Muffs AP60212](http://www.opticsplanet.com/glock-peltor-hearing-protector-muffs.html).
@@ -14,14 +15,15 @@ But here are some things I didn't like. My ears got sweaty and soft, and I wonde
 whether that did something bad to them. They also pressed pretty hard against my
 head. And, most problematically, they broke.
 
+## Choosing another pair
 So now I'm going to get some new ones. I think I looked at some ear muff review
-site when I got them, but I can't find that site, I started with OpticsPlanet, the
-store from which I bought the AP60212.
+site when I got them, but I can't find that site, so I just went to OpticsPlanet,
+the store from which I bought the AP60212.
 
 I looked at their [best-rated hearing protection](http://www.opticsplanet.com/hearing-protection-best-rated.html).
 The most expensive highly rated passive earmuffs are the
 [Pro-Ears Ultra Passive 33](http://www.opticsplanet.com/pro-ears-ultra-passive-33-shooting-hearing-protection-heads-pe-33-u-b-black.html).
-Bizarrely, these are more expensive than the lower-rated
+Bizarrely, these are more expensive than the
 [28 NRR version](https://www.opticsplanet.com/pro-ears-ultra-passive-28-shooting-hearing-protection-heads-pe-28-u-b-black.html).
 Also, this one comes in pink. :)
 
@@ -57,7 +59,42 @@ would work for me. Here are the things I want them for
 Active noise reduction is supposedly best at ambient noise, so the special part about
 the fancy ones is how they handle sudden noises like gunshots.
 
-Anyway, I think I'm going with these two pairs of ear muffs.
+## Impressions now that I have them
+I ordered (and received) these two pairs of ear muffs.
 
 * **Passive**: [Pro-Ears Ultra Passive 33](http://www.opticsplanet.com/pro-ears-ultra-passive-33-shooting-hearing-protection-heads-pe-33-u-b-black.html).
 * **Active**: [Peltor TacticalPro Electronic Hearing Protector - Collapsable Folding Headband MT15H7F-SV](http://www.opticsplanet.com/peltor-protac-electronic-headset-collapsable-folding-headband-mt15h7f-sv.html)
+
+### Pro-Ears Ultra Passive 33
+I've only worn the first pair for a couple seconds; I was more interested in trying
+second one because it seemed so fancy. But here are my thoughts on the first pair.
+It's a bit small for my head, though it's fine if I rotate it back a bit.
+And I think it's more comfortable than my pair that broke.
+
+### Peltor TacticalPro
+And here are my thoughts on the second.
+Like the other pair, it is quite comfortable and reduces noise quite a bit.
+
+The "active" bit is more interesting.
+It has a microphone outside each earmuff (half of an earmuffs?) and a speaker inside
+each earmuff. When the earmuffs are off, they make thing quiet. When they're on, the
+speakers play the sounds that the microphones pick up, but at a lower volume. (You can
+set the volume.) This would explain why it was called "amplification" in one of the
+other products' descriptions.
+
+These earmuffs also supposedly know not to amplify sudden loud noises like gunshots,
+but I haven't really noticed.
+
+The sound amplification might be nice for conversations in parties, loud offices and
+subways, but I've mostly been leaving it off.
+
+## Thoughts for when I get another pair
+
+1. Always have something. I got two pairs partly so that I would have one in case I
+    lost the other. And passive earmuffs are cheap.
+2. The active thing doesn't do very much, but the earmuffs with sound amplication
+    might tend to be better in other ways. The TacticalPro feels a bit more comfortable
+    and sturdy than I remember the Glock Peltor feeling.
+3. I read in the manual for the Peltor TacticalPro that it and some other earmuffs have
+    lots of fancy attachments. Notably, one is a system for talking to other people
+    wearing earmuffs in loud places. That might be cool.
