@@ -98,3 +98,7 @@ subways, but I've mostly been leaving it off.
 3. I read in the manual for the Peltor TacticalPro that it and some other earmuffs have
     lots of fancy attachments. Notably, one is a system for talking to other people
     wearing earmuffs in loud places. That might be cool.
+4. All these earmuffs press against my glasses. This is slightly painful, it does
+    something to my glasses, and it makes the world more loud (because it breaks the
+    seal formed by the earmuffs). I want to get glasses that don't clash with the
+    earmuffs.
