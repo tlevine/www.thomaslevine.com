@@ -34,5 +34,5 @@
 $(function(){
   setTimeout(function(){
     $('#feedback').fadeIn()
-  }, 2 * 60 * 1000)
+  }, 3 * 60 * 1000)
 })
