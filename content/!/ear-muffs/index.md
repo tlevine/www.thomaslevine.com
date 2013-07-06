@@ -1,5 +1,7 @@
 ---
 title: Earmuffs
+created_at: 2013-07-06
+kind: article
 ---
 
 ## Previous ear muffs
