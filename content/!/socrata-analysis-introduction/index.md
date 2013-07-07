@@ -159,8 +159,7 @@ Let's first see which portals are biggest. Which has the most datasets?
     ggplot(socrata) + aes(x = portal) + geom_bar() + coord_flip() + scale_y_log10("Number of datasets", 
         breaks = 10^(0:4)) + scale_x_discrete("Data portal")
 
-![plot of chunk big_portals_datasets](figure/big_portals_datasets.png) 
-{:.wide}
+![plot of chunk big_portals_datasets](figure/big_portals_datasets.png){:.wide}
 
 Which portals get the most downloads?
 
@@ -175,8 +174,7 @@ Which portals get the most downloads?
         scale_y_log10("Number of dataset downloads", labels = comma, breaks = 10^c(2:9)) + 
         scale_x_discrete("Data portal")
 
-![plot of chunk big_portals_downloads](figure/big_portals_downloads.png) 
-{:.wide}
+![plot of chunk big_portals_downloads](figure/big_portals_downloads.png){:.wide}
 
 Do any of them have few datasets but get a lot of downloads?
 
@@ -195,8 +193,7 @@ This might be easier or harder to read.
         scale_x_log10("Number of datasets", breaks = 10^(0:4)) + scale_y_log10("Number of dataset downloads", 
         labels = comma, breaks = 10^c(2:9))
 
-![plot of chunk big_portals_density_text](figure/big_portals_density_text.png) 
-{:.wide}
+![plot of chunk big_portals_density_text](figure/big_portals_density_text.png){:.wide}
 
 What are the most popular datasets for each portal? Let's first do the one with
 the most downloads.
@@ -358,8 +355,7 @@ But that looks bad, so let's do it as points.
 
     ## Warning: Removed 542 rows containing missing values (geom_point).
 
-![plot of chunk shapes_scatter](figure/shapes_scatter.png) 
-{:.wide}
+![plot of chunk shapes_scatter](figure/shapes_scatter.png){:.wide}
 
 Some datasets have no rows nor columns. Here are ten of them.
 
