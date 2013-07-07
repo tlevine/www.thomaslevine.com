@@ -3,13 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Thomas Levine -- @thomaslevine
 
 # TECHNOLOGY COLOPHON
 
+    nanoc, nanoc-h5bp,
+    HAML, SASS,
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
