@@ -5,8 +5,8 @@ tags: ['socrata']
 kind: article
 twitter_image: figure/datasets_size_over_time2.png
 facebook_image: figure/big_portals_downloads.png
-tweet_text: This one time, I Socrata's 80,000 datasets and analyzed them all.
-description: This one time, I Socrata's 80,000 datasets and analyzed them all.
+tweet_text: This one time, I downloaded @socrata's 80,000 datasets and analyzed them all.
+description: This one time, I downloaded Socrata's 80,000 datasets and analyzed them all.
 facebook_text: Guess how many datasets are in all of the Socrata portals.
 facebook_title: And which ones are the most popular?
 facebook_description: This one time, I all of Socrata's datasets and analyzed them.
