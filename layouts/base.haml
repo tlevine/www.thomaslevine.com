@@ -36,7 +36,7 @@
     -# Facebook
     -# https://developers.facebook.com/docs/opengraph/creating-object-types
     -# https://developers.facebook.com/tools/debug
-    %meta{ :property => "og:url",         :content => "#{@item.identifier}" } 
+    %meta{ :property => "og:url",         :content => "http://thomaslevine.com#{@item.identifier}" } 
     %meta{ :property => "og:site_name",   :content => "thomaslevine.com" } 
     %meta{ :property => "og:description", :content => "#{@item[:facebook_description] || @item[:description]}" } 
     %meta{ :property => "og:title",       :content => "#{@item[:facebook_title] || @item[:title]}" } 
