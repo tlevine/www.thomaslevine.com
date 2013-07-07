@@ -5,12 +5,14 @@ tags: ['socrata']
 kind: article
 twitter_image: figure/datasets_size_over_time2.png
 facebook_image: figure/big_portals_downloads.png
-tweet_text: This one time, I downloaded @socrata's 80,000 datasets and analyzed them all. http://www.thomaslevine.com/!/socrata-summary/?cachebuster=abc
+tweet_text: This one time, I downloaded @socrata's 80,000 datasets and analyzed them all. http://thomaslevine.com/!/socrata-summary
 description: This one time, I downloaded Socrata's 80,000 datasets and analyzed them all.
 twitter_description: Guess which ones are most popular.
-facebook_text: Guess how many datasets are in all of the Socrata portals. http://www.thomaslevine.com/!/socrata-summary/
+facebook_text: Guess how many datasets are in all of the @socrata portals. http://thomaslevine.com/!/socrata-summary/
 facebook_title: And guess which ones are the most popular.
 facebook_description: This one time, I downloaded all of Socrata's datasets and analyzed them.
+tweet_link: https://twitter.com/thomaslevine/status/353952098762760193
+facebook_link: https://www.facebook.com/perluette/posts/2480962388120
 ---
 <% root = 'https://github.com/tlevine/socrata-download/tree/master/' %>
 
