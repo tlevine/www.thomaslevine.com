@@ -394,22 +394,22 @@ number of rows (`nrow`) or number of cells (`ncell`).
 
     ## Warning: Removed 17 rows containing missing values (geom_point).
 
-[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal1.png)](figure/dataset_size_by_portal1.png) 
+[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal1.png){:.wide}](figure/dataset_size_by_portal1.png) 
 
     print(base + aes(x = ncol))
 
-[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal2.png)](figure/dataset_size_by_portal2.png) 
+[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal2.png){:.wide}](figure/dataset_size_by_portal2.png) 
 
     print(base + aes(x = nrow * ncol))
 
     ## Warning: Removed 17 rows containing missing values (geom_point).
 
-[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal3.png)](figure/dataset_size_by_portal3.png) 
+[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal3.png){:.wide}](figure/dataset_size_by_portal3.png) 
 
 ### Time
 What does the growth of downloads of a dataset look like? We don't have the data
-for individual datasets, but we can compare the current download counts between
-old datasets and new datasets.
+for individual datasets, but we can compare the current download counts old datasets
+to new datasets.
 
 Has dataset size changed over the past couple years?
 
