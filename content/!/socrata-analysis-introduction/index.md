@@ -10,7 +10,7 @@ facebook_text: Guess how many datasets are in all of the Socrata portals.
 facebook_title: And which ones are the most popular?
 facebook_description: This one time, I all of Socrata's datasets and analyzed them.
 ---
-<% root = 'https://github.com/tlevine/socrata-analysis/tree/master/' %>
+<% root = 'https://github.com/tlevine/socrata-download/tree/master/' %>
 
 I downloaded the metadata files for most of the datasets across most of the Socrata data portals.
 Here I explain how I did that and present an summary of the sorts of data that we find in the portals.
@@ -95,11 +95,12 @@ opens all of the JSON files and makes a row in a CSV file for each one. It doesn
 all of the fields. It handles nested structures by extracting flat features from them;
 for example, I take the number of dataset tags rather than the full list of tags.
 
-You can download this table [here](socrata.csv). The following analyses all come from
-that table.
+
+You can download this table [here](https://github.com/tlevine/socrata-analysis/blob/master/socrata.csv).
+The following analyses all come from that table.
 
 ### Missing metadata
-[`summary.sh`](https://github.com/tlevine/socrata-analysis/tree/master/summary.sh){:.code} tells me which files are empty (as a result of
+[`summary.sh`](https://github.com/tlevine/socrata-analysis/blob/master/python/summary.sh){:.code} tells me which files are empty (as a result of
 HTTP errors) and how total files there are. It turns out that six of the Hawaii files
 are empty. The Hawaii data portal had only just started as I was downloading the files,
 so it might be that these datasets got changed suddenly between the searching and the
