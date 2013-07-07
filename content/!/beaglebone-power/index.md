@@ -72,7 +72,7 @@ I tried it anyway to be sure, and I couldn't connect.
 
 ## What I wanted and made
 
-I really wanted something like [the recommended power supply](http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=us&KeyWords=993-1050-ND&WT.z_slp_buy=TI_BeagleBoard)
+I really wanted something like [the recommended power supply](http://www.digikey.com/scripts/DkSearch/dksus.dll?lang=en&KeyWords=993-1050-ND&WT.z_slp_buy=TI_BeagleBoard)
 except with several barrel connectors coming out of it. So I bought a
 [5V 40W power supply](http://www.bonanza.com/listings/200W-5V-40A-Regulated-Switching-LED-Power-Supply-New-200W%C2%A0-5V-%C2%A0DC-40A-Regula/75325441) and a bunch of
 [plugs](http://www.allspectrum.com/store/dc-plug-55x21mm-male-to-fixed-screw-terminal-each-p-8133.html).

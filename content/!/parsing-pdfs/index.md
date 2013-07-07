@@ -29,7 +29,7 @@ about what sorts of construction is permissible.
 
 Theses files are
 [downloaded daily](https://github.com/tlevine/scott/tree/master/reader)
-from the [New Orleans Army Corps of Engineers website](http://www.mvn.usace.army.mil/ops/regulatory/publicnotices.asp?ShowLocationOrder=False)
+from the [New Orleans Army Corps of Engineers website](http://www2.mvn.usace.army.mil/ops/regulatory/publicnotices.asp?ShowLocationOrder=False)
 and renamed according to the permit application and the date of download.
 They feed into [this website](http://scott.thomaslevine.com), which is primarily
 used by the Gulf Restoration Network in their efforts to protect the wetlands.

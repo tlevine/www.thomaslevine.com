@@ -813,7 +813,7 @@ make for fun dinner conversation.
 
 I ran the questionnaire on [Qualtrics](https://www.qualtrics.com/).
 Qualtrics gave me a verbose and denormalized spreadsheet, so I
-I used [SQLite](http://sqlite.org) and [dumptruck](http://www.dumptruck.io)
+I used [SQLite](http://sqlite.org) and [dumptruck](https://github.com/scraperwiki/dumptruck)
 to import the data, then I studied everything in R, using 
 [ProjectTemplate](http://projecttemplate.net),
 `hclust`,
