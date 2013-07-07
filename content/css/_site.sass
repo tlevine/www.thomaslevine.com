@@ -61,30 +61,28 @@ span.home-char
 
 // Links ================================================= //
 
-a
+a, a:visited, a:hover, a:focus
   color: inherit
   text-decoration: inherit
-  &:visited
-    color: inherit
-  &:hover
-    color: inherit
-    text-decoration: inherit
-  &:focus
-    color: inherit
-    outline: thin dotted
+  outline: inherit
+
+a:hover, a:focus
+  text-decoration: underline
 
 @mixin style-links
-  a, a:visited
-    text-decoration: underline
+  a:not(.code), a:visited:not(.code)
     color: $pink
+  a:hover:not(.code), a:focus:not(.code)
+    text-decoration: underline
+
+  a.code, a:visited.code
     code
-      text-decoration: none !important
       border-style: dotted
       border-color: $pink
       border-width: 1px
-  a:hover, a:focus
+  a:hover.code, a:focus.code
     code
-      text-decoration: none !important
+      background-color: $pink
 
 // Base classes =========================================== //
 .base-card
