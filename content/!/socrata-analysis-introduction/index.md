@@ -25,7 +25,7 @@ You can see the general workflow below.
 ### Listing the portals
 First, I get a list of Socrata portals from the Socrata [status page](http://status.socrata.com).
 This page makes loads the portal names and descriptions from [this JSON file](http://status.socrata.com/sites).
-I download parse that file in [`portals.py`](<%= root %>portals.py). Most of the portal URLs
+I download parse that file in [`portals.py`](<%= root %>portals.py){:.code}. Most of the portal URLs
 are in the `description` fields, but this isn't always the case, so I used some heuristics to
 tidy that up.
 
@@ -49,18 +49,18 @@ It turns out that the [opendata.socrata.com](https://opendata.socrata.com) porta
 
 Next, I create a directory for each data portal and start downloading and parsing data
 from each individual portal. Most of the portal-specific stuff is enclosed in the
-[`run_one.sh`](<%= root %>run_one.sh) script.
+[`run_one.sh`](<%= root %>run_one.sh){:.code} script.
 
 ### Search for datasets
 As far as I could tell, Socrata doesn't have a formal API for searching datasets, so I
-just searched with the ordinary web interface. In [`search.sh`](<%= root %>search.sh),
+just searched with the ordinary web interface. In [`search.sh`](<%= root %>search.sh){:.code},
 I make a search for all datasets of all kinds, and then I keep going to the next page
 as long as there are results. I save all of the results in a `searches` directory inside
 of the portal data folder. For example, search results for `data.colorado.gov` go in
 `data/data.colorado.gov/searches`.
 
 ### Find dataset identifiers
-The search result pages are big HTML blobs. The script [`viewids.py`](<%= root %>viewids.py)
+The search result pages are big HTML blobs. The script [`viewids.py`](<%= root %>viewids.py){:.code}
 finds the Socrata 4x4 identifiers in these HTML files and saves them to a file called
 `viewids`. It makes a separate file for each portal.
 
@@ -68,7 +68,7 @@ finds the Socrata 4x4 identifiers in these HTML files and saves them to a file c
 You can download the metadata for a particular dataset at the url
 `https://${SOCRATA_URL}/views/${viewid}.json`, where `SOCRATA_URL` is something like
 `dati.lombardia.it` and `viewid` is something like `tuar-wxya`.
-The script [`views.sh`](<%= root %>views.sh) downloads the metadata files.
+The script [`views.sh`](<%= root %>views.sh){:.code} downloads the metadata files.
 
 There are sometimes other attachments that you can read about in the "About" section
 of a dataset, and those don't get downloaded automatically.
@@ -78,13 +78,13 @@ Downloading the datasets is similarly straightforward; you just go to
 `https://$SOCRATA_URL/api/views/${viewid}/rows.csv?accessType=DOWNLOAD`,
 where `SOCRATA_URL` is again something like
 `dati.lombardia.it` and `viewid` is again something like `tuar-wxya`.
-[`rows.sh`](<%= root %>rows.sh) does this.
+[`rows.sh`](<%= root %>rows.sh){:.code} does this.
 
 Unfortunately, Socrata is pretty slow enough that this is actually pretty annoying,
 so I'm not downloading the actual datasets for now, just the metadata.
 
 ### Conversion to a table
-All of the steps so far are encapsulated in the file [`run.sh`](<%= root %>run.sh),
+All of the steps so far are encapsulated in the file [`run.sh`](<%= root %>run.sh){:.code},
 and that is the file that I run. This resulted in a bunch of inconsistently structured
 JSON files. There are a lot of different ways that one may want to reformat these
 files, and I happened to want a table with specific sorts of information, so I decided
@@ -99,7 +99,7 @@ You can download this table [here](socrata.csv). The following analyses all come
 that table.
 
 ### Missing metadata
-[`summary.sh`](https://github.com/tlevine/socrata-analysis/tree/master/summary.sh) tells me which files are empty (as a result of
+[`summary.sh`](https://github.com/tlevine/socrata-analysis/tree/master/summary.sh){:.code} tells me which files are empty (as a result of
 HTTP errors) and how total files there are. It turns out that six of the Hawaii files
 are empty. The Hawaii data portal had only just started as I was downloading the files,
 so it might be that these datasets got changed suddenly between the searching and the
