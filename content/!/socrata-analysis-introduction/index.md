@@ -3,7 +3,8 @@ title: Analyze all the datasets
 created_at: 2013-07-07
 tags: ['socrata']
 kind: article
-image: figure/datasets_size_over_time2.png
+twitter_image: figure/datasets_size_over_time2.png
+facebook_image: figure/big_portals_downloads.png
 tweet_text: This one time, I Socrata's 80,000 datasets and analyzed them all.
 description: This one time, I Socrata's 80,000 datasets and analyzed them all.
 facebook_text: Guess how many datasets are in all of the Socrata portals.

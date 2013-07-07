@@ -26,18 +26,16 @@ tags
 `tweet_link`
 : The "Discuss" link sends people here.
 
-These fields will be used for standard metadata.
-
-* `description`
-* `image`
+`description`
+: This goes in the metadata in the page.
 
 These will be used for metadata elsewhere:
 
 * `twitter_title` (The `title` is used if this is not set.)
-* `twitter_image` (The `image` is used if this is not set.)
+* `twitter_image` (The apple touch icon is used if this is not set.)
 * `twitter_description` (The `description` is used if this is not set.)
 * `facebook_title` (The `title` is used if this is not set.)
-* `facebook_image` (The `image` is used if this is not set.)
+* `facebook_image` (The apple touch icon is used if this is not set.)
 * `facebook_description` (The `description` is used if this is not set.)
 
 The following paramaters don't do anything, but I use them to store related information.
