@@ -18,8 +18,8 @@
     -# https://dev.twitter.com/docs/cards/validation/validator
     %meta{ :name => "twitter:card", :content => "summary" }
     %meta{ :name => "twitter:site", :content => '@thomaslevine' }
-    %meta{ :name => "twitter:title", :content => "#{@item[:title] || 'Thomas Levine'}" }
-    %meta{ :name => "twitter:description", :content => "#{@item[:description]}" }
+    %meta{ :name => "twitter:title", :content => "#{@item[:twitter_title] || @item[:title] || 'Thomas Levine'}" }
+    %meta{ :name => "twitter:description", :content => "#{@item[:twitter_description] || @item[:description]}" }
     %meta{ :name => "twitter:creator", :content => '@thomaslevine' }
     %meta{ :name => "twitter:image:src", :content => "http://thomaslevine.com#{@item[:twitter_image] ? (@item.identifier + @item[:twitter_image]) : '/apple-touch-icon-144x144-precomposed.png'}" }
     %meta{ :name => "twitter:domain", :content => "thomaslevine.com" }

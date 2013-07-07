@@ -1,6 +1,71 @@
 www.thomaslevine.com
 ===
 
+## Authoring posts
+I can write posts in any of the supported markup languages. I tend to use markup or HTML.
+Regardless of the language, you can put a block of YAML parameters at the top. In order
+to be listed in the `/!` section, it needs at least the parameters `title`, `created_at`,
+and `kind`. (`kind` is always `article` for this sort of page.)
+
+    ---
+    title: Analyze all the datasets
+    created_at: 2013-07-07
+    kind: article
+    ---
+
+There are some others that you can add.
+
+tags
+: If you tag something as `socrata` and configure the tag, it will show up in the list at
+`/socrata`.
+
+`main_class`
+: This is the body class. You probably don't want to use it inside an article; it's more
+    for layouts..
+
+`tweet_link`
+: The "Discuss" link sends people here.
+
+These fields will be used for standard metadata.
+
+* `description`
+* `image`
+
+These will be used for metadata elsewhere:
+
+* `twitter_title` (The `title` is used if this is not set.)
+* `twitter_image` (The `image` is used if this is not set.)
+* `twitter_description` (The `description` is used if this is not set.)
+* `facebook_title` (The `title` is used if this is not set.)
+* `facebook_image` (The `image` is used if this is not set.)
+* `facebook_description` (The `description` is used if this is not set.)
+
+The following paramaters don't do anything, but I use them to store related information.
+
+`tweet_text`
+: The text that I'm going to use for the tweet.
+
+`facebook_text`
+: The text that I'm going to use for the Facebook status update.
+
+`facebook_link`
+: The URL of the relevant Facebook status update.
+
+So the result might look like this.
+
+    ---
+    title: Analyze all the datasets
+    created_at: 2013-07-07
+    tags: ['socrata']
+    kind: article
+    image: figure/datasets_size_over_time2.png
+    tweet_text: This one time, I Socrata's 80,000 datasets and analyzed them all.
+    description: This one time, I Socrata's 80,000 datasets and analyzed them all.
+    facebook_text: Guess how many datasets are in all of the Socrata portals.
+    facebook_title: And which ones are the most popular?
+    facebook_description: This one time, I all of Socrata's datasets and analyzed them.
+    ---
+
 ## Styles
 
 ### Cards
