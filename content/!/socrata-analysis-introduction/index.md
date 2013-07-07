@@ -75,7 +75,7 @@ of a dataset, and those don't get downloaded automatically.
 
 ### Download the datasets themselves
 Downloading the datasets is similarly straightforward; you just go to 
-`https://$SOCRATA_URL/api/views/${viewid}/rows.csv?accessType=DOWNLOAD`,
+`https://${SOCRATA_URL}/api/views/${viewid}/rows.csv?accessType=DOWNLOAD`,
 where `SOCRATA_URL` is again something like
 `dati.lombardia.it` and `viewid` is again something like `tuar-wxya`.
 [`rows.sh`](<%= root %>rows.sh){:.code} does this.
