@@ -9,7 +9,7 @@ tweet_text: This one time, I downloaded @socrata's 80,000 datasets and analyzed 
 description: This one time, I downloaded Socrata's 80,000 datasets and analyzed them all.
 facebook_text: Guess how many datasets are in all of the Socrata portals.
 facebook_title: And which ones are the most popular?
-facebook_description: This one time, I all of Socrata's datasets and analyzed them.
+facebook_description: This one time, I downloaded all of Socrata's datasets and analyzed them.
 ---
 <% root = 'https://github.com/tlevine/socrata-download/tree/master/' %>
 
