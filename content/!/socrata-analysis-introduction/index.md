@@ -4,9 +4,6 @@ tags: ['socrata']
 ---
 <% root = 'https://github.com/tlevine/socrata-analysis/tree/master/' %>
 
-
-<style>img { width: 70%; margin-left: 15%; margin-right: 15%; }</style>
-
 I downloaded the metadata files for most of the datasets across most of the Socrata data portals.
 Here I explain how I did that and present an summary of the sorts of data that we find in the portals.
 
@@ -15,7 +12,6 @@ I acquired the data the same way any ordinary person could have,
 except that I had substantial assistance from robot scripts.
 You can see the general workflow below.
 
-[![A flow chart diagraming how the program works](<%= @item.identifier %>architecture.jpg)](<%= @item.identifier %>architecture.jpg)
 [![A flow chart diagraming how the program works](<%= @item.identifier %>architecture.jpg)](<%= @item.identifier %>architecture.jpg)
 
 ### Listing the portals
@@ -161,7 +157,6 @@ Let's first see which portals are biggest. Which has the most datasets?
         breaks = 10^(0:4)) + scale_x_discrete("Data portal")
 
 [![plot of chunk big_portals_datasets](figure/big_portals_datasets.png){:.wide}](figure/big_portals_datasets.png)
-[![plot of chunk big_portals_datasets](figure/big_portals_datasets.png){:.wide}](figure/big_portals_datasets.png)
 
 Which portals get the most downloads?
 
@@ -177,7 +172,6 @@ Which portals get the most downloads?
         scale_x_discrete("Data portal")
 
 [![plot of chunk big_portals_downloads](figure/big_portals_downloads.png){:.wide}](figure/big_portals_downloads.png)
-[![plot of chunk big_portals_downloads](figure/big_portals_downloads.png){:.wide}](figure/big_portals_downloads.png)
 
 Do any of them have few datasets but get a lot of downloads?
 
@@ -185,7 +179,6 @@ Do any of them have few datasets but get a lot of downloads?
         scale_x_log10("Number of datasets", breaks = 10^(0:4)) + scale_y_log10("Number of dataset downloads", 
         labels = comma, breaks = 10^c(2:9))
 
-[![plot of chunk big_portals_density_scatter](figure/big_portals_density_scatter.png)](figure/big_portals_density_scatter.png) 
 [![plot of chunk big_portals_density_scatter](figure/big_portals_density_scatter.png)](figure/big_portals_density_scatter.png) 
 
 
@@ -197,7 +190,6 @@ This might be easier or harder to read.
         scale_x_log10("Number of datasets", breaks = 10^(0:4)) + scale_y_log10("Number of dataset downloads", 
         labels = comma, breaks = 10^c(2:9))
 
-[![plot of chunk big_portals_density_text](figure/big_portals_density_text.png){:.wide}](figure/big_portals_density_text.png)
 [![plot of chunk big_portals_density_text](figure/big_portals_density_text.png){:.wide}](figure/big_portals_density_text.png)
 
 What are the most popular datasets for each portal? Let's first do the one with
@@ -351,7 +343,6 @@ I thought it would be cool to show dataset size as a rectangle because datasets 
         scale_y_log10("Number of rows", labels = comma)
 
 [![plot of chunk shapes_rect](figure/shapes_rect.png)](figure/shapes_rect.png) 
-[![plot of chunk shapes_rect](figure/shapes_rect.png)](figure/shapes_rect.png) 
 
 But that looks bad, so let's do it as points.
 
@@ -361,7 +352,6 @@ But that looks bad, so let's do it as points.
 
     ## Warning: Removed 542 rows containing missing values (geom_point).
 
-[![plot of chunk shapes_scatter](figure/shapes_scatter.png){:.wide}](figure/shapes_scatter.png)
 [![plot of chunk shapes_scatter](figure/shapes_scatter.png){:.wide}](figure/shapes_scatter.png)
 
 Some datasets have no rows nor columns. Here are ten of them.
@@ -397,18 +387,15 @@ number of rows (`nrow`) or number of cells (`ncell`).
     ## Warning: Removed 17 rows containing missing values (geom_point).
 
 [![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal1.png)](figure/dataset_size_by_portal1.png) 
-[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal1.png)](figure/dataset_size_by_portal1.png) 
 
     print(base + aes(x = ncol))
 
-    [![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal2.png)](figure/dataset_size_by_portal2.png) 
-    [![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal2.png)](figure/dataset_size_by_portal2.png) 
+[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal2.png)](figure/dataset_size_by_portal2.png) 
 
     print(base + aes(x = nrow * ncol))
 
     ## Warning: Removed 17 rows containing missing values (geom_point).
 
-[![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal3.png)](figure/dataset_size_by_portal3.png) 
 [![plot of chunk dataset_size_by_portal](figure/dataset_size_by_portal3.png)](figure/dataset_size_by_portal3.png) 
 
 ### Time
@@ -426,20 +413,17 @@ Has dataset size changed over the past couple years?
     ## Warning: Removed 621 rows containing missing values (geom_point).
 
 [![plot of chunk datasets_size_over_time](figure/datasets_size_over_time1.png)](figure/datasets_size_over_time1.png) 
-[![plot of chunk datasets_size_over_time](figure/datasets_size_over_time1.png)](figure/datasets_size_over_time1.png) 
 
     print(base + aes(y = ncol))
 
     ## Warning: Removed 79 rows containing missing values (geom_point).
 
 [![plot of chunk datasets_size_over_time](figure/datasets_size_over_time2.png)](figure/datasets_size_over_time2.png) 
-[![plot of chunk datasets_size_over_time](figure/datasets_size_over_time2.png)](figure/datasets_size_over_time2.png) 
 
     print(base + aes(y = nrow * ncol))
 
     ## Warning: Removed 621 rows containing missing values (geom_point).
 
-[![plot of chunk datasets_size_over_time](figure/datasets_size_over_time3.png)](figure/datasets_size_over_time3.png) 
 [![plot of chunk datasets_size_over_time](figure/datasets_size_over_time3.png)](figure/datasets_size_over_time3.png) 
 
 When did datasets get uploaded?
@@ -452,7 +436,6 @@ When did datasets get uploaded?
     ## Warning: position_stack requires constant width: output may be incorrect
 
 [![plot of chunk datasets_when_uploaded](figure/datasets_when_uploaded.png)](figure/datasets_when_uploaded.png) 
-[![plot of chunk datasets_when_uploaded](figure/datasets_when_uploaded.png)](figure/datasets_when_uploaded.png) 
 
 On what days of the week do datasets get uploaded?
 
@@ -461,7 +444,6 @@ On what days of the week do datasets get uploaded?
     ggplot(socrata) + aes(x = createdAt.dayOfWeek, group = portal, fill = portal) + 
         geom_bar() + scale_y_continuous("Dataset uploads", labels = comma) + scale_x_discrete("Day of the week")
 
-[![plot of chunk datasets_day_of_week_uploaded](figure/datasets_day_of_week_uploaded.png)](figure/datasets_day_of_week_uploaded.png) 
 [![plot of chunk datasets_day_of_week_uploaded](figure/datasets_day_of_week_uploaded.png)](figure/datasets_day_of_week_uploaded.png) 
 
 
