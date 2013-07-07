@@ -371,7 +371,7 @@ Some datasets have no rows nor columns. Here are ten of them.
 * `data.illinois.gov`: [1991 Toxics Release Inventory data for the District of Columbia](https://data.illinois.gov/-/-/rd3u-gh5c) (401 downloads)
 * `data.oregon.gov`: [National Bridge Inventory - Louisiana-2002](https://data.oregon.gov/-/-/mzwa-q9aa) (3 downloads)
 
-These appear to be listed as deleted.
+These datasets appear to be either deleted or non-tabular.
 
 Now let's look at average dataset size by portal, where size is number of columns (`ncol`),
 number of rows (`nrow`) or number of cells (`ncell`).
