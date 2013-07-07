@@ -2,6 +2,11 @@ www.thomaslevine.com
 ===
 
 ## Authoring posts
+
+### Syntax
+Posts are written as subdirectories of `content/!`, with the main file having a basename
+of `index`.
+
 I can write posts in any of the supported markup languages. I tend to use markup or HTML.
 Regardless of the language, you can put a block of YAML parameters at the top. In order
 to be listed in the `/!` section, it needs at least the parameters `title`, `created_at`,
@@ -64,7 +69,26 @@ So the result might look like this.
     facebook_description: This one time, I all of Socrata's datasets and analyzed them.
     ---
 
-## Styles
+### Deploying
+Compile it locally.
+
+    nanoc
+
+View it locally.
+
+    nanoc view
+
+Run the checks, mainly the link validity check
+
+    nanoc check external_links
+
+Deploy by pushing the `output` directory to github.
+
+    cd output
+    git commit . -m compile
+    git push
+
+## Website styles
 
 ### Cards
 Each page is composed of one `big-card`, several `little-card` boxes and
@@ -153,9 +177,7 @@ You can view the skeleton site by browsing the generated `output/index.html` fil
 
 6\. Validate the output
 
-    nanoc validate-html
-    nanoc validate-css
-    nanoc validate-links
+    nanoc check --all
 
 ## Development
 
