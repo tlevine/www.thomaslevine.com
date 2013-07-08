@@ -69,6 +69,9 @@ He would not do well in Fight Club.
 >
 > [Nicola Hughes](http://www.guardian.co.uk/profile/nicola-hughes) <!-- notmuch show thread:00000000000215a7 -->
 
+He is [supposedly](http://osrc.dfm.io/tlevine)
+"one of the top 3% most active JavaScript users" on GitHub.
+
 He has superpowers.
 
 > [One] of my favorite superheroes
