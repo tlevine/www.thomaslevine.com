@@ -6,8 +6,11 @@ tags: ['data']
 ---
 
 I've never come up with a good way for learning/teaching the cool parts of R.
-I guess that's just how R is; it's all a hack. Anyway, here are some magic
-incantations.
+I feel like that's sort of how R is; there's an awesome way to do everything,
+but it's all very specific and hacky.
+
+I tried to think of some magic incantations that you might not find in introductory
+R books/documentation/classes.
 
 ## CSV
 When loading a CSV, don't convert strings to factors.
