@@ -4,7 +4,8 @@ description: Some R tricks that you might not find in typical introductory mater
 kind: article
 created_at: 2013-07-10
 tags: ['data']
-tweet_text: I have no idea how people learn R. http://thomaslevine.com/!/r-spells-for-data-wizards
+tweet_text: I have no idea how people learn R. Maybe this will help. http://thomaslevine.com/!/r-spells-for-data-wizards/ #rstats
+tweet_link: https://twitter.com/thomaslevine/status/355067758431580160
 twitter_image: lists.png
 facebook_image: lists.png
 ---
