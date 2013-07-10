@@ -9,7 +9,7 @@ I've never come up with a good way for learning/teaching the cool parts of R.
 I guess that's just how R is; it's all a hack. Anyway, here are some magic
 incantations.
 
-## General stuff
+## CSV
 When loading a CSV, don't convert strings to factors.
 
     read.csv('csvsoundsystem.com/soundsystem.csv', stringsAsFactors = F)
@@ -40,14 +40,7 @@ If you change the row names, you can use character vectors to query the data fra
     #   Green    10   10     7     7
     #   Clear     3   30     5     8
 
-Use ProjectTemplate.
-
-    library(ProjectTemplate)
-
-Use `str` to find out something's type.
-
-    str(ChickWeight)
-
+## Indexing
 It's easy to miss a level of indexing, especially with lists.
 
     str(list(a = 3)[1][[1]])
@@ -60,20 +53,6 @@ It's easy to miss a level of indexing, especially with lists.
     str(list(a = 3))
     # List of 1
     # $ a: num 3
-
-`sqldf` works both on R data.frames and on other databases
-
-    sqldf('SELECT foo FROM bar') # Use the bar data.frame
-    sqldf('SELECT foo FROM bar', dbname = 'baz.db') # Use the baz.db SQLite database
-
-`mapply` maps along a matrix, passing multiple arguments to the function
-
-Use `download.file` to download files.
-
-Sort one thing by another thing.
-
-    iris[order(iris$Sepal.Length),]
-    cars$speed[order(cars$dist)]
 
 ## Factors
 Factor levels are sorted alphabetically by default
@@ -147,4 +126,26 @@ Save your command history and output
     Sys.setenv(R_HISTSIZE='100000')
     sink(file = paste('~/.history/r-log-', strftime(Sys.time(), '%F %H:%M:%OS9'), '-', sep = ''), split=T)
 
+## General stuff
 
+Use ProjectTemplate.
+
+    library(ProjectTemplate)
+
+Use `str` to find out something's type.
+
+    str(ChickWeight)
+
+`sqldf` works both on R data.frames and on other databases
+
+    sqldf('SELECT foo FROM bar') # Use the bar data.frame
+    sqldf('SELECT foo FROM bar', dbname = 'baz.db') # Use the baz.db SQLite database
+
+`mapply` maps along a matrix, passing multiple arguments to the function
+
+Use `download.file` to download files.
+
+Sort one thing by another thing.
+
+    iris[order(iris$Sepal.Length),]
+    cars$speed[order(cars$dist)]
