@@ -75,6 +75,22 @@ Sort one thing by another thing.
     iris[order(iris$Sepal.Length),]
     cars$speed[order(cars$dist)]
 
+## Factors
+Factor levels are sorted alphabetically by default
+
+    levels(factor(10:1))
+    # [1] "1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  "10"
+
+If you want to change that, just create a new factor,
+specifying the level order manually.
+    
+    factor(parking$GarOrLot, levels = c('G', 'L'))
+
+And you rename a level or levels like so.
+
+    levels(OrchardSprays<reatment)[3:5] <- c('X', 'Y', 'Z')
+
+## Concatenating text
 This is how you concatenate text.
 
     paste('abc', 'def', sep = '')
