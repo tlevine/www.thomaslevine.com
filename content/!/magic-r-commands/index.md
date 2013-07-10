@@ -18,7 +18,21 @@ When writing a CSV, don't add the rownames.
 
     write.csv(iris, file = 'iris.csv', row.names = F)
 
-If you change the row names, you can use character vectors to query the data frame.
+## Indexing
+It's easy to miss a level of indexing, especially with lists.
+
+    str(list(a = 3)[1][[1]])
+    # num 3
+
+    str(list(a = 3)[1])
+    # List of 1
+    # $ a: num 3
+
+    str(list(a = 3))
+    # List of 1
+    # $ a: num 3
+
+You can use character vectors indices.
 
     row.names(HairEyeColor)
     # [1] "Black" "Brown" "Red"   "Blond"
@@ -39,20 +53,6 @@ If you change the row names, you can use character vectors to query the data fra
     #   Blue     53   50    25    15
     #   Green    10   10     7     7
     #   Clear     3   30     5     8
-
-## Indexing
-It's easy to miss a level of indexing, especially with lists.
-
-    str(list(a = 3)[1][[1]])
-    # num 3
-
-    str(list(a = 3)[1])
-    # List of 1
-    # $ a: num 3
-
-    str(list(a = 3))
-    # List of 1
-    # $ a: num 3
 
 ## Factors
 Factor levels are sorted alphabetically by default
@@ -94,7 +94,7 @@ In case that isn't clear, it would look like this in JavaScript:
 Show all factor levels in a ggplot.
 
     ggplot(iris[1:50,]) + aes(x = Species, y = Sepal.Length) +
-      scale_x_discrete('Species', drop = F) + geom_point()
+      scale_x_discrete('Species', drop = F) + geom_jitter()
 
 Also, in general, **use ggplot**. Base R graphics are
 [more work than they're worth](http://www.livestream.com/knerd/video?clipId=pla_a5d59285-9399-47dc-aaef-2b9a77142d5e),
@@ -135,7 +135,7 @@ Save your command history and output
     sink(file = paste('~/.history/r-log-', strftime(Sys.time(), '%F %H:%M:%OS9'), '-', sep = ''), split=T)
 
 ## Higher-order functions
-R'as "apply" functions would be called "maps" in other languages.
+R's "apply" functions would be called "maps" in other languages.
 If you're applying along a list or vector, `lapply` or `sapply`, respectively, are convenient.
 
 `apply` maps along any dimension of an array; you specify the dimension as an argument.
