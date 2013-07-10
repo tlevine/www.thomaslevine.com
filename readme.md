@@ -63,7 +63,7 @@ So the result might look like this.
     kind: article
     image: figure/datasets_size_over_time2.png
     tweet_text: This one time, I Socrata's 80,000 datasets and analyzed them all.
-    description: This one time, I Socrata's 80,000 datasets and analyzed them all.
+    twitter_description: This one time, I Socrata's 80,000 datasets and analyzed them all.
     facebook_text: Guess how many datasets are in all of the Socrata portals.
     facebook_title: And which ones are the most popular?
     facebook_description: This one time, I all of Socrata's datasets and analyzed them.

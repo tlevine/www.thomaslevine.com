@@ -1,16 +1,20 @@
 ---
-title: Magic R commands
+title: R spells for data wizards
+description: Some R tricks that you might not find in typical introductory materials
 kind: article
 created_at: 2013-07-10
 tags: ['data']
+tweet_text: I have no idea how people learn R. http://thomaslevine.com/!/magic-r-commands
+twitter_image: lists.png
+facebook_image: lists.png
 ---
 
 I've never come up with a good way for learning/teaching the cool parts of R.
 I feel like that's sort of how R is; there's an awesome way to do everything,
-but it's all very specific and hacky.
+but it's all very specific and kind of hacky.
 
-I tried to think of some magic incantations that you might not find in introductory
-R books/documentation/classes.
+I thought of some magic incantations that you might not find in
+introductory R books/documentation/classes and wrote about them below.
 
 ## CSV
 When loading a CSV, don't convert strings to factors.
