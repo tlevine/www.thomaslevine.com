@@ -91,12 +91,20 @@ In case that isn't clear, it would look like this in JavaScript:
     ['Pack', 'my', 'box', 'with', 'five', 'dozen', 'liquor', 'jugs.'].join(' ')
 
 ## Plotting
-Try `locator` when you're perfecting the layout of base R graphics.
-
 Show all factor levels in a ggplot.
 
     ggplot(iris[1:50,]) + aes(x = Species, y = Sepal.Length) +
       scale_x_discrete('Species', drop = F) + geom_point()
+
+Also, in general, **use ggplot**. Base R graphics are
+[more work than they're worth](http://www.livestream.com/knerd/video?clipId=pla_a5d59285-9399-47dc-aaef-2b9a77142d5e),
+except maybe if you're
+[making](http://www.youtube.com/watch?v=rLZDvXPIDa0)
+[music](http://fms.csvsoundsystem.com)
+[videos](http://www.youtube.com/watch?v=tcnoBL0tvpc).
+
+That said, if you do use base R graphics, try using `locator`
+when you're perfecting the layout of base R graphics.
 
 ## Maintenance
 Update your packages.
@@ -126,8 +134,27 @@ Save your command history and output
     Sys.setenv(R_HISTSIZE='100000')
     sink(file = paste('~/.history/r-log-', strftime(Sys.time(), '%F %H:%M:%OS9'), '-', sep = ''), split=T)
 
-## General stuff
+## Higher-order functions
+R'as "apply" functions would be called "maps" in other languages.
+If you're applying along a list or vector, `lapply` or `sapply`, respectively, are convenient.
 
+`apply` maps along any dimension of an array; you specify the dimension as an argument.
+
+`mapply` maps along a matrix, passing multiple arguments to the function
+
+`rollapply` is really cool. It applies a function with a rolling window.
+For example, here's a rolling z-score that [Brian](http://brianabelson.com) wrote.
+
+    library(zoo)
+
+    roll_z <- function(x){
+        scores <- z(x)
+        scores[length(x)]
+    }
+
+    z_change <- rollapply(rnorm(1000), 40, roll_z)
+
+## Other stuff
 Use ProjectTemplate.
 
     library(ProjectTemplate)
@@ -140,8 +167,6 @@ Use `str` to find out something's type.
 
     sqldf('SELECT foo FROM bar') # Use the bar data.frame
     sqldf('SELECT foo FROM bar', dbname = 'baz.db') # Use the baz.db SQLite database
-
-`mapply` maps along a matrix, passing multiple arguments to the function
 
 Use `download.file` to download files.
 
