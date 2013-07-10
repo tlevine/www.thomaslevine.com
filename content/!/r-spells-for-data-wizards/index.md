@@ -4,7 +4,7 @@ description: Some R tricks that you might not find in typical introductory mater
 kind: article
 created_at: 2013-07-10
 tags: ['data']
-tweet_text: I have no idea how people learn R. http://thomaslevine.com/!/magic-r-commands
+tweet_text: I have no idea how people learn R. http://thomaslevine.com/!/r-spells-for-data-wizards
 twitter_image: lists.png
 facebook_image: lists.png
 ---
