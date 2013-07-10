@@ -1,7 +1,7 @@
 ---
 title: Magic R commands
 kind: article
-created_at: 2013-07-26
+created_at: 2013-07-10
 tags: ['data']
 ---
 
@@ -18,14 +18,19 @@ Use ProjectTemplate.
 
     library(ProjectTemplate)
 
-`sqldf` works on R data.frames and on other databases
+`sqldf` works both on R data.frames and on other databases
 
     sqldf('SELECT foo FROM bar') # Use the bar data.frame
     sqldf('SELECT foo FROM bar', dbname = 'baz.db') # Use the baz.db SQLite database
 
 `mapply` maps along a matrix, passing multiple arguments to the function
 
-Show all factor levels in a ggplot
+Use `download.file` to download files.
+
+## Plotting
+Try `locator` when you're perfecting the layout of base R graphics.
+
+Show all factor levels in a ggplot.
 
     ggplot(iris[1:50,]) + aes(x = Species, y = Sepal.Length) +
       scale_x_discrete('Species', drop = F) + geom_point()
