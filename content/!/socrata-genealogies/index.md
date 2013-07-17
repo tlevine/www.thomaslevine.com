@@ -1,5 +1,5 @@
 ---
-title: Ancestry of Nine Socrata datasets
+title: Ancestries of Nine Socrata datasets
 created_at: 2013-07-18
 kind: article
 ---
@@ -8,36 +8,33 @@ kind: article
 <script src="angular-strap.js"></script>
 <script src="script.js"></script>
 <link rel="stylesheet" href="style.css">
-<div ng-app="genealogy">
-  <p>I downloaded all of the metadata about all of the Socrata datasets during the week of ...</p>
-  <p>Explain viewFilters and provisions to other data portals</p>
-  <p>Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.</p>
-  <p>Explain the quirk about redirects that I didn't handle</p>
-  <h2>Notes from Nicole Neditch</h2>
-  <ul>
-    <li>Oakland had the option to import all of the datasets from other portals in order to make the search work across portals, but they couldn't import just some of the datasets.</li>
-    <li>People liked that Socrata has a lot of technical support</li>
-    <li>When choosing the portal, they looked at just Socrata, CKAN and Junar. (There aren't really many people in this market.)</li>
-    <li>Junar seemed too basic and unable to handle larger data and more datasets, and they didn't have an API to sync datasets from internal datasets.</li>
-    <li>CKAN needed either internal support or a separate contracted support</li>
-    <li>Nicole can send me the analysis.</li>
-    <li>http://dev.socrata.com/publishers/importing</li>
-    <li>Qualms</li>
-    <ul>
-      <li>It's really slow, especially with geocoding. She things there's just one server that does all of the geocoding.</li>
-      <li>https://data.oaklandnet.com/</li>
-      <li>CKAN has bugs. Like mapping never works right. Socrata's mapping and visualization tools work really well.</li>
-      <li>"Any city staff person can generate a map of location-based data on the fly."</li>
-      <li>Embed a pie chart of the wildlife prevention thing. If they didn't have socrata, they probably would have put together a pdf report. There are other tools for this, but the people working for the city don't know them.</li>
-      <li>That couple downloaded and filtered the data, but they couldn't print it.</li>
-      <li>It seems that you can query on queries, but then when you save it it doesn't store.</li>
-      <li>Federation: https://cities-datagov.demo.socrata.com/</li>
-      <li>For Oakland, it's just Nicole and Titus</li>
-    </ul>
-    <li>Socrata has a bunch of add-on features like integrations and a checkbook dashboard. It might be fun to get a list of these from Socrata and then see which portals use which features</li>
-    <li>Metadata could be better. Like an "explanation of what the fields are" (codebook, data dictionary)</li>
-  </ul>
+I downloaded all of the metadata about all of the Socrata datasets during the week of ...
+Explain viewFilters and provisions to other data portals
+Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.
+Explain the quirk about redirects that I didn't handle
+
+## Notes from Nicole Neditch
+* Oakland had the option to import all of the datasets from other portals in order to make the search work across portals, but they couldn't import just some of the datasets.
+* People liked that Socrata has a lot of technical support
+* When choosing the portal, they looked at just Socrata, CKAN and Junar. (There aren't really many people in this market.)
+* Junar seemed too basic and unable to handle larger data and more datasets, and they didn't have an API to sync datasets from internal datasets.
+* CKAN needed either internal support or a separate contracted support
+* Nicole can send me the analysis.
+* http://dev.socrata.com/publishers/importing
+* Qualms
+  * It's really slow, especially with geocoding. She things there's just one server that does all of the geocoding.
+  * https://data.oaklandnet.com/
+  * CKAN has bugs. Like mapping never works right. Socrata's mapping and visualization tools work really well.
+  * "Any city staff person can generate a map of location-based data on the fly."
+  * Embed a pie chart of the wildlife prevention thing. If they didn't have socrata, they probably would have put together a pdf report. There are other tools for this, but the people working for the city don't know them.
+  * That couple downloaded and filtered the data, but they couldn't print it.
+  * It seems that you can query on queries, but then when you save it it doesn't store.
+  * Federation: https://cities-datagov.demo.socrata.com/
+  * For Oakland, it's just Nicole and Titus
+* Socrata has a bunch of add-on features like integrations and a checkbook dashboard. It might be fun to get a list of these from Socrata and then see which portals use which features
+* Metadata could be better. Like an "explanation of what the fields are" (codebook, data dictionary)
   
+<div ng-app="genealogy">
   <div ng-controller="GenealogyCtrl">
     <select ng-model="table" ng-options="t.source.name for t in tables">
       <option value="">Choose a dataset</option>
