@@ -3,11 +3,6 @@ title: Ancestries of Nine Socrata datasets
 created_at: 2013-07-18
 kind: article
 ---
-<script src="angular.min.js"></script>
-<script src="angular-table.js"></script>
-<script src="angular-strap.js"></script>
-<script src="script.js"></script>
-<link rel="stylesheet" href="style.css">
 I downloaded all of the metadata about all of the Socrata datasets during the week of ...
 Explain viewFilters and provisions to other data portals
 Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.
@@ -34,6 +29,12 @@ Explain the quirk about redirects that I didn't handle
 * Socrata has a bunch of add-on features like integrations and a checkbook dashboard. It might be fun to get a list of these from Socrata and then see which portals use which features
 * Metadata could be better. Like an "explanation of what the fields are" (codebook, data dictionary)
   
+<!-- Scripts after the introduction so you don't notice the table loading -->
+<script src="angular.min.js"></script>
+<script src="angular-table.js"></script>
+<script src="angular-strap.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
 <div ng-app="genealogy">
   <div ng-controller="GenealogyCtrl">
     <select ng-model="table" ng-options="t.source.name for t in tables">
