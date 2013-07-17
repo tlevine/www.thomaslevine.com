@@ -57,7 +57,7 @@
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column class="less-skinny" sortable="true" sort-field-name="createdAt">
+          <header-column class="skinny" sortable="true" sort-field-name="createdAt">
             <div style="display: inline-block;">Created</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
@@ -75,7 +75,7 @@
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column sortable="true" sort-field-name="ncell">
+          <header-column class="less-skinny" sortable="true" sort-field-name="ncell">
             <div style="display: inline-block;">Size</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
@@ -91,19 +91,19 @@
 
         <row on-selected="emptyFunction" selected-color="#111">
           <column><a href="https://{{row.source_portal_hack}}/-/-/{{row.id}}" title="{{row.name}}">{{row.shortName}}</a></column>
-          <column class="less-skinny">{{row.prettyDate}}</column>
+          <column class="skinny">{{row.prettyDate}}</column>
           <column class="skinny number">{{row.viewCountPretty}}</column>
           <column class="skinny number">{{row.downloadCountPretty}}</column>
-          <column>
+          <column class="less-skinny">
             {{row.ncellPretty}} cells
-            <ul style="list-style: none; padding-left: 1em; padding-top: 0; padding-bottom: 0; padding-right: 0; margin: 0;" ng-show="row.rowSelected">
+            <ul style="list-style: none;" class="snug" ng-show="row.rowSelected">
               <li class="snug"><small>{{row.ncolPretty}} variables</small></li>
               <li class="snug"><small>{{row.nrowPretty}} records</small></li>
             </ul>
           </column>
           <column>
-            <span ng-hide="row.rowSelected">{{ncopiesPretty}} copies</span>
-            <ul class="snug" style="list-style: none; position: absolute;" ng-show="row.rowSelected">
+            <span ng-hide="row.rowSelected">{{row.ncopiesPretty}}</span>
+            <ul class="snug" style="list-style: none;" ng-show="row.rowSelected">
               <li class="snug" ng-repeat="portal in row.portals"><small>{{portal}}</small></li>
             </ul>
           </column>

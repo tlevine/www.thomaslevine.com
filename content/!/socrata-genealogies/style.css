@@ -87,12 +87,17 @@ table td.less-skinny, table th.less-skinny {
   margin: 0 !important;
 }
 
-#article-wrapper article table td.angularTableColumn,
-#article-wrapper article table td.angularTableHeaderColumn {
+#article-wrapper article table td.angularTableColumn {
   text-align: left;
 }
+#article-wrapper article table td.angularTableHeaderColumn {
+  text-align: center;
+}
 
-#article-wrapper article table td.angularTableColumn.number,
-#article-wrapper article table td.angularTableHeaderColumn.number {
+#article-wrapper article table td.angularTableColumn.number {
   text-align: right;
+}
+
+#article-wrapper article .angularTableContainer table {
+  font-family: inherit !important;
 }

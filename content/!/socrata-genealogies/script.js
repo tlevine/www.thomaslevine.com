@@ -1,16 +1,16 @@
 var MONTHS = [
-  'January',
-  'February',
-  'March',
-  'April',
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
   'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December'
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec'
 ]
 
 function commas(x) {
@@ -58,6 +58,8 @@ angular.module('genealogy', ['angular-table'])
         for (key in {"downloadCount":null,"viewCount":null,"ncell":null,"nrow":null,"ncol":null,"ncopies":null}) {
           dataset[key + 'Pretty'] = prettyCount(dataset[key])
         }
+        var copiesWord = (dataset.ncopies > 1) ? 'copies' : 'copy'
+        dataset.ncopiesPretty += (' ' +  copiesWord)
         dataset.prettyDate = MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear()
 
         return dataset
