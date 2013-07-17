@@ -2,9 +2,8 @@
 <script src="angular-table.js"></script>
 <script src="angular-strap.js"></script>
 <script src="script.js"></script>
-<link rel="stylesheet" href="angular-table.css">
 <link rel="stylesheet" href="style.css">
-<div ng-app="geneology">
+<div ng-app="genealogy">
   <h1>Ancestry of Nine Socrata datasets</h1>
   <p>I downloaded all of the metadata about all of the Socrata datasets during the week of ...</p>
   <p>Explain viewFilters and provisions to other data portals</p>
@@ -35,7 +34,7 @@
     <li>Metadata could be better. Like an "explanation of what the fields are" (codebook, data dictionary)</li>
   </ul>
   
-  <div ng-controller="GeneologyCtrl">
+  <div ng-controller="GenealogyCtrl">
     <select ng-model="table" ng-options="t.source.name for t in tables">
       <option value="">Choose a dataset</option>
     </select>
@@ -90,7 +89,7 @@
 
         </header-row>
 
-        <row selected-color="#222" even-color="#00ee00" odd-color="#ee0000">
+        <row id="{{row.id}}" on-selected="handleRowSelection(row)">
           <column><a href="https://{{row.source_portal_hack}}/-/-/{{row.id}}" title="{{row.name}}">{{row.shortName}}</a></column>
           <column>{{row.prettyDate}}</column>
           <column class="count">{{row.viewCountPretty}}</column>
