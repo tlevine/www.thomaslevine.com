@@ -57,20 +57,20 @@
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column sortable="true" sort-field-name="createdAt">
+          <header-column class="skinny" sortable="true" sort-field-name="createdAt">
             <div style="display: inline-block;">Created</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column class="count" sortable="true" sort-field-name="viewCount">
+          <header-column class="skinny" sortable="true" sort-field-name="viewCount">
             <div style="display: inline-block;">Views</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column class="count" sortable="true" sort-field-name="downloadCount">
-            <div style="display: inline-block;">Downloads</div>
+          <header-column class="skinny" sortable="true" sort-field-name="downloadCount">
+            <div style="display: inline-block;">Down-loads</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
@@ -82,29 +82,28 @@
           </header-column>
 
           <header-column sortable="true" sort-field-name="ncopies">
-            <div style="display: inline-block;">Copies</div>
+            <div style="display: inline-block;">Federation</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
         </header-row>
 
-        <row id="{{row.id}}" on-selected="handleRowSelection(row)">
+        <row on-selected="emptyFunction" selected-color="#111">
           <column><a href="https://{{row.source_portal_hack}}/-/-/{{row.id}}" title="{{row.name}}">{{row.shortName}}</a></column>
-          <column>{{row.prettyDate}}</column>
-          <column class="count">{{row.viewCountPretty}}</column>
-          <column class="count">{{row.downloadCountPretty}}</column>
+          <column class="skinny">{{row.prettyDate}}</column>
+          <column class="skinny">{{row.viewCountPretty}}</column>
+          <column class="skinny">{{row.downloadCountPretty}}</column>
           <column>
-            {{row.ncell}} cells
-            <ul style="list-style: none; padding-left: 1em; padding-top: 0; padding-bottom: 0; padding-right: 0; display: none;">
-              <li><small>{{row.ncol}} variables</small></li>
-              <li><small>{{row.nrow}} records</small></li>
+            {{row.ncellPretty}} cells
+            <ul style="list-style: none; padding-left: 1em; padding-top: 0; padding-bottom: 0; padding-right: 0;" ng-show="row.rowSelected">
+              <li><small>{{row.ncolPretty}} variables</small></li>
+              <li><small>{{row.nrowPretty}} records</small></li>
             </ul>
           </column>
-          <!--<column>{{row.ncopies}}</column>-->
           <column>
-            <ul style="display: none;">
-              <li style="list-style: none; padding: 0;" ng-repeat="portal in row.portals">{{portal}}</li>
+            <ul style="list-style: none; padding: 0;" ng-show="row.rowSelected">
+              <li ng-repeat="portal in row.portals"><small>{{portal}}</small></li>
             </ul>
           </column>
         </row>

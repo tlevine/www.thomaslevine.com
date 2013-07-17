@@ -71,11 +71,9 @@
 
 /* I shouldn't need this.... */
 .angularTableTableContainer { height: auto !important; }
+.angularTableHeaderTable, .angularTableHeaderTableContainer { height: 2.5em; }
 
 
-
-
-
-table td.count, table th.coun {
+table td.skinny, table th.skinny {
   width: 10%;
 }

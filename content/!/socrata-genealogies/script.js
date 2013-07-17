@@ -29,9 +29,7 @@ function prettyCount(x) {
 angular.module('genealogy', ['angular-table'])
   .controller('GenealogyCtrl', ['$scope', '$http', function($scope, $http) {
 
-  $scope.handleRowSelection = function(row){
-    console.log(row)
-  }
+  $scope.emptyFunction = function(row){}
 
   $http.get('genealogy.json').then(function(res){
     $scope.tables = res.data.map(function(table){
@@ -44,7 +42,7 @@ angular.module('genealogy', ['angular-table'])
         d.setTime(1000 * dataset.createdAt)
 
         shortNameWords = []
-        for (var j=0; j < dataset.name.length && j < 6; j++){
+        for (var j=0; j < dataset.name.length && j < 4; j++){
           nameWords = dataset.name.split(' ')
           shortNameWords.push(nameWords[j])
         }
@@ -53,13 +51,15 @@ angular.module('genealogy', ['angular-table'])
           dataset.shortName+= ' ...'
         }
 
-        for (key in {"downloadCount":null,"viewCount":null}) {
-          dataset[key + 'Pretty'] = prettyCount(dataset[key])
-        }
-        dataset.prettyDate = MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear()
         dataset.ncell = dataset.nrow * dataset.ncol
         dataset.ncopies = dataset.portals.length
         dataset.source_portal_hack = table.source.portal
+
+        for (key in {"downloadCount":null,"viewCount":null,"ncell":null,"nrow":null,"ncol":null}) {
+          dataset[key + 'Pretty'] = prettyCount(dataset[key])
+        }
+        dataset.prettyDate = MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear()
+
         return dataset
       })
       return table
