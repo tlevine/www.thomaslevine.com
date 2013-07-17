@@ -1,3 +1,4 @@
+/* Angular table */
 .angularTableContainer {
     width: 100%;
     height: 100%;
@@ -66,3 +67,7 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+
+/* I shouldn't need this.... */
+.angularTableTableContainer { height: auto !important; }
