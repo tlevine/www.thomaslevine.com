@@ -52,14 +52,10 @@
       <angular-table model="table.datasets" default-sort-column="createdAt">
         <header-row>
 
-          <header-column sortable="false" sort-field-name="id">
-            <div style="display: inline-block;">Id</div>
-            <sort-arrow-ascending></sort-arrow-ascending>
-            <sort-arrow-descending></sort-arrow-descending>
-          </header-column>
-
           <header-column sortable="true" sort-field-name="name">
             <div style="display: inline-block;">Name</div>
+            <sort-arrow-ascending></sort-arrow-ascending>
+            <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
           <header-column sortable="true" sort-field-name="createdAt">
@@ -68,13 +64,13 @@
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column sortable="true" sort-field-name="viewCount">
+          <header-column class="count" sortable="true" sort-field-name="viewCount">
             <div style="display: inline-block;">Views</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
 
-          <header-column sortable="true" sort-field-name="downloadCount">
+          <header-column class="count" sortable="true" sort-field-name="downloadCount">
             <div style="display: inline-block;">Downloads</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
@@ -94,25 +90,22 @@
 
         </header-row>
 
-        <row
-          on-selected="handleRowSelection(row)"
-          selected-color="#87cefa" even-color="#ffffff" odd-color="#eeeeee">
-          <column><a href="https://{{row.source_portal_hack}}/-/-/{{row.id}}">{{row.id}}</a></column>
-          <column>{{row.name}}</column>
+        <row selected-color="#222" even-color="#00ee00" odd-color="#ee0000">
+          <column><a href="https://{{row.source_portal_hack}}/-/-/{{row.id}}" title="{{row.name}}">{{row.shortName}}</a></column>
           <column>{{row.prettyDate}}</column>
-          <column>{{row.viewCount}}</column>
-          <column>{{row.downloadCount}}</column>
+          <column class="count">{{row.viewCountPretty}}</column>
+          <column class="count">{{row.downloadCountPretty}}</column>
           <column>
             {{row.ncell}} cells
-            <ul style="list-style: none; padding-left: 1em;">
-              <li>{{row.ncol}} variables</li>
-              <li>{{row.nrow}} records</li>
+            <ul style="list-style: none; padding-left: 1em; padding-top: 0; padding-bottom: 0; padding-right: 0; display: none;">
+              <li><small>{{row.ncol}} variables</small></li>
+              <li><small>{{row.nrow}} records</small></li>
             </ul>
           </column>
           <!--<column>{{row.ncopies}}</column>-->
           <column>
-            <ul>
-              <li ng-repeat="portal in row.portals">{{portal}}</li>
+            <ul style="display: none;">
+              <li style="list-style: none; padding: 0;" ng-repeat="portal in row.portals">{{portal}}</li>
             </ul>
           </column>
         </row>
