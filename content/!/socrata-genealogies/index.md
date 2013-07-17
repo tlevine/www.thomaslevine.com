@@ -1,10 +1,14 @@
+---
+title: Ancestry of Nine Socrata datasets
+created_at: 2013-07-18
+kind: article
+---
 <script src="angular.min.js"></script>
 <script src="angular-table.js"></script>
 <script src="angular-strap.js"></script>
 <script src="script.js"></script>
 <link rel="stylesheet" href="style.css">
 <div ng-app="genealogy">
-  <h1>Ancestry of Nine Socrata datasets</h1>
   <p>I downloaded all of the metadata about all of the Socrata datasets during the week of ...</p>
   <p>Explain viewFilters and provisions to other data portals</p>
   <p>Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.</p>
