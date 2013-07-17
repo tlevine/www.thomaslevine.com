@@ -77,3 +77,22 @@
 table td.skinny, table th.skinny {
   width: 10%;
 }
+
+table td.less-skinny, table th.less-skinny {
+  width: 15%;
+}
+
+.snug {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#article-wrapper article table td.angularTableColumn,
+#article-wrapper article table td.angularTableHeaderColumn {
+  text-align: left;
+}
+
+#article-wrapper article table td.angularTableColumn.number,
+#article-wrapper article table td.angularTableHeaderColumn.number {
+  text-align: right;
+}

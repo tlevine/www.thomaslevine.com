@@ -55,7 +55,7 @@ angular.module('genealogy', ['angular-table'])
         dataset.ncopies = dataset.portals.length
         dataset.source_portal_hack = table.source.portal
 
-        for (key in {"downloadCount":null,"viewCount":null,"ncell":null,"nrow":null,"ncol":null}) {
+        for (key in {"downloadCount":null,"viewCount":null,"ncell":null,"nrow":null,"ncol":null,"ncopies":null}) {
           dataset[key + 'Pretty'] = prettyCount(dataset[key])
         }
         dataset.prettyDate = MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear()
