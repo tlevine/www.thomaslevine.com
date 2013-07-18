@@ -51,7 +51,7 @@ A dataset is when you get when you upload data to Socrata in one of
 its supported formats. Internally, a dataset is also called a "table".
 
 Earlier, I discussed filtered views. "Filtered views" are queries on
-a dataset/table. The queries are written in the
+a dataset/table. The queries are represented internally in the
 [SODA filter query language](http://dev.socrata.com/deprecated/querying-datasets).
 Similarly, "charts" and "maps" are also queries on a dataset/table.
 The difference between filtered views, charts and maps is quite subtle.
@@ -61,10 +61,35 @@ visualization when you view them on the Socrata website.
 There are other types of views, but we don't need to know about them
 for now.
 
+### Federation
+Socrata doesn't provide a particularly obvious means for searching multiple
+data portals at once. (This was part of my motivation for downloading all of
+the datasets.) But it is possible for one data portal to include all of
+another portal's datasets.
+
+Sometimes, you'll see a view in the search & browse pane with a grey background,
+instead of white. Hawaii has a bunch of these.
+
+[![Hawaii data portal](hawaii.png)](https://data.hawaii.gov/)
+
+These views are "provided" by other portals through a process called
+"federation". The destination portal (data.hawaii.gov in the above screenshot)
+makes a request to the source portal (data.explore.gov in the above screenshot)
+to federate the source portal's data.
+
+This request shows up in the administrator interface for the source portal.
+If the source portal accepts the request, all of the views from the source portal
+are provided to the destination portal as in the screenshot above.
+
+If you look closely, you'll notice that the federated views are actually just
+links to the source portal; the views show up in the search, but they aren't
+otherwise copied to the destination portal.
 
 ## Types of duplicate datasets
 
 ### Same dataset, linked from same portal
+Through the view filters that I discuss above, Socrata makes it quite
+easy to 
 
 ### Same dataset, linked from a different portal
 Same dataset in opendata.socrata.com and a different portal
