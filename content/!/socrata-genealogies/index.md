@@ -4,9 +4,78 @@ created_at: 2013-07-18
 kind: article
 ---
 
+As the Twitters have pointed out, the dataset counts that I presented
+in my initial [summary]() of Socrata portals is somewhat deceptive.
+
 [![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
+
 [![@tomschenkjr Tweets about Chicago's filters](tomschenkjr.png)](https://twitter.com/tomschenkjr/status/354010005504147456)
+
 [![@SR_spatial Tweets about patterns of derived datasets](SR_spatial.png)](https://twitter.com/SR_spatial/status/354088265344749568)
+
+Socrata helps people publish their data by providing various APIs
+for importing from different data sources, and Socrata helps people
+consume data by providing a data analysis suite inside the web browser.
+This includes maps and graphs and whatnot that you can embed in
+websites rather than just in PDF documents.
+
+## Filtered views
+Getting back to the Tweets above, Socrata also allows you to "Filter"
+datasets. For example, here I filter the list of
+[Public Works Volunteer Opportunities](https://data.oaklandnet.com/Environmental/Public-Works-Volunteer-Opportunities/sduu-bfki)
+to include only opportunities on July 29.
+
+[![Filtering on date July 29](filter.png)](filter.png)
+
+[Here](https://data.oaklandnet.com/Environmental/Volunteer-Opportunities-on-July-29/vyhb-nqtw)'s the resulting filtered view.
+
+## Socrata terminology
+Let's take a brief detour to discuss Socrata terminology.
+
+When you go to the home page of a Socrata portal, you can
+"Search & Browse Datasets and Views". This phrasing is sort
+of wrong. Everything in this list is a "view". I haven't
+yet explained what a dataset is, but a dataset is a type of
+view. For example, the top two datasets in
+[explore.data.gov](https://explore.data.gov/) are currently
+(<%= @item[:created_at] =%>)
+[White House Visitor Records Requests](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut)
+and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut).
+
+[![Search & Browse Datasets and Views](search-browse.png)](https://explore.data.gov/)
+
+You also get a list
+of "View Types".
+
+
+
+
+## Types of duplicate datasets
+
+### Same dataset, linked from same portal
+
+### Same dataset, linked from a different portal
+Same dataset in opendata.socrata.com and a different portal
+
+### Copied rather than elegantly linked
+An example of that
+https://dati.lombardia.it/Cultura/Musei/3syc-54zf?
+
+
+```
+                      portal        id    nrow ncol downloadCount
+7790       dati.lombardia.it 3syc-54zf     234   56          1675
+10425   opendata.socrata.com 54y8-wyde     234   56             9
+```
+
+
+
+
+
+
+
+
+
 
 I downloaded all of the metadata about all of the Socrata datasets during the week of ...
 Explain viewFilters and provisions to other data portals
