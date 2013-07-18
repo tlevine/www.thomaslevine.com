@@ -32,6 +32,7 @@ to include only opportunities on July 29.
 ## Socrata terminology
 Let's take a brief detour to discuss Socrata terminology.
 
+### Everything is a "view"
 When you go to the home page of a Socrata portal, you can
 "Search & Browse Datasets and Views". This phrasing is sort
 of wrong. Everything in this list is a "view". I haven't
@@ -44,10 +45,21 @@ and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/datase
 
 [![Search & Browse Datasets and Views](search-browse.png)](https://explore.data.gov/)
 
-You also get a list
-of "View Types".
+### Types of views
+You also get a list of "View Types". Let's start with the "dataset".
+A dataset is when you get when you upload data to Socrata in one of
+its supported formats. Internally, a dataset is also called a "table".
 
+Earlier, I discussed filtered views. "Filtered views" are queries on
+a dataset/table. The queries are written in the
+[SODA filter query language](http://dev.socrata.com/deprecated/querying-datasets).
+Similarly, "charts" and "maps" are also queries on a dataset/table.
+The difference between filtered views, charts and maps is quite subtle.
+They are all queries on datasets/tables; they just display a different
+visualization when you view them on the Socrata website.
 
+There are other types of views, but we don't need to know about them
+for now.
 
 
 ## Types of duplicate datasets
