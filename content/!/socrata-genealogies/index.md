@@ -56,7 +56,7 @@ view. For example, the top two views in
 [White House Visitor Records Requests](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut)
 and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut).
 
-[![Search & Browse Datasets and Views](search-browse.png)](https://explore.data.gov/)
+[![Search & Browse Datasets and Views](search-browse.png){:.wide}](https://explore.data.gov/)
 
 You also get a list of "View Types". Below, I define some
 of these view types.
@@ -79,7 +79,7 @@ datasets. For example, here I filter the list of
 [Public Works Volunteer Opportunities](https://data.oaklandnet.com/Environmental/Public-Works-Volunteer-Opportunities/sduu-bfki)
 to include only opportunities on July 29.
 
-[![Filtering on date July 29](filter.png)](filter.png)
+[![Filtering on date July 29](filter.png){:.wide}](filter.png)
 
 [Here](https://data.oaklandnet.com/Environmental/Volunteer-Opportunities-on-July-29/vyhb-nqtw)'s the resulting filtered view.
 
@@ -123,7 +123,7 @@ another portal's datasets.
 Sometimes, you'll see a view in the search & browse pane with a grey background,
 instead of white. Hawaii has a bunch of these.
 
-[![Hawaii data portal](hawaii.png)](https://data.hawaii.gov/)
+[![Hawaii data portal](hawaii.png){:.wide}](https://data.hawaii.gov/)
 
 These views are "provided" by other portals through a process called
 "federation". The destination portal (data.hawaii.gov in the above screenshot)
