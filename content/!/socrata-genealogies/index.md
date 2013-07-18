@@ -2,6 +2,14 @@
 title: Progenies of Nine Socrata datasets
 draft_created_at: 2013-07-18
 draft_kind: article
+twitter_image: screenshot.png
+facebook_image: screenshot.png
+tweet_text: The World Bank (@WBOpenFinances) contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
+description: How are datasets are transformed in Socrata, and what can we can learn from that?
+twitter_description: How are datasets are transformed in Socrata, and what can we can learn from that?
+facebook_text: The @World Bank's contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
+facebook_title: How are datasets are transformed in Socrata, and what can we can learn from that?
+facebook_description: It's cool what you can do when data analysis is logged and exposed publically over the web.
 ---
 
 As the Twitters have pointed out, the dataset counts that I presented
@@ -206,18 +214,12 @@ called "views" rather than the number of times people viewed the dataset.
 (Confusingly, Socrata also provides the latter sort of view count, and 
 I've included that figure in the present report.)
 
-Out of these datasets, I took out nine of the top ten datasets, and I
+Out of these datasets, I took the top ten datasets, and I
 show their families in the table at the end of this page. Select a dataset,
 and then you can see all of that dataset plus all of the filtered views,
 maps and charts of that dataset. You can also see which portals each of
 these datasets is federated to. You can sort by the different columns,
 and you can click on a row to see more detail.
-
-### Caveats
-The one dataset that I skipped is 
-[FEC contributions](https://explore.data.gov/Contributors/FEC-Contributions/4dkz-64bn?).
-I skipped it because some of the child views appeared to be in different portals.
-I'm not really sure what's going on there; we can worry about that one some other time.
 
 And In case you're reading this a year later, the data were collected from
 Socrata portals at the end of May 2013.
