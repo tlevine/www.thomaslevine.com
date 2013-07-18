@@ -108,13 +108,30 @@ links to the source portal; the views show up in the search, but they aren't
 otherwise copied to the destination portal.
 
 ## 4. Types of duplicate datasets
+Now that you know a bit more about how Socrata works, I can explain my three
+categories of datasets-that-I-counted-twice.
 
-### Same dataset, linked from same portal
-Through the view filters that I discuss above, Socrata makes it quite
-easy to 
+### SODA queries: Filtered views, charts, maps
+After a dataset is uploaded, people can create many views that derive from it.
+Depending on what you want to know, it might not make sense to treat these as
+separate entities.
 
-### Same dataset, linked from a different portal
-Same dataset in opendata.socrata.com and a different portal
+In my previous analysis, I did count filtered views, charts and maps all as separate
+entities. I think it's worth separating these because they can be derived from the
+source datasets.
+
+If people are using Socrata as it is intended, there should be tons of filtered
+views, charts and maps, and they'll give us an interesting picture of how the
+portal is being used.
+
+### Federation
+When datasets are federated, *all* of the datasets from the source portal are
+provided to the destination. (You can't pick and choose.) That is, they show up
+in search as links to the source portal.
+
+In my previous analysis, I counted federated datasets as belonging to the portal
+to which they're provided. Also, I downloaded them in a way that made it hard for
+me figure out what the source portal was. (It's easy to fix though.)
 
 ### Copied rather than elegantly linked
 An example of that
