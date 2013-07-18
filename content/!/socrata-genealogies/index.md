@@ -5,7 +5,7 @@ kind: article
 ---
 
 As the Twitters have pointed out, the dataset counts that I presented
-in my initial [summary]() of Socrata portals is somewhat deceptive.
+in my initial [summary](/!/socrata-summary) of Socrata portals is somewhat deceptive.
 
 [![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
 
@@ -13,13 +13,16 @@ in my initial [summary]() of Socrata portals is somewhat deceptive.
 
 [![@SR_spatial Tweets about patterns of derived datasets](SR_spatial.png)](https://twitter.com/SR_spatial/status/354088265344749568)
 
+Many of the things that I was calling a dataset can be seen as a
+copy or a derivative of another dataset. Let me explain how that happens.
+
+## 1. Filtered views
 Socrata helps people publish their data by providing various APIs
 for importing from different data sources, and Socrata helps people
 consume data by providing a data analysis suite inside the web browser.
 This includes maps and graphs and whatnot that you can embed in
 websites rather than just in PDF documents.
 
-## Filtered views
 Getting back to the Tweets above, Socrata also allows you to "Filter"
 datasets. For example, here I filter the list of
 [Public Works Volunteer Opportunities](https://data.oaklandnet.com/Environmental/Public-Works-Volunteer-Opportunities/sduu-bfki)
@@ -29,7 +32,7 @@ to include only opportunities on July 29.
 
 [Here](https://data.oaklandnet.com/Environmental/Volunteer-Opportunities-on-July-29/vyhb-nqtw)'s the resulting filtered view.
 
-## Socrata terminology
+## 2. Socrata terminology
 Let's take a brief detour to discuss Socrata terminology.
 
 ### Everything is a "view"
@@ -61,7 +64,7 @@ visualization when you view them on the Socrata website.
 There are other types of views, but we don't need to know about them
 for now.
 
-### Federation
+## 3. Federation
 Socrata doesn't provide a particularly obvious means for searching multiple
 data portals at once. (This was part of my motivation for downloading all of
 the datasets.) But it is possible for one data portal to include all of
@@ -85,7 +88,7 @@ If you look closely, you'll notice that the federated views are actually just
 links to the source portal; the views show up in the search, but they aren't
 otherwise copied to the destination portal.
 
-## Types of duplicate datasets
+## 4. Types of duplicate datasets
 
 ### Same dataset, linked from same portal
 Through the view filters that I discuss above, Socrata makes it quite
