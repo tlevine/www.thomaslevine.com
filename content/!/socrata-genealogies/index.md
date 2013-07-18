@@ -1,5 +1,5 @@
 ---
-title: Ancestries of Nine Socrata datasets
+title: Progenies of Nine Socrata datasets
 created_at: 2013-07-18
 kind: article
 ---
@@ -41,8 +41,7 @@ When you go to the home page of a Socrata portal, you can
 of wrong. Everything in this list is a "view". I haven't
 yet explained what a dataset is, but a dataset is a type of
 view. For example, the top two datasets in
-[explore.data.gov](https://explore.data.gov/) are currently
-(<%= @item[:created_at] =%>)
+[explore.data.gov](https://explore.data.gov/) are currently (July 17)
 [White House Visitor Records Requests](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut)
 and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut).
 
@@ -179,6 +178,9 @@ I skipped it because it wasn't totally clear what the source portal was.
 New York has a few different Socrata portals that contain much of the same
 data but not through federation, so maybe this is a quirk of migrating data
 between portals.
+
+In case you're reading this a year later, the data were collected from
+Socrata portals at the end of May 2013.
 
 ## 6. Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
