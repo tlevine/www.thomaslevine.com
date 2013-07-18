@@ -265,7 +265,7 @@ data quality issues in the data portal. We had a
 be frequently violated in the New York data portal, but we didn't know
 enough about Socrata to evaluate them properly. Many of these were already
 on my list for further study, but I got some more ideas on this front
-through my conversation with [Nicole Nedith](https://twitter.com/nneditch),
+through my conversation with [Nicole Neditch](https://twitter.com/nneditch),
 who administrates Oakland's data portal.
 
 **Codebooks**: Socrata doesn't really have a feature for including
