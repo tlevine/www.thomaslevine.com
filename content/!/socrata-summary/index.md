@@ -16,7 +16,7 @@ facebook_link: https://www.facebook.com/perluette/posts/2480962388120
 ---
 <% root = 'https://github.com/tlevine/socrata-download/tree/master/' %>
 
-I downloaded the metadata files for all of the datasets across all of the Socrata data portals.
+I downloaded the metadata files for all of the datasets across all of the [Socrata](http://www.socrata.com/) data portals.
 Here I explain how I did that and present an summary of the sorts of data that we find in the portals.
 
 ## Acquiring the data

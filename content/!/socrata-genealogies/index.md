@@ -5,7 +5,8 @@ draft_kind: article
 ---
 
 As the Twitters have pointed out, the dataset counts that I presented
-in my initial [summary](/!/socrata-summary) of Socrata portals is somewhat deceptive.
+in my initial [summary](/!/socrata-summary) of [Socrata](http://www.socrata.com/)
+portals is somewhat deceptive.
 
 [![@tomschenkjr Tweets about Chicago's filters](tomschenkjr.png)](https://twitter.com/tomschenkjr/status/354010005504147456)
 
