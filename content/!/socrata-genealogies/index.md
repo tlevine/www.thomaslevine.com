@@ -203,19 +203,17 @@ these datasets is federated to. You can sort by the different columns,
 and you can click on a row to see more detail.
 
 The one dataset that I skipped is 
-[]().
-I skipped it because it wasn't totally clear what the source portal was.
-New York has a few different Socrata portals that contain much of the same
-data but not through federation, so maybe this is a quirk of migrating data
-between portals.
+[FEC contributions](https://explore.data.gov/Contributors/FEC-Contributions/4dkz-64bn?).
+I skipped it because some of the child views appeared to be in different portals.
+I'm not really sure what's going on there; we can worry about that one some other time.
 
-In case you're reading this a year later, the data were collected from
+And In case you're reading this a year later, the data were collected from
 Socrata portals at the end of May 2013.
 
 ## Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
-on some ideas for future study that I've come up with. I've alluded to some
-future study above, so here, I'm just focusing on things that I haven't really
+on some ideas for future study that I've come up with. I've already alluded to
+some future study above; belowe, I'm focusing on things that I haven't really
 discussed above.
 
 A small note on grammar:
