@@ -252,10 +252,12 @@ the list of all of the users. I'd like to see who is creating views, what
 sorts of views they're creating. I'm particularly interested in ordinary
 citizens who are creating lots of views.
 
+<!--
 ### Socrata features
 Socrata sells a bunch of add-on integration features. I'm somewhat curious to
 see which cities are using which features, and we can determine this based on
 the sorts of data that are in each portal.
+-->
 
 ### Data quality
 A couple months ago, [Ashley Williams](https://twitter.com/ag_dubs) and I
