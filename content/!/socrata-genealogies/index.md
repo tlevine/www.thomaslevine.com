@@ -145,16 +145,34 @@ didn't record whether I was following a redirect or accessing the page directly.
 Some datasets have simply been uploaded to two different portals.
 Lombardia's museums is an example of that.
 
-              portal |          id | nrow | ncol | downloadCount
----------------------|-------------|------|------|--------------
-   dati.lombardia.it | [3syc-54zf] |  234 |   56 |          1675
-opendata.socrata.com | [54y8-wyde] |  234 |   56 |             9
-
-
-              portal |                                                                            id | nrow | ncol | downloadCount
----------------------|-------------------------------------------------------------------------------|------|------|--------------
-   dati.lombardia.it | [3syc-54zf](https://dati.lombardia.it/Cultura/Musei/3syc-54zf?)               |  234 |   56 |          1675
-opendata.socrata.com | [54y8-wyde](https://opendata.socrata.com/Education/Musei-Lombardi/54y8-wyde?) |  234 |   56 |             9
+<!-- I don't know why the Kramdown table syntax isn't working here. -->
+<table>
+  <thead>
+    <tr>
+      <th>Portal</th>
+      <th>Identifier</th>
+      <th>Rows</th>
+      <th>Columns</th>
+      <th>Downloads</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dati.lombardia.it</td>
+      <td><a href="https://dati.lombardia.it/Cultura/Musei/3syc-54zf?">3syc-54zf</a></td>
+      <td>234</td>
+      <td>56</td>
+      <td>1675</td>
+    </tr>
+    <tr>
+      <td>opendata.socrata.com</td>
+      <td><a href="https://opendata.socrata.com/Education/Musei-Lombardi/54y8-wyde?">54y8-wyde</a></td>
+      <td>234</td>
+      <td>56</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
 
 I identified this group by looking for datasets with the same numbers of rows,
 the same number of columns, and similar names.
