@@ -7,17 +7,23 @@ kind: article
 As the Twitters have pointed out, the dataset counts that I presented
 in my initial [summary](/!/socrata-summary) of Socrata portals is somewhat deceptive.
 
-[![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
-
 [![@tomschenkjr Tweets about Chicago's filters](tomschenkjr.png)](https://twitter.com/tomschenkjr/status/354010005504147456)
 
 [![@SR_spatial Tweets about patterns of derived datasets](SR_spatial.png)](https://twitter.com/SR_spatial/status/354088265344749568)
 
+[![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
+
 Many of the things that I was calling a dataset can be seen as a
-copy or a derivative of another dataset. Let me explain how that happens.
+copy or a derivative of another dataset. In this post, I'll discuss
+
+1. Socrata concepts and terminology
+2. ways that we can arrive at apparent duplicates in Socrata data
+3. the progeny of nine Socrata datasets
+4. ideas for future study
 
 ## Socrata terminology
-Let's take a brief detour to discuss Socrata terminology.
+Most of my work on this for the past week has been figuring out
+Socrata's terminology and schema. Let's define some Socrata terms.
 
 ### Everything is a view
 When you go to the home page of a Socrata portal, you can
@@ -87,7 +93,7 @@ query on the dataset (equivalent to `SELECT * FROM table_name;`). Filtered views
 charts and maps act on the table rather than on the source dataset; they're just
 like datasets, except that they include a query.
 
-## Federation
+### Federation
 Socrata doesn't provide a particularly obvious means for searching multiple
 data portals at once. (This was part of my motivation for downloading all of
 the datasets.) But it is possible for one data portal to include all of
@@ -185,6 +191,7 @@ at how families of datasets are related. I figured I'd make something
 a bit less sloppy than ggplot plots tiny text and with legends
 hanging off of the page.
 
+### Methodology
 I grouped all of the views that I had collected by table. (Recall that
 a table in Socrata is a dataset plus the family of views that derives
 from that particular dataset.)
@@ -202,6 +209,7 @@ maps and charts of that dataset. You can also see which portals each of
 these datasets is federated to. You can sort by the different columns,
 and you can click on a row to see more detail.
 
+### Caveats
 The one dataset that I skipped is 
 [FEC contributions](https://explore.data.gov/Contributors/FEC-Contributions/4dkz-64bn?).
 I skipped it because some of the child views appeared to be in different portals.
@@ -209,6 +217,17 @@ I'm not really sure what's going on there; we can worry about that one some othe
 
 And In case you're reading this a year later, the data were collected from
 Socrata portals at the end of May 2013.
+
+### Why it's not a tree
+In Socrata, you can create a filtered view, chart or map based on a dataset,
+and the link to the source dataset will be preserved. This is represented
+in the table below.
+
+Unfortunately, the genealogy is not recorded any deeper than this; if you
+create a new filtered view based on an existing filtered view, the SODA query
+is simply combined between the two views, and the new filtered view is
+represented as a child of the original dataset rather than a child of the old
+filtered view.
 
 ## Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
