@@ -3,6 +3,11 @@ title: Ancestries of Nine Socrata datasets
 created_at: 2013-07-18
 kind: article
 ---
+
+[![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
+[![@tomschenkjr Tweets about Chicago's filters](tomschenkjr.png)](https://twitter.com/tomschenkjr/status/354010005504147456)
+[![@SR_spatial Tweets about patterns of derived datasets](SR_spatial.png)](https://twitter.com/SR_spatial/status/354088265344749568)
+
 I downloaded all of the metadata about all of the Socrata datasets during the week of ...
 Explain viewFilters and provisions to other data portals
 Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.
