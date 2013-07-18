@@ -1,7 +1,7 @@
 ---
 title: Progenies of Nine Socrata datasets
-created_at: 2013-07-18
-kind: article
+draft_created_at: 2013-07-18
+draft_kind: article
 ---
 
 As the Twitters have pointed out, the dataset counts that I presented
@@ -28,9 +28,12 @@ Socrata's terminology and schema. Let's define some Socrata terms.
 ### Everything is a view
 When you go to the home page of a Socrata portal, you can
 "Search & Browse Datasets and Views". This phrasing is sort
-of wrong. Everything in this list is a **view**. I haven't
+of wrong. "**view**" is just a generic concept that refers
+to any sort of file or data that is presented to a user.
+
+Everything in that list on the home page is a view. I haven't
 yet explained what a dataset is, but a dataset is a type of
-view. For example, the top two datasets in
+view. For example, the top two views in
 [explore.data.gov](https://explore.data.gov/) are currently (July 17)
 [White House Visitor Records Requests](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut)
 and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/dataset/White-House-Visitor-Records-Requests/644b-gaut).
