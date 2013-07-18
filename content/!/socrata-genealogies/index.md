@@ -149,16 +149,10 @@ opendata.socrata.com | [54y8-wyde](https://opendata.socrata.com/Education/Musei-
 I identified this group by looking for datasets with the same numbers of rows and columns and with similar names.
 I haven't done it on a larger scale, but that would be fun to do later.
 
-
-
-
-
-
-
-
+## 5. Nine large dataset families
 Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.
 
-## Future research
+## 6. Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
 on some ideas for future study that I've come up with. I've alluded to some
 future study above, so here, I'm just focusing on things that I haven't really
