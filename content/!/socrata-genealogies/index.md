@@ -178,7 +178,43 @@ Explain the quirk about redirects that I didn't handle
   * For Oakland, it's just Nicole and Titus
 * Socrata has a bunch of add-on features like integrations and a checkbook dashboard. It might be fun to get a list of these from Socrata and then see which portals use which features
 * Metadata could be better. Like an "explanation of what the fields are" (codebook, data dictionary)
-  
+
+## Future research
+Before you scroll down to the table of dataset progeny, I'm going to comment
+on some ideas for future study that I've come up with.
+
+### Data quality
+A couple months ago, [Ashley Williams]() and I
+[prototyped](http://www.appgen.me/audit/report) a tool for identifying
+data quality issues in the data portal. We had a
+[slew of best practices](http://www.appgen.me/audit) that we had found to
+be frequently violated in the New York data portal, but we didn't know
+enough about Socrata to evaluate them properly. Many of these were already
+on my list for further study, but I got some more ideas on this front
+through my conversation with [Nicole Nedith](https://twitter.com/nneditch),
+who administrates Oakland's data portal.
+
+**Geocoding**: Socrata is quite slow at geocoding. Nicole suspects that
+this is because all of the geocoding for all of the portals runs on
+one server. This is something that Socrata could improve, but there's
+a lot that cities can already do about this. This issue came up in relation
+to Oakland's [CrimeWatch maps](https://data.oaklandnet.com/Public-Safety/CrimeWatch-Maps-Past-90-Days/ym6k-rx7a).
+The dataset has geospatial coordinates, is quite long, and is updated
+frequently. Every time it is updated, all of the geocoded coordinates
+get cleared, and the geocoding restarts, so the geocoding never finishes.
+Oakland actually has the geospatial data in its database, but through
+some accident, it wasn't appearing in the dataset. If we could identify
+datasets like these, we could fix geocoding problems before people complain about them.
+
+**Codebooks**: Socrata doesn't really have a feature for including
+explanations of what the different variables in a dataset mean. (I'd call
+this a data dictionary or a codebook.) However, some datasets may already
+include codebooks. I'm personally just a bit curious as to which datasets
+have codebooks and whether that impacts their use. But this could also work
+its way into our hypothetical tool. For example, we could look for datasets
+with lots of views and without codebooks; those might be useful datasets
+to write codebooks for.
+
 <!-- Scripts after the introduction so you don't notice the table loading -->
 <script src="angular.min.js"></script>
 <script src="angular-table.js"></script>
