@@ -150,7 +150,35 @@ I identified this group by looking for datasets with the same numbers of rows an
 I haven't done it on a larger scale, but that would be fun to do later.
 
 ## 5. Nine large dataset families
-Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.
+It took me quite a while to figure out how all of this works.
+(That's a story in itself.) My goal all along was to start looking
+at how families of datasets are related. I figured I'd make something
+a bit less sloppy than ggplot plots tiny text and with legends
+hanging off of the page.
+
+I grouped all of the views that I had collected by table. (Recall that
+a table in Socrata is a dataset plus the family of views that derives
+from that particular dataset.)
+
+Once I had grouped them, I found the ten largest families, by number of
+different views. To be clear, this is the number of Socrata entities
+called "views" rather than the number of times people viewed the dataset.
+(Confusingly, Socrata also provides the latter sort of view count, and 
+I've included that figure in the present report.)
+
+Out of these datasets, I took out nine of the top ten datasets, and I
+show their families in the table at the end of this page. Select a dataset,
+and then you can see all of that dataset plus all of the filtered views,
+maps and charts of that dataset. You can also see which portals each of
+these datasets is federated to. You can sort by the different columns,
+and you can click on a row to see more detail.
+
+The one dataset that I skipped is 
+[]().
+I skipped it because it wasn't totally clear what the source portal was.
+New York has a few different Socrata portals that contain much of the same
+data but not through federation, so maybe this is a quirk of migrating data
+between portals.
 
 ## 6. Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
