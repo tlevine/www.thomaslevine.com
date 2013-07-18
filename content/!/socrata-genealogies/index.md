@@ -131,53 +131,32 @@ in search as links to the source portal.
 
 In my previous analysis, I counted federated datasets as belonging to the portal
 to which they're provided. Also, I downloaded them in a way that made it hard for
-me figure out what the source portal was. (It's easy to fix though.)
+me figure out what the source portal was. It's easy to fix, so I might download
+them all again and graph the network of federation across Socrata portals.
+
+(For those who are curious, the issue was that I followed HTTP redirects and
+didn't record whether I was following a redirect or accessing the page directly.)
 
 ### Copied rather than elegantly linked
-An example of that
-https://dati.lombardia.it/Cultura/Musei/3syc-54zf?
+Some datasets have simply been uploaded to two different portals.
+Lombardia's museums is an example of that.
 
+              portal |                                                                            id | nrow | ncol | downloadCount
+---------------------|-------------------------------------------------------------------------------|------|------|--------------
+   dati.lombardia.it | [3syc-54zf](https://dati.lombardia.it/Cultura/Musei/3syc-54zf?)               |  234 |   56 |          1675
+opendata.socrata.com | [54y8-wyde](https://opendata.socrata.com/Education/Musei-Lombardi/54y8-wyde?) |  234 |   56 |             9
 
-```
-                      portal        id    nrow ncol downloadCount
-7790       dati.lombardia.it 3syc-54zf     234   56          1675
-10425   opendata.socrata.com 54y8-wyde     234   56             9
-```
-
-
-
-
+I identified this group by looking for datasets with the same numbers of rows and columns and with similar names.
+I haven't done it on a larger scale, but that would be fun to do later.
 
 
 
 
 
 
-I downloaded all of the metadata about all of the Socrata datasets during the week of ...
-Explain viewFilters and provisions to other data portals
+
+
 Out of these datasets, I took out nine of the top ten (Explain the weird one.) datasets, and here I show their families.
-Explain the quirk about redirects that I didn't handle
-
-## Notes from Nicole Neditch
-* Oakland had the option to import all of the datasets from other portals in order to make the search work across portals, but they couldn't import just some of the datasets.
-* People liked that Socrata has a lot of technical support
-* When choosing the portal, they looked at just Socrata, CKAN and Junar. (There aren't really many people in this market.)
-* Junar seemed too basic and unable to handle larger data and more datasets, and they didn't have an API to sync datasets from internal datasets.
-* CKAN needed either internal support or a separate contracted support
-* Nicole can send me the analysis.
-* http://dev.socrata.com/publishers/importing
-* Qualms
-  * It's really slow, especially with geocoding. She things there's just one server that does all of the geocoding.
-  * https://data.oaklandnet.com/
-  * CKAN has bugs. Like mapping never works right. Socrata's mapping and visualization tools work really well.
-  * "Any city staff person can generate a map of location-based data on the fly."
-  * Embed a pie chart of the wildlife prevention thing. If they didn't have socrata, they probably would have put together a pdf report. There are other tools for this, but the people working for the city don't know them.
-  * That couple downloaded and filtered the data, but they couldn't print it.
-  * It seems that you can query on queries, but then when you save it it doesn't store.
-  * Federation: https://cities-datagov.demo.socrata.com/
-  * For Oakland, it's just Nicole and Titus
-* Socrata has a bunch of add-on features like integrations and a checkbook dashboard. It might be fun to get a list of these from Socrata and then see which portals use which features
-* Metadata could be better. Like an "explanation of what the fields are" (codebook, data dictionary)
 
 ## Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
