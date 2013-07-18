@@ -11,10 +11,19 @@ facebook_text: The @World Bank's contract award dataset has been forked 345 time
 facebook_title: How are datasets are transformed in Socrata, and what can we can learn from that?
 facebook_description: It's cool what you can do when data analysis is logged and exposed publically over the web.
 ---
+Governments and other organizations have recently been trying to open up their
+data in order that the public may benefit from them. Socrata's [Open Data Portal](http://www.socrata.com/open-data-portal/) software
+is one tool that tries to help with this; an organization using Socrata is given a website
+("portal") hosted by Socrata where they can upload their datasets and where
+the public can download them.
 
-As the Twitters have pointed out, the dataset counts that I presented
-in my initial [summary](/!/socrata-summary) of [Socrata](http://www.socrata.com/)
-portals is somewhat deceptive.
+I recently downloaded all of the metadata about all of the datasets from all
+of the Socrata portals and then posted this [summary](/!/socrata-summary) of
+the data. Now on to some deeper further analysis.
+
+As the Twitters have pointed out,the dataset counts that I presented in my
+initial summary are somewhat deceptive.
+
 
 [![@tomschenkjr Tweets about Chicago's filters](tomschenkjr.png)](https://twitter.com/tomschenkjr/status/354010005504147456)
 
