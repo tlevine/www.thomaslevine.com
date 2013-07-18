@@ -16,29 +16,13 @@ in my initial [summary](/!/socrata-summary) of Socrata portals is somewhat decep
 Many of the things that I was calling a dataset can be seen as a
 copy or a derivative of another dataset. Let me explain how that happens.
 
-## 1. Filtered views
-Socrata helps people publish their data by providing various APIs
-for importing from different data sources, and Socrata helps people
-consume data by providing a data analysis suite inside the web browser.
-This includes maps and graphs and whatnot that you can embed in
-websites rather than just in PDF documents.
-
-Getting back to the Tweets above, Socrata also allows you to "Filter"
-datasets. For example, here I filter the list of
-[Public Works Volunteer Opportunities](https://data.oaklandnet.com/Environmental/Public-Works-Volunteer-Opportunities/sduu-bfki)
-to include only opportunities on July 29.
-
-[![Filtering on date July 29](filter.png)](filter.png)
-
-[Here](https://data.oaklandnet.com/Environmental/Volunteer-Opportunities-on-July-29/vyhb-nqtw)'s the resulting filtered view.
-
-## 2. Socrata terminology
+## 1. Socrata terminology
 Let's take a brief detour to discuss Socrata terminology.
 
-### Everything is a "view"
+### Everything is a view
 When you go to the home page of a Socrata portal, you can
 "Search & Browse Datasets and Views". This phrasing is sort
-of wrong. Everything in this list is a "view". I haven't
+of wrong. Everything in this list is a **view**. I haven't
 yet explained what a dataset is, but a dataset is a type of
 view. For example, the top two datasets in
 [explore.data.gov](https://explore.data.gov/) are currently (July 17)
@@ -47,15 +31,36 @@ and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/datase
 
 [![Search & Browse Datasets and Views](search-browse.png)](https://explore.data.gov/)
 
-### Types of views
-You also get a list of "View Types". Let's start with the **dataset**.
-A dataset is when you get when you upload data to Socrata in one of
-its supported formats.
+You also get a list of "View Types". Below, I define some
+of these view types.
 
-Earlier, I discussed filtered views. **Filtered views** are queries on
-a dataset. The queries are represented internally in the
+### Datasets
+Let's start with the **dataset**.
+A dataset is when you get when you upload data to Socrata in one of
+its supported tabular formats.
+
+### Filtered views
+Before I define "filtered views", I want to explain why they exist.
+Socrata helps people publish their data by providing various APIs
+for importing from different data sources, and Socrata helps people
+consume data by providing a data analysis suite inside the web browser.
+This includes maps and graphs and whatnot that you can embed in
+websites rather than just in PDF documents.
+
+Socrata also allows you to "Filter"
+datasets. For example, here I filter the list of
+[Public Works Volunteer Opportunities](https://data.oaklandnet.com/Environmental/Public-Works-Volunteer-Opportunities/sduu-bfki)
+to include only opportunities on July 29.
+
+[![Filtering on date July 29](filter.png)](filter.png)
+
+[Here](https://data.oaklandnet.com/Environmental/Volunteer-Opportunities-on-July-29/vyhb-nqtw)'s the resulting filtered view.
+
+**Filtered views** are queries on a dataset. The queries are represented internally in the
 [SODA filter query language](http://dev.socrata.com/deprecated/querying-datasets).
-Similarly, **charts** and **maps** are also queries on a dataset.
+
+### Charts and maps
+**Charts** and **maps** are also queries on a dataset.
 The difference between filtered views, charts and maps is quite subtle.
 They are all queries on datasets; they just display a different
 visualization when you view them on the Socrata website.
@@ -64,7 +69,7 @@ There are other types of views, but we don't need to know about them
 for now.
 
 ### Tables
-But there is one last thing. There is a concept of a **table**, and
+There is also a concept of a **table**, and
 it is somewhat abstract. Here are two ways of thinking of it.
 
 First, a more conceptual explanation.
@@ -140,12 +145,19 @@ didn't record whether I was following a redirect or accessing the page directly.
 Some datasets have simply been uploaded to two different portals.
 Lombardia's museums is an example of that.
 
+              portal |          id | nrow | ncol | downloadCount
+---------------------|-------------|------|------|--------------
+   dati.lombardia.it | [3syc-54zf] |  234 |   56 |          1675
+opendata.socrata.com | [54y8-wyde] |  234 |   56 |             9
+
+
               portal |                                                                            id | nrow | ncol | downloadCount
 ---------------------|-------------------------------------------------------------------------------|------|------|--------------
    dati.lombardia.it | [3syc-54zf](https://dati.lombardia.it/Cultura/Musei/3syc-54zf?)               |  234 |   56 |          1675
 opendata.socrata.com | [54y8-wyde](https://opendata.socrata.com/Education/Musei-Lombardi/54y8-wyde?) |  234 |   56 |             9
 
-I identified this group by looking for datasets with the same numbers of rows and columns and with similar names.
+I identified this group by looking for datasets with the same numbers of rows,
+the same number of columns, and similar names.
 I haven't done it on a larger scale, but that would be fun to do later.
 
 ## 5. Nine large dataset families
