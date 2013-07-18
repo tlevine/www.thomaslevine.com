@@ -1,5 +1,5 @@
 ---
-title: Progenies of Nine Socrata datasets
+title: Progenies of Ten Socrata datasets
 draft_created_at: 2013-07-18
 draft_kind: article
 twitter_image: screenshot.png
@@ -27,7 +27,7 @@ copy or a derivative of another dataset. In this post, I'll discuss
 
 1. Socrata concepts and terminology
 2. ways that we can arrive at apparent duplicates in Socrata data
-3. the progeny of nine Socrata datasets
+3. the progenies of ten Socrata datasets
 4. ideas for future study
 
 ## Socrata terminology
@@ -196,7 +196,7 @@ I identified this group by looking for datasets with the same numbers of rows,
 the same number of columns, and similar names.
 I haven't done it on a larger scale, but that would be fun to do later.
 
-## Nine large dataset families
+## Ten large dataset families
 It took me quite a while to figure out how all of this works.
 (That's a story in itself.) My goal all along was to start looking
 at how families of datasets are related. I figured I'd make something
@@ -235,8 +235,34 @@ is simply combined between the two views, and the new filtered view is
 represented as a child of the original dataset rather than a child of the old
 filtered view.
 
+### Things to play with
+If you sort by "Created" date, the first one should be the source dataset.
+
+In some cases, like with the White House visitor records requests, most of the
+downloads and hits for the whole family are from this source dataset.
+In other cases, like the World Bank major contract awards, only a small
+minority comes from this source dataset. This might tell us something about
+how people like to use the data. Perhaps people working with the World Bank
+contracts are interested in subsets for their particular region and time.
+And maybe people are just playing with the White House data because it's the
+first one in the list.
+
+The dataset size gives us an idea of what sort of queries people are running.
+Are people selecting certain variables, or are they aggregating or subsetting
+the records?
+
+As I discussed earlier, federation is all-or-nothing; you either include all
+of the source portal's datasets or none of them. So you would expect that the
+"Federation" column would list the same number of copies for each dataset.
+In at least one instance (FEC contributions), this is not the case. what's
+going on there?
+
+Frankly, this table is a rather terrible way of exploring these broader trends,
+but it conveys the scale with which datasets are being adapted on Socrata and
+lets us drill down to the views on Socrata to see more detail.
+
 ## Future research
-Before you scroll down to the table of dataset progeny, I'm going to comment
+Before you scroll down to the table of dataset progenies, I'm going to comment
 on some ideas for future study that I've come up with. I've already alluded to
 some future study above; belowe, I'm focusing on things that I haven't really
 discussed above.
@@ -294,7 +320,7 @@ Oakland actually has the geospatial data in its database, but through
 some accident, it wasn't appearing in the dataset. If we could identify
 datasets like these, we could fix geocoding problems before people complain about them.
 
-## The aforementioned table of dataset progeny
+## The aforementioned table of dataset progenies
 
 <!-- Scripts after the introduction so you don't notice the table loading -->
 <script src="angular.min.js"></script>
