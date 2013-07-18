@@ -31,8 +31,10 @@
   }
 })()
 
+/*
 $(function(){
   setTimeout(function(){
     $('#feedback').fadeIn()
   }, 3 * 60 * 1000)
 })
+*/
