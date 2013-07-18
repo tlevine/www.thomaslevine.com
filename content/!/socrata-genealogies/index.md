@@ -69,6 +69,12 @@ But there is one last thing. There is a concept of a **table**, and
 it is somewhat abstract. Here are two ways of thinking of it.
 
 First, a more conceptual explanation.
+After someone uploads a dataset, a variety of filtered views,
+charts and maps can emerge. I see this as a family of views,
+with the parent being the original dataset and the ancestors
+being all of the filtered views, charts and maps that make
+SODA queries on the original dataset. In Socrata, this family
+is called a table.
 
 Next, a more technical explanation.
 The data are stored in a table, and this table is not exposed directly to users. 
