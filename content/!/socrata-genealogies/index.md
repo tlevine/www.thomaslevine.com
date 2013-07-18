@@ -49,20 +49,33 @@ and [U.S. Overseas Loans and Grants (Greenbook)](https://explore.data.gov/datase
 [![Search & Browse Datasets and Views](search-browse.png)](https://explore.data.gov/)
 
 ### Types of views
-You also get a list of "View Types". Let's start with the "dataset".
+You also get a list of "View Types". Let's start with the **dataset**.
 A dataset is when you get when you upload data to Socrata in one of
-its supported formats. Internally, a dataset is also called a "table".
+its supported formats.
 
-Earlier, I discussed filtered views. "Filtered views" are queries on
-a dataset/table. The queries are represented internally in the
+Earlier, I discussed filtered views. **Filtered views** are queries on
+a dataset. The queries are represented internally in the
 [SODA filter query language](http://dev.socrata.com/deprecated/querying-datasets).
-Similarly, "charts" and "maps" are also queries on a dataset/table.
+Similarly, **charts** and **maps** are also queries on a dataset.
 The difference between filtered views, charts and maps is quite subtle.
-They are all queries on datasets/tables; they just display a different
+They are all queries on datasets; they just display a different
 visualization when you view them on the Socrata website.
 
 There are other types of views, but we don't need to know about them
 for now.
+
+### Tables
+But there is one last thing. There is a concept of a **table**, and
+it is somewhat abstract. Here are two ways of thinking of it.
+
+First, a more conceptual explanation.
+
+Next, a more technical explanation.
+The data are stored in a table, and this table is not exposed directly to users. 
+The most raw form of the table is exposed through a dataset, which is an empty
+query on the dataset (equivalent to `SELECT * FROM table_name;`). Filtered views,
+charts and maps act on the table rather than on the source dataset; they're just
+like datasets, except that they include a query.
 
 ## 3. Federation
 Socrata doesn't provide a particularly obvious means for searching multiple
