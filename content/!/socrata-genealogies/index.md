@@ -16,7 +16,7 @@ in my initial [summary](/!/socrata-summary) of Socrata portals is somewhat decep
 Many of the things that I was calling a dataset can be seen as a
 copy or a derivative of another dataset. Let me explain how that happens.
 
-## 1. Socrata terminology
+## Socrata terminology
 Let's take a brief detour to discuss Socrata terminology.
 
 ### Everything is a view
@@ -87,7 +87,7 @@ query on the dataset (equivalent to `SELECT * FROM table_name;`). Filtered views
 charts and maps act on the table rather than on the source dataset; they're just
 like datasets, except that they include a query.
 
-## 3. Federation
+## Federation
 Socrata doesn't provide a particularly obvious means for searching multiple
 data portals at once. (This was part of my motivation for downloading all of
 the datasets.) But it is possible for one data portal to include all of
@@ -111,7 +111,7 @@ If you look closely, you'll notice that the federated views are actually just
 links to the source portal; the views show up in the search, but they aren't
 otherwise copied to the destination portal.
 
-## 4. Types of duplicate datasets
+## Types of duplicate datasets
 Now that you know a bit more about how Socrata works, I can explain my three
 categories of datasets-that-I-counted-twice.
 
@@ -160,7 +160,7 @@ I identified this group by looking for datasets with the same numbers of rows,
 the same number of columns, and similar names.
 I haven't done it on a larger scale, but that would be fun to do later.
 
-## 5. Nine large dataset families
+## Nine large dataset families
 It took me quite a while to figure out how all of this works.
 (That's a story in itself.) My goal all along was to start looking
 at how families of datasets are related. I figured I'd make something
@@ -194,7 +194,7 @@ between portals.
 In case you're reading this a year later, the data were collected from
 Socrata portals at the end of May 2013.
 
-## 6. Future research
+## Future research
 Before you scroll down to the table of dataset progeny, I'm going to comment
 on some ideas for future study that I've come up with. I've alluded to some
 future study above, so here, I'm just focusing on things that I haven't really
@@ -251,6 +251,8 @@ Oakland actually has the geospatial data in its database, but through
 some accident, it wasn't appearing in the dataset. If we could identify
 datasets like these, we could fix geocoding problems before people complain about them.
 
+## The aforementioned table of dataset progeny
+
 <!-- Scripts after the introduction so you don't notice the table loading -->
 <script src="angular.min.js"></script>
 <script src="angular-table.js"></script>
@@ -263,7 +265,7 @@ datasets like these, we could fix geocoding problems before people complain abou
       <option value="">Choose a dataset</option>
     </select>
     <div ng-show="table">
-      <h3>The family</h3>
+      <h3>The family/table</h3>
       <ul>
         <li><strong>Original source</strong>: <a href="https://{{table.source.portal}}/-/-/{{table.source.id}}">{{table.source.portal}}</a></li>
         <li><strong>Number of children</strong>: {{table.datasets.length}}</li>
@@ -271,7 +273,7 @@ datasets like these, we could fix geocoding problems before people complain abou
         <li><strong>Total views</strong>: {{ table.totals.viewCount }}</li>
         <li><strong>Description</strong>: {{table.source.description}}</li>
       </ul>
-      <h3>Its members</h3>
+      <h3>Its member views</h3>
       <angular-table model="table.datasets" default-sort-column="createdAt">
         <header-row>
 
@@ -288,7 +290,7 @@ datasets like these, we could fix geocoding problems before people complain abou
           </header-column>
 
           <header-column class="skinny" sortable="true" sort-field-name="viewCount">
-            <div style="display: inline-block;">Views</div>
+            <div style="display: inline-block;">Hits</div>
             <sort-arrow-ascending></sort-arrow-ascending>
             <sort-arrow-descending></sort-arrow-descending>
           </header-column>
