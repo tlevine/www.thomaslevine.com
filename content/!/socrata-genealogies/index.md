@@ -9,7 +9,7 @@ description: How are datasets are transformed in Socrata, and what can we can le
 twitter_description: How are datasets are transformed in Socrata, and what can we can learn from that?
 facebook_text: The @World Bank's contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
 facebook_title: How are datasets are transformed in Socrata, and what can we can learn from that?
-facebook_description: It's cool what you can do when data analysis is logged and exposed publically over the web.
+facebook_description: It's cool what you can do when data analysis is logged and exposed publicly over the web.
 ---
 Governments and other organizations have recently been trying to open up their
 data. Socrata's [Open Data Portal](http://www.socrata.com/open-data-portal/) software
@@ -120,7 +120,7 @@ data portals at once. (This was part of my motivation for downloading all of
 the datasets.) But it is possible for one data portal to include all of
 another portal's datasets.
 
-Sometimes, you'll see a view in the search & browse pane with a grey background,
+Sometimes, you'll see a view in the search & browse pane with a gray background,
 instead of white. Hawaii has a bunch of these.
 
 [![Hawaii data portal](hawaii.png){:.wide}](https://data.hawaii.gov/)
