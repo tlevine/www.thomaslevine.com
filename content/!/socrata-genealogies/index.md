@@ -399,10 +399,6 @@ In at least one instance (FEC contributions), this is not the case. what's
 going on there?
 
 ### Relevance
-Frankly, this table is a rather terrible way of exploring these broader trends,
-but it conveys the scale with which datasets are being adapted on Socrata and
-lets us drill down to the views on Socrata to see more detail.
-
 Socrata exposes enough of the data analysis process that we can start to see
 what sorts of analyses different people are doing. We can see what sorts of
 datasets are interesting to people. We may even be able to develop new
