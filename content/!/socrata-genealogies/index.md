@@ -2,8 +2,8 @@
 title: Progeny of Ten Socrata Datasets
 created_at: 2013-07-19
 kind: article
-twitter_image: screenshot.png
-facebook_image: screenshot.png
+twitter_image: family.png
+facebook_image: family.png
 tweet_text: The World Bank (@WBOpenFinances) contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
 description: How are datasets are transformed in Socrata, and what can we can learn from that?
 twitter_description: How are datasets are transformed in Socrata, and what can we can learn from that?
