@@ -95,6 +95,7 @@ for now.
 
 ### Tables
 ![A table family, containing a dataset and several filtered views, charts and maps](<%= @item.identifier %>family.jpg){:.wide}
+<!-- Icons from https://explore.data.gov/stylesheets/images/icons/type_icons_30.png?1 -->
 
 There is also a concept of a **table**, and
 it is somewhat abstract. Here are two ways of thinking of it.
