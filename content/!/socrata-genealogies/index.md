@@ -1,7 +1,7 @@
 ---
-title: Progenies of Ten Socrata Datasets
-draft_created_at: 2013-07-18
-draft_kind: article
+title: Progeny of Ten Socrata Datasets
+created_at: 2013-07-18
+kind: article
 twitter_image: screenshot.png
 facebook_image: screenshot.png
 tweet_text: The World Bank (@WBOpenFinances) contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
@@ -9,7 +9,7 @@ description: How are datasets are transformed in Socrata, and what can we can le
 twitter_description: How are datasets are transformed in Socrata, and what can we can learn from that?
 facebook_text: The @World Bank's contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
 facebook_title: How are datasets are transformed in Socrata, and what can we can learn from that?
-facebook_description: It's cool what you can do when data analysis is logged and exposed publicly over the web.
+facebook_description: It's cool what you can do when everyone's data analysis is logged and exposed publicly over the web.
 ---
 Governments and other organizations have recently been trying to open up their
 data. Socrata's [Open Data Portal](http://www.socrata.com/open-data-portal/) software
@@ -35,7 +35,7 @@ copy or a derivative of another dataset. In this post, I'll discuss
 
 1. Socrata concepts and terminology
 2. Ways that we can arrive at apparent duplicates in Socrata data
-3. The progenies of ten Socrata datasets
+3. The progeny of ten Socrata datasets
 
 ## Socrata terminology
 Most of my work on this for the past week has been figuring out
