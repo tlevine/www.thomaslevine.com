@@ -1,5 +1,5 @@
 ---
-title: Progenies of Ten Socrata datasets
+title: Progenies of Ten Socrata Datasets
 draft_created_at: 2013-07-18
 draft_kind: article
 twitter_image: screenshot.png
@@ -12,7 +12,7 @@ facebook_title: How are datasets are transformed in Socrata, and what can we can
 facebook_description: It's cool what you can do when data analysis is logged and exposed publically over the web.
 ---
 Governments and other organizations have recently been trying to open up their
-data in order that the public may benefit from them. Socrata's [Open Data Portal](http://www.socrata.com/open-data-portal/) software
+data. Socrata's [Open Data Portal](http://www.socrata.com/open-data-portal/) software
 is one tool that tries to help with this; an organization using Socrata is given a website
 ("portal") hosted by Socrata where they can upload their datasets and where
 the public can download them.
@@ -21,6 +21,7 @@ I recently downloaded all of the metadata about all of the datasets from all
 of the Socrata portals and then posted this [summary](/!/socrata-summary) of
 the data. Now on to some deeper further analysis.
 
+## What is a dataset?
 As the Twitters have pointed out,the dataset counts that I presented in my
 initial summary are somewhat deceptive.
 
@@ -29,14 +30,12 @@ initial summary are somewhat deceptive.
 
 [![@SR_spatial Tweets about patterns of derived datasets](SR_spatial.png)](https://twitter.com/SR_spatial/status/354088265344749568)
 
-[![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
-
 Many of the things that I was calling a dataset can be seen as a
 copy or a derivative of another dataset. In this post, I'll discuss
 
 1. Socrata concepts and terminology
-2. ways that we can arrive at apparent duplicates in Socrata data
-3. the progenies of ten Socrata datasets
+2. Ways that we can arrive at apparent duplicates in Socrata data
+3. The progenies of ten Socrata datasets
 
 ## Socrata terminology
 Most of my work on this for the past week has been figuring out
@@ -138,6 +137,9 @@ links to the source portal; the views show up in the search, but they aren't
 otherwise copied to the destination portal.
 
 ## Types of duplicate datasets
+
+[![@richmanmax Tweets "deduuuuuupe."](deduuuuuupe.png)](https://twitter.com/richmanmax/status/353956877501087746)
+
 Now that you know a bit more about how Socrata works, I can explain my three
 categories of datasets-that-I-counted-twice.
 
