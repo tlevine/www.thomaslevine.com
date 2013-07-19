@@ -130,7 +130,9 @@ to federate the source portal's data.
 
 This request shows up in the administrator interface for the source portal.
 If the source portal accepts the request, all of the views from the source portal
-are provided to the destination portal as in the screenshot above.
+are provided to the destination portal as in the screenshot above. Here are
+[two](http://www.socrata.com/video/socrata-open-data-federation-demonstration/)
+[videos](http://www.socrata.com/datagov/open-data-federation-video/) about that.
 
 If you look closely, you'll notice that the federated views are actually just
 links to the source portal; the views show up in the search, but they aren't
@@ -234,7 +236,9 @@ and you can click on a row to see more detail.
 And In case you're reading this a year later, the data were collected from
 Socrata portals at the end of May 2013.
 
-### Why it's not a tree
+### Discussion
+
+#### Why it's not a tree
 In Socrata, you can create a filtered view, chart or map based on a dataset,
 and the link to the source dataset will be preserved. This is represented
 in the table below.
@@ -245,8 +249,6 @@ is simply combined between the two views, and the new filtered view is
 represented as a child of the original dataset rather than a child of the old
 filtered view.
 
-### Things to look for
-
 #### The source dataset
 If you sort by "Created" date, the first one should be the source dataset.
 
@@ -254,7 +256,27 @@ If you sort by "Created" date, the first one should be the source dataset.
 In some cases, like with the White House visitor records requests, most of the
 downloads and hits for the whole family are from this source dataset.
 In other cases, like the World Bank major contract awards, only a small
-minority comes from this source dataset. This might tell us something about
+minority comes from this source dataset.
+
+
+                         |      Hits       |    Downloads
+Dataset                  | Family | Source | Family | Source
+-------------------------|--------|--------|--------|-------
+
+[{"source_name": "TIF Projection Reports", "source_viewCount": 48786, "source_downloadCount": 732, "family_downloadCount": 3505, "family_viewCount": 71042}
+, {"source_name": "FEC Contributions", "source_viewCount": 4145, "source_downloadCount": 537, "family_downloadCount": 1403, "family_viewCount": 5466}
+, {"source_name": "Federal Data Center Consolidation Initiative (FDCCI) Data Center Closings 2010-2013", "source_viewCount": 46973, "source_downloadCount": 5269, "family_downloadCount": 6798, "family_viewCount": 97391}
+, {"source_name": "RadNet Laboratory Analysis", "source_viewCount": 6013, "source_downloadCount": 136, "family_downloadCount": 103023, "family_viewCount": 1245049}
+, {"source_name": "TIF Balance Sheets", "source_viewCount": 3206, "source_downloadCount": 268, "family_downloadCount": 2880, "family_viewCount": 13215}
+, {"source_name": "311 Service Requests from 2010 to Present", "source_viewCount": 16940, "source_downloadCount": 50398, "family_downloadCount": 57998, "family_viewCount": 41372}
+, {"source_name": "Summary of IBRD Active Loans as of <End of Period date>", "source_viewCount": 206, "source_downloadCount": 24, "family_downloadCount": 10956, "family_viewCount": 374813}
+, {"source_name": "Major Contract Awards", "source_viewCount": 9037, "source_downloadCount": 1089, "family_downloadCount": 7254, "family_viewCount": 80515}
+, {"source_name": "IDA Statement of Credits and Grants  - Latest Available Snapshot", "source_viewCount": 7268, "source_downloadCount": 633, "family_downloadCount": 10741, "family_viewCount": 281339}
+, {"source_name": "White House Visitor Records Requests", "source_viewCount": 1351374, "source_downloadCount": 10398, "family_downloadCount": 26485, "family_viewCount": 1455933}
+]
+
+
+This might tell us something about
 how people like to use the data. Perhaps people working with the World Bank
 contracts are interested in subsets for their particular region and time.
 And maybe people are just playing with the White House data because it's the
