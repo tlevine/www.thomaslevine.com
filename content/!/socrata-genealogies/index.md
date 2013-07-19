@@ -243,9 +243,12 @@ is simply combined between the two views, and the new filtered view is
 represented as a child of the original dataset rather than a child of the old
 filtered view.
 
-### Things to play with
+### Things to look for
+
+#### The source dataset
 If you sort by "Created" date, the first one should be the source dataset.
 
+#### Compare family statistics with view statistics
 In some cases, like with the White House visitor records requests, most of the
 downloads and hits for the whole family are from this source dataset.
 In other cases, like the World Bank major contract awards, only a small
@@ -255,19 +258,27 @@ contracts are interested in subsets for their particular region and time.
 And maybe people are just playing with the White House data because it's the
 first one in the list.
 
-The dataset size gives us an idea of what sort of queries people are running.
+#### View size
+The view size gives us an idea of what sort of queries people are running.
 Are people selecting certain variables, or are they aggregating or subsetting
 the records?
 
+#### Federation
 As I discussed earlier, federation is all-or-nothing; you either include all
 of the source portal's datasets or none of them. So you would expect that the
 "Federation" column would list the same number of copies for each dataset.
 In at least one instance (FEC contributions), this is not the case. what's
 going on there?
 
+### Relevance
 Frankly, this table is a rather terrible way of exploring these broader trends,
 but it conveys the scale with which datasets are being adapted on Socrata and
 lets us drill down to the views on Socrata to see more detail.
+
+Socrata exposes enough of the data analysis process that we can start to see
+what sorts of analyses different people are doing. We can see what sorts of
+datasets are interesting to people. And we start to infer what we can do when
+publishing datasets in order to facilitate their analysis.
 
 And now, the dataset progeny explorer:
 
