@@ -259,11 +259,25 @@ In other cases, like the World Bank major contract awards, only a small
 minority comes from this source dataset.
 
 
-                         |      Hits       |    Downloads
-Dataset                  | Family | Source | Family | Source
--------------------------|--------|--------|--------|-------
+                            |       Hits        |    Downloads
+Dataset                     | Family  |  Source | Family | Source
+----------------------------|---------|---------|--------|-------
+TIF Projection Reports      |   71042 |   48786 |   3505 |   732
+FEC Contributions           |    5466 |    4145 |   1403 |   537
+Federal Data Center...      |   97391 |   46973 |   6798 |  5269
+RadNet Laboratory Analysis  | 1245049 |    6013 | 103023 |   136
+TIF Balance Sheets          |   13215 |    3206 |   2880 |   268
+311 Service Requests...     |   41372 |   16940 |  57998 | 50398
+Summary of IBRD Active...   |  374813 |     206 |  10956 |    24
+Major Contract Awards       |   80515 |    9037 |   7254 |  1089
+IDA Statement of Credits... |  281339 |    7268 |  10741 |   633
+White House Visitor...      | 1455933 | 1351374 |  26485 | 10398
 
-[{"source_name": "TIF Projection Reports", "source_viewCount": 48786, "source_downloadCount": 732, "family_downloadCount": 3505, "family_viewCount": 71042}
+
+
+
+[{"source_name": "
+TIF Projection Reports", "source_viewCount": 48786, "source_downloadCount": 732, "family_downloadCount": 3505, "family_viewCount": 71042}
 , {"source_name": "FEC Contributions", "source_viewCount": 4145, "source_downloadCount": 537, "family_downloadCount": 1403, "family_viewCount": 5466}
 , {"source_name": "Federal Data Center Consolidation Initiative (FDCCI) Data Center Closings 2010-2013", "source_viewCount": 46973, "source_downloadCount": 5269, "family_downloadCount": 6798, "family_viewCount": 97391}
 , {"source_name": "RadNet Laboratory Analysis", "source_viewCount": 6013, "source_downloadCount": 136, "family_downloadCount": 103023, "family_viewCount": 1245049}
