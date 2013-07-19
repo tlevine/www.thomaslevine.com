@@ -19,7 +19,7 @@ the public can download them.
 
 I recently downloaded all of the metadata about all of the datasets from all
 of the Socrata portals and then posted this [summary](/!/socrata-summary) of
-the data. Now on to some deeper further analysis.
+the data. Now on to some deeper analysis.
 
 ## What is a dataset?
 As the Twitters have pointed out,the dataset counts that I presented in my
