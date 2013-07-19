@@ -256,7 +256,23 @@ If you sort by "Created" date, the first one should be the source dataset.
 In some cases, like with the White House visitor records requests, most of the
 downloads and hits for the whole family are from this source dataset.
 In other cases, like the World Bank major contract awards, only a small
-minority comes from this source dataset.
+minority comes from this source dataset. This occurrence is illustrated by the
+plots below.
+
+![Hits by dataset family](<%= @item.identifier %>hits.png){:.wide}
+
+![Downloads by dataset family](<%= @item.identifier %>downloads.png){:.wide}
+
+The first plot looks at hits, and the second at downloads. Within each plot,
+the left (red) dot is the number of hits/downloads that the source dataset
+received and the right (blue) dot is the total hits/downloads across the whole
+family.
+
+If these are close to each other (that is, the black line is short),
+most of the hits came from the source dataset. If they are far apart, most
+hits came from filtered views, charts and maps.
+
+These counts are also presented in the table below.
 
 <style>
 #family-v-view, #family-v-view * {
