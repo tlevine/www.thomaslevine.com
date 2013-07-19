@@ -94,6 +94,8 @@ There are other types of views, but we don't need to know about them
 for now.
 
 ### Tables
+![A table family, containing a dataset and several filtered views, charts and maps](<%= @item.identifier %>family.jpg){:.wide}
+
 There is also a concept of a **table**, and
 it is somewhat abstract. Here are two ways of thinking of it.
 
@@ -147,10 +149,7 @@ categories of datasets-that-I-counted-twice.
 
 ### SODA queries: Filtered views, charts, maps
 After a dataset is uploaded, people can create many views that derive from it.
-Depending on what you want to know, it might not make sense to treat these as
-separate entities.
-
-In my previous analysis, I did count filtered views, charts and maps all as separate
+In my previous analysis, I counted filtered views, charts and maps all as separate
 entities. I think it's worth separating these because they can be derived from the
 source datasets.
 
@@ -381,10 +380,16 @@ contracts are interested in subsets for their particular region and time.
 And maybe people are just playing with the White House data because it's the
 first one in the list.
 
-#### View size
-The view size gives us an idea of what sort of queries people are running.
+#### View size and shape
+The view size and shape give us an idea of what sort of queries people are running.
 Are people selecting certain variables, or are they aggregating or subsetting
 the records?
+
+![A rectangle indicating the original dataset](<%= @item.identifier %>query-1.jpg)
+
+![The same rectangle, with a shorter one for a record subset](<%= @item.identifier %>query-2.jpg)
+
+![The same rectangles, with a tall, thin one for a selection of variables](<%= @item.identifier %>query-3.jpg)
 
 #### Federation
 As I discussed earlier, federation is all-or-nothing; you either include all
