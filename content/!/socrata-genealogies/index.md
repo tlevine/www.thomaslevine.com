@@ -1,6 +1,6 @@
 ---
 title: Progeny of Ten Socrata Datasets
-created_at: 2013-07-18
+created_at: 2013-07-19
 kind: article
 twitter_image: screenshot.png
 facebook_image: screenshot.png
