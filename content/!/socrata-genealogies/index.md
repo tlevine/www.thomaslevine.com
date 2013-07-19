@@ -258,21 +258,94 @@ downloads and hits for the whole family are from this source dataset.
 In other cases, like the World Bank major contract awards, only a small
 minority comes from this source dataset.
 
-
-|                             |         Hits         ||     Downloads   ||
-| Dataset                     |   Family  |  Source   |  Family | Source |
-| ----------------------------|-----------|-----------|---------|------- |
-| TIF Projection Reports      |    71,042 |    48,786 |   3,505 |    732 |
-| FEC Contributions           |     5,466 |     4,145 |   1,403 |    537 |
-| Federal Data Center...      |    97,391 |    46,973 |   6,798 |  5,269 |
-| RadNet Laboratory Analysis  | 1,245,049 |     6,013 | 103,023 |    136 |
-| TIF Balance Sheets          |    13,215 |     3,206 |   2,880 |    268 |
-| 311 Service Requests...     |    41,372 |    16,940 |  57,998 | 50,398 |
-| Summary of IBRD Active...   |   374,813 |       206 |  10,956 |     24 |
-| Major Contract Awards       |    80,515 |     9,037 |   7,254 |  1,089 |
-| IDA Statement of Credits... |   281,339 |     7,268 |  10,741 |    633 |
-| White House Visitor...      | 1,455,933 | 1,351,374 |  26,485 | 10,398 |
-{:#family-v-view}
+<table id="family-v-view">
+  <thead>
+    <tr style="text-align: center;">
+      <th>&nbsp;</th>
+      <th colspan=2>Hits</th>
+      <th colspan=2>Downloads</th>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Dataset</th>
+      <th>Family</th>
+      <th>Source</th>
+      <th>Family</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TIF Projection Reports</td>
+      <td>71,042</td>
+      <td>48,786</td>
+      <td>3,505</td>
+      <td>732</td>
+    </tr>
+    <tr>
+      <td>FEC Contributions</td>
+      <td>5,466</td>
+      <td>4,145</td>
+      <td>1,403</td>
+      <td>537</td>
+    </tr>
+    <tr>
+      <td>Federal Data Center…</td>
+      <td>97,391</td>
+      <td>46,973</td>
+      <td>6,798</td>
+      <td>5,269</td>
+    </tr>
+    <tr>
+      <td>RadNet Laboratory Analysis</td>
+      <td>1,245,049</td>
+      <td>6,013</td>
+      <td>103,023</td>
+      <td>136</td>
+    </tr>
+    <tr>
+      <td>TIF Balance Sheets</td>
+      <td>13,215</td>
+      <td>3,206</td>
+      <td>2,880</td>
+      <td>268</td>
+    </tr>
+    <tr>
+      <td>311 Service Requests…</td>
+      <td>41,372</td>
+      <td>16,940</td>
+      <td>57,998</td>
+      <td>50,398</td>
+    </tr>
+    <tr>
+      <td>Summary of IBRD Active…</td>
+      <td>374,813</td>
+      <td>206</td>
+      <td>10,956</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>Major Contract Awards</td>
+      <td>80,515</td>
+      <td>9,037</td>
+      <td>7,254</td>
+      <td>1,089</td>
+    </tr>
+    <tr>
+      <td>IDA Statement of Credits…</td>
+      <td>281,339</td>
+      <td>7,268</td>
+      <td>10,741</td>
+      <td>633</td>
+    </tr>
+    <tr>
+      <td>White House Visitor…</td>
+      <td>1,455,933</td>
+      <td>1,351,374</td>
+      <td>26,485</td>
+      <td>10,398</td>
+    </tr>
+</tbody>
+</table>
 
 This might tell us something about
 how people like to use the data. Perhaps people working with the World Bank
