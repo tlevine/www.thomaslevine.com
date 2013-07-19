@@ -259,36 +259,20 @@ In other cases, like the World Bank major contract awards, only a small
 minority comes from this source dataset.
 
 
-                            |       Hits        |    Downloads
-Dataset                     | Family  |  Source | Family | Source
-----------------------------|---------|---------|--------|-------
-TIF Projection Reports      |   71042 |   48786 |   3505 |   732
-FEC Contributions           |    5466 |    4145 |   1403 |   537
-Federal Data Center...      |   97391 |   46973 |   6798 |  5269
-RadNet Laboratory Analysis  | 1245049 |    6013 | 103023 |   136
-TIF Balance Sheets          |   13215 |    3206 |   2880 |   268
-311 Service Requests...     |   41372 |   16940 |  57998 | 50398
-Summary of IBRD Active...   |  374813 |     206 |  10956 |    24
-Major Contract Awards       |   80515 |    9037 |   7254 |  1089
-IDA Statement of Credits... |  281339 |    7268 |  10741 |   633
-White House Visitor...      | 1455933 | 1351374 |  26485 | 10398
-
-
-
-
-[{"source_name": "
-TIF Projection Reports", "source_viewCount": 48786, "source_downloadCount": 732, "family_downloadCount": 3505, "family_viewCount": 71042}
-, {"source_name": "FEC Contributions", "source_viewCount": 4145, "source_downloadCount": 537, "family_downloadCount": 1403, "family_viewCount": 5466}
-, {"source_name": "Federal Data Center Consolidation Initiative (FDCCI) Data Center Closings 2010-2013", "source_viewCount": 46973, "source_downloadCount": 5269, "family_downloadCount": 6798, "family_viewCount": 97391}
-, {"source_name": "RadNet Laboratory Analysis", "source_viewCount": 6013, "source_downloadCount": 136, "family_downloadCount": 103023, "family_viewCount": 1245049}
-, {"source_name": "TIF Balance Sheets", "source_viewCount": 3206, "source_downloadCount": 268, "family_downloadCount": 2880, "family_viewCount": 13215}
-, {"source_name": "311 Service Requests from 2010 to Present", "source_viewCount": 16940, "source_downloadCount": 50398, "family_downloadCount": 57998, "family_viewCount": 41372}
-, {"source_name": "Summary of IBRD Active Loans as of <End of Period date>", "source_viewCount": 206, "source_downloadCount": 24, "family_downloadCount": 10956, "family_viewCount": 374813}
-, {"source_name": "Major Contract Awards", "source_viewCount": 9037, "source_downloadCount": 1089, "family_downloadCount": 7254, "family_viewCount": 80515}
-, {"source_name": "IDA Statement of Credits and Grants  - Latest Available Snapshot", "source_viewCount": 7268, "source_downloadCount": 633, "family_downloadCount": 10741, "family_viewCount": 281339}
-, {"source_name": "White House Visitor Records Requests", "source_viewCount": 1351374, "source_downloadCount": 10398, "family_downloadCount": 26485, "family_viewCount": 1455933}
-]
-
+|                             |         Hits         ||     Downloads   ||
+| Dataset                     |   Family  |  Source   |  Family | Source |
+| ----------------------------|-----------|-----------|---------|------- |
+| TIF Projection Reports      |    71,042 |    48,786 |   3,505 |    732 |
+| FEC Contributions           |     5,466 |     4,145 |   1,403 |    537 |
+| Federal Data Center...      |    97,391 |    46,973 |   6,798 |  5,269 |
+| RadNet Laboratory Analysis  | 1,245,049 |     6,013 | 103,023 |    136 |
+| TIF Balance Sheets          |    13,215 |     3,206 |   2,880 |    268 |
+| 311 Service Requests...     |    41,372 |    16,940 |  57,998 | 50,398 |
+| Summary of IBRD Active...   |   374,813 |       206 |  10,956 |     24 |
+| Major Contract Awards       |    80,515 |     9,037 |   7,254 |  1,089 |
+| IDA Statement of Credits... |   281,339 |     7,268 |  10,741 |    633 |
+| White House Visitor...      | 1,455,933 | 1,351,374 |  26,485 | 10,398 |
+{:#family-v-view}
 
 This might tell us something about
 how people like to use the data. Perhaps people working with the World Bank
