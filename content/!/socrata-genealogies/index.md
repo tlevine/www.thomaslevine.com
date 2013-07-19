@@ -209,11 +209,10 @@ the same number of columns, and similar names.
 I haven't done it on a larger scale, but that would be fun to do later.
 
 ## Ten large dataset families
-It took me quite a while to figure out how all of this works.
+It took me quite a while to figure out everything that I explained above.
 (That's a story in itself.) My goal all along was to start looking
-at how families of datasets are related. I figured I'd make something
-a bit less sloppy than ggplot plots tiny text and with legends
-hanging off of the page.
+at how families of datasets are related, so now I'll talk about what I
+did on that front.
 
 ### Methodology
 I grouped all of the views that I had collected by table. (Recall that
@@ -237,6 +236,7 @@ And In case you're reading this a year later, the data were collected from
 Socrata portals at the end of May 2013.
 
 ### Discussion
+*This section might make more sense if you play with the fancy table first.*
 
 #### Why it's not a tree
 In Socrata, you can create a filtered view, chart or map based on a dataset,
@@ -248,6 +248,8 @@ create a new filtered view based on an existing filtered view, the SODA query
 is simply combined between the two views, and the new filtered view is
 represented as a child of the original dataset rather than a child of the old
 filtered view.
+
+Thus, we don't get the full family tree that you might have expected.
 
 #### Compare family statistics with view statistics
 In some cases, like with the White House visitor records requests, most of the
@@ -262,8 +264,9 @@ received and the right (blue) dot is the total hits/downloads across the whole
 family.
 
 If these are close to each other (that is, the black line is short),
-most of the hits came from the source dataset. If they are far apart, most
-hits came from filtered views, charts and maps.
+most of the hits/downloads came from the source dataset.
+If they are far apart, most
+hits/downloads came from filtered views, charts and maps.
 
 ![Hits by dataset family](<%= @item.identifier %>hits.png){:.wide}
 
