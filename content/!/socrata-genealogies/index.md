@@ -258,10 +258,6 @@ In other cases, like the World Bank major contract awards, only a small
 minority comes from this source dataset. This occurrence is illustrated by the
 plots below.
 
-![Hits by dataset family](<%= @item.identifier %>hits.png){:.wide}
-
-![Downloads by dataset family](<%= @item.identifier %>downloads.png){:.wide}
-
 The first plot looks at hits, and the second at downloads. Within each plot,
 the left (red) dot is the number of hits/downloads that the source dataset
 received and the right (blue) dot is the total hits/downloads across the whole
@@ -271,7 +267,11 @@ If these are close to each other (that is, the black line is short),
 most of the hits came from the source dataset. If they are far apart, most
 hits came from filtered views, charts and maps.
 
-This might tell us something about
+![Hits by dataset family](<%= @item.identifier %>hits.png){:.wide}
+
+![Downloads by dataset family](<%= @item.identifier %>downloads.png){:.wide}
+
+This information might tell us something about
 how people like to use the data. Perhaps people working with the World Bank
 contracts are interested in subsets for their particular region and time.
 And maybe people are just playing with the White House data because it's the
