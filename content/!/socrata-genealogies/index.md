@@ -293,8 +293,8 @@ the records?
 As I discussed earlier, federation is all-or-nothing; you either include all
 of the source portal's datasets or none of them. So you would expect that the
 "Federation" column would list the same number of copies for each dataset.
-In at least one instance (FEC contributions), this is not the case. what's
-going on there?
+In at least one instance (FEC contributions), this is not the case.
+I haven't figured out what's going on there.
 
 ### Relevance
 Socrata exposes enough of the data analysis process that we can start to see
