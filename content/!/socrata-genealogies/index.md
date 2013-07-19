@@ -279,8 +279,9 @@ lets us drill down to the views on Socrata to see more detail.
 
 Socrata exposes enough of the data analysis process that we can start to see
 what sorts of analyses different people are doing. We can see what sorts of
-datasets are interesting to people. And we start to infer what we can do when
-publishing datasets in order to facilitate their analysis.
+datasets are interesting to people. We may even be able to develop new
+guidelines for publishing datasets through analysis of what makes datasets more
+likely to be viewed, downloaded and filtered on Socrata.
 
 And now, the dataset progeny explorer:
 
