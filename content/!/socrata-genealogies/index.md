@@ -77,7 +77,7 @@ datasets. For example, here I filter the list of
 [Public Works Volunteer Opportunities](https://data.oaklandnet.com/Environmental/Public-Works-Volunteer-Opportunities/sduu-bfki)
 to include only opportunities on July 29.
 
-[![Filtering on date July 29](filter.png){:.wide}](filter.png)
+![Filtering on date July 29](filter.png){:.wide}
 
 [Here](https://data.oaklandnet.com/Environmental/Volunteer-Opportunities-on-July-29/vyhb-nqtw)'s the resulting filtered view.
 
@@ -227,7 +227,7 @@ called "views" rather than the number of times people viewed the dataset.
 I've included that figure in the present report.)
 
 Out of these datasets, I took the top ten datasets, and I
-show their families in the table at the end of this page. Select a dataset,
+show their families in the fancy table at the end of this page. Select a dataset,
 and then you can see all of that dataset plus all of the filtered views,
 maps and charts of that dataset. You can also see which portals each of
 these datasets is federated to. You can sort by the different columns,
@@ -248,9 +248,6 @@ create a new filtered view based on an existing filtered view, the SODA query
 is simply combined between the two views, and the new filtered view is
 represented as a child of the original dataset rather than a child of the old
 filtered view.
-
-#### The source dataset
-If you sort by "Created" date, the first one should be the source dataset.
 
 #### Compare family statistics with view statistics
 In some cases, like with the White House visitor records requests, most of the
@@ -303,7 +300,12 @@ datasets are interesting to people. We may even be able to develop new
 guidelines for publishing datasets through analysis of what makes datasets more
 likely to be viewed, downloaded and filtered on Socrata.
 
-And now, the dataset progeny explorer:
+### Data family explorer
+And now, the aforementioned fancy table. As I said above, this table contains
+the families/tables associated with the ten datasets with the largest families.
+Select a dataset, and then you can see all of that dataset plus all of the
+filtered views, charts and maps, with some information about each. And if you
+sort by "Created" date, the first one should be the source dataset.
 
 <!-- Scripts after the introduction so you don't notice the table loading -->
 <script src="angular.min.js"></script>
