@@ -8,6 +8,15 @@ particularly important concept to convey if we want to teach data literacy
 (or whatever you want to call it). So now I'll talk about some ways that
 I teach this concept.
 
+## What is data?
+People use the word "data" to mean everything, so I never really know
+what people mean when they're talking about it. But when I think of
+"data", I'm thinking specifically of tables, with variables as columns.
+Hadley Wickham would call this "[tidy data](http://vita.had.co.nz/papers/tidy-data.pdf)".
+
+(A note for non-relational hipsters: This doesn't have anything to do
+with database paradigms; non-relational databases store tidy data too.)
+
 ## World -> Data
 We can collect information from the world and convert it into data.
 This tends to come to people more easily. My main points here are that
@@ -27,8 +36,8 @@ People expect me to tell them what Python code to write to pull the
 numbers out of the web page. If I have time, I get to that, but I
 start by breaking down the process by which a human would collect the
 data. If the students don't have a good example, I use
-[Scott](http://scott.thomaslevine.com), my wetlands permit application monitoring thing.
-The resulting diagram looks like this.
+[Scott](http://scott.thomaslevine.com), my wetlands permit application
+monitoring thing. The resulting diagram looks like this.
 
 
 
@@ -44,9 +53,21 @@ text of the PDF file formatted in semantically reasonable way. Maybe they
 just want [search](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once)
 
 But sometimes (normally?) people would be better off with something much
-simpler.
+simpler. And here is where it becomes helpful to think about converting
+the PDFs to data. Rather then getting the full text of the PDF, what if
+we create a few variables to describe the different PDFs? Here are some
+possibilities.
 
-/!/parsing-pdfs/
+* Number of pages
+* Identity number, zip code, &c.
+* Whether the PDF contains a particular word
+
+The utility of these different possibilties depends on what you're doing.
+Read more about that [here](/!/parsing-pdfs/).
+
+The point is that we can collect any number of features from PDF files,
+represent those features as a table, with one row per PDF file and then
+use ordinary quantitative methods on that table.
 
 ## Data -> World: CSV Soundsystem
 This theme underlies much of [CSV Soundsystem](http://csvsoundsystem.com)'s work.
