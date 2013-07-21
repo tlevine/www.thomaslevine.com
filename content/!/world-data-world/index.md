@@ -23,8 +23,30 @@ of a complex data-driven system and by brainstorming different types
 of information that can be extracted from a web page.
 
 ### Architecture walkthrough
+People expect me to tell them what Python code to write to pull the
+numbers out of the web page. If I have time, I get to that, but I
+start by breaking down the process by which a human would collect the
+data. If the students don't have a good example, I use
+[Scott](http://scott.thomaslevine.com), my wetlands permit application monitoring thing.
+The resulting diagram looks like this.
+
+
+
+We walk through it as a human process, and then we start converting
+it to a computerized process, trying to start with the parts that are
+harder for people to do and easier for computers do do.
 
 ### Brainstorming information extraction
+Eventually, someone asks how to extract information from PDF files, and
+this is my opportunity to brainstorm different types of information that
+can be extracted. People often want something that will give them the
+text of the PDF file formatted in semantically reasonable way. Maybe they
+just want [search](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once)
+
+But sometimes (normally?) people would be better off with something much
+simpler.
+
+/!/parsing-pdfs/
 
 ## Data -> World: CSV Soundsystem
 This theme underlies much of [CSV Soundsystem](http://csvsoundsystem.com)'s work.
