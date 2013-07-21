@@ -70,15 +70,29 @@ represent those features as a table, with one row per PDF file and then
 use ordinary quantitative methods on that table.
 
 ## Data -> World: CSV Soundsystem
+I just talked for way-too-long about how to convert the world into data.
+Now let's go in the other direction: How do we convert tidy data tables
+back into real things?
+
 This theme underlies much of [CSV Soundsystem](http://csvsoundsystem.com)'s work.
 Most of us in CSV work in journalism, so it makes sense that we're always thinking
 about how to make data into stories that are accessible to ordinary people.
 
 ### Music videos
-For CSV Soundsystem, you're thinking the music videos?
-http://www.youtube.com/watch?v=rLZDvXPIDa0
-http://fms.csvsoundsystem.com
-http://tlevine.github.io/multisensory-data-zipfian/transit.webm
+We're most known for our music videos.
+
+A while ago, I made a video about the gifts my true love gave to me
+on the twelve days of Christmas.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/rLZDvXPIDa0" frameborder="0" allowfullscreen></iframe>
+
+Then CSV made a music video about the financial crisis.
+
+[<img alt="FMS Symphony" src="<% @item.identifier %>fms.png" class="wide" />](http://fms.csvsoundsystem.com)
+
+Most recently, I made one about transit ridership in Chicago and New York.
+
+<video src="http://tlevine.github.io/multisensory-data-zipfian/transit.webm"></video>
 
 ### Data gastronomification
 https://github.com/csv/gastronomify
