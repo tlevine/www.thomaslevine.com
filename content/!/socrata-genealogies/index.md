@@ -5,10 +5,9 @@ kind: article
 twitter_image: family.jpg
 facebook_image: family.jpg
 tweet_text: The World Bank contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/ @WBOpenFinances
-description: I've mostly figured out how Socrata stores the lineage of datasets.
+description: It's cool what you can do when everyone's data analysis is logged and exposed publicly over the web.
 twitter_description: It's cool what you can do when everyone's data analysis is logged and exposed publicly over the web.
-facebook_text: The @World Bank's contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/
-facebook_title: I've mostly figured out how Socrata stores the lineage of datasets.
+facebook_text: More @socrata analysis! The World Bank major contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/ @WBOpenFinances
 facebook_description: It's cool what you can do when everyone's data analysis is logged and exposed publicly over the web.
 ---
 Governments and other organizations have recently been trying to open up their
