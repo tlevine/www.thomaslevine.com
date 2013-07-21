@@ -1,13 +1,30 @@
 ---
 title: World -> Data -> World
 ---
-To me, it is common sense that data could be extracted from a 
-and that that data could be converted into a slice of apple pie.
-
+To me, it is common sense that data could be extracted from a pair
+of pants and that that data could be converted into a slice of apple pie.
+But for many (most?) people, it is not common sense. I think this is a
+particularly important concept to convey if we want to teach data literacy
+(or whatever you want to call it). So now I'll talk about some ways that
+I teach this concept.
 
 ## World -> Data
-People focus a lot on 
+We can collect information from the world and convert it into data.
+This tends to come to people more easily. My main points here are that
+data is simply a concise representation of ordinary human knowledge
+and that fancy computers use the same processes that people do.
 
+The concept that the world can be converted into data seems to come
+quite naturally to people when I find a situation where the people are
+already doing that. People often ask me to teach web scraping, and I
+generally subvert that request to teach them about how anything can
+be converted into data. I do that by walking through the architecture
+of a complex data-driven system and by brainstorming different types
+of information that can be extracted from a web page.
+
+### Architecture walkthrough
+
+### Brainstorming information extraction
 
 ## Data -> World: CSV Soundsystem
 This theme underlies much of [CSV Soundsystem](http://csvsoundsystem.com)'s work.
@@ -23,6 +40,7 @@ http://tlevine.github.io/multisensory-data-zipfian/transit.webm
 ### Data gastronomification
 https://github.com/csv/gastronomify
 http://www.youtube.com/watch?v=3CiDW7NVa8o
+https://twitter.com/internetrebecca/status/352955293291913217
 
 And our tools for making music videos
 https://github.com/csv/ddr
