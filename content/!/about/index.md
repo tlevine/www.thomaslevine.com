@@ -12,7 +12,7 @@ and the color pink.
 
 ## Longer version
 
-Playing with computers since he was young, he evenutally developed back and wrist pain,
+Playing with computers since he was young, Tom eventually developed back and wrist pain,
 so he started studying ergonomics and conducting quantitative ergonomics research.
 Then he realized that he'd accidentally become a data scientist. And his back and
 wrists now hurt less. Tom likes using data to help people work less and think more.
