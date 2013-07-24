@@ -25,6 +25,35 @@ who know the stuff
 
 
 ### What is a text editor?
-Word processor
+With a word processor, we edit the styled, rendered content.
+The word processor saves this in a format that we don't see.
+For example, we might edit a web page in LibreOFfice Writer
+and save it as HTML.
+
+
+When we "edit text" or use a "text editor", we are editing
+the raw, unrendered code. We are separating the editing from
+the rendering.
+
+
+
+This is related to the conccepts of what you see is what you
+get and what you see is what you mean.
+
+Reference the LaTeX essay. Maybe.
+
+
+
+
+Word processor stores information in a relatively complex file format
+with all of the style information and whatnot.
+
+
+interface for controlling character-based data
+
+different from a word processor
+
+
+source code of 
 
 more formatting
