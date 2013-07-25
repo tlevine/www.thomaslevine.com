@@ -469,14 +469,15 @@ the "Kenya Open Data Bot".
 
 I found some accounts (not The White House, NL, VinylFox and Dave Francis
 Rodrigues) that are making lots of diverse filters and maps with Socrata
-in study of a particular topic. Are these the prime examples of "consumer"
-data analysts, as Socrata aims to create?
-
-On the other hand, publishing a lot of views isn't the only thing that means
-that you use Socrata a lot.
+in study of a particular topic. These are examples of the "consumerized"
+data analysts that Socrata is trying to create.
 
 ### One portal
-Very few of the big users that I discuss above uses more than one Socrata portal.
+Publishing a lot of views isn't the only thing that means that you use Socrata a
+lot. Wouldn't it be cool if people were connecting lots of different datasets from
+all over the place?
+
+Very few of the big users that I discuss above use more than one Socrata portal.
 This certainly makes sense as Socrata open data portals are presented as if they're
 separate installations of the software. You can use the same account for all of the
 portals, but there's no obvious way to search across portals or get a list of all
@@ -484,7 +485,8 @@ of the portals.
 
 I wonder whether people would use data from multiple portals if it were easier to
 search across portals. I think someone should set up a Socrata portal that
-federates all of the other portals; maybe people would use Socrata Open Data Portal
+[federates](/!/socrata-genealogies#term-federation)
+all of the other portals; maybe people would use Socrata Open Data Portal
 software differently if they could easily collect and analyze data from all of the portals.
 
 On the other hand, maybe they wouldn't. A couple of the bigger users I found
@@ -493,7 +495,8 @@ aren't that relevant to them.
 
 ### People don't use Socrata that much.
 If people are using Socrata's data analysis tools, we should expect lots of
-views to be created.
+views to be created. But I didn't find that many views.
+
 Searching across all of the portals, I found fewer than 500 users with at
 least 10 views. This is less than ten such users per portal, which doesn't
 seem like a lot. And almost all of these users are data publishers or Socrata
