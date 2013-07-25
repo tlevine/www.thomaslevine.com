@@ -13,9 +13,6 @@ of the datasets on all of the Socrata portals (for a particular definition
 of "all"). And then I remembered that these datasets don't just float in
 space; **people use them**.
 
-My [first post](/!/socrata-summary) looked at popular datasets, and
-my [second post](/!/socrata-genealogies) looked at big dataset families.
-
 Through doing this, I've learned that Socrata is much more than a website
 for converting datasets into different formats and serving them on the web.
 Socrata "[consumerizes the data experience](http://www.socrata.com/open-innovation/)"
@@ -28,7 +25,8 @@ I live in this bubble of people who know how to use computers, so Socrata's
 charting tools seem really clunky and stupid to me, but it turns out that
 these clunky tools can be outrageously useful people who aren't strange like me.
 
-[Nicole Neditch](https://twitter.com/nneditch) told me of one instance where someone in the Oakland government made a pie chart in
+[Nicole Neditch](https://twitter.com/nneditch) told me of one instance where someone
+in the Oakland government made a pie chart in
 the Socrata data portal and embedded that in a blog. If Oakland hadn't been using Socrata,
 the result probably would have been less exciting; Nicole said that the person probably
 would have made a chart in Excel, exported that to a PDF and added a download link.
@@ -36,8 +34,10 @@ would have made a chart in Excel, exported that to a PDF and added a download li
 I wanted to find more people like this. That is, I want to see how people's approach to analysis
 changes because of these web-based analysis tools that are strongly integrated
 with both the data being analyzed and with web-based presentation formats.
-So in this third post, I look at people who use Socrata's analysis tools substantially
-and otherwise interestingly.
+
+My [first post](/!/socrata-summary) looked at popular datasets, and
+my [second post](/!/socrata-genealogies) looked at big dataset families.
+In this third post, look for people who use Socrata as an analysis tool.
 
 ## The user data format
 In order to do this analysis, I'm going to take user data from Socrata, and this
