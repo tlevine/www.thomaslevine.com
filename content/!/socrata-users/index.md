@@ -63,9 +63,12 @@ mine.
       "displayName" : "Thomas Levine",
       "emailUnsubscribed" : false,
       "privacyControl" : "login",
-      "profileImageUrlLarge" : "/images/profile/0252/1851/govlab-experiment_large.jpg",
-      "profileImageUrlMedium" : "/images/profile/0252/1851/govlab-experiment_thumb.jpg",
-      "profileImageUrlSmall" : "/images/profile/0252/1851/govlab-experiment_tiny.jpg",
+      "profileImageUrlLarge" :
+        "/images/profile/0252/1851/govlab-experiment_large.jpg",
+      "profileImageUrlMedium" :
+        "/images/profile/0252/1851/govlab-experiment_thumb.jpg",
+      "profileImageUrlSmall" :
+        "/images/profile/0252/1851/govlab-experiment_tiny.jpg",
       "profileLastModified" : 1374508383,
       "screenName" : "Thomas Levine"
     }
