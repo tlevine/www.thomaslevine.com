@@ -94,7 +94,7 @@ and read into R.
 
 ## Data summary
 The user data frame schema looks like this.
-
+(Ignore this block of gibberish if it scares you.)
 
     str(users)
     ## 'data.frame':	11833 obs. of  18 variables:
@@ -121,57 +121,29 @@ The user data frame schema looks like this.
 ### Missing data
 Not everyone had all of the fields.
 
+![plot of chunk missingness](figure/missingness.png){:.wide}
 
-    a <- t(as.data.frame(lapply(users, function(variable) {
-        sum(!is.na(variable))
-    })))
-    missingness <- data.frame(variable = rownames(a), present.value = a[, 1])
-    missingness <- missingness[order(missingness$present.value, decreasing = T), 
-        ]
-    old.mar <- par()$mar
-    par(mar = c(5, 12, 4, 2))
-    barplot((missingness$present.value), names.arg = missingness$variable, border = NA, 
-        col = "grey", axes = F, horiz = T, las = 1, xlim = c(0, 12000), main = "How complete is the user profile metadata?", 
-        xlab = "Number of users with the field", ylab = "")
-    axis(1, at = seq(0, 12000, 2000))
-    abline(v = nrow(users), col = 2, lty = 2)
-    text(x = nrow(users), y = 15, labels = paste(nrow(users), "total users"), col = 2, 
-        pos = 2)
-    text(x = 2500, y = 14, labels = "Missing data", col = 2)
-    text(x = 10000, y = 3, labels = "Complete data", col = 2)
-
-![plot of chunk missingness](figure/missingness.png) 
+In particular, hardly anyone had flags, a profile image, rights or disabled privileges.
 
 ### How many views do people have?
 
-
-    plot.count(users$n_views, "views", col = (users$id == "e8ug-wzay") + 1)
-    text(x = 0, y = 1.2, labels = "Most users\nhave one view", pos = 4, col = 2)
-    text(x = 3.5, y = 1.5, labels = "Data.gov Program\nManagement Office", col = 2)
-
-![plot of chunk n.views](figure/n.views.png) 
-
+![plot of chunk n.views](figure/n.views.png){:.wide}
 
 Most users (7790 to be exact) have exactly one view.
 Actually, there are probably even more with no views, but I don't have the
 data on them.
 
-That one way off to the right is the Data.gov Program Management Office,
+That red one way off to the right is the Data.gov Program Management Office,
 with 7618. 
 
 ### How many tables?
 
 Let's make that same plot but for the number of tables. (A table is a raw
 uploaded dataset, before any view filtering. A table can have many views,
-and a view has only one table.)
+and a view has only one table.) In this plot, I colored administrators and
+publishers red.
 
-
-    plot.count(users$n_tables, "tables",
-      col = 1 + (!is.na(users$roleName) &
-      (users$roleName == "publisher" | users$roleName == "administrator")))
-    text(x = 3.5, y = 1.5, labels = "Data.gov Program\nManagement Office", col = 2)
-
-![plot of chunk n_tables](figure/n_tables.png) 
+![plot of chunk n_tables](figure/n_tables.png){:.wide}
 
 That point off to the right is again the Data.gov Program Management Office.
 
@@ -181,10 +153,6 @@ a "dataset" view on that table. When you filter a view inside Socrata, Socrata
 creates a new view but no new table. Thus, the difference between number of
 tables and number of views tells us how many derived views people have made.
 I think.
-
-
-    plot.count(users$n_views - users$n_tables, "derived views", col = 1 + ((!is.na(users$roleName) & 
-      (users$roleName == "publisher" | users$roleName == "administrator"))))
 
 ![plot of chunk n_derived](figure/n_derived.png) 
 
@@ -238,20 +206,7 @@ if and only if they work for data publishers. To investigate that,
 let's look at the number of views that each person owns by the different
 roles of user.
 
-
-    user.by.role <- ddply(users, "roleName", function(users.role) {
-      c(mean.number.of.views = mean(users.role$n_views), mean.number.of.tables = mean(users.role$n_tables), 
-        number.of.users = nrow(users.role))
-    })
-    user.by.role[is.na(user.by.role$roleName), "roleName"] <- "No role name"
-    ggplot(user.by.role) + aes(x = mean.number.of.views, y = mean.number.of.tables) + 
-      geom_point(aes(size = number.of.users)) + geom_text(aes(label = roleName), 
-      hjust = -0.2) + scale_size_continuous("Number of users", labels = comma) + 
-      scale_x_continuous("Mean number of views each user owns", limits = c(0, 
-        100)) + scale_y_continuous("Mean number of tables each user owns") + 
-      ggtitle("Which roles have more data?")
-
-![plot of chunk views_by_role](figure/views_by_role.png) 
+![plot of chunk views_by_role](figure/views_by_role.png){:.wide}
 
 It looks like publishers and administrators make more views. Big surprise.
 Moreover, few people have roles, and people with roles tend to have more data
@@ -260,21 +215,11 @@ are data publishers. To test that a bit more precisely, let's compare that to
 my other suspected indicator of data-publisher-ness: Whether people have more
 tables than views. Here's a plot of that.
 
-
-    users$more.tables <- users$n_tables > users$n_views
-    users.roleNames <- ddply(users, "more.tables", function(df) {
-      out <- data.frame(has.role = c(T, F), prop = c(mean(df$has.role), 1 - mean(df$has.role)))
-    })
-    barplot(users.roleNames$prop[users.roleNames$more.tables], names.arg = c("Has a roleName", 
-      "No roleName"), ylim = 0:1, border = NA, las = 1, ylab = "Proportion of users with more tables than views", 
-      xlab = "User group", main = "Are roleNames for data publisher employees?")
-
-![plot of chunk roleName_plot](figure/roleName_plot.png) 
+![plot of chunk roleName_plot](figure/roleName_plot.png)
 
 
 If we want to get all statistical about it, we can run
 Fisher's Exact test.
-
 
     fisher.test(table(users$n_tables > users$n_views, users$has.role))
     ## 
@@ -298,7 +243,6 @@ In a similar vein, I looked at Socrata users with a `flags` field.
 35 users have a non-empty `flags` field, and
 the value of that field is `["admin"]` for all of these users.
 Here are those users.
-
 
     users$has.flag <- !is.na(users$flags)
     subset(users, has.flag)["displayName"]
@@ -338,7 +282,6 @@ Here are those users.
     ## tjtx-bges             anu
     ## zs8p-j3v5 Darrell Cabales
     ## vcvp-yass           Dylan
-
 
 These appear to all be Socrata employees.
 
@@ -446,7 +389,7 @@ I ran queries like this to find what portals and data they used.
 
 They look more like real people doing real analysis.
 
-![not The White House](images/not The White House.jpg)
+![Picture of not The White House](<%= @item.identifier %>not The White House.jpg)
 
 [not The White House](https://explore.data.gov/profile/not-The-White-House/732w-crxq)
 is "[w]ay more open and transparent than the official White House website."
@@ -490,21 +433,11 @@ I looked at a few specific Socrata users who are doing interesting things,
 but let's look a bit more broadly. The histogram below shows how many views
 users have created. Here, I'm including people without profile pictures.
 
-
-    citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
-    hist(citizens$n_views, col = 1, border = NA, xlab = "Number of Socrata views created by the user", 
-      ylab = "Number of users", main = "How many views do Socrata users make?")
-
-![plot of chunk citizen_views1](figure/citizen_views1.png) 
+![plot of chunk citizen_views1](figure/citizen_views1.png){:.wide}
 
 Here it is again, but leaving out the top ten users to make it easier to see.
 
-    citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
-    hist(citizens$n_views[citizens$n_views < 30], col = 1, border = NA,
-      xlab = "Number of Socrata views created by the user", 
-      ylab = "Number of users", main = "How many views do Socrata users make?")
-
-![plot of chunk citizen_views2](figure/citizen_views2.png) 
+![plot of chunk citizen_views2](figure/citizen_views2.png){:.wide}
 
 As you might expect, most people make only one view.
 In fact, there are probably even more users with no views.
