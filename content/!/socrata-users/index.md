@@ -2,8 +2,8 @@
 title: Who uses Socrata's analysis tools?
 description: That time I downloaded all of the 80,000 Socrata datasets, I also downloaded the 10,000 users.
 tweet_text: That time I downloaded all of the 80,000 @socrata datasets, I also downloaded the 10,000 users.
-twitter_title: People actually use @socrata's web-based analysis tools!
-twitter_description: '"not The White House" discovered a @SecretService barbecue!'
+twitter_title: Some people actually use @socrata's web-based analysis tools!
+twitter_description: 'Like "not The White House", who discovered a @SecretService barbecue'
 created_at: 2013-07-25
 twitter_image: user-model.jpg
 kind: article
