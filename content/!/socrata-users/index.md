@@ -37,7 +37,7 @@ with both the data being analyzed and with web-based presentation formats.
 
 My [first post](/!/socrata-summary) looked at popular datasets, and
 my [second post](/!/socrata-genealogies) looked at big dataset families.
-In this third post, look for people who use Socrata as an analysis tool.
+In this third post, I look at people who use Socrata as an analysis tool.
 
 ## The user data format
 In order to do this analysis, I'm going to take user data from Socrata, and this
