@@ -129,6 +129,8 @@ charts and maps act on the table rather than on the source dataset; they're just
 like datasets, except that they include a query.
 
 ### Federation
+{:#term-federation}
+
 Socrata doesn't provide a particularly obvious means for searching multiple
 data portals at once. (This was part of my motivation for downloading all of
 the datasets.) But it is possible for one data portal to include all of
