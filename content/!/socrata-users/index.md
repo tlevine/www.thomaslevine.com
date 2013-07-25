@@ -157,7 +157,7 @@ creates a new view but no new table. Thus, the difference between number of
 tables and number of views tells us how many derived views people have made.
 I think.
 
-![plot of chunk n_derived](figure/n_derived.png) 
+![plot of chunk n_derived](figure/n_derived.png){:.wide}
 
 It also turns out that 65 users have more tables than views. This appears to be
 mostly publishers. Maybe this is something about how the import API works that I
@@ -218,8 +218,7 @@ are data publishers. To test that a bit more precisely, let's compare that to
 my other suspected indicator of data-publisher-ness: Whether people have more
 tables than views. Here's a plot of that.
 
-![plot of chunk roleName_plot](figure/roleName_plot.png)
-
+![plot of chunk roleName_plot](figure/roleName_plot.png){:.wide}
 
 If we want to get all statistical about it, we can run
 Fisher's Exact test.
@@ -308,6 +307,7 @@ then maybe people with neither `flags` nor a `roleName` are the
 citizens that Socrata is trying to empower.
 
 #### No flags, no roles
+Here are some users with neither flags nor roles.
 
     citizens <- subset(users, !has.flag & !has.role)
     columns <- c("displayName", "n_tables", "n_views")
@@ -360,7 +360,7 @@ just made different filters on the same dataset.
 Let's try this yet again, but this time, let's look only at people with profile images.
 
     citizens <- subset(users, !has.flag & !has.role & n_tables == 0 & !is.na(profileImageUrlLarge))
-    columns <- c("displayName", "n_tables", "n_views", "profileImageUrlLarge")
+    columns <- c("displayName", "n_tables", "n_views")
     head(citizens[order(citizens$n_views, decreasing = T), columns], 10)
     ##                      displayName n_tables n_views
     ## aeze-ppu4                     NL        0      89
@@ -373,17 +373,6 @@ Let's try this yet again, but this time, let's look only at people with profile 
     ## dpze-sudn         prasannalaldas        0       6
     ## aj2c-kiyh    Mitali Kumar Mathur        0       4
     ## e83w-vpb9        nolewalkingshaw        0       4
-    ##                                                 profileImageUrlLarge
-    ## aeze-ppu4              /images/profile/6252/8605/photo__1__large.jpg
-    ## 732w-crxq           /images/profile/7788/3275/ProfileImage_large.jpg
-    ## 86yi-jydw                 /images/profile/4013/6059/coffee_large.jpg
-    ## ef7y-9vvy             /images/profile/7984/1730/000224603_large.jpeg
-    ## pieh-8cyx    /images/profile/5646/4628/michael_christopher_large.jpg
-    ## v8wk-qcyk       /images/profile/3251/7780/ferretthumbnail1_large.jpg
-    ## fcg6-n5gt /images/profile/7663/5320/Clair_at_New_Years_Eve_large.jpg
-    ## dpze-sudn               /images/profile/8432/0223/P1000961_large.JPG
-    ## aj2c-kiyh              /images/profile/6587/1742/frontface_large.png
-    ## e83w-vpb9                  /images/profile/7942/2651/image_large.jpg
 
 I ran queries like this to find what portals and data they used.
 
