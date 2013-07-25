@@ -4,6 +4,9 @@ description: That time I downloaded all of the 80,000 Socrata datasets, I also d
 tweet_text: That time I downloaded all of the 80,000 @socrata datasets, I also downloaded the 10,000 users.
 twitter_title: People actually use @socrata's web-based analysis tools!
 twitter_description: '"not The White House" discovered a @SecretService barbecue!'
+created_at: 2013-07-25
+kind: article
+tags: ['socrata']
 ---
 I recently downloaded the metadata files for all
 of the datasets on all of the Socrata portals (for a particular definition
@@ -47,7 +50,7 @@ Some of these JSON files are duplicates (because of
 so there are only about 50,000 unique views.
 (And the other 30,000 are exact duplicates, so deduplicating was easy.)
 
-![Diagram indicating that each view has one owner and one table author](<%= @item.identifier %>format-sketch.jpg)
+![Diagram indicating that each view has one owner and one table author](<%= @item.identifier %>user-model.jpg)
 
 Among the many fields in each JSON file are
 fields are two fields related to the people who interacted with that view.
@@ -410,8 +413,8 @@ which is a parody of the [official White House website](http://www.whitehouse.go
 used to do a lot with World Bank data, though she hasn't for a few months.
 
 She also has some views
-[on databox.worldbank.org](https://databox.worldbank.org/profile/NL/aeze-ppu4).
-Interestingly, that portal didn't show up in my list of Socrata portals.
+[on databox.worldbank.org](https://databox.worldbank.org/profile/NL/aeze-ppu4),
+which didn't show up in my list of Socrata portals.
 
 ![Picture of VinylFox](<%= @item.identifier %>profiles/VinylFox.jpg)
 
