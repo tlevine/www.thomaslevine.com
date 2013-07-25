@@ -389,7 +389,7 @@ I ran queries like this to find what portals and data they used.
 
 They look more like real people doing real analysis.
 
-![Picture of not The White House](<%= @item.identifier %>not The White House.jpg)
+![Picture of not The White House](<%= @item.identifier %>profiles/not The White House.jpg)
 
 [not The White House](https://explore.data.gov/profile/not-The-White-House/732w-crxq)
 is "[w]ay more open and transparent than the official White House website."
@@ -404,7 +404,7 @@ not The White House also has its own separate website,
 [whitehouse.gov1.info](http://whitehouse.gov1.info/),
 which is a parody of the [official White House website](http://www.whitehouse.gov/).
 
-![Picture of NL](<%= @item.identifier %>NL.jpg)
+![Picture of NL](<%= @item.identifier %>profiles/NL.jpg)
 
 [NL](https://finances.worldbank.org/profile/NL/aeze-ppu4)
 used to do a lot with World Bank data, though she hasn't for a few months.
@@ -413,14 +413,14 @@ She also has some views
 [on databox.worldbank.org](https://databox.worldbank.org/profile/NL/aeze-ppu4).
 Interestingly, that portal didn't show up in my list of Socrata portals.
 
-![Picture of VinylFox](<%= @item.identifier %>VinylFox.jpg)
+![Picture of VinylFox](<%= @item.identifier %>profiles/VinylFox.jpg)
 
 [VinylFox](https://data.baltimorecity.gov/profile/VinylFox/86yi-jydw?)
 has also made a bunch of interesting filters on Baltimore data.
 His website discusses this [a bit more](http://www.vinylfox.com/about/).
 <!-- Talk to him. -->
 
-![Picture of Dave Francis Rodrigues](<%= @item.identifier %>Dave Francis Rodrigues.jpg)
+![Picture of Dave Francis Rodrigues](<%= @item.identifier %>profiles/Dave Francis Rodrigues.jpg)
 
 [Dave](https://finances.worldbank.org/profile/Dave-Francis-Rodrigues/ef7y-9vvy?)
 has made a lot of filters and charts about India.
