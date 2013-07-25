@@ -238,7 +238,7 @@ Fisher's Exact test.
 
 and find that these counts are indeed disproportionate. 
 
-This is all to say that `roleName` appears to be a **decent indicator for "data publisher"**.
+This is all to say that `roleName` appears to be a decent **indicator for "data publisher"**.
 
 ### Flags
 In a similar vein, I looked at Socrata users with a `flags` field.
@@ -298,7 +298,7 @@ Hmm. Does anyone have both a `roleName` and a flag?
 and [Bryant](www.linkedin.com/in/bryantlau) are both
 Socrata employees. I don't know why they have `roleName` fields.
 
-Anyway, it looks like the **`flags` field is a decent proxy for "Socrata employee"**.
+Anyway, it looks like the `flags` field is a decent **indicator for "Socrata employee"**.
 
 ### Ordinary citizens
 If having a `flags` field means you work for Socrata and
@@ -499,6 +499,7 @@ employees, so hardly any citizens seem to be analyzing Socrata data.
 ### Or do they?
 Maybe they're using the data and just not using Socrata's analysis tools.
 
+#### People do what they know.
 I think that people get good at one way of using computers and then never learn other ways.
 (I credit this theory to [Alec Story](https://plus.google.com/116070987814199239957/posts).)
 This applies for my former neighbor who could check her email just fine with the old
@@ -507,15 +508,19 @@ This also applies for people like me who are stuck using R because they know all
 [magical R incantations](/!/r-spells-for-data-wizards) even though they know that
 [R is completely insensible](https://stat.ethz.ch/pipermail/r-help/2010-September/252618.html).
 
+#### People already know Excel.
 Getting back to Socrata, I suspect that people are using the Socrata data to some
 degree but that they're downloading the dataset manually analyzing it in Excel.
-(And it would be cool to test this suspicion, but I haven't yet come up with a good way of doing that.)
 
 If this is what is happening, it would be really cool to have stronger integrations
 between Excel and Socrata. Currently, you just download a view in Excel format and then
 open it. What if there were an Excel macro that would synchronize a table in Excel
 with a view in Socrata? Or a plugin that would let you upload reports from Excel back
 to Socrata?
+
+Before you get excited, note that I don't really have any idea of whether this is
+what's happening. It would be cool to test this suspicion, but I haven't yet come
+up with a good way of doing that.
 
 ### Maintaining the openness of data
 If people are analyzing open data in Excel and then disseminating the findings as
