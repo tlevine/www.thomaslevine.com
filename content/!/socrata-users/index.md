@@ -96,73 +96,58 @@ and read into R.
 The user data frame schema looks like this.
 
 
-```
-str(users)
-```
-{: .language-r}
-
-```
-## 'data.frame':	11833 obs. of  18 variables:
-##  $ id                   : chr  "wivw-ajwk" "6b59-fhhh" "vigz-pjyi" "abb4-qtmc" ...
-##  $ emailUnsubscribed    : int  0 0 0 0 0 0 0 0 0 0 ...
-##  $ displayName          : chr  "Rory Martin" "Roman Russia" "svelz" "Tobit Sibol" ...
-##  $ privacyControl       : chr  "login" "login" "login" "login" ...
-##  $ n_tables             : int  1 1 0 1 1 2 2 1 1 0 ...
-##  $ n_views              : int  1 1 2 1 1 221 2 1 1 1 ...
-##  $ screenName           : chr  "Rory Martin" "Roman Russia" "svelz" "Tobit Sibol" ...
-##  $ profileLastModified  : Date, format: NA NA ...
-##  $ profileImageUrlMedium: chr  NA NA NA NA ...
-##  $ profileImageUrlSmall : chr  NA NA NA NA ...
-##  $ profileImageUrlLarge : chr  NA NA NA NA ...
-##  $ n_rights             : int  NA NA NA NA NA NA NA NA NA NA ...
-##  $ roleName             : chr  NA NA NA NA ...
-##  $ flags                : chr  NA NA NA NA ...
-##  $ privilegesDisabled   : int  NA NA NA NA NA NA NA NA NA NA ...
-##  $ has.flag             : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
-##  $ has.role             : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
-##  $ more.tables          : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
-```
+    str(users)
+    ## 'data.frame':	11833 obs. of  18 variables:
+    ##  $ id                   : chr  "wivw-ajwk" "6b59-fhhh" "vigz-pjyi" "abb4-qtmc" ...
+    ##  $ emailUnsubscribed    : int  0 0 0 0 0 0 0 0 0 0 ...
+    ##  $ displayName          : chr  "Rory Martin" "Roman Russia" "svelz" "Tobit Sibol" ...
+    ##  $ privacyControl       : chr  "login" "login" "login" "login" ...
+    ##  $ n_tables             : int  1 1 0 1 1 2 2 1 1 0 ...
+    ##  $ n_views              : int  1 1 2 1 1 221 2 1 1 1 ...
+    ##  $ screenName           : chr  "Rory Martin" "Roman Russia" "svelz" "Tobit Sibol" ...
+    ##  $ profileLastModified  : Date, format: NA NA ...
+    ##  $ profileImageUrlMedium: chr  NA NA NA NA ...
+    ##  $ profileImageUrlSmall : chr  NA NA NA NA ...
+    ##  $ profileImageUrlLarge : chr  NA NA NA NA ...
+    ##  $ n_rights             : int  NA NA NA NA NA NA NA NA NA NA ...
+    ##  $ roleName             : chr  NA NA NA NA ...
+    ##  $ flags                : chr  NA NA NA NA ...
+    ##  $ privilegesDisabled   : int  NA NA NA NA NA NA NA NA NA NA ...
+    ##  $ has.flag             : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
+    ##  $ has.role             : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
+    ##  $ more.tables          : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
 
 
 ### Missing data
 Not everyone had all of the fields.
 
 
-``` r
-a <- t(as.data.frame(lapply(users, function(variable) {
-    sum(!is.na(variable))
-})))
-missingness <- data.frame(variable = rownames(a), present.value = a[, 1])
-missingness <- missingness[order(missingness$present.value, decreasing = T), 
-    ]
-old.mar <- par()$mar
-par(mar = c(5, 12, 4, 2))
-barplot((missingness$present.value), names.arg = missingness$variable, border = NA, 
-    col = "grey", axes = F, horiz = T, las = 1, xlim = c(0, 12000), main = "How complete is the user profile metadata?", 
-    xlab = "Number of users with the field", ylab = "")
-axis(1, at = seq(0, 12000, 2000))
-abline(v = nrow(users), col = 2, lty = 2)
-text(x = nrow(users), y = 15, labels = paste(nrow(users), "total users"), col = 2, 
-    pos = 2)
-text(x = 2500, y = 14, labels = "Missing data", col = 2)
-text(x = 10000, y = 3, labels = "Complete data", col = 2)
-```
+    a <- t(as.data.frame(lapply(users, function(variable) {
+        sum(!is.na(variable))
+    })))
+    missingness <- data.frame(variable = rownames(a), present.value = a[, 1])
+    missingness <- missingness[order(missingness$present.value, decreasing = T), 
+        ]
+    old.mar <- par()$mar
+    par(mar = c(5, 12, 4, 2))
+    barplot((missingness$present.value), names.arg = missingness$variable, border = NA, 
+        col = "grey", axes = F, horiz = T, las = 1, xlim = c(0, 12000), main = "How complete is the user profile metadata?", 
+        xlab = "Number of users with the field", ylab = "")
+    axis(1, at = seq(0, 12000, 2000))
+    abline(v = nrow(users), col = 2, lty = 2)
+    text(x = nrow(users), y = 15, labels = paste(nrow(users), "total users"), col = 2, 
+        pos = 2)
+    text(x = 2500, y = 14, labels = "Missing data", col = 2)
+    text(x = 10000, y = 3, labels = "Complete data", col = 2)
 
 ![plot of chunk missingness](figure/missingness.png) 
-
-```r
-par(mar = old.mar)
-```
-
 
 ### How many views do people have?
 
 
-```r
-plot.count(users$n_views, "views", col = (users$id == "e8ug-wzay") + 1)
-text(x = 0, y = 1.2, labels = "Most users\nhave one view", pos = 4, col = 2)
-text(x = 3.5, y = 1.5, labels = "Data.gov Program\nManagement Office", col = 2)
-```
+    plot.count(users$n_views, "views", col = (users$id == "e8ug-wzay") + 1)
+    text(x = 0, y = 1.2, labels = "Most users\nhave one view", pos = 4, col = 2)
+    text(x = 3.5, y = 1.5, labels = "Data.gov Program\nManagement Office", col = 2)
 
 ![plot of chunk n.views](figure/n.views.png) 
 
@@ -181,14 +166,12 @@ uploaded dataset, before any view filtering. A table can have many views,
 and a view has only one table.)
 
 
-```r
-plot.count(users$n_tables, "tables", col = 1 + (!is.na(users$roleName) & (users$roleName == 
-    "publisher" | users$roleName == "administrator")))
-text(x = 3.5, y = 1.5, labels = "Data.gov Program\nManagement Office", col = 2)
-```
+    plot.count(users$n_tables, "tables",
+      col = 1 + (!is.na(users$roleName) &
+      (users$roleName == "publisher" | users$roleName == "administrator")))
+    text(x = 3.5, y = 1.5, labels = "Data.gov Program\nManagement Office", col = 2)
 
 ![plot of chunk n_tables](figure/n_tables.png) 
-
 
 That point off to the right is again the Data.gov Program Management Office.
 
@@ -200,17 +183,10 @@ tables and number of views tells us how many derived views people have made.
 I think.
 
 
-```r
-plot.count(users$n_views - users$n_tables, "derived views", col = 1 + ((!is.na(users$roleName) & 
-    (users$roleName == "publisher" | users$roleName == "administrator"))))
-```
-
-```
-## Warning: NaNs produced
-```
+    plot.count(users$n_views - users$n_tables, "derived views", col = 1 + ((!is.na(users$roleName) & 
+      (users$roleName == "publisher" | users$roleName == "administrator"))))
 
 ![plot of chunk n_derived](figure/n_derived.png) 
-
 
 It also turns out that 65 users have more tables than views. This appears to be
 mostly publishers. Maybe this is something about how the import API works that I
@@ -263,22 +239,19 @@ let's look at the number of views that each person owns by the different
 roles of user.
 
 
-```r
-user.by.role <- ddply(users, "roleName", function(users.role) {
-    c(mean.number.of.views = mean(users.role$n_views), mean.number.of.tables = mean(users.role$n_tables), 
+    user.by.role <- ddply(users, "roleName", function(users.role) {
+      c(mean.number.of.views = mean(users.role$n_views), mean.number.of.tables = mean(users.role$n_tables), 
         number.of.users = nrow(users.role))
-})
-user.by.role[is.na(user.by.role$roleName), "roleName"] <- "No role name"
-ggplot(user.by.role) + aes(x = mean.number.of.views, y = mean.number.of.tables) + 
-    geom_point(aes(size = number.of.users)) + geom_text(aes(label = roleName), 
-    hjust = -0.2) + scale_size_continuous("Number of users", labels = comma) + 
-    scale_x_continuous("Mean number of views each user owns", limits = c(0, 
+    })
+    user.by.role[is.na(user.by.role$roleName), "roleName"] <- "No role name"
+    ggplot(user.by.role) + aes(x = mean.number.of.views, y = mean.number.of.tables) + 
+      geom_point(aes(size = number.of.users)) + geom_text(aes(label = roleName), 
+      hjust = -0.2) + scale_size_continuous("Number of users", labels = comma) + 
+      scale_x_continuous("Mean number of views each user owns", limits = c(0, 
         100)) + scale_y_continuous("Mean number of tables each user owns") + 
-    ggtitle("Which roles have more data?")
-```
+      ggtitle("Which roles have more data?")
 
 ![plot of chunk views_by_role](figure/views_by_role.png) 
-
 
 It looks like publishers and administrators make more views. Big surprise.
 Moreover, few people have roles, and people with roles tend to have more data
@@ -288,15 +261,13 @@ my other suspected indicator of data-publisher-ness: Whether people have more
 tables than views. Here's a plot of that.
 
 
-```r
-users$more.tables <- users$n_tables > users$n_views
-users.roleNames <- ddply(users, "more.tables", function(df) {
-    out <- data.frame(has.role = c(T, F), prop = c(mean(df$has.role), 1 - mean(df$has.role)))
-})
-barplot(users.roleNames$prop[users.roleNames$more.tables], names.arg = c("Has a roleName", 
-    "No roleName"), ylim = 0:1, border = NA, las = 1, ylab = "Proportion of users with more tables than views", 
-    xlab = "User group", main = "Are roleNames for data publisher employees?")
-```
+    users$more.tables <- users$n_tables > users$n_views
+    users.roleNames <- ddply(users, "more.tables", function(df) {
+      out <- data.frame(has.role = c(T, F), prop = c(mean(df$has.role), 1 - mean(df$has.role)))
+    })
+    barplot(users.roleNames$prop[users.roleNames$more.tables], names.arg = c("Has a roleName", 
+      "No roleName"), ylim = 0:1, border = NA, las = 1, ylab = "Proportion of users with more tables than views", 
+      xlab = "User group", main = "Are roleNames for data publisher employees?")
 
 ![plot of chunk roleName_plot](figure/roleName_plot.png) 
 
@@ -305,24 +276,18 @@ If we want to get all statistical about it, we can run
 Fisher's Exact test.
 
 
-```r
-fisher.test(table(users$n_tables > users$n_views, users$has.role))
-```
-
-```
-## 
-## 	Fisher's Exact Test for Count Data
-## 
-## data:  table(users$n_tables > users$n_views, users$has.role)
-## p-value < 2.2e-16
-## alternative hypothesis: true odds ratio is not equal to 1
-## 95 percent confidence interval:
-##   35.69 118.94
-## sample estimates:
-## odds ratio 
-##      63.77
-```
-
+    fisher.test(table(users$n_tables > users$n_views, users$has.role))
+    ## 
+    ## 	Fisher's Exact Test for Count Data
+    ## 
+    ## data:  table(users$n_tables > users$n_views, users$has.role)
+    ## p-value < 2.2e-16
+    ## alternative hypothesis: true odds ratio is not equal to 1
+    ## 95 percent confidence interval:
+    ##   35.69 118.94
+    ## sample estimates:
+    ## odds ratio 
+    ##      63.77
 
 and find that these counts are indeed disproportionate. 
 
@@ -335,66 +300,54 @@ the value of that field is `["admin"]` for all of these users.
 Here are those users.
 
 
-```r
-users$has.flag <- !is.na(users$flags)
-subset(users, has.flag)["displayName"]
-```
-
-```
-##               displayName
-## rgff-7jh6     Doug McLeod
-## g4md-3inp         chitang
-## rqdg-xj2v           Clare
-## p2g6-hzkg  Anthony Nowell
-## 2bbf-kmrb  Marc Millstone
-## 83hr-92mi   Kevin Merritt
-## xpic-k57b     Chris Whong
-## b5e4-d7x8          Jordan
-## hmzy-ctip     Clint Tseng
-## xtsj-wzxh   Roopa Prakash
-## 4xtm-veev    MIchael Chui
-## i7d8-sc4w   Chris Metcalf
-## 86uf-6gqx     beth.blauer
-## tm4c-rqum    Lilia Gutnik
-## 2fra-n3vu        John Kew
-## rj6s-jsfr       Will Pugh
-## e9wa-d5y6 Giacomo Ferrari
-## ipyd-bu8g          Adrian
-## x5jh-tg6w      Hiko Naito
-## 4tjb-bgqg      Anna Veldt
-## 4qwc-qq8v         kfontes
-## mvvk-izrz  Jeff Scherpelz
-## iwnv-rtc2   Karin Hellman
-## 8est-2umm           Sells
-## 54cf-cqm2     Joe Pringle
-## 7ef3-v99y   Paul Paradise
-## nux4-azwn       bryantlau
-## gyd7-94dj          mlouie
-## 8vin-pcrv      amy winner
-## eudm-snef             Saf
-## bxv9-y9sr             rjm
-## r5m2-5pds    Cam Caldwell
-## tjtx-bges             anu
-## zs8p-j3v5 Darrell Cabales
-## vcvp-yass           Dylan
-```
+    users$has.flag <- !is.na(users$flags)
+    subset(users, has.flag)["displayName"]
+    ##               displayName
+    ## rgff-7jh6     Doug McLeod
+    ## g4md-3inp         chitang
+    ## rqdg-xj2v           Clare
+    ## p2g6-hzkg  Anthony Nowell
+    ## 2bbf-kmrb  Marc Millstone
+    ## 83hr-92mi   Kevin Merritt
+    ## xpic-k57b     Chris Whong
+    ## b5e4-d7x8          Jordan
+    ## hmzy-ctip     Clint Tseng
+    ## xtsj-wzxh   Roopa Prakash
+    ## 4xtm-veev    MIchael Chui
+    ## i7d8-sc4w   Chris Metcalf
+    ## 86uf-6gqx     beth.blauer
+    ## tm4c-rqum    Lilia Gutnik
+    ## 2fra-n3vu        John Kew
+    ## rj6s-jsfr       Will Pugh
+    ## e9wa-d5y6 Giacomo Ferrari
+    ## ipyd-bu8g          Adrian
+    ## x5jh-tg6w      Hiko Naito
+    ## 4tjb-bgqg      Anna Veldt
+    ## 4qwc-qq8v         kfontes
+    ## mvvk-izrz  Jeff Scherpelz
+    ## iwnv-rtc2   Karin Hellman
+    ## 8est-2umm           Sells
+    ## 54cf-cqm2     Joe Pringle
+    ## 7ef3-v99y   Paul Paradise
+    ## nux4-azwn       bryantlau
+    ## gyd7-94dj          mlouie
+    ## 8vin-pcrv      amy winner
+    ## eudm-snef             Saf
+    ## bxv9-y9sr             rjm
+    ## r5m2-5pds    Cam Caldwell
+    ## tjtx-bges             anu
+    ## zs8p-j3v5 Darrell Cabales
+    ## vcvp-yass           Dylan
 
 
 These appear to all be Socrata employees.
 
 Hmm. Does anyone have both a `roleName` and a flag?
 
-
-```r
-subset(users, has.flag & has.role)[c("displayName", "roleName")]
-```
-
-```
-##           displayName      roleName
-## 86uf-6gqx beth.blauer administrator
-## nux4-azwn   bryantlau administrator
-```
-
+    subset(users, has.flag & has.role)[c("displayName", "roleName")]
+    ##           displayName      roleName
+    ## 86uf-6gqx beth.blauer administrator
+    ## nux4-azwn   bryantlau administrator
 
 [Beth](http://www.socrata.com/newsroom-article/government-innovator-beth-blauer-joins-socrata/)
 and [Bryant](www.linkedin.com/in/bryantlau) are both
@@ -410,24 +363,18 @@ citizens that Socrata is trying to empower.
 
 #### No flags, no roles
 
-```r
-citizens <- subset(users, !has.flag & !has.role)
-columns <- c("displayName", "n_tables", "n_views")
-head(citizens[order(citizens$n_views, decreasing = T), columns])
-```
+    citizens <- subset(users, !has.flag & !has.role)
+    columns <- c("displayName", "n_tables", "n_views")
+    head(citizens[order(citizens$n_views, decreasing = T), columns])
+    ##                                    displayName n_tables n_views
+    ## vc35-nh3p                      Public Datasets      496     605
+    ## v4c9-bc9b                              cpbride      242     498
+    ## ugen-sv2k                                Scott        3     372
+    ## w3yb-tyrd                                admin      296     340
+    ## yahm-crqu U.S. Environmental Protection Agency       14     280
+    ## rek6-gcru                           Sam S. Lee        2     221
 
-```
-##                                    displayName n_tables n_views
-## vc35-nh3p                      Public Datasets      496     605
-## v4c9-bc9b                              cpbride      242     498
-## ugen-sv2k                                Scott        3     372
-## w3yb-tyrd                                admin      296     340
-## yahm-crqu U.S. Environmental Protection Agency       14     280
-## rek6-gcru                           Sam S. Lee        2     221
-```
-
-
-Hmm okay they're not all citizens. For example,
+Hmm okay they're not all ordinary citizens. For example,
 "[Public Datasets](https://opendata.socrata.com/profile/Public-Datasets/vc35-nh3p)"
 appears to be [recovery.gov](http://www.recovery.gov)'s open data initiative,
 which is running on [opendata.socrata.com](https://opendata.socrata.com)
@@ -436,22 +383,15 @@ rather than on a separate portal.
 #### Also no tables
 Maybe we should also expect citizens not to have uploaded any tables.
 
-
-```r
-citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
-head(citizens[order(citizens$n_views, decreasing = T), columns])
-```
-
-```
-##                   displayName n_tables n_views
-## jyr3-c2kp              Njbate        0     153
-## cif6-aywu                CPHA        0     150
-## teh5-ns3w Kenya Open Data Bot        0     144
-## 4p9m-76ij               Tracy        0     100
-## edap-jnwh     warren.kagarise        0      93
-## aeze-ppu4                  NL        0      89
-```
-
+    citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
+    head(citizens[order(citizens$n_views, decreasing = T), columns])
+    ##                   displayName n_tables n_views
+    ## jyr3-c2kp              Njbate        0     153
+    ## cif6-aywu                CPHA        0     150
+    ## teh5-ns3w Kenya Open Data Bot        0     144
+    ## 4p9m-76ij               Tracy        0     100
+    ## edap-jnwh     warren.kagarise        0      93
+    ## aeze-ppu4                  NL        0      89
 
 Now we're getting somewhere.
 
@@ -473,38 +413,31 @@ just made different filters on the same dataset.
 #### With a profile image
 Let's try this yet again, but this time, let's look only at people with profile images.
 
-
-```r
-citizens <- subset(users, !has.flag & !has.role & n_tables == 0 & !is.na(profileImageUrlLarge))
-columns <- c("displayName", "n_tables", "n_views", "profileImageUrlLarge")
-head(citizens[order(citizens$n_views, decreasing = T), columns], 10)
-```
-
-```
-##                      displayName n_tables n_views
-## aeze-ppu4                     NL        0      89
-## 732w-crxq    not The White House        0      30
-## 86yi-jydw               VinylFox        0      26
-## ef7y-9vvy Dave Francis Rodrigues        0      25
-## pieh-8cyx    Michael Christopher        0      21
-## v8wk-qcyk           MrDataFerret        0       8
-## fcg6-n5gt       David T. Andrews        0       7
-## dpze-sudn         prasannalaldas        0       6
-## aj2c-kiyh    Mitali Kumar Mathur        0       4
-## e83w-vpb9        nolewalkingshaw        0       4
-##                                                 profileImageUrlLarge
-## aeze-ppu4              /images/profile/6252/8605/photo__1__large.jpg
-## 732w-crxq           /images/profile/7788/3275/ProfileImage_large.jpg
-## 86yi-jydw                 /images/profile/4013/6059/coffee_large.jpg
-## ef7y-9vvy             /images/profile/7984/1730/000224603_large.jpeg
-## pieh-8cyx    /images/profile/5646/4628/michael_christopher_large.jpg
-## v8wk-qcyk       /images/profile/3251/7780/ferretthumbnail1_large.jpg
-## fcg6-n5gt /images/profile/7663/5320/Clair_at_New_Years_Eve_large.jpg
-## dpze-sudn               /images/profile/8432/0223/P1000961_large.JPG
-## aj2c-kiyh              /images/profile/6587/1742/frontface_large.png
-## e83w-vpb9                  /images/profile/7942/2651/image_large.jpg
-```
-
+    citizens <- subset(users, !has.flag & !has.role & n_tables == 0 & !is.na(profileImageUrlLarge))
+    columns <- c("displayName", "n_tables", "n_views", "profileImageUrlLarge")
+    head(citizens[order(citizens$n_views, decreasing = T), columns], 10)
+    ##                      displayName n_tables n_views
+    ## aeze-ppu4                     NL        0      89
+    ## 732w-crxq    not The White House        0      30
+    ## 86yi-jydw               VinylFox        0      26
+    ## ef7y-9vvy Dave Francis Rodrigues        0      25
+    ## pieh-8cyx    Michael Christopher        0      21
+    ## v8wk-qcyk           MrDataFerret        0       8
+    ## fcg6-n5gt       David T. Andrews        0       7
+    ## dpze-sudn         prasannalaldas        0       6
+    ## aj2c-kiyh    Mitali Kumar Mathur        0       4
+    ## e83w-vpb9        nolewalkingshaw        0       4
+    ##                                                 profileImageUrlLarge
+    ## aeze-ppu4              /images/profile/6252/8605/photo__1__large.jpg
+    ## 732w-crxq           /images/profile/7788/3275/ProfileImage_large.jpg
+    ## 86yi-jydw                 /images/profile/4013/6059/coffee_large.jpg
+    ## ef7y-9vvy             /images/profile/7984/1730/000224603_large.jpeg
+    ## pieh-8cyx    /images/profile/5646/4628/michael_christopher_large.jpg
+    ## v8wk-qcyk       /images/profile/3251/7780/ferretthumbnail1_large.jpg
+    ## fcg6-n5gt /images/profile/7663/5320/Clair_at_New_Years_Eve_large.jpg
+    ## dpze-sudn               /images/profile/8432/0223/P1000961_large.JPG
+    ## aj2c-kiyh              /images/profile/6587/1742/frontface_large.png
+    ## e83w-vpb9                  /images/profile/7942/2651/image_large.jpg
 
 I ran queries like this to find what portals and data they used.
 
@@ -549,7 +482,7 @@ His website discusses this [a bit more](http://www.vinylfox.com/about/).
 [Dave](https://finances.worldbank.org/profile/Dave-Francis-Rodrigues/ef7y-9vvy?)
 has made a lot of filters and charts about India.
 He also names his views really well. In particular, I like his hack of prefixing
-all of the titles with "Dave_"; this gets around how Socrata doesn't make it particularly
+all of the titles with "Dave\_"; this gets around how Socrata doesn't make it particularly
 clear who created the view that you are looking at.
 
 #### Everyone else
@@ -558,26 +491,20 @@ but let's look a bit more broadly. The histogram below shows how many views
 users have created. Here, I'm including people without profile pictures.
 
 
-```r
-citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
-hist(citizens$n_views, col = 1, border = NA, xlab = "Number of Socrata views created by the user", 
-    ylab = "Number of users", main = "How many views do Socrata users make?")
-```
+    citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
+    hist(citizens$n_views, col = 1, border = NA, xlab = "Number of Socrata views created by the user", 
+      ylab = "Number of users", main = "How many views do Socrata users make?")
 
 ![plot of chunk citizen_views1](figure/citizen_views1.png) 
 
-
 Here it is again, but leaving out the top ten users to make it easier to see.
 
-
-```r
-citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
-hist(citizens$n_views[citizens$n_views < 30], col = 1, border = NA, xlab = "Number of Socrata views created by the user", 
-    ylab = "Number of users", main = "How many views do Socrata users make?")
-```
+    citizens <- subset(users, !has.flag & !has.role & n_tables == 0)
+    hist(citizens$n_views[citizens$n_views < 30], col = 1, border = NA,
+      xlab = "Number of Socrata views created by the user", 
+      ylab = "Number of users", main = "How many views do Socrata users make?")
 
 ![plot of chunk citizen_views2](figure/citizen_views2.png) 
-
 
 As you might expect, most people make only one view.
 In fact, there are probably even more users with no views.
@@ -591,8 +518,7 @@ all of the users who have made a public view on any of the
 
 Also keep in mind that that's *all* of the users with at least 10 views;
 if we look at only the users whom I've identified as citizens, it drops
-to 38,
-or fewer than one user per portal. Quite low.
+to 38, or fewer than one user per portal. Quite low.
 
 ## Conclusions, lessons, ideas, &c.
 
