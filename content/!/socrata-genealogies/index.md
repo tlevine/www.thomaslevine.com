@@ -42,6 +42,8 @@ Most of my work on this for the past week has been figuring out
 Socrata's terminology and schema. Let's define some Socrata terms.
 
 ### Everything is a view
+{:#term-view}
+
 When you go to the home page of a Socrata portal, you can
 "Search & Browse Datasets and Views". This phrasing is sort
 of wrong. "**view**" is just a generic concept that refers
@@ -60,11 +62,15 @@ You also get a list of "View Types". Below, I define some
 of these view types.
 
 ### Datasets
+{:#term-dataset}
+
 Let's start with the **dataset**.
 A dataset is when you get when you upload data to Socrata in one of
 its supported tabular formats.
 
 ### Filtered views
+{:#term-filtered-view}
+
 Before I define "filtered views", I want to explain why they exist.
 Socrata helps people publish their data by providing various APIs
 for importing from different data sources, and Socrata helps people
@@ -85,15 +91,22 @@ to include only opportunities on July 29.
 [SODA filter query language](http://dev.socrata.com/deprecated/querying-datasets).
 
 ### Charts and maps
+{:#term-chart-and-map}
+
 **Charts** and **maps** are also queries on a dataset.
 The difference between filtered views, charts and maps is quite subtle.
 They are all queries on datasets; they just display a different
 visualization when you view them on the Socrata website.
 
-There are other types of views, but we don't need to know about them
-for now.
+### And more
+{:#term-other-view-types}
+
+There are other types of views, including views of non-tabular information,
+but we don't need to know about them for now.
 
 ### Tables
+{:#term-table}
+
 ![A table family, containing a dataset and several filtered views, charts and maps](<%= @item.identifier %>family.jpg){:.wide}
 <!-- Icons from https://explore.data.gov/stylesheets/images/icons/type_icons_30.png?1 -->
 
