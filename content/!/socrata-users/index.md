@@ -13,13 +13,13 @@ of the datasets on all of the Socrata portals (for a particular definition
 of "all"). And then I remembered that these datasets don't just float in
 space; **people use them**.
 
-Through doing this, I've learned that Socrata is much more than a website
+Through this study of Socrata data portals,
+I've learned that Socrata is much more than a website
 for converting datasets into different formats and serving them on the web.
 Socrata "[consumerizes the data experience](http://www.socrata.com/open-innovation/)"
 with web-based mapping and charting tools. Here's a sexy video they made.
 
 <video controls="" id="wistia_1" preload="none" poster="http://embed.wistia.com/deliveries/d86ff91b0a3b280ee4fd5fea9b65993d1b250340.jpg?image_crop_resized=640x360" style="width: 100%; height: 100%; position: relative; display: block;"><source src="http://embed.wistia.com/deliveries/37d0ddf8aeb21db020b1059c10c62373c9140734/file.mp4" type="video/mp4"></video>
-
 
 I live in this bubble of people who know how to use computers, so Socrata's
 charting tools seem really clunky and stupid to me, but it turns out that
@@ -50,7 +50,7 @@ Some of these JSON files are duplicates (because of
 so there are only about 50,000 unique views.
 (And the other 30,000 are exact duplicates, so deduplicating was easy.)
 
-![Diagram indicating that each view has one owner and one table author](<%= @item.identifier %>user-model.jpg)
+![Diagram indicating that each view has one owner and one table author](<%= @item.identifier %>user-model.jpg){:.wide}
 
 Among the many fields in each JSON file are
 fields are two fields related to the people who interacted with that view.
