@@ -21,7 +21,7 @@ He also has a band called
 
 ## Complicated version
 
-Thomas Levine likes to help peole make things work more smoothly. When he was a
+Thomas Levine likes to help people make things work more smoothly. When he was a
 young child, he built assembly lines for fun. He only realized that this was
 weird in college as he was refactoring a process for piling snow onto a snow
 fort. Tom apparently knows how to improve human processes, and that's nice, but
