@@ -250,6 +250,7 @@ Now we can add the lines one at a time.
 ```{r complicated-
 lines(Foot ~ id, data = pilgrams, lty = 1)
 lines(Bicicle ~ id, data = pilgrams, lty = 2)
+legend('topleft', c('Foot', 'Bicycle'), title = 'Transportation media', lty = 1:2)
 ```
 
 I removed the axes because the default axes are usually quite
@@ -257,27 +258,29 @@ ugly. Now let's add prettier axes.
 
 ```{r complicated-
 axis(1, at = seq(1, 80, 10), labels = paste('January', unique(pilgrams$year)))
+par(las = 1)
+axis(2, at = seq(0, 60000, 10000), labels = c(0, paste0(1:6, '0,000')))
 ```
 
+The tick marks go at `at`, and they are labeled with `labels`.
 
 
-plot(Total ~ id, data = pilgrams, type = 'l', bty = 'l')
-faces(wellbeing[34:42])
-
-
-
-    
-
-```r
-wellbeing$gender <- factor(wellbeing$X15..Gender..1..female..2..male., levels = c(1:2,NA), exclude = NULL)
-levels(wellbeing$gender)[1:2] <- c('Female', 'Male')
-table(wellbeing$gender)
-```
+The above dozen-or-so lines of code are approximately my boilerplate for simple
+line plots. Partly, this is because I switched the default axis for calls to `axis`;
+I usually do this with any plot, but I left it out of the earlier stripcharts and
+bar plot. But the main reason for the increased size is that different levels/subsets
+need to be plotted as separate calls.
 
 
 
 
 ## Conclusion
-I hope that you see how much of a mess base R graphics is.
-Learn from my mistakes! Don't torture yourself with base R graphics;
-**use ggplot**!
+I just showed you some boilerplate bar plots, strip chart and
+line plots, each involving a few lines of code to produce the plot
+that I conceive as the default.
+
+Learn from my mistakes! Don't learn base R graphics, unless you want
+to make [music videos]().
+ggplot has more reasonable supports and relates
+different variables better (through the grammar of graphics), so all of
+those boilerplate plots would have been one call to ggplot.
