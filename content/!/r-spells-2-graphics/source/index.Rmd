@@ -5,7 +5,8 @@ I've been making graphics in R for quite a while
 
 I've spent years of my life trying to make nice plots with base R
 graphics. I've learned a bunch of tricks along the way, so now I'm
-going to show you everything I can remember.
+going to show you my vague boilerplate for bar plots, strip charts
+and more complicated plots.
 
 ## Data
 I'm going to use data came from an earlier version of
@@ -163,6 +164,10 @@ stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
 legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5
 ```
 
+Like I said before for `barplot`, you should see this `stripchart` command
+as the boilerplate for making strip charts. Like `barplot`, `stripchart` is
+quite ugly until you set all of these parameters.
+
 ## par
 All of these `col`, `pch`, `bg`, `fg`, `border`, &c. commands are graphical
 parameters passed to `par`. You can set their global defaults with `par`,
@@ -219,13 +224,43 @@ default. Setting `new` to `TRUE` makes it not clear the plot, which
 can help you build up more complicated plots.
 
 
-## Scatterplots
+## Complicated plots
+Displaying multiple sets of lines and points on a graph gets more messy.
+For example, let's say we want to make two lines to represent pilgram
+counts. One is for people on horseback, and the other is for people on
+foot. First, I like to make an empty plot with the full range so we don't
+cut anything off. Let's also put the labels and remove the axes.
+
+```{r complicated-
+plot(0,0,
+  xlim = range(pilgrams$id),
+  ylim = c(0,max(c(pilgrams$Foot, pilgrams$Bicicle))),
+  xlab = 'Month',
+  ylab = 'Number of pilgrams',
+  main = 'Pilgrams by month and transportation medium',
+  axes = FALSE,
+  type = 'n'
+)
+```
+
+The key there is `type = 'n'`, which makes no data be plotted.
+Now we can add the lines one at a time.
+
+```{r complicated-
+lines(Foot ~ id, data = pilgrams, lty = 1)
+lines(Bicicle ~ id, data = pilgrams, lty = 2)
+```
+
+I removed the axes because the default axes are usually quite
+ugly. 
+
+```{r complicated-
+```
 
 
 
-
-## More scatterplots
-
+plot(Total ~ id, data = pilgrams, type = 'l', bty = 'l')
+faces(wellbeing[34:42])
 
 
 
