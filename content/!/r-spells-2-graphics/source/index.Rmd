@@ -18,14 +18,58 @@ pilgrams <- sqldf('select * from pilgram', dbname = 'pilgrams-db.sqlite')
 
 I'm also going to use data from a
 [wellbeing study](https://data.somervillema.gov/dataset/Results-of-2011-Wellbeing-Study/pjhx-dusc)
-about Somerville, Massachusetts.
+about Somerville, Massachusetts. There are a lot of missing values in this dataset, and I'm only
+trying to show you how to make plots, so I'm just going to remove the missing values.
 
 ```r
-wellbeing <- read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD')
+wellbeing <- na.omit(read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD'))
 ```
 
 ## Barplot
-Maybe we want count the genders of respondants
+Maybe we want count the marital statuses of Somerville residents.
+This won't work.
+
+    barplot(wellbeing$X24..What.is.your.marital.status.)
+
+Instead, you need to give barplot a vector of heights. We can make one with `table`.
+
+```{r barplot-
+barplot(table(wellbeing$X24..What.is.your.marital.status.))
+```
+
+I can't read the bar labels, so let's make the bars horizontal.
+
+```{r barplot-
+barplot(table(wellbeing$X24..What.is.your.marital.status.), horiz = TRUE)
+```
+
+Oops. Now the labels are rotated the wrong way. The `las` parameter to `par` handles that.
+
+```{r barplot-
+barplot(table(wellbeing$X24..What.is.your.marital.status.), horiz = TRUE, las = 1)
+```
+
+But I want to sort the bars so they're easier to read.
+
+```{r barplot-
+barplot(sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE), horiz = TRUE, las = 1)
+```
+
+
+
+Summing that up, this is what I think the default barplot function should be.
+
+```{r barplot-tom}
+tom.barplot <- function(height, col = 'grey', border = NA, ...) {
+  barplot(sort(table(height)), col = col, border = border)
+
+The black border around the bars is noisy; let's remove it.
+
+
+
+
+
+    
 
 ```r
 wellbeing$gender <- factor(wellbeing$X15..Gender..1..female..2..male., levels = c(1:2,NA), exclude = NULL)
