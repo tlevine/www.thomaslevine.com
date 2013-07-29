@@ -28,13 +28,16 @@ for progressively earlier days going back seven days.
 
 ## Related
 More music
+
 * [CSV Soundsystem](http://csvsoundsystem.com)
 * [FMS Symphony](http://fms.csvsoundsystem.com)
 
 Why
+
 * [Music videos in R](http://www.livestream.com/knerd/video?clipId=pla_a5d59285-9399-47dc-aaef-2b9a77142d5e)
 * [Sensory data experiences](/!/sensory-data-experiences)
 
 Software
+
 * [Source code for the Ridership Rachenitsa](https://github.com/csv/transit-ridership)
 * [Data-driven rhythms](https://github.com/csv/ddr)
