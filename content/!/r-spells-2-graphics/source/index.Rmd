@@ -10,8 +10,9 @@ and more complicated plots.
 
 ## Data
 I'm going to use data came from an earlier version of
-[this website](http://peregrinossantiago.es/eng/post-peregrinacion/estadisticas/).
+[this website](http://peregrinossantiago.es/eng/pilgrims-office/statistics/).
 They're "statistics about pilgrims who have arrived in Santiago".
+The observations are monthly, but I'm missing the Novembers and Decembers.
 
 ```r
 pilgrams <- sqldf('select * from pilgram', dbname = 'pilgrams-db.sqlite')
@@ -252,9 +253,10 @@ lines(Bicicle ~ id, data = pilgrams, lty = 2)
 ```
 
 I removed the axes because the default axes are usually quite
-ugly. 
+ugly. Now let's add prettier axes.
 
 ```{r complicated-
+axis(1, at = seq(1, 80, 10), labels = paste('January', unique(pilgrams$year)))
 ```
 
 
