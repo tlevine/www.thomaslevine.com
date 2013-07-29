@@ -164,6 +164,43 @@ legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5
 ```
 
 ## par
+All of these `col`, `pch`, `bg`, `fg`, `border`, &c. commands are graphical
+parameters passed to `par`. You can set their global defaults with `par`,
+but they won't necessarily apply to the same scope as when you pass them
+within a function. For example, `bg` applies to the outer canvas's background.
+
+```{r par-
+par(bg = 'yellow')
+plot(Total ~ id, data = pilgrams, type = 'l')
+```
+
+You might use this to set fonts across all of your plots.
+
+```{r 
+par(family = 'serif', font = 3, font.lab = 3, font.main = 2, font.sub = 3)
+plot(Total ~ id, data = pilgrams, type = 'l', main = 'Pilgrams')
+```
+
+I tend to find the global namespace unpleasant, so I like to wrap that
+in a function that closes the device afterwards, with `dev.off`.
+(The settings only apply to the current device.)
+
+    plot.something <- function(a, b, c, e, f) {
+      par(family = 'serif', font = 3, font.lab = 3, font.main = 2, font.sub = 3)
+      plot(a ~ b, col = c)
+      lines(d, e)
+      # ...
+      dev.off()
+    }
+
+```{r par-
+par(mfrow = c(2,2))
+```
+
+But these names are used within different scopes.
+
+```{r par-
+```
 
 ## Scatterplots
 
