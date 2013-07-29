@@ -25,7 +25,7 @@ trying to show you how to make plots, so I'm just going to remove the missing va
 wellbeing <- na.omit(read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD'))
 ```
 
-## Barplot
+## One factor
 Maybe we want count the marital statuses of Somerville residents.
 This won't work.
 
@@ -102,7 +102,7 @@ barplot(
 ```
 
 The above call is boilerplate to me; in order to have any chance at making
-a vaguely decent bar plot, you minimally need to adjust all of those parameters.
+any vaguely decent bar plot, you **minimally** need to adjust all of those parameters.
 Summing that up, this is what I think the default barplot function should be.
 
 ```{r barplot-tom}
@@ -115,6 +115,62 @@ tom.barplot <- function(height, col = 'grey', border = NA, ...) {
 }
 ```
 
+## One factor and one numeric
+A stripchart is sort of like a histogram, but it doesn't bin the observations.
+Here is how people in Somerville are feeling, on a range of 1 to 10.
+
+```{r stripchart-
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now.., method = 'jitter')
+```
+
+We can also stack the observations
+
+```{r stripchart-
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now.., method = 'stack')
+```
+
+Let's change the scale to emphasize its limits.
+
+```{r stripchart-
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
+  method = 'stack', xlim = c(1:10)
+)
+```
+
+The white boxes with borders are noisy; let's change them to filled boxes.
+The default point type (`pch = 1`) doesn't support a fill color (`bg`),
+so we have to switch to a different point type.
+
+```{r stripchart-
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
+  method = 'stack', xlim = c(1:10), col = NA, pch = 22, bg = 1
+)
+```
+
+You can see all of the pch types here.
+
+```{r stripchart-pch}
+pchShow()
+```
+
+Now we could also color the points by a different color depending on the
+gender.
+
+```{r stripchart-
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
+  method = 'stack', xlim = c(1:10), col = NA, pch = 22, bg = 3 + wellbeing$X15..Gender..1..female..2..male.
+)
+legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5
+```
+
+## par
+
+## Scatterplots
+
+
+
+
+## More scatterplots
 
 
 
