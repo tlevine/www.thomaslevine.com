@@ -7,6 +7,17 @@ I've spent years of my life trying to make nice plots with base R
 graphics. I've learned a bunch of tricks along the way, so now I'm
 going to show you everything I can remember.
 
+## Data
+I've lately been playing with Socrata open data portals a lot,
+and I came across
+[this interesting dataset](https://data.somervillema.gov/dataset/Results-of-2011-Wellbeing-Study/pjhx-dusc)
+that I'll use for demonstration.
+I found no documentation on it beyond the table and its title,
+but I presume that it's a questionnaire commissioned by the city.
+
+```r
+wellness <- read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD')
+```
 
 ### `par()$box`
 
