@@ -49,21 +49,71 @@ Oops. Now the labels are rotated the wrong way. The `las` parameter to `par` han
 barplot(table(wellbeing$X24..What.is.your.marital.status.), horiz = TRUE, las = 1)
 ```
 
-But I want to sort the bars so they're easier to read.
+And let's adjust the margin and bar labels so the text doesn't fall off.
+
+```{r barplot-
+levels(wellbeing$X24..What.is.your.marital.status.)[3] <- "Living with a partner\nbut not married"
+par(mar = c(5, 12, 4, 2))
+barplot(table(wellbeing$X24..What.is.your.marital.status.), horiz = TRUE, las = 1)
+```
+
+I also want to sort the bars so they're easier to read.
 
 ```{r barplot-
 barplot(sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE), horiz = TRUE, las = 1)
 ```
 
+The black border around the bars is noisy; let's remove it.
 
+```{r barplot-
+barplot(
+  sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE),
+  horiz = TRUE, las = 1, border = NA
+)
+```
 
+Now the colors don't match. We could just make the bars black,
+
+```{r barplot-
+barplot(
+  sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE),
+  horiz = TRUE, las = 1, border = NA, col = 1
+)
+```
+
+but that's a bit harsh. Instead, let's make everything grey.
+
+```{r barplot-
+barplot(
+  sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE),
+  horiz = TRUE, las = 1, border = NA, col = '#666666', fg = '#333333', col.axis = '#333333'
+)
+```
+
+And add a title, of course
+
+```{r barplot-
+barplot(
+  sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE),
+  horiz = TRUE, las = 1, border = NA, col = '#666666', fg = '#333333', col.axis = '#333333',
+  xlab = 'Number of residents',
+  main = 'Marital statuses of Somerville residents'
+)
+```
+
+The above call is boilerplate to me; in order to have any chance at making
+a vaguely decent bar plot, you minimally need to adjust all of those parameters.
 Summing that up, this is what I think the default barplot function should be.
 
 ```{r barplot-tom}
 tom.barplot <- function(height, col = 'grey', border = NA, ...) {
-  barplot(sort(table(height)), col = col, border = border)
-
-The black border around the bars is noisy; let's remove it.
+  barplot(
+    sort(table(height)), col = col, border = border,
+    col = '#666666', fg = '#333333', col.axis = '#333333',
+    ...
+  )
+}
+```
 
 
 
