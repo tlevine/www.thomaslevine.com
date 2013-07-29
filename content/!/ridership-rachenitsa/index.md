@@ -1,10 +1,15 @@
 ---
 title: The Ridership Rachenitsa
+created_at: 2013-07-14
+kind: article
+description: A music video about the ridership of Chicago buses and New York subways
+twitter_image: screenshot.png
+tags: ['music']
 ---
 This is a music video about the ridership of Chicago buses and New York subways
 for the past few years.
 
-<video src="<%= @item.identifier %>transit.webm" controls width="100%">
+<video src="<%= @item.identifier %>transit.webm" controls width="100%"></video>
 
 ## Music
 Each musical beat is a day, as is each vertical line. One musical instrument
