@@ -8,15 +8,35 @@ graphics. I've learned a bunch of tricks along the way, so now I'm
 going to show you everything I can remember.
 
 ## Data
-I've lately been playing with Socrata open data portals a lot,
-and I came across
-[this interesting dataset](https://data.somervillema.gov/dataset/Results-of-2011-Wellbeing-Study/pjhx-dusc)
+I'm going to use data came from an earlier version of
+[this website](http://peregrinossantiago.es/eng/post-peregrinacion/estadisticas/).
+They're "statistics about pilgrims who have arrived in Santiago".
 
 ```r
-water <- read.csv('http://data.austintexas.gov/api/views/5tye-7ray/rows.csv?accessType=DOWNLOAD')
+pilgrams <- sqldf('select * from pilgram', dbname = 'pilgrams-db.sqlite')
 ```
 
-### `par()$box`
+I'm also going to use data from a
+[wellbeing study](https://data.somervillema.gov/dataset/Results-of-2011-Wellbeing-Study/pjhx-dusc)
+about Somerville, Massachusetts.
+
+```r
+wellbeing <- read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD')
+```
+
+## Barplot
+Maybe we want count the genders of respondants
+
+```r
+wellbeing$gender <- factor(wellbeing$X15..Gender..1..female..2..male., levels = c(1:2,NA), exclude = NULL)
+levels(wellbeing$gender)[1:2] <- c('Female', 'Male')
+table(wellbeing$gender)
+```
+
+
+
+
+## `par()$box`
 
     ‘bty’ A character string which determined the type of ‘box’ which
          is drawn about plots.  If ‘bty’ is one of ‘"o"’ (the
