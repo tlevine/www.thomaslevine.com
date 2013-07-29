@@ -11,12 +11,9 @@ going to show you everything I can remember.
 I've lately been playing with Socrata open data portals a lot,
 and I came across
 [this interesting dataset](https://data.somervillema.gov/dataset/Results-of-2011-Wellbeing-Study/pjhx-dusc)
-that I'll use for demonstration.
-I found no documentation on it beyond the table and its title,
-but I presume that it's a questionnaire commissioned by the city.
 
 ```r
-wellness <- read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD')
+water <- read.csv('http://data.austintexas.gov/api/views/5tye-7ray/rows.csv?accessType=DOWNLOAD')
 ```
 
 ### `par()$box`
