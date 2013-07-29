@@ -3,7 +3,8 @@ title: The Ridership Rachenitsa
 created_at: 2013-07-14
 kind: article
 description: A music video about the ridership of Chicago buses and New York subways
-twitter_image: screenshot.png
+twitter_image: square.png
+facebook_image: square.png
 tags: ['music']
 ---
 This is a music video about the ridership of Chicago buses and New York subways
