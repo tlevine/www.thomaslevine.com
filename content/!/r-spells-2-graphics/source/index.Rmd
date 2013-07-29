@@ -193,14 +193,31 @@ in a function that closes the device afterwards, with `dev.off`.
       dev.off()
     }
 
+`mfrow` and `mfcol` allow you to make multiple plots in one device
+
 ```{r par-
 par(mfrow = c(2,2))
+plot(lm(Men ~ Women, data = pilgrams), mfrow = c(2,2))
 ```
 
-But these names are used within different scopes.
+`bty` lets you change the outer border of the plot.
 
 ```{r par-
+plot(Total ~ id, data = pilgrams, type = 'l', bty = 'l')
 ```
+
+Its options are quite hilarious; here is its entry in `?par`.
+
+    ‘bty’ A character string which determined the type of ‘box’ which
+         is drawn about plots.  If ‘bty’ is one of ‘"o"’ (the
+         default), ‘"l"’, ‘"7"’, ‘"c"’, ‘"u"’, or ‘"]"’ the resulting
+         box resembles the corresponding upper case letter.  A value
+         of ‘"n"’ suppresses the box.
+
+Most plotting commands call `plot.new`, which clears the plot by
+default. Setting `new` to `TRUE` makes it not clear the plot, which
+can help you build up more complicated plots.
+
 
 ## Scatterplots
 
@@ -222,14 +239,6 @@ table(wellbeing$gender)
 
 
 
-
-## `par()$box`
-
-    ‘bty’ A character string which determined the type of ‘box’ which
-         is drawn about plots.  If ‘bty’ is one of ‘"o"’ (the
-         default), ‘"l"’, ‘"7"’, ‘"c"’, ‘"u"’, or ‘"]"’ the resulting
-         box resembles the corresponding upper case letter.  A value
-         of ‘"n"’ suppresses the box.
 
 ## Conclusion
 I hope that you see how much of a mess base R graphics is.
