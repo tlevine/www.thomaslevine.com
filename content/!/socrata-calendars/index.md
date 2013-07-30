@@ -2,10 +2,12 @@
 created_at: 2013-07-29
 kind: article
 title: Open Calendars
-tweet_text: How prevent data-siloing in the first place #opendata
+tweet_text: How we can prevent data-siloing in the first place http://thomaslevine.com/!/socrata-calendars #opendata
+tweet_link: https://twitter.com/thomaslevine/status/361993726496735232
 twitter_title: Oregon's open calendar is a 3436-row spreadsheet.
 description: Open calendars on Socrata suggest an elegant open data strategy.
 twitter_image: figure/meeting-length-2.png
+facebook_image: figure/meeting-length-2.png
 tags: ['socrata']
 ---
 My new favorite Socrata visualization is the calendar.
