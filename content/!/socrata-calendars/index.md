@@ -13,7 +13,7 @@ There are many ways that a particular dataset could be visualized.
 Socrata has 20 ways.
 Here they are.
 
-![plot of chunk display-types](figure/display-types.png) 
+![plot of chunk display-types](figure/display-types.png){:.wide}
 
 There are a lot of Socrata [views](/!/socrata-genealogies#term-view) that don't
 have display types listed. I don't know what's up with that.
@@ -26,7 +26,7 @@ The calendar is
 [what it sounds like](https://data.oregon.gov/dataset/Public-Meetings-3-Month-View-/4775-yg3b?).
 Some of them are reasonably popular.
 
-![plot of chunk calendar-use](figure/calendar-use.png) 
+![plot of chunk calendar-use](figure/calendar-use.png){:.wide}
 
 Let's look at some specific calendars.
 
@@ -46,7 +46,7 @@ with an RSS feed from the Socrata portal. But I don't know how the calendar on S
 It looks like some other portals are using calendars a lot too,
 but usually with several separate calendars instead of one huge one.
 
-![plot of chunk calendar-use-3](figure/calendar-use-3.png) 
+![plot of chunk calendar-use-3](figure/calendar-use-3.png){:.wide}
 
 ## The cool thing about Socrata calendars
 The cool thing about Socrata calendars is that you can download them
@@ -77,7 +77,7 @@ Oregon's calendars,
 
 we find out what datasets they visualize,
 
-![plot of chunk search-2](figure/search-2.png) 
+![plot of chunk search-2](figure/search-2.png){:.wide}
 
 we look up one of the tables,
 
@@ -106,12 +106,12 @@ them into one R data frame. Now I can have fun.
 Oregon has 3436 meetings.
 Oregon even has one meeting in Washington!
 
-![plot of chunk more-meetings](figure/more-meetings.png) 
+![plot of chunk more-meetings](figure/more-meetings.png){:.wide}
 
 ### Day of week
 Meetings are usually in the middle of the week.
 
-![plot of chunk day-of-week](figure/day-of-week.png) 
+![plot of chunk day-of-week](figure/day-of-week.png){:.wide}
 
 More precisely, most meetings start in the middle of the week, and
 you'll see later that most meetings last less than a day.
@@ -119,37 +119,18 @@ you'll see later that most meetings last less than a day.
 ### Date cleaning
 Let's clean up the dates so we can look at when meetings happen and how long they are.
 
+A bunch of the meetings have end times before their start times. Also, about a third of
+the meetings don't have end times, but I'm not going to worry about that for now.
 
-```r
-public.meetings$Duration <- as.numeric(public.meetings$End - public.meetings$Start)/3600  # hours
-ggplot(public.meetings) + aes(x = Start, y = Duration, color = State) + geom_jitter(alpha = 0.2) + 
-    scale_x_date("Start date") + ggtitle("Meeting dates and durations")
-```
+![](figure/meeting-length-1.png)
 
-```
-## Error: Invalid input: date_trans works with objects of class Date only
-```
-
-
-(About a third of the meetings don't have end times, and those aren't displayed on the plot.)
-
-A bunch of the meetings have end times before their start times. We could take a look at them like so.
+We could take a look at them like so.
 
     subset(public.meetings, Duration < 0)
 
 But rather than figuring out what's wrong, let's live life on the edge and just ignore them.
 
-
-```r
-ggplot(subset(public.meetings, Duration > 0)) + aes(x = Start, y = Duration, 
-    color = State) + geom_jitter(alpha = 0.2) + scale_y_log10("Duration (hours)", 
-    breaks = 10^(0:3)) + scale_x_date("Start date") + ggtitle("Meeting dates and durations")
-```
-
-```
-## Error: Invalid input: date_trans works with objects of class Date only
-```
-
+![](figure/meeting-length-2.png)
 
 A meeting has already been planned for 2020!
 
@@ -188,7 +169,7 @@ a day, a week or a month. I didn't look very hard, but seven clusters seems okay
       scale_x_continuous("", breaks = c()) + scale_color_discrete("Cluster") + 
       labs(title = "Clusters of public meeting durations")
 
-![plot of chunk clusters](figure/clusters.png) 
+![plot of chunk clusters](figure/clusters.png){:.wide}
 
 So the meeting durations seem clustered around these durations.
 (The paranthetical durations are the mean durations for the corresponding clusters.)
