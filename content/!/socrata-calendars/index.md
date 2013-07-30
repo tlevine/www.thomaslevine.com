@@ -122,7 +122,7 @@ Let's clean up the dates so we can look at when meetings happen and how long the
 A bunch of the meetings have end times before their start times. Also, about a third of
 the meetings don't have end times, but I'm not going to worry about that for now.
 
-![](figure/meeting-length-1.png)
+![](figure/meeting-length-1.png){:.wide}
 
 We could take a look at them like so.
 
@@ -130,14 +130,14 @@ We could take a look at them like so.
 
 But rather than figuring out what's wrong, let's live life on the edge and just ignore them.
 
-![](figure/meeting-length-2.png)
+![](figure/meeting-length-2.png){:.wide}
 
 A meeting has already been planned for 2020!
 
     subset(public.meetings, Start > as.POSIXlt(as.Date("2015-01-01")))
 
 It's for the Health Care Acquired Infections Advisory Committee, in the
-Portland State Office Building room 1D on April 11, 2020 at 1 pm!
+Portland State Office Building room 1D on April 11, 2020 at 1 pm.
 (I think that's an accident.)
 
 ### Meeting durations
@@ -145,11 +145,11 @@ Some of these meetings are pretty long. The three longest are each a month long.
 
     subset(public.meetings, Duration > 400)[c("Group", "Meeting", "Start", "End")]
 
-Group                                | Meeting                                            | Start          | End
--------------------------------------|----------------------------------------------------|----------------|-----------------
-             Health Authority, Oregon|2013 Project Priority List (PPL) for DWSRF Financing|2013-02-04 13:00|2013-03-04 13:00
-             Health Authority, Oregon|      2013 Intended Use Plan (IUP) Executive Summary|2013-04-30 00:00|2013-05-31 00:00
-Housing/Community Services Department|        Notice of Public Comment - Consolidated Plan|2012-04-04 08:00|2012-05-04 17:00
+Group                                | Start          | End
+-------------------------------------|----------------|-----------------
+             Health Authority, Oregon|2013-02-04 13:00|2013-03-04 13:00
+             Health Authority, Oregon|2013-04-30 00:00|2013-05-31 00:00
+Housing/Community Services Department|2012-04-04 08:00|2012-05-04 17:00
 
 
 Those three longest meetings got me thinking:
@@ -193,29 +193,22 @@ calendar's data is fundamentally open. Along these lines, I have two thoughts.
 
 ### Opening data at their sources
 Typical calendar software can import and export only from other calendar
-software. If Socrata's calendar software were actually good, it would be
-an example of calendar software that integrate with standard data analysis
-software.
+software. I wouldn't say that Socrata's calendar visualization is anywhere
+near calendar software, we can see it as an attempt at creating calendar
+software whose data are fundamentally open.
 
-World Bank Open Finances seems to be trying this. They made a
+Take a look at the World Bank Open Finances
+[open data events calendar](https://finances.worldbank.org/dataset/Global-Open-Data-Calendar/g4sx-dwxc),
+which is populated by this
 [form](https://finances.worldbank.org/dataset/Global-Open-Data-Calendar-Entry-Form/qdbh-rfd3?)
-that populates an
-[open data events calendar](https://finances.worldbank.org/dataset/Global-Open-Data-Calendar/g4sx-dwxc).
-This way, any data that is sent into the calendar immediately made available
+that populates an.
+Any data that is sent into the calendar immediately made available
 to the public in various formats that can be used a wide variety of programs.
 
 There's lots of siloed data in government, and we need better software and
 methods for opening that up. But let's also make tools that prevent data from
-becoming siloed in the first place.
-
-We are producing much rich information when we do ordinary word processing,
-scheduling, emailing, &c. The written documents themselves tell us quite a
-bit, but so do simple things like the dates at which we were editing the
-documents, the people we sent them to and just the number of documents we have.
-You might not have realized it about it, but all of our software could export
-this sort of information to standard tabular formats.
-If we want to embrace open data fully, we should be using programs that make data
-open at their sources.
+becoming siloed in the first place. Imagine if Outlook, Google Calendar,
+or whatever calendar software you use had a CSV export option.
 
 ### Anything could be data, and data could be anything
 For someone like me, it's not a big deal if standard calendar software
@@ -239,7 +232,7 @@ and turn that into [cookies](https://twitter.com/internetrebecca/status/35295529
 Much of our statistical
 knowledge is based around a concept of a table, with columns as
 variables (like "eye color") and rows as observations. (So each row might
-be a different person.) This conceptual tabular representation is what
+be a different person.) This tabular representation is what
 I think of as "data".
 
 If we can represent the world as data, we can apply many quantitative
