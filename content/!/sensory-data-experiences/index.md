@@ -2,6 +2,7 @@
 title: Multisensory data experiences
 kind: article
 created_at: 2013-04-10
+tags: ['sensing-data']
 ---
 Big data leads quickly to information overload.
 
