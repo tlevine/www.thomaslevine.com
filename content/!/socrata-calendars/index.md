@@ -1,6 +1,12 @@
 ---
+created_at: 2013-07-29
+kind: article
 title: Open Calendars
 tweet_text: Oregon's open calendar is a 3436-row spreadsheet. #opendata
+twitter_title: Why we should prevent data-siloing at the source
+description: Open calendars on Socrata suggest an elegant open data strategy.
+twitter_image: figure/meeting-length-2.png
+tags: ['socrata']
 ---
 My new favorite Socrata visualization is the calendar.
 
@@ -10,8 +16,7 @@ it tries to be; you can make various charts and maps, and you
 can serve non-tabular information to some degree.
 
 There are many ways that a particular dataset could be visualized.
-Socrata has 20 ways.
-Here they are.
+Socrata has 20 ways. Here they are.
 
 ![plot of chunk display-types](figure/display-types.png){:.wide}
 
