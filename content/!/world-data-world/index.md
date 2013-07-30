@@ -3,10 +3,10 @@ title: World -> Data -> World
 ---
 To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
-But for many (most?) people, it is not common sense. I think this is a
+But for many people, it is not common sense. I think this is a
 particularly important concept to convey if we want to teach data literacy
 (or whatever you want to call it). So now I'll talk about some ways that
-I teach this concept.
+we might teach this concept.
 
 ## What is data?
 People use the word "data" to mean everything, so I never really know
@@ -32,7 +32,8 @@ of a complex data-driven system and by brainstorming different types
 of information that can be extracted from a web page.
 
 ### Architecture walkthrough
-People expect me to tell them what Python code to write to pull the
+When people ask me to teach web scraping,
+they expect me to tell them what Python code to write to pull the
 numbers out of the web page. If I have time, I get to that, but I
 start by breaking down the process by which a human would collect the
 data. If the students don't have a good example, I use
