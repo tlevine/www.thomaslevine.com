@@ -1,5 +1,6 @@
 ---
 title: World -> Data -> World
+tags: ['sensory-data']
 ---
 To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
