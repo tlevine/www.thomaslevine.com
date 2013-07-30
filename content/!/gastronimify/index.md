@@ -1,12 +1,16 @@
 ---
 title: gastronomify
+created_at: 2013-07-31
+tags: ['sensing-data']
+tweet_text: A long-overdue post on gastRonomify http://thomaslevine.com/!/gastronomify
+description: Convert data into food with R
 ---
 I just wrote an R package that lets you turn data into food.
 It's called [`gastronomify`](https://github.com/tlevine/gastronomify).
 Install it like so.
 
 ```
-install_git('git://github.com/tlevine/gastronomify.git')
+install_git('git://github.com/csv/gastronomify.git')
 ```
 
 Then generate recipes. [Here](<%= @item.identifier %>yahoo-finance.r)'s
@@ -117,4 +121,4 @@ This will involve improving the metadata around recipes
 so that the taskrabbits know what to do.
 
 I'm also going to explore other ways of representing data
-through food, but I don't know where that will take me.
+through food, and I don't know where that will take me.
