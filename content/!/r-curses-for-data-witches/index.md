@@ -243,7 +243,7 @@ in a function that closes the device afterwards, with `dev.off`.
     par(mfrow = c(2, 2))
     plot(lm(Men ~ Women, data = pilgrams), mfrow = c(2, 2))
 
-![plot of chunk par-3](figure/par-3.png){:.wide}
+![plot of chunk par-3](figure/par-3.png)
 
 `bty` lets you change the outer border of the plot.
 
@@ -267,7 +267,7 @@ can help you build up more complicated plots.
 Displaying multiple sets of lines and points on a graph gets more messy.
 For example, let's say we want to make two lines to represent pilgram
 counts. One is for people on horseback, and the other is for people on
-foot. First, I like to make an empty plot with the full range so we don't
+foot. I like to start with an empty plot of the full range so we don't
 cut anything off. Let's also put the labels and remove the axes.
 
     plot.pilgram.base <- function() {
