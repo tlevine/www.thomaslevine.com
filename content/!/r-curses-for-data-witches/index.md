@@ -1,7 +1,8 @@
 ---
 title: R graphics tricks that you probably shouldn't use
 description: Learn from my mistakes! Don't waste years of your life learning to make nice plots with base R graphics.
-tweet_text: R curses for data witches
+tweet_text: R curses for data witches http://thomaslevine.com/!/r-curses-for-data-witches/
+tweet_link: https://twitter.com/thomaslevine/status/363389873371095040
 twitter_image: complicated-2.png
 facebook_image: complicated-2.png
 created_at: 2013-08-02
