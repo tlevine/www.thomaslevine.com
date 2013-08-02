@@ -1,13 +1,18 @@
 ---
 title: R graphics magic that you probably shouldn't use
-tweet_text: Learn from my mistakes; don't use base R graphics!
+tweet_text1: Learn from my mistakes; don't use base R graphics!
+tweet_text2: I understand neither how nor why people learn base R graphics.
 ---
 I've spent years of my life trying to make nice plots with base R
 graphics. I wish I'd found out about ggplot earlier. :(
 
-Regardless, I've learned a bunch of base R graphics tricks, so now
+Anyway, I've learned a bunch of base R graphics tricks, so now
 I'm going to show you my vague boilerplates for bar plots, strip
 charts, and more complicated plots.
+
+If you already use base R graphics a lot, you might pick up some
+useful tricks. And if you haven't used base R graphics much,
+maybe I'll just convince you not to start.
 
 ## Data
 I'm going to use data came from an earlier version of
