@@ -37,7 +37,7 @@ trying to show you how to make plots, so I'm just going to remove the missing va
 wellbeing <- na.omit(read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD'))
 ```
 
-## Bar plots (one factor)
+## Bar plots
 Maybe we want count the marital statuses of Somerville residents.
 This won't work.
 
@@ -113,8 +113,6 @@ barplot(
 )
 ```
 
-The above call is boilerplate to me; in order to have any chance at making
-any vaguely decent bar plot, you minimally need to adjust all of those parameters.
 Summing that up, this is approximately what I think the default barplot function should be.
 
     tom.barplot <- function(height, col = 'grey', border = NA, ...) {
@@ -125,15 +123,14 @@ Summing that up, this is approximately what I think the default barplot function
       )
     }
 
-## Strip charts (one factor and one numeric)
-A stripchart is sort of like a histogram, but it doesn't bin the observations.
-Here is how people in Somerville are feeling, on a range of 1 to 10.
+## Strip charts
+Here is a strip chart about how people in Somerville are feeling, on a range of 1 to 10.
 
 ```{r stripchart-1}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now.., method = 'jitter')
 ```
 
-We can also stack the observations
+The observations are randomly jittered above, but we can also stack the observations.
 
 ```{r stripchart-2}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now.., method = 'stack')
@@ -163,43 +160,66 @@ You can see all of the pch types here, from `example(points)`.
 pchShow()
 ```
 
-Now we could also color the points by a different color depending on the
-gender.
+That's just a bar plot. Let's switch back to jittering and make the
+points translucent.
 
 ```{r stripchart-5}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
-  method = 'stack', xlim = c(1,10), col = NA, pch = 22, bg = 3 + wellbeing$X15..Gender..1..female..2..male.
-)
-legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
+  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = '#00000033')
 ```
 
-Let's fix the legend.
+Let's make a nicer axis.
 
 ```{r stripchart-6}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
-  method = 'stack', xlim = c(1,10), col = NA, pch = 22,
-  bg = 3 + wellbeing$X15..Gender..1..female..2..male.,
-  axes = FALSE
+  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = '#00000033',
+  axes = FALSE, xlab = 'How happy do you feel right now, on a scale of 1 to 10?',
+  main = 'How happy Somerville residents feel'
 )
-legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
 axis(1,at=1:10)
 ```
 
-And let's not waste the bottom half of the canvas.
+And let's not waste half of the canvas.
 
 ```{r stripchart-7}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
-  method = 'stack', xlim = c(1,10), col = NA, pch = 22,
-  bg = 3 + wellbeing$X15..Gender..1..female..2..male.,
-  axes = FALSE, ylim = 1:2
+  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = '#00000033',
+  axes = FALSE, xlab = 'How happy do you feel right now, on a scale of 1 to 10?',
+  main = 'How happy Somerville residents feel',
+  jitter = 0.5, ylim = c(0,2)
 )
-legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
 axis(1,at=1:10)
 ```
 
-Like I said before for `barplot`, you should see this `stripchart` command
-as the boilerplate for making strip charts. Like `barplot`, `stripchart` is
-quite ugly until you set all of these parameters.
+## Stacked bar plots
+Now we could also color the points by a different color depending on the
+gender.
+
+```{r stacked-barplot-1}
+barplot(
+  table(wellbeing$X15..Gender..1..female..2..male., wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..),
+  border = NA, col = c("#333333", "#999999"),
+  xlab = 'How happy do you feel right now, on a scale of 1 to 10?',
+  main = 'How happy Somerville residents feel, by gender'
+)
+```
+
+We make the legend in a separate command.
+
+```{r stacked-barplot-2}
+wellbeing$X15..Gender..1..female..2..male. <- factor(wellbeing$X15..Gender..1..female..2..male., levels = 1:2)
+levels(wellbeing$X15..Gender..1..female..2..male.) <- c('Female', 'Male')
+col <- c("#333333", "#999999")
+barplot(
+  table(wellbeing$X15..Gender..1..female..2..male., wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..),
+  border = NA, col = col,
+  xlab = 'How happy do you feel right now, on a scale of 1 to 10?',
+  ylab = 'Number of residents',
+  main = 'How happy Somerville residents feel, by gender'
+)
+legend('topleft', legend = levels(wellbeing$X15..Gender..1..female..2..male.),
+  col = NA, pch = 22, pt.bg = col)
+```
 
 ## par
 All of these `col`, `pch`, `bg`, `fg`, `border`, &c. commands are graphical
