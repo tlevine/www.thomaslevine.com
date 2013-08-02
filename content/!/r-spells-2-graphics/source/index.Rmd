@@ -3,8 +3,11 @@ title: R graphics magic that you probably shouldn't use
 tweet_text1: Learn from my mistakes; don't use base R graphics!
 tweet_text2: I understand neither how nor why people learn base R graphics.
 ---
+```{r configure, echo = F}
+opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
+```
 I've spent years of my life trying to make nice plots with base R
-graphics. I wish I'd found out about ggplot earlier. :(
+graphics. (I wish I'd found out about ggplot earlier.)
 
 Anyway, I've learned a bunch of base R graphics tricks, so now
 I'm going to show you my vague boilerplates for bar plots, strip
@@ -113,15 +116,13 @@ The above call is boilerplate to me; in order to have any chance at making
 any vaguely decent bar plot, you **minimally** need to adjust all of those parameters.
 Summing that up, this is what I think the default barplot function should be.
 
-```{r barplot-tom}
-tom.barplot <- function(height, col = 'grey', border = NA, ...) {
-  barplot(
-    sort(table(height)), col = col, border = border,
-    col = '#666666', fg = '#333333', col.axis = '#333333',
-    ...
-  )
-}
-```
+    tom.barplot <- function(height, col = 'grey', border = NA, ...) {
+      barplot(
+        sort(table(height)), col = col, border = border,
+        col = '#666666', fg = '#333333', col.axis = '#333333',
+        ...
+      )
+    }
 
 ## One factor and one numeric
 A stripchart is sort of like a histogram, but it doesn't bin the observations.
@@ -168,7 +169,7 @@ gender.
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
   method = 'stack', xlim = c(1:10), col = NA, pch = 22, bg = 3 + wellbeing$X15..Gender..1..female..2..male.
 )
-legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5
+legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
 ```
 
 Like I said before for `barplot`, you should see this `stripchart` command
@@ -296,5 +297,4 @@ plot-configuration interface (through the grammar of graphics), so all
 of those boilerplate plots would have been a rather simple sum of ggplot elements.
 
 I try to use ggplot for most things these days, but I still use base
-R graphics for
-[music videos](/music).
+R graphics for [music videos](/music).
