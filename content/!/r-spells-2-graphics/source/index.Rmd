@@ -1,5 +1,6 @@
 ---
-title: R graphics magic that you probably shouldn't use
+title: R graphics tricks that you probably shouldn't use
+tweet_text: R curses for data witches
 tweet_text1: Learn from my mistakes; don't use base R graphics!
 tweet_text2: I understand neither how nor why people learn base R graphics.
 ---
@@ -8,9 +9,10 @@ opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 options(width = 160)
 ```
 I've spent/wasted years of my life trying to make nice plots with
-base R graphics, so I've learned abunch of base R graphics tricks.
-I'm going to show you my vague boilerplates for bar plots, strip
-charts, and more complicated plots.
+base R graphics, so I've learned a bunch of base R graphics tricks.
+One annoying part of base R graphics is that the defaults look ugly,
+so I'm going to show you how to make some bar plots, strip charts,
+and line plots that don't look so ugly.
 
 You might pick up some useful tricks from this post, but I really
 hope that the insanity of it encourages you to use ggplot instead.
@@ -34,7 +36,7 @@ trying to show you how to make plots, so I'm just going to remove the missing va
 wellbeing <- na.omit(read.csv('http://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD'))
 ```
 
-## One factor
+## Bar plots (one factor)
 Maybe we want count the marital statuses of Somerville residents.
 This won't work.
 
@@ -122,7 +124,7 @@ Summing that up, this is approximately what I think the default barplot function
       )
     }
 
-## One factor and one numeric
+## Strip charts (one factor and one numeric)
 A stripchart is sort of like a histogram, but it doesn't bin the observations.
 Here is how people in Somerville are feeling, on a range of 1 to 10.
 
@@ -172,14 +174,14 @@ legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
 
 And let's fix the legend.
 
-```{r stripchart-5}
+```{r stripchart-6}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
   method = 'stack', xlim = c(1,10), col = NA, pch = 22,
   bg = 3 + wellbeing$X15..Gender..1..female..2..male.,
   axes = FALSE
 )
 legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
-axis(1)
+axis(1,at=1:10)
 ```
 
 Like I said before for `barplot`, you should see this `stripchart` command
@@ -218,7 +220,7 @@ in a function that closes the device afterwards, with `dev.off`.
 
 `mfrow` and `mfcol` allow you to make multiple plots in one device
 
-```{r par-3}
+```{r par-3, fig.width = 5}
 par(mfrow = c(2,2))
 plot(lm(Men ~ Women, data = pilgrams), mfrow = c(2,2))
 ```
@@ -242,7 +244,7 @@ default. Setting `new` to `TRUE` makes it not clear the plot, which
 can help you build up more complicated plots.
 
 
-## Complicated plots
+## Line plots
 Displaying multiple sets of lines and points on a graph gets more messy.
 For example, let's say we want to make two lines to represent pilgram
 counts. One is for people on horseback, and the other is for people on
@@ -288,6 +290,7 @@ plot.pilgram.axes <- function() {
 }
 plot.pilgram.base()
 plot.pilgram.lines()
+plot.pilgram.axis()
 ```
 
 The tick marks go at `at`, and they are labeled with `labels`.
