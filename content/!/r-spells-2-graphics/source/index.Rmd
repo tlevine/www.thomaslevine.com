@@ -271,13 +271,14 @@ axis(2, at = seq(0, 60000, 10000), labels = c(0, paste0(1:6, '0,000')))
 The tick marks go at `at`, and they are labeled with `labels`.
 
 
-The above dozen-or-so lines of code are approximately my boilerplate for simple
-line plots. Partly, this is because I switched the default axis for calls to `axis`;
-I usually do this with any plot, but I left it out of the earlier stripcharts and
-bar plot. But the main reason for the increased size is that different levels/subsets
-need to be plotted as separate calls.
+The past seven expressions/lines of code are approximately my boilerplate for simple
+line plots. How is it that this take seven expressions when the strip chart and bar
+plot boilerplates only take one each?
 
-
+Partly, this is because I switched the default axis for calls to `axis`; I usually
+do this with any plot, but I left it out of the earlier stripcharts and bar plot.
+But the main reason for the increased size is that different levels/subsets need to
+be plotted as separate calls in order to make separate curves/lines on the plot.
 
 
 ## Conclusion
