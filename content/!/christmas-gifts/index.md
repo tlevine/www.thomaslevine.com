@@ -17,4 +17,4 @@ I decided that I'd make my own.
 ></iframe>
 
 I used R to [generate a PDF](http://gitorious.org/tlevine/12daysplot/blobs/master/12daysslideshow.R)
-and then did a screencast of the PDF with ffmpeg to make a video with the appropriate timings.
+and then did a screencast of the PDF.
