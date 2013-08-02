@@ -157,7 +157,7 @@ stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
 You can see all of the pch types here.
 
 ```{r stripchart-pch}
-pchShow()
+example(points, ask = FALSE)
 ```
 
 Now we could also color the points by a different color depending on the
@@ -238,33 +238,44 @@ foot. First, I like to make an empty plot with the full range so we don't
 cut anything off. Let's also put the labels and remove the axes.
 
 ```{r complicated-1}
-plot(0,0,
-  xlim = range(pilgrams$id),
-  ylim = c(0,max(c(pilgrams$Foot, pilgrams$Bicicle))),
-  xlab = 'Month',
-  ylab = 'Number of pilgrams',
-  main = 'Pilgrams by month and transportation medium',
-  axes = FALSE,
-  type = 'n'
-)
+plot.pilgram.base <- function(){
+  plot(0,0,
+    xlim = range(pilgrams$id),
+    ylim = c(0,max(c(pilgrams$Foot, pilgrams$Bicicle))),
+    xlab = 'Month',
+    ylab = 'Number of pilgrams',
+    main = 'Pilgrams by month and transportation medium',
+    axes = FALSE,
+    type = 'n'
+  )
+}
+plot.pilgram.base()
 ```
 
 The key there is `type = 'n'`, which makes no data be plotted.
 Now we can add the lines one at a time.
 
 ```{r complicated-2}
-lines(Foot ~ id, data = pilgrams, lty = 1)
-lines(Bicicle ~ id, data = pilgrams, lty = 2)
-legend('topleft', c('Foot', 'Bicycle'), title = 'Transportation media', lty = 1:2)
+plot.pilgram.lines <- function() {
+  lines(Foot ~ id, data = pilgrams, lty = 1)
+  lines(Bicicle ~ id, data = pilgrams, lty = 2)
+  legend('topleft', c('Foot', 'Bicycle'), title = 'Transportation media', lty = 1:2)
+}
+plot.pilgram.base()
+plot.pilgram.lines()
 ```
 
 I removed the axes because the default axes are usually quite
 ugly. Now let's add prettier axes.
 
 ```{r complicated-3}
-axis(1, at = seq(1, 80, 10), labels = paste('January', unique(pilgrams$year)))
-par(las = 1)
-axis(2, at = seq(0, 60000, 10000), labels = c(0, paste0(1:6, '0,000')))
+plot.pilgram.axes <- function() {
+  axis(1, at = seq(1, 80, 10), labels = paste('January', unique(pilgrams$year)))
+  par(las = 1)
+  axis(2, at = seq(0, 60000, 10000), labels = c(0, paste0(1:6, '0,000')))
+}
+plot.pilgram.base()
+plot.pilgram.lines()
 ```
 
 The tick marks go at `at`, and they are labeled with `labels`.
