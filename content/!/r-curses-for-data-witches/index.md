@@ -7,6 +7,7 @@ facebook_image: complicated-2.png
 created_at: 2013-08-02
 kind: article
 ---
+<style>pre { font-size: 0.8em; }</style>
 I've spent/wasted years of my life trying to make nice plots with
 base R graphics, so I've learned a bunch of base R graphics tricks.
 One annoying part of base R graphics is that the defaults look ugly,
@@ -129,25 +130,24 @@ The observations are randomly jittered above, but we can also stack the observat
 
 Let's change the scale to emphasize its limits.
 
-stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now.., method = "stack", xlim = c(1, 10))
+    stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now.., method = "stack", xlim = c(1, 10))
 
 ![plot of chunk stripchart-3](figure/stripchart-3.png){:.wide}
 
 The white boxes with borders are noisy; let's change them to filled boxes.
 The default point type (`pch = 1`) doesn't support a fill color (`bg`),
-so we have to switch to a different point type.
+so we have to switch to a different point type;
+here are the different point types, from `example(points)`.
+
+![pchShow](figure/stripchart-pch.png){:.wide}
+
+Let's use `pch = 22`.
 
     stripchart(
       wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
       method = "stack", xlim = c(1, 10), col = NA, pch = 22, bg = 1)
 
 ![plot of chunk stripchart-4](figure/stripchart-4.png){:.wide}
-
-You can see all of the pch types here, from `example(points)`.
-
-    pchShow()
-
-![plot of chunk stripchart-pch](figure/stripchart-pch.png){:.wide}
 
 That's just a bar plot. Let's switch back to jittering and make the
 points translucent.
@@ -310,15 +310,6 @@ ugly. Now let's add prettier axes.
 ![plot of chunk complicated-3](figure/complicated-3.png){:.wide}
 
 The tick marks go at `at`, and they are labeled with `labels`.
-
-The past seven expressions/lines of code are approximately my boilerplate for simple
-line plots. How is it that this take seven expressions when the strip chart and bar
-plot boilerplates only take one each?
-
-Partly, this is because I switched the default axis for calls to `axis`; I usually
-do this with any plot, but I left it out of the earlier stripcharts and bar plot.
-But the main reason for the increased size is that different levels/subsets need to
-be plotted as separate calls in order to make separate curves/lines on the plot.
 
 ## Use ggplot
 I just showed you some simple bar plots, strip chart and
