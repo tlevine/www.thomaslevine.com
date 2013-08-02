@@ -320,15 +320,13 @@ do this with any plot, but I left it out of the earlier stripcharts and bar plot
 But the main reason for the increased size is that different levels/subsets need to
 be plotted as separate calls in order to make separate curves/lines on the plot.
 
-## Conclusion
-I just showed you some boilerplate bar plots, strip chart and
-line plots, each involving a few lines of code to produce the plot
-that I conceive as the default.
-
-Setting each of the defaults involved a bit of work. Moreover, each
-plot type took slightly different inputs, so I needed to transform
-the data a bit differently for each one and to send different
-parameters for each one.
+## Use ggplot
+I just showed you some simple bar plots, strip chart and
+line plots in base R graphics. Each one only took a few lines,
+but they were sort of complicated. Moreover, each plot type
+took slightly different inputs, so I needed to transform the
+data a bit differently for each one and to send different
+parameters for each one. This is what makes base R graphics.
 
 ggplot, on the other hand, has a much more reasonable and standardized
 plot-configuration interface (through the grammar of graphics). The
