@@ -154,10 +154,10 @@ stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
 )
 ```
 
-You can see all of the pch types here.
+You can see all of the pch types here, from `example(points)`.
 
 ```{r stripchart-pch}
-example(points, ask = FALSE)
+pchShow()
 ```
 
 Now we could also color the points by a different color depending on the

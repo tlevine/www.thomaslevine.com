@@ -1,5 +1,9 @@
 library(knitr)
 library(sqldf)
+if (!('pchShow' %in% ls())){
+  # define pchShow
+  example(points, ask = FALSE)
+}
 
 knit('index.Rmd')
 file.rename('index.md', '../index.md')
