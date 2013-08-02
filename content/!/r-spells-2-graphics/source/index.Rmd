@@ -165,14 +165,14 @@ points translucent.
 
 ```{r stripchart-5}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
-  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = '#00000033')
+  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = "#00000033")
 ```
 
 Let's make a nicer axis.
 
 ```{r stripchart-6}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
-  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = '#00000033',
+  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = "#00000033",
   axes = FALSE, xlab = 'How happy do you feel right now, on a scale of 1 to 10?',
   main = 'How happy Somerville residents feel'
 )
@@ -183,7 +183,7 @@ And let's not waste half of the canvas.
 
 ```{r stripchart-7}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
-  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = '#00000033',
+  method = 'jitter', xlim = c(1,10), col = NA, pch = 22, bg = "#00000033",
   axes = FALSE, xlab = 'How happy do you feel right now, on a scale of 1 to 10?',
   main = 'How happy Somerville residents feel',
   jitter = 0.5, ylim = c(0,2)
