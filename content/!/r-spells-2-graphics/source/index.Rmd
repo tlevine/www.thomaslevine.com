@@ -1,8 +1,9 @@
 ---
 title: R graphics tricks that you probably shouldn't use
+description: Learn from my mistakes! Don't waste years of your life learning to make nice plots with base R graphics.
 tweet_text: R curses for data witches
-tweet_text1: Learn from my mistakes; don't use base R graphics!
-tweet_text2: I understand neither how nor why people learn base R graphics.
+twitter_image: complicated-2.png
+facebook_image: complicated-2.png
 ---
 ```{r configure, echo = F}
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
@@ -172,13 +173,25 @@ stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
 legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
 ```
 
-And let's fix the legend.
+Let's fix the legend.
 
 ```{r stripchart-6}
 stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
   method = 'stack', xlim = c(1,10), col = NA, pch = 22,
   bg = 3 + wellbeing$X15..Gender..1..female..2..male.,
   axes = FALSE
+)
+legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
+axis(1,at=1:10)
+```
+
+And let's not waste the bottom half of the canvas.
+
+```{r stripchart-7}
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
+  method = 'stack', xlim = c(1,10), col = NA, pch = 22,
+  bg = 3 + wellbeing$X15..Gender..1..female..2..male.,
+  axes = FALSE, ylim = 1:2
 )
 legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
 axis(1,at=1:10)
@@ -290,7 +303,7 @@ plot.pilgram.axes <- function() {
 }
 plot.pilgram.base()
 plot.pilgram.lines()
-plot.pilgram.axis()
+plot.pilgram.axes()
 ```
 
 The tick marks go at `at`, and they are labeled with `labels`.
