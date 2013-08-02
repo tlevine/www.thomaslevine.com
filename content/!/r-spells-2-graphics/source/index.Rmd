@@ -6,16 +6,13 @@ tweet_text2: I understand neither how nor why people learn base R graphics.
 ```{r configure, echo = F}
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 ```
-I've spent years of my life trying to make nice plots with base R
-graphics. (I wish I'd found out about ggplot earlier.)
-
-Anyway, I've learned a bunch of base R graphics tricks, so now
+I've spent/wasted years of my life trying to make nice plots with
+base R graphics, so I've learned abunch of base R graphics tricks.
 I'm going to show you my vague boilerplates for bar plots, strip
 charts, and more complicated plots.
 
-If you already use base R graphics a lot, you might pick up some
-useful tricks. And if you haven't used base R graphics much,
-maybe I'll just convince you not to start.
+You might pick up some useful tricks from this post, but I really
+hope that the insanity of it encourages you to use ggplot instead.
 
 ## Data
 I'm going to use data came from an earlier version of
