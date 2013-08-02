@@ -111,8 +111,8 @@ barplot(
 ```
 
 The above call is boilerplate to me; in order to have any chance at making
-any vaguely decent bar plot, you **minimally** need to adjust all of those parameters.
-Summing that up, this is what I think the default barplot function should be.
+any vaguely decent bar plot, you minimally need to adjust all of those parameters.
+Summing that up, this is approximately what I think the default barplot function should be.
 
     tom.barplot <- function(height, col = 'grey', border = NA, ...) {
       barplot(
@@ -168,6 +168,18 @@ stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
   method = 'stack', xlim = c(1,10), col = NA, pch = 22, bg = 3 + wellbeing$X15..Gender..1..female..2..male.
 )
 legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
+```
+
+And let's fix the legend.
+
+```{r stripchart-5}
+stripchart(wellbeing$X1...First.of.all..how.happy.do.you.feel.right.now..,
+  method = 'stack', xlim = c(1,10), col = NA, pch = 22,
+  bg = 3 + wellbeing$X15..Gender..1..female..2..male.,
+  axes = FALSE
+)
+legend('topleft', c('Female', 'Male'), col = NA, pch = 22, pt.bg = 4:5)
+axis(1)
 ```
 
 Like I said before for `barplot`, you should see this `stripchart` command
@@ -302,8 +314,9 @@ the data a bit differently for each one and to send different
 parameters for each one.
 
 ggplot, on the other hand, has a much more reasonable and standardized
-plot-configuration interface (through the grammar of graphics), so all
-of those boilerplate plots would have been a rather simple sum of ggplot elements.
+plot-configuration interface (through the grammar of graphics). The
+equivalent ggplot commands for all of these plots would have been about
+as complicated but much more predictable and consistent across plot types.
 
-I try to use ggplot for most things these days, but I still use base
-R graphics for [music videos](/music).
+I still use base R graphics for [music videos](/music), but
+I try to use ggplot for everything else.
