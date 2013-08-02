@@ -286,8 +286,15 @@ I just showed you some boilerplate bar plots, strip chart and
 line plots, each involving a few lines of code to produce the plot
 that I conceive as the default.
 
-Learn from my mistakes! Don't learn base R graphics, unless you want
-to make [music videos]().
-ggplot has more reasonable supports and relates
-different variables better (through the grammar of graphics), so all of
-those boilerplate plots would have been one call to ggplot.
+Setting each of the defaults involved a bit of work. Moreover, each
+plot type took slightly different inputs, so I needed to transform
+the data a bit differently for each one and to send different
+parameters for each one.
+
+ggplot, on the other hand, has a much more reasonable and standardized
+plot-configuration interface (through the grammar of graphics), so all
+of those boilerplate plots would have been a rather simple sum of ggplot elements.
+
+I try to use ggplot for most things these days, but I still use base
+R graphics for
+[music videos](/music).
