@@ -1,12 +1,13 @@
 ---
-title: R graphics magic that you should never use
+title: R graphics magic that you probably shouldn't use
+tweet_text: Learn from my mistakes; don't use base R graphics!
 ---
-I've been making graphics in R for quite a while
-
 I've spent years of my life trying to make nice plots with base R
-graphics. I've learned a bunch of tricks along the way, so now I'm
-going to show you my vague boilerplate for bar plots, strip charts
-and more complicated plots.
+graphics. I wish I'd found out about ggplot earlier. :(
+
+Regardless, I've learned a bunch of base R graphics tricks, so now
+I'm going to show you my vague boilerplates for bar plots, strip
+charts, and more complicated plots.
 
 ## Data
 I'm going to use data came from an earlier version of
