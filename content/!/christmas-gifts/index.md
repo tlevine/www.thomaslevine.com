@@ -2,7 +2,7 @@
 title: Christmas Gifts
 created_at: 2011-01-05
 kind: article
-tags: ['sensory-data', 'doodles']
+tags: ['sensory-data', 'doodles', 'music']
 ---
 
 How many gifts did my true love give to me on all twelve nights of Christmas?
