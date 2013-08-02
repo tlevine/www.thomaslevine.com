@@ -97,7 +97,7 @@ but that's a bit harsh. Instead, let's make everything grey.
 ```{r barplot-8}
 barplot(
   sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE),
-  horiz = TRUE, las = 1, border = NA, col = '#666666', fg = '#333333', col.axis = '#333333'
+  horiz = TRUE, las = 1, border = NA, col = "#666666", fg = "#333333", col.axis = "#333333"
 )
 ```
 
@@ -106,7 +106,7 @@ And add a title, of course
 ```{r barplot-9}
 barplot(
   sort(table(wellbeing$X24..What.is.your.marital.status.), decreasing = TRUE),
-  horiz = TRUE, las = 1, border = NA, col = '#666666', fg = '#333333', col.axis = '#333333',
+  horiz = TRUE, las = 1, border = NA, col = "#666666", fg = "#333333", col.axis = "#333333",
   xlab = 'Number of residents',
   main = 'Marital statuses of Somerville residents'
 )
