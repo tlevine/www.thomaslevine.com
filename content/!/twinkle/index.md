@@ -5,6 +5,6 @@ kind: article
 tags: ['doodles', 'music']
 ---
 
-<video src="<%= @item.identifier %>twinkle.webm"></video>
+<video controls width="100%" src="<%= @item.identifier %>twinkle.webm"></video>
 
 (Shot in [Film Biz Recycling & Prop Shop](http://www.filmbizrecycling.org/))
