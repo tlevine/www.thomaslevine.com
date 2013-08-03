@@ -89,6 +89,19 @@
     .attr('fill', 'white')
     .text('Sum of squares')
 
+  viz.viz.selectAll('line.tick')
+    .data(sample)
+    .enter()
+    .append('line')
+    .attr('class', 'tick')
+    .attr('x1', function(d) { return SIDE * d })
+    .attr('x2', function(d) { return SIDE * d })
+    .attr('y1', 0.99 * SIDE)
+    .attr('y2', 1.01 * SIDE)
+    .attr('stroke', 'white')
+    .attr('stroke-opacity', 0.3)
+    .attr('stroke-width', SIDE / 200)
+
   viz.plot = function(center) {
     // The error distance from center
     errorSide = function(d) {
@@ -104,7 +117,7 @@
     viz.mean.selectAll('rect').remove()
 
     // Point errors (corresponds to the mode)
-    viz.viz.selectAll('circle')
+    viz.viz.selectAll('circle.d0')
       .data(sample)
       .enter()
       .append('circle')
@@ -118,7 +131,7 @@
       })
 
     // Linear errors (corresponds to the median)
-    viz.viz.selectAll('line')
+    viz.viz.selectAll('line.d1')
       .data(sample)
       .enter()
       .append('line')
@@ -137,7 +150,7 @@
       .attr('stroke-opacity', 0.4)
 
     // Square errors (corresponds to the mean)
-    viz.viz.selectAll('rect')
+    viz.viz.selectAll('rect.d2')
       .data(sample)
       .enter()
       .append('rect')
