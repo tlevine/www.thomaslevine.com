@@ -77,7 +77,7 @@ $$Distance_1=\sum_i \lvertx_i - c\rvert^1$$
 The value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
 
 ### Sum of points
-To make this work with the zero-order distance, let's define $$0^0$$ to equal 0.
+To make this work with the zero-order distance, I proclaim that $$0^0$$ equals 0.
 The sum of lines is this.
 
 $$Distance_0=\sum_i \lvert x_i - c \rvert ^0$$
