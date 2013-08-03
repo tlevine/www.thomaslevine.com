@@ -56,7 +56,7 @@ measure. A general distance measure that includes all of these is the
 sum of n-dimensional volumes (Is there a better word for that?) of the
 n-dimensional hypercubes. Said more concisely,
 
-$$Distance_n=\sum_i |x_i - c|^n$$
+$$Distance_n=\sum_i \|x_i - c\|^n$$
 
 where each $$i$$ corresponds to an observation (represented above by tick marks),
 $$n$$ is the number of dimensions, and $$c$$ represents that other number
@@ -65,16 +65,16 @@ $$n$$ is the number of dimensions, and $$c$$ represents that other number
 ### Sum of squares
 The sum of squares is thus this.
 
-$$Distance_2=\sum_i |x_i - c|^2$$
+$$Distance_2=\sum_i \|x_i - c\|^2$$
 
-And the value of $$c$$ that minimizes $$Distance_2$$ is the *mean*.
+The value of $$c$$ that minimizes $$Distance_2$$ is the *mean*.
 
 ### Sum of lines
 The sum of lines is this.
 
 $$Distance_1=\sum_i |x_i - c|^1$$
 
-And the value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
+The value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
 
 ### Sum of points
 To make this work with the zero-order distance, let's define $$0^0$$ to equal 0.
@@ -82,7 +82,7 @@ The sum of lines is this.
 
 $$Distance_0=\sum_i |x_i - c|^0$$
 
-And the value of $$c$$ that minimizes $$Distance_1$$ is the *mode*.
+The value of $$c$$ that minimizes $$Distance_1$$ is the *mode*.
 
 ## Higher-power distance measures emphasize more extreme values
 I see the mode, median and mean as different measures of the center of a
@@ -100,27 +100,30 @@ distinguish between an observation that is slightly greater than most and an
 observation that is exceptionally greater than most.
 
 Compared to the median, the mean takes more information from extreme values.
-If we have only two observations, the sum of lines will be the same as long
+It might not be particularly obvious why, so I present a simple example.
+
+![Drawing in marker of the situation explained in the next paragraph](<%= @item.identifier %>two-observations.jpg){:.wide}
+
+If we have only two observations (represented above by the black dots),
+the sum of lines will be the same as long
 as we choose a center point that is between the two points; the sum of lines
 will be the distance between the two points. The sum of squares, on the other
-hand, is smallest in the center because we'll have two smallish squares rather
-than one huge square.
-
-<!-- drawing -->
+hand, is smallest in the center because we'll have two smallish squares
+(orange) rather than one huge square (teal).
 
 ## Center points for higher-power distance measures
 What center points minimize these higher-power distance measures? I calculated
 the distance measures for dimensions up to 100 on the following skewed
 distribution, using many different center values for each dimension.
 
-![Histogram of a sample of a poisson distribution with lamda of 4](<%= @item.identifier %>distribution.png)
+![Histogram of a sample of a poisson distribution with lamda of 4](<%= @item.identifier %>distribution.png){:.wide}
 
 Then I chose the center value with the lowest distance measure and
 called that the n-dimensional measure of the distribution's center.
 (Mode is the 0-dimensional measure, median is the
 1-dimensonal measure, and mean is the 2-dimensional measure.)
 
-![Line plot of the center values that minimize the n-dimensional distance measure, as a function of n](<%= @item.identifier %>error-plot.png)
+![Line plot of the center values that minimize the n-dimensional distance measure, as a function of n](<%= @item.identifier %>error-plot.png){:.wide}
 
 As the number of dimensions goes up, the measure of the center moves in the
 direction of the long tail of the distribution.

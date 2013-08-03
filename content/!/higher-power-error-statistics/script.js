@@ -63,7 +63,7 @@
   }
 
   viz.viz = d3.select("#viz")
-    .append('svg').attr('width', SIDE).attr('height', SIDE * 1.01)
+    .append('svg').attr('width', SIDE * 1.01).attr('height', SIDE * 1.01)
     .attr('style', 'display: block')
 
   viz.caption = d3.select("#viz")
