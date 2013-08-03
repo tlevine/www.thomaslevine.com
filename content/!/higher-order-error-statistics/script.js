@@ -63,7 +63,7 @@
   }
 
   viz.viz = d3.select("#viz")
-    .append('svg').attr('width', SIDE).attr('height', SIDE)
+    .append('svg').attr('width', SIDE).attr('height', SIDE * 1.01)
     .attr('style', 'display: block')
 
   viz.caption = d3.select("#viz")
@@ -74,16 +74,19 @@
   viz.mode = viz.caption.append('svg').attr('class', 'mode').attr('width', SIDE/3).attr('height', SIDE * 4/9)
   viz.mode.append('text').attr('x', SIDE/6).attr('y', SIDE * 3.5/9)
     .attr('style', 'text-anchor: middle;')
+    .attr('fill', 'white')
     .text('Sum of points')
 
   viz.median = viz.caption.append('svg').attr('class', 'median').attr('width', SIDE/3).attr('height', SIDE * 4/9)
   viz.median.append('text').attr('x', SIDE/6).attr('y', SIDE * 3.5/9)
     .attr('style', 'text-anchor: middle;')
+    .attr('fill', 'white')
     .text('Sum of lines')
 
   viz.mean = viz.caption.append('svg').attr('class', 'mean').attr('width', SIDE/3).attr('height', SIDE * 4/9)
   viz.mean.append('text').attr('x', SIDE/6).attr('y', SIDE * 3.5/9)
     .attr('style', 'text-anchor: middle;')
+    .attr('fill', 'white')
     .text('Sum of squares')
 
   viz.plot = function(center) {
@@ -109,7 +112,7 @@
       .attr('cx', function(d) { return SIDE * d })
       .attr('cy', viz.increment(SIDE / 75))
       .attr('r', SIDE / 250)
-      .attr('fill', 'black')
+      .attr('fill', 'white')
       .attr('fill-opacity', function(d) {
         return d === center ? 0 : 1
       })
@@ -128,7 +131,7 @@
       })
       .attr('y1', viz.increment(SIDE / 75))
       .attr('y2', viz.increment(SIDE / 75))
-      .attr('stroke', 'black')
+      .attr('stroke', 'white')
       .attr('stroke-dasharray', (SIDE/80) + ', ' + (SIDE /160))
       .attr('stroke-width', SIDE / 400)
       .attr('stroke-opacity', 0.4)
@@ -147,6 +150,7 @@
       })
       .attr('height', errorSide)
       .attr('width',  errorSide)
+      .attr('fill', 'white')
       .attr('fill-opacity', 0.03)
 
     viz.modeData = sample.map(function(x) { return viz.pow(x - center, 0) }).filter(function(x) { return x === 1})
@@ -163,7 +167,7 @@
         return (SIDE/3) * (1 - (Math.floor(i/ 10) * (1/11) + 1/11)) + (SIDE/3/11) - (SIDE/250)
       })
       .attr('r', SIDE / 250)
-      .attr('fill', 'black')
+      .attr('fill', 'white')
       .attr('fill-opacity', function(d) {
         return d === center ? 0 : 1
       })
@@ -176,7 +180,7 @@
       .attr('y2', function(d) { return (SIDE/3)-d})
       .attr('x1', SIDE/6)
       .attr('x2', SIDE/6)
-      .attr('stroke', 'black')
+      .attr('stroke', 'white')
       .attr('stroke-width', SIDE/90)
 
     viz.mean.selectAll('rect')
@@ -187,7 +191,7 @@
       .attr('x', function(d) {return ((SIDE/3) - d) /2})
       .attr('height', identity)
       .attr('width', identity)
-      .attr('fill', 'black')
+      .attr('fill', 'white')
 
 //  viz.caption.select('
   }
@@ -219,16 +223,17 @@
     .attr('class', 'center')
     .attr('x', function(d) { return SIDE * (d - centerBarWidth)})
     .attr('y', 0)
-    .attr('height', SIDE)
+    .attr('height', SIDE * 1.01)
     .attr('width', SIDE * 2 * centerBarWidth)
     .attr('fill', 'red')
-    .attr('fill-opacity', 0.5)
+    .attr('fill-opacity', 0.7)
     .call(drag)
 
   viz.viz.append('text')
     .attr('x', SIDE/2).attr('y', SIDE/8)
     .attr('style', 'text-anchor: end;')
     .attr('id', 'drag-me')
+    .attr('fill', 'white')
     .text('Drag the red bar -->')
 
 })()
