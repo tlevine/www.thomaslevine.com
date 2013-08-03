@@ -1,3 +1,10 @@
+/* Most of the plot's DOM elements are destroyed and recreated
+   on every drag of the red bar, and CSS is not separated from
+   the Javascript.
+   
+   The resulting plot doesn't seem to be outrageously slow, but
+   I apologize regardless for such an ugly creation. */
+
 (function(){
   window.viz = {}
 
