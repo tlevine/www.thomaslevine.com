@@ -90,7 +90,7 @@ across vector.
     paste(c('a','b','c'), 1:3)
 
 If you want to concatenate the elements within a vector,
-use `collapse`
+use `collapse`.
 
     paste(c('Pack', 'my', 'box', 'with', 'five', 'dozen', 'liquor', 'jugs.'), collapse = ' ')
 
@@ -148,7 +148,7 @@ If you're applying along a list or vector, `lapply` or `sapply`, respectively, a
 
 `apply` maps along any dimension of an array; you specify the dimension as an argument.
 
-`mapply` maps along a matrix, passing multiple arguments to the function
+`mapply` maps along multiple vectors, passing multiple arguments to the function.
 
 `rollapply` is really cool. It applies a function with a rolling window.
 For example, here's a rolling z-score that [Brian](http://brianabelson.com) wrote.
