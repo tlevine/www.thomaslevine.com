@@ -10,14 +10,14 @@ tweet_text: Is there a name for higher-power error statistics (beyond mode, medi
 facebook_text: Is there a name for higher-power error statistics (beyond mode, median and mean)?
 ---
 Let's say we have a bunch of numbers, represented by the tick marks towards
-the bottom the fancy interactive chart drawing thingy below. Next, we chose
+the bottom the fancy interactive plot drawing thingy below. Next, we chose
 some other number, represented by the big red bar that you can drag.
 
 ## Sums of shapes
 For each number in our bunch (each tick mark), we could draw a line from the
 number to the other number we chose (the red bar). Then we could draw a square
 for each of these numbers with a side as long as the this line. (These squares
-are represented by the squares in the chart thingy.) We could add up the areas
+are represented by the squares in the plot thingy.) We could add up the areas
 of all of these squares. People call that the *sum of squared error* or the
 *sum of squares*.
 
@@ -26,7 +26,8 @@ that the *sum of absolute errors*, but I like calling it the *sum of lines*.
 
 Sometimes, these lines will have no length because the two numbers that form
 the line (the tick mark and the red bar) are the same number. We could draw
-a point for each tick mark whose value is not exactly the same as the
+a point for each tick mark whose value is not exactly the same as the red bar.
+Then we could count how many points we have and call that the *sum of points*.
 
 <div id="viz" style='width: 640px; margin-left: auto; margin-right: auto;'></div>
 <small>
@@ -37,5 +38,15 @@ a point for each tick mark whose value is not exactly the same as the
 <script src="script.js"></script>
 
 ## Values of the other number that minimize the sums of shapes
+If you play around with the plot above, you'll find one location of the red bar
+that yields the smallest sum of squares. (The "Sum of squares" square at the
+bottom-right will be smallest for this situation.) We call this location the *mean*.
+
+You'll also find one spot or two adjacent spots that yield the smallest sum of
+lines. We call this location the *median*.
+
+And you'll find at least one spot with the smallest sum of points. (This spot
+will have particularly few points in the "Sum of points" section at the
+bottom-left.) We call this spot the *mode*.
 
 ## Extrapolating
