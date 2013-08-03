@@ -58,23 +58,23 @@ n-dimensional hypercubes. Said more concisely,
 
 $$Distance_n=\sum_i |x_i - c|^n$$
 
-where each *i* corresponds to an observation (represented above by tick marks),
-*n* is the number of dimensions, and *c* represents that other number (represented
-above by the red bar).
+where each $$i$$ corresponds to an observation (represented above by tick marks),
+$$n$$ is the number of dimensions, and $$c$$ represents that other number
+(represented above by the red bar).
 
 ### Sum of squares
 The sum of squares is thus this.
 
 $$Distance_2=\sum_i |x_i - c|^2$$
 
-And the value of *c* that minimizes $$Distance_2$$ is the *mean*.
+And the value of $$c$$ that minimizes $$Distance_2$$ is the *mean*.
 
 ### Sum of lines
 The sum of lines is this.
 
 $$Distance_1=\sum_i |x_i - c|^1$$
 
-And the value of *c* that minimizes $$Distance_1$$ is the *median*.
+And the value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
 
 ### Sum of points
 To make this work with the zero-order distance, let's define $$0^0$$ to equal 0.
@@ -82,6 +82,24 @@ The sum of lines is this.
 
 $$Distance_0=\sum_i |x_i - c|^0$$
 
-And the value of *c* that minimizes $$Distance_1$$ is the *mode*.
+And the value of $$c$$ that minimizes $$Distance_1$$ is the *mode*.
 
 ## Center points for higher-power distance measures
+I see the mode, median and mean as different measures of the center of a
+distribution. (I labeled them $$c$$ for "center".)
+
+As we increase the power of the distance measure, we use more information from
+the tails to produce the measure of the center of the distribution.
+
+Above, I defined the mode as the locations of the red bar that minimize the sum
+of points, but we could also define it as the specific values that are most common
+in the distribution (the values for which the point-density function is highest).
+The mode only looks for the most common values; all the information that it conveys
+about the other values is that they are less common.
+
+Aside from minimizing the sum of lines, the median can be defined as the point of
+middle rank. For example, if there are 9 numbers, the fifth-highest/fifth-lowest
+is the median. The median doesn't distinguish between an observation that is slightly
+greater than most and an observation that is exceptionally greater than most.
+
+
