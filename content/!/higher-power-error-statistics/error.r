@@ -30,9 +30,9 @@ dev.off()
 
 png('error-plot.png', width = 840, height = 610, res = 100)
 plot(center ~ n, data = d, type = 'l', ylim = range(x),
-  main = 'Center points of a Poisson distribution (lambda = 4) for higher-dimensional error metrics',
-  xlab = 'n', ylab = 'Center point (minimizes error metric)',
-  sub = 'Error metric = sum(abs((x_i - center) ^ n))',
+  main = 'Center points of a Poisson distribution (lambda = 4) for high-dimensional distance metrics',
+  xlab = 'n', ylab = 'Center point (minimizes distance metric)',
+  sub = 'Distance metric = sum(abs((x_i - center) ^ n))',
   bty = 'n')
 text(x = 1, y = median(y), labels = 'Median (n = 1)', pos = 4)
 text(x = 2, y = mean(y), labels = 'Mean (n = 2)', pos = 4)

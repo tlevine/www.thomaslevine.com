@@ -1,13 +1,13 @@
 ---
-title: Higher-power error statistics
+title: Higher-power distance measures
 description: The mode minimizes the sum of points, the median minimizes the sum of lines, and the mean minimizes the sum of squares. What about the sum of cubes, and so on?
 facebook_image: screenshot.png
 twitter_image: screenshot.png
 tags: ['doodles']
 kind: article
 created_at: 2013-08-04
-tweet_text: Is there a name for higher-power error statistics (beyond mode, median and mean)?
-facebook_text: Is there a name for higher-power error statistics (beyond mode, median and mean)?
+tweet_text: Is there a name for higher-power distance measures (beyond mode, median and mean)?
+facebook_text: Is there a name for higher-power distance measures (beyond mode, median and mean)?
 ---
 Let's say we have a bunch of numbers, represented by the tick marks towards
 the bottom the fancy interactive plot drawing thingy below. Next, we chose
@@ -133,7 +133,7 @@ direction of the long tail of the distribution.
 ## Questions
 It seems odd to me that I haven't heard of a sum of cubes.
 Is there standard a name for the stuff I just explained?
-Does anyone use higher-power distance or centrality metrics for real things?
+Does anyone use higher-power distance or centrality measures for real things?
 
 I'm really quite curious about all of this.
 Please tweet, email, phone, &c. me if you know anything.
