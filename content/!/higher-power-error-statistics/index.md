@@ -124,3 +124,11 @@ called that the n-dimensional measure of the distribution's center.
 
 As the number of dimensions goes up, the measure of the center moves in the
 direction of the long tail of the distribution.
+
+## Questions
+It seems odd to me that I haven't heard of a sum of cubes.
+Is there standard a name for the stuff I just explained?
+Does anyone use higher-power distance or centrality metrics for real things?
+
+I'm really quite curious about all of this.
+Please tweet, email, phone, &c. me if you know anything.
