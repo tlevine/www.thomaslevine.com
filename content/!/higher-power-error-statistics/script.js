@@ -14,10 +14,10 @@
       return 0.99
     } else if (x < 0.02) {
       return 0.01
-    } else if (x > 0.85) {
+    } else if (x > 0.9) {
       return x
     } else {
-      return Math.pow(x, 0.4)
+      return Math.pow(x, 0.3)
     }
   }
 
