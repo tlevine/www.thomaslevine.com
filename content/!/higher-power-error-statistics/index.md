@@ -24,14 +24,18 @@ of all of these squares. People call that the *sum of squared error* or the
 Instead of adding up the squares, we could just add up the lines. People call
 that the *sum of absolute errors*, but I like calling it the *sum of lines*.
 
-
-## Values of the other number that minimize the sums of shapes
+Sometimes, these lines will have no length because the two numbers that form
+the line (the tick mark and the red bar) are the same number. We could draw
+a point for each tick mark whose value is not exactly the same as the
 
 <div id="viz" style='width: 640px; margin-left: auto; margin-right: auto;'></div>
 <small>
   Nota bene: The line and square at the bottom right are *proportional* to but
   *not equal* to the sums of lines and squares, respectively.
 </small>
-
 <script src="d3.v3.min.js" charset="utf-8"></script>
 <script src="script.js"></script>
+
+## Values of the other number that minimize the sums of shapes
+
+## Extrapolating
