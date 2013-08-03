@@ -78,9 +78,11 @@ The value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
 
 ### Sum of points
 To make this work with the zero-order distance, I proclaim that $$0^0$$ equals 0.
-The sum of lines is this.
+The sum of points is this.
 
 $$Distance_0=\sum_i \lvert x_i - c \rvert ^0$$
+
+The quantity within the summation is zero if $$x_i$$ equals $$c$$ and one otherwise.
 
 The value of $$c$$ that minimizes $$Distance_1$$ is the *mode*.
 
