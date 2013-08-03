@@ -116,12 +116,12 @@ What center points minimize these higher-power distance measures? I calculated
 the distance measures for dimensions up to 100 on the following skewed
 distribution, using many different center values for each dimension.
 
-![Histogram of a sample of a poisson distribution with lamda of 4](<%= @item.identifier %>distribution.png){:.wide}
+![Histogram of a sample of a Poisson distribution with lambda of 4](<%= @item.identifier %>distribution.png){:.wide}
 
 Then I chose the center value with the lowest distance measure and
 called that the n-dimensional measure of the distribution's center.
 (Mode is the 0-dimensional measure, median is the
-1-dimensonal measure, and mean is the 2-dimensional measure.)
+1-dimensional measure, and mean is the 2-dimensional measure.)
 
 ![Line plot of the center values that minimize the n-dimensional distance measure, as a function of n](<%= @item.identifier %>error-plot.png){:.wide}
 
