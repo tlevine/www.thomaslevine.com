@@ -84,22 +84,39 @@ $$Distance_0=\sum_i |x_i - c|^0$$
 
 And the value of $$c$$ that minimizes $$Distance_1$$ is the *mode*.
 
-## Center points for higher-power distance measures
+## Higher-power distance measures emphasize more extreme values
 I see the mode, median and mean as different measures of the center of a
 distribution. (I labeled them $$c$$ for "center".)
 
 As we increase the power of the distance measure, we use more information from
 the tails to produce the measure of the center of the distribution.
 
-Above, I defined the mode as the locations of the red bar that minimize the sum
-of points, but we could also define it as the specific values that are most common
-in the distribution (the values for which the point-density function is highest).
 The mode only looks for the most common values; all the information that it conveys
 about the other values is that they are less common.
 
-Aside from minimizing the sum of lines, the median can be defined as the point of
-middle rank. For example, if there are 9 numbers, the fifth-highest/fifth-lowest
-is the median. The median doesn't distinguish between an observation that is slightly
-greater than most and an observation that is exceptionally greater than most.
+The median turns out to be the value of middle rank. For example, if there are
+9 numbers, the fifth-highest/fifth-lowest is the median. The median doesn't
+distinguish between an observation that is slightly greater than most and an
+observation that is exceptionally greater than most.
+
+Compared to the median, the mean takes more information from extreme values.
+If we have only two observations, the sum of lines will be the same as long
+as we choose a center point that is between the two points; the sum of lines
+will be the distance between the two points. The sum of squares, on the other
+hand, is smallest in the center because we'll have two smallish squares rather
+than one huge square.
+
+<!-- drawing -->
+
+## Center points for higher-power distance measures
+What center points minimize these higher-power distance measures? I calculated
+the distance measures for dimensions up to 100 on a skewed distribution, using
+many different center values for each dimension. Then I chose the center value
+with the lowest distance measure and called that the n-dimensional measure of
+the distribution's center. (Mode is the 0-dimensional measure, median is the
+1-dimensonal measure, and mean is the 2-dimensional measure.)
 
 
+
+As the number of dimensions goes up, the measure of the center moves in the
+direction of the long tail of the distribution.
