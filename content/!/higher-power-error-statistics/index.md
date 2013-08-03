@@ -56,7 +56,7 @@ measure. A general distance measure that includes all of these is the
 sum of n-dimensional volumes (Is there a better word for that?) of the
 n-dimensional hypercubes. Said more concisely,
 
-$$Distance_n=\sum_i \|x_i - c\|^n$$
+$$Distance_n=\sum_i \lvertx_i - c\rvert^n$$
 
 where each $$i$$ corresponds to an observation (represented above by tick marks),
 $$n$$ is the number of dimensions, and $$c$$ represents that other number
@@ -65,14 +65,14 @@ $$n$$ is the number of dimensions, and $$c$$ represents that other number
 ### Sum of squares
 The sum of squares is thus this.
 
-$$Distance_2=\sum_i \|x_i - c\|^2$$
+$$Distance_2=\sum_i \lvertx_i - c\rvert^2$$
 
 The value of $$c$$ that minimizes $$Distance_2$$ is the *mean*.
 
 ### Sum of lines
 The sum of lines is this.
 
-$$Distance_1=\sum_i |x_i - c|^1$$
+$$Distance_1=\sum_i \lvertx_i - c\rvert^1$$
 
 The value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
 
@@ -80,7 +80,7 @@ The value of $$c$$ that minimizes $$Distance_1$$ is the *median*.
 To make this work with the zero-order distance, let's define $$0^0$$ to equal 0.
 The sum of lines is this.
 
-$$Distance_0=\sum_i |x_i - c|^0$$
+$$Distance_0=\sum_i \lvert x_i - c \rvert ^0$$
 
 The value of $$c$$ that minimizes $$Distance_1$$ is the *mode*.
 
