@@ -17,6 +17,17 @@ d <- data.frame(
 )
 d$center = sapply(d$n, center)
 
+png('distribution.png', width = 840, height = 610, res = 100)
+hist(y,
+  main = '100 Points from a Poison distribution (lambda = 4)',
+  xlab = 'Point value', ylab = 'Frequency',
+  bty = 'l',
+  xlim = c(0,max(y)),
+  col = "#666666", fg = "#333333", col.axis = "#333333",
+  border = NA
+)
+dev.off()
+
 png('error-plot.png', width = 840, height = 610, res = 100)
 plot(center ~ n, data = d, type = 'l', ylim = range(x),
   main = 'Center points of a Poisson distribution (lambda = 4) for higher-dimensional error metrics',
