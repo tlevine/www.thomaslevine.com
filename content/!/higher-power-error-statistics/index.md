@@ -12,10 +12,10 @@ facebook_text: Is there a name for higher-power distance measures (beyond mode, 
 ## Sums of shapes
 Let's say we have a bunch of numbers, represented by the tick marks towards
 the bottom the fancy interactive plot drawing thingy below. Next, we chose
-some other number, represented by the big red bar that you can drag.
+some other number, represented by the big pink bar that you can drag.
 
 For each number in our bunch (each tick mark), we could draw a line from the
-number to the other number we chose (the red bar). Then we could draw a square
+number to the other number we chose (the pink bar). Then we could draw a square
 for each of these numbers with a side as long as the this line. (These squares
 are represented by the squares in the plot thingy.) We could add up the areas
 of all of these squares. People call that the **sum of squared error** or the
@@ -25,8 +25,8 @@ Instead of adding up the squares, we could just add up the lines. People call
 that the **sum of absolute errors**, but I like calling it the **sum of lines**.
 
 Sometimes, these lines will have no length because the two numbers that form
-the line (the tick mark and the red bar) are the same number. We could draw
-a point for each tick mark whose value is not exactly the same as the red bar.
+the line (the tick mark and the pink bar) are the same number. We could draw
+a point for each tick mark whose value is not exactly the same as the pink bar.
 Then we could count how many points we have and call that the **sum of points**.
 
 <style>
@@ -53,7 +53,7 @@ Then we could count how many points we have and call that the **sum of points**.
 <script src="<%= @item.identifier %>script.js"></script>
 
 ## Values of the other number that minimize the sums of shapes
-If you play around with the plot above, you'll find one location of the red bar
+If you play around with the plot above, you'll find one location of the pink bar
 that yields the smallest sum of squares. (The "Sum of squares" square at the
 bottom-right will be smallest for this situation.) We call this location the **mean**.
 
@@ -75,7 +75,7 @@ $$Distance_n=\sum_i \lvert x_i - c\rvert^n$$
 
 where each $$i$$ corresponds to an observation (represented above by tick marks),
 $$n$$ is the number of dimensions, and $$c$$ represents that other number
-(represented above by the red bar).
+(represented above by the pink bar).
 
 ### Sum of squares
 The sum of squares is thus this.

@@ -10,12 +10,14 @@
 
   viz.skewedDistribution = function() {
     var x = Math.random()
-    if (x > 0.8) {
+    if (x > 0.99) {
+      return 0.99
+    } else if (x < 0.02) {
+      return 0.01
+    } else if (x > 0.85) {
       return x
-    } else if (x > 0.3 && x < 0.4) {
-      return 0.9
     } else {
-      return Math.pow(x, 0.5)
+      return Math.pow(x, 0.4)
     }
   }
 
@@ -70,7 +72,7 @@
   }
 
   viz.viz = d3.select("#viz")
-    .append('svg').attr('width', SIDE * 1.01).attr('height', SIDE * 1.01)
+    .append('svg').attr('width', SIDE).attr('height', SIDE * 1.01)
     .attr('style', 'display: block')
 
   viz.caption = d3.select("#viz")
@@ -245,7 +247,7 @@
     .attr('y', 0)
     .attr('height', SIDE * 1.01)
     .attr('width', SIDE * 2 * centerBarWidth)
-    .attr('fill', 'red')
+    .attr('fill', '#fe57a1')
     .attr('fill-opacity', 0.7)
     .call(drag)
 
@@ -254,6 +256,6 @@
     .attr('style', 'text-anchor: end;')
     .attr('id', 'drag-me')
     .attr('fill', 'white')
-    .text('Drag the red bar -->')
+    .text('Drag the pink bar -->')
 
 })()
