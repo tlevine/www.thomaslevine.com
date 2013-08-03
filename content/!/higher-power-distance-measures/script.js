@@ -9,15 +9,11 @@
   window.viz = {}
 
   viz.skewedDistribution = function() {
-    var x = Math.random()
-    if (x > 0.99) {
-      return 0.99
-    } else if (x < 0.02) {
-      return 0.01
-    } else if (x > 0.9) {
+    var x = Math.pow(Math.random(), 0.4)
+    if (x > 0.01 && x < 0.99) {
       return x
     } else {
-      return Math.pow(x, 0.3)
+      return viz.skewedDistribution()
     }
   }
 
