@@ -3,8 +3,9 @@ title: Moments of a function
 description: I made a table years ago to help me understand what the moments of a function were.
 kind: article
 created_at: 2013-08-04
-tweet_text: Biostatistics Ryan Gosling prompts me to look through old notes.
-tweet_link0:
+tweet_text: Biostatistics Ryan Gosling prompts me to look through old notes. http://thomaslevine.com/!/moments-of-a-function/
+tweet_link: https://twitter.com/thomaslevine/status/364063019954745345
+facebook_link: https://www.facebook.com/perluette/posts/2511035939940
 twitter_image: biostatistics-ryan-gosling.jpg
 facebook_image: biostatistics-ryan-gosling.jpg
 ---
