@@ -1,6 +1,6 @@
 ---
 title: World -> Data -> World
-tags: ['sensory-data']
+tags: ['sensing-data']
 ---
 To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
@@ -94,7 +94,7 @@ Then CSV made a music video about the financial crisis.
 
 Most recently, I made one about transit ridership in Chicago and New York.
 
-<video src="http://tlevine.github.io/multisensory-data-zipfian/transit.webm"></video>
+<video src="/!/ridership-rachenitsa/transit.webm"></video>
 
 ### Data gastronomification
 https://github.com/csv/gastronomify
