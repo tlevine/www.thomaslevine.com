@@ -5,7 +5,7 @@ facebook_image: screenshot.png
 twitter_image: screenshot.png
 tags: ['doodles']
 kind: article
-created_at: 2013-08-04
+created_at: 2013-08-05
 tweet_text: Is there a name for higher-power distance measures (beyond mode, median and mean)?
 facebook_text: Is there a name for higher-power distance measures (beyond mode, median and mean)?
 ---

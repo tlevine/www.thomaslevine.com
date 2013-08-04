@@ -1,13 +1,20 @@
 ---
 title: Moments of a function
+kind: article
+created_at: 2013-08-04
+tweet_text: Biostatistics Ryan Gosling prompts me to look through old notes.
+twitter_image: biostatistics-ryan-gosling.jpg
 ---
-I made this table years ago to help me understand what the moments of a function were.
+I recently learned of [Biostatistics Ryan Gosling](http://biostatisticsryangoslingreturns.tumblr.com),
+and this prompted me to look through some old notes.
 
-Name                | Formula                                                                                  | $$\mu_{0}$$ | $$\mu_{1}$$ | $$\mu_{2}$$  | $$\mu_{3}$$  | $$\mu_{4}$$ 
-------------------- | ---------------------------------------------------------------------------------------- | ----------- | ----------- | ------------ | ------------ | ----------- --
-Crude moment        | $$\sigma_{n}=E \left( X^n \right) $$                                                     |             | $$\mu$$     |              |              |
-Central moment      | $$\sigma_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)$$                  | 1           | 0           | $$\sigma^2$$ |              |
-Standardized moment | $$\frac{\sigma_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)}{\sigma^n}$$ |             | 0           | 1            | $$\gamma_1$$ | $$\gamma_2$$
+I made this table to help me understand what the moments of a function were.
+
+Name                | Formula                                                                               | $$\mu_{0}$$ | $$\mu_{1}$$ | $$\mu_{2}$$  | $$\mu_{3}$$  | $$\mu_{4}$$ 
+------------------- | ------------------------------------------------------------------------------------- | ----------- | ----------- | ------------ | ------------ | ----------- --
+Crude moment        | $$\mu_{n}=E \left( X^n \right) $$                                                     |             | $$\mu$$     |              |              |
+Central moment      | $$\mu_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)$$                  | 1           | 0           | $$\sigma^2$$ |              |
+Standardized moment | $$\frac{\mu_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)}{\sigma^n}$$ |             | 0           | 1            | $$\gamma_1$$ | $$\gamma_2$$
 
 <!-- I found this in some old notes that I'd written in LaTeX.
 
@@ -17,11 +24,11 @@ Standardized moment | $$\frac{\sigma_{n}=E \left( \left[ X - E \left( X \right) 
 Name                & Formula &
 $\mu_{0}$ & $\mu_{1}$ & $\mu_{2}$ & $\mu_{3}$ & $\mu_{4}$ \\
 \midrule 
-Crude moment        & $\sigma_{n}=E \left( X^n \right) $ &
+Crude moment        & $\mu_{n}=E \left( X^n \right) $ &
   & $\mu$ & & & \\
-Central moment      & $\sigma_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)$ &
+Central moment      & $\mu_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)$ &
 1 & 0     & $\sigma^2$ & & \\
-Standardized moment & $\frac{\sigma_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)}{\sigma^n}$ &
+Standardized moment & $\frac{\mu_{n}=E \left( \left[ X - E \left( X \right) \right]^n \right)}{\sigma^n}$ &
   & 0     & 1          & $\gamma_1$ & $\gamma_2$ \\
 \bottomrule
 \end{tabular*}
@@ -39,3 +46,13 @@ the expected value of a bunch of ones.
 Some of the moments have special names. $$\mu$$ is the mean,
 $$\sigma^2$$is the variance, $$\gamma_1$$is the skewness,
 and $$\gamma_2$$is the kurtosis.
+
+I don't exactly know what drove me to learn about the moments
+of a function. It couldn't have had anything to do with any sort
+of class or work, so I probably just read about them in a book.
+And I have yet to find any practical reason to know about them.
+
+But it was all worth it because now I understand
+[Biostatistics Ryan Gosling](http://biostatisticsryangoslingreturns.tumblr.com/post/55797271777).
+
+![Hey girl, I loved you from the E(X) I saw you.](biostatistics-ryan-gosling.jpg)
