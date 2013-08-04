@@ -1,14 +1,14 @@
 ---
 title: Moments of a function
+description: I made a table years ago to help me understand what the moments of a function were.
 kind: article
 created_at: 2013-08-04
 tweet_text: Biostatistics Ryan Gosling prompts me to look through old notes.
+tweet_link0:
 twitter_image: biostatistics-ryan-gosling.jpg
+facebook_image: biostatistics-ryan-gosling.jpg
 ---
-I recently learned of [Biostatistics Ryan Gosling](http://biostatisticsryangoslingreturns.tumblr.com),
-and this prompted me to look through some old notes.
-
-I made this table to help me understand what the moments of a function were.
+I made this table years ago to help me understand what the moments of a function were.
 
 Name                | Formula                                                                               | $$\mu_{0}$$ | $$\mu_{1}$$ | $$\mu_{2}$$  | $$\mu_{3}$$  | $$\mu_{4}$$ 
 ------------------- | ------------------------------------------------------------------------------------- | ----------- | ----------- | ------------ | ------------ | ----------- --
@@ -40,10 +40,10 @@ Standardized moment & $\frac{\mu_{n}=E \left( \left[ X - E \left( X \right) \rig
 Read it like this: The second ($$\mu_2$$) central moment is $$\sigma^2$$.
 
 Some moments always have a particular value. For example,
-the zeroth central moment is always one. (We plug zero into
+the zeroth central moment is always one; we plug zero into
 the central moment formula for $$n$$, and we wind up taking
 the expected value of a bunch of ones.
-Some of the moments have special names. $$\mu$$ is the mean,
+Some of the moments have special names; $$\mu$$ is the mean,
 $$\sigma^2$$is the variance, $$\gamma_1$$is the skewness,
 and $$\gamma_2$$is the kurtosis.
 
