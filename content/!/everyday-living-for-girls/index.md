@@ -1,6 +1,11 @@
 ---
 title: Everyday Living for Girls
+tags: ['aesthesiology']
+description: The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl
+kind: article
 ---
+> The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl *(page v)*
+
 *Everyday Living for Girls* is a gem that I found in the library at university.
 
 <!--
@@ -13,8 +18,6 @@ title: Everyday Living for Girls
 	year=1936
 }
 -->
-
-> The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl *(page v)*
 
 It has 14 units, which include "Planning Clothes Artistically", "Selecting Clothes Practically", "Supervising One's Wardrobe", "Food Facts for the Individual" and "Making the Most of Oneself: Manners and Conventions".
 And the table of contents is in small caps! (I find small caps quite interesting.)
@@ -84,7 +87,9 @@ This section discusses, among other things, the merits a college education for a
 It encourages such an education from a financial perspective.
 
 ## Personal and Social Development
+
 ### Petting
+
 > One of the questions that arises between boys and girls is that of petting.
 It is agreed that public demonstration of affection is always in bad taste and the wisdom of that done in secret is always to be questioned. *(page 386)*
 
