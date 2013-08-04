@@ -4,9 +4,6 @@
 %header.title-card
   = render('_title_card', :item => items[0], :link => true)
 
--#%article
-  #{items[0].compiled_content}
-
 #links.clearfix
   - items[1..-1].each do |item|
     .link
