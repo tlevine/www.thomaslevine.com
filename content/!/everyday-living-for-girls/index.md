@@ -17,7 +17,7 @@ title: Everyday Living for Girls
 > The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl *(page v)*
 
 It has 14 units, which include "Planning Clothes Artistically", "Selecting Clothes Practically", "Supervising One's Wardrobe", "Food Facts for the Individual" and "Making the Most of Oneself: Manners and Conventions".
-And the table of contents is in small caps! (I find small caps quite interesting.)*
+And the table of contents is in small caps! (I find small caps quite interesting.)
 
 Here are some of my favorite excepts, divided by section of the book.
 
@@ -38,9 +38,9 @@ Here are some of my favorite excepts, divided by section of the book.
 > Frequently, odd terms or French words are used. To be able to order a meal without embarrassment one should know the meaning of these terms.
 > A menu card may seem very formidable to an inexperienced person *(page 183)*
 
-The authors then go on to discuss the difference between "table d'hôte" and "à la carte" and to include example menus *(pages 184--5).
+The authors then go on to discuss the difference between "table d'hôte" and "à la carte" and to include example menus ([pages 184--5](pictures/IMG_4346.JPG)).
 
-An "Explanation of Unusual Terms Used on Meal Cards" is presented on pages 186--7.
+An "Explanation of Unusual Terms Used on Meal Cards" is presented on [pages 186--7](pictures/IMG_4345.JPG).
 They like talking about "fat" in this explanation. For example, "[c]roquette" is described as
 "Potatoes, fish, or vegetables formed into cones or patties and fried in deep fat." *(page 186)*
 
@@ -59,6 +59,10 @@ Removing the hat, arranging the hair, and applying lipstick and other make-up sh
 To do any of them at the table is a mark of poor breeding *(page 187)*
 
 Page 188 has a picture of "An attractive tea room."
+
+![An attractive tea room.](pictures/IMG_4344.JPG)
+
+[Page 189](pictures/IMG_4355.JPG) is hilarious.
 
 > If silver should be dropped on the floor, do not pick it up. The waiter will bring you another piece.'' *(page 189)*
 
@@ -83,3 +87,17 @@ It encourages such an education from a financial perspective.
 ### Petting
 > One of the questions that arises between boys and girls is that of petting.
 It is agreed that public demonstration of affection is always in bad taste and the wisdom of that done in secret is always to be questioned. *(page 386)*
+
+## Yet-to-be-transcribed
+Here are some other awesome pages for which I have pictures but no transcription.
+
+![What I cost per year](pictures/IMG_4342.JPG){:.wide}
+![What I cost per year, unfolded](pictures/IMG_4343.JPG){:.wide}
+![Adequate dinners](pictures/IMG_4347.JPG){:.wide}
+![Employment](pictures/IMG_4348.JPG){:.wide}
+![Wise use of leisure](pictures/IMG_4351.JPG){:.wide}
+![Good citizens provide parks where the natural beauty of the out-of-doors is preserved for permanent enjoyment.](pictures/IMG_4352.JPG){:.wide}
+![Body odors and cleanliness](pictures/IMG_4353.JPG){:.wide}
+![Care of the hair](pictures/IMG_4354.JPG){:.wide}
+![When packing a lunch](pictures/IMG_4356.JPG){:.wide}
+![High school boys and girls may prefer to buy their milk at school.](pictures/IMG_4357.JPG){:.wide}
