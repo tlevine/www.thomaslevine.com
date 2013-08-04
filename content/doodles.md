@@ -1,4 +1,4 @@
 ---
 tag: doodles
+title: Doodles
 ---
-### Doodles

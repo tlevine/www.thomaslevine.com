@@ -1,6 +1,6 @@
 ---
 tag: socrata
+title: Meta-data-portal
 ---
-### Data portal usage analysis
-This one time, I downloaded all of the Socrata
+This one time, I downloaded all 80,000 of Socrata's
 datasets and analyzed them.

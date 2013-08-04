@@ -1,5 +1,5 @@
 ---
 tag: scarsdale
+title: Scarsdale
 ---
-### Scarsdale
 I sometimes write about my home town.

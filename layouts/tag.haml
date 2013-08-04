@@ -1,8 +1,9 @@
 %nav
   = render '_nav_boxes'
 
-%header.title-card
-  ~yield
+%header.tag-card
+  %h1=@item[:title]
+  %div~yield
 
 #links.clearfix
   - items = sort_articles(published_articles(items_with_tag(@item[:tag])))

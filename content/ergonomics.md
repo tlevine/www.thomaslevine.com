@@ -1,4 +1,4 @@
 ---
 tag: ergonomics
+title: Ergonomics
 ---
-### Ergonomics
