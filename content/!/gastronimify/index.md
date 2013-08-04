@@ -4,6 +4,7 @@ created_at: 2013-07-31
 tags: ['sensing-data']
 tweet_text: A long-overdue post on gastRonomify http://thomaslevine.com/!/gastronomify
 description: Convert data into food with R
+kind: article
 ---
 I just wrote an R package that lets you turn data into food.
 It's called [`gastronomify`](https://github.com/tlevine/gastronomify).

@@ -2,7 +2,6 @@
 title: Everyday Living for Girls
 tags: ['aesthesiology']
 description: The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl
-kind: article
 ---
 > The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl *(page v)*
 
