@@ -6,6 +6,6 @@
 
 #links.clearfix
   - items = sort_articles(published_articles(items_with_tag(@item[:tag])))
-  - items[1..-1].each do |item|
+  - items.each do |item|
     .link
       = render('_blog_post_card', :item => item)
