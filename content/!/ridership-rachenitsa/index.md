@@ -5,7 +5,7 @@ kind: article
 description: A music video about the ridership of Chicago buses and New York subways
 twitter_image: square.png
 facebook_image: square.png
-tags: ['music']
+tags: ['sensing-data', 'music']
 ---
 This is a music video about the ridership of Chicago buses and New York subways
 for the past few years.

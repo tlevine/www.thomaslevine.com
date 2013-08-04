@@ -1,6 +1,6 @@
 ---
 title: FMS Symphony
-tags: ['sensory-data', 'music']
+tags: ['sensing-data', 'music']
 kind: article
 created_at: 2013-07-31
 ---
