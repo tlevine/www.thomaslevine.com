@@ -8,6 +8,7 @@ tweet_link: https://twitter.com/thomaslevine/status/364063019954745345
 facebook_link: https://www.facebook.com/perluette/posts/2511035939940
 twitter_image: biostatistics-ryan-gosling.jpg
 facebook_image: biostatistics-ryan-gosling.jpg
+tags: ['aesthesiology']
 ---
 I made this table years ago to help me understand what the moments of a function were.
 
