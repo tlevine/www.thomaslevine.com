@@ -1,4 +1,4 @@
 ---
-main_class: socrata
+tag: socrata
 ---
-= render('_blog_index_stuff', :items => sort_articles(published_articles(items_with_tag('socrata'))))
+= render('_blog_tag_stuff', :items => sort_articles(published_articles(items_with_tag('socrata'))))
