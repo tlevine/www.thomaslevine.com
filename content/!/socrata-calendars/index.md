@@ -10,7 +10,11 @@ twitter_image: figure/meeting-length-2.png
 facebook_image: figure/meeting-length-2.png
 tags: ['socrata']
 ---
-My new favorite Socrata visualization is the calendar.
+To a lot of people, we can get "data" out of an SQL database but not out
+of a water bottle. I like to break this distinction; we can extract numbers
+from of anything, and we can turn numbers into anything.
+
+On that note, my new favorite Socrata data visualization is the calendar.
 
 ## Socrata visualization types
 Socrata is more than a place to dump raw tables, or at least
