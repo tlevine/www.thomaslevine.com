@@ -60,6 +60,7 @@ end
 
 compile '/(sensing-data|socrata|ergonomics|music|scarsdale|doodles|!)/' do
   filter :haml
+  layout 'tag'
   layout 'base'
   filter :cache_buster
   filter :relativize_paths, {:type => :html}
