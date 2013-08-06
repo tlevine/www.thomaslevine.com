@@ -18,7 +18,7 @@ Hadley Wickham would call this "[tidy data](http://vita.had.co.nz/papers/tidy-da
 (A note for non-relational hipsters: This doesn't have anything to do
 with database paradigms; non-relational databases store tidy data too.)
 
-## World -> Data
+## World -> Data: Data engineering
 We can collect information from the world and convert it into data.
 This tends to come to people more easily. My main points here are that
 data is simply a concise representation of ordinary human knowledge
