@@ -7,7 +7,9 @@ tags: ['doodles']
 kind: article
 created_at: 2013-08-06
 tweet_text: Is there a name for higher-power measures of center (beyond mode, median and mean)?
+tweet_link: https://twitter.com/thomaslevine/status/364801819756609536
 facebook_text: Is there a name for higher-power measures of center (beyond mode, median and mean)?
+facebook_link: https://www.facebook.com/perluette/posts/2513611884337
 ---
 ## Sums of shapes
 Let's say we have a bunch of numbers, represented by the tick marks towards
