@@ -5,9 +5,9 @@ facebook_image: screenshot.png
 twitter_image: screenshot.png
 tags: ['doodles']
 kind: article
-created_at: 2013-08-05
-tweet_text: Is there a name for higher-power distance measures (beyond mode, median and mean)?
-facebook_text: Is there a name for higher-power distance measures (beyond mode, median and mean)?
+created_at: 2013-08-06
+tweet_text: Is there a name for higher-power measures of center (beyond mode, median and mean)?
+facebook_text: Is there a name for higher-power measures of center (beyond mode, median and mean)?
 ---
 ## Sums of shapes
 Let's say we have a bunch of numbers, represented by the tick marks towards
