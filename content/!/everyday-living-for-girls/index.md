@@ -2,21 +2,18 @@
 title: Everyday Living for Girls
 tags: ['aesthesiology']
 description: The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl
+tweet_text: "Boisterous laughter, lounging over the table, beckoning to friends or acquaintances are all signs of poor breeding."
+facebook_text: "One of the questions that arises between boys and girls is that of petting. It is agreed that public demonstration of affection is always in bad taste and the wisdom of that done in secret is always to be questioned."
+twitter_description: Going through more old notes, I was reminded of one of my favorite books.
+facebook_description: Going through more old notes, I was reminded of one of my favorite books.
+kind: article
+created_at: 2013-08-08
+twitter_image: pictures/IMG_4344.JPG
+facebook_image: pictures/IMG_4344.JPG
 ---
 > The purpose of this book is to develop standards of living and appreciations of the value of personal and social development in the high school girl *(page v)*
 
-*Everyday Living for Girls* is a gem that I found in the library at university.
-
-<!--
-@book{vanduzer,
-	title={Everyday Living for Girls: A Textbook in Personal Regimen},
-	author={Adelaide Laura van Duzer and Edna M. Andrix and Ethelwyn L. Bobenmyer and E. Maude Hawkins and Mary E. Hemmersbaugh and Elsa P. Page},
-	editor={Benjamin R. Andrews},
-	publisher={J. B. Lippincott Company},
-	address={Chicago},
-	year=1936
-}
--->
+*Everyday Living for Girls*, by is a gem that I found in the library at university.
 
 It has 14 units, which include "Planning Clothes Artistically", "Selecting Clothes Practically", "Supervising One's Wardrobe", "Food Facts for the Individual" and "Making the Most of Oneself: Manners and Conventions".
 And the table of contents is in small caps! (I find small caps quite interesting.)
@@ -91,6 +88,18 @@ It encourages such an education from a financial perspective.
 
 > One of the questions that arises between boys and girls is that of petting.
 It is agreed that public demonstration of affection is always in bad taste and the wisdom of that done in secret is always to be questioned. *(page 386)*
+
+## Reference
+Here's the reference, in $$Bib\TeX$$, so you can find the book.
+
+    @book{vanduzer,
+    	title={Everyday Living for Girls: A Textbook in Personal Regimen},
+    	author={Adelaide Laura van Duzer and Edna M. Andrix and Ethelwyn L. Bobenmyer and E. Maude Hawkins and Mary E. Hemmersbaugh and Elsa P. Page},
+    	editor={Benjamin R. Andrews},
+    	publisher={J. B. Lippincott Company},
+    	address={Chicago},
+    	year=1936
+    }
 
 ## Yet-to-be-transcribed
 Here are some other awesome pages for which I have pictures but no transcription.
