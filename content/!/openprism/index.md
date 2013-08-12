@@ -1,27 +1,32 @@
 ---
 title: OpenPrism
+description: Better searches for open data
 subtitle: Better searches for open data
-tweet_text: ??
-twitter_image: ??
-facebook_image: ??
+tweet_text: Search all of the open data portals http://openprism.thomaslevine.com http://thomaslevine.com/!/openprism
+twitter_image: taco.png
+twitter_description: Open the open data silos.
+facebook_image: taco.png
 tags: ['socrata']
 ---
-Open data has been getting popular. There are so many open data portals
+There are so many open data portals
 that some people made a [portal about data portals](http://datacatalogs.org).
 And each of these portals has loads of datasets.
 
 [OpenPrism](http://openprism.thomaslevine.com) is my most recent
 attempt at understanding what is going on in all of these portals.
-I'm going to explain why I made it.
+I explain below why I made it.
 
 ## People don't know much about open data
-But it seems that nobody really knows what open data are out there.
+Nobody seems to know much about what open data are out there.
+
 Many people know about datasets that are relevant to their work,
 municipality, &c., but nobody seems to know about the availability of
 data on broader topics, and nobody seems to have a good way of
-finding out what is available. If someone does know any of this, he
-probably works for an open data portal, but he probably doesn't know
-much about what is going on in other portals.
+finding out what is available.
+
+If someone does know any of this, he probably works for an open data
+portal. Still, he probably doesn't know much about what is going on in
+other portals.
 
 ## Naive search method
 One part of the difficulty of discovering open data is the search paradigm.
