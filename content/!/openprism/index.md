@@ -6,6 +6,8 @@ tweet_text: This time, I searched all the data portals. http://openprism.thomasl
 twitter_image: taco.png
 facebook_image: taco.png
 tags: ['socrata']
+kind: article
+created_at: 2013-08-12
 ---
 There are so many open data portals
 that some people made a [portal about data portals](http://datacatalogs.org).
