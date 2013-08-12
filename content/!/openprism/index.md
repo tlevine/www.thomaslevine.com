@@ -1,10 +1,9 @@
 ---
 title: OpenPrism
-description: Better searches for open data
+description: Open the open data silos!
 subtitle: Better searches for open data
-tweet_text: Search all of the open data portals http://openprism.thomaslevine.com http://thomaslevine.com/!/openprism
+tweet_text: This time, I searched all the data portals. http://openprism.thomaslevine.com http://thomaslevine.com/!/openprism @ckan @junar @socrata
 twitter_image: taco.png
-twitter_description: Open the open data silos.
 facebook_image: taco.png
 tags: ['socrata']
 ---
