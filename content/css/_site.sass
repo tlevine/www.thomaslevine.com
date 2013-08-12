@@ -150,9 +150,17 @@ nav
   margin-left: -50%
   margin-right: -50%
 
-.title-card
+.top-big-card
   @extend .base-big-card
   position: relative
+  h1
+    font-weight: bold
+    margin-bottom: 0.25em
+  p
+    color: $page-background
+
+.title-card
+  @extend .top-big-card
   .date
     position: absolute
     bottom: 0
@@ -161,13 +169,7 @@ nav
     margin: 0.5 * $square
 
 .tag-card
-  @extend .base-big-card
-  position: relative
-  h1
-    font-weight: bold
-    margin-bottom: 0.25em
-  p
-    color: $page-background
+  @extend .top-big-card
 
 // Little-cards =========================================== //
 
