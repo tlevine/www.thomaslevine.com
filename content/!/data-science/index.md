@@ -42,9 +42,23 @@ nor between "unstructured" and "structured" data because I know that I can conve
 between these opposites.
 
 ### Boring work should be sent to robots
-I 
+In general, I think that people should only do things that they want to do;
+if something must be done and nobody wants to do it, a robot should do it.
+I could come up with economic arguments for this, but this is almost an ethical view for me.
+
+Within the context of data analysis, there are some much more practical reasons
+for this. A typical boring task might be drawing a new graph every time some
+dataset is updated. Here's why a robot should do it.
+
+* A robot will do it with more consistency/accuracy than a human will.
+* Robots (computers) are cheap; if we have a robot draw the graphs, we can
+    draw way more graphs than if we had humans doing it.
+* If the robot is well documented and runs free/libre/open-source software,
+    we can understand exactly what it is doing.
 
 To say this more explosively, I value laziness.
+
+
 
 3. Data collection should be automatic and unobtrusive; questionnaires and lab
     studies are too much work.
@@ -109,5 +123,7 @@ shallowly discussed in an introductory course and that the professional
 data scientist would have deeper knowledge in many of these areas.
 
 ## Other thoughts
+Boring to robots 
+(This presents some ethical issues
 
 (I also see ergonomics as a mindset, so maybe any discipline is a mindset.)
