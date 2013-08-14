@@ -192,6 +192,7 @@ to a view count (that is, the number of times someone opened the webpage for tha
 <!--
 To check that it's a view count rather than a download count
 or some other count, look at the counts in these two pages.
+
 https://data.oregon.gov/api/views/ffmj-ntaw.json
 https://data.oregon.gov/api/site_metrics.json?start=1175315200000&end=1376438399999&method=top&top=DATASETS
 -->
@@ -218,7 +219,7 @@ I'm told that this endpoint is considered part of SODA 1.
 The `/api/views` endpoint provides information about only one
 [view](/!/socrata-genealogies#term-view) per 
 The site analytics page uses the batches endpoint (`/api/batches`)
-to 
+to get metadata about several views at once.
 I haven't found any documentation on that, but I might document that eventually.
 
 #### Top Referrers
