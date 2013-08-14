@@ -8,6 +8,25 @@ tweet_link1:
 twitter_image: 
 tags: ['socrata']
 ---
+Socrata data portals have site usage analytics just like any decent
+website. These analytics pages are private by default, accessible only
+by the portal administrators, but the pages can be made public if the
+portal administrator chooses. Out of the 60 portals I know about,
+12 currenly publish the analytics page openly.
+(I run [this script](https://github.com/tlevine/socrata-nominate/blob/master/has_analytics.sh) to check.)
+
+* [data.austintexas.gov](https://data.austintexas.gov/analytics)
+* [data.cityofnewyork.us](https://data.cityofnewyork.us/analytics)
+* [data.hawaii.gov](https://data.hawaii.gov/analytics)
+* [explore.data.gov](https://explore.data.gov/analytics)
+* [bronx.lehman.cuny.edu](https://bronx.lehman.cuny.edu/analytics)
+* [data.sfgov.org](https://data.sfgov.org/analytics)
+* [data.baltimorecity.gov](https://data.baltimorecity.gov/analytics)
+* [data.oregon.gov](https://data.oregon.gov/analytics)
+* [data.raleighnc.gov](https://data.raleighnc.gov/analytics)
+* [data.ok.gov](https://data.ok.gov/analytics)
+* [data.seattle.gov](https://data.seattle.gov/analytics)
+* [data.montgomerycountymd.gov](https://data.montgomerycountymd.gov/analytics)
 
 When a data publisher opens its site analytics page, it also opens a
 web API endpoint for the site analytics. Here's how that endpoint works.
