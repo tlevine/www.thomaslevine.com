@@ -24,7 +24,8 @@ there is a newly useful approach to quantitative research that comes up in
 a lot of settings, and I'm going to call that "data science".
 
 ## The mindset
-I see data science as a mindset. (By the way, I also see ergonomics as a mindset.)
+I see data science as a mindset.
+(I also see ergonomics as a mindset, so maybe any discipline is a mindset.)
 Here are the main parts of the mindset.
 
 1. I want to study how complex systems work.
