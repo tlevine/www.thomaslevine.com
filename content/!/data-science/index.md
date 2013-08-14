@@ -1,12 +1,27 @@
 ---
 title: I reluctantly define data science
 ---
-I've been resisting using and defining the term "data science", but I'm
-starting to give in. People define "data science" such that they are doing it,
-so its meaning is never that clear. But maybe all fields are like this.
 
-Either way, there is some newly useful approach to quantitative research,
-and I'm going to call that "data science".
+## Why I resisted defining data science
+I've been resisting using and defining the term "data science".
+Such words make me cringe for two main reasons.
+
+1. I don't like words in general, especially nouns; they are too
+    simplifying, so you need a lot of them to convey much meaning.
+2. People want to be doing sexy things like data science, so everyone
+    says he's a data scientist, and this makes the word more meaningless.
+
+These problems aren't at all specific to data science; it's the same
+with any sexy field.
+
+## Why I define it now
+Recently, many people have suggested that I teach data science.
+That sounded fun, but teaching data science involves defining it
+somewhat, so now I give in and define it.
+
+People are still going to use data science to mean whatever they want, but
+there is a newly useful approach to quantitative research that comes up in
+a lot of settings, and I'm going to call that "data science".
 
 ## The mindset
 I see data science as a mindset. (By the way, I also see ergonomics as a mindset.)
