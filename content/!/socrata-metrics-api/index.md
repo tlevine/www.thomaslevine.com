@@ -1,13 +1,22 @@
 ---
-title: How to use Socrata's site analytics API
+title: How to use Socrata's site metrics API
 description: Unofficial documentation of an unofficial Socrata API
 created_at: 2013-08-14
 kind: article
-tweet_text: I really like writing documentation. http://thomaslevine.com/!/socrata-analytics-api
+tweet_text: I really like writing documentation. http://thomaslevine.com/!/socrata-metrics-api
 tweet_link1:
-twitter_image: 
+twitter_image: screenshot.png
+facebook_image: screenshot.png
 tags: ['socrata']
 ---
+The site metrics API on a Socrata open data portal tells you some
+pretty cool things about how people are using the portal. I'm going
+to show you how to get use the API.
+
+## Getting access to the site metrics data
+The site metrics data are private by default, so you first need to get
+access to it.
+
 Socrata data portals have site usage analytics just like any decent
 website. These analytics pages are private by default, accessible only
 by the portal administrators, but the pages can be made public if the
@@ -29,9 +38,9 @@ portal administrator chooses. Out of the 60 portals I know about,
 * [data.montgomerycountymd.gov](https://data.montgomerycountymd.gov/analytics)
 
 The analytics page gets its data from a web API endpoint for the site
-analytics. Here's how that endpoint works.
+metrics. Here's how that endpoint works.
 
-## Overview
+## Using the API
 The endpoint is at `/api/site_metrics.json`.
 
     GET /api/site_metrics.json
@@ -44,7 +53,7 @@ any special cookie, header, or API key. Two query arguments are required.
 
 These are both dates, represented as milliseconds since January 1, 1970.
 (It's something like "<script>document.write((new Date()).getTime())</script><noscript>1376439688459</noscript>".)
-These arguments define the range within which the analytics will be aggregated.
+These arguments define the range within which the metrics will be aggregated.
 
 This endpoint exposes three methods.
 
@@ -54,7 +63,7 @@ This endpoint exposes three methods.
 
 Each method is discussed below.
 
-## Site-wide statistics (no method)
+### Site-wide statistics (no method)
 
     GET /api/site_metrics.json
 
@@ -111,7 +120,7 @@ range (`rows-accessed-api`).
       "comments" : 2
     }
 
-## Site-wide statistics by time interval (`series`)
+### Site-wide statistics by time interval (`series`)
 
     GET /api/site_metrics.json?method=series
 
@@ -149,7 +158,7 @@ metrics that we would see with no method.
       ...
     } ]
 
-## Most popular (`top`)
+### Most popular (`top`)
 
     GET /api/site_metrics.json?method=top
 
