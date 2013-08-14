@@ -185,9 +185,41 @@ depends on the type of entity.
 
     GET /api/site_metrics.json?method=top&top=DATASETS
 
-This returns a mapping from 4x4 ids to some sort of count.
-I presume that it's a view count, but it might be something
-else, like a download count.
+This returns a mapping from [views](/!/socrata-genealogies#term-view)
+(represented by their [4x4 ids](http://dev.socrata.com/docs/endpoints))
+to a view count (that is, the number of times someone opened the webpage for that view).
+
+<!--
+To check that it's a view count rather than a download count
+or some other count, look at the counts in these two pages.
+https://data.oregon.gov/api/views/ffmj-ntaw.json
+https://data.oregon.gov/api/site_metrics.json?start=1175315200000&end=1376438399999&method=top&top=DATASETS
+-->
+
+    curl 'https://data.oregon.gov/api/site_metrics.json?start=1375315200000&end=1376438399999&method=top&top=DATASETS'
+    {
+      "nmjt-yuqx" : 5,
+      "3sqh-pdgv" : 1,
+      "hap2-76p2" : 1,
+      "822n-er69" : 17,
+      "dsje-kuhw" : 1,
+      "8sad-79b5" : 75,
+      ...
+    }
+
+You can query the datasets with 
+[SODA 1](http://dev.socrata.com/deprecated/querying-datasets) or
+[SODA 2](http://dev.socrata.com/docs/queries).
+
+You can get more information about these with the
+[`/api/views` endpoint](/!/socrata-summary#download-dataset-metadata).
+I'm told that this endpoint is considered part of SODA 1.
+
+The `/api/views` endpoint provides information about only one
+[view](/!/socrata-genealogies#term-view) per 
+The site analytics page uses the batches endpoint (`/api/batches`)
+to 
+I haven't found any documentation on that, but I might document that eventually.
 
 #### Top Referrers
 
