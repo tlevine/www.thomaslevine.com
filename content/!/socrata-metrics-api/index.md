@@ -245,3 +245,21 @@ This returns the same format as the top referrers; the root associative array
 maps an origin (like `http://thomaslevine.com`) to an associative
 array, and that child associative array maps the rest of the URL
 (like `<%= @item.identifier %>?foo=bar`) to a count.
+
+    curl 'https://data.oregon.gov/api/site_metrics.json?start=1375315200000&end=1376438399999&method=top&top=EMBEDS'
+    {
+      "http://translate.googleusercontent.com" : {
+        "/translate_c?depth=1&hl=fa&prev=/search%3Fq%3Dmaking%2BElectric%2Bhemlock%2Blaunch%26biw%3D1024%26bih%3D670&rurl=translate.google.com&sl=en&u=http://www.oregon.gov/osmb/pages/access/access.aspx&usg=ALkJrhi2xJIclSRZsqxBQIg-pjV-38Mlbw" : 3
+      },
+      "https://govspace.oregon.gov" : {
+        "/community/forall/testdrive/jasonstest?view=overview" : 2,
+        "/community/forall/testdrive/jasonstest" : 4
+      },
+      "https://t.co" : {
+        "/IXXONPIGWT" : 1
+      },
+      "https://www.google.ca" : {
+        "/" : 2
+      },
+      ...
+    }
