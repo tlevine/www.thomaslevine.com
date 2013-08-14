@@ -15,13 +15,17 @@ to show you how to get use the API.
 
 ## Getting access to the site metrics data
 The site metrics data are private by default, so you first need to get
-access to it.
+access to them.
 
-Socrata data portals have site usage analytics just like any decent
-website. These analytics pages are private by default, accessible only
-by the portal administrators, but the pages can be made public if the
-portal administrator chooses. Out of the 60 portals I know about,
-12 currenly publish the analytics page openly.
+One way to get access is to become a
+"[domain member](https://data.oaklandnet.com/api/site_metrics.json?start=1375315200000&end=1376438399999&_=1376438538384)". I don't know
+exactly how you do that, but it surely involves working for organization
+that is publishing the data.
+
+You can also get access if the portal administration makes its site metrics
+public. They can do this by talking to a support person from Socrata.
+
+Out of the 60 portals I know about, 12 currenly publish the analytics page openly.
 (I run [this script](https://github.com/tlevine/socrata-nominate/blob/master/has_analytics.sh) to check.)
 
 * [data.austintexas.gov](https://data.austintexas.gov/analytics)
@@ -37,16 +41,19 @@ portal administrator chooses. Out of the 60 portals I know about,
 * [data.seattle.gov](https://data.seattle.gov/analytics)
 * [data.montgomerycountymd.gov](https://data.montgomerycountymd.gov/analytics)
 
-The analytics page gets its data from a web API endpoint for the site
-metrics. Here's how that endpoint works.
+The site analytics page gets its data from a web API for site metrics, and
+that API becomes available to the public when the site analytics page is made
+available to the public.
 
 ## Using the API
-The endpoint is at `/api/site_metrics.json`.
 
     GET /api/site_metrics.json
 
+The whole API uses the endpoint `/api/site_metrics.json`.
 You access this endpoint by making a typical GET request; you don't need
-any special cookie, header, or API key. Two query arguments are required.
+any special cookie, header, or API key.
+
+Two query arguments are required.
 
 * `start`
 * `end`
