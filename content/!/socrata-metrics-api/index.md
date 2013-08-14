@@ -22,8 +22,8 @@ One way to get access is to become a
 exactly how you do that, but it surely involves working for organization
 that is publishing the data.
 
-You can also get access if the portal administration makes its site metrics
-public. They can do this by talking to a support person from Socrata.
+You can also get access if a portal administrator makes the site metrics
+public. She can do this by talking to a support person from Socrata.
 
 Out of the 60 portals I know about, 12 currenly publish the analytics page openly.
 (I run [this script](https://github.com/tlevine/socrata-nominate/blob/master/has_analytics.sh) to check.)
@@ -41,7 +41,7 @@ Out of the 60 portals I know about, 12 currenly publish the analytics page openl
 * [data.seattle.gov](https://data.seattle.gov/analytics)
 * [data.montgomerycountymd.gov](https://data.montgomerycountymd.gov/analytics)
 
-The site analytics page gets its data from a web API for site metrics, and
+The site analytics page gets its data from the site metrics API, and
 that API becomes available to the public when the site analytics page is made
 available to the public.
 
