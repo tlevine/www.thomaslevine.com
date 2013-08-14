@@ -28,15 +28,16 @@ portal administrator chooses. Out of the 60 portals I know about,
 * [data.seattle.gov](https://data.seattle.gov/analytics)
 * [data.montgomerycountymd.gov](https://data.montgomerycountymd.gov/analytics)
 
-When a data publisher opens its site analytics page, it also opens a
-web API endpoint for the site analytics. Here's how that endpoint works.
+The analytics page gets its data from a web API endpoint for the site
+analytics. Here's how that endpoint works.
 
-The base endpoint is at `/api/site_metrics.json`.
+## Overview
+The endpoint is at `/api/site_metrics.json`.
 
     GET /api/site_metrics.json
 
 You access this endpoint by making a typical GET request; you don't need
-any special cookie, header, or API key. Two query arguments are required
+any special cookie, header, or API key. Two query arguments are required.
 
 * `start`
 * `end`
@@ -50,6 +51,8 @@ This endpoint exposes three methods.
 * Site-wide statistics (no method)
 * Site-wide statistics by time interval (`series`)
 * Most popular (`top`)
+
+Each method is discussed below.
 
 ## Site-wide statistics (no method)
 
