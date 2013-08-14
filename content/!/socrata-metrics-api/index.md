@@ -25,7 +25,7 @@ that is publishing the data.
 You can also get access if a portal administrator makes the site metrics
 public. She can do this by talking to a support person from Socrata.
 
-Out of the 60 portals I know about, 12 currenly publish the analytics page openly.
+Out of the 60 portals I know about, 12 currently publish the analytics page openly.
 (I run [this script](https://github.com/tlevine/socrata-nominate/blob/master/has_analytics.sh) to check.)
 
 * [data.austintexas.gov](https://data.austintexas.gov/analytics)
@@ -195,7 +195,7 @@ else, like a download count.
 
 This also returns counts, presumably view counts. The root associative array
 maps an origin (like `http://thomaslevine.com`) to an associative
-array, and that child associative array maps the rest of the url
+array, and that child associative array maps the rest of the URL
 (like `<%= @item.identifier %>?foo=bar`) to a count.
 
     curl 'https://data.oregon.gov/api/site_metrics.json?start=1375315200000&end=1376438399999&method=top&top=REFERRERS&_=1376451966200'
@@ -243,5 +243,5 @@ Within each, a mapping from search terms to counts is returned.
 
 This returns the same format as the top referrers; the root associative array
 maps an origin (like `http://thomaslevine.com`) to an associative
-array, and that child associative array maps the rest of the url
+array, and that child associative array maps the rest of the URL
 (like `<%= @item.identifier %>?foo=bar`) to a count.
