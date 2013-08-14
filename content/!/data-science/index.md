@@ -2,7 +2,9 @@
 title: I reluctantly define data science
 ---
 
-## Why I resisted defining data science
+## Motivation
+
+### Why I resisted defining data science
 I've been resisting using and defining the term "data science".
 Such words make me cringe for two main reasons.
 
@@ -14,25 +16,38 @@ Such words make me cringe for two main reasons.
 These problems aren't at all specific to data science; it's the same
 with any sexy field.
 
-## Why I define it now
+### Why I define it now
 Recently, many people have suggested that I teach data science.
 That sounded fun, but teaching data science involves defining it
-somewhat, so now I give in and define it.
+enough that I can teach it, so now I give in and define it.
 
 People are still going to use data science to mean whatever they want, but
 there is a newly useful approach to quantitative research that comes up in
-a lot of settings, and I'm going to call that "data science".
+a lot of settings, and I suppose we could call that "data science".
 
 ## The mindset
-I see data science as a mindset.
-(I also see ergonomics as a mindset, so maybe any discipline is a mindset.)
-Here are the main parts of the mindset.
+I see data science as this mindset:
 
-1. I want to study how complex systems work.
-2. Everything can be turned into a number, and these numbers can be put in tables.
-3. Don't use questionnaires, lab studies or other highly manual data collection
-    processes; it is often cheaper and more statistically sound to unobtrusobly
-    record things that people are already doing.
+> Computing power and storage are cheap, so I'm going to exploit them to study how the world works.
+
+This is also my mindset. I'm going to talk about all of the corollaries that
+stem from my mindset, and I guess we'll say that that's data science.
+
+### Anything can be quantified
+Everything can be turned into a number, and these numbers can be put in tables.
+By quantifying things, we simplify them such that a computer can process them.
+
+To me, there is no big difference between "qualitative" and "quantitative" data
+nor between "unstructured" and "structured" data because I know that I can convert
+between these opposites.
+
+### Boring work should be sent to robots
+I 
+
+To say this more explosively, I value laziness.
+
+3. Data collection should be automatic and unobtrusive; questionnaires and lab
+    studies are too much work.
 4. You don't need a full-fleged research plan before you start collecting data;
     record everything that is convenient, and store it in the most raw form.
 5. When asked a question about the world, adapt the question so that it can be
@@ -43,27 +58,9 @@ systems work. If you want to do that and you are alive today, you might get
 excited by the potential off the ease of collecting and storing quantitative
 information, and the aspects above follow logically.
 
-## Overview
-I came up with a concept of data science by thinking about how I would teach
-it. If I were giving a course on data science, it would have these main parts
-
-1. The data mindset (explained above)
-2. Converting a mess into data (ETL/scraping, data formats, logging, messaging, databases, feature extraction, distributed systems, &c.)
-3. Stuff you can do once you have data (graphs, interactives, web development, algorithms for statistics/predictions/recommendation, online/realtime statistics &c.)
-
-(I apologize for the parethetical use of startlingly many buzzterms above.)
-
-These points are ordered chronologically by approximate step in a data workflow,
-but I think they should be taught all at once in separate projects.
-
-## Details
-
 ### The data mindset
 If you have the aforementioned data mindset, the following are true.
 
-* You see little difference between "qualitative" and "quantitative" data
-    nor between "unstructured" and "structured" data because you know that
-    you can convert between these opposites.
 * You look for opportunities to use existing stores of data in unintended ways.
 * All analyses should be scripted.
 
@@ -110,3 +107,7 @@ That definition is quite involved, but I'm likely to keep adding to it as
 I remember things. Also, keep in mind that these topics would be only
 shallowly discussed in an introductory course and that the professional
 data scientist would have deeper knowledge in many of these areas.
+
+## Other thoughts
+
+(I also see ergonomics as a mindset, so maybe any discipline is a mindset.)
