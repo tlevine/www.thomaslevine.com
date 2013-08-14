@@ -1,5 +1,5 @@
 ---
-title: How to use Socrata's site analytics API.
+title: How to use Socrata's site analytics API
 description: Unofficial documentation of an unofficial Socrata API
 created_at: 2013-08-14
 kind: article
@@ -23,7 +23,7 @@ any special cookie, header, or API key. Two query arguments are required
 * `end`
 
 These are both dates, represented as milliseconds since January 1, 1970.
-(Something like <script>document.write((new Date()).getTime())</script><noscript>1376439688459</noscript>)
+(It's something like "<script>document.write((new Date()).getTime())</script><noscript>1376439688459</noscript>".)
 These arguments define the range within which the analytics will be aggregated.
 
 This endpoint exposes three methods.
@@ -143,7 +143,7 @@ it can be any of the following.
 The output is always an associative array, but the schema
 depends on the type of entity.
 
-#### Top datasets
+#### Top Datasets
 
     GET /api/site_metrics.json?method=top&top=DATASETS
 
@@ -154,6 +154,11 @@ else, like a download count.
 #### Top Referrers
 
     GET /api/site_metrics.json?method=top&top=REFERRERS
+
+This also returns counts, presumably view counts. The root associative array
+maps an origin (like `http://thomaslevine.com`) to an associative
+array, and that child associative array maps the rest of the url
+(like `<%= @item.identifier %>?foo=bar`) to a count.
 
     curl 'https://data.oregon.gov/api/site_metrics.json?start=1375315200000&end=1376438399999&method=top&top=REFERRERS&_=1376451966200'
     {
@@ -174,11 +179,6 @@ else, like a download count.
         "/DAS/pages/bldg_close/index.aspx" : 1
       }
     }
-
-This also returns counts of some sort. The root associative array
-maps an origin (like `http://thomaslevine.com`) to an associative
-array, and that child associative array maps the rest of the url
-(like `<%= @item.identifier %>?foo=bar`) to a count.
 
 #### Top Searches
 
