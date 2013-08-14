@@ -1,3 +1,14 @@
+---
+title: How to use Socrata's site analytics API.
+description: Unofficial documentation of an unofficial Socrata API
+created_at: 2013-08-14
+kind: article
+tweet_text: I really like writing documentation. http://thomaslevine.com/!/socrata-analytics-api
+tweet_link1:
+twitter_image: 
+tags: ['socrata']
+---
+
 When a data publisher opens its site analytics page, it also opens a
 web API endpoint for the site analytics. Here's how that endpoint works.
 
@@ -144,7 +155,30 @@ else, like a download count.
 
     GET /api/site_metrics.json?method=top&top=REFERRERS
 
+    curl 'https://data.oregon.gov/api/site_metrics.json?start=1375315200000&end=1376438399999&method=top&top=REFERRERS&_=1376451966200'
+    {
+      "https://govspace.oregon.gov" : {
+        "/community/forall/testdrive/jasonstest?view=overview" : 2,
+        "/index.jspa" : 1,
+        "/community/agencies/das/geo/gpl" : 1,
+        "/index.jspa?showhomepage=true" : 1,
+        "/community/forall/testdrive/jasonstest" : 18
+      },
+      ...,
+      "http://www.state.or.us" : {
+        "/DAS/Pages/mobile_bldgclose.aspx" : 2,
+        "/Pages/do_business_in_oregon.aspx" : 1,
+        "/Pages/sitemap.aspx" : 1,
+        "/docs/pop_box/news_story_template.doc" : 1,
+        "/ODA/FSD/Pages/recalls.aspx" : 1,
+        "/DAS/pages/bldg_close/index.aspx" : 1
+      }
+    }
 
+This also returns counts of some sort. The root associative array
+maps an origin (like `http://thomaslevine.com`) to an associative
+array, and that child associative array maps the rest of the url
+(like `<%= @item.identifier %>?foo=bar`) to a count.
 
 #### Top Searches
 
@@ -169,8 +203,7 @@ Within each, a mapping from search terms to counts is returned.
 
     GET /api/site_metrics.json?method=top&top=EMBEDS
 
-This also returns counts of some sort. The root associative array
+This returns the same format as the top referrers; the root associative array
 maps an origin (like `http://thomaslevine.com`) to an associative
 array, and that child associative array maps the rest of the url
 (like `<%= @item.identifier %>?foo=bar`) to a count.
-
