@@ -33,6 +33,11 @@ I see data science as this mindset:
 This is also my mindset. I'm going to talk about all of the corollaries that
 stem from my mindset, and I guess we'll say that that's data science.
 
+### Store everything
+Storage is cheap, so you should store everything that is easy to collect.
+Store it in the most raw form that is convenient, and don't worry very
+much about how or even whether you're going to analyze it.
+
 ### Anything can be quantified
 Everything can be turned into a number, and these numbers can be put in tables.
 By quantifying things, we simplify them such that a computer can process them.
@@ -40,6 +45,8 @@ By quantifying things, we simplify them such that a computer can process them.
 To me, there is no big difference between "qualitative" and "quantitative" data
 nor between "unstructured" and "structured" data because I know that I can convert
 between these opposites.
+
+Read more about this [here](/!/world-data-world).
 
 ### Boring work should be sent to robots
 In general, I think that people should only do things that they want to do;
@@ -55,17 +62,29 @@ So here are some mindsets that follow from the aforementioned data science minds
 
 * Data collection should be automatic and unobtrusive; questionnaires and lab
     studies are too much work.
-* You don't need a full-fleged research plan before you start collecting data;
-    record everything that is convenient, and store it in the most raw form.
+* I don't need a full-fleged research plan before you start collecting data;
+    I'll record everything that is convenient, and I'll store it in the most raw form.
 * All analyses should be scripted.
 
-### Focus on connecting datasets rather than on tuning models
-
-* When asked a question about the world, adapt the question so that it can be
-    answered with an existing and convenient dataset.
-* You look for opportunities to use existing stores of data in unintended ways.
-
 To say this more explosively, I value laziness.
+
+### Focus on connecting datasets rather than on tuning models
+In a conventional statistics class, you'll learn a lot about how to choose
+analysis methods that are appropriate for your data collection approach and how
+to tune the models for a specific dataset. That way of thinking is not new.
+
+Here's the new thing. Now that we have hoards of inexpensive data, it's not
+worth worrying so much about making the best use out of one dataset; it's better
+to use a range of datasets, and especially to connect one dataset to lots of
+other datasets. To use machine learning speak, you should focus more on collecting
+features rather than on tuning your model.
+
+Relating this to the earlier point that you should store everything, here are
+some of my mindsets that follow from the original mindset.
+
+* When I'm asked a question about the world, I adapt the question so that it can
+    be approximately answered with an existing and convenient dataset.
+* I look for opportunities to use existing stores of data in unintended ways.
 
 ###
 I think these points stem from the first point, the desire to learn how complex
