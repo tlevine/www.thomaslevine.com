@@ -28,7 +28,9 @@ a lot of settings, and I suppose we could call that "data science".
 ## The mindset
 I see data science as this mindset:
 
-> Computing power and storage are cheap, so I'm going to exploit them to study how the world works.
+> I want to study how the world works.
+> Also, computing power and storage are cheap.
+> So I'm going to exploit the cheap computers to study how the world works.
 
 This is also my mindset. I'm going to talk about all of the corollaries that
 stem from my mindset, and I guess we'll say that that's data science.
@@ -86,7 +88,7 @@ some of my mindsets that follow from the original mindset.
     be approximately answered with an existing and convenient dataset.
 * I look for opportunities to use existing stores of data in unintended ways.
 
-###
+## Tools
 I think these points stem from the first point, the desire to learn how complex
 systems work. If you want to do that and you are alive today, you might get
 excited by the potential off the ease of collecting and storing quantitative
