@@ -1,6 +1,8 @@
 ---
 title: I reluctantly define data science
 ---
+I proclaim that data science isn't about specific tools or datasets
+or math; rather, it's a mindset.
 
 ## Motivation
 
@@ -89,13 +91,31 @@ some of my mindsets that follow from the original mindset.
 * I look for opportunities to use existing stores of data in unintended ways.
 
 ## Tools
-I think these points stem from the first point, the desire to learn how complex
-systems work. If you want to do that and you are alive today, you might get
-excited by the potential off the ease of collecting and storing quantitative
-information, and the aspects above follow logically.
+Since I have the aforementioned mindset and the consequential mindsets, I wind
+up learning a bunch of tools that align with that mindset. For example, I know
+how to collect lots of data continuously, how to store it, how to get it out of
+storage, how to have a computer analyze datasets that I can't fit in my head,
+how to convert paper documents into data tables, how to get the computer to tell
+me something that I and other people understand, and how to make all of this run
+fast enough that I don't get tired of waiting.
 
+Properly discussing these relevant tools would take a while, but here's a small
+thought: You don't need to know much math to do data science. Loads of wonderful
+algorithms have already been implemented for you, and simple algorithms work quite
+well. The more important tools are "plumbing" that connects different datasets and systems.
 
-## Other thoughts
+## Conclusion
+
+* How to learn data science:
+I see data science as a mindset that we should use inexpensive computers
+to understand how the world works. I wind up learning specific programs,
+languages, models, &c. to assist in my study of the world, but y
+
+* Take my class
+
+* ...
+
+## Footnotes
 Boring to robots 
 (This presents some ethical issues
 
