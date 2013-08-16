@@ -1,10 +1,13 @@
 ---
-title: I reluctantly define data science
+title: The mindset of data science
+tweet_text: I reluctantly define data science
 ---
 I proclaim that "data science" isn't about specific tools or datasets
 or math; rather, it's a mindset.[^mindset]
 
 ## Motivation
+I normally find the phrase "data science" to be too meaningless to be
+worth using, but I recently needed to figure out what it meant.
 
 ### Why I resisted defining data science
 I've been resisting using and defining the term "data science".
