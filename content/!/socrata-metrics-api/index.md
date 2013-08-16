@@ -217,7 +217,7 @@ You can get more information about these with the
 I'm told that this endpoint is considered part of SODA 1.
 
 The `/api/views` endpoint provides information about only one
-[view](/!/socrata-genealogies#term-view) per 
+[view](/!/socrata-genealogies#term-view) per HTTP request.
 The site analytics page uses the batches endpoint (`/api/batches`)
 to get metadata about several views at once.
 I haven't found any documentation on that, but I might document that eventually.
