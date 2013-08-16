@@ -1,8 +1,8 @@
 ---
 title: I reluctantly define data science
 ---
-I proclaim that data science isn't about specific tools or datasets
-or math; rather, it's a mindset.
+I proclaim that "data science" isn't about specific tools or datasets
+or math; rather, it's a mindset.[^mindset]
 
 ## Motivation
 
@@ -54,7 +54,7 @@ Read more about this [here](/!/world-data-world).
 
 ### Boring work should be sent to robots
 In general, I think that people should only do things that they want to do;
-if something must be done and nobody wants to do it, a robot should do it.
+if something must be done and nobody wants to do it, a robot should do it[^robot]
 I could come up with economic arguments for this, but this is almost an ethical view for me.
 
 Within the context of data analysis, there are some much more practical reasons
@@ -116,7 +116,7 @@ languages, models, &c. to assist in my study of the world, but y
 * ...
 
 ## Footnotes
-Boring to robots 
+[^robots]: Boring to robots 
 (This presents some ethical issues
 
-(I also see ergonomics as a mindset, so maybe any discipline is a mindset.)
+[^mindset]: (I also see ergonomics as a mindset, so maybe any discipline is a mindset.)
