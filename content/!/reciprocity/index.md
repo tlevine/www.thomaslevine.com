@@ -4,15 +4,18 @@ tags: ['aesthesiology']
 kind: article
 created_at: 2013-08-19
 ---
-One day last year in Chicago, I was about to catch a bus when I realized
+Last year, while on my way to the [NICAR](http://www.ire.org/nicar/)
+conference, I found myself in Chicago for a couple hours waiting for
+a train. This was enough time for me to lunch with a friend who was
+working at the University of Chicago.
+
+I was about to catch a bus towards the university when I realized
 that my smallest denomination of currency was a $5 bill. Since the buses
 only take exact change, I looked around for a way to break it. I asked a
 person who was waiting for the bus with me if she could break it, and she
 said she didn't have change.
 
-When the bus came, she started walking towards the same bus I was walking
-towards. She was a bit further from the bus, so I got on first.
-
+We both wound up getting on the same bus, and I got on first.
 I told the bus driver that the $5 was for both of us, and then I promptly
 walked to the back of the bus, still a few yards ahead of the other person.
 
