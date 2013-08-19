@@ -1,6 +1,8 @@
 ---
 title: Reciprocity
 tags: ['aesthesiology']
+kind: article
+created_at: 2013-08-19
 ---
 One day last year in Chicago, I was about to catch a bus when I realized
 that my smallest denomination of currency was a $5 bill. Since the buses
