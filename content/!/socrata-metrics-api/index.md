@@ -296,3 +296,6 @@ array, and that child associative array maps the rest of the URL
       },
       ...
     }
+
+## Related
+Socrata has a [support page](http://support.socrata.com/entries/20494886-What-do-the-different-metrics-in-the-Socrata-Analytics-Pages-mean-) about the analytics page.
