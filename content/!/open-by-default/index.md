@@ -70,9 +70,9 @@ open data automatically. Using a Socrata form to compose a dataset is quite inco
 unreliable, limited, and other bad things, but I see this as a nice example of how software
 can encourage that data be open by default. I previously
 [hinted](http://thomaslevine.com/!/socrata-calendars#opening-data-at-their-sources) at this,
-but now I have some more ideas as to how software can encourage that data be open by default.
+but now I have two specific ideas as to how software can encourage that data be open by default.
 
-### Standard formats
+### 1. Standard formats
 If you run any sort of involved website, you are probably already storing data in some
 reasonably standard way, and you probably could send it to a data portal somewhat easily.
 
@@ -113,7 +113,7 @@ services into some standard place like a data portal. Using a standard service
 with lots of users and integrations should make it easier for you to get the data
 into a data portal.
 
-### Explicit separation between public and private data
+### 2. Explicit separation between public and private data
 With a questionnaire, you might be able to just say that all of the responses are
 private or that all are public. With other datasets, you might be able to say that
 certain fields are private and others are public; in a database of employees, name
@@ -137,7 +137,7 @@ encourage that information public by default.
 
 ## Things to think about
 Think about what programs you and others are already using, especially if you
-don't think of them as data programs, and think about how you can open the data.
+don't think of them as data programs, and think about how you can open the data in these programs.
 A program's data will be easy to open if the program already stores its data in
 a standard format on the internet and it clearly separates public data from
 private data.
@@ -145,4 +145,4 @@ private data.
 Also think about how we can make software that follows the policy guideline of
 open data by default. I've proposed that clear separations between public and
 private data is part of this and that standard storage methods is another, but
-there are probably other relevant features.
+there are surely other relevant features.
