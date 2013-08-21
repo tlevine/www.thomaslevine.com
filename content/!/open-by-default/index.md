@@ -2,6 +2,7 @@
 title: Open by default
 description: How can software encourage that its data be open by default?
 tweet_text: A discovery on a @socrata data portal got me thinking about how software can encourage data to be open by default. http://thomaslevine.com/!/open-by-default
+tweet_link: https://twitter.com/thomaslevine/status/370275975705010177
 twitter_title: The first of Sunlight Foundation's 32 Open Data Policy Guidelines is to "Set The Default To Open".
 twitter_description: This guideline is not just for policy; it applies to software too!
 twitter_image: screenshot.png
