@@ -24,24 +24,16 @@ is to "Set The Default To Open".
 After discovering something on Socrata data portals, I remarked that
 software can encourage this practice of making data open by default.
 
-## Display types on Socrata portals
+## Types of visualizations on Socrata portals
 I previously [downloaded](/!/socrata-summary) metadata about all of
 the datasets on all of the Socrata portals, and I continue to find
-interesting things in these data.
+interesting things in these data. Let's look at the different types
+of visualizations ("[views](/!/socrata-genealogies#term-view)") on the portals.
 
-Let's focus on the things that are neither tables nor external links.
 
+![](figure/not_boring.png) 
 
-```r
-not.boring <- subset(socrata.distinct, displayType != "" & displayType != "table" & 
-    displayType != "href" & displayType != "blob")
-not.boring$displayType <- factor(not.boring$displayType, levels = names(sort(table(not.boring$displayType), 
-    decreasing = T)))
-ggplot(not.boring) + aes(x = displayType) + geom_bar() + coord_flip()
-```
-
-![plot of chunk not_boring](figure/not_boring.png) 
-
+(I excluded tables and external links from the above plot.)
 
 I was somewhat surprised to see forms and calendars in the portals.
 I've [previously](/!/open-calendars) written about why I think Socrata calendars are cool,
@@ -52,28 +44,11 @@ Much of the goal of these portals is to open up existing government data, but
 [forms](https://data.wa.gov/Economics/Broadband-Project-Data-Entry/38rz-krmg?) provide a way for citizens to create data.
 lets you enter data. A bunch of people have implemented them, but none seems to get accessed much.
 
-
-```r
-forms <- sqldf("select portal, sum(viewCount) AS \"total.view.count\", count(*) AS \"number.of.forms\" FROM socrata where displayType = \"form\" group by portal")
-ggplot(forms) + aes(x = number.of.forms, y = total.view.count, label = portal) + 
-    geom_text() + scale_x_continuous("Number of forms in the portal") + scale_y_continuous("Total hits across all forms", 
-    labels = comma)
-```
-
-![plot of chunk form_use_3](figure/form_use_3.png) 
+![Form use by portal](figure/form_use_3.png) 
 
 I'm gonna remove opendata.socrata.com to make that easier to read.
 
-
-```r
-forms <- sqldf("select portal, sum(viewCount) AS \"total.view.count\", count(*) AS \"number.of.forms\" FROM socrata where displayType = \"form\" and portal != \"opendata.socrata.com\" group by portal")
-ggplot(forms) + aes(x = number.of.forms, y = total.view.count, label = portal) + 
-    geom_text() + scale_x_continuous("Number of forms in the portal") + scale_y_continuous("Total hits across all forms", 
-    labels = comma)
-```
-
-![plot of chunk form_use_4](figure/form_use_4.png) 
-
+![Form use by portal, excluding opendata.socrata.com](figure/form_use_4.png) 
 
 ### Cool Forms
 I hadn't seen [nmfs.socrata.com](https://nmfs.socrata.com) before.
@@ -96,7 +71,7 @@ can encourage that data be open by default. I previously
 [hinted](http://thomaslevine.com/!/socrata-calendars#opening-data-at-their-sources) at this,
 but now I have some more ideas as to how software can encourage that data be open by default.
 
-### Free access and standard formats
+### Standard formats
 If you run any sort of involved website, you are probably already storing data in some
 reasonably standard way, and you probably could send it to a data portal somewhat easily.
 
