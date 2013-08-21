@@ -31,7 +31,6 @@ the datasets on all of the Socrata portals, and I continue to find
 interesting things in these data. Let's look at the different types
 of visualizations ("[views](/!/socrata-genealogies#term-view)") on the portals.
 
-
 ![](figure/not_boring.png){:.wide}
 
 (I excluded tables and external links from the above plot.)
