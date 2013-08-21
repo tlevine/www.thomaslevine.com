@@ -32,7 +32,7 @@ interesting things in these data. Let's look at the different types
 of visualizations ("[views](/!/socrata-genealogies#term-view)") on the portals.
 
 
-![](figure/not_boring.png) 
+![](figure/not_boring.png){:.wide}
 
 (I excluded tables and external links from the above plot.)
 
@@ -45,11 +45,11 @@ Much of the goal of these portals is to open up existing government data, but
 [forms](https://data.wa.gov/Economics/Broadband-Project-Data-Entry/38rz-krmg?) provide a way for citizens to create data.
 lets you enter data. A bunch of people have implemented them, but none seems to get accessed much.
 
-![Form use by portal](figure/form_use_3.png) 
+![Form use by portal](figure/form_use_3.png){:.wide}
 
 I'm gonna remove opendata.socrata.com to make that easier to read.
 
-![Form use by portal, excluding opendata.socrata.com](figure/form_use_4.png) 
+![Form use by portal, excluding opendata.socrata.com](figure/form_use_4.png){:.wide}
 
 ### Cool Forms
 I hadn't seen [nmfs.socrata.com](https://nmfs.socrata.com) before.
@@ -122,8 +122,8 @@ and salary can be public, but Social Security number can't.
 Things aren't always this simple. With something like project management software,
 some records/documents should be private and others should be public. Many of the
 entries in project management software are probably safe for public disclosure,
-but there might be some private information; for example, I've put credentials
-for related accounts inside project management software before.
+but there might be some private information; for example, I've put passwords inside
+calendar entries and issue tracker tickets.
 
 Project management software, email clients, calendars, web browsers and image
 editors all contain rich data that can help people understand how government
