@@ -32,4 +32,15 @@ entry into this cockpit-like computer station
 and subsequent unconsciousness sounds a lot like
 entering the wired.
 
-##
+## Snakes on a Plane
+I saw the person get murdered, and I fell asleep
+after the snakes got into the plane cabin. When
+I woke up, the one guy thanked the other guy for
+his help with the snakes. But what about the murder????
+
+I'm told that the film was pretty bad and that
+I didn't miss anything.
+
+## Inception
+
+## La science des Rêves
