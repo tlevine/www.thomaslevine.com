@@ -44,3 +44,14 @@ I didn't miss anything.
 ## Inception
 
 ## La science des Rêves
+
+## Clerks, &c.
+I fell asleep while watching *Clerks* with some friends.
+I periodically woke up and had trouble following the plot.
+By the end, I was sightly confused because there weren't
+anymore clerks; instead, there were jewel thieves.
+Oh and the film was suddenly in color.
+
+It turns out that we had finished *Clerks*. After *Clerks*,
+my friends put on *Clerks II*. And after that finished, they
+put on *Jay and Silent Bob Strike Back*.
