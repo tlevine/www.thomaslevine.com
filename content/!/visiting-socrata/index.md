@@ -53,7 +53,7 @@ thought to quantify.
 
 ### Communication
 Someone recently suggested that I'm generally interested in understanding
-how knowledge gets created and shared.
+how information gets created and shared.
 
 Fun related story: This one time, I posted
 "EMERGENCY EXIT ONLY ALARM WILL SOUND" signs on doors that weren't
@@ -64,5 +64,5 @@ can put up a sign.
 
 When so much information passes through a central and open resource like
 a data portal, we acquire rich data about how different people produce and
-analyze data. This ecosystem of open data doesn't just give us more data
-to analyze; it also allows us to analyze data analysis.
+interpret information. This ecosystem of open data doesn't just give us
+more data to analyze; it also allows us to analyze data analysis.
