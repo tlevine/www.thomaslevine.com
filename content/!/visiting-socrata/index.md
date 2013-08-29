@@ -34,20 +34,16 @@ EXIT ONLY ALARM WILL SOUND" signs on doors that weren't emergency exits
 only. Those emergency signs are scary! Even I was afraid of opening the
 doors afterwards!
 
-##
-Well that's not entirely true. I never had any particularly practical
-reason to use data from open data portals, but I used some once in a
-while at hackathons.
-but it was only at hackathons, and nothing ever came of it. Moreover,
-the only time I would ever hear of anyone using data from data portals
-was at hackathons.
-
 ## Hackathons
 At the first hackathon for the [NYC Big Apps](http://nycbigapps.com/)
-competition, [Ashley Williams](http://heyashleyashley.com) and I started
-talking about hackathons and how no useful software would probably come
-out of that hackathon. Moreover, we thought we could algorithmically
-generate the apps based on the data in the data portal.
+competition, [Ashley Williams](http://heyashleyashley.com) and
+[I](http://thomaslevine.com) started talking about the sort of apps that
+come out of contemporary hackathons. We looked specifically at the
+winning apps for previous NYC Big Apps competitions and were bothered
+by how structurally similar these apps were; they were all basically the
+same app to me, so I found this to be a huge waste of development time.
+Instead of making yet another hackathon app, we determined that we would
+algorithmically generate apps based on random datasets in the data portal.
 
 ## Apps
 We noticed that many apps follow a search-for-things-on-a-map paradigm;
@@ -56,7 +52,10 @@ that is, you fill out a search form and get results on a map. In
 hackathon app. We combined datasets from the New York data portal,
 randomly chose a title based on the datasets' metadata, generated some
 nonsense description text, randomly chose map tiles and put the data on
-an app. Being cliche hackathon apps, AppGen-generated apps also broke
+an app. We deployed apps (actually just proxies) to Heroku to make it
+look like they were separate apps, and we randomly varied the server
+HTTP header to make it look like they were running on different web
+servers. Being cliche hackathon apps, AppGen-generated apps also broke
 a month after being created.
 
 ## Portal exploration
