@@ -1,14 +1,12 @@
 ---
 title: I visit Socrata
 ---
-I recently downloaded the metadata files for all of the datasets on
-60 Socrata open data portals and started studying how open data and
-open data portals get used. Interesting things
+A couple months ago, I downloaded the metadata files for all of the
+datasets on 60 Socrata open data portals. Interesting things
 [happen](http://thomaslevine.com/socrata) when you do craziness like this.
 
-## Teriyaki
-I visited Socrata in Seattle last Friday. The most important part of my
-visit was of course going out for teriyaki for lunch; it was so important
+Last Friday, I visited Socrata in Seattle. The most important part of my
+visit was of course the teriyaki lunch; it was so important
 that Developer Evangelist Chris Metcalf sent me a Google Calendar invitation for it. They've
 been doing this for about 19 months and have only missed two weeks!
 
@@ -23,8 +21,8 @@ that I tend to do strange things.
 I think most things do better when knowledge is shared. I run and write
 free software, I pay attention to media licensing, I read copyright law
 when I was in high school, and I started a
-[Free Culture Foundation](http://freeculture.org) chapter in college,
-and I naturally care about open data. But that still doesn't quite explain it.
+[Free Culture Foundation](http://freeculture.org) chapter in college.
+Naturally, I also care about open data. But that still doesn't quite explain it.
 
 ### Hackathon apps
 At the first hackathon for the [NYC Big Apps](http://nycbigapps.com/)
@@ -42,15 +40,15 @@ AppGen-generated apps also broke a month after being created.)
 ### Dataset dataset
 In building AppGen, I wound up downloading all of the datasets on the
 New York data portal. I generalized it to run on any Socrata Open Data
-Portal, then I downloaded all of the metadata about all of the datasets
+Portal, and then I downloaded all of the metadata about all of the datasets
 on 60 Socrata portals.
 
 Data portals tend to display datasets as if they were ordinary web pages. 
 I started treating datasets as data points and doing analysis across
 datasets. (There are a bunch of puns here that use the word "meta" in
 multiple ways.) I think this is the main novelty of all my open data
-studies; I've just been quantifying things that people didn't think to
-quantify.
+studies; I've just been quantifying things that other people hadn't
+thought to quantify.
 
 ### Communication
 Someone recently suggested that I'm generally interested in understanding
