@@ -1,5 +1,5 @@
 ---
-title: I visit Socrata
+title: My visit to Socrata, and data analysis about data analysis
 ---
 A couple months ago, I downloaded the metadata files for all of the
 datasets on 60 Socrata open data portals. Interesting things
