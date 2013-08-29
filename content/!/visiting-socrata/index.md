@@ -8,24 +8,28 @@ It makes sense that I would care about open data.
 But never used for practical purpose
 So maybe I'm more interested in the sharing of knowledge.
 -->
+Recently I did all this stuff. How did that happen?
+
 I think most things do better when knowledge is shared,
 so I obviously care about open data. I'm always excited to
 hear that open data portals are expanding, but it had always
 bothered me that I would never use the data on data portals.
 
-## Hackathons
-Only ever used open data at hackathons.
-Never for practical thing.
-About hackathons....
-Useful for meeting people, but don't expect sustained stuff
+Well that's not entirely true. I never had any particularly practical
+reason to use data from open data portals, but I used some once in a
+while at hackathons.
+but it was only at hackathons, and nothing ever came of it. Moreover,
+the only time I would ever hear of anyone using data from data portals
+was at hackathons.
 
-## Apps
+## Hackathons
 At the first hackathon for the [NYC Big Apps](http://nycbigapps.com/)
 competition, [Ashley Williams](http://heyashleyashley.com) and I started
 talking about hackathons and how no useful software would probably come
 out of that hackathon. Moreover, we thought we could algorithmically
 generate the apps based on the data in the data portal.
 
+## Apps
 We noticed that many apps follow a search-for-things-on-a-map paradigm;
 that is, you fill out a search form and get results on a map. In
 [AppGen](http://appgen.me), we automated the creation of the cliche
