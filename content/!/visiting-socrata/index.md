@@ -44,10 +44,8 @@ New York City data portal. I generalized it to run on any Socrata Open Data
 Portal, and then I downloaded all of the metadata about all of the datasets
 on 60 Socrata portals.
 
-Data portals tend to display datasets as if they were ordinary web pages. 
 I started treating datasets as data points and doing analysis across
-datasets. (There are a bunch of puns here that use the word "meta" in
-multiple ways.) I think this is the main novelty of all my open data
+datasets, and I think this is the main novelty of all my open data
 studies; I've just been quantifying things that other people hadn't
 thought to quantify.
 
