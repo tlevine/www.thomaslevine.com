@@ -7,10 +7,16 @@ datasets on 60 Socrata open data portals. Interesting things
 
 Last Friday, I visited Socrata in Seattle. The most important part of my
 visit was of course the teriyaki lunch; it was so important
-that Developer Evangelist Chris Metcalf sent me a Google Calendar invitation for it. They've
-been doing this for about 19 months and have only missed two weeks!
+that Developer Evangelist Chris Metcalf sent me a Google Calendar invitation for it.
+They've been doing this for about 19 months and have only missed two weeks!
 
-During my visit, I also talked about my findings, met everyone and
+Of secondary importance was my discovery of a glowing ampersand.
+
+![Tom standing in front of a glowing red ampersand in a park](ampersand.jpg){:.wide}
+
+([I like ampersands](http://thomaslevine.com/!/ampersands/).)
+
+I also talked about my findings, met everyone and
 learned a lot about the implemented of open data portals.
 
 ## Why
