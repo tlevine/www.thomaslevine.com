@@ -8,6 +8,18 @@ It makes sense that I would care about open data.
 But never used for practical purpose
 So maybe I'm more interested in the sharing of knowledge.
 -->
+I recently downloaded the metadata files for all of the datasets on
+60 Socrata open data portals.
+Interesting stuff tends to [happen](http://thomaslevine.com/socrata)
+when you do crazy things like this.
+
+I visited Socrata in Seattle last Friday to talk about my findings and
+meet everyone. But the most important part of my visit was of course
+going out for teriyaki for lunch; it was so important that Chris Metcalf
+sent me a Google Calendar invitation for it. They've been doing this for
+about 19 months and have only missed two weeks.
+
+## Why
 Recently I did all this stuff. How did that happen?
 
 I think most things do better when knowledge is shared,
