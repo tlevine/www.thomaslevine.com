@@ -53,12 +53,12 @@ thought to quantify.
 
 ### Communication
 Someone recently suggested that I'm generally interested in understanding
-how knowledge gets created and shared. Fun story:
-A few years ago, I became quite interested in the power of signage; signs
-are treated as authoritative even though anyone can put up a sign. This one
-time, I posted "EMERGENCY EXIT ONLY ALARM WILL SOUND" signs on doors that
-weren't emergency exits only. Those emergency signs are scary! Even I was
-afraid of opening the doors afterwards!
+how knowledge gets created and shared. Fun story: This one time, I posted
+"EMERGENCY EXIT ONLY ALARM WILL SOUND" signs on doors that weren't
+emergency exits only. Those emergency signs are scary! Even I was afraid
+of opening the doors afterwards! I continue to be intrigued by how
+signs are seen as authoritative sources of information even though anyone
+can put up a sign. 
 
 When so much information passes through a central and open resource like
 a data portal, we acquire rich data about how different people produce and
