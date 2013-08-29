@@ -29,7 +29,21 @@ nonsense description text, randomly chose map tiles and put the data on
 an app. Being cliche hackathon apps, AppGen-generated apps also broke
 a month after being created.
 
-## 
+## Portal exploration
+AppGen turned out to be a decent way of exploring the data portal
+and of rapidly prototyping open data apps. Putting datasets into apps
+makes them a bit more tangible and less foreign. We started noticing
+some issues with the datasets and composed an 
+[audit](http://www.appgen.me/audit) of data portal quality.
+
+## Dataset dataset
+All of the data portals that I've seen display datasets as if they were
+ordinary web pages. I thought we could do better.
+
+In building AppGen, I wound up downloading all of the datasets on the
+New York data portal. I generalized it to run on any Socrata Open Data
+Portal, then I downloaded all of the metadata about all of the datasets
+on 60 Socrata portals.
 
 
 Over the past couple months, I've been looking at data from Socrata
