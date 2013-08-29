@@ -53,7 +53,9 @@ thought to quantify.
 
 ### Communication
 Someone recently suggested that I'm generally interested in understanding
-how knowledge gets created and shared. Fun story: This one time, I posted
+how knowledge gets created and shared.
+
+Fun related story: This one time, I posted
 "EMERGENCY EXIT ONLY ALARM WILL SOUND" signs on doors that weren't
 emergency exits only. Those emergency signs are scary! Even I was afraid
 of opening the doors afterwards! I continue to be intrigued by how
