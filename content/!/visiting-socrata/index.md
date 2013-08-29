@@ -20,13 +20,21 @@ sent me a Google Calendar invitation for it. They've been doing this for
 about 19 months and have only missed two weeks!
 
 ## Why
-Recently I did all this stuff. How did that happen?
+People wonder why I did all this stuff with Socrata data, and I don't
+necessarily know. I think most things do better when knowledge is shared,
+so I obviously care about open data; I want it to be easy for data to be
+reused so that we don't have to duplicate each other's work.
 
-I think most things do better when knowledge is shared,
-so I obviously care about open data. I'm always excited to
-hear that open data portals are expanding, but it had always
-bothered me that I would never use the data on data portals.
+Someone recently suggested that I'm actually just interested in
+understanding how knowledge gets created and shared. That would explain
+a lot of other things about me. For example, I have been quite
+interested in the power of signage; signs are treated as authoritative
+even though anyone can put up a sign. This one time, I posted "EMERGENCY
+EXIT ONLY ALARM WILL SOUND" signs on doors that weren't emergency exits
+only. Those emergency signs are scary! Even I was afraid of opening the
+doors afterwards!
 
+##
 Well that's not entirely true. I never had any particularly practical
 reason to use data from open data portals, but I used some once in a
 while at hackathons.
