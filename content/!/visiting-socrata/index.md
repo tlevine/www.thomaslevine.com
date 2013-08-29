@@ -64,23 +64,26 @@ and of rapidly prototyping open data apps. Putting datasets into apps
 makes them a bit more tangible and less foreign. We started noticing
 some issues with the datasets and composed an 
 [audit](http://www.appgen.me/audit) of data portal quality.
+And I started to get a feel for the variety of data in the portal.
 
 ## Dataset dataset
-All of the data portals that I've seen display datasets as if they were
-ordinary web pages. I thought we could do better.
+To me, "data" means "data table", anything can be turned into data, and
+data can be turned into anything. Our statistical methods know how to
+interpret data, so we convert complicated concepts into data because
+that's what our statistical methods use, then we convert the results
+into things like graphs so we can understand them.
 
 In building AppGen, I wound up downloading all of the datasets on the
 New York data portal. I generalized it to run on any Socrata Open Data
 Portal, then I downloaded all of the metadata about all of the datasets
 on 60 Socrata portals.
 
-
-Over the past couple months, I've been looking at data from Socrata
-data portals to study how open data is published and consumed. I've
-been wondering what is in the portals, what people like, ...
-
-And a week ago, I visited Socrata and talked about some of my findings.
-
+Data portals tend to display datasets as if they were ordinary web pages. 
+I started treating datasets as data points and doing analysis across
+datasets. (There are a bunch of puns here that use the word "meta" in
+multiple ways.) I think this is the main novelty of all my open data
+studies; I've just been quantifying things that people didn't think to
+quantify.
 
 
 What I do
