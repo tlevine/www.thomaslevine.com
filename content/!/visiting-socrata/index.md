@@ -40,7 +40,7 @@ AppGen-generated apps also broke a month after being created.)
 
 ### Dataset dataset
 In building AppGen, I wound up downloading all of the datasets on the
-New York data portal. I generalized it to run on any Socrata Open Data
+New York City data portal. I generalized it to run on any Socrata Open Data
 Portal, and then I downloaded all of the metadata about all of the datasets
 on 60 Socrata portals.
 
