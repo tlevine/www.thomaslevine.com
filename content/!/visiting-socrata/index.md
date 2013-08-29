@@ -1,11 +1,17 @@
 ---
 title: I visit Socrata
 ---
+<!--
 I want knowledge to be shared. I did this and that and that other thing.
 Blah blah blah.
 It makes sense that I would care about open data.
 But never used for practical purpose
 So maybe I'm more interested in the sharing of knowledge.
+-->
+I think most things do better when knowledge is shared,
+so I obviously care about open data. I'm always excited to
+hear that open data portals are expanding, but it had always
+bothered me that I would never use the data on data portals.
 
 ## Hackathons
 Only ever used open data at hackathons.
