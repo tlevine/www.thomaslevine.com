@@ -20,6 +20,12 @@ After my talk, VP of marketing Saf Rabah asked me why I had done all of
 this study of open data. That was a good question; I regularly forget
 that I tend to do strange things.
 
+I think most things do better when knowledge is shared. I run and write
+free software, I pay attention to media licensing, I read copyright law
+when I was in high school, and I started a
+[Free Culture Foundation](http://freeculture.org) chapter in college,
+and I naturally care about open data. But that still doesn't quite explain it.
+
 ### Hackathon apps
 At the first hackathon for the [NYC Big Apps](http://nycbigapps.com/)
 competition, [Ashley Williams](http://heyashleyashley.com) and
@@ -33,13 +39,7 @@ automated the creation of the cliche hackathon apps in
 [AppGen](http://appgen.me). (Being cliche hackathon apps,
 AppGen-generated apps also broke a month after being created.)
 
-## Dataset dataset
-To me, "data" means "data table", anything can be turned into data, and
-data can be turned into anything. Our statistical methods know how to
-interpret data, so we convert complicated concepts into data because
-that's what our statistical methods use, then we convert the results
-into things like graphs so we can understand them.
-
+### Dataset dataset
 In building AppGen, I wound up downloading all of the datasets on the
 New York data portal. I generalized it to run on any Socrata Open Data
 Portal, then I downloaded all of the metadata about all of the datasets
@@ -52,21 +52,16 @@ multiple ways.) I think this is the main novelty of all my open data
 studies; I've just been quantifying things that people didn't think to
 quantify.
 
+### Communication
+Someone recently suggested that I'm generally interested in understanding
+how knowledge gets created and shared. Fun story:
+A few years ago, I became quite interested in the power of signage; signs
+are treated as authoritative even though anyone can put up a sign. This one
+time, I posted "EMERGENCY EXIT ONLY ALARM WILL SOUND" signs on doors that
+weren't emergency exits only. Those emergency signs are scary! Even I was
+afraid of opening the doors afterwards!
 
-
-
-## Why
-People wonder why I did all this stuff with Socrata data, and I don't
-necessarily know. I think most things do better when knowledge is shared,
-so I obviously care about open data; I want it to be easy for data to be
-reused so that we don't have to duplicate each other's work.
-
-Someone recently suggested that I'm actually just interested in
-understanding how knowledge gets created and shared. That would explain
-a lot of other things about me. For example, I have been quite
-interested in the power of signage; signs are treated as authoritative
-even though anyone can put up a sign. This one time, I posted "EMERGENCY
-EXIT ONLY ALARM WILL SOUND" signs on doors that weren't emergency exits
-only. Those emergency signs are scary! Even I was afraid of opening the
-doors afterwards!
-
+When so much information passes through a central and open resource like
+a data portal, we acquire rich data about how different people produce and
+analyze data. This ecosystem of open data doesn't just give us more data
+to analyze; it also allows us to analyze data analysis.
