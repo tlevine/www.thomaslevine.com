@@ -10,8 +10,8 @@ visit was of course the teriyaki lunch; it was so important
 that Developer Evangelist Chris Metcalf sent me a Google Calendar invitation for it. They've
 been doing this for about 19 months and have only missed two weeks!
 
-During my visit, I also talked about my findings and met everyone and
-learned a lot about how open data portals get implemented and managed.
+During my visit, I also talked about my findings, met everyone and
+learned a lot about the implemented of open data portals.
 
 ## Why
 After my talk, VP of marketing Saf Rabah asked me why I had done all of
@@ -19,7 +19,8 @@ this study of open data. That was a good question; I regularly forget
 that I tend to do strange things.
 
 I think most things do better when knowledge is shared. I run and write
-free software, I pay attention to media licensing, I read copyright law
+free software, I post most of my work quite publicly, I pay attention to
+media licensing, I read copyright law
 when I was in high school, and I started a
 [Free Culture Foundation](http://freeculture.org) chapter in college.
 Naturally, I also care about open data. But that still doesn't quite explain it.
