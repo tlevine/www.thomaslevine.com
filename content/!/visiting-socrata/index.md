@@ -1,6 +1,12 @@
 ---
 title: I visit Socrata
 ---
+I want knowledge to be shared. I did this and that and that other thing.
+Blah blah blah.
+
+So
+
+
 Over the past couple months, I've been looking at data from Socrata
 data portals to study how open data is published and consumed. I've
 been wondering what is in the portals, what people like, ...
