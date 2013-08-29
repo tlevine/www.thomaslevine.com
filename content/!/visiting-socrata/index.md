@@ -1,13 +1,6 @@
 ---
 title: I visit Socrata
 ---
-<!--
-I want knowledge to be shared. I did this and that and that other thing.
-Blah blah blah.
-It makes sense that I would care about open data.
-But never used for practical purpose
-So maybe I'm more interested in the sharing of knowledge.
--->
 I recently downloaded the metadata files for all of the datasets on
 60 Socrata open data portals and started studying how open data and
 open data portals get used. Interesting things
@@ -34,18 +27,13 @@ EXIT ONLY ALARM WILL SOUND" signs on doors that weren't emergency exits
 only. Those emergency signs are scary! Even I was afraid of opening the
 doors afterwards!
 
-## Hackathons
+### Hackathon apps
 At the first hackathon for the [NYC Big Apps](http://nycbigapps.com/)
 competition, [Ashley Williams](http://heyashleyashley.com) and
 [I](http://thomaslevine.com) started talking about the sort of apps that
-come out of contemporary hackathons. We looked specifically at the
-winning apps for previous NYC Big Apps competitions and were bothered
-by how structurally similar these apps were; they were all basically the
-same app to me, so I found this to be a huge waste of development time.
-Instead of making yet another hackathon app, we determined that we would
-algorithmically generate apps based on random datasets in the data portal.
+come out of contemporary hackathons. We quickly decided to
+algorithmically generate random hackathon apps.
 
-## Apps
 We noticed that many apps follow a search-for-things-on-a-map paradigm;
 that is, you fill out a search form and get results on a map. In
 [AppGen](http://appgen.me), we automated the creation of the cliche
@@ -58,15 +46,11 @@ HTTP header to make it look like they were running on different web
 servers. Being cliche hackathon apps, AppGen-generated apps also broke
 a month after being created.
 
-## Portal exploration
 AppGen turned out to be a decent way of exploring the data portal
 and of rapidly prototyping open data apps. Putting datasets into apps
-makes them a bit more tangible and less foreign. We started noticing
-some issues with the datasets and composed an 
-[audit](http://www.appgen.me/audit) of data portal quality.
-And I started to get a feel for the variety of data in the portal.
+makes them a bit more tangible and less foreign.
 
-## Dataset dataset
+### Dataset dataset
 To me, "data" means "data table", anything can be turned into data, and
 data can be turned into anything. Our statistical methods know how to
 interpret data, so we convert complicated concepts into data because
@@ -84,17 +68,3 @@ datasets. (There are a bunch of puns here that use the word "meta" in
 multiple ways.) I think this is the main novelty of all my open data
 studies; I've just been quantifying things that people didn't think to
 quantify.
-
-
-What I do
-
-Why I do what I do
-
-How that brought me to Socrata
-
-
-
-slides
-
-
-
