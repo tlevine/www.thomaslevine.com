@@ -12,6 +12,9 @@ going out for teriyaki for lunch; it was so important that Chris Metcalf
 sent me a Google Calendar invitation for it. They've been doing this for
 about 19 months and have only missed two weeks!
 
+I met most of the people there. I asked a lot of questions and learned a
+lot about how open data portals get implemented and managed.
+
 ## Why
 People wonder why I did all this stuff with Socrata data, and I don't
 necessarily know. I think most things do better when knowledge is shared,
@@ -35,20 +38,10 @@ come out of contemporary hackathons. We quickly decided to
 algorithmically generate random hackathon apps.
 
 We noticed that many apps follow a search-for-things-on-a-map paradigm;
-that is, you fill out a search form and get results on a map. In
-[AppGen](http://appgen.me), we automated the creation of the cliche
-hackathon app. We combined datasets from the New York data portal,
-randomly chose a title based on the datasets' metadata, generated some
-nonsense description text, randomly chose map tiles and put the data on
-an app. We deployed apps (actually just proxies) to Heroku to make it
-look like they were separate apps, and we randomly varied the server
-HTTP header to make it look like they were running on different web
-servers. Being cliche hackathon apps, AppGen-generated apps also broke
-a month after being created.
-
-AppGen turned out to be a decent way of exploring the data portal
-and of rapidly prototyping open data apps. Putting datasets into apps
-makes them a bit more tangible and less foreign.
+that is, you fill out a search form and get results on a map. We
+automated the creation of the cliche hackathon apps in
+[AppGen](http://appgen.me). (Being cliche hackathon apps,
+AppGen-generated apps also broke a month after being created.)
 
 ### Dataset dataset
 To me, "data" means "data table", anything can be turned into data, and
