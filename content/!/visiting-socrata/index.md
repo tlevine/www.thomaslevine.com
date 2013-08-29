@@ -16,8 +16,8 @@ Of secondary importance was my discovery of a glowing ampersand.
 
 ([I like ampersands](http://thomaslevine.com/!/ampersands/).)
 
-I also talked about my findings, met everyone and
-learned a lot about the implemented of open data portals.
+I also met everyone, talked about my findings, and
+learned a lot about the implementation of open data portals.
 
 ## Why
 After my talk, VP of marketing Saf Rabah asked me why I had done all of
