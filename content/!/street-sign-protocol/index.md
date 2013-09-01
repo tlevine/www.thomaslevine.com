@@ -1,15 +1,15 @@
 
-Someone recently asked me to explain what a computer "protocal" is.
+Someone recently asked me to explain what a computer "protocol" is.
 This is one of those words that sounds more special than it is; you
 could just-as-accurately call it a language or an expectation.
 
-## The street sign protocal 
-To make that more clear, I'll document a protocal that we might not
-usually think of a protocal. Let's call it the Street Sign Protocal
+## The street sign protocol 
+To make that more clear, I'll document a protocol that we might not
+usually think of a protocol. Let's call it the Street Sign Protocol
 (SSP).
 
 To keep things simple, I'll actually document a simple version of the
-Street Sign Protocal. Let's call it the Simple Street Sign Protocal (SSSP).
+Street Sign Protocol. Let's call it the Simple Street Sign Protocol (SSSP).
 
 ### Specification
 SSSP is a way of exchanging the names of *streets*. It involves
@@ -53,7 +53,7 @@ parallel the corresponding street.
 Each pole must contain two street signs, each one corresponding to a different
 one of the two streets at the four-way intersection.
 
-### Implimenting a SSSP writer
+### Implementing a SSSP writer
 Here is one possible procedure for encoding street names in SSSP. This procedure
 expects a four-way intersection and the names of the two streets as input. It
 outputs SSSP (two street signs mounted to a pole near the intersection).
@@ -74,11 +74,11 @@ outputs SSSP (two street signs mounted to a pole near the intersection).
     to implement the pole-installation procedure myself.
 8. Mount the street signs to the pole. Position them about ten feet above the ground,
     with one on top of the other and with the centers of the signs touching the pole,
-    and otherwise in the appropriate orientations specified by the protocal. Secure
+    and otherwise in the appropriate orientations specified by the protocol. Secure
     them with a sign bracket.
 9. Drive the truck back to wherever you got it from.
 
-### Implimenting a SSSP reader
+### Implementing a SSSP reader
 Here is a procedure for decoding SSSP. It has the opposite inputs and outputs as
 the SSSP writer.
 
@@ -88,7 +88,7 @@ the SSSP writer.
   1. Read the large text on the sign.
   2. Associate this large text with the street that the sign lines up with.
 
-## Hypertext Transfer Protocal
+## Hypertext Transfer Protocol
 
 
 ## 
