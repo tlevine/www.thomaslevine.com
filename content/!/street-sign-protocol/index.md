@@ -89,6 +89,58 @@ the SSSP writer.
   2. Associate this large text with the street that the sign lines up with.
 
 ## Hypertext Transfer Protocol
+Now let's talk about something that people actually call a protocol.
+Here's a simplified version of the Hypertext Transfer Protocol (HTTP)
 
+### Highly simplified specification
+HTTP is a way of exchanging commands between a web browser and a web server.
+It is represented as a very long series of words, punctuation and spaces.
 
-## 
+Some messages have a *body*. This is an embedded series of words, punctuation
+and spaces that can be written in any format you want. (You could use this to
+write another protocal on top of HTTP.)
+
+Each message may have a bunch of *headers*. Each header has a name and a value.
+There are a bunch of headers that provide some information about the body
+(like its size or format), and there are a bunch of headers that provide
+information about the system that is sending the message. And there are others,
+like the date of the message.
+
+Each message is either a request or a response. By being a request, a message
+indicates that it came from a web browser and is being sent to a web server.
+By being a response, a message indicates that it came from a web server and
+is being sent to a web browser. Each response sent from a particular server
+to a particular browser must be initiated by a request sent from the
+particular browser to particular server.
+
+Every response has a body (explained above) and a status code. The status code
+is a number that explains whether the request succeeded and any quirks about its
+success or failure. For example, status code `200` means that the request worked
+as expected, and status code `403` means that the web browser is not allowed to
+run the command that it requested.
+
+Each request must have a method. There are a bunch of methods, and you can think
+of them as different commands. Here are a few of them.
+
+* `POST` is the method that asks the server to save a new document.
+    It contains a body.
+* `PUT` is the method that asks the server to edit an existing document.
+    It contains a body.
+* `GET` is the method that asks the server to send an existing document in the
+    body of the response (and not to alter it). The request does not contain a body.
+* `HEAD` is the method that asks the server to do everything that it would do in
+    for an equivalent `GET` request except for sending the body. Like the `GET`
+    request, the `HEAD` request contains no body.
+
+### Reading and writing
+A bunch of things in your web browser might initate a request. For example, opening
+a web page makes one request, and loading an image on the web page makes another request.
+
+The web server receives the request, checks that it is valid, and breaks it into the
+component method, headers, and body. Then the web server asks something else to decide
+what to do. After doing everything, this other thing decides what the outcome of the
+command was and tells the web server. The web server composes an HTTP response and
+sends that back to the browser.
+
+The browser breaks that into its various parts and accordingly displays a web page,
+shows an image or does whatever else was specified.
