@@ -79,10 +79,14 @@ outputs SSSP (two street signs mounted to a pole near the intersection).
 9. Drive the truck back to wherever you got it from.
 
 ### Implimenting a SSSP reader
+Here is a procedure for decoding SSSP. It has the opposite inputs and outputs as
+the SSSP writer.
 
-
-
-
+1. Look for poles with street signs at the four corners of the four-way intersection.
+2. Focus on the first valid pole that you see; ignore any others.
+3. Do the following for each of the two street signs.
+  1. Read the large text on the sign.
+  2. Associate this large text with the street that the sign lines up with.
 
 ## Hypertext Transfer Protocal
 
