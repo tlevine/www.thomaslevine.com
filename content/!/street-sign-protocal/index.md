@@ -13,7 +13,7 @@ Street Sign Protocal. Let's call it the Simple Street Sign Protocal (SSSP).
 
 ### Specification
 SSSP is a way of exchanging the names of *streets*. It involves
-*street signs* mounted on *poles* or *buildings* near the *corners* of
+*street signs* mounted on *poles* near the *corners* of
 *four-way intersections*. Let's define these terms.
 
 * A *street* is a paved public thoroughfare in a built environment.
@@ -24,9 +24,7 @@ SSSP is a way of exchanging the names of *streets*. It involves
     other street.
 * Being rectangular, a four-way intersection has four *corners* at the
     usual places.
-* 
-
-If a street sign is are mounted on building, the buildings should be
+* A *pole* is a long cylinder sticking out of the ground.
 
 #### Intersection
 
