@@ -25,7 +25,8 @@ SSSP is a way of exchanging the names of *streets*. It involves
 * Being rectangular, a four-way intersection has four *corners* at the
     usual places.
 * A *pole* is a long cylinder sticking out of the ground.
-* A *street sign* is a flat rectangular thing that has text on both sides.
+* A *street sign* is a flat rectangular thing that has text on both faces.
+    The sign is oriented such that the text reads left-to-right.
 
 Next, let's discuss what is expected of all of the.
 
@@ -39,12 +40,19 @@ but not on the paved area of the street or the intersection. (It is okay for the
 to be mounted on the sidewalk.) It must stick straight out of the ground; the long
 axis of the cylinder must be approximately in line with the direction of gravity.
 
-The street sign must include the name of the street in very large text. This name
-must be written on both sides of the sign and must be especially easy to see, even
-at night.
+Each street sign displays the name of one street. The street sign must include the
+name of the street in very large text. This name must be written on both faces of
+the sign and must be especially easy to see, even at night.
 
 Street signs are mounted on poles, each pole having exactly two street signs.
-The street signs must be aligned in a particular way.
+The street signs must be aligned in a particular way. One of the faces must be
+just-barely-touching (tangent) the pole. The sign must also line up with its
+corresponding street; that is, the wide axis of the rectangular sign must run
+parallel the corresponding street.
+
+Each pole must contain two street signs, each one corresponding to a different
+one of the two streets at the four-way intersection.
+
 
 #### Street signs
 
