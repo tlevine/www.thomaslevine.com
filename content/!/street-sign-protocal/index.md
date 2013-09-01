@@ -25,6 +25,8 @@ SSSP is a way of exchanging the names of *streets*. It involves
 * Being rectangular, a four-way intersection has four *corners* at the
     usual places.
 * A *pole* is a long cylinder sticking out of the ground.
+* A *street sign* is a flat thing that has text on it and gets mounted
+    on a pole.
 
 #### Intersection
 
