@@ -75,3 +75,6 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Beaglebone power supplies
 * [Unsanitary conditions in the Risley Hall bathrooms](/!/risley-toilets/)
 * R Spells for Data wizards
+
+## Societies
+* CSV Soundsystem
