@@ -1,12 +1,19 @@
 ---
 title: Curriculum vitae
 ---
+I wonder what the point of a CV is. If I'm not doing the conventional
+academic thing, I don't really need the typical CV. But why is it desireable?
+To some degree, it's a summary of a person. But my website is a summary
+of me too and it ignores some typical contents of a CV.
+So I think a CV is intended to make someone sound impressive. I sort
+of don't like doing that, but I'm curious about what it would sound like,
+so here I go.
 
 ## Education
-Cornell University, Bachelor's of Science (May 2011)
-Design & Environmental Analysis
-Concentration in Human Factors & Ergonomics
-GPA 3.5
+Cornell University, Bachelor's of Science (May 2011)<br>
+Design & Environmental Analysis<br>
+Concentration in Human Factors & Ergonomics<br>
+GPA 3.5<br>
 Hunter R. Rawlings III Presidential Research Scholar
 
 ## Awards
@@ -24,14 +31,29 @@ Hunter R. Rawlings III Presidential Research Scholar
 * [http://cornellsun.com/node/41218](The Spirit of the Arts)
 * [Datenschau 008](http://www.kuechenstud.io/datenschau/podcast/ds008/)
 * [Conversation with Tom Levine](http://www.youtube.com/watch?v=wX7IedZCTSo)
+* Revolution R about my R spells
+* Revolution R about FMS Symphony
+* [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/)
+* treasuryio
 
-## Talks
+## Invited talks
 * Web scraping, Strata London 2012
 * Music Videos in R, NYOSPM
 * Urchin, NYU ACM
 * Geometric computations of fundamental statistical concepts, NYU ACM
 * Interactive Data, CUSD
 * Hacks/Hackers Buenos Aires Media Party
+* Zipfian Academy July 2
+* Socrata August 23
+* APDU
+
+<!--
+## Contests I won
+* Toilet Hackers
+* Highground
+* Bicoastal Datafest
+* Digital literacy
+-->
 
 ## Short courses
 * NICAR 2012
@@ -40,11 +62,16 @@ Hunter R. Rawlings III Presidential Research Scholar
 * ScraperWiki Data Camp New York
 * ScraperWiki Data Camp DC
 * The Big Clean
+* Statistics doodles
 
-## Notable articles
-* The Hovering Cycle
+## Invited and reviewed articles
+* The Hovering Cycle (Plush)
+* [The New British Invasion: Scraper Wiki hits the Big Apple](http://datadrivenjournalism.net/news_and_analysis/scraperwiki_new_york_data_camp)
 * Effect of the number pad on mousing location
+* TechSoup
+
+## Other notable articles
 * Parsing PDF files
 * Beaglebone power supplies
 * [Unsanitary conditions in the Risley Hall bathrooms](/!/risley-toilets/)
-* [The New British Invasion: Scraper Wiki hits the Big Apple](http://datadrivenjournalism.net/news_and_analysis/scraperwiki_new_york_data_camp)
+* R Spells for Data wizards
