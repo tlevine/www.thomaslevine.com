@@ -28,7 +28,18 @@ SSSP is a way of exchanging the names of *streets*. It involves
 * A *street sign* is a flat thing that has text on it and gets mounted
     on a pole.
 
-#### Intersection
+Next, let's discuss what is expected of all of these components.
+
+#### Pole
+Each four-way intersection has four corners, and each pole is associated with
+a corner of an intersection. Each corner must have zero or one poles, and at least
+one of the corners of a four-way intersection must have a pole; thus, an
+intersection must have between one and four poles.
+
+Poles must be mounted within about ten feet of a corner of the intersection
+but not on the paved area of the street or the intersection. (It is okay for them
+to be mounted on the sidewalk.)
+
 
 
 ### Implimenting a SSP writer
