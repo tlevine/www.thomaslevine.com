@@ -53,11 +53,30 @@ parallel the corresponding street.
 Each pole must contain two street signs, each one corresponding to a different
 one of the two streets at the four-way intersection.
 
-
-#### Street signs
-
-
 ### Implimenting a SSSP writer
+Here is one possible procedure for encoding street names in SSSP. This procedure
+expects a four-way intersection and the names of the two streets as input. It
+outputs SSSP (two street signs mounted to a pole near the intersection).
+
+1. Determine which corner(s) of the intersections the street signs should be
+    mounted on. You might consider the locations of buildings, the presence
+    of sidewalks, the traffic patterns and the presence of visual obstacles
+    like trees.
+2. Print the signs with the street names.
+3. Cast a pole.
+4. Put a pole and street signs on a truck.
+5. Drive the truck to the intersection, and park nearby.
+6. Carry the materials and some tools to the intersection.
+7. Stick the pole in the ground near the chosen corner. I imagine that this
+    involves putting up caution tape, digging a hole, securing the pole, pouring
+    some concrete and covering it back up, but I don't really know. If this were
+    software, I'd try to use separate pole-installation library so I don't have
+    to implement the pole-installation procedure myself.
+8. Mount the street signs to the pole. Position them about ten feet above the ground,
+    with one on top of the other and with the centers of the signs touching the pole,
+    and otherwise in the appropriate orientations specified by the protocal. Secure
+    them with a sign bracket.
+9. Drive the truck back to wherever you got it from.
 
 ### Implimenting a SSSP reader
 
