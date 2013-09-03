@@ -26,13 +26,7 @@ datasets are duplicated. I did not remove duplicates, so I'm working
 with 15699 datasets, with a median of
 96 datasets per portal.
 
-
-```r
-p.portal.counts
-```
-
 ![plot of chunk portal-counts](figure/portal-counts.png) 
-
 
 ### No derived datasets
 This is much lower than my [earlier figure](/!/socrata-summary)
@@ -47,13 +41,7 @@ however, and this file doesn't make it easy to determine which direction
 the federation is in. The following plot gives us an idea of how many of
 these datasets are duplicates.
 
-
-```r
-p.federation
-```
-
 ![plot of chunk federation](figure/federation.png) 
-
 
 Most of the datasets are not duplicates, but some are duplicated many times.
 
@@ -63,16 +51,21 @@ or by following the links in the `/data.json` file.
 
 ### Cutoff at 1000?
 I find it highly suspicious the following nine portals have exactly 1000
-datasets and no portals have more than 1000.
+datasets and no portals have more than 1000 datasets.
 
-
-```r
+```
 paste(names(sort(table(datasets$portal), decreasing = T)[1:9]), collapse = "\n")
 ```
 
-```
-## [1] "bronx.lehman.cuny.edu\ndata.cityofnewyork.us\ndata.hawaii.gov\ndata.illinois.gov\ndata.ny.gov\ndata.ok.gov\ndata.oregon.gov\nexplore.data.gov\nwww.metrochicagodata.org"
-```
+* [bronx.lehman.cuny.edu](https://bronx.lehman.cuny.edu)
+* [data.cityofnewyork.us](https://data.cityofnewyork.us)
+* [data.hawaii.gov](https://data.hawaii.gov)
+* [data.illinois.gov](https://data.illinois.gov)
+* [data.ny.gov](https://data.ny.gov)
+* [data.ok.gov](https://data.ok.gov)
+* [data.oregon.gov](https://data.oregon.gov)
+* [explore.data.gov](https://explore.data.gov)
+* [www.metrochicagodata.org](https://www.metrochicagodata.org)
 
 
 Half of these portals federate `explore.data.gov`, which has quite a few datasets, and the JSON
@@ -119,23 +112,11 @@ Recall that the present dataset of datasets counts federated datasets multiple t
 The following plot shows the file types of the deduplicated dataset dataset, across
 all portals.
 
-
-```r
-p.format.deduplicated
-```
-
 ![plot of chunk deduplicated](figure/deduplicated.png) 
-
 
 And here are some of the main types by portal, counting federated datasets in all of their portals.
 
-
-```r
-p.all
-```
-
 ![plot of chunk all-formats](figure/all-formats.png) 
-
 
 `csv` mostly refers
 to data that Socrata represents as a table; this is the sort of data that Socrata
@@ -149,22 +130,7 @@ Most datasets are CSV (8143 of 15699).
 I was curious as to how this varies by portal and over time, and the following image
 addresses that.
 
-
-```r
-p.csv.cum.facet
-```
-
-```
-## Warning: Removed 4 rows containing missing values (geom_path). Warning:
-## Removed 4 rows containing missing values (geom_path). Warning: Removed 10
-## rows containing missing values (geom_path). Warning: Removed 4 rows
-## containing missing values (geom_path). Warning: Removed 4 rows containing
-## missing values (geom_path). Warning: Removed 193 rows containing missing
-## values (geom_path).
-```
-
 ![plot of chunk csv-cum-facet](figure/csv-cum-facet.png) 
-
 
 The image above contains one plot per data portal. The x-axis of each plot is the date,
 the y-axis is the proportion[^proportion] of datasets that are tabular (CSV), and the
@@ -181,13 +147,7 @@ prompted the shifts in dataset format.
 
 Missouri mostly has PDFs.
 
-
-```r
-p.data.mo.gov
-```
-
 ![plot of chunk mo](figure/mo.png) 
-
 
 Also interesting about Missouri is that it federates [Kansas City](https://data.kcmo.org/),
 which didn't appear in my list of portals.
@@ -195,24 +155,12 @@ which didn't appear in my list of portals.
 I know I said I'd focus on portals with fewer than 1000 datasets, but Lehman College is
 interesting because it has lots of zipped files.
 
-
-```r
-p.bronx.lehman.cuny.edu
-```
-
 ![plot of chunk lehman](figure/lehman.png) 
-
 
 San Francisco has a lot of CSVs, a lot of externally linked zip files,
 and a lot of externally linked files of unknown format.
 
-
-```r
-p.data.sfgov.org
-```
-
 ![plot of chunk sf](figure/sf.png) 
-
 
 ## Determination of external link file formats
 It looks like the format of external links is determined by the file name.
@@ -244,34 +192,18 @@ Others stay at this level for quite a while because no datasets were uploaded fo
 while. `data.raleighnc.gov` is an example of this. Here are its first ten datasets.
 
 
-```r
-sqldf("select title, created, format, 'https://' || portal || '/d/' || identifier as url from catalog where portal like '%ralei%' order by created limit 10;", 
-    dbname = "/tmp/catalog.db")
 ```
-
-```
-##                                  title    created
-## 1                 Building Permit Data 2012-03-14
-## 2                 Building Permit Data 2012-03-14
-## 3           City of Raleigh Quickfacts 2013-02-19
-## 4                      Raleigh Parking 2013-02-28
-## 5      Raleigh Electric Utilities 2011 2013-02-28
-## 6          Raleigh Communications 2011 2013-02-28
-## 7               Raleigh Buildings 2011 2013-02-28
-## 8             Raleigh Parks and Trails 2013-02-28
-## 9                  Raleigh Trail Areas 2013-02-28
-## 10 Family Income In The Past 12 Months 2013-02-28
-##                             format                                    url
-## 1                         text/csv https://data.raleighnc.gov/d/s68n-gffw
-## 2                         text/csv https://data.raleighnc.gov/d/pep8-sb8v
-## 3                         text/csv https://data.raleighnc.gov/d/fuys-kh3c
-## 4  application/zip; charset=binary https://data.raleighnc.gov/d/g3uq-k7zm
-## 5  application/zip; charset=binary https://data.raleighnc.gov/d/jrpi-4amz
-## 6  application/zip; charset=binary https://data.raleighnc.gov/d/fcx2-d4t3
-## 7  application/zip; charset=binary https://data.raleighnc.gov/d/46tk-23jt
-## 8  application/zip; charset=binary https://data.raleighnc.gov/d/3fmi-wyx6
-## 9  application/zip; charset=binary https://data.raleighnc.gov/d/pwv5-a5ca
-## 10                        text/csv https://data.raleighnc.gov/d/apbx-xr7f
+                              title    created                          format                                    url
+               Building Permit Data 2012-03-14                        text/csv https://data.raleighnc.gov/d/s68n-gffw
+               Building Permit Data 2012-03-14                        text/csv https://data.raleighnc.gov/d/pep8-sb8v
+         City of Raleigh Quickfacts 2013-02-19                        text/csv https://data.raleighnc.gov/d/fuys-kh3c
+                    Raleigh Parking 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/g3uq-k7zm
+    Raleigh Electric Utilities 2011 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/jrpi-4amz
+        Raleigh Communications 2011 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/fcx2-d4t3
+             Raleigh Buildings 2011 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/46tk-23jt
+           Raleigh Parks and Trails 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/3fmi-wyx6
+                Raleigh Trail Areas 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/pwv5-a5ca
+Family Income In The Past 12 Months 2013-02-28                        text/csv https://data.raleighnc.gov/d/apbx-xr7f
 ```
 
 
@@ -285,20 +217,13 @@ zip files were uploaded, reducing the proportion to 33% CSV.
 it was after a long while, so a lot of related datasets might have been uploaded all
 at once. Let's look at when datasets were uploaded.
 
-
-```r
-p.sf.changes
-```
-
 ![plot of chunk sf-changes](figure/sf-changes.png) 
-
 
 This has the quite similar information to the earlier plots, but it's a bit more precise.
 San Francisco added lots of datasets in January 2012, November 2012, and December 2012, and proportionately
 few of these datasets were CSV. What were they?
 
 Here are ten of the January datasets.
-
 
 ```
                                                                    title    created          format                                url
@@ -317,13 +242,7 @@ Here are ten of the January datasets.
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
 datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution) fields.
 
-
-```r
-p.sf.shapefiles
-```
-
 ![plot of chunk sf-shapefile](figure/sf-shapefile.png) 
-
 
 And a lot of the rest of the January files look like zipped shapefiles, even though the
 titles and descriptions don't say so.
@@ -343,22 +262,7 @@ external links. I made the following series of plots to check it. It is just lik
 proportion of datasets that are CSV, each y-axis represents the proportion of datasets
 that are CSV, PDF, zip or unknown external links.
 
-
-```r
-p.csv.pdf.zip.octet.cum.facet
-```
-
-```
-## Warning: Removed 4 rows containing missing values (geom_path). Warning:
-## Removed 4 rows containing missing values (geom_path). Warning: Removed 10
-## rows containing missing values (geom_path). Warning: Removed 4 rows
-## containing missing values (geom_path). Warning: Removed 4 rows containing
-## missing values (geom_path). Warning: Removed 193 rows containing missing
-## values (geom_path).
-```
-
 ![plot of chunk csv-pdf-zip-octet-cum-facet](figure/csv-pdf-zip-octet-cum-facet.png) 
-
 
 Most of the curves are pretty straight and stay near 1, meaning that the proportion doesn't
 change much and that the proportion is quite high. Thus, it looks like most datasets are
