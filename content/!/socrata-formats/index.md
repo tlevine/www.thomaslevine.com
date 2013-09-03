@@ -7,15 +7,16 @@ tweet_description: What file formats are on the data portals?
 kind: article
 created_at: 2013-09-03
 ---
-While [at Socrata's office]() on Friday,
+I found some more open data about open data to [study](/socrata).
+While [at Socrata's office](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/) on Friday,
 I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.
-It contains an entry for each [dataset](),
+It contains an entry for each [dataset](/!/socrata-genealogies/#term-dataset),
 uploaded by the data publisher; it doesn't contain all of the other
 views that are based on these source datasets.
 And it has [this format](http://project-open-data.github.io/schema/).
 
 ## How many datasets?
-Socrata portals have [50,000 different views](), but only
+Socrata portals have [50,000 different views](/!/socrata-users/#the-user-data-format), but only
 8922 are original datasets.
 
 The `/data.json` files include federated datasets, so some of these
@@ -50,14 +51,14 @@ p.portal.counts
 
 
 ### No derived datasets
-This is much lower than my [earlier figure]()
-because the present figure does not include [derived views]() (map, charts, &c.).
+This is much lower than my [earlier figure](/!/socrata-summary)
+because the present figure does not include [derived views](/!/socrata-genealogies#soda-queries-filtered-views-charts-maps) (map, charts, &c.).
 
 Some time, I'll compare the within-portal counts of original datasets
 and derived datasets. But not right now.
 
 ### Federated data
-It still includes [federated data]() (duplicates),
+It still includes [federated data](/!/socrata-genealogies/#term-federation) (duplicates),
 however, and this file doesn't make it easy to determine which direction
 the federation is in. Some day, I'll look more at federation, probably by 
 reading the federation information from home pages of the portals
@@ -105,20 +106,25 @@ not the format it was stored in before it got to the Socrata portal. But this
 still tells us something about the source file formats.
 
 People sometimes upload things that Socrata doesn't interpret as tables. PDFs are
-a major example. Other times, people upload or [link to]()
-files that could be tables but don't specify that they are tables.
+a major example. Other times, people upload or link to
+files that could be tables but don't specify that they are tables; those are called
+"external links". Read more on dataset types [here](/!/open-by-default#types-of-visualizations-on-socrata-portals).
 
 Data formats are represented in two fields, `format` and `distribution`. `distribution`{#distribution}
 seems to contain all of the different available formats. If the data are imported as
 tabular data, it contains CSV, JSON, XML, &c., all served from the Socrata site.
-And if the data are external links, it will contain a few external links, still
+And if the data are external links, the file will contain a few external links, still
 specifying the file types. The `format` field contains one of the formats that are
 specified in the `distribution` field. I think it's just the first of the formats.
 For the present analysis, I'm using the `format` field.
 
+Recall that the present dataset of datasets counts federated datasets multiple times.
+The following plot shows the file types of the deduplicated dataset dataset, across
+all portals.
+
 (image of counts across portal)
 
-And here are some of the main types by portal.
+And here are some of the main types by portal (counting federated datasets in all of their portals).
 
 
 ```r
