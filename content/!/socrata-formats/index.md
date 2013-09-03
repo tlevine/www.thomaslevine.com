@@ -30,7 +30,7 @@ datasets are duplicated. I did not remove duplicates, so I'm working
 with 15699 datasets, with a median of
 96 datasets per portal.
 
-![Datasets per portal, based on the /data.json file](figure/portal-counts.png){:.wide}
+[![Datasets per portal, based on the /data.json file](figure/portal-counts.png){:.wide}](figure/portal-counts.png)
 
 ### No derived datasets
 This is much lower than my [earlier figure](/!/socrata-summary)
@@ -45,7 +45,7 @@ however, and this file doesn't make it easy to determine which direction
 the federation is in. The following plot gives us an idea of how many of
 these datasets are duplicates.
 
-![The scale of data federation within this subset of Socrata datasets](figure/federation.png){:.wide}
+[![The scale of data federation within this subset of Socrata datasets](figure/federation.png){:.wide}](figure/federation.png)
 
 Most of the datasets are not duplicates, but some are duplicated many times.
 
@@ -114,11 +114,11 @@ Recall that the present dataset of datasets counts federated datasets multiple t
 The following plot shows the file types of the deduplicated dataset dataset, across
 all portals.
 
-![Formats of datasets across all portals](figure/deduplicated.png){:.wide}
+[![Formats of datasets across all portals](figure/deduplicated.png){:.wide}](figure/deduplicated.png)
 
 And here are some of the main types by portal, counting federated datasets in all of their portals.
 
-![Data formats on all the portals](figure/all-formats.png){:.wide}
+[![Data formats on all the portals](figure/all-formats.png){:.wide}](figure/all-formats.png)
 
 `csv` mostly refers
 to data that Socrata represents as a table; this is the sort of data that Socrata
@@ -132,7 +132,7 @@ Most datasets are CSV (8143 of 15699).
 I was curious as to how this varies by portal and over time, and the following image
 addresses that.
 
-![Dataset formats by portal over time](figure/csv-cum-facet.png){:.wide} 
+[![Dataset formats by portal over time](figure/csv-cum-facet.png){:.wide}](figure/csv-cum-facet.png)
 
 The image above contains one plot per data portal. The x-axis of each plot is the date,
 the y-axis is the proportion[^proportion] of datasets that are tabular (CSV), and the
@@ -149,7 +149,7 @@ prompted the shifts in dataset format.
 
 Missouri mostly has PDFs.
 
-![Data formats on data.mo.gov](figure/mo.png){:.wide}
+[![Data formats on data.mo.gov](figure/mo.png){:.wide}](figure/mo.png)
 
 Also interesting about Missouri is that it federates [Kansas City](https://data.kcmo.org/),
 which didn't appear in my list of portals.
@@ -157,12 +157,12 @@ which didn't appear in my list of portals.
 I know I said I'd focus on portals with fewer than 1000 datasets, but Lehman College is
 interesting because it has lots of zipped files.
 
-![Data formats on bronx.lehman.cuny.edu](figure/lehman.png){:.wide}
+[![Data formats on bronx.lehman.cuny.edu](figure/lehman.png){:.wide}](figure/lehman.png)
 
 San Francisco has a lot of CSVs, a lot of externally linked zip files,
 and a lot of externally linked files of unknown format.
 
-![Data formats on data.sfgov.org](figure/sf.png){:.wide}
+[![Data formats on data.sfgov.org](figure/sf.png){:.wide}](figure/sf.png)
 
 ## Determination of external link file formats
 It looks like the format of external links is determined by the file name.
@@ -216,7 +216,7 @@ zip files were uploaded, reducing the proportion to 33% CSV.
 it was after a long while, so a lot of related datasets might have been uploaded all
 at once. Let's look at when datasets were uploaded.
 
-![Formats of newly open San Francisco datasets over time](figure/sf-changes.png){:.wide}
+[![Formats of newly open San Francisco datasets over time](figure/sf-changes.png){:.wide}](figure/sf-changes.png)
 
 This has the quite similar information to the earlier plots, but it's a bit more precise.
 San Francisco added lots of datasets in January 2012, November 2012, and December 2012, and proportionately
@@ -241,7 +241,7 @@ title                                                                           
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
 datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution) fields.
 
-![Formats of newly open San Francisco datasets over time](figure/sf-shapefile.png){:.wide}
+[![Formats of newly open San Francisco datasets over time](figure/sf-shapefile.png){:.wide}](figure/sf-shapefile.png)
 
 And a lot of the rest of the January files look like zipped shapefiles, even though the
 titles and descriptions don't say so.
@@ -261,7 +261,7 @@ external links. I made the following series of plots to check it. It is just lik
 proportion of datasets that are CSV, each y-axis represents the proportion of datasets
 that are CSV, PDF, zip or unknown external links.
 
-![Dataset formats by portal over time](figure/csv-pdf-zip-octet-cum-facet.png){:.wide}
+[![Dataset formats by portal over time](figure/csv-pdf-zip-octet-cum-facet.png){:.wide}](figure/csv-pdf-zip-octet-cum-facet.png)
 
 Most of the curves are pretty straight and stay near 1, meaning that the proportion doesn't
 change much and that the proportion is quite high. Thus, it looks like most datasets are
