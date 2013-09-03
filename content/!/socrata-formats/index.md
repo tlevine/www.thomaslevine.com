@@ -1,7 +1,8 @@
 ---
 title: What file formats are on the data portals?
 description: I looked at the file formats of datasets on open data portals.
-tweet_text: San Francisco has a lot of shapefiles.
+tweet_text: San Francisco has a lot of open data shapefiles. http://thomaslevine.com/!/socrata-formats
+tweet_link: https://twitter.com/thomaslevine/status/374938303289503744
 twitter_title: And Missouri has a lot of PDFs.
 twitter_description: What file formats are on the data portals?
 facebook_title: And Missouri has a lot of PDFs.
