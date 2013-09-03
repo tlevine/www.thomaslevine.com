@@ -7,8 +7,6 @@ tweet_description: What file formats are on the data portals?
 kind: article
 created_at: 2013-09-03
 ---
-
-
 I found some more open data about open data to [study](/socrata)!
 While [at Socrata's office](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/) on Friday,
 I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.
