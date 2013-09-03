@@ -332,40 +332,19 @@ few of these datasets were CSV. What were they?
 Here are ten of the January datasets.
 
 
-```r
-sqldf("select title, created, format, 'https://' || portal || '/d/' || identifier as url from catalog where portal = 'data.sfgov.org' and created >= '2012-01-01' and created < '2012-02-01' order by created limit 10;", 
-    dbname = "/tmp/catalog.db")
 ```
-
+                                                                   title    created          format                                url
+             Arterial Streets of San Francisco (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/2ivi-ywmk
+                Orthophoto 1ft resolution (1993) - (Zipped MrSID Format) 2012-01-01 application/zip https://data.sfgov.org/d/2xc9-is4u
+                                     City Lots (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/3vyz-qy9p
+            Census 2000 Block Group (No Water) (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/4aaa-ycik
+           Orthophoto 1ft (1993) - Treasure Island (Zipped MrSID Format) 2012-01-01 application/zip https://data.sfgov.org/d/4drs-6tjy
+                                                            SFPD Sectors 2012-01-01 application/zip https://data.sfgov.org/d/4mzs-yjt7
+                    SFPD Crime Reporting Plots (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5aii-qc4e
+ Neighborhood Marketplace Initiative Corridors (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5fxg-wene
+      San Francisco Basemap Street Centerlines (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5rn4-fswj
+                 The Presidio of San Francisco (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5sny-6aph
 ```
-## Warning: NAs introduced by coercion
-```
-
-```
-##                                                                      title
-## 1              Arterial Streets of San Francisco (Zipped Shapefile Format)
-## 2                 Orthophoto 1ft resolution (1993) - (Zipped MrSID Format)
-## 3                                      City Lots (Zipped Shapefile Format)
-## 4             Census 2000 Block Group (No Water) (Zipped Shapefile Format)
-## 5            Orthophoto 1ft (1993) - Treasure Island (Zipped MrSID Format)
-## 6                                                             SFPD Sectors
-## 7                     SFPD Crime Reporting Plots (Zipped Shapefile Format)
-## 8  Neighborhood Marketplace Initiative Corridors (Zipped Shapefile Format)
-## 9       San Francisco Basemap Street Centerlines (Zipped Shapefile Format)
-## 10                 The Presidio of San Francisco (Zipped Shapefile Format)
-##    created          format                                url
-## 1     <NA> application/zip https://data.sfgov.org/d/2ivi-ywmk
-## 2     <NA> application/zip https://data.sfgov.org/d/2xc9-is4u
-## 3     <NA> application/zip https://data.sfgov.org/d/3vyz-qy9p
-## 4     <NA> application/zip https://data.sfgov.org/d/4aaa-ycik
-## 5     <NA> application/zip https://data.sfgov.org/d/4drs-6tjy
-## 6     <NA> application/zip https://data.sfgov.org/d/4mzs-yjt7
-## 7     <NA> application/zip https://data.sfgov.org/d/5aii-qc4e
-## 8     <NA> application/zip https://data.sfgov.org/d/5fxg-wene
-## 9     <NA> application/zip https://data.sfgov.org/d/5rn4-fswj
-## 10    <NA> application/zip https://data.sfgov.org/d/5sny-6aph
-```
-
 
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
 datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution] fields.
