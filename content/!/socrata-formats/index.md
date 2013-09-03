@@ -1,9 +1,12 @@
 ---
 title: What file formats are on the data portals?
+description: I looked at the file formats of datasets on open data portals.
+tweet_text: San Francisco has a lot of shapefiles.
+tweet_title: And Missouri has a lot of PDFs.
+tweet_description: What file formats are on the data portals?
+kind: article
+created_at: 2013-09-03
 ---
-
-
-
 While [at Socrata's office]() on Friday,
 I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.
 It contains an entry for each [dataset](),
