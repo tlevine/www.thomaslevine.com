@@ -280,7 +280,7 @@ This got me thinking about other ways of studying file formats.
 ### The attribution field
 Socrata's SODA 1 API, which I've [used before](/!/socrata-summary/#download-dataset-metadata),
 contains an `attribution` field, which references the URL from
-which the dataset was taken. (I presume that this is entered manually.) This would be one
+which the dataset was taken.[^attribution] This would be one
 way of figuring out the source format, or at least some related information about the source.
 
 ### Externally linked CSVs
@@ -300,3 +300,4 @@ downloading the files.
 [^proportion]: It's actually a tad bit more complicated than that. These dates are the
     creation dates of the datasets that are available today; I do not know about datasets
     that were historically on the portal and have since been deleted.
+[^attribution]: I presume that this is entered manually.
