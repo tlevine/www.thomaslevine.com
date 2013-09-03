@@ -211,7 +211,7 @@ zip files were uploaded, reducing the proportion to 33% CSV.
 it was after a long while, so a lot of related datasets might have been uploaded all
 at once. Let's look at when datasets were uploaded.
 
-![plot of chunk sf-changes](figure/sf-changes.png) 
+![Formats of newly open San Francisco datasets over time](figure/sf-changes.png){:.wide}
 
 This has the quite similar information to the earlier plots, but it's a bit more precise.
 San Francisco added lots of datasets in January 2012, November 2012, and December 2012, and proportionately
@@ -219,24 +219,23 @@ few of these datasets were CSV. What were they?
 
 Here are ten of the January datasets.
 
-```
-                                                                   title    created          format                                url
-             Arterial Streets of San Francisco (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/2ivi-ywmk
-                Orthophoto 1ft resolution (1993) - (Zipped MrSID Format) 2012-01-01 application/zip https://data.sfgov.org/d/2xc9-is4u
-                                     City Lots (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/3vyz-qy9p
-            Census 2000 Block Group (No Water) (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/4aaa-ycik
-           Orthophoto 1ft (1993) - Treasure Island (Zipped MrSID Format) 2012-01-01 application/zip https://data.sfgov.org/d/4drs-6tjy
-                                                            SFPD Sectors 2012-01-01 application/zip https://data.sfgov.org/d/4mzs-yjt7
-                    SFPD Crime Reporting Plots (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5aii-qc4e
- Neighborhood Marketplace Initiative Corridors (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5fxg-wene
-      San Francisco Basemap Street Centerlines (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5rn4-fswj
-                 The Presidio of San Francisco (Zipped Shapefile Format) 2012-01-01 application/zip https://data.sfgov.org/d/5sny-6aph
-```
+                                                                  title|   created|         format|                               url
+-----------------------------------------------------------------------|----------|---------------|----------------------------------
+            Arterial Streets of San Francisco (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/2ivi-ywmk
+               Orthophoto 1ft resolution (1993) - (Zipped MrSID Format)|2012-01-01|application/zip|https://data.sfgov.org/d/2xc9-is4u
+                                    City Lots (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/3vyz-qy9p
+           Census 2000 Block Group (No Water) (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/4aaa-ycik
+          Orthophoto 1ft (1993) - Treasure Island (Zipped MrSID Format)|2012-01-01|application/zip|https://data.sfgov.org/d/4drs-6tjy
+                                                           SFPD Sectors|2012-01-01|application/zip|https://data.sfgov.org/d/4mzs-yjt7
+                   SFPD Crime Reporting Plots (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5aii-qc4e
+Neighborhood Marketplace Initiative Corridors (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5fxg-wene
+     San Francisco Basemap Street Centerlines (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5rn4-fswj
+                The Presidio of San Francisco (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5sny-6aph
 
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
 datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution) fields.
 
-![plot of chunk sf-shapefile](figure/sf-shapefile.png) 
+![Formats of newly open San Francisco datasets over time](figure/sf-shapefile.png){:.wide}
 
 And a lot of the rest of the January files look like zipped shapefiles, even though the
 titles and descriptions don't say so.
@@ -262,7 +261,7 @@ Most of the curves are pretty straight and stay near 1, meaning that the proport
 change much and that the proportion is quite high. Thus, it looks like most datasets are
 either CSV, pdf, zip or external links of unknown format.
 
-### Conclusions
+## Conclusions
 
 ### Formats
 I was mainly wondering about the source formats of the data. It turns out that most datasets
