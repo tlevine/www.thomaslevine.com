@@ -8,6 +8,11 @@ kind: article
 created_at: 2013-09-03
 tags: ['socrata']
 ---
+<style>
+table {
+  font-size: 0.7em;
+}
+</style>
 I found some more open data about open data to [study](/socrata)!
 While [at Socrata's office](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/) on Friday,
 I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.
@@ -188,18 +193,18 @@ examples.
 Others stay at this level for quite a while because no datasets were uploaded for a
 while. `data.raleighnc.gov` is an example of this. Here are its first ten datasets.
 
-                              title|   created|                         format|                                   url
------------------------------------|----------|-------------------------------|--------------------------------------
-               Building Permit Data|2012-03-14|                       text/csv|https://data.raleighnc.gov/d/s68n-gffw
-               Building Permit Data|2012-03-14|                       text/csv|https://data.raleighnc.gov/d/pep8-sb8v
-         City of Raleigh Quickfacts|2013-02-19|                       text/csv|https://data.raleighnc.gov/d/fuys-kh3c
-                    Raleigh Parking|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/g3uq-k7zm
-    Raleigh Electric Utilities 2011|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/jrpi-4amz
-        Raleigh Communications 2011|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/fcx2-d4t3
-             Raleigh Buildings 2011|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/46tk-23jt
-           Raleigh Parks and Trails|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/3fmi-wyx6
-                Raleigh Trail Areas|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/pwv5-a5ca
-Family Income In The Past 12 Months|2013-02-28|                       text/csv|https://data.raleighnc.gov/d/apbx-xr7f
+title                                                                        |created   |format
+-----------------------------------------------------------------------------|----------|-------------------------------
+               [Building Permit Data](https://data.raleighnc.gov/d/s68n-gffw)|2012-03-14|                       text/csv
+               [Building Permit Data](https://data.raleighnc.gov/d/pep8-sb8v)|2012-03-14|                       text/csv
+         [City of Raleigh Quickfacts](https://data.raleighnc.gov/d/fuys-kh3c)|2013-02-19|                       text/csv
+                    [Raleigh Parking](https://data.raleighnc.gov/d/g3uq-k7zm)|2013-02-28|application/zip
+    [Raleigh Electric Utilities 2011](https://data.raleighnc.gov/d/jrpi-4amz)|2013-02-28|application/zip
+        [Raleigh Communications 2011](https://data.raleighnc.gov/d/fcx2-d4t3)|2013-02-28|application/zip
+             [Raleigh Buildings 2011](https://data.raleighnc.gov/d/46tk-23jt)|2013-02-28|application/zip
+           [Raleigh Parks and Trails](https://data.raleighnc.gov/d/3fmi-wyx6)|2013-02-28|application/zip
+                [Raleigh Trail Areas](https://data.raleighnc.gov/d/pwv5-a5ca)|2013-02-28|application/zip
+[Family Income In The Past 12 Months](https://data.raleighnc.gov/d/apbx-xr7f)|2013-02-28|                       text/csv
 
 The first two datasets were uploaded in the middle of March 2012 and were CSV format,
 making the datasets 100% CSV. The next was uploaded in the middle of February 2013 and
@@ -219,18 +224,19 @@ few of these datasets were CSV. What were they?
 
 Here are ten of the January datasets.
 
-                                                                  title|   created|         format|                               url
------------------------------------------------------------------------|----------|---------------|----------------------------------
-            Arterial Streets of San Francisco (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/2ivi-ywmk
-               Orthophoto 1ft resolution (1993) - (Zipped MrSID Format)|2012-01-01|application/zip|https://data.sfgov.org/d/2xc9-is4u
-                                    City Lots (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/3vyz-qy9p
-           Census 2000 Block Group (No Water) (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/4aaa-ycik
-          Orthophoto 1ft (1993) - Treasure Island (Zipped MrSID Format)|2012-01-01|application/zip|https://data.sfgov.org/d/4drs-6tjy
-                                                           SFPD Sectors|2012-01-01|application/zip|https://data.sfgov.org/d/4mzs-yjt7
-                   SFPD Crime Reporting Plots (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5aii-qc4e
-Neighborhood Marketplace Initiative Corridors (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5fxg-wene
-     San Francisco Basemap Street Centerlines (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5rn4-fswj
-                The Presidio of San Francisco (Zipped Shapefile Format)|2012-01-01|application/zip|https://data.sfgov.org/d/5sny-6aph
+
+title                                                                                                        |created   |format
+-------------------------------------------------------------------------------------------------------------|----------|---------------
+            [Arterial Streets of San Francisco (Zipped Shapefile Format)](https://data.sfgov.org/d/2ivi-ywmk)|2012-01-01|application/zip
+               [Orthophoto 1ft resolution (1993) - (Zipped MrSID Format)](https://data.sfgov.org/d/2xc9-is4u)|2012-01-01|application/zip
+                                    [City Lots (Zipped Shapefile Format)](https://data.sfgov.org/d/3vyz-qy9p)|2012-01-01|application/zip
+           [Census 2000 Block Group (No Water) (Zipped Shapefile Format)](https://data.sfgov.org/d/4aaa-ycik)|2012-01-01|application/zip
+          [Orthophoto 1ft (1993) - Treasure Island (Zipped MrSID Format)](https://data.sfgov.org/d/4drs-6tjy)|2012-01-01|application/zip
+                                                           [SFPD Sectors](https://data.sfgov.org/d/4mzs-yjt7)|2012-01-01|application/zip
+                   [SFPD Crime Reporting Plots (Zipped Shapefile Format)](https://data.sfgov.org/d/5aii-qc4e)|2012-01-01|application/zip
+[Neighborhood Marketplace Initiative Corridors (Zipped Shapefile Format)](https://data.sfgov.org/d/5fxg-wene)|2012-01-01|application/zip
+     [San Francisco Basemap Street Centerlines (Zipped Shapefile Format)](https://data.sfgov.org/d/5rn4-fswj)|2012-01-01|application/zip
+                [The Presidio of San Francisco (Zipped Shapefile Format)](https://data.sfgov.org/d/5sny-6aph)|2012-01-01|application/zip
 
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
 datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution) fields.
