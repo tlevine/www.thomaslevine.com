@@ -6,6 +6,7 @@ tweet_title: And Missouri has a lot of PDFs.
 tweet_description: What file formats are on the data portals?
 kind: article
 created_at: 2013-09-03
+tags: ['socrata']
 ---
 I found some more open data about open data to [study](/socrata)!
 While [at Socrata's office](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/) on Friday,
@@ -24,7 +25,7 @@ datasets are duplicated. I did not remove duplicates, so I'm working
 with 15699 datasets, with a median of
 96 datasets per portal.
 
-![plot of chunk portal-counts](figure/portal-counts.png) 
+![Datasets per portal, based on the /data.json file](figure/portal-counts.png){:.wide}
 
 ### No derived datasets
 This is much lower than my [earlier figure](/!/socrata-summary)
@@ -39,7 +40,7 @@ however, and this file doesn't make it easy to determine which direction
 the federation is in. The following plot gives us an idea of how many of
 these datasets are duplicates.
 
-![plot of chunk federation](figure/federation.png) 
+![The scale of data federation within this subset of Socrata datasets](figure/federation.png){:.wide}
 
 Most of the datasets are not duplicates, but some are duplicated many times.
 
@@ -51,9 +52,7 @@ or by following the links in the `/data.json` file.
 I find it highly suspicious the following nine portals have exactly 1000
 datasets and no portals have more than 1000 datasets.
 
-```
-paste(names(sort(table(datasets$portal), decreasing = T)[1:9]), collapse = "\n")
-```
+    paste(names(sort(table(datasets$portal), decreasing = T)[1:9]), collapse = "\n")
 
 * [bronx.lehman.cuny.edu](https://bronx.lehman.cuny.edu)
 * [data.cityofnewyork.us](https://data.cityofnewyork.us)
@@ -79,12 +78,12 @@ tabular representation within the portal software. From that, they get converted
 to a range of different tabular formats.
 
 The Socrata data portal doesn't explicitly store the source format because of
-how the import process works. Most of the data [probably come from Excel](scraperwiki),
+how the import process works. Most of the data [probably come from Excel](http://blog.scraperwiki.com/2012/07/31/do-all-analysts-use-excel/),
 and the data that aren't from Excel typically come from inside of a government
 network where policies would make it inconvenient to expose the database to the
 world. Because of this, Socrata doesn't query database servers. Instead, data
 publishers write middlemen that act as both database clients and Socrata clients.
-They query the database and then make [web requests](api)
+They query the database and then make [web requests](http://dev.socrata.com/publishers/getting-started)
 to the Socrata portal.
 
 ## `/data.json` contains file format information
@@ -110,11 +109,11 @@ Recall that the present dataset of datasets counts federated datasets multiple t
 The following plot shows the file types of the deduplicated dataset dataset, across
 all portals.
 
-![plot of chunk deduplicated](figure/deduplicated.png) 
+![Formats of datasets across all portals](figure/deduplicated.png){:.wide}
 
 And here are some of the main types by portal, counting federated datasets in all of their portals.
 
-![plot of chunk all-formats](figure/all-formats.png) 
+![Data formats on all the portals](figure/all-formats.png){:.wide}
 
 `csv` mostly refers
 to data that Socrata represents as a table; this is the sort of data that Socrata
@@ -128,7 +127,7 @@ Most datasets are CSV (8143 of 15699).
 I was curious as to how this varies by portal and over time, and the following image
 addresses that.
 
-![plot of chunk csv-cum-facet](figure/csv-cum-facet.png) 
+![Dataset formats by portal over time](figure/csv-cum-facet.png){:.wide} 
 
 The image above contains one plot per data portal. The x-axis of each plot is the date,
 the y-axis is the proportion[^proportion] of datasets that are tabular (CSV), and the
@@ -145,7 +144,7 @@ prompted the shifts in dataset format.
 
 Missouri mostly has PDFs.
 
-![plot of chunk mo](figure/mo.png) 
+![Data formats on data.mo.gov](figure/mo.png){:.wide}
 
 Also interesting about Missouri is that it federates [Kansas City](https://data.kcmo.org/),
 which didn't appear in my list of portals.
@@ -153,12 +152,12 @@ which didn't appear in my list of portals.
 I know I said I'd focus on portals with fewer than 1000 datasets, but Lehman College is
 interesting because it has lots of zipped files.
 
-![plot of chunk lehman](figure/lehman.png) 
+![Data formats on bronx.lehman.cuny.edu](figure/lehman.png){:.wide}
 
 San Francisco has a lot of CSVs, a lot of externally linked zip files,
 and a lot of externally linked files of unknown format.
 
-![plot of chunk sf](figure/sf.png) 
+![Data formats on data.sfgov.org](figure/sf.png){:.wide}
 
 ## Determination of external link file formats
 It looks like the format of external links is determined by the file name.
@@ -189,21 +188,18 @@ examples.
 Others stay at this level for quite a while because no datasets were uploaded for a
 while. `data.raleighnc.gov` is an example of this. Here are its first ten datasets.
 
-
-```
-                              title    created                          format                                    url
-               Building Permit Data 2012-03-14                        text/csv https://data.raleighnc.gov/d/s68n-gffw
-               Building Permit Data 2012-03-14                        text/csv https://data.raleighnc.gov/d/pep8-sb8v
-         City of Raleigh Quickfacts 2013-02-19                        text/csv https://data.raleighnc.gov/d/fuys-kh3c
-                    Raleigh Parking 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/g3uq-k7zm
-    Raleigh Electric Utilities 2011 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/jrpi-4amz
-        Raleigh Communications 2011 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/fcx2-d4t3
-             Raleigh Buildings 2011 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/46tk-23jt
-           Raleigh Parks and Trails 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/3fmi-wyx6
-                Raleigh Trail Areas 2013-02-28 application/zip; charset=binary https://data.raleighnc.gov/d/pwv5-a5ca
-Family Income In The Past 12 Months 2013-02-28                        text/csv https://data.raleighnc.gov/d/apbx-xr7f
-```
-
+                              title|   created|                         format|                                   url
+-----------------------------------|----------|-------------------------------|--------------------------------------
+               Building Permit Data|2012-03-14|                       text/csv|https://data.raleighnc.gov/d/s68n-gffw
+               Building Permit Data|2012-03-14|                       text/csv|https://data.raleighnc.gov/d/pep8-sb8v
+         City of Raleigh Quickfacts|2013-02-19|                       text/csv|https://data.raleighnc.gov/d/fuys-kh3c
+                    Raleigh Parking|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/g3uq-k7zm
+    Raleigh Electric Utilities 2011|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/jrpi-4amz
+        Raleigh Communications 2011|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/fcx2-d4t3
+             Raleigh Buildings 2011|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/46tk-23jt
+           Raleigh Parks and Trails|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/3fmi-wyx6
+                Raleigh Trail Areas|2013-02-28|application/zip; charset=binary|https://data.raleighnc.gov/d/pwv5-a5ca
+Family Income In The Past 12 Months|2013-02-28|                       text/csv|https://data.raleighnc.gov/d/apbx-xr7f
 
 The first two datasets were uploaded in the middle of March 2012 and were CSV format,
 making the datasets 100% CSV. The next was uploaded in the middle of February 2013 and
@@ -260,7 +256,7 @@ external links. I made the following series of plots to check it. It is just lik
 proportion of datasets that are CSV, each y-axis represents the proportion of datasets
 that are CSV, PDF, zip or unknown external links.
 
-![plot of chunk csv-pdf-zip-octet-cum-facet](figure/csv-pdf-zip-octet-cum-facet.png) 
+![Dataset formats by portal over time](figure/csv-pdf-zip-octet-cum-facet.png){:.wide}
 
 Most of the curves are pretty straight and stay near 1, meaning that the proportion doesn't
 change much and that the proportion is quite high. Thus, it looks like most datasets are
