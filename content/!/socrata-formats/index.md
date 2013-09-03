@@ -7,7 +7,9 @@ tweet_description: What file formats are on the data portals?
 kind: article
 created_at: 2013-09-03
 ---
-I found some more open data about open data to [study](/socrata).
+
+
+I found some more open data about open data to [study](/socrata)!
 While [at Socrata's office](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/) on Friday,
 I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.
 It contains an entry for each [dataset](/!/socrata-genealogies/#term-dataset),
@@ -29,24 +31,6 @@ with 15699 datasets, with a median of
 p.portal.counts
 ```
 
-```
-## Warning: font family 'Datasets per portal, based on the data.json file'
-## not found in PostScript font database Warning: font family 'Datasets per
-## portal, based on the data.json file' not found in PostScript font database
-## Warning: font family 'Datasets per portal, based on the data.json file'
-## not found in PostScript font database Warning: font family 'Datasets per
-## portal, based on the data.json file' not found in PostScript font database
-## Warning: font family 'Datasets per portal, based on the data.json file'
-## not found in PostScript font database Warning: font family 'Datasets per
-## portal, based on the data.json file' not found in PostScript font database
-## Warning: font family 'Datasets per portal, based on the data.json file'
-## not found in PostScript font database Warning: font family 'Datasets per
-## portal, based on the data.json file' not found in PostScript font database
-## Warning: font family 'Datasets per portal, based on the data.json file'
-## not found in PostScript font database Warning: font family 'Datasets per
-## portal, based on the data.json file' not found in PostScript font database
-```
-
 ![plot of chunk portal-counts](figure/portal-counts.png) 
 
 
@@ -60,7 +44,20 @@ and derived datasets. But not right now.
 ### Federated data
 It still includes [federated data](/!/socrata-genealogies/#term-federation) (duplicates),
 however, and this file doesn't make it easy to determine which direction
-the federation is in. Some day, I'll look more at federation, probably by 
+the federation is in. The following plot gives us an idea of how many of
+these datasets are duplicates.
+
+
+```r
+p.federation
+```
+
+![plot of chunk federation](figure/federation.png) 
+
+
+Most of the datasets are not duplicates, but some are duplicated many times.
+
+Some day, I'll look more at federation, probably by 
 reading the federation information from home pages of the portals
 or by following the links in the `/data.json` file.
 
@@ -113,7 +110,7 @@ files that could be tables but don't specify that they are tables; those are cal
 Data formats are represented in two fields, `format` and `distribution`. `distribution`{#distribution}
 seems to contain all of the different available formats. If the data are imported as
 tabular data, it contains CSV, JSON, XML, &c., all served from the Socrata site.
-And if the data are external links, the file will contain a few external links, still
+And if the data are external links, it will contain a few external links, still
 specifying the file types. The `format` field contains one of the formats that are
 specified in the `distribution` field. I think it's just the first of the formats.
 For the present analysis, I'm using the `format` field.
@@ -122,9 +119,15 @@ Recall that the present dataset of datasets counts federated datasets multiple t
 The following plot shows the file types of the deduplicated dataset dataset, across
 all portals.
 
-(image of counts across portal)
 
-And here are some of the main types by portal (counting federated datasets in all of their portals).
+```r
+p.format.deduplicated
+```
+
+![plot of chunk deduplicated](figure/deduplicated.png) 
+
+
+And here are some of the main types by portal, counting federated datasets in all of their portals.
 
 
 ```r
@@ -157,24 +160,7 @@ p.csv.cum.facet
 ## rows containing missing values (geom_path). Warning: Removed 4 rows
 ## containing missing values (geom_path). Warning: Removed 4 rows containing
 ## missing values (geom_path). Warning: Removed 193 rows containing missing
-## values (geom_path). Warning: font family 'Dataset formats by portal over
-## time' not found in PostScript font database Warning: font family 'Dataset
-## formats by portal over time' not found in PostScript font database
-## Warning: font family 'Dataset formats by portal over time' not found in
-## PostScript font database Warning: font family 'Dataset formats by portal
-## over time' not found in PostScript font database Warning: font family
-## 'Dataset formats by portal over time' not found in PostScript font
-## database Warning: font family 'Dataset formats by portal over time' not
-## found in PostScript font database Warning: font family 'Dataset formats by
-## portal over time' not found in PostScript font database Warning: font
-## family 'Dataset formats by portal over time' not found in PostScript font
-## database Warning: font family 'Dataset formats by portal over time' not
-## found in PostScript font database Warning: font family 'Dataset formats by
-## portal over time' not found in PostScript font database Warning: font
-## family 'Dataset formats by portal over time' not found in PostScript font
-## database Warning: font family 'Dataset formats by portal over time' not
-## found in PostScript font database Warning: font family 'Dataset formats by
-## portal over time' not found in PostScript font database
+## values (geom_path).
 ```
 
 ![plot of chunk csv-cum-facet](figure/csv-cum-facet.png) 
@@ -304,33 +290,6 @@ at once. Let's look at when datasets were uploaded.
 p.sf.changes
 ```
 
-```
-## Warning: font family 'Formats of newly open San Francisco datasets over
-## time' not found in PostScript font database Warning: font family 'Formats
-## of newly open San Francisco datasets over time' not found in PostScript
-## font database Warning: font family 'Formats of newly open San Francisco
-## datasets over time' not found in PostScript font database Warning: font
-## family 'Formats of newly open San Francisco datasets over time' not found
-## in PostScript font database Warning: font family 'Formats of newly open
-## San Francisco datasets over time' not found in PostScript font database
-## Warning: font family 'Formats of newly open San Francisco datasets over
-## time' not found in PostScript font database Warning: font family 'Formats
-## of newly open San Francisco datasets over time' not found in PostScript
-## font database Warning: font family 'Formats of newly open San Francisco
-## datasets over time' not found in PostScript font database Warning: font
-## family 'Formats of newly open San Francisco datasets over time' not found
-## in PostScript font database Warning: font family 'Formats of newly open
-## San Francisco datasets over time' not found in PostScript font database
-## Warning: font family 'Formats of newly open San Francisco datasets over
-## time' not found in PostScript font database Warning: font family 'Formats
-## of newly open San Francisco datasets over time' not found in PostScript
-## font database Warning: font family 'Formats of newly open San Francisco
-## datasets over time' not found in PostScript font database Warning: font
-## family 'Formats of newly open San Francisco datasets over time' not found
-## in PostScript font database Warning: font family 'Formats of newly open
-## San Francisco datasets over time' not found in PostScript font database
-```
-
 ![plot of chunk sf-changes](figure/sf-changes.png) 
 
 
@@ -356,38 +315,11 @@ Here are ten of the January datasets.
 ```
 
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
-datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution] fields.
+datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution) fields.
 
 
 ```r
 p.sf.shapefiles
-```
-
-```
-## Warning: font family 'Formats of newly open San Francisco datasets over
-## time' not found in PostScript font database Warning: font family 'Formats
-## of newly open San Francisco datasets over time' not found in PostScript
-## font database Warning: font family 'Formats of newly open San Francisco
-## datasets over time' not found in PostScript font database Warning: font
-## family 'Formats of newly open San Francisco datasets over time' not found
-## in PostScript font database Warning: font family 'Formats of newly open
-## San Francisco datasets over time' not found in PostScript font database
-## Warning: font family 'Formats of newly open San Francisco datasets over
-## time' not found in PostScript font database Warning: font family 'Formats
-## of newly open San Francisco datasets over time' not found in PostScript
-## font database Warning: font family 'Formats of newly open San Francisco
-## datasets over time' not found in PostScript font database Warning: font
-## family 'Formats of newly open San Francisco datasets over time' not found
-## in PostScript font database Warning: font family 'Formats of newly open
-## San Francisco datasets over time' not found in PostScript font database
-## Warning: font family 'Formats of newly open San Francisco datasets over
-## time' not found in PostScript font database Warning: font family 'Formats
-## of newly open San Francisco datasets over time' not found in PostScript
-## font database Warning: font family 'Formats of newly open San Francisco
-## datasets over time' not found in PostScript font database Warning: font
-## family 'Formats of newly open San Francisco datasets over time' not found
-## in PostScript font database Warning: font family 'Formats of newly open
-## San Francisco datasets over time' not found in PostScript font database
 ```
 
 ![plot of chunk sf-shapefile](figure/sf-shapefile.png) 
@@ -422,24 +354,7 @@ p.csv.pdf.zip.octet.cum.facet
 ## rows containing missing values (geom_path). Warning: Removed 4 rows
 ## containing missing values (geom_path). Warning: Removed 4 rows containing
 ## missing values (geom_path). Warning: Removed 193 rows containing missing
-## values (geom_path). Warning: font family 'Dataset formats by portal over
-## time' not found in PostScript font database Warning: font family 'Dataset
-## formats by portal over time' not found in PostScript font database
-## Warning: font family 'Dataset formats by portal over time' not found in
-## PostScript font database Warning: font family 'Dataset formats by portal
-## over time' not found in PostScript font database Warning: font family
-## 'Dataset formats by portal over time' not found in PostScript font
-## database Warning: font family 'Dataset formats by portal over time' not
-## found in PostScript font database Warning: font family 'Dataset formats by
-## portal over time' not found in PostScript font database Warning: font
-## family 'Dataset formats by portal over time' not found in PostScript font
-## database Warning: font family 'Dataset formats by portal over time' not
-## found in PostScript font database Warning: font family 'Dataset formats by
-## portal over time' not found in PostScript font database Warning: font
-## family 'Dataset formats by portal over time' not found in PostScript font
-## database Warning: font family 'Dataset formats by portal over time' not
-## found in PostScript font database Warning: font family 'Dataset formats by
-## portal over time' not found in PostScript font database
+## values (geom_path).
 ```
 
 ![plot of chunk csv-pdf-zip-octet-cum-facet](figure/csv-pdf-zip-octet-cum-facet.png) 
@@ -466,7 +381,8 @@ in January, November and December of 2012.
 This got me thinking about other ways of studying file formats.
 
 ### The attribution field
-Socrata's SODA 1 API [contains]() an `attribution` field, which references the URL from
+Socrata's SODA 1 API, which I've [used before](/!/socrata-summary/#download-dataset-metadata),
+contains an `attribution` field, which references the URL from
 which the dataset was taken. (I presume that this is entered manually.) This would be one
 way of figuring out the source format, or at least some related information about the source.
 
