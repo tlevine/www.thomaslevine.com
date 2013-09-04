@@ -25,5 +25,9 @@ Run it.
 
 Set that up as a daemon if you wish.
 
-I always have problems with the Chrome driver, but
-the Firefox driver has always been fine for me.
+The Chrome driver expects Chrome, not Chromium. If you want to use Chromium,
+make Chromium look like Chrome; run this as your user.
+
+    echo 'alias chrome=chromium' >> ~/.bashrc && alias chrome=chromium
+
+(Those directions came from [here](https://bitbucket.org/ScraperWiki/scraperwiki-classic/wiki/RunningTests#!installing-chrome).)
