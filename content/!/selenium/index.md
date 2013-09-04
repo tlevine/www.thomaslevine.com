@@ -25,9 +25,22 @@ Run it.
 
 Set that up as a daemon if you wish.
 
+## Chrome
+You need the Chrome driver in order to use Selenium with Chrome.
+Download it [here](http://code.google.com/p/chromedriver/downloads/list),
+unzip it, and put the contained `chromedriver` file in your path.
+If you have my computer, you might run something like this.
+
+    wget http://chromedriver.googlecode.com/files/chromedriver_linux64_2.3.zip
+    unzip chromedriver_linux64_2.3.zip
+    export PATH="$PATH:$PWD"
+
 The Chrome driver expects Chrome, not Chromium. If you want to use Chromium,
 make Chromium look like Chrome; run this as your user.
 
-    echo 'alias chrome=chromium' >> ~/.bashrc && alias chrome=chromium
+    alias chrome=chromium
 
 (Those directions came from [here](https://bitbucket.org/ScraperWiki/scraperwiki-classic/wiki/RunningTests#!installing-chrome).)
+
+The previous two code blocks must be run in the same shell session as the one
+where you are going to run `java -jar selenium-server-standalone-2.21.0.jar -port 4443`.
