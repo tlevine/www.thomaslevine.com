@@ -94,20 +94,22 @@ Then CSV made a music video about the financial crisis.
 
 Most recently, I made one about transit ridership in Chicago and New York.
 
-<video src="/!/ridership-rachenitsa/transit.webm"></video>
+<video width="100%" src="/!/ridership-rachenitsa/transit.webm"></video>
+
+And we have some tools for making these music videos
+
+* [data-driven rhythms](https://github.com/csv/ddr)
+* [scripts to concatenate R plots](https://github.com/csv/transit-ridership/blob/master/merge.sh)
 
 ### Data gastronomification
-https://github.com/csv/gastronomify
-http://www.youtube.com/watch?v=3CiDW7NVa8o
-https://twitter.com/internetrebecca/status/352955293291913217
+We also started getting into data gastronomification.
 
-And our tools for making music videos
-https://github.com/csv/ddr
-https://github.com/csv/transit-ridership/blob/master/merge.sh
+* [gastronomify](https://github.com/csv/gastronomify) R package
+* [a video](http://www.youtube.com/watch?v=3CiDW7NVa8o) about it
+* [data cookies](https://twitter.com/internetrebecca/status/352955293291913217)
 
-And there are related things that I've been less involved in,
-like Twitter bots and haiku-searchers.
-
-Do you think I can make a blog post about all of these and count it as one project?
-The general theme making data real to people through media other than graphs.
-
+### Data-driven prose and poetry
+Other people in CSV are quite into Twitter bots and into finding
+unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO).
+These show how data can be turned into something that doesn't feel
+very quantitative at all.
