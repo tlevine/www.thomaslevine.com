@@ -110,6 +110,6 @@ We also started getting into data gastronomification.
 
 ### Data-driven prose and poetry
 Other people in CSV are quite into Twitter bots and into finding
-unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO).
+unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO) bot.
 These show how data can be turned into something that doesn't feel
 very quantitative at all.
