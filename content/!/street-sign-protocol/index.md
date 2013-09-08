@@ -110,8 +110,10 @@ Now let's talk about something that people actually call a protocol.
 Here's a simplified version of the Hypertext Transfer Protocol (HTTP)
 
 ### Highly simplified specification
-HTTP is a way of exchanging commands between a web browser and a web server.
-It is represented as a very long series of words, punctuation and spaces.
+HTTP is a way of exchanging information between a web browser and a web server.
+It involves *messages*, which are very long series of words, punctuation and
+spaces. HTTP prescribes who sends and receives these messages and how these
+messages are formatted.
 
 Some messages have a *body*. This is an embedded series of words, punctuation
 and spaces that can be written in any format you want.
@@ -152,10 +154,15 @@ of them as different commands. Here are a few of them.
 A bunch of things in your web browser might initate a request. For example, opening
 a web page makes one request, and loading an image on the web page makes another request.
 
-A particular piece of software (the HTTP server) receives the request, checks that it is valid, and breaks it into the
-component method, headers, and body. Then the HTTP server asks something else to decide
-what to do. After doing everything, this other thing decides what the outcome of the
-command was and tells the HTTP server. The HTTP server composes an HTTP response and
+A computer somewhere (Call it the "web server".) is running a particular piece of software
+(Call it the "HTTP server".) that is able to receive this request.
+The HTTP server receives the request, checks that it is valid, and breaks it into the
+method, headers, and body.
+
+Then the HTTP server asks something else to decide what to do.
+After doing everything, this other thing decides what the outcome was and tells the HTTP server.
+
+The HTTP server composes an HTTP response and
 sends that back to the browser.
 
 The browser breaks that into its various parts and accordingly displays a web page,
