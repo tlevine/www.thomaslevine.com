@@ -1,12 +1,19 @@
+---
+title: The Street Sign Protocol
+description: I explain what a computer protocol is.
+---
+"Protocol" is one of those words that sounds more special than it is.
+The concept of a computer protocol might sound quite complex, but
+it's a rather generic concept that is something like a language,
+an expectation, and a social norm.
 
-Someone recently asked me to explain what a computer "protocol" is.
-This is one of those words that sounds more special than it is; you
-could just-as-accurately call it a language or an expectation.
+The way a particular protocol works might be quite complicated, but
+I just want to explain the generic concept of a protocol. I'll explain
+this through two example protocols.
 
 ## The street sign protocol 
-To make that more clear, I'll document a protocol that we might not
-usually think of a protocol. Let's call it the Street Sign Protocol
-(SSP).
+First, I'll document a protocol that we might not usually think of a
+protocol. Let's call it the Street Sign Protocol (SSP).
 
 To keep things simple, I'll actually document a simple version of the
 Street Sign Protocol. Let's call it the Simple Street Sign Protocol (SSSP).
@@ -98,7 +105,7 @@ It is represented as a very long series of words, punctuation and spaces.
 
 Some messages have a *body*. This is an embedded series of words, punctuation
 and spaces that can be written in any format you want. (You could use this to
-write another protocal on top of HTTP.)
+write another protocol on top of HTTP.)
 
 Each message may have a bunch of *headers*. Each header has a name and a value.
 There are a bunch of headers that provide some information about the body
@@ -132,7 +139,7 @@ of them as different commands. Here are a few of them.
     for an equivalent `GET` request except for sending the body. Like the `GET`
     request, the `HEAD` request contains no body.
 
-### Reading and writing
+### Receiving and reading and writing and sending
 A bunch of things in your web browser might initate a request. For example, opening
 a web page makes one request, and loading an image on the web page makes another request.
 
@@ -144,3 +151,8 @@ sends that back to the browser.
 
 The browser breaks that into its various parts and accordingly displays a web page,
 shows an image or does whatever else was specified.
+
+## Review
+A computer protocol is just a way that we expect things to work, and we agree on a
+computer protocol because that makes it easier for us to make computers communicate.
+"Protocol" means the same thing for computers as it does for people.
