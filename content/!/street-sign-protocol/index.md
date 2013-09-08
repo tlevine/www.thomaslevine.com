@@ -114,8 +114,7 @@ HTTP is a way of exchanging commands between a web browser and a web server.
 It is represented as a very long series of words, punctuation and spaces.
 
 Some messages have a *body*. This is an embedded series of words, punctuation
-and spaces that can be written in any format you want. (You could use this to
-write another protocol on top of HTTP.)
+and spaces that can be written in any format you want.
 
 Each message may have a bunch of *headers*. Each header has a name and a value.
 There are a bunch of headers that provide some information about the body
@@ -133,8 +132,8 @@ particular browser to particular server.
 Every response has a body (explained above) and a status code. The status code
 is a number that explains whether the request succeeded and any quirks about its
 success or failure. For example, status code `200` means that the request worked
-as expected, and status code `403` means that the web browser is not allowed to
-run the command that it requested.
+as expected, and status code `403` means that you don't have permission to do
+whatever you tried to do.
 
 Each request must have a method. There are a bunch of methods, and you can think
 of them as different commands. Here are a few of them.
@@ -153,10 +152,10 @@ of them as different commands. Here are a few of them.
 A bunch of things in your web browser might initate a request. For example, opening
 a web page makes one request, and loading an image on the web page makes another request.
 
-The web server receives the request, checks that it is valid, and breaks it into the
-component method, headers, and body. Then the web server asks something else to decide
+A particular piece of software (the HTTP server) receives the request, checks that it is valid, and breaks it into the
+component method, headers, and body. Then the HTTP server asks something else to decide
 what to do. After doing everything, this other thing decides what the outcome of the
-command was and tells the web server. The web server composes an HTTP response and
+command was and tells the HTTP server. The HTTP server composes an HTTP response and
 sends that back to the browser.
 
 The browser breaks that into its various parts and accordingly displays a web page,
