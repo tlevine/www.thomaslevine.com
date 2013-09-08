@@ -1,6 +1,7 @@
 ---
 title: Today I learned about statistics through doodles
 description: Tom uses doodles to compute covariance, variance, correlation and least-squares regression.
+tweet_text: People usual explain statistics with symbols, but I like drawings. http://... @sudoroom
 kind: article
 created_at: 2013-09-09
 twitter_image: doodle.jpg
@@ -14,6 +15,7 @@ facebook_image: doodle.jpg
   img.control {
     width: 9%;
     max-width: 50px;
+    margin: 0;
     margin-right: 1%;
     padding: 0;
   }
@@ -21,6 +23,11 @@ facebook_image: doodle.jpg
     width: 75%;
     margin: 0;
     height: 40px;
+  }
+  video {
+    margin: 0;
+    border: 0;
+    padding: 0;
   }
 </style>
 
@@ -38,8 +45,8 @@ one time in [Sudoroom](http://sudoroom.org/),
 and we took videos of it. Watch them here!
 
 <div id="videos">
-  <video class="back" src="http://bigdada.thomaslevine.com/til-statistics-back.webm"></video>
-  <video class="above" src="http://bigdada.thomaslevine.com/til-statistics-above.webm"></video>
+  <video width="49%" class="back" src="http://bigdada.thomaslevine.com/til-statistics-back.webm"></video>
+  <video width="49%" class="above" src="http://bigdada.thomaslevine.com/til-statistics-above.webm"></video>
 </div>
 
 <div id="controls">
@@ -47,6 +54,10 @@ and we took videos of it. Watch them here!
   <a id="pause" href="javascript:pause()"><img class="control" alt="Pause" src="pause.jpg" /></a>
   <input class="control" id="seek" type="range" min="0" max="1" value="0" step="0.01">
 </div>
+<p style="text-align: right;">
+  <a href="javascript:big()">Big videos</a> | 
+  <a href="javascript:small()">Small videos</a>
+</p>
 
 <script>document.write('<script src="script.js?date=' + (new Date()).getTime() + '"><' + '/script>')</script>
 

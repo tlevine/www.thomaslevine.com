@@ -15,6 +15,15 @@ function pause() {
   }
 }
 
+function _videoWidth(width) {
+  return function() {
+    jQuery('#videos video').width(width)
+  }
+}
+
+var big = _videoWidth('100%')
+var small = _videoWidth('49%')
+
 // Seek to the appropriate places
 var length = 3746.000512 - 79 - 19
 var _set = function(element, offset) {
