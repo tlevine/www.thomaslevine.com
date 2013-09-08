@@ -161,7 +161,7 @@ The browser breaks that into its various parts and accordingly displays a web pa
 shows an image or does whatever else was specified.
 
 ## Review
-A particular protocol might get quite complicated, but the concept of a protocal
+A particular protocol might get quite complicated, but the concept of a protocol
 is quite general.
 A computer protocol is just a way that we expect things to work, and we agree on a
 computer protocol because that makes it easier for us to make computers communicate.
