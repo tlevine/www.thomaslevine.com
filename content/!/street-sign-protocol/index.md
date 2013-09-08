@@ -1,6 +1,10 @@
 ---
 title: The Street Sign Protocol
-description: I explain what a computer protocol is.
+description: What is a computer protocol anyway?
+kind: article
+tweet_text: The Simple Street Sign Protocol (SSSP) is a communications protocol used to orient humans to their location within a street grid http://thomaslevine.com/!/street-sign-protocol
+twitter_image: street-signs.jpg
+created_at: 2013-09-08
 ---
 "Protocol" is one of those words that sounds more special than it is.
 The concept of a computer protocol might sound quite complex, but
@@ -12,6 +16,10 @@ I just want to explain the generic concept of a protocol. I'll explain
 this through two example protocols.
 
 ## The street sign protocol 
+![Street signs](street-signs.jpg)
+<!-- http://farm3.staticflickr.com/2132/2302062601_dd0f89779d.jpg
+     http://oaklandwiki.org/Street_Signs -->
+
 First, I'll document a protocol that we might not usually think of a
 protocol. Let's call it the Street Sign Protocol (SSP).
 
@@ -153,6 +161,8 @@ The browser breaks that into its various parts and accordingly displays a web pa
 shows an image or does whatever else was specified.
 
 ## Review
+A particular protocol might get quite complicated, but the concept of a protocal
+is quite general.
 A computer protocol is just a way that we expect things to work, and we agree on a
 computer protocol because that makes it easier for us to make computers communicate.
 "Protocol" means the same thing for computers as it does for people.
