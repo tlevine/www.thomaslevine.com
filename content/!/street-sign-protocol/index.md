@@ -6,6 +6,9 @@ tweet_text: The Simple Street Sign Protocol (SSSP) is a communications protocol 
 twitter_image: street-signs.jpg
 created_at: 2013-09-08
 ---
+
+There are a lot of acronyms that end in "P"
+
 "Protocol" is one of those words that sounds more special than it is.
 The concept of a computer protocol might sound quite complex, but
 it's a rather generic concept that is something like a language,
@@ -14,6 +17,10 @@ an expectation, and a social norm.
 The way a particular protocol works might be quite complicated, but
 I just want to explain the generic concept of a protocol. I'll explain
 this through two example protocols.
+
+"simple analogy"
+
+What's about to happen
 
 ## The street sign protocol 
 First, I'll document a protocol that we might not usually think of a
@@ -25,6 +32,16 @@ protocol. Let's call it the Street Sign Protocol (SSP).
 
 To keep things simple, I'll actually document a simple version of the
 Street Sign Protocol. Let's call it the Simple Street Sign Protocol (SSSP).
+
+<!-- why we need sssp -->
+
+"things that are implicit must be made explicit"
+
+how to understand a street pole
+
+
+"I could send garbage, and the server would hav eno idea what I was trying to do."
+web client (often a web browser)
 
 ### Specification
 SSSP is a way of exchanging the names of *streets*. It involves
@@ -107,7 +124,9 @@ the SSSP writer.
 
 ## Hypertext Transfer Protocol
 Now let's talk about something that people actually call a protocol.
-Here's a simplified version of the Hypertext Transfer Protocol (HTTP)
+Here's a simplified version of the Hypertext Transfer Protocol (HTTP).
+
+Why we need HTTP
 
 ### Highly simplified specification
 HTTP is a way of exchanging information between a web browser and a web server.
@@ -168,7 +187,7 @@ sends that back to the browser.
 The browser breaks that into its various parts and accordingly displays a web page,
 shows an image or does whatever else was specified.
 
-## Review
+## Why we need a protocol
 A particular protocol might get quite complicated, but the concept of a protocol
 is quite general.
 A computer protocol is just a way that we expect things to work, and we agree on a
