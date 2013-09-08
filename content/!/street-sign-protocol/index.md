@@ -16,12 +16,12 @@ I just want to explain the generic concept of a protocol. I'll explain
 this through two example protocols.
 
 ## The street sign protocol 
+First, I'll document a protocol that we might not usually think of a
+protocol. Let's call it the Street Sign Protocol (SSP).
+
 ![Street signs](street-signs.jpg)
 <!-- http://farm3.staticflickr.com/2132/2302062601_dd0f89779d.jpg
      http://oaklandwiki.org/Street_Signs -->
-
-First, I'll document a protocol that we might not usually think of a
-protocol. Let's call it the Street Sign Protocol (SSP).
 
 To keep things simple, I'll actually document a simple version of the
 Street Sign Protocol. Let's call it the Simple Street Sign Protocol (SSSP).
@@ -43,7 +43,9 @@ SSSP is a way of exchanging the names of *streets*. It involves
 * A *street sign* is a flat rectangular thing that has text on both faces.
     The sign is oriented such that the text reads left-to-right.
 
-Next, let's discuss what is expected of all of the.
+Now we can define the SSSP in outrageous precision and verbosity! *You'll probably
+get confused as you read the paragraphs below, so keep in mind that this is just
+a very precise and verbose explanation of what we usually consider to be street signs*.
 
 Each four-way intersection has four corners, and each pole is associated with
 a corner of an intersection. Each corner must have zero or one poles, and at least
