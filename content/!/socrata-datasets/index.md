@@ -1,8 +1,7 @@
 In my various studies of open data, I've been focusing on the
 data in the Socrata portals and have had to deal with some
 annoying quirks in the way the data are modeled. I haven't
-properly dealt with it yet, but I finally came up with a good
-way of doing this.
+properly dealt with it yet. Until now!
 
 ## How data are stored
 Data on Socrata is displayed in [views](),
@@ -52,15 +51,18 @@ links to other data portals, rather than being shaded white and linking
 within the same portal. When searching the site, simply ignore these
 federated datasets, and you're good.
 
-### With `/data.json`
-I was told that the `/data.json` endpoint shows only the source data.
+### With `/api/dcat.json`
+<!-- https://twitter.com/chrismetcalf/status/376079563240898560 -->
+Go the [`/api/dcat.json`](https://data.oaklandnet.com/api/dcat.json) page
+
+I was told that the `/api/dcat.json` endpoint shows only the source data.
 I haven't checked this myself, and I don't know how it handles datasets
 where the original upload is private but a filter on it is public.
-Anyway, let's just hope that the `/data.json` endpoint lets deals with
+Anyway, let's just hope that the `/api/dcat.json` endpoint lets deals with
 the derivatives properly for us.
 
 In that case, we just have to deal with federation. Unfortunately, the
-`/data.json` endpoint doesn't give you any indication as to whether a
+`/api/dcat.json` endpoint doesn't give you any indication as to whether a
 dataset is federated. Federated datasets share the same exact identifier
 across portals, so it is easy to separate distinct datasets, but it is
 less obvious how to tell which portals they came from.
