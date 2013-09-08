@@ -6,24 +6,22 @@ tweet_text: The Simple Street Sign Protocol (SSSP) is a communications protocol 
 twitter_image: street-signs.jpg
 created_at: 2013-09-08
 ---
+There are a lot of acronyms on the internet that end in "P",
+like TCP, IP, and HTTP. This "P" stands for "protocol".
+Perhaps you are wondering what a protocol is.
 
-There are a lot of acronyms that end in "P"
-
-"Protocol" is one of those words that sounds more special than it is.
+"Protocol" is one of those words that sounds more special than it really is.
 The concept of a computer protocol might sound quite complex, but
 it's a rather generic concept that is something like a language,
 an expectation, and a social norm.
 
 The way a particular protocol works might be quite complicated, but
-I just want to explain the generic concept of a protocol. I'll explain
-this through two example protocols.
-
-"simple analogy"
-
-What's about to happen
+I just want to explain the generic concept of a protocol. I'm going
+to do this by writing about a protocol that you might not think of
+as a protocol.
 
 ## The street sign protocol 
-First, I'll document a protocol that we might not usually think of a
+I'm going to document a protocol that we might not usually think of a
 protocol. Let's call it the Street Sign Protocol (SSP).
 
 ![Street signs](street-signs.jpg)
@@ -33,15 +31,14 @@ protocol. Let's call it the Street Sign Protocol (SSP).
 To keep things simple, I'll actually document a simple version of the
 Street Sign Protocol. Let's call it the Simple Street Sign Protocol (SSSP).
 
-<!-- why we need sssp -->
+### Why we might want SSSP
+You might already be familiar with how street signs work, but it took you a while
+to figure it out. Also, you are probably so familiar with street signs that you
+don't really think about all of the small details that are involved in communication
+through street signs.
 
-"things that are implicit must be made explicit"
-
-how to understand a street pole
-
-
-"I could send garbage, and the server would hav eno idea what I was trying to do."
-web client (often a web browser)
+If we wanted to tell a robot how to communicate through street signs, it would be
+helpful to be very explicit and precise about all of the aspects of street signs.
 
 ### Specification
 SSSP is a way of exchanging the names of *streets*. It involves
@@ -126,7 +123,23 @@ the SSSP writer.
 Now let's talk about something that people actually call a protocol.
 Here's a simplified version of the Hypertext Transfer Protocol (HTTP).
 
-Why we need HTTP
+### Why we use HTTP
+When you look at stuff on the internet with a web browser, your web browser and
+various web servers are sending messages between each other. HTTP is a common
+language that all of these computers use.
+
+While all of these web servers are expecting HTTP, you can actually send them
+anything you want. If it is sort of like HTTP but with a few typos, the web
+server might figure out what you meant. But if you sent random garbage, the
+web server would not have any idea of what you wanted.
+
+We have common internet languages for the same reasons that we have common
+human languages. If you talk to me in English, I'll understand you quite well.
+I'll make sense of it even you you are not using Queen's English. But I won't
+really have any idea what you mean if you use sign language.
+
+We agree to use HTTP on all of these different computers because it makes it
+easier for the computers to understand each other.
 
 ### Highly simplified specification
 HTTP is a way of exchanging information between a web browser and a web server.
