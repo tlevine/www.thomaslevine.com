@@ -3,7 +3,7 @@ title: Today I learned about statistics through doodles
 description: Tom uses doodles to compute covariance, variance, correlation and least-squares regression.
 tweet_text: People usual explain statistics with symbols, but I like drawings. http://... @sudoroom
 kind: article
-created_at: 2013-09-09
+created_at: 2013-09-14
 twitter_image: doodle.jpg
 facebook_image: doodle.jpg
 ---
