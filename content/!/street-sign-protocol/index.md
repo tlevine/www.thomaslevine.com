@@ -3,7 +3,10 @@ title: The Street Sign Protocol
 description: What is a computer protocol anyway?
 kind: article
 tweet_text: The Simple Street Sign Protocol (SSSP) is a communications protocol used to orient humans to their location within a street grid http://thomaslevine.com/!/street-sign-protocol
+facebook_text: The Simple Street Sign Protocol (SSSP) is a communications protocol used to orient humans to their location within a street grid http://thomaslevine.com/!/street-sign-protocol
+facebook_description: This is what happened after a friend and I talked about protocols.
 twitter_image: street-signs.jpg
+facebook_image: street-signs.jpg
 created_at: 2013-09-10
 ---
 There are a lot of acronyms on the internet that end in "P",
