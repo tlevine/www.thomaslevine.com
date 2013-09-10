@@ -4,7 +4,7 @@ description: What is a computer protocol anyway?
 kind: article
 tweet_text: The Simple Street Sign Protocol (SSSP) is a communications protocol used to orient humans to their location within a street grid http://thomaslevine.com/!/street-sign-protocol
 twitter_image: street-signs.jpg
-created_at: 2013-09-08
+created_at: 2013-09-10
 ---
 There are a lot of acronyms on the internet that end in "P",
 like TCP, IP, and HTTP. This "P" stands for "protocol".
