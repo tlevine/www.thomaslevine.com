@@ -183,7 +183,7 @@ of them as different commands. Here are a few of them.
     request, the `HEAD` request contains no body.
 
 ### Receiving and reading and writing and sending
-A bunch of things in your web browser might initate a request. For example, opening
+A bunch of things in your web browser might initiate a request. For example, opening
 a web page makes one request, and loading an image on the web page makes another request.
 
 A computer somewhere (Call it the "web server".) is running a particular piece of software
