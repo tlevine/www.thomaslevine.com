@@ -200,9 +200,7 @@ sends that back to the browser.
 The browser breaks that into its various parts and accordingly displays a web page,
 shows an image or does whatever else was specified.
 
-## Why we need a protocol
-A particular protocol might get quite complicated, but the concept of a protocol
-is quite general.
+## Why we have protocols
 A computer protocol is just a way that we expect things to work, and we agree on a
 computer protocol because that makes it easier for us to make computers communicate.
 "Protocol" means the same thing for computers as it does for people.
