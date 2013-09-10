@@ -200,7 +200,14 @@ sends that back to the browser.
 The browser breaks that into its various parts and accordingly displays a web page,
 shows an image or does whatever else was specified.
 
-## Why we have protocols
-A computer protocol is just a way that we expect things to work, and we agree on a
-computer protocol because that makes it easier for us to make computers communicate.
+## A protocol is an expectation
 "Protocol" means the same thing for computers as it does for people.
+There are lots of different protocols, and some of them are very complicated,
+but the word "protocol" itself has a rather simple meaning; it's just
+a way that we expect things to work.
+
+Like how we agree to speak the same language (probably English if you're reading this)
+or to drive on the same side of the street, we agree on a computer protocol because that
+makes it easier for us to make computers communicate. We can choose to build computers
+that don't follow standard protocols, but that would make them hard to understand.
+
