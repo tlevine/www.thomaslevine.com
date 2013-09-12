@@ -94,27 +94,11 @@ tags: ['scarsdale']
 
 
 <!-- Libraries -->
-<script src="/js/vendor/jquery.js" type="text/javascript"></script>
+<script src="jquery.min.js" type="text/javascript"></script>
 <script src="<%= item.identifier %>underscore-min.js" type="text/javascript"></script>
 <script src="<%= item.identifier %>backbone-min.js"></script>
 <script src="<%= item.identifier %>backbone.queryparams.js"></script>
-<script>
-$.fn.serializeObject = function() {
-    var o = {};
-    var a = this.serializeArray();
-    $.each(a, function() {
-        if (o[this.name] !== undefined) {
-            if (!o[this.name].push) {
-                o[this.name] = [o[this.name]];
-            }
-            o[this.name].push(this.value || '');
-        } else {
-            o[this.name] = this.value || '';
-        }
-    });
-    return o;
-};
-</script>
+
 <!-- https://github.com/fryn/html5slider/raw/master/html5slider.js -->
 <script src="<%= item.identifier %>html5slider.js"></script>
 
@@ -186,4 +170,22 @@ $.fn.serializeObject = function() {
 <script src="<%= item.identifier %>data.js" type="text/javascript"></script>
 
 <!-- Go -->
+<script type="text/javascript">
+console.log(3)
+$.fn.serializeObject = function() {
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};
+</script>
 <script src="<%= item.identifier %>main.js" type="text/javascript"></script>
