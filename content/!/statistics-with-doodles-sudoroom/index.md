@@ -31,9 +31,7 @@ facebook_image: doodle.jpg
   }
 </style>
 
-![Doodles in marker](doodle.jpg){:.wide}
-
-A statistic is a number that describes a lot of other numbers.
+A *statistic* is a number that describes a lot of other numbers.
 By reducing many numbers into one number, we make it easier to
 figure out what the numbers mean; we wouldn't be able to fit all
 of the original in our brain.
@@ -96,18 +94,16 @@ on the weekdays, low ridership on Saturdays and lower ridership on Sundays.
 The example I used in the video is locations where your friends live,
 which might form clusters rather than lines.
 
-![Three custers of dots on a graph, with a cross in the middle of them](nonlinear.jpg)
-
 The four statistics that the videos discuss are ways of describing the
 strength of a relationship, and they only make sense to use with linear
 relationships.
 
 ### Covariance
 Covariance is a basic measure of how strong the relationship is.
-It is just a number that is zero if there is no relationship, really
-big if the two variables tend to move in the same direction,
-and really negative if the two variables tend to move in opposite
-directions.
+It is just a number that is
+* zero if there is no relationship,
+* really big if the two variables tend to move in the same direction, and
+* really negative if the two variables tend to move in opposite directions.
 
 For example, the covariance between weight and height is a very positive
 number, like maybe 9001, because taller people are heavier. This postive
@@ -125,14 +121,14 @@ balancing out.
 
 And the covariance between cholesterol level and lifespan is probably
 a very negative number, like maybe -1337, because people with more
-cholesterol tend to live less long. And here's what it looks like with
-our video's conventions.
+cholesterol tend to live less long. That's blue rectangles, with my
+doodles' conventions.
 
 ![Negative covariance](negative-covariance.jpg)
 
 We tend not to use the covariance very directly in practice because
 it's hard to compare covariances directly to each other. The reasons
-are explained in the video.
+for this are explained in the video.
 
 ### Variance
 Variance is a measure of how spread out one variable is. It is a
@@ -140,18 +136,18 @@ positive number that gets big when the variables are more spread out.
 
 Let's say that two people are cutting wood to build a house. They cut
 10 pieces of wood each, and each piece of wood is supposed to be exactly
-10 feet long.
+120 inches long.
 
 One person is very careful when he measures the wood, so his pieces come
-out perfectly. They're not exactly 10 feet long because that's impossible,
-but they're not off by more than a hair. The variance of the lengths of
-his pieces of wood is very close to zero, like maybe 3.
+out perfectly. They're not exactly 120 inches long because that's impossible,
+but they're not spot-on for the purposes of construction. The variance of the
+lengths of his pieces of wood is very close to zero, like maybe 3.
 
 The other person is drunk and stoned and thus not very careful, so the
 lengths of his pieces are all over the place. They're still around 10
 feet long on average, but some of them are 8 feet long, and others are
 11 feet long. The variance of the lengths of this person's pieces is
-very high; maybe it's 200.
+very high; maybe it's 300.
 
 We talk about variances a lot when we are estimating the average of a
 variable. When we estimate an average, we want to know how precise our
