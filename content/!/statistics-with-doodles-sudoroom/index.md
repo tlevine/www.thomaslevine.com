@@ -101,6 +101,7 @@ relationships.
 ### Covariance
 Covariance is a basic measure of how strong the relationship is.
 It is just a number that is
+
 * zero if there is no relationship,
 * really big if the two variables tend to move in the same direction, and
 * really negative if the two variables tend to move in opposite directions.
