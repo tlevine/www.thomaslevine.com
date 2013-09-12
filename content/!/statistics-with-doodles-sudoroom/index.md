@@ -71,9 +71,9 @@ about the relationships between different variables.
 3. Correlation
 4. Least-squares regression coefficients
 
-Each computation is for the simplest version of the statistic,
-that is the univariate or bivariate version, and the population
-statistic rather than the sample statistic.
+Each computation is for the simplest version of the statistic.
+For those who like big words, that's the univariate or bivariate
+version, and the population statistic rather than the sample statistic.
 
 ## Why we care about these statistics
 The videos show the computations of these statistics, but they
