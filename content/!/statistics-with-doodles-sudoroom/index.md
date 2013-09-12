@@ -93,26 +93,42 @@ As time progresses, weekly public transit ridership stays the same.
 However, it does change a lot within the week, with high ridership
 on the weekdays, low ridership on Saturdays and lower ridership on Sundays.
 
-These four statistics are ways of describing the strength of a
-relationship, and they only make sense to use with linear relationships.
+The example I used in the video is locations where your friends live,
+which might form clusters rather than lines.
+
+![Three custers of dots on a graph, with a cross in the middle of them](nonlinear.jpg)
+
+The four statistics that the videos discuss are ways of describing the
+strength of a relationship, and they only make sense to use with linear
+relationships.
 
 ### Covariance
-Covariance is a basic measure of how strong the relationship.
-Is just a number that is zero if there is no relationship, really
+Covariance is a basic measure of how strong the relationship is.
+It is just a number that is zero if there is no relationship, really
 big if the two variables tend to move in the same direction,
 and really negative if the two variables tend to move in opposite
 directions.
 
 For example, the covariance between weight and height is a very positive
-number, like maybe 9001, because taller people are heavier.
+number, like maybe 9001, because taller people are heavier. This postive
+covariance is represented in the video as lots of orange rectangles in
+the top-right and bottom-left quadrants.
+
+![Positive covariance](positive-covariance.jpg)
 
 The covariance between number of times a person has eaten popcorn and her
 shoe size is probably around zero, because I doubt that these are very
-strongly related.
+strongly related. In the video, we see this as orange and blue rectangles
+balancing out.
+
+![Zero covariance](zero-covariance.jpg)
 
 And the covariance between cholesterol level and lifespan is probably
 a very negative number, like maybe -1337, because people with more
-cholesterol tend to live less long.
+cholesterol tend to live less long. And here's what it looks like with
+our video's conventions.
+
+![Negative covariance](negative-covariance.jpg)
 
 We tend not to use the covariance very directly in practice because
 it's hard to compare covariances directly to each other. The reasons
@@ -155,7 +171,7 @@ We can compute the correlation between two variables based on the covariance
 between the two variables and the respective variances of the two variables.
 
 ### Least-squares regression
-Maybe you want to be able to predict someone's height based on her weight.
+Maybe you want to be able to guess someone's height based on her weight.
 Regression is one way of doing this.
 
 To predict height from weight, we can use a simple regression that would
@@ -164,6 +180,25 @@ first need to measure the heights and weights of a bunch of people.
 
 Once we calculate these two numbers, we have a formula for predicting height;
 you give the formula a weight, and it will give you back a predicted height.
+
+The formula is a best-fit line, as shown in this image [from Wikipedia](http://en.wikipedia.org/wiki/File:Linear_regression.svg)
+
+![Regression](regression.png)
+
+Let's say we want to know
+[how big a balloon gets depending on the temperature of the air](http://en.wikipedia.org/wiki/Gas_laws#Charles.27s_law).
+We fill a bunch of balloons with air and put them in different places,
+each with a different air temperature. In the plot above, each dot would
+be a balloon, the numbers along the x-axis (the bottom) would be the
+temperature, and the numbers along the y-axis would be the volume of the
+balloon. That is the data we started with.
+
+Using these data, we calculate those two regression statistics I mentioned
+above. With these, we can draw the red regression line.
+
+When we want to predict the volume of a balloon at a particular temperature,
+we find the temperature on the x-axis, follow it vertically up to the red line,
+then follow it horizontally to the y-axis. This is our predicted volume.
 
 ## Why statistics and math and doodles
 Statistics lets us distill our complex observations of the world into simple
