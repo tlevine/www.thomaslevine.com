@@ -34,7 +34,7 @@ facebook_image: doodle.jpg
 A *statistic* is a number that describes a lot of other numbers.
 By reducing many numbers into one number, we make it easier to
 figure out what the numbers mean; we wouldn't be able to fit all
-of the original in our brain.
+of the original numbers in our brain.
 
 People usually explain statistics with symbols, but I like explaining
 statistics with drawings, 
