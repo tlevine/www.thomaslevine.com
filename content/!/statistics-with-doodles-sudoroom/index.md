@@ -2,6 +2,9 @@
 title: Statistics through doodles
 description: Tom uses doodles to compute covariance, variance, correlation and least-squares regression.
 tweet_text: People usually explain statistics with symbols, but I prefer colorful drawings. http://thomaslevine.com/!/statistics-with-doodles-sudoroom/ @sudoroom
+tweet_link: https://twitter.com/thomaslevine/status/378180190184022016
+facebook_text: People usually explain statistics with symbols, but I prefer colorful drawings. http://thomaslevine.com/!/statistics-with-doodles-sudoroom/ @sudoroom
+facebook_link: https://www.facebook.com/perluette/posts/2558494046363
 kind: article
 created_at: 2013-09-12
 twitter_image: doodle.jpg
