@@ -192,7 +192,7 @@ balloon. That is the data we started with.
 Using these data, we calculate those two regression statistics I mentioned
 above. With these, we can draw the red regression line.
 
-When we want to predict the volume of a balloon at a particular temperature,
+When we want to predict what the volume of a balloon will be at a particular temperature,
 we find the temperature on the x-axis, follow it vertically up to the red line,
 then follow it horizontally to the y-axis. This is our predicted volume.
 
