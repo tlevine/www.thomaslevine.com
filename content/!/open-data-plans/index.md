@@ -9,12 +9,17 @@ open data. I plan on doing a lot of them, but I
 probably can't do all, so you should take one of these
 ideas and do something awesome.
 
+## What's in the portals?
+
+215/41f:om: Open data file format by portal over time
+215/248:om: Socrata v GitHub
+
+215/424:om: Compare official datasets (data.json) and all of the datasets by portal
+
 ## Better search and linked data
 
-
-
-## Enhancing/automating metadata
-
+Automatic joins
+Automatic unions
 215/eab:om: Open data: Data dictionaries
 
 
@@ -23,6 +28,7 @@ ideas and do something awesome.
 215/d66:om: Open data: Completeness of open data
 215/e8a:om: Dataset scorecard
 215/638:om: Dataset prerequisites
+215/ddf:om: Open Data Policy Best Practices
 
 ## Indirect
 There are lots of data portals, and not all
@@ -33,14 +39,10 @@ above.
 
 215/b6a:om: Who federates whom on Socrata?
 215/21a:om: Download data from other data portal software
-
-215/b3e:om: Tutorial on analyzing open data
-
 215/7ad:om: Open data and MuckRock
 
-215/424:om: Compare official datasets (data.json) and all of the datasets by portal
-215/1c0:om: Open data song
-215/41f:om: Open data file format by portal over time
-215/ddf:om: Open Data Policy Best Practices
-215/248:om: Socrata v GitHub
+## Studies with open data
+
 215/bf1:om: Where is gentrification gonna happen next?
+215/1c0:om: Open data song
+215/b3e:om: Tutorial on analyzing open data
