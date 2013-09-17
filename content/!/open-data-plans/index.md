@@ -57,9 +57,10 @@ There are a few guidelines as to how to do open data.
 There's one from [Sunlight](http://sunlightfoundation.com/opendataguidelines/),
 there's one from the [AppGen audit](http://www.appgen.me/audit/),
 I have a list from a conversation from [Noel](http://noneck.org/),
+there's Tim Berners-Lee's [five stars](http://5stardata.info/),
 and there are a bunch of open data laws and policies.
 
-People like the Sunlight Foundation and the Open Data Institute
+People like the Sunlight Foundation
 have rated the openness of various places. I would like to make
 such a rating in a more automated way.
 
