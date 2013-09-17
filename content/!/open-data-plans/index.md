@@ -64,22 +64,47 @@ a city has a particular dataset internally and check whether it has
 been released publicly. Let's do this across all cities and see whether
 a particular sort of data is available in particular cities.
 
-### Prerequisites
+### Dependencies
+Maybe one dataset is only useful if we also have another dataset.
+For example, maybe we need the mapping from school identifier to
+school location before a school dataset is interesting. If we look
+at historical release and usage of datasets, we might get an idea
+of these dependencies and interactions.
 
-
-## Indirect
+## Collect more data
 There are lots of data portals, and not all
 aspects of the various data portals software
 are documented. Here are some things that will
 help with further studies in the areas discussed
 above.
 
-215/b6a:om: Who federates whom on Socrata?
-215/21a:om: Download data from other data portal software
-215/7ad:om: Open data and MuckRock
+* Who federates whom on Socrata? Figure this out by checking the
+    home pages.
+* Download data from other data portal software. I currently just
+    have all of the Socrata portals, but it won't be hard to get all
+    of the CKAN, Junar and OpenDataSoft portals as well.
+* Collect data about FOIA from places like MuckRock and FOIA Machine.
 
 ## Studies with open data
+I've been studying the use of open data, but we could also do some studies
+that use open data. Two particural things that I want to do.
 
-215/bf1:om: Where is gentrification gonna happen next?
-215/1c0:om: Open data song
-215/b3e:om: Tutorial on analyzing open data
+### Gentrification
+Where is gentrification gonna happen next, or where should a hipster move?
+Look at hipster places in open data, and model historical data about gentrification
+to find places that will become hipster soon. My current thought is that these
+places are the ones where it is easy to move and start something new; they might
+have efficient housing markets, decent public transit, and open social circles.
+Note well: I suspect that my thinking is quite naive and that there are probably
+loads of doctoral students working on this already
+
+### Tutorial on using open data
+I want to do all this aforementioned stuff to make it easier to find and connect
+open data. But people might not want to wait until all of that stuff exists.
+So I want to make a tutorial about finding and connecting open data from different
+governments in order to learn cool things.
+
+## Bug me
+I have a pretty clear list of things to do, but I've only planned out the next
+couple blog posts. If you would like to influence the order in which I do things,
+please take Jason's lead and bug me.
