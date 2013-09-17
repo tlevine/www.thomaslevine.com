@@ -24,18 +24,18 @@ What proportion of Socrata tables are small enough to be supported by GitHub?
 ### Compare official datasets to derived datasets
 The `data.json` file contains only the official datasets and the federated datasets.
 The search of the site contains all of the derived views. Let's compare these two to
-see what sort of data gets studied within the data portat.
+see what sort of data gets studied within the data portal.
 
 ### Openness by department and city
 Some departments are more resistant to opening data. I'm told that the departments
-that are more political tend to be more resistent to opening data. I want to use
+that are more political tend to be more resistant to opening data. I want to use
 open data release as an indicator of politicalness of a department, and I want to
 see how open data release (politicalness) of equivalent departments (like education)
 vary by city.
 
 ## Better search and linked data
 
-Let's find links bytween datasets. Ideally, let's get a bunch of datasets with rich
+Let's find links between datasets. Ideally, let's get a bunch of datasets with rich
 linked data about them and try to predict the linkages. Specific things I want to try
 
 * Find datasets that can be joined on common variables (columns).
@@ -92,7 +92,7 @@ above.
 
 ## Studies with open data
 I've been studying the use of open data, but we could also do some studies
-that use open data. Two particural things that I want to do.
+that use open data. Here are two particular things that I want to do.
 
 ### Gentrification
 Where is gentrification gonna happen next, or where should a hipster move?
