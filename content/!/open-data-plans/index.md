@@ -43,10 +43,29 @@ linked data about them and try to predict the linkages. Specific things I want t
 
 ## Data quality
 
-215/d66:om: Open data: Completeness of open data
-215/e8a:om: Dataset scorecard
-215/638:om: Dataset prerequisites
-215/ddf:om: Open Data Policy Best Practices
+### Dataset and data portal scorecard
+The current obvious metrics of dataset and data portal quality are
+size, like number of records and number of datasets. There are other
+things that we might want to worry about.
+
+There are a few guidelines as to how to do open data.
+There's one from [Sunlight](http://sunlightfoundation.com/opendataguidelines/),
+there's one from the [AppGen audit](http://www.appgen.me/audit/),
+I have a list from a conversation from [Noel](http://noneck.org/),
+and there are a bunch of open data laws and policies.
+
+People like the Sunlight Foundation and the Open Data Institute
+have rated the openness of various places. I would like to make
+such a rating in a more automated way.
+
+### Completeness of portals
+By looking at data from FOIA and other portals, we can guess whether
+a city has a particular dataset internally and check whether it has
+been released publicly. Let's do this across all cities and see whether
+a particular sort of data is available in particular cities.
+
+### Prerequisites
+
 
 ## Indirect
 There are lots of data portals, and not all
