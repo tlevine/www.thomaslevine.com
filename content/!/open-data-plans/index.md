@@ -1,5 +1,6 @@
 ---
 title: Open data possibilities
+tags: ['socrata']
 ---
 I've brief suspended my open data studies to prepare
 some things for [Zipfian Academy](http://zipfianacademy)'s
@@ -15,6 +16,12 @@ ideas and do something awesome.
 215/248:om: Socrata v GitHub
 
 215/424:om: Compare official datasets (data.json) and all of the datasets by portal
+
+Some departments are more resistant to opening data. I'm told that the departments
+that are more political tend to be more resistent to opening data. I want to use
+open data release as an indicator of politicalness of a department, and I want to
+see how open data release (politicalness) of equivalent departments (like education)
+vary by city.
 
 ## Better search and linked data
 
