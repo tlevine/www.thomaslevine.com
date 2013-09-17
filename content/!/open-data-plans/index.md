@@ -1,6 +1,11 @@
 ---
 title: Open data possibilities
 tags: ['socrata']
+created_at: 2013-09-17
+kind: article
+tweet_text: Open data studies you should bug me about http://thomaslevine.com/!/open-data-plans
+tweet_title: Or you can just steal them.
+description: Talking to lots of people, I've been accumulating lots of ideas of things you could do with data about open data.
 ---
 I've brief suspended my open data studies to prepare
 some things for [Zipfian Academy](http://zipfianacademy)'s
