@@ -1,6 +1,6 @@
 ---
 title: Open data possibilities
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 created_at: 2013-09-17
 kind: article
 tweet_text: Open data studies you should bug me about http://thomaslevine.com/!/open-data-plans

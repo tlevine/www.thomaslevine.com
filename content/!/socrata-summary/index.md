@@ -1,7 +1,7 @@
 ---
 title: Analyze all the datasets
 created_at: 2013-07-07
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 kind: article
 twitter_image: figure/datasets_size_over_time2.png
 facebook_image: figure/big_portals_downloads.png

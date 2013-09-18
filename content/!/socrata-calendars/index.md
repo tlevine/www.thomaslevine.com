@@ -8,7 +8,7 @@ twitter_title: Oregon's open calendar is a 3436-row spreadsheet.
 description: Open calendars on Socrata suggest an elegant open data strategy.
 twitter_image: figure/meeting-length-2.png
 facebook_image: figure/meeting-length-2.png
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 ---
 To a lot of people, we can get "data" out of an SQL database but not out
 of a water bottle. I like to break this distinction; we can extract numbers

@@ -1,5 +1,6 @@
 ---
 title: Things to think about when you're building products on open data
+tags: ['open-data']
 ---
 
 ## Storing all these datasets

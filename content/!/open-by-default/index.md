@@ -7,7 +7,7 @@ twitter_title: The first of Sunlight Foundation's 32 Open Data Policy Guidelines
 twitter_description: This guideline is not just for policy; it applies to software too!
 twitter_image: screenshot.png
 facebook_image: screenshot.png
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 created_at: 2013-08-21
 kind: article
 ---

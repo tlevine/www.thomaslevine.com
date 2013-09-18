@@ -7,7 +7,7 @@ tweet_text: I really like writing documentation. http://thomaslevine.com/!/socra
 tweet_link1:
 twitter_image: screenshot.png
 facebook_image: screenshot.png
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 ---
 The site metrics API on a Socrata open data portal tells you some
 pretty cool things about how people are using the portal. I'm going

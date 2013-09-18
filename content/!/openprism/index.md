@@ -6,7 +6,7 @@ tweet_text: Search all the portals! http://openprism.thomaslevine.com http://tho
 tweet_link: https://twitter.com/thomaslevine/status/367025550843326464
 twitter_image: taco.png
 facebook_image: taco.png
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 kind: article
 created_at: 2013-08-12
 ---

@@ -9,7 +9,7 @@ description: It's cool what you can do when everyone's data analysis is logged a
 twitter_description: It's cool what you can do when everyone's data analysis is logged and exposed publicly over the web.
 facebook_text: More @socrata analysis! The World Bank major contract award dataset has been forked 345 times. http://thomaslevine.com/!/socrata-genealogies/ @WBOpenFinances
 facebook_description: It's cool what you can do when everyone's data analysis is logged and exposed publicly over the web.
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 ---
 Governments and other organizations have recently been trying to open up their
 data. Socrata's [Open Data Portal](http://www.socrata.com/open-data-portal/) software

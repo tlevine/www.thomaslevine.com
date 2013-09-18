@@ -7,7 +7,7 @@ twitter_description: 'Like "not The White House", who discovered a @SecretServic
 created_at: 2013-07-25
 twitter_image: user-model.jpg
 kind: article
-tags: ['socrata']
+tags: ['socrata', 'open-data']
 ---
 I recently downloaded the metadata files for all
 of the datasets on all of the Socrata portals (for a particular definition
