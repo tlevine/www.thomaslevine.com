@@ -1,0 +1,23 @@
+MapReduce:
+
+#2155196e-7b88-46df-97fa-7067ca13befc# Storage
+We have a stack of books. They're heavy.
+We also have a bunch of workers.
+
+#2155196e-7b88-46df-97fa-7067ca13befc# Map
+Each worker picks up a book from the book pile.
+She copies the page count of each book and the
+number of books (1) onto a piece of paper and
+puts it in the paper stack.
+
+The paper stack is only allowed to get so big.
+
+#2155196e-7b88-46df-97fa-7067ca13befc# Reduce
+When the paper stack gets too big or when there
+are no more books, workers take papers from the
+paper stack, add up the page counts and numbers
+of books, and put the papers back into the paper
+stack.
+
+We end when there is only one piece of paper left.
+
