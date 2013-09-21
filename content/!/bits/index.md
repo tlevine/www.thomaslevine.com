@@ -114,3 +114,6 @@ how to represent them as bits.
 The stick of memory in your computer contains lots and lots of bits.
 Each bit has an address. To store a value, we indicate which bits it
 is stored in, and then we set the bits.
+
+Perform these! Arrange a bunch of cards into groups so that you can
+easily address them, then flip them around and store things.
