@@ -32,3 +32,26 @@ In Python, they might look like this.
     function_two(bit)
 
 ## A few bits
+How do we represent something more complicated than yes/no?
+Let's not worry about functions for now. If the only numbers
+in the universe are zero and one, how could we represent the
+bit as being one of these?
+
+Let's stop pretending that the only numbers are zero and one.
+If we have two people/bits, can we represent the number two?
+What about the number three? What about four? And five, and so on?
+
+## Just whole numbers
+Let's limit the numbers that we'll try representing to whole
+numbers, which are integers from zero up. Add more people to
+the line of bits, have them remember being on or off.
+
+Read the number from right to left like so.
+
+1. Start the number at zero.
+2. If the right-most person is on, add one to the number.
+3. If the next person is on, add two to the number.
+4. If the next person is on, add four to the number.
+5. And so on
+
+Vary the length of the line of bits.
