@@ -67,8 +67,8 @@ The act of representing numbers in the above way is called an
 
 You've noticed that there are only so many numbers you can
 represent with so many bits. For example, the highest number
-in an eight-bit unsigned number is 255, and the lowest
-number is zero.
+in an five-bit unsigned integer is 31, and the lowest
+integer is zero.
 
 What if we wanted to be able to represent the corresponding
 negative numbers too? That is, what if we want to 
@@ -77,8 +77,8 @@ numbers. How can we do that?
 
 Let's add another person at the left. This person tells us
 whether the number is positive or negative. Now let's
-represent a very positive number, like 200, and a very
-negative number, like -200.
+represent a very positive integer, like 200, and a very
+negative integer, like -200.
 
 This method is inefficient because it makes our algorithm more
 complicated. Also, it gives us one fewer number because there
@@ -88,5 +88,24 @@ Instead, let's just reader algorithm so the number starts from
 the most negative value instead of from zero. And switch our
 writer algorithm accordingly.
 
-## Bytes and ASCII
-ASCII scheme let us represent 
+### Number lengths
+We group bits into bytes. A byte just means "eight bits".
+We still represent integers the same way as above; we just use
+multiples of eight for the number of bits.
+
+We can represent the whole numbers zero to 255 in a single byte.
+In practice, we rarely use single-byte numbers. There are special
+names for numbers based on their length.
+
+* An `int16` is a two-byte (16-bit) integer.
+* An `int32` is a four-byte (32-bit) integer.
+* An `int64` is an eight-byte (64-bit) integer.
+
+Each of these can be signed or unsigned. Let's perform these!
+If you don't have enough people to play all of the bits, swap
+people for pieces of paper that are dark on one side and light
+on the other.
+
+Some languages (including Python) abstract all of this away and
+let you represent arbitrarily large numbers without worrying about
+how to represent them as bits.
