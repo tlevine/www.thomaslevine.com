@@ -109,3 +109,8 @@ on the other.
 Some languages (including Python) abstract all of this away and
 let you represent arbitrarily large numbers without worrying about
 how to represent them as bits.
+
+## Memory
+The stick of memory in your computer contains lots and lots of bits.
+Each bit has an address. To store a value, we indicate which bits it
+is stored in, and then we set the bits.
