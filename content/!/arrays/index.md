@@ -25,7 +25,7 @@ Remove the fourth person from the array.
 In order to do this, you need to move everyone
 else down one address.
 
-## Appending
+## Inserting
 Add another person between the second and third persons.
 Oh no! We need another chair! But we can't just use one of
 the adjacent chairs because people might be sitting there.
