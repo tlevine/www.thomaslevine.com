@@ -46,7 +46,8 @@ Let's limit the numbers that we'll try representing to whole
 numbers, which are integers from zero up. Add more people to
 the line of bits, have them remember being on or off.
 
-Read the number from right to left like so.
+One person plays the number-reader. This person reads the number
+from right to left like so.
 
 1. Start the number at zero.
 2. If the right-most person is on, add one to the number.
@@ -54,4 +55,38 @@ Read the number from right to left like so.
 4. If the next person is on, add four to the number.
 5. And so on
 
-Vary the length of the line of bits.
+Write the number from left to write, reversing the above
+algorithm and accounting for powers of two.
+
+Play with reading and writing from the line of bits, varying
+the length of the line of bits.
+
+### Unsigned and signed numbers
+The act of representing numbers in the above way is called an
+"unsigned" number.
+
+You've noticed that there are only so many numbers you can
+represent with so many bits. For example, the highest number
+in an eight-bit unsigned number is 255, and the lowest
+number is zero.
+
+What if we wanted to be able to represent the corresponding
+negative numbers too? That is, what if we want to 
+This involves representing twice as many (minus one) possible
+numbers. How can we do that?
+
+Let's add another person at the left. This person tells us
+whether the number is positive or negative. Now let's
+represent a very positive number, like 200, and a very
+negative number, like -200.
+
+This method is inefficient because it makes our algorithm more
+complicated. Also, it gives us one fewer number because there
+are two representations of zero.
+
+Instead, let's just reader algorithm so the number starts from
+the most negative value instead of from zero. And switch our
+writer algorithm accordingly.
+
+## Bytes and ASCII
+ASCII scheme let us represent 
