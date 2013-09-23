@@ -18,6 +18,8 @@ For a [couple months](/!/socrata-summary), I've been studying the data
 about these data and have continuously been dealing with duplicated data.
 I finally fixed that, so now I have more accurate statistics on portals.
 
+![Histogram of dataset counts by portal](histogram.png)
+
 ## Types of duplication
 I'm concerned with
 [two forms of duplication](/!/socrata-genealogies/#types-of-duplicate-datasets).
@@ -64,6 +66,33 @@ Yay! Now we can deduplicate based on federation. I looked through the CSV file
 that I produced a couple months ago and removed records that were federated.
 That is, if two datasets had the same 4x4 identifier, I kept the one belonging
 to the portal that was being federated.
+
+## Better statistics
+I plotted two graphs again to get a feel for how this changes things.
+
+### Dataset counts by portal
+First, here's the graph of dataset counts from the new data.
+
+![Histogram of dataset counts by portal](histogram.png){:.wide}
+
+My [first version](/!/socrata-summary/#sizes), also below, includes both types of deplication.
+
+![Old histogram](/!/socrata-summary/figure/big_portals_datasets.png){:.wide}
+
+The [version that uses `data.json`](/!/socrata-formats/#how-many-datasets), also below,
+doesn't have the derived-view duplication, but it does have the federation duplication.
+
+![data.json version](http://localhost:3000/!/socrata-formats/figure/portal-counts.png)
+
+### Dataset creation dates
+I also plotted dataset creation dates over time.
+
+
+I hadn't made a plot quite like this before, but the issue of duplication
+has turned up in other plots about dataset creation dates. Here are some
+examples, from the [original summary](/!/socrata-summary/#time), the study
+of [dataset formats](/!/socrata-formats/#csv).
+
 
 <script src="d3.v3.min.js"></script>
 <script src="graph-diagram.js"></script>
