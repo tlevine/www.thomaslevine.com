@@ -37,7 +37,6 @@
             .attr("class", "node")
             .attr("title", function(d) { return d.name; })
             .attr("r", 10)
-            .style("fill", function(d) { return color(2); })
 
     node.append("title")
         .text(function(d) { return d.name; });

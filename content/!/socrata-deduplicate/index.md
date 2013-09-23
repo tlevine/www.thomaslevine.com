@@ -3,7 +3,7 @@ created_at: 2013-09-23
 kind: article
 title: What's in a count?
 tweet_text: Counting datasets is hard. Also, can we have better data portal metrics? http://thomaslevine.com/!/socrata-deduplicate
-tweet_link_a: https://twitter.com/thomaslevine/status/361993726496735232
+tweet_link: https://twitter.com/thomaslevine/status/382167385647480832
 twitter_title: Well this changes our @socrata data portal statistics....
 description: I finally deduplicated the Socrata dataset data.
 twitter_image: figure/network.png
