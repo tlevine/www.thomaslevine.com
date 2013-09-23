@@ -64,6 +64,10 @@ search menu, so it lets you filter your search by portal.
 I [downloaded all of the homepages and pulled out the federation links](https://github.com/tlevine/socrata-defederate).
 Here they are, in a rather plain diagram. (Hover over a node to see the portal name.)
 
+<style>
+  line { stroke: white; }
+  circle { fill: rgb(254, 87, 161); }
+</style>
 <div id="graph-diagram"></div>
 
 Yay! Now we can deduplicate based on federation. I looked through the CSV file
