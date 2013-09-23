@@ -60,6 +60,10 @@ Here they are, in a rather plain diagram. (Hover over a node to see the portal n
 
 <div id="graph-diagram"></div>
 
+Yay! Now we can deduplicate based on federation. I looked through the CSV file
+that I produced a couple months ago and removed records that were federated.
+That is, if two datasets had the same 4x4 identifier, I kept the one belonging
+to the portal that was being federated.
 
 <script src="d3.v3.min.js"></script>
 <script src="graph-diagram.js"></script>
