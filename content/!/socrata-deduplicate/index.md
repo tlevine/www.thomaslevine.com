@@ -87,12 +87,23 @@ doesn't have the derived-view duplication, but it does have the federation dupli
 ### Dataset creation dates
 I also plotted dataset creation dates over time.
 
+![Dataset creation over time](dates.png){:.wide}
 
 I hadn't made a plot quite like this before, but the issue of duplication
-has turned up in other plots about dataset creation dates. Here are some
-examples, from the [original summary](/!/socrata-summary/#time), the study
-of [dataset formats](/!/socrata-formats/#csv).
+has turned up in other plots about dataset creation dates, like in the
+[original summary](/!/socrata-summary/#time) and in the study of
+[dataset formats](/!/socrata-formats/#csv).
 
+## Arbitrary metrics are arbitrary
+Dataset count might sound like a decent metric, but it's quite hard to say
+what a dataset is. If you [split up a dataset by year](http://appgen.me/audit/report),
+do you have multiple datasets? Similarly, if you create
+[lots of different queries](/!/socrata-genealogies) on the same dataset,
+have you created new datasets? And do you have more datasets if you have
+
+
+I'm told that there is continuous competition between Chicago and New York
+and between `data.gov` and `data.gov.uk` over the dataset count on their portals.
 
 <script src="d3.v3.min.js"></script>
 <script src="graph-diagram.js"></script>
