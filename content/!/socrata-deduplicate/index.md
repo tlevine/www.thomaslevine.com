@@ -56,6 +56,10 @@ This shows up if the portal is federating any other portals. It's part of the
 search menu, so it lets you filter your search by portal.
 
 I [downloaded all of the homepages and pulled out the federation links](https://github.com/tlevine/socrata-defederate).
-Here they are.
+Here they are, in a rather plain diagram. (Hover over a node to see the portal name.)
 
 <div id="graph-diagram"></div>
+
+
+<script src="d3.v3.min.js"></script>
+<script src="graph-diagram.js"></script>
