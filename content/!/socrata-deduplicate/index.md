@@ -18,7 +18,11 @@ For a [couple months](/!/socrata-summary), I've been studying the data
 about these data and have continuously been dealing with duplicated data.
 I finally fixed that, so now I have more accurate statistics on portals.
 
-![Histogram of dataset counts by portal](histogram.png)
+Quick preview:
+
+![Histogram of dataset counts by portal](histogram.png){:.wide}
+
+(I'll explain later.)
 
 ## Types of duplication
 I'm concerned with
@@ -30,7 +34,7 @@ I'm concerned with
 
 ## Dealing with derived views
 It's easy enough to deal with the former type of duplication.
-One way is to use the `/data.json`/`/api/dcat` endpoint.
+One way is to use the `/data.json` (or `/api/dcat`) endpoint.
 Unfortunately, this endpoint only provides the first 1000 entries.
 I have been told that this has been fixed, but I had trouble getting
 it working this morning.
