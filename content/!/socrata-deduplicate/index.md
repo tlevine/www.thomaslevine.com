@@ -24,7 +24,7 @@ I'm concerned with
 
 1. [Views](/!/socrata-genealogies/#term-view) derived from original
     [datasets](/!/socrata-genealogies/#term-dataset)
-2. Federated datasets
+2. Federated datasets, which are just links to datasets on another portal
 
 ## Dealing with derived views
 It's easy enough to deal with the former type of duplication.
@@ -47,4 +47,15 @@ my CSV file. If I had been more careful when producing the CSV file, it could
 have such a field, but I don't want to make another one because that took a
 long time. So I took the federation links from somewhere else.
 
-n easy place to get the federation links is fro
+Scroll down on the homepage of a portal (like [data.gov](https://explore.data.gov/)),
+and you might see something like this.
+
+![Federated Domains](federated-domains.png)
+
+This shows up if the portal is federating any other portals. It's part of the
+search menu, so it lets you filter your search by portal.
+
+I [downloaded all of the homepages and pulled out the federation links](https://github.com/tlevine/socrata-defederate).
+Here they are.
+
+<div id="graph-diagram"></div>
