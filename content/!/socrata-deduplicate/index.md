@@ -1,11 +1,11 @@
 ---
 created_at: 2013-09-23
 kind: article
-title: Socrata's federation network
-tweet_text: Well this changes our @socrata data portal statistics.... http://thomaslevine.com/!/socrata-deduplicate
+title: What's in a count?
+tweet_text: Counting datasets is hard. Also, can we have better data portal metrics? http://thomaslevine.com/!/socrata-deduplicate
 tweet_link_a: https://twitter.com/thomaslevine/status/361993726496735232
-twitter_title: I finally deduplicated the Socrata dataset data
-description: .
+twitter_title: Well this changes our @socrata data portal statistics....
+description: I finally deduplicated the Socrata dataset data.
 twitter_image: figure/network.png
 facebook_image: figure/network.png
 tags: ['socrata', 'open-data']
@@ -99,11 +99,17 @@ Dataset count might sound like a decent metric, but it's quite hard to say
 what a dataset is. If you [split up a dataset by year](http://appgen.me/audit/report),
 do you have multiple datasets? Similarly, if you create
 [lots of different queries](/!/socrata-genealogies) on the same dataset,
-have you created new datasets? And do you have more datasets if you have
+have you created new datasets? And do you have more datasets if you just copy
+them from another data portal?
 
-
-I'm told that there is continuous competition between Chicago and New York
+I'm told that there is perennial competition between Chicago and New York
 and between `data.gov` and `data.gov.uk` over the dataset count on their portals.
+Given the ambiguity of this measure, it is quite hilarious that such competition
+exists.
+
+On the other hand, that's the only obvious metric that we see in data portals.
+Maybe we need to make [new metrics](/!/open-data-plans/#data-quality)
+before people can stop caring about counts.
 
 <script src="d3.v3.min.js"></script>
 <script src="graph-diagram.js"></script>

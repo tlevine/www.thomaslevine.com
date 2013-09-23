@@ -78,6 +78,14 @@ school location before a school dataset is interesting. If we look
 at historical release and usage of datasets, we might get an idea
 of these dependencies and interactions.
 
+### Real outcomes
+Open data isn't useful in itself; it's useful because good things
+will happen if we do. Or at least that's the idea. As
+[Ian Kalin](https://twitter.com/IanJKalin) says, the data portal
+metrics should really tell us how many tax dollars the open data
+saved and how many jobs the data portal created. If we're creative,
+we can come up with something like this.
+
 ## Collect more data
 There are lots of data portals, and not all
 aspects of the various data portals software
