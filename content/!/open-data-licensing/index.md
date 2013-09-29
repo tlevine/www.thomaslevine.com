@@ -31,5 +31,8 @@ I looked at the variation within a few portals.
 
 ![](p3.png)
 
-As you see, these portals tend to use one or two licenses for
-everything rather than having special 
+As you see, it seems like each portal chooses one or two of the
+standard licenses for the bulk of its datasets. But a substantial
+portion of datasets have no license field or have no specified
+license. What's going on here? Let's hope that an open license is
+specified elsewhere.
