@@ -45,9 +45,22 @@ People like me consume Paris's data by going to Paris's data portal.
 As we saw above, this doesn't necessarily match the consumers' needs;
 I'm not necessarily interested in data specifically about Paris.
 
-### Combine across portals
+### Connect data across portals
 Different cities are all still cities, so they collect similar data. But they
 have different policies and different bookkeeping practices, so not all of their
-data are out, and the data have different schemas.
+data are out, and the data have different schemas. There are so many different
+people working on this that it's not worth getting them to use the same procedures.
 
-Your product can fix this by connecting all of these datasets.
+But your product can help to connect all of these datasets. At the least, you can
+help people find out about related datasets. Build a fancier version of search;
+you might even call it a recommender.
+
+You can also get fancier about combining datasets. Figure out what schemas
+are common for particular sorts of data, and get different datasets into a reasonable
+schema so that you can query across all cities at once.
+
+People have been dealing with this sort of issue inside of large organizations with
+lots of proprietary data, like investment banks. I've recently arrived at a bunch of
+ideas about how we can make open data better, but Goldman Sachs (for example) figured
+this out years ago when they started having this variety of data internally.
+And they've already built out many of the things I suggest here.
