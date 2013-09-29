@@ -1,5 +1,11 @@
 ---
 title: Open data licenses
+twitter_title: Lots of datasets on open data portals are openly licensed
+twitter_description: I bet you didn't see that one coming.
+twitter_image: p2.png
+facebook_title: Lots of datasets on open data portals are openly licensed
+facebook_description: I bet you didn't see that one coming.
+facebook_image: p2.png
 ---
 Open data are "open", but do their licenses reflect that?
 I downloaded all of the metadata files from 102 open data
