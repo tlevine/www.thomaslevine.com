@@ -24,6 +24,12 @@ standardized licenses for all of the data.
 
 ![](p2.png)
 
-We see....
+While many datasets have standard open licenses, the licenses
+for most datasets are marked as something like "not specified"
+in this field. (They are probably specified elsewhere.)
+I looked at the variation within a few portals.
 
 ![](p3.png)
+
+As you see, these portals tend to use one or two licenses for
+everything rather than having special 
