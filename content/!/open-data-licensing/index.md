@@ -11,13 +11,17 @@ facebook_title: Lots of datasets on open data portals are openly licensed
 facebook_description: But most aren't.
 facebook_image: p1.png
 ---
+## Open data are "open", but do their licenses reflect that?
 
-Open data are "open", but do their licenses reflect that?
 I downloaded all of the metadata files from 102 open data
 portals hosted on CKAN, Socrata and OpenDataSoft. Each of
 these data portal softwares has a metadata field for the
 license of each particular dataset. In the present article,
 I look at this metadata field.
+
+**tl;dr**: It turns out that most of
+the datasets don't have licenses. Or if they do, it's not
+specified in this field. I think it would be nice if they did.
 
 ## The portals
 I looked at [these portals](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/portals.py),
@@ -45,7 +49,7 @@ with licenses, by portal. Portals on the right of the graph
 specified licenses for most of their datasets, and portals on
 the left specified licenses for few of their datasets.
 
-![](p1.png){:.wide}
+![Do portals indicate the licenses of their datasets?](p1.png){:.wide}
 
 I was actually slightly surprised that people had set licenses
 at all.
@@ -54,7 +58,7 @@ at all.
 Then I looked at what these licenses (after I reduced them to
 a few standard names) were.
 
-![](p2.png){:.wide}
+![Data license use across 100 portals](p2.png){:.wide}
 
 As we saw in the previous plot, most datasets don't specify a
 license. They might be specified elsewhere.
@@ -63,13 +67,13 @@ While many datasets have standard open licenses, the licenses
 ## How do portals differ?
 I looked at the variation in this across portal.
 
-[![](p4.png){:.wide}](p4.png)
+[![Data licenses by portal](p4.png){:.wide}](p4.png)
 
 `publicdata.eu` is pretty big. Like the three portals that I removed
 at the beginning, it isn't associated with a particular government,
 so I removed it.
 
-[![](p5.png){:.wide}](p5.png)
+[![Data licenses by portal, ignoring publicdata.eu](p5.png){:.wide}](p5.png)
 
 ## Do people put licenses elsewhere?
 I looked around the websites for a few portals to see whether they
