@@ -61,12 +61,57 @@ so I removed it.
 
 ![](p5.png)
 
+## Do people put licenses elsewhere?
+I looked around the websites for a few portals to see whether they
+grant a license somewhere else in the website. Let's group them into
+two groups: Portals that specify lots of open licenses and portals
+that don't specify very many license
+
+### Lots of open licenses
+Everything's public domain on the
+[data.codeforhouston.com](http://data.codeforhouston.com/dataset/city-of-houston-funds),
+and it says so in the individual datasets, but there's no site-wide
+license page that explains this.
+
+### Few licenses
+
+#### Oregon
+The closest thing I could find to a license on Oregon's data portal was
+[this](http://www.oregon.gov/Pages/datamoderation.aspx).
+
+> **Source Data**
+> Applications using data supplied by this site must include the following disclaimers on their sites:
+>
+> > "The data made available here has been modified for use from its original source, which is the State of Oregon. THE STATE OF OREGON MAKES NO REPRESENTATIONS OR WARRANTY AS TO THE COMPLETENESS, ACCURACY, TIMELINESS, OR CONTENT OF ANY DATA MADE AVAILABLE THROUGH THIS SITE. THE STATE OF OREGON EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. The data is subject to change as modifications and updates are complete. It is understood that the information contained in the Web feed is being used at one's own risk."
+
+I suppose that implies that it is okay to copy the data, modify
+the data and supply your application with it, but is this enough
+to give you the right to do that?
+
+#### Italy
+Few datasets on [it.ckan.net](http://it.ckan.net) specify licenses,
+but it says in two places
+that most everything is released under the Open Database License.
+The ["Meta" section](http://it.ckan.net/#credits) of the footer says this.
+
+> © 2012 Open Knowledge Foundation Disponibile nei termini della Open Database License
+
+And the [about/informazioni](http://it.ckan.net/about) page says this.
+
+> Most of the data indexed at CKAN Italia is openly licensed, meaning anyone is free to use or re-use it however they like. Perhaps someone will take that nice dataset of a city's public art that you found, and add it to a tourist map - or even make a neat app for your phone that'll help you find artworks when you visit the city. Open data means more enterprise, collaborative science and transparent government. You can read more about open data in the Open Data Handbook.
+
+Perhaps this implies that everything is licensed under ODbL unless
+something specifies otherwise?
+
 ## Conclusions
-As you see, it seems like each portal chooses one or two of the
-standard licenses for the bulk of its datasets. But a substantial
-portion of datasets have no license field or have no specified
-license. What's going on here? Let's hope that an open license is
-specified elsewhere.
+By law, products of the United States federal government are public domain,
+so I'd love to think that everything on at least `data.gov` is in the public domain.
+
+http://www.whitehouse.gov/copyright
+
+http://en.wikipedia.org/wiki/Copyright_status_of_work_by_the_U.S._government#State.2C_territorial_and_local_governments
+
+
 
 like [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
 http://opendatacommons.org/licenses/odbl/summary/
