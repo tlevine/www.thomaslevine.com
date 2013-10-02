@@ -16,8 +16,8 @@ Open data are "open", but do their licenses reflect that?
 I downloaded all of the metadata files from 102 open data
 portals hosted on CKAN, Socrata and OpenDataSoft. Each of
 these data portal softwares has a metadata field for the
-license of each particular dataset. I looked at whether
-those were used and at what the licenses were.
+license of each particular dataset. In the present article,
+I look at this metadata field.
 
 ## The portals
 I looked at [these portals](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/portals.py),
@@ -28,7 +28,7 @@ but I ignored the following three because they aren't associated with specific g
 * opendata.socrata.com
 
 ## Reducing license names
-I then made a [rough mapping](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/query-license.py#L5)
+I made a [rough mapping](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/query-license.py#L5)
 between the free-form names of the
 licenses and some standard licenses.
 For example, [CC0](http://creativecommons.org/publicdomain/zero/1.0/) 
@@ -36,7 +36,7 @@ and other public domain licenses got grouped into "Public Domain".
 
 I didn't test this
 very well, so there are probably some errors, but I think
-these results are informative regardless.
+these results are still informative.
 
 ## Do people specify a license at all?
 In doing this, I distinguished between whether a license was
