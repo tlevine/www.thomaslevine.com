@@ -6,10 +6,10 @@ tags: ['socrata']
 tweet_text: Are your data really open if they don't have a license? http://thomaslevine.com/!/open-data-licensing
 twitter_title: Lots of datasets on open data portals are openly licensed
 twitter_description: But most aren't.
-twitter_image: p1.png
+twitter_image: square.png
 facebook_title: Lots of datasets on open data portals are openly licensed
 facebook_description: But most aren't.
-facebook_image: p1.png
+facebook_image: square.png
 ---
 ## Open data are "open", but do their licenses reflect that?
 
