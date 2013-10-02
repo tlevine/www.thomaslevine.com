@@ -7,6 +7,7 @@ facebook_title: Lots of datasets on open data portals are openly licensed
 facebook_description: I bet you didn't see that one coming.
 facebook_image: p2.png
 ---
+
 Open data are "open", but do their licenses reflect that?
 I downloaded all of the metadata files from 102 open data
 portals hosted on CKAN, Socrata and OpenDataSoft. Each of
@@ -24,7 +25,11 @@ I ignored these portals because they aren't associated with specific governments
 ## Reducing license names
 I then made a [rough mapping](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/query-license.py#L5)
 between the free-form names of the
-licenses and some standard licenses. I didn't test this
+licenses and some standard licenses.
+For example, [CC0](http://creativecommons.org/publicdomain/zero/1.0/) 
+and other public domain licenses got grouped into "Public Domain".
+
+I didn't test this
 very well, so there are probably some errors, but I think
 these results are informative regardless.
 
@@ -103,21 +108,48 @@ And the [about/informazioni](http://it.ckan.net/about) page says this.
 Perhaps this implies that everything is licensed under ODbL unless
 something specifies otherwise?
 
-## Conclusions
-By law, products of the United States federal government are public domain,
+## Why licenses matter
+Datasets on data portals often lack licenses, and there sometimes
+isn't a site-wide license for data portals. We sort of don't need
+licenses on these data portals, but I'd like to see them.
+
+### Why we sort of don't need it
+For at least some data portals, it might be kind of safe to assume
+that everything on it is free for your use.
+
+In the United States, this might not be too big of an issue because
+[you can't copyright data](http://www.lib.umich.edu/copyright/facts-and-data).
+
+Also, products of the United States federal government are public domain,
 so I'd love to think that everything on at least `data.gov` is in the public domain.
 
-http://www.whitehouse.gov/copyright
+### Why we sort of need it
 
-http://en.wikipedia.org/wiki/Copyright_status_of_work_by_the_U.S._government#State.2C_territorial_and_local_governments
+> [Licensing is important because it reduces uncertainty.](http://opendatacommons.org/faq/)
 
+In some contexts, the creator of data can't restrict you from copying them,
+remixing them and distributing derived works. But it's hard to know whether
+you are in such a context. For example, Oregon apparently has the right to
+require you to add a disclaimer to software that use Oregon data.
 
+The White House gets this. Even though products of the federal government
+are already in the public domain, the White house website makes this
+[explicit](http://www.whitehouse.gov/copyright).
 
-like [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
-http://opendatacommons.org/licenses/odbl/summary/
+Even if the public already has the right to the data, you should make this
+clear on the website. This is especially relevant when someone is downloading
+datasets from 100 different portals run by different governments; it's nice
+not to look up the intellectual property laws for all of the different places.
 
+## Add a license!
+If you run a data portal, add a license, even if you don't really need one.
+Hmm I suppose I should tell you which license.
 
-http://data.sncf.com/feedbacks/108009-open-data-open-data
+If your data portal is associated with a government,
+[Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/)
+seems like a good one to me. This effectively allows anyone to do anything with
+the data as if she had produced them herself.
 
-
-
+If you want to enforce that datasets derived from your dataset be released
+openly, consider something like the
+[Open Database License](http://opendatacommons.org/licenses/odbl/summary/).
