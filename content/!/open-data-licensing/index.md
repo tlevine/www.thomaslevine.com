@@ -78,10 +78,19 @@ two groups: Portals that specify lots of open licenses and portals
 that don't specify very many license
 
 ### Lots of open licenses
+
+#### Houston
 Everything's public domain on the
 [data.codeforhouston.com](http://data.codeforhouston.com/dataset/city-of-houston-funds),
 and it says so in the individual datasets, but there's no site-wide
 license page that explains this.
+
+#### United Kingdom
+`data.gov.uk` is [more explicit](http://data.gov.uk/terms-and-conditions).
+
+> The data and information available through www.data.gov.uk are available under terms described in the “licence” or "constraints" field of individual dataset records (meta-data). Except where otherwise noted this is the Open Government Licence.
+> 
+> All dataset records (meta-data) published on www.data.gov.uk are licensed under the Open Government Licence.
 
 ### Few licenses
 
