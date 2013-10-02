@@ -42,3 +42,6 @@ standard licenses for the bulk of its datasets. But a substantial
 portion of datasets have no license field or have no specified
 license. What's going on here? Let's hope that an open license is
 specified elsewhere.
+
+like [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
+http://opendatacommons.org/licenses/odbl/summary/
