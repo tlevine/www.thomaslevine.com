@@ -63,13 +63,13 @@ While many datasets have standard open licenses, the licenses
 ## How do portals differ?
 I looked at the variation in this across portal.
 
-![](p4.png)
+![](p4.png){:.wide}
 
 `publicdata.eu` is pretty big. Like the three portals that I removed
 at the beginning, it isn't associated with a particular government,
 so I removed it.
 
-![](p5.png)
+![](p5.png){:.wide}
 
 ## Do people put licenses elsewhere?
 I looked around the websites for a few portals to see whether they
