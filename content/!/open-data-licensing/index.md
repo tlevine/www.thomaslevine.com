@@ -45,7 +45,7 @@ with licenses, by portal. Portals on the right of the graph
 specified licenses for most of their datasets, and portals on
 the left specified licenses for few of their datasets.
 
-![](p1.png)
+![](p1.png){:.wide}
 
 I was actually slightly surprised that people had set licenses
 at all.
@@ -54,7 +54,7 @@ at all.
 Then I looked at what these licenses (after I reduced them to
 a few standard names) were.
 
-![](p2.png)
+![](p2.png){:.wide}
 
 As we saw in the previous plot, most datasets don't specify a
 license. They might be specified elsewhere.
@@ -63,13 +63,13 @@ While many datasets have standard open licenses, the licenses
 ## How do portals differ?
 I looked at the variation in this across portal.
 
-![](p4.png){:.wide}
+[![](p4.png){:.wide}](p4.png)
 
 `publicdata.eu` is pretty big. Like the three portals that I removed
 at the beginning, it isn't associated with a particular government,
 so I removed it.
 
-![](p5.png){:.wide}
+[![](p5.png){:.wide}](p5.png)
 
 ## Do people put licenses elsewhere?
 I looked around the websites for a few portals to see whether they
