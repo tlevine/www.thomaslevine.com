@@ -45,3 +45,6 @@ specified elsewhere.
 
 like [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
 http://opendatacommons.org/licenses/odbl/summary/
+
+
+http://data.sncf.com/feedbacks/108009-open-data-open-data
