@@ -1,11 +1,15 @@
 ---
-title: Open data licenses
+title: Open data licensing
+created_at: 2013-10-02
+kind: article
+tags: ['socrata']
+tweet_text: Are your data really open if they don't have a license? http://thomaslevine.com/!/open-data-licensing
 twitter_title: Lots of datasets on open data portals are openly licensed
-twitter_description: I bet you didn't see that one coming.
-twitter_image: p2.png
+twitter_description: But most aren't.
+twitter_image: p1.png
 facebook_title: Lots of datasets on open data portals are openly licensed
-facebook_description: I bet you didn't see that one coming.
-facebook_image: p2.png
+facebook_description: But most aren't.
+facebook_image: p1.png
 ---
 
 Open data are "open", but do their licenses reflect that?
@@ -16,7 +20,8 @@ license of each particular dataset. I looked at whether
 those were used and at what the licenses were.
 
 ## The portals
-I ignored these portals because they aren't associated with specific governments.
+I looked at [these portals](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/portals.py),
+but I ignored the following three because they aren't associated with specific governments.
 
 * datahub.io
 * datastore.opendatasoft.com
