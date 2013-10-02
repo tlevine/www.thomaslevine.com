@@ -14,19 +14,24 @@ these data portal softwares has a metadata field for the
 license of each particular dataset. I looked at whether
 those were used and at what the licenses were.
 
-I looked first at whether people used the metadata field at
-all.
-
-![](p1.png)
-
-Surprisingly to me, all datasets in most portals have a
-license field set.
-
 I then made a rough mapping between the free-form names of the
 licenses and some standard licenses. I didn't test this
 very well, so there are probably some errors, but I think
 these results are informative regardless. Here are the
 standardized licenses for all of the data.
+
+In doing this, I distinguished between whether a license was
+specified. Here's a histogram of the proportion of datasets
+with licenses, by portal. Portals on the right of the graph
+specified licenses for most of their datasets, and portals on
+the left specified licenses for few of their datasets.
+
+![](p1.png)
+
+I was actually slightly surprised that people had set licenses
+at all.
+
+Then I looked at what these licenses were.
 
 ![](p2.png)
 
@@ -35,7 +40,7 @@ for most datasets are marked as something like "not specified"
 in this field. (They are probably specified elsewhere.)
 I looked at the variation within a few portals.
 
-![](p3.png)
+![](p4.png)
 
 As you see, it seems like each portal chooses one or two of the
 standard licenses for the bulk of its datasets. But a substantial
