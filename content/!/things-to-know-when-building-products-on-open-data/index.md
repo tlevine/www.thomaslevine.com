@@ -2,6 +2,9 @@
 title: Things to think about when you're building products on open data
 tags: ['open-data']
 ---
+People talk a lot about [why we need open data](http://opendatahandbook.org/en/why-open-data/) and 
+[how to release open data](http://www.codeforamerica.org/09-24-2013/).
+Part of the stratagy for making open data useful is
 
 ## Storing all these datasets
 With open data, you have lots of tiny datasets. The individual open datasets are
