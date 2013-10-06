@@ -4,7 +4,12 @@ tags: ['open-data']
 ---
 People talk a lot about [why we need open data](http://opendatahandbook.org/en/why-open-data/) and 
 [how to release open data](http://www.codeforamerica.org/09-24-2013/).
-Part of the stratagy for making open data useful is
+Part of the strategy for making open data useful is getting people to
+make [software](http://youtu.be/6cRtbA_d4RI?t=12m40s) that use them.
+
+[make](http://opendatachallenge.org/) "[apps](http://nycbigapps.com/)"
+
+http://www.youtube.com/watch?v=LijchWVlirc
 
 ## Storing all these datasets
 With open data, you have lots of tiny datasets. The individual open datasets are
