@@ -2,7 +2,7 @@
 title: Open data licensing
 created_at: 2013-10-02
 kind: article
-tags: ['socrata']
+tags: ['open-data']
 tweet_text: Are your data really open if they don't have a license? http://thomaslevine.com/!/open-data-licensing
 twitter_title: Lots of datasets on open data portals are openly licensed
 twitter_description: But most aren't.

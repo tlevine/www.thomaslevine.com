@@ -7,7 +7,6 @@ People write and talk a lot about
 [how to release open data](http://www.codeforamerica.org/09-24-2013/).
 Part of the strategy for making open data useful is getting people to
 make [software](http://youtu.be/6cRtbA_d4RI?t=12m40s) that use them.
-But I've seen less 
 
 <!--
 To this end, 
@@ -16,20 +15,30 @@ To this end,
 http://www.youtube.com/watch?v=LijchWVlirc
 -->
 
+I've seen writing and talk about how to make software that uses open data,
+but it's usually limited to an explanation that data exist on some website
+and maybe that you can query them with an "API".
+
+I've lately been studying [data about open data](/open-data)
+
 ## Storing all these datasets
 With open data, you have lots of tiny datasets. The individual open datasets are
 usually small enough that any storage approach will be fine if you're only using
 a few of them, but you'll need to think a bit if you're storing lots of datasets.
 
 ### Centralized
-As far as I know, ScraperWiki, Exversion and Socrata all started with storing
-everything in one relational database, with one database row per dataset row
-(possibly across tables or in one table).
+Most people seem to start with storing everything in one relational database,
+with one database row per dataset row (possibly across tables or in one table).
+Examples include [ScraperWiki](https://scraperwiki.com),
+[Exversion](https://exversion.com), and
+[Socrata](https://socrata.com)
 
 ### Less centralized
 You probably don't need your data to be this centralized. Well, at least that's
-what ScraperWiki thinks; ScraperWiki eventually switched to storing each dataset
-as a separate SQLite3 database.
+what I think, and that's what ScraperWiki thought; ScraperWiki eventually switched
+to storing each dataset as a separate SQLite3 database. Actually, other aspects
+of the infrastructure have become much less centralized. And it makes sense that
+both ScraperWiki and I like this approach because I used to work there.
 
 I haven't been particulary concerned with performance in my
 [recent studies](/socrata), so I've just been storing data as ordinary files on
