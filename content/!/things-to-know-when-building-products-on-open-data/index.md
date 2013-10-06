@@ -33,7 +33,7 @@ With open data, you have lots of tiny datasets. The individual open datasets are
 usually small enough that any storage approach will be fine if you're only using
 a few of them, but you'll need to think a bit if you're storing lots of datasets.
 
-### Centralized
+### More centralized
 Most people seem to start with storing everything in one relational database,
 with one database row per dataset row (possibly across tables or in one table).
 Examples include [ScraperWiki](https://scraperwiki.com),
@@ -74,7 +74,7 @@ People can consume Paris's data by going to Paris's data portal, but they might
 not be interested in data about Paris specifically. It would be nice to have one
 place with all of the relevant data, and your software can help with that.
 
-### Connect data across portals
+### Relating datasets
 Different cities are all still cities, so they collect similar data. But they
 have different policies and different bookkeeping practices, so not all of their
 data are out, and the data have different schemas. There are so many different
@@ -88,8 +88,15 @@ You can also get fancier about combining datasets. Figure out what schemas
 are common for particular sorts of data, and get different datasets into a reasonable
 schema so that you can query across all cities at once.
 
+This might sound like [linked data](http://www.w3.org/standards/semanticweb/data),
+and that can scare people. My advice above has similar goals to linked data, but I
+think we can accomplish some of them with simpler approaches than the Semantic Web
+technologies.
+
+## Related work
 People have been dealing with this sort of issue inside of large organizations with
 lots of proprietary data, like investment banks. I've recently arrived at a bunch of
-ideas about how we can make open data better, but Goldman Sachs (for example) figured
+ideas about how we can make open data better, but
+[Goldman Sachs](http://www.goldmansachs.com/) (for example) figured
 this out years ago when they started having this variety of data internally.
 And they've already built out many of the things I suggest here.
