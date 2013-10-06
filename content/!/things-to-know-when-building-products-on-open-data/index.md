@@ -40,9 +40,10 @@ to storing each dataset as a separate SQLite3 database. Actually, other aspects
 of the infrastructure have become much less centralized. And it makes sense that
 both ScraperWiki and I like this approach because I used to work there.
 
-I haven't been particulary concerned with performance in my
-[recent studies](/socrata), so I've just been storing data as ordinary files on
-an ordinary filesystem.
+In my [recent studies](/open-data), I've just been storing data as ordinary files on
+an ordinary filesystem and loading them all into memory. This is partly because I
+haven't been particulary concerned with performance, but I think I'd do something
+quite similar if performance did concern me more.
 
 ## Conflation of publishing with consumption
 I think this is the interesting data-preparation issue with open data:
