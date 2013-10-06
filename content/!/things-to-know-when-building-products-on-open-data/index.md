@@ -19,7 +19,14 @@ I've seen writing and talk about how to make software that uses open data,
 but it's usually limited to an explanation that data exist on some website
 and maybe that you can query them with an "API".
 
-I've lately been studying [data about open data](/open-data)
+I've lately been studying [data about open data](/open-data). Among other things,
+I now have some ideas of things that people should know if they're making products
+that use open data. So here they are.
+
+In my mind, I have a particular category for software that connects to all the
+things and lets you make stuff from them. In composing the following thoughts,
+I was mainly thinking about this sort of software. But the thoughts might apply
+a bit more broadly.
 
 ## Storing all these datasets
 With open data, you have lots of tiny datasets. The individual open datasets are
@@ -43,30 +50,29 @@ both ScraperWiki and I like this approach because I used to work there.
 In my [recent studies](/open-data), I've just been storing data as ordinary files on
 an ordinary filesystem and loading them all into memory. This is partly because I
 haven't been particulary concerned with performance, but I think I'd do something
-quite similar if performance did concern me more.
+quite similar if performance did concern me more; I load data into memory when I'm
+using them, and store them in a very simple way when I'm not using them.
 
 ## Conflation of publishing with consumption
 I think this is the interesting data-preparation issue with open data:
 Data are released by government/organization, but you might not be interested
 in data by government.
 
-### Search within a portal
-For example, you can go to the Paris data portal and get data about
-[coffee]() and
-[wifi]().
-Maybe you're not interested in data specifically about Paris; maybe you're
-actually interested in coffee and wifi in general. Or maybe you're interested
-in a different subset, like wifi access in places other than cafes. Either way,
-you can use data from places other than Paris.
-
-### Publishing versus consumption
+### Different portals
 Paris publishes its data to the Paris data portal. This makes a lot of sense;
 Paris's government has lots of data, and they're just trying to get it out there
 in a place where people can find it.
 
-People like me consume Paris's data by going to Paris's data portal.
-As we saw above, this doesn't necessarily match the consumers' needs;
-I'm not necessarily interested in data specifically about Paris.
+You can go to the Paris data portal and get data about
+[coffee]() and
+[wifi]().
+Maybe you're not interested in data specifically about Paris; maybe you're
+actually interested in coffee and wifi in general. Or maybe you're interested
+in a different subset, like wifi access in places other than cafes.
+
+People can consume Paris's data by going to Paris's data portal, but they might
+not be interested in data about Paris specifically. It would be nice to have one
+place with all of the relevant data, and your software can help with that.
 
 ### Connect data across portals
 Different cities are all still cities, so they collect similar data. But they
