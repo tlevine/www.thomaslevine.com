@@ -2,14 +2,19 @@
 title: Things to think about when you're building products on open data
 tags: ['open-data']
 ---
-People talk a lot about [why we need open data](http://opendatahandbook.org/en/why-open-data/) and 
+People write and talk a lot about
+[why we need open data](http://opendatahandbook.org/en/why-open-data/) and 
 [how to release open data](http://www.codeforamerica.org/09-24-2013/).
 Part of the strategy for making open data useful is getting people to
 make [software](http://youtu.be/6cRtbA_d4RI?t=12m40s) that use them.
+But I've seen less 
 
-[make](http://opendatachallenge.org/) "[apps](http://nycbigapps.com/)"
+<!--
+To this end, 
+"[app](http://nycbigapps.com/)" [competitions](http://opendatachallenge.org/)
 
 http://www.youtube.com/watch?v=LijchWVlirc
+-->
 
 ## Storing all these datasets
 With open data, you have lots of tiny datasets. The individual open datasets are
