@@ -100,11 +100,8 @@ open content as content for which you don't have to deal with legal issues.
 
 > A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
 
-You'd think that open data sites would include open licenses, but a lot of them
-[don't](/!/open-data-licensing). That's annoying.
-
-On the other hand, it might still be fine to use data from these sites. Here are
-two reasons why.
+Inconveniently, a lot of open data sites [lack](/!/open-data-licensing) open licenses.
+That said, it might still be fine to use data from these sites. Here are two reasons why.
 
 1. In the United States, you can't copyright facts, so you'd need to use some other
     contract to impose restrictions on the data.
@@ -112,8 +109,9 @@ two reasons why.
     If they don't include a license or they include a restrictive license, I suspect
     that it's just because they don't know what to do.
 
-I've never talked to a lawyer about this, and I'm curious to hear more thoughts on
-the matter.
+If you're using data from a site without an obvious license, you might want to talk
+to a lawyer about it. Actually, you should totally do this and then tell me about it
+afterwards because I'm curious to hear more thoughts on the matter.
 
 ## Related work
 People have been dealing with this sort of issue inside of large organizations with
