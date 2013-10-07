@@ -103,8 +103,9 @@ open content as content for which you don't have to deal with legal issues.
 Inconveniently, a lot of open data sites [lack](/!/open-data-licensing) open licenses.
 That said, it might still be fine to use data from these sites. Here are two reasons why.
 
-1. In the United States, you can't copyright facts, so you'd need to use some other
-    contract to impose restrictions on the data.
+1. In the United States, you can't copyright facts, so it's likely a lot of datasets
+    can't be copyrighted. You can still restrict access to things, but you'd need to
+    use a contract to impose such restrictions.
 2. The organizations that are releasing lots of data want the data to be used.
     If they don't include a license or they include a restrictive license, I suspect
     that it's just because they don't know what to do.
