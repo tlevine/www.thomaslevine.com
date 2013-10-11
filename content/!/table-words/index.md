@@ -14,7 +14,7 @@ wide body of analytical tools that expect data to be in tables.
 When we work with tables so much, we come up with lots of fancy
 words to describe all of the different parts of a table.
 
-## Varibles and records
+## Rows and columns
 Here's a data table.
 
 ![A handwritten data table]()
@@ -24,8 +24,19 @@ Being this sort of grid, it has columns and rows. These columns
 and rows mean special things.
 
 ## Rows
+The very first line in that table says "id, location, ...".
+This line is called the "header", and we'll get to that later.
+
+The rest of the lines are all *rows*.
+A data table represents a collection of things, and each individual
+thing is represented as a row. For example, this table is about a
+collection of XXX, so each row is a XXX.
 
 ![The same handwritten data table, but with a row of the table highlighted]()
+
+It is quite important to know that each row is a XXX, so we have a
+name for this relationship; we say that XXX is the the *statistical unit*
+in this data table.
 
 ## Columns
 
