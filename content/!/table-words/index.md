@@ -51,13 +51,11 @@ For example, the second column contains all of the ZZZs. We usually indicate
 this in the header line; we know that the second column contains ZZZs because
 the box at the top of the column says "ZZZ".
 
-Recall that data tables describe collections of things. A  *column* is a list
-of values where the different values all describe the same aspect of different
-things.
-
 ![The same handwritten data table, but with a column of the table highlighted]()
 
-Columns are also called *variables*, 
+**Synonyms**: Columns are also called *variables* and *features*. These words
+sound very fancy, but they're not; when a data scientist says "variable" or
+"feature", he's just using a fancy word for "column".
 
 ## Lists
 Earlier, I said that a column is a special list of values. We could also say
