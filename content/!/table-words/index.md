@@ -57,6 +57,18 @@ the box at the top of the column says "ZZZ".
 sound very fancy, but they're not; when a data scientist says "variable" or
 "feature", he's just using a fancy word for "column".
 
+#### Another meaning of "variable"
+This meaning of the word "variable" can be confusing if you were taught a different
+meaning of "variable" in school. If you are used to this meaning, you'll think that
+*x* in the following equation is a variable.
+
+$$12 = x + 7$$
+
+I usually think of these as different meanings of the word "variable", so I suggest
+that you ignore the next paragraph if it starts to confuse you.
+
+t turns out that these two senses of "variable" are quite related
+
 ## Lists
 Earlier, I said that a column is a special list of values. We could also say
 
