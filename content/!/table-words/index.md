@@ -57,6 +57,14 @@ things.
 
 ![The same handwritten data table, but with a column of the table highlighted]()
 
+Columns are also called *variables*, 
+
+## Lists
+Earlier, I said that a column is a special list of values. We could also say
+
+ (Actually, people might say *vector* instead of *list*, but they mean
+pretty much the same thing.)
+
 ### You can't switch them
 You could make a data table where rows are variables and columns are records,
 but hardly anyone does that, and I get confused when people do.
