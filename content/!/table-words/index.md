@@ -64,10 +64,13 @@ meaning of "variable" in school. If you are used to this meaning, you'll think t
 
 $$12 = x + 7$$
 
-I usually think of these as different meanings of the word "variable", so I suggest
-that you ignore the next paragraph if it starts to confuse you.
+I usually think of these as different meanings of the word "variable",
+but it turns out that these two senses of "variable" are quite related.
+The next paragraph explains how they are related. This relationship usually
+confuses me, so it might confuse you. If it does, just ignore the next paragraph
+and go on.
 
-t turns out that these two senses of "variable" are quite related
+
 
 ## Lists
 Earlier, I said that a column is a special list of values. We could also say
