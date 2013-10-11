@@ -6,8 +6,8 @@ To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
 But for many people, it is not common sense. I think this is a
 particularly important concept to convey if we want to teach data literacy
-(or whatever you want to call it). So now I'll talk about some ways that
-we might teach this concept.
+(or whatever you want to call it). I remarked that a lot of my activities
+surround this idea, so I 
 
 ## What is data?
 People use the word "data" to mean everything, so I never really know
@@ -32,7 +32,7 @@ be converted into data. I do that by walking through the architecture
 of a complex data-driven system and by brainstorming different types
 of information that can be extracted from a web page.
 
-### Architecture walkthrough
+### Architecture
 When people ask me to teach web scraping,
 they expect me to tell them what Python code to write to pull the
 numbers out of the web page. If I have time, I get to that, but I
@@ -41,13 +41,13 @@ data. If the students don't have a good example, I use
 [Scott](http://scott.thomaslevine.com), my wetlands permit application
 monitoring thing. The resulting diagram looks like this.
 
-
+> If you are reading this, tell me to add the diagram.
 
 We walk through it as a human process, and then we start converting
 it to a computerized process, trying to start with the parts that are
 harder for people to do and easier for computers do do.
 
-### Brainstorming information extraction
+### Choosing what information to extract
 Eventually, someone asks how to extract information from PDF files, and
 this is my opportunity to brainstorm different types of information that
 can be extracted. People often want something that will give them the
@@ -92,17 +92,22 @@ Then CSV made a music video about the financial crisis.
 
 [<img alt="FMS Symphony" src="<% @item.identifier %>fms.png" class="wide" />](http://fms.csvsoundsystem.com)
 
-Most recently, I made one about transit ridership in Chicago and New York.
+More recently, I made one about transit ridership in Chicago and New York.
 
 <video width="100%" src="/!/ridership-rachenitsa/transit.webm"></video>
 
-And we have some tools for making these music videos
+And here's a show we played.
+
+<iframe src="//player.vimeo.com/video/76190871" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/76190871">csv soundsystem at Codame</a> from <a href="http://vimeo.com/lamthuyvo">Lam Thuy Vo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+We have some tools for making these music videos
 
 * [data-driven rhythms](https://github.com/csv/ddr)
 * [scripts to concatenate R plots](https://github.com/csv/transit-ridership/blob/master/merge.sh)
 
 ### Data gastronomification
-We also started getting into data gastronomification.
+We also started getting into data gastronomification, that is,
+turning data into food.
 
 * [gastronomify](https://github.com/csv/gastronomify) R package
 * [a video](http://www.youtube.com/watch?v=3CiDW7NVa8o) about it
@@ -110,6 +115,10 @@ We also started getting into data gastronomification.
 
 ### Data-driven prose and poetry
 Other people in CSV are quite into Twitter bots and into finding
-unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO) bot.
-These show how data can be turned into something that doesn't feel
-very quantitative at all.
+unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO) bot!
+
+## Conclusion
+You can make a data table from any collection of things. Once you have
+data in a data table, you can use a plethora of quantitative methods
+to work with it. And then you can use these data to inform your creation
+of other things, even if they don't seem very quantitative at all.
