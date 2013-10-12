@@ -115,7 +115,7 @@ plugging in different values for the same unknows.
 ## Lists
 Earlier, I said that a column is a special list of values. We could also say
 
- (Actually, people might say *vector* instead of *list*, but they mean
+(Actually, people might say *vector* instead of *list*, but they mean
 pretty much the same thing.)
 
 ### You can't switch them
