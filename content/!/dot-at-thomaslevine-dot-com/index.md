@@ -62,4 +62,4 @@ I couldn't test [data.gov](https://data.gov).
 
 ![](data-us.png){:.wide}
 
-Fix your email validators, people!
+Fix your [email address](http://tools.ietf.org/html/rfc3696) validators, people!
