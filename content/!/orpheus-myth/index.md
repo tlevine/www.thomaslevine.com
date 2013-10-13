@@ -12,7 +12,7 @@ play *Complicity*.
 
 Here's the type being set.
 
-![Type in a galley](setting.jpg)
+![Type in a galley](setting.jpg){:.wide}
 
 Then we lock it up in the press.
 
@@ -20,11 +20,11 @@ Then we lock it up in the press.
 
 We roll some ink
 
-![Ink on a piece of glass and a roller](inking.jpg)
+![Ink on a piece of glass and a roller](inking.jpg){:.wide}
 
 and ink the type.
 
-![Type with ink on it](inked.jpg)
+![Type with ink on it](inked.jpg){:.wide}
 
 Then we print one!
 
@@ -32,4 +32,4 @@ Then we print one!
 
 Actually, we printed a bunch.
 
-![A bunch of pieces of paper with the same poem on all of them](results.jpg)
+![A bunch of pieces of paper with the same poem on all of them](results.jpg){:.wide}
