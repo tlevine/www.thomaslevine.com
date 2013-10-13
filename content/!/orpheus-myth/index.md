@@ -1,5 +1,10 @@
 ---
 title: The Orpheus Myth
+description: Fancy-printed poem
+created_at: 2013-10-08
+kind: article
+twitter_image: result.jpg
+facebook_image: result.jpg
 ---
 This was part of a performance of
 [Abraham Burickson](http://en.wikipedia.org/wiki/Abraham_Burickson)'s
