@@ -56,10 +56,10 @@ But the [Arch User Repository](https://aur.archlinux.org) doesn't.
 
 [data.gov.uk](https://data.gov.uk) allows my address.
 
-![](data-uk.png){:.wide}
+!["You will now receive an email..." message](data-uk.png){:.wide}
 
 I couldn't test [data.gov](https://data.gov).
 
-![](data-us.png){:.wide}
+!["Due to the lapse in federal government funding, this website is not available"](data-us.png){:.wide}
 
 Fix your [email address](http://tools.ietf.org/html/rfc3696) validators, people!
