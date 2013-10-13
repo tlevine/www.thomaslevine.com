@@ -26,4 +26,5 @@ It works on [Twitter]().
 
 ![]()
 
+[Pinterest]() says it's "not a valid email format".
 
