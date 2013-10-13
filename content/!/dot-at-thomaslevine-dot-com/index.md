@@ -1,7 +1,8 @@
 ---
 title: A new email address
-description: Fix your email validators, people!
-tweet_text: Some people don't like my new email address.
+description: @facebook, @tumblr and @Pinterest don't like my new email address. http://thomaslevine.com/!/dot-at-thomaslevine-dot-com/
+tweet_text: Fix your email address validators, people!
+tweet_link: https://twitter.com/thomaslevine/status/389497585708179456
 twitter_title: Twitter's fine with it though.
 facebook_title: That includes Facebook
 twitter_image: twitter.png
