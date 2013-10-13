@@ -4,7 +4,6 @@ description: Fix your email address validators, people!
 tweet_text: "@facebook, @tumblr and @Pinterest don't like my new email address. http://thomaslevine.com/!/dot-at-thomaslevine-dot-com/"
 tweet_link: https://twitter.com/thomaslevine/status/389497585708179456
 twitter_title: Twitter's fine with it though.
-facebook_title: That includes Facebook
 twitter_image: twitter.png
 facebook_image: facebook.png
 created_at: 2013-10-13
