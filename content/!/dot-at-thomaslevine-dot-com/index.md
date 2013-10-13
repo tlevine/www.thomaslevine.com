@@ -39,4 +39,8 @@ It works on [Twitter](https://twitter.com/thomaslevine).
 
 !["not a valid email format" error message](pinterest.png)
 
+[Tumblr](https://www.tumblr.com) says it "isn't correct".
+
+!["The email address isn't correct." error message](tumblr.png)
+
 Fix your email validators, people!
