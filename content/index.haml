@@ -58,17 +58,7 @@
     = render('_topic_box', :topic => 'open data', :links => [['meta', '/open-data'], ['openprism', 'http://openprism.thomaslevine.com']])
 
   #letterpress.link-group
-    %strong letterpress
-    %ul.nobullet
-      %li
-        %a{ :href => "/!/jello-wrestling"} wrestling
-      %li
-        %a{ :href => "http://cornell.freeculture.org/2009/08/30/a-new-semester-meeting-thursday-september-3/"} free culture
-      -#%li
-        -#%a{ :href => "http://smug.thomaslevine.com/Letterpress/Small-media/Orpheus-Myth/16330167_v962vW#!i=1208776292&k=n928N&lb=1&s=A"}
-          -#complicity
-      %li
-        %a{ :href => "/!/tea-party"} tea party
+    = render('_topic_box', :topic => 'letterpress', :links => [['wrestling',"/!/jello-wrestling"],['free culture',"http://cornell.freeculture.org/2009/08/30/a-new-semester-meeting-thursday-september-3/"],['orpheus','/!/orpheus-myth'],['tea party',"/!/tea-party"]])
 
   #installations.link-group
     = render('_topic_box', :topic => 'installations', :links => [['pb dq', "/!/pbdq"],['gullible', "/!/gullible"],['jaywalking',"/!/jaywalking"]])
