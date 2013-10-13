@@ -22,8 +22,12 @@ changed my email address yet again. Here it is.
 </blockquote>
 
 ## Validity
-Usually, websites are fine with whatever new email address
-I come up with, but this time, they don't like it.
+Most websites are fine with this new email address,
+but some don't like it.
+
+It works in [Mailman](http://www.gnu.org/software/mailman/).
+
+!["A confirmation message has been sent..." message](mailman.png)
 
 When I try to change my email address in
 [Facebook](https://facebook.com/perluette),
@@ -42,5 +46,7 @@ It works on [Twitter](https://twitter.com/thomaslevine).
 [Tumblr](https://www.tumblr.com) says it "isn't correct".
 
 !["The email address isn't correct." error message](tumblr.png)
+
+[PyPI](https://pypi.python.org/pypi) let's me update my email address just fine.
 
 Fix your email validators, people!
