@@ -47,6 +47,11 @@ It works on [Twitter](https://twitter.com/thomaslevine).
 
 !["The email address isn't correct." error message](tumblr.png)
 
-[PyPI](https://pypi.python.org/pypi) let's me update my email address just fine.
+[PyPI](https://pypi.python.org/pypi) and 
+[npm](http://npmjs.org/) let's me update my email address just fine.
+
+But the [Arch User Repository](https://aur.archlinux.org) doesn't.
+
+!["The email address is invalid." error message](aur.png)
 
 Fix your email validators, people!
