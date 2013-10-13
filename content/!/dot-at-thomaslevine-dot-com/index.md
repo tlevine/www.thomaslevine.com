@@ -6,25 +6,22 @@ a bunch of them that all forward to the same place.
 
 I just made this email address.
 
-![dot at thomaslevine dot com]()
+<blockquote id="e-post">
+<noscript>dot at thomaslevine dot com</noscript>
+</blockquote>
 
 Interestingly, lots of people don't like it.
 
-
-
-My email provider, [Gandi](),
-....
-
-
 When I try to change my email address in
-[Facebook](),
+[Facebook](https://facebook.com/perluette),
 it says I "must provide a valid email."
 
-![]()
+![](facebook.png){:.wide}
 
-It works on [Twitter]().
+It works on [Twitter](https://twitter.com/thomaslevine).
 
-![]()
+![](twitter.png){:.wide}
 
-[Pinterest]() says it's "not a valid email format".
+[Pinterest](https://pinterest.com/perluette) says it's "not a valid email format".
 
+![](pinterest.png){:.wide}
