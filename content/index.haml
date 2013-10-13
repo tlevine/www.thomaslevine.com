@@ -30,20 +30,17 @@
     -#= render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
     = render('_topic_box', :topic => 'repositories', :links => [['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
-  #data.link-group
-    = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['dead people', 'http://deadpeoplebornonmybirthday.thomaslevine.com'], ['hipstogram', 'https://github.com/tlevine/hipstogram'], ['scarsdale', '/scarsdale/']])
+  #serious.link-group
+    = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupy', 'http://occupydatanyc.org/2013/03/14/external-stresses-mediate-an-association-between-negative-perception-of-activism-and-a-decision-never-to-participate/']])
+    
+  #silly.link-group
+    = render('_topic_box', :topic => 'silly', :links => [['dead people', 'http://deadpeoplebornonmybirthday.thomaslevine.com'], ['hipstogram', 'https://github.com/tlevine/hipstogram'], ['scarsdale', '/scarsdale/']])
 
-  -#data-good.link-group
-    = render('_topic_box', :topic => 'data4good', :links => [['microfinance', 'datakind'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupar', '']])
+  #hip.link-group
+    = render('_topic_box', :topic => 'hip', :links => [['hipstogram', 'https://github.com/tlevine/hipstogram']])
 
-  -#data-nonsense.link-group
-    = render('_topic_box', :topic => 'data4fun', :links => [['dead people', 'http://www.deadpeoplebornonmybirthday.com'], ['scarsdale', '/scarsdale/']])
-
-  -#hipsterdom.link-group
-    = render('_topic_box', :topic => 'hipsterdom', :links => [['hipstogram', 'https://github.com/tlevine/hipstogram']])
-
-  -##libraries.link-group
-    = render('_topic_box', :topic => 'libraries', :links => [['dumptruck', "http://dumptruck.io/"], ['scraperwiki', "https://github.com/tlevine/scraperwiki_offline"], ['sqlite web api', 'https://github.com/scraperwiki/dumptruck-web'], ['dicti', 'https://github.com/tlevine/dicti']])
+  #tools.link-group
+    = render('_topic_box', :topic => 'tools', :links => [['dumptruck', "https://github.com/scraperwiki/dumptruck"], ['urchin', "https://github.com/scraperwiki/urchin"]])
 
   #buttons.link-group
     = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['usps', 'https://views.scraperwiki.com/run/usps_lookup/']])
