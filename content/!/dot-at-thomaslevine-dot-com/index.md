@@ -27,7 +27,7 @@ but some don't like it.
 
 It works in [Mailman](http://www.gnu.org/software/mailman/).
 
-!["A confirmation message has been sent..." message](mailman.png)
+!["A confirmation message has been sent..." message](mailman.png){:.wide}
 
 When I try to change my email address in
 [Facebook](https://facebook.com/perluette),
@@ -60,6 +60,6 @@ But the [Arch User Repository](https://aur.archlinux.org) doesn't.
 
 I couldn't test [data.gov](https://data.gov).
 
-![](data-us.png)
+![](data-us.png){:.wide}
 
 Fix your email validators, people!
