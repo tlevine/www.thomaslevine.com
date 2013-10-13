@@ -27,7 +27,6 @@
 
 #links.clearfix
   #repositories.link-group
-    -#= render('_topic_box', :topic => 'repositories', :links => [['cgit', 'http://git.thomaslevine.com'], ['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
     = render('_topic_box', :topic => 'repositories', :links => [['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
   #serious.link-group
@@ -38,6 +37,7 @@
 
   #hip.link-group
     = render('_topic_box', :topic => 'hip', :links => [['hipstogram', 'https://github.com/tlevine/hipstogram']])
+    -# big paper for big data?
 
   #tools.link-group
     = render('_topic_box', :topic => 'tools', :links => [['dumptruck', "https://github.com/scraperwiki/dumptruck"], ['urchin', "https://github.com/scraperwiki/urchin"]])
@@ -47,6 +47,11 @@
 
   #nerd-cred.link-group
     = render('_topic_box', :topic => 'nerd cred', :links => [['web forms', 'https://gist.github.com/1231284'], ['unwatermark', 'https://github.com/tlevine/unwatermark'], ['.profile', 'https://github.com/tlevine/.prophyl-teh-awesum']])
+
+  ['shell testing', 'https://blog.scraperwiki.com/2012/12/how-to-test-shell-scripts/']
+
+  #open-data.link-group
+    = render('_topic_box', :topic => 'open data', :links => [['meta', '/open-data'], ['openprism', 'http://openprism.thomaslevine.com']])
 
   -##ergonomics.link-group
     %h3
