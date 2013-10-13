@@ -1,6 +1,13 @@
 ---
 title: A new email address
+description: Fix your email validators, people!
 tweet_text: Some people don't like my new email address.
+twitter_title: Twitter's fine with it though.
+facebook_title: That includes Facebook
+twitter_image: twitter.png
+facebook_image: facebook.png
+created_at: 2013-10-13
+kind: article
 ---
 
 ## Choosing an email address
