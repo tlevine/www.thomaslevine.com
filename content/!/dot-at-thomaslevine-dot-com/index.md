@@ -37,6 +37,6 @@ It works on [Twitter](https://twitter.com/thomaslevine).
 
 [Pinterest](https://pinterest.com/perluette) says it's "not a valid email format".
 
-!["not a valid email format" error message](pinterest.png){:.wide}
+!["not a valid email format" error message](pinterest.png)
 
 Fix your email validators, people!
