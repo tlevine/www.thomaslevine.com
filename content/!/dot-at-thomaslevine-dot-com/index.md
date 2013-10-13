@@ -56,7 +56,7 @@ But the [Arch User Repository](https://aur.archlinux.org) doesn't.
 
 [data.gov.uk](https://data.gov.uk) allows my address.
 
-![](data-uk.png)
+![](data-uk.png){:.wide}
 
 I couldn't test [data.gov](https://data.gov).
 
