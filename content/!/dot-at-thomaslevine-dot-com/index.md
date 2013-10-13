@@ -54,4 +54,12 @@ But the [Arch User Repository](https://aur.archlinux.org) doesn't.
 
 !["The email address is invalid." error message](aur.png)
 
+[data.gov.uk](https://data.gov.uk) allows my address.
+
+![](data-uk.png)
+
+I couldn't test [data.gov](https://data.gov).
+
+![](data-us.png)
+
 Fix your email validators, people!
