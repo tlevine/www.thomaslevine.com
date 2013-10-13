@@ -30,7 +30,7 @@
     = render('_topic_box', :topic => 'repositories', :links => [['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
   #serious.link-group
-    = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupy', 'http://occupydatanyc.org/2013/03/14/external-stresses-mediate-an-association-between-negative-perception-of-activism-and-a-decision-never-to-participate/']])
+    = render('_topic_box', :topic => 'data', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupy', 'http://occupydatanyc.org/2013/03/14/external-stresses-mediate-an-association-between-negative-perception-of-activism-and-a-decision-never-to-participate/'], ['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"]])
     
   #silly.link-group
     = render('_topic_box', :topic => 'silly', :links => [['dead people', 'http://deadpeoplebornonmybirthday.thomaslevine.com'], ['hipstogram', 'https://github.com/tlevine/hipstogram'], ['scarsdale', '/scarsdale/']])
@@ -39,33 +39,20 @@
     = render('_topic_box', :topic => 'hip', :links => [['hipstogram', 'https://github.com/tlevine/hipstogram']])
     -# big paper for big data?
 
-  #tools.link-group
-    = render('_topic_box', :topic => 'tools', :links => [['dumptruck', "https://github.com/scraperwiki/dumptruck"], ['urchin', "https://github.com/scraperwiki/urchin"]])
+  #earthmoving.link-group
+    = render('_topic_box', :topic => 'earthmoving', :links => [['dumptruck', "https://github.com/scraperwiki/dumptruck"], ['pinterest', "http://pinterest.com/perluette/earthmoving-equipment/"]])
 
   #buttons.link-group
-    = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['usps', 'https://views.scraperwiki.com/run/usps_lookup/']])
+    = render('_topic_box', :topic => 'buttons', :links => [['http redirects', 'http://redirect.thomaslevine.com'], ['usps', 'https://views.scraperwiki.com/run/usps_lookup/'], ['buses', "http://bettercoach.thomaslevine.com"]])
 
   #nerd-cred.link-group
     = render('_topic_box', :topic => 'nerd cred', :links => [['web forms', 'https://gist.github.com/1231284'], ['unwatermark', 'https://github.com/tlevine/unwatermark'], ['.profile', 'https://github.com/tlevine/.prophyl-teh-awesum']])
 
-  ['shell testing', 'https://blog.scraperwiki.com/2012/12/how-to-test-shell-scripts/']
+  #shell-testing.link-group
+    = render('_topic_box', :topic => 'tools', :links => [['urchin', "https://github.com/scraperwiki/urchin"], ['alternatives', 'https://blog.scraperwiki.com/2012/12/how-to-test-shell-scripts/']])
 
   #open-data.link-group
     = render('_topic_box', :topic => 'open data', :links => [['meta', '/open-data'], ['openprism', 'http://openprism.thomaslevine.com']])
-
-  -##ergonomics.link-group
-    %h3
-      %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Definitions-of-ergonomics%22%5D", :title => "Definition of &quot;ergonomics&quot;"} ergonomics
-    %ul.nobullet
-      %li
-        %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-research-interests%22%5D"} research
-      -#%li
-        %a{ :href => "http://chainsaw.iriscouch.com/blog/_design/sofa/_list/post/post-page?startkey=%5B%22Ergonomics-consulting%22%5D"} tips
-      %li
-        %a{ :href => "http://smug.thomaslevine.com/Installations/Desk-Height-Slides/16614577_BsSt38#!i=1234422708&k=MppdU"} desk height
-      -#%li
-        %a{ :href => ""} toilets
-
 
   #letterpress.link-group
     %strong letterpress
@@ -111,5 +98,3 @@
   #shenanigans.link-group
     = render('_topic_box', :topic => 'shenanigans', :links => [['bubbles', "https://www.google.com/search?tbm=isch&q=bubble+battle+nyc+hat"], ['earthmoving', "http://pinterest.com/perluette/earthmoving-equipment/"]])
 
-  #etc.link-group
-    = render('_topic_box', :topic => '&c.', :links => [['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"], ['buses', "http://bettercoach.thomaslevine.com"]])
