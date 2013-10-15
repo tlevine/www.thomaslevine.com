@@ -110,19 +110,16 @@ plugging in different values for the same unknows.
 
 ![Explanatory picture]()
 
-## Lists
-Earlier, I said that a column is a special list of values. We could also say
-
-(Actually, people might say *vector* instead of *list*, but they mean
-pretty much the same thing.)
-
 ### You can't switch them
 You could make a data table where rows are variables and columns are records,
 but hardly anyone does that, and I get confused when people do.
-
-## Schemas and formats
 
 
 ## Review
 
 * A **foo** is a bar baz.
+
+## Ask questions!
+
+Data science has lots of words and concepts that often sound fancier
+than they really are. What should I tell you about next?
