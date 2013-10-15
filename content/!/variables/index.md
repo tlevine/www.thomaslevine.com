@@ -74,22 +74,16 @@ we are predicting and the right side is the stuff we know. This is
 how I've been writing it so far, so we are predicting life expectency
 (*y*) based on income per person (*x*). Let's say that we have measured
 the income per person of another country but don't know the life
-expectency. We can use our model to predict it!
+expectency. We can use our model to predict it! Here's a new row
 
 Year | Country | Life expectancy (years) | Income Per Person
 ---- | ------- | ----------------------- | -----------------
-2012 | United States                | 79 | $41,678
+2012 | China       | <!-- 75 --> unknown |  $9,502
 
-The last row in our data table is the observation for this year.
-Note that we don't have a value for the "actual spending" column.
-That's because we'll have to wait a few months before we see what
-the government spends this year. We don't want to wait that long,
-so let's use our model to predict it. We know *x*, so let's plug
-that in.
+We know China's income per person *x*, so let's plug that into our model
+equation to predict China's life expectency.
 
-<!-- maybe switch this for something simpler, like inmates in jail next month -->
-
-$$y = 8 - 3 $$
+$$y = 32 + 4.239 * log\left(x\right)$$
 
 When we have such an equation, we can plug in the values we know
 and solve for the value on the left side.
