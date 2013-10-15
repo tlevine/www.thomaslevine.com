@@ -29,14 +29,21 @@ Once we have created a data table, we might decide to make a fancy equation that
 explains how some values in the table are related to each other. We might call
 this a *model*.
 
-Here are some data about the wealth and health of nations.
+Here's part of a data table about the wealth and health of nations.
+
+Year | Country | Life expectancy (years) | Income Per Person
+--- | --- | --- | ---
+
+What we're calling "income per person" is technically gross-domestic product per
+capita, adjusted for purchasing power parity and inflation. But don't worry about
+that if it sounds like Greek.
 
 Here's a fancy [graph](http://www.gapminder.org/world/#$majorMode=chart$is;shi=t;ly=2003;lb=f;il=t;fs=11;al=30;stl=t;st=t;nsl=t;se=t$wst;tts=C$ts;sp=5.59290322580644;ti=2012$zpv;v=0$inc_x;mmid=XCOORDS;iid=phAwcNAVuyj1jiMAkmq1iMg;by=ind$inc_y;mmid=YCOORDS;iid=phAwcNAVuyj2tPLxKvvnNPA;by=ind$inc_s;uniValue=8.21;iid=phAwcNAVuyj0XOoBL_n5tAQ;by=ind$inc_c;uniValue=255;gid=CATID0;by=grp$map_x;scale=log;dataMin=283;dataMax=110808$map_y;scale=lin;dataMin=18;dataMax=87$map_s;sma=49;smi=2.65$cd;bd=0$inds=;example=75)
 of the data.
 
 And here's a model that describes those data.
 
-$$Life expectency (years) = Income per person (GDP/capita, PPP$ inflation-adjusted)$$
+$$Life expectancy = Income per person$$
 
 In this model, life expectency and income per person
 just numbers that we take from one row of the table.
