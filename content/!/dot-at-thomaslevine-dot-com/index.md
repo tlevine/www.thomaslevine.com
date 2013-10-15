@@ -62,4 +62,12 @@ I couldn't test [data.gov](https://data.gov).
 
 !["Due to the lapse in federal government funding, this website is not available"](data-us.png){:.wide}
 
+It's not just websites that are getting it wrong; some mail servers don't
+recognize it!
+
+    <[redacted]@hotmail.com>: host mx2.hotmail.com[65.55.92.168] said: 550
+    5.7.0 (SNT0-MC3-F22) Message could not be delivered. Please ensure the
+    message is RFC 5322 compliant. (in reply to end of DATA command)
+
+
 Fix your [email address](http://tools.ietf.org/html/rfc3696) validators, people!
