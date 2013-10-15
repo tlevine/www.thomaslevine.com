@@ -83,14 +83,45 @@ Year | Country | Life expectancy (years) | Income Per Person
 We know China's income per person *x*, so let's plug that into our model
 equation to predict China's life expectency.
 
-$$y = 32 + 4.239 * log\left(x\right)$$
+$$y = 32 + 4.239 * log\left(9502\right)$$
 
-When we have such an equation, we can plug in the values we know
-and solve for the value on the left side.
+$$y = 32 + 4.239 * 9.159258$$
+
+$$y = 32 + 38.82609$$
+
+$$y = 70.82609$$
+
+$$y \approx 71 $$
+
+We thus predict China's life expectency to be 71 years.
+The actual value is 75, so that's pretty close.
+
+Let's get back to why these two senses of variable are the same
+thing. Our model is an equation with two variables, income per
+person and life expectency. Each of these variables corresponds
+to a column in our data table.
+
+In the first data table I presented, we knew the values of all
+of the cells. That is, we knew the income per person and life
+expectancy for each of the three countries.
+
+In the second table, we didn't only knew the value for one of
+the two variables (income per person). In order to predict the value
+for the other variable (life expectency), we plugged in the
+variable that we did know into our model (equation), and we solved
+it for the variable that we didn't know.
 
 ## Conclusion
-Let's get back to why these two senses of variable are the same
-thing. One sense is a column in a table, and the other sense is
+The word "variable" sort of has two senses, and it can be confusing
+to listen to data scientists when you don't realize this.
+
+If you've taken an algebra class, you probably think of a variable as
+a letter in an equation.
+
+When data scientists talk about variables, they might mean this. But
+they might also be talking about columns in data tables.
+
+One sense is a column in a table, and the other sense is
 an unknown in an equation. A variable in the column sense is just
 a lot of variables in the latter sense; we're solving the same
 equation lots of times (as many times as we have rows), by
