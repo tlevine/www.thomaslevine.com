@@ -118,16 +118,19 @@ to listen to data scientists when you don't realize this.
 If you've taken an algebra class, you probably think of a variable as
 a letter in an equation.
 
-When data scientists talk about variables, they might mean this. But
-they might also be talking about columns in data tables.
+When data scientists talk about variables, that *might* be what they mean.
+But they might also be talking about columns in data tables.
 
-One sense is a column in a table, and the other sense is
-an unknown in an equation. A variable in the column sense is just
-a lot of variables in the latter sense; we're solving the same
-equation lots of times (as many times as we have rows), by
-plugging in different values for the same unknows.
+These two meanings of the word "variable" arise because of we build
+quantitative models. If you think of a model as an equation, then
+a variable in the column sense is sort of like a lot of variables in the
+letter-in-an-equation sense. Once we have our model equation, we can
+plug in variables for some of the variables in order to predict other
+variables.
 
-![Explanatory picture]()
+We'll often solve the same equation as many times as we have rows in our
+table, so it's sort of like we're plugging a whole column of numbers into
+our equation rather than just a single number.
 
 ## Ask more questions
 ...
