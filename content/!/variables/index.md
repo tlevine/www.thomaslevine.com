@@ -25,6 +25,14 @@ In the current blog post, I hope to explain why we use the same word to
 describe two concepts that seem sort of different.
 
 ## Models
+
+<!-- How I chose the dataset
+
+s <- read.csv('socrata.csv')
+small <- subset(s, nrow > 100 & nrow < 200 & ncol < 10 & ncol.number > 3 & portal != 'opendata.socrata.com')
+small[c('portal','id','name')]
+-->
+
 Once we have created a data table, we might decide to make a fancy equation that
 explains how some values in the table are related to each other. We might call
 this a *model*. It might be something like this.
