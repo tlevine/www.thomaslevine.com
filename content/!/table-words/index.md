@@ -36,7 +36,8 @@ It is quite important to know that each row is a XXX, so we have a
 name for this relationship; we say that XXX is the the *statistical unit*
 in this data table.
 
-**Synonyms**: Rows are also called *records*
+**Synonyms**: Rows are also called *records*, *observations*, *trials*
+and probably a bunch of other things.
 
 ### Columns
 In this data table, we have recorded a bunch of information about
