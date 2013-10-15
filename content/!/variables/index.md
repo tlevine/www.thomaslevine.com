@@ -33,9 +33,9 @@ Here's part of a data table about the wealth and health of nations.
 
 Year | Country | Life expectancy (years) | Income Per Person
 ---- | ------- | ----------------------- | -----------------
-2013 | United States                | 79 | $41,678
-2013 | Ukraine                      | 68 |  $6,390
-2013 | Ethiopia                     | 63 |    $959
+2012 | United States                | 79 | $41,678
+2012 | Ukraine                      | 68 |  $6,390
+2012 | Ethiopia                     | 63 |    $959
 
 What we're calling "income per person" is technically gross-domestic product per
 capita, adjusted for purchasing power parity and inflation. But don't worry about
@@ -46,22 +46,40 @@ of the data.
 
 And here's a model that describes those data.
 
-$$Life expectancy = Income per person$$
+<!-- 
+lm(formula = c(79, 68, 63) ~ log(c(41678, 6390, 959)))
+lm(formula = c(79, 68, 63) ~ log10(c(41678, 6390, 959)))
+-->
+
+$$Life expectancy = 32 + 4.239 * log\left(Income per person\right)$$
 
 In this model, life expectency and income per person
 just numbers that we take from one row of the table.
 To make that look more like what you might be used to, let's
 rewrite it like this.
 
-$$y = x - 1 million people$$
+$$y = 32 + 4.239 * log\left(x\right)$$
 
-A model allows us to express complex things with more simply.
-The model won't be exactly right, of course; it's just a model.
-One way we can use a model is to make predictions. Typically we
-write the equation such that the left side is the thing we are
-predicting and the right side is the stuff we know.
+A model allows us to express complex things as simple things that
+we can fit in our brains.
+
 
 ### Making predictions
+We can use a model like this in many ways.
+Right now, we're just going to talk about using the model to make
+predictions.
+
+Typically we write the equation such that the left side is the thing
+we are predicting and the right side is the stuff we know. This is
+how I've been writing it so far, so we are predicting life expectency
+(*y*) based on income per person (*x*). Let's say that we have measured
+the income per person of another country but don't know the life
+expectency. We can use our model to predict it!
+
+Year | Country | Life expectancy (years) | Income Per Person
+---- | ------- | ----------------------- | -----------------
+2012 | United States                | 79 | $41,678
+
 The last row in our data table is the observation for this year.
 Note that we don't have a value for the "actual spending" column.
 That's because we'll have to wait a few months before we see what
