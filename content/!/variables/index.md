@@ -32,7 +32,10 @@ this a *model*.
 Here's part of a data table about the wealth and health of nations.
 
 Year | Country | Life expectancy (years) | Income Per Person
---- | --- | --- | ---
+---- | ------- | ----------------------- | -----------------
+2013 | United States                | 79 | $41,678
+2013 | Ukraine                      | 68 |  $6,390
+2013 | Ethiopia                     | 63 |    $959
 
 What we're calling "income per person" is technically gross-domestic product per
 capita, adjusted for purchasing power parity and inflation. But don't worry about
