@@ -53,14 +53,14 @@ lm(formula = c(79, 68, 63) ~ log(c(41678, 6390, 959)))
 lm(formula = c(79, 68, 63) ~ log10(c(41678, 6390, 959)))
 -->
 
-$$Predicted life expectancy = 32 + 4.239 * log\left(Income per person\right)$$
+$$Predicted\; life\; expectancy = 32 + 4.239 \times log\left(Income\; per\; person\right)$$
 
 In this equation, life expectency and income per person
 just numbers that we take from one row of the table.
 To make that look more like what you might be used to, let's
 rewrite it like this.
 
-$$y = 32 + 4.239 * log\left(x\right)$$
+$$y = 32 + 4.239 \times log\left(x\right)$$
 
 By distilling this relationship to a simple equation, we can express complex
 information as a simple summary of it is small enough to fit in our brains.
@@ -84,9 +84,9 @@ Year | Country | Life expectancy (years) | Income Per Person
 We know China's income per person *x*, so let's plug that into our
 equation to predict China's life expectency.
 
-$$y = 32 + 4.239 * log\left(9502\right)$$
+$$y = 32 + 4.239 \times log\left(9502\right)$$
 
-$$y = 32 + 4.239 * 9.159258$$
+$$y = 32 + 4.239 \times 9.159258$$
 
 $$y = 32 + 38.82609$$
 
@@ -133,7 +133,7 @@ We'll often solve the same equation as many times as we have rows in our
 table, so it's sort of like we're plugging a whole column of numbers into
 our equation rather than just a single number.
 
-![Explanatory picture could go here.]()
+![Explanatory picture could go here.](){:.wide}
 
 ## Ask more questions
 What else are you wondering about data science?
