@@ -3,8 +3,9 @@ title: What's in a table?
 tags: ['datakind']
 ---
 <style>
-#row tbody tr:nth-of-type(odd),
-#column tbody tr td:nth-of-type(3n)
+#row tbody tr:nth-of-type(2n),
+#column tbody tr td:nth-of-type(2n)
+#header thead tr
 {
   background-color: white;
 }
@@ -43,8 +44,9 @@ This line is called the "header", and we'll get to that later.
 
 The rest of the lines are all *rows*.
 A data table represents a collection of things, and each individual
-thing is represented as a row. For example, this table is about a
-collection of countries, so each row is a country.
+thing is represented as a row. For example, the table above is about a
+collection of countries, so each row is a country. I've copied it down
+here again, this time highlighting one of its three rows.
 
 Country | Life expectancy (years) | Income Per Person
 ------- | ----------------------- | -----------------
@@ -69,9 +71,7 @@ and the second box contains the life expectancy for that country,
 and the third contains the income per person.
 
 Thus, all of the values in a given column are about the same sort of thing.
-For example, the second column contains all of the ZZZs. We usually indicate
-this in the header line; we know that the second column contains ZZZs because
-the box at the top of the column says "ZZZ".
+For example, the second column contains all of the life expectencies.
 
 Country | Life expectancy (years) | Income Per Person
 ------- | ----------------------- | -----------------
@@ -83,6 +83,17 @@ Ethiopia                     | 63 |    $959
 **Synonyms**: Columns are also called *variables* and *features*. These words
 sound very fancy, but they're not; when a data scientist says "variable" or
 "feature", she's just using a fancy word for "column".
+
+### Header
+We usually indicate the names of the columns in the *header*, which is
+highlighted below. This is how we know what each column means.
+
+Country | Life expectancy (years) | Income Per Person
+------- | ----------------------- | -----------------
+United States                | 79 | $41,678
+Ukraine                      | 68 |  $6,390
+Ethiopia                     | 63 |    $959
+{:#header}
 
 ### You can't switch them
 You could make a data table where rows are variables and columns are records,
