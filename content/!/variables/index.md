@@ -1,5 +1,6 @@
 ---
 title: Multiple meanings of the word "variable"
+tags: ['datakind']
 ---
 ## Two meanings of "variable"
 
