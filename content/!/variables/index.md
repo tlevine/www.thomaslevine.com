@@ -24,10 +24,10 @@ It turns out that these two senses of "variable" are quite related.
 In the current blog post, I hope to explain why we use the same word to
 describe two concepts that seem sort of different.
 
-## Models
+## Fitting models
 Once we have created a data table, we might decide to make a fancy equation that
 explains how some values in the table are related to each other. We might call
-this a *model*.
+this a *fitted model*.
 
 Here's part of a data table about the wealth and health of nations.
 (You may have [seen this before](/!/table-words#rows-and-columns).)
@@ -45,29 +45,28 @@ that if it sounds like Greek.
 Here's a fancy [graph](http://www.gapminder.org/world/#$majorMode=chart$is;shi=t;ly=2003;lb=f;il=t;fs=11;al=30;stl=t;st=t;nsl=t;se=t$wst;tts=C$ts;sp=5.59290322580644;ti=2012$zpv;v=0$inc_x;mmid=XCOORDS;iid=phAwcNAVuyj1jiMAkmq1iMg;by=ind$inc_y;mmid=YCOORDS;iid=phAwcNAVuyj2tPLxKvvnNPA;by=ind$inc_s;uniValue=8.21;iid=phAwcNAVuyj0XOoBL_n5tAQ;by=ind$inc_c;uniValue=255;gid=CATID0;by=grp$map_x;scale=log;dataMin=283;dataMax=110808$map_y;scale=lin;dataMin=18;dataMax=87$map_s;sma=49;smi=2.65$cd;bd=0$inds=;example=75)
 of the data.
 
-And here's a model that describes those data.
+And here's an equation that describes those data.
 
 <!-- 
 lm(formula = c(79, 68, 63) ~ log(c(41678, 6390, 959)))
 lm(formula = c(79, 68, 63) ~ log10(c(41678, 6390, 959)))
 -->
 
-$$Life expectancy = 32 + 4.239 * log\left(Income per person\right)$$
+$$Predicted life expectancy = 32 + 4.239 * log\left(Income per person\right)$$
 
-In this model, life expectency and income per person
+In this equation, life expectency and income per person
 just numbers that we take from one row of the table.
 To make that look more like what you might be used to, let's
 rewrite it like this.
 
 $$y = 32 + 4.239 * log\left(x\right)$$
 
-A model allows us to express complex things as simple things that
-we can fit in our brains.
-
+By distilling this relationship to a simple equation, we can express complex
+information as a simple summary of it is small enough to fit in our brains.
 
 ### Making predictions
-We can use a model like this in many ways.
-Right now, we're just going to talk about using the model to make
+There are lots of ways we can use this equation (the fitted model).
+Right now, we're just going to talk about using the equation to make
 predictions.
 
 Typically we write the equation such that the left side is the thing
@@ -75,13 +74,13 @@ we are predicting and the right side is the stuff we know. This is
 how I've been writing it so far, so we are predicting life expectency
 (*y*) based on income per person (*x*). Let's say that we have measured
 the income per person of another country but don't know the life
-expectency. We can use our model to predict it! Here's a new row
+expectency. We can use our equation to predict it! Here's a new row
 
 Year | Country | Life expectancy (years) | Income Per Person
 ---- | ------- | ----------------------- | -----------------
 2012 | China       | <!-- 75 --> unknown |  $9,502
 
-We know China's income per person *x*, so let's plug that into our model
+We know China's income per person *x*, so let's plug that into our
 equation to predict China's life expectency.
 
 $$y = 32 + 4.239 * log\left(9502\right)$$
@@ -98,7 +97,7 @@ We thus predict China's life expectency to be 71 years.
 The actual value is 75, so that's pretty close.
 
 Let's get back to why these two senses of variable are the same
-thing. Our model is an equation with two variables, income per
+thing. Our fitted model is an equation with two variables, income per
 person and life expectency. Each of these variables corresponds
 to a column in our data table.
 
@@ -109,7 +108,7 @@ expectancy for each of the three countries.
 In the second table, we didn't only knew the value for one of
 the two variables (income per person). In order to predict the value
 for the other variable (life expectency), we plugged in the
-variable that we did know into our model (equation), and we solved
+variable that we did know into our equation, and we solved
 it for the variable that we didn't know.
 
 ## Conclusion
@@ -122,10 +121,10 @@ a letter in an equation.
 When data scientists talk about variables, that *might* be what they mean.
 But they might also be talking about columns in data tables.
 
-These two meanings of the word "variable" arise because of we build
-quantitative models. If you think of a model as an equation, then
-a variable in the column sense is sort of like a lot of variables in the
-letter-in-an-equation sense. Once we have our model equation, we can
+These two meanings of the word "variable" arise because of we model
+data. We come up with equations to describe the relationships within the dataset,
+so a variable in the column sense is sort of like a lot of variables in the
+letter-in-an-equation sense. Once we have our fitted model (equation), we can
 plug in variables for some of the variables in order to predict other
 variables.
 
@@ -133,7 +132,8 @@ We'll often solve the same equation as many times as we have rows in our
 table, so it's sort of like we're plugging a whole column of numbers into
 our equation rather than just a single number.
 
-![Explanatory picture]()
+![Explanatory picture could go here.]()
 
 ## Ask more questions
-...
+What else are you wondering about data science?
+Tell me what I should write about next week.
