@@ -40,7 +40,7 @@ capita, adjusted for purchasing power parity and inflation. But don't worry abou
 that if it sounds like Greek.*
 
 ### Rows
-The very first line in that table says "id, location, ...".
+The very first line in that table says "Country", "Life Expectancy" and "Income Per Person".
 This line is called the "header", and we'll get to that later.
 
 The rest of the lines are all *rows*.
@@ -106,7 +106,7 @@ But I get confused when they I have tables like this.
 ![Tom gets confused when data aren't tidy](untidy.jpg){:.wide}
 
 There's actually a name for this sort of data table; it's called *untidy*
-data, and the first thing that I do when analysing such a data table is
+data, and the first thing that I do when analyzing such a data table is
 converting it into the *tidy* format where each row is an observation/trial/record
 and each column is a variable.
 
