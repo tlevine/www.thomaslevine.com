@@ -30,6 +30,7 @@ explains how some values in the table are related to each other. We might call
 this a *model*.
 
 Here's part of a data table about the wealth and health of nations.
+(You may have [seen this before](/!/table-words#rows-and-columns).)
 
 Year | Country | Life expectancy (years) | Income Per Person
 ---- | ------- | ----------------------- | -----------------
