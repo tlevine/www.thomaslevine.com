@@ -97,11 +97,16 @@ Ethiopia                     | 63 |    $959
 {:#header}
 
 ### Tidy data
+I said above that "row" is a synonym for "record", "observation" and "trial
+and that "column" is a synonym for "variable" and "feature". This isn't *entirely*
+true. In my mind, these truly are synonyms, but I'm sometimes given a data
+table that doesn't look like this.
+
 You could make a data table where rows don't correspond to records
 and where columns don't correspond to variables. For example, you could make
 a table where and columns are records and rows are variables. Or you could
-make a table that includes a few rows that are totals of the other rows.
-But I get confused when they I have tables like this.
+make a table that includes a few rows that are statistics about the other rows.
+I get confused when they I have tables like this.
 
 ![Tom gets confused when data aren't tidy](untidy.jpg){:.wide}
 
