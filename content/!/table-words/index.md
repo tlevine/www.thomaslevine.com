@@ -4,10 +4,11 @@ tags: ['datakind']
 ---
 <style>
 #row tbody tr:nth-of-type(2n),
-#column tbody tr td:nth-of-type(2n)
+#column tbody tr td:nth-of-type(2n),
 #header thead tr
 {
-  background-color: white;
+  color: white;
+  background-color: rgb(254, 87, 161);
 }
 </style>
 
