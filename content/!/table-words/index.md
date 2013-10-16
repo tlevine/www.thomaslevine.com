@@ -55,8 +55,8 @@ Ukraine                      | 68 |  $6,390
 Ethiopia                     | 63 |    $959
 {:#row}
 
-It is quite important to know that each row is a XXX, so we have a
-name for this relationship; we say that XXX is the the *statistical unit*
+It is quite important to know that each row is a country, so we have a
+name for this relationship; we say that country is the the *statistical unit*
 in this data table.
 
 **Synonyms**: Rows are also called *records*, *observations*, *trials*
@@ -95,15 +95,28 @@ Ukraine                      | 68 |  $6,390
 Ethiopia                     | 63 |    $959
 {:#header}
 
-### You can't switch them
-You could make a data table where rows are variables and columns are records,
-but hardly anyone does that, and I get confused when people do.
+### Tidy data
+You could make a data table where rows don't correspond to records
+and where columns don't correspond to variables. For example, you could make
+a table where and columns are records and rows are variables. Or you could
+make a table that includes a few rows that are totals of the other rows.
+But I get confused when they I have tables like this.
 
 ![Funny drawing]()
 
+There's actually a name for this sort of data table; it's called *untidy*
+data, and the first thing that I do when analysing such a data table is
+converting it into the *tidy* format where each row is an observation/trial/record
+and each column is a variable.
+
 ## Review
 
-* A **foo** is a bar baz.
+* Data scientists like to put things in tables.
+* In the table, a row is a record/observation/trial, which corresponds to the
+    statistical unit of the dataset.
+* In the table, a column is a variable/feature.
+* This layout of a table is called "tidy data", and data scientists like their
+    data to be tidy.
 
 ## Ask questions!
 
