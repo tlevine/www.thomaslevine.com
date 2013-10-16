@@ -103,7 +103,7 @@ a table where and columns are records and rows are variables. Or you could
 make a table that includes a few rows that are totals of the other rows.
 But I get confused when they I have tables like this.
 
-![Tom gets confused when data aren't tidy](untidy.jpg)
+![Tom gets confused when data aren't tidy](untidy.jpg){:.wide}
 
 There's actually a name for this sort of data table; it's called *untidy*
 data, and the first thing that I do when analysing such a data table is
