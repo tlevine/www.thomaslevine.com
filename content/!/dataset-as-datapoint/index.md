@@ -67,8 +67,25 @@ of datasets as datapoints will lead to lots of useful things.
 For now, I'll talk about two things: searching for datasets,
 measuring data portal usage.
 
-eoeu
+### Searching for datasets
+copy from the search article
 
+
+### Data portal usage
+Chicago v New York
+UK v US
+
+dataset count
+
+why a problem
+
+A particular dataset could always be broken up into smaller
+datasets. The best way to break up a dataset (or not) will
+depend on the context, but the dataset count metric encourages
+us to break up datasets into smaller pieces.
+
+ignores update frequency, dataset size, data quality,
+history
 
 ## Conclusion
 Open data portals make it easier to consume data once someone
