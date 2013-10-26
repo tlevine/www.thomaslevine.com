@@ -71,12 +71,28 @@ eoeu
 
 
 ## Conclusion
-It's easy to focus on individual datasets and miss what's going
-on in an open data effort as a whole.
+Open data portals make it easier to consume data once someone
+has decided to publish them. But it's still hard to get a
+bigger picture of what's going on inside an open data initiative.
+We have some basic usage metrics and some basic search features,
+but this isn't enough.
 
-If you start thinking about datasets as datapoints inside of
-a super-dataset of datasets, interesting possibilities might
-emerge. 
+When I speak with people about the sorts of data that are on
+People who run data portals know a lot about their data and how
+they are used, but these people only learned this by doing the
+day-to-day work of putting data online and keeping them up-to-date.
 
-If we treat open data this way, we can use the highly
-structured and dense information
+This approach to learning what data are on a data portal isn't
+good enough. First, it needs to be faster; if we don't come up
+with something better, we can't expect anyone other than portal
+maintainers to really know what data an organization has released.
+Second, this approach is not in line with data-driven
+decision-making. If we want to use data in government when making
+decisions, we should use data when making decisions about open
+data iniatives. And we can only do that with data about these
+iniatives.
+
+Data publishers and consumers need to know about the offerings of
+open data initiatives, so we need to make that easier to figure out.
+I don't know how we'll do that, but I we'll get somewhere if we start
+thinking of datasets as datapoints.
