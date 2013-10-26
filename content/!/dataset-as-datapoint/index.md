@@ -57,3 +57,26 @@ I also treated the number of rows as a field. In concert, these
 fields allowed me to find [similar datasets](http://appgen.me/audit/report),
 [large datasets](/!/socrata-summary) and
 [changes to datasets](/!/socrata-genealogies).
+
+## Why this matters
+By treating datasets as datapoints, treating metadata as data
+and creating of new attributes to describe datasets, I am able
+to conduct all of these studies about open data. But why should
+anyone else treat open data this way? I believe that thinking
+of datasets as datapoints will lead to lots of useful things.
+For now, I'll talk about two things: searching for datasets,
+measuring data portal usage.
+
+eoeu
+
+
+## Conclusion
+It's easy to focus on individual datasets and miss what's going
+on in an open data effort as a whole.
+
+If you start thinking about datasets as datapoints inside of
+a super-dataset of datasets, interesting possibilities might
+emerge. 
+
+If we treat open data this way, we can use the highly
+structured and dense information
