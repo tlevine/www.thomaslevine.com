@@ -72,24 +72,34 @@ copy from the search article
 
 
 ### Data portal usage
-Chicago v New York
-UK v US
+We often use the number of datasets on a portal as a measure of
+data portal quality. Unfortunately, this number isn't very meaningful.
 
-dataset count
+Depending on the situation, it could make sense to break up a
+larger dataset or to combine a bunch of smaller datasets.
+Neither of these manipulations really changes the amount of data
+on the portal, but they will substantially impact our metric
+(number of datasets on the portal). Thus, this isn't a particularly
+informative metric. Moreover, such a metric may encourage us to
+break up a larger dataset into pieces when it doesn't really
+make sense to.
 
-why a problem
+We can develop a better metric for the amount of data on a portal,
+but we should also come up with measures for the other things that
+we really care about. Here are some examples.
 
-A particular dataset could always be broken up into smaller
-datasets. The best way to break up a dataset (or not) will
-depend on the context, but the dataset count metric encourages
-us to break up datasets into smaller pieces.
-
-ignores update frequency, dataset size, data quality,
-history
+* **Completeness**: What proportion of a government's data has been
+    released on the portal?
+* **User groups**: Does the dataset tend to be used by people inside
+    of government or outside of government? What proportion of dowloads
+    come from government buildings?
+* **Timeliness**: How up-to-date are the data? How many datasets
+    that were published more than a year ago have been updated within
+    the past year?
 
 ## Conclusion
 Open data portals make it easier to consume data once someone
-has decided to publish them. But it's still hard to get a
+has decided to publish them, but they don't yet give us the
 bigger picture of what's going on inside an open data initiative.
 We have some basic usage metrics and some basic search features,
 but this isn't enough.
