@@ -68,8 +68,27 @@ For now, I'll talk about two things: searching for datasets,
 measuring data portal usage.
 
 ### Searching for datasets
-copy from the search article
+Part of the goal of a data catalog is to make it easier to find
+datasets, so that we don't need to ask someone where to find them.
+Data portal software lets us search the catalogs, but the search
+typically isn't very helpful. On all of the data portals I've
+looked at, the text search is just an ordinary text search on the
+metadata and, in some cases, the full dataset. We can do better.
 
+Datasets are highly structured, and we can use that to make the
+search better.  Let's say we have a dataset containing a post code
+column and we search for "crimes in Shoreditch". The dataset might
+not actually say "Shoreditch" anywhere because it just has post
+codes, but we should be able to find the dataset.
+
+If we're thinking about datasets and data points, this is sort of
+natural; here's a crude version. We get a list of all of the names
+of neighborhoods in London. We look at each dataset, determine
+the dataset contains data about each neighborhood, and assign a
+value of yes or no for each of these neighborhoods. Since we're
+thinking of the dataset as a row in a data table, we're just adding
+a bunch of columns to the data table. With these richer table, we
+can improve our search feature.
 
 ### Data portal usage
 We often use the number of datasets on a portal as a measure of
@@ -96,6 +115,9 @@ we really care about. Here are some examples.
 * **Timeliness**: How up-to-date are the data? How many datasets
     that were published more than a year ago have been updated within
     the past year?
+
+If we think of datasets as data points, it is natural for us to
+get creative about the data that we collect about each dataset.
 
 ## Conclusion
 Open data portals make it easier to consume data once someone
