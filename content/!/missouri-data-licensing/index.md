@@ -54,17 +54,7 @@ Missouri portal are listed as in the public domain.
 
 ![plot of chunk publicdomain](figure/publicdomain.png) 
 
-
 The rest (278 datasets) have nothing in the "license" metadata field.
-
-
-```
-##      
-##       FALSE TRUE
-##   Yes   619    0
-##   No      0  278
-```
-
 
 ## Formats
 Proportionately more PDF files are public domain.
