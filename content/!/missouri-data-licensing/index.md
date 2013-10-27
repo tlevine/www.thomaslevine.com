@@ -1,11 +1,15 @@
 ---
-title: Which datasets in Missouri's data portal are in the public domain?
-descriptions: I grouped the datasets in Missouri's data portal and looked at licensing by dataset group.
+title: License-free data in Missouri's data portal
+description: I grouped the datasets in Missouri's data portal and looked at licensing by dataset group.
 twitter_title: Missouri's data portal has lots of traffic surveys
-twitter_image:
+twitter_image: OAKVOLKER-5-HR-2009-A-TMC-diagram.png
+facebook_title: Missouri's data portal has lots of traffic surveys
+facebook_image: OAKVOLKER-5-HR-2009-A-TMC-diagram.png
+kind: article
+created_at: 2013-10-29
 tags: ['open-data']
 ---
-<% root = 'https://github.com/tlevine/socrata-analysis/tree/master/' %>
+<% root = 'https://github.com/tlevine/socrata-catalog/tree/master/' %>
 
 
 
@@ -45,31 +49,14 @@ I wound up categorizing the datasets quite a bit more than I originally
 intended, so now I know a lot about the sorts of data on the portal.
 
 ## Licenses
-Most datasets (
-
-```
-
-Error in Summary.factor(structure(c(2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L,  : 
-  sum not meaningful for factors
-
-```
-
-) on the missouri portal are public domain.
-
-
-```r
-print(p0)
-```
+Most datasets (619) on the
+Missouri portal are listed as in the public domain.
 
 ![plot of chunk publicdomain](figure/publicdomain.png) 
 
 
 The rest (278 datasets) have nothing in the "license" metadata field.
 
-
-```r
-table(missouri$public.domain, is.na(missouri$license))
-```
 
 ```
 ##      
@@ -81,11 +68,6 @@ table(missouri$public.domain, is.na(missouri$license))
 
 ## Formats
 Proportionately more PDF files are public domain.
-
-
-```r
-print(p1)
-```
 
 ![plot of chunk publicdomain_pdf](figure/publicdomain_pdf.png) 
 
@@ -104,11 +86,6 @@ I noticed a bunch of PDF files with names like these.
 
 These are all traffic surveys, and it turns out that they account for
 almost all of the PDF files on the portal.
-
-
-```r
-print(p2)
-```
 
 ![plot of chunk pdf_trafficsurvey](figure/pdf_trafficsurvey.png) 
 
@@ -130,21 +107,11 @@ Data from the federal said "Census". And liquor license data said either
 In the plot below, I map out the different kinds of datasets, whether
 they are PDF files and whether they have public domain licenses.
 
-
-```r
-print(p5)
-```
-
 ![plot of chunk kinds_counts](figure/kinds_counts.png) 
 
 
 Here's the same plot but with proportions instead of counts. This makes
 the small bars more apparent.
-
-
-```r
-print(p6)
-```
 
 ![plot of chunk kinds_prop](figure/kinds_prop.png) 
 
@@ -152,11 +119,6 @@ print(p6)
 I didn't manage to get it much more precise than this, but I did find that
 the uncategorized datasets containing the word "Missouri" tended not to
 have a license.
-
-
-```r
-print(p8)
-```
 
 ![plot of chunk says_missouri](figure/says_missouri.png) 
 
