@@ -4,19 +4,27 @@ tags: ['sensing-data']
 ---
 To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
-But for many people, it is not common sense. I think this is a
-particularly important concept to convey if we want to teach data literacy
-(or whatever you want to call it). I remarked that a lot of my activities
-surround this idea, so I 
+But for many people, it is not common sense. I think that people need
+to get this concept before they can understand how we use data to
+influence our world, and I've been teaching this concept in a few different ways.
+
+I break this article into three major sections.
+
+1. What I mean by "data"
+2. How to teach that we can extract data from anything
+3. How to teach that we can convert data into anything
 
 ## What is data?
 People use the word "data" to mean everything, so I never really know
-what people mean when they're talking about it. But when I think of
-"data", I'm thinking specifically of tables, with variables as columns.
-Hadley Wickham would call this "[tidy data](http://vita.had.co.nz/papers/tidy-data.pdf)".
+what people mean when they're talking about it. For the purposes of the
+present article, I'm considering data to be a collection of things,
+where each thing is represented in some digital, quantified, or
+structured form. I typically think of this as tables, with each column
+being a variable and each row being a different thing in the collection.
 
-(A note for non-relational hipsters: This doesn't have anything to do
-with database paradigms; non-relational databases store tidy data too.)
+Regardless of whether you think of this as a table, this representation
+is helpful because much of our quantitative methods expect inputs in this
+form. 
 
 ## World -> Data: Data engineering
 We can collect information from the world and convert it into data.
@@ -118,7 +126,3 @@ Other people in CSV are quite into Twitter bots and into finding
 unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO) bot!
 
 ## Conclusion
-You can make a data table from any collection of things. Once you have
-data in a data table, you can use a plethora of quantitative methods
-to work with it. And then you can use these data to inform your creation
-of other things, even if they don't seem very quantitative at all.
