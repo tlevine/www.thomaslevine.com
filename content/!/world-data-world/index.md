@@ -76,28 +76,14 @@ we are just mirroring a human process in computer code and being much more
 explicit about what we are observing during the process.
 
 ### Choosing what information to extract
-Eventually, someone asks how to extract information from PDF files, and
-this is my opportunity to brainstorm different types of information that
-can be extracted. People often want something that will give them the
-text of the PDF file formatted in semantically reasonable way. Maybe they
-just want [search](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once)
+Sometimes, people conduct complex analyses based on disparate sources of
+information and draw complex conclusions. This analytical process is a
+little harder to break down, but it is still a human process that we can
+mirror with a computer.
 
-But sometimes (normally?) people would be better off with something much
-simpler. And here is where it becomes helpful to think about converting
-the PDFs to data. Rather then getting the full text of the PDF, what if
-we create a few variables to describe the different PDFs? Here are some
-possibilities.
-
-* Number of pages
-* Identity number, zip code, &c.
-* Whether the PDF contains a particular word
-
-The utility of these different possibilties depends on what you're doing.
-Read more about that [here](/!/parsing-pdfs/).
-
-The point is that we can collect any number of features from PDF files,
-represent those features as a table, with one row per PDF file and then
-use ordinary quantitative methods on that table.
+In the case of public notices related to development on wetlands, one
+important conclusion to draw is whether to submit a comment on the letter
+that discourages the proposed development.
 
 ## Data -> World: CSV Soundsystem
 I just talked for way-too-long about how to convert the world into data.
