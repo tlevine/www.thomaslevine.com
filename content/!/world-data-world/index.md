@@ -10,11 +10,11 @@ influence our world, and I've been teaching this concept in a few different ways
 
 I break this article into three major sections.
 
-1. What I mean by "data"
+1. What I mean by "data", and why we want them
 2. How to teach that we can extract data from anything
 3. How to teach that we can convert data into anything
 
-## What is data?
+## What data are, and why we want them
 People use the word "data" to mean everything, so I never really know
 what people mean when they're talking about it. For the purposes of the
 present article, I'm considering data to be a collection of things,
@@ -24,36 +24,45 @@ being a variable and each row being a different thing in the collection.
 
 Regardless of whether you think of this as a table, this representation
 is helpful because much of our quantitative methods expect inputs in this
-form. 
+form. Once we express the world in this form, we can apply any of our
+quantitative methods (statistics, machine learning, modelling, whatever
+you want to call them) and discover things that would have been hard to
+discover without the help of math and computers.
 
-## World -> Data: Data engineering
+## World -> Data: We can extract data from anything
 We can collect information from the world and convert it into data.
-This tends to come to people more easily. My main points here are that
-data is simply a concise representation of ordinary human knowledge
-and that fancy computers use the same processes that people do.
-
-The concept that the world can be converted into data seems to come
-quite naturally to people when I find a situation where the people are
-already doing that. People often ask me to teach web scraping, and I
-generally subvert that request to teach them about how anything can
-be converted into data. I do that by walking through the architecture
-of a complex data-driven system and by brainstorming different types
-of information that can be extracted from a web page.
+This tends to come to people more easily. The main point here is to
+recognize that people already do things like this, though the result
+is not always so precise and concrete as a dataset. I teach this
+step of data extraction by gradually switching human processes to
+digital, data-based processes.
 
 ### Architecture
 When people ask me to teach web scraping,
 they expect me to tell them what Python code to write to pull the
 numbers out of the web page. If I have time, I get to that, but I
 start by breaking down the process by which a human would collect the
-data. If the students don't have a good example, I use
-[Scott](http://scott.thomaslevine.com), my wetlands permit application
-monitoring thing. The resulting diagram looks like this.
+data.
+
+It's best to do this with a process that the learners already
+know well, especially if they already want to convert it to a more
+automated process. But if the students don't have a good example, I use
+[Scott](https://github.com/tlevine/scott), my wetlands permit application
+monitoring system.
+
+We walk through it as a human process and draw a diagram.
+In the case of Scott, the resulting diagram looks like this.
 
 > If you are reading this, tell me to add the diagram.
 
-We walk through it as a human process, and then we start converting
-it to a computerized process, trying to start with the parts that are
-harder for people to do and easier for computers do do.
+Then we start converting it to a computerized process. We do this by
+slightly and gradually changing the diagram. The structure of the diagram
+stays exactly the same because the digital process mirrors the human process;
+the only difference is the labels of the different steps within the process.
+For example, "send a courier to pick up the letter" becomes "download the file
+from the website".
+
+trying to start with the parts that are harder for people to do and easier for computers do.
 
 ### Choosing what information to extract
 Eventually, someone asks how to extract information from PDF files, and
