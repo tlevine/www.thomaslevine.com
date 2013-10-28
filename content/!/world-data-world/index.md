@@ -83,7 +83,26 @@ mirror with a computer.
 
 In the case of public notices related to development on wetlands, one
 important conclusion to draw is whether to submit a comment on the letter
-that discourages the proposed development.
+that discourages the proposed development. If you think of it enough,
+you can come up with a few concrete variables that you need to extract
+from the data. In the case of these letters about proposed development
+on wetlands, we can come up with a few things that should raise concern
+about the development in question.
+
+* The impacted area (in acres) is high.
+* The development is in a region that has already been especially stressed
+    by other developments
+* The letter contains phrases indicate that the development could occur
+    somewhere other than a wetland. For example, seeing the phrase
+    "shopping mall" would raise concern.
+
+These causes for concern become things that we observe from the letters
+and put in our dataset; each cause is a variable in our data table, and
+each letter is a row in our data table.
+
+By starting with the human version of data extraction, we focus on getting
+creative about what data we collect rather than getting stuck on what is
+easy to collect.
 
 ## Data -> World: CSV Soundsystem
 I just talked for way-too-long about how to convert the world into data.
