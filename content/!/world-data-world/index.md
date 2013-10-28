@@ -62,7 +62,18 @@ the only difference is the labels of the different steps within the process.
 For example, "send a courier to pick up the letter" becomes "download the file
 from the website".
 
-trying to start with the parts that are harder for people to do and easier for computers do.
+> Another diagram
+
+Because the structure isn't changing at all, we can also move only part of
+the process over, and this is how things work in real life. When something
+is necessary but unpleasant, we start with the parts that lead to large
+improvements with little effort. In the example above, a good place to start
+is switching the courier's daily trip for a program that runs every day and
+checks for new files.
+
+The main point in all of this is that data extraction is not magical. Instead,
+we are just mirroring a human process in computer code and being much more
+explicit about what we are observing during the process.
 
 ### Choosing what information to extract
 Eventually, someone asks how to extract information from PDF files, and
