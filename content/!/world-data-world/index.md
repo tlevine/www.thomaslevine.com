@@ -4,11 +4,14 @@ tags: ['sensing-data']
 ---
 To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
-But for many people, it is not common sense. I think that people need
-to get this concept before they can understand how we use data to
-influence our world. Things that seemed impossible before one understands
-this concept become common sense after one really gets it, and I've been
-using interactive technology to teach people that.
+But for many people, it is not common sense.
+
+An understanding of this concept can change how someone thinks; things
+that previously seemed impossible become common sense after one really
+gets this concept.
+
+The best way I've found to teach this concept is to create interactive
+technology that seems impossible until you understand the new concept.
 
 I break this article into three major sections.
 
@@ -79,7 +82,9 @@ checks for new files.
 
 The main point in all of this is that data extraction is not magical. Instead,
 we are just mirroring a human process in computer code and being much more
-explicit about what we are observing during the process.
+explicit about what we are observing during the process. As people figure out
+how to automate their own repetitive data collection tasks, they begin to
+realize that anything could be converted into data.
 
 ### Choosing what information to extract
 Sometimes, people conduct complex analyses based on disparate sources of
@@ -110,7 +115,7 @@ By starting with the human version of data extraction, we focus on getting
 creative about what data we collect rather than getting stuck on what is
 easy to collect.
 
-## Data -> World: CSV Soundsystem
+## Data -> World: csv soundsystem
 I just talked for way-too-long about how to convert the world into data.
 Now let's go in the other direction: How do we convert data back into real things?
 Everyone realizes that you can make graphs out of data, but those can be hard for
@@ -118,7 +123,7 @@ some people to understand. Moreover, they still feel like data rather than the
 real world. In order to teach this concept, I convert data into real things while
 still conveying the complex relationships within the data.
 
-This theme underlies much of [CSV Soundsystem](http://csvsoundsystem.com)'s work.
+This theme underlies much of [csv soundsystem](http://csvsoundsystem.com)'s work.
 Most of us in CSV work in journalism, so it makes sense that we're always thinking
 about how to make data into stories that are accessible to ordinary people.
 
@@ -149,24 +154,44 @@ informed by data.
 
 ### Data gastronomification
 We also started getting into data gastronomification, that is,
-turning data into food.
-
-* [gastronomify](https://github.com/csv/gastronomify) R package
-* [a video](http://www.youtube.com/watch?v=3CiDW7NVa8o) about it
-* [data cookies](https://twitter.com/internetrebecca/status/352955293291913217)
+turning data into food. Here are some
+[data cookies](https://twitter.com/internetrebecca/status/352955293291913217)
+and some
+[data guacamole]()
 
 Again, we're just making normal food, and it gives us an opportunity
 to talk about relating data to the real world.
 
+### Interactivity
+When people see a wacky thing that csv soundsystem made with data,
+they start thinking about the idea that data can be converted into
+anything. What really hammers it home is that we make tools that
+let you create your own data-driven music and gastronomifications.
+We have packages that let you compose music in
+[R](https://github.com/csv/ddr), and
+[Python](https://github.com/csv/ddpy),
+[Google Spreadsheets](https://github.com/csv/sheetmusic),
+and we have a package that lets you convert data into
+[recipes for food](https://github.com/csv/gastronomify)
+(Here's a video [a video](http://www.youtube.com/watch?v=3CiDW7NVa8o) about them.)
+
+For people who are already comfortable with R, Python or Google
+Spreadsheets, these packages feel like any other package. Without
+knowing much about music or food, people can make their own data
+sonifications and data gastronomifications. With this power, people
+start thinking more creatively about how to convert data into
+real things rather than just graphs and tables.
+
 ## Conclusion
 When one wants to learn about the history of a topic or the use
-of a specific tool, I find that a typical book or class works quite
-well. I don't think they work as well for teaching more abstract ways
+of a specific tool, a typical book or class can work quite well.
+I don't think they work as well for teaching more abstract ways
 of thinking, like the idea that data can be extracted from anything
 and that data can be turned into anything.
 
-Instead of teaching a normal class, I show people something that seems
-impossible until you understand the concept that I am teaching. People
-get curious and want to know how it works. When they read about how it
-works, they also learn this deeper concept that we can convert anything
+Instead of teaching a normal class, I show people something that,
+at first, seems impossible. They get curious about how music could
+possibly be created from data about the federal treasury, and they
+want to know how it works. As they learn about how it works,
+they also learn the deeper concept that we can convert anything
 into data and can convert data into anything.
