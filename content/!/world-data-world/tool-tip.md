@@ -70,7 +70,7 @@ We also started getting into data gastronomification, that is,
 turning data into food. Here are some
 [data cookies](https://twitter.com/internetrebecca/status/352955293291913217)
 and some
-[data guacamole]()
+[data guacamole](https://github.com/tlevine/data-guacamole)
 
 Again, we're just making normal food, and it gives us an opportunity
 to talk about relating data to the real world.
