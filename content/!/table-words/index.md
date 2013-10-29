@@ -12,15 +12,14 @@ tags: ['datakind']
 }
 </style>
 
-## "Data" means "table"
-I don't really like to distinguish between data and anything else
-because [everything is data to me](/!/world-data-world). But I sort
-of do make a distinction, and here it is: Data are things in data tables.
-
-Once we express the world in data tables, we can study it with a
-wide body of analytical tools that expect data to be in tables.
-When we work with tables so much, we come up with lots of fancy
-words to describe all of the different parts of a table.
+## I like tables.
+In order to understand how the world works, I collect data
+about it and then apply a bunch of fancy quantitative methods
+A lot of these methods expect data to be represented in
+data tables. When people like me work with tables so much,
+we come up with lots of fancy words to describe all of the
+different parts of a table. Today, I hope to teach you what
+all of these different words mean.
 
 ## Rows and columns
 Here's a data table about the wealth and health of nations.
