@@ -31,7 +31,8 @@ I looked at the Missouri Data Portal,
 [data.mo.gov](https://data.mo.gov). Here's why I chose it.
 
 1. To make it easy to download the license information, I wanted to use
-    Socrata's DCAT endpoint. This endpoint only returns up to 1000
+    [Socrata's data.json endpoint](/!/socrata-formats/).
+    This endpoint only returns up to 1000
     datasets, so I needed a portal with no more than 1000 datasets.
     Missouri's portal has 897 datasets.
 2. I think I've figured out how to
