@@ -1,4 +1,18 @@
-# On the use of data-driven music and food to teach that data can be converted into anything
+<!-- 
+
+Many important lessons are about ways of thinking rather than specific
+material. When one changes her way of thinking, things that previously
+seemed impossible can become common sense. I have been using interactive
+music and food technology to teach the concept that data can be converted
+into anything. I create seemingly impossible pieces. Then I explain to
+people how these things work and provide the software for them to create
+their own seemingly impossible pieces. By learning how the pieces work
+and by playing with the software, people learn this deeper concept that
+data can be turned into anything.
+
+-->
+
+# On the use of a seemingly impossible technology to teach different way of thinking
 To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
 But for many people, it is not common sense.
@@ -37,10 +51,6 @@ In order to teach this concept that data could be converted into anything,
 I convert data into real things while
 still conveying the complex relationships within the data.
 
-This theme underlies much of [csv soundsystem](http://csvsoundsystem.com)'s work.
-Most of us in CSV work in journalism, so it makes sense that we're always thinking
-about how to make data into stories that are accessible to ordinary people.
-
 ### Music videos
 We're most known for our music videos.
 
@@ -49,7 +59,10 @@ on the twelve days of Christmas.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/rLZDvXPIDa0" frameborder="0" allowfullscreen></iframe>
 
-Then CSV made a music video about the financial crisis.
+[csv soundsystem](http://csvsoundsystem.com)
+is a hacker collective with many projects surrounding this theme.
+We collectively made a song about the financial crisis based on
+treasury data.
 
 [<img alt="FMS Symphony" src="<% @item.identifier %>fms.png" class="wide" />](http://fms.csvsoundsystem.com)
 
@@ -57,12 +70,13 @@ More recently, I made one about transit ridership in Chicago and New York.
 
 <video width="100%" src="/!/ridership-rachenitsa/transit.webm"></video>
 
-And here's a show we played.
+And here's a show that csv soundsystem played.
 
 <iframe src="//player.vimeo.com/video/76190871" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/76190871">csv soundsystem at Codame</a> from <a href="http://vimeo.com/lamthuyvo">Lam Thuy Vo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-When people hear this, they just think of it as music. But it
-gives us an opportunity to explain how anything that people
+When people hear this, they just think of it as music;
+it seems impossible that it could have been produced with data.
+This gives us an opportunity to explain how anything that people
 manipulate (like notes that we play on an instrument) can be
 informed by data.
 
@@ -73,7 +87,9 @@ turning data into food. Here are some
 and some
 [data guacamole](https://github.com/tlevine/data-guacamole)
 
-Again, we're just making normal food, and it gives us an opportunity
+Again, we're just making normal food. People initially
+don't understand how it could come from data,
+and this gives us an opportunity
 to talk about relating data to the real world.
 
 ### Interactivity
