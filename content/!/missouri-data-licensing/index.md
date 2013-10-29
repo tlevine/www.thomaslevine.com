@@ -1,21 +1,21 @@
 ---
 title: License-free data in Missouri's data portal
 description: I grouped the datasets in Missouri's data portal and looked at licensing by dataset group.
-twitter_title: Missouri's data portal has lots of traffic surveys
+tweet_text: Missouri's data portal is mostly PDF traffic surveys. http://thomaslevine.com/!/missouri-data-licensing/
+twitter_title: Why you need to be explicit about dataset licensing.
 twitter_image: OAKVOLKER-5-HR-2009-A-TMC-diagram.png
-facebook_title: Missouri's data portal has lots of traffic surveys
+facebook_title: Why you need to be explicit about dataset licensing.
 facebook_image: OAKVOLKER-5-HR-2009-A-TMC-diagram.png
 kind: article
 created_at: 2013-10-29
 tags: ['open-data']
 ---
-<% root = 'https://github.com/tlevine/socrata-catalog/tree/master/' %>
 
-
+<!-- https://github.com/tlevine/socrata-catalog/ -->
 
 ## Which specific datasets have license metadata?
 I recently [found](/!/open-data-licensing) that most datasets on the
-open data portals I've been looking at don't have open licenses or.
+open data portals I've been looking at don't have open licenses or
 public domain dedications.
 
 But a lot of datasets do have licenses or public domain dedication, and
@@ -54,13 +54,13 @@ Missouri portal are listed as in the public domain.
 
 ![plot of chunk publicdomain](figure/publicdomain.png) 
 
+
 The rest (278 datasets) have nothing in the "license" metadata field.
 
 ## Formats
 Proportionately more PDF files are public domain.
 
 ![plot of chunk publicdomain_pdf](figure/publicdomain_pdf.png) 
-
 
 I noticed a bunch of PDF files with names like these.
 
@@ -97,20 +97,20 @@ Data from the federal said "Census". And liquor license data said either
 In the plot below, I map out the different kinds of datasets, whether
 they are PDF files and whether they have public domain licenses.
 
-![plot of chunk kinds_counts](figure/kinds_counts.png) 
+![plot of chunk kinds_counts](figure/kinds_counts.png){:.wide}
 
 
 Here's the same plot but with proportions instead of counts. This makes
 the small bars more apparent.
 
-![plot of chunk kinds_prop](figure/kinds_prop.png) 
+![plot of chunk kinds_prop](figure/kinds_prop.png){:.wide}
 
 
 I didn't manage to get it much more precise than this, but I did find that
 the uncategorized datasets containing the word "Missouri" tended not to
 have a license.
 
-![plot of chunk says_missouri](figure/says_missouri.png) 
+![plot of chunk says_missouri](figure/says_missouri.png){:.wide}
 
 ## The merits of explicitly stating that a dataset is in the public domain
 A few years ago, a few open government advocates came up with
@@ -140,9 +140,9 @@ In some cases, copyright might not apply to a dataset simply because the
 dataset isn't sufficiently original; if the dataset contains only facts,
 copyright won't apply. This might be okay for parts of the traffic survey
 files. Here's part of a page from
-[this traffic survey](https://data.mo.gov/Traffic/OAKVOLKER-5-HR-2009-A-TMC/6gz3-267n?)
+[this traffic survey](https://data.mo.gov/Traffic/OAKVOLKER-5-HR-2009-A-TMC/6gz3-267n?).
 
-![A data table](OAKVOLKER-5-HR-2009-A-TMC-table.png)
+![A data table](OAKVOLKER-5-HR-2009-A-TMC-table.png){:.wide}
 
 The page above just has a table of numbers. This might count as facts, so
 it is possible that it would not be original enough for copyright to apply.
@@ -169,7 +169,7 @@ Missouri for providing such notices.
 ## What I really learned from this
 I used this analysis to provide an example of a situation where it is
 important to have an explicit statement about the license of a dataset
-or about the absense of license. Beyond that, this analysis doesn't
+or about the absence of license. Beyond that, this analysis doesn't
 really tell us much about licensing.
 
 On the other hand, I feel like I've come up with a reasonably complete
