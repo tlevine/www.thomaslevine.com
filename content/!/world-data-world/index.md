@@ -161,11 +161,10 @@ When one wants to learn about the history of a topic or the use
 of a specific tool, I find that a typical book or class works quite
 well. I don't think they work as well for teaching more abstract ways
 of thinking, like the idea that data can be extracted from anything
-and that data can be turned into anything. 
+and that data can be turned into anything.
 
-
-
-But for many people, it is not common sense. I think that people need
-to get this concept before they can understand how we use data to
-influence our world, and I've been using interactive technology to this
-concept in a few different ways.
+Instead of teaching a normal class, I show people something that seems
+impossible until you understand the concept that I am teaching. People
+get curious and want to know how it works. When they read about how it
+works, they also learn this deeper concept that we can convert anything
+into data and can convert data into anything.
