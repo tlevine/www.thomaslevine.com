@@ -39,6 +39,10 @@ is not always so precise and concrete as a dataset. I teach this
 step of data extraction by gradually switching human processes to
 digital, data-based processes.
 
+The main point that I try to convey is that computers are not magical
+and you can get them to do anything that a group of people could do.
+Anything is possible if you can articulate it clearly enough.
+
 ### Architecture
 When people ask me to teach web scraping,
 they expect me to tell them what Python code to write to pull the
