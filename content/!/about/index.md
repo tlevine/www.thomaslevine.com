@@ -1,7 +1,7 @@
 ---
 title: About Thomas Levine
 ---
-
+<!--
 ## Short version
 
 Data science, ergonomics,
@@ -11,13 +11,15 @@ pretend-ironic buzzwords
 and the color pink.
 
 ## Longer version
+-->
+
+## Simple version
 
 Playing with computers since he was young, Tom eventually developed back and wrist pain,
 so he started studying ergonomics and conducting quantitative ergonomics research.
-Then he realized that he'd accidentally become a data scientist. And his back and
-wrists now hurt less. Tom likes using data to help people work less and think more.
+His back and wrists don't hurt as much, and now people call him a data scientist.
 He also has a band called
-[CSV Soundsystem](http://csvsoundsystem.com) that makes music from spreadsheets.
+[csv soundsystem](http://csvsoundsystem.com) that makes music from spreadsheets.
 
 ## Complicated version
 
@@ -29,10 +31,14 @@ he recently has found it easier to replace them entirely with computers.
 
 While it's nice that Tom can make things more efficient, he suspects that
 improving efficiency is more efficiently accomplished when he teaches other
-people to make things more efficient more efficiently. Tom thinks that this
+people to make things more efficient more efficiently.
+
+<!--
+Tom thinks that this
 explains why he does ergonomics research and data science. (By the way, Tom
 is known to do ergonomics research and data science, and he means to write
 a satisfying definition of those concepts eventually.)
+-->
 
 <!--
 Consideration of the efficiency of a process involves consideration of some
