@@ -112,8 +112,11 @@ easy to collect.
 
 ## Data -> World: CSV Soundsystem
 I just talked for way-too-long about how to convert the world into data.
-Now let's go in the other direction: How do we convert tidy data tables
-back into real things?
+Now let's go in the other direction: How do we convert data back into real things?
+Everyone realizes that you can make graphs out of data, but those can be hard for
+some people to understand. Moreover, they still feel like data rather than the
+real world. In order to teach this concept, I convert data into real things while
+still conveying the complex relationships within the data.
 
 This theme underlies much of [CSV Soundsystem](http://csvsoundsystem.com)'s work.
 Most of us in CSV work in journalism, so it makes sense that we're always thinking
@@ -139,10 +142,10 @@ And here's a show we played.
 
 <iframe src="//player.vimeo.com/video/76190871" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/76190871">csv soundsystem at Codame</a> from <a href="http://vimeo.com/lamthuyvo">Lam Thuy Vo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-We have some tools for making these music videos
-
-* [data-driven rhythms](https://github.com/csv/ddr)
-* [scripts to concatenate R plots](https://github.com/csv/transit-ridership/blob/master/merge.sh)
+When people hear this, they just think of it as music. But it
+gives us an opportunity to explain how anything that people
+manipulate (like notes that we play on an instrument) can be
+informed by data.
 
 ### Data gastronomification
 We also started getting into data gastronomification, that is,
@@ -152,9 +155,8 @@ turning data into food.
 * [a video](http://www.youtube.com/watch?v=3CiDW7NVa8o) about it
 * [data cookies](https://twitter.com/internetrebecca/status/352955293291913217)
 
-### Data-driven prose and poetry
-Other people in CSV are quite into Twitter bots and into finding
-unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO) bot!
+Again, we're just making normal food, and it gives us an opportunity
+to talk about relating data to the real world.
 
 ## Conclusion
 When one wants to learn about the history of a topic or the use
