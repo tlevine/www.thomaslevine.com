@@ -6,7 +6,9 @@ To me, it is common sense that data could be extracted from a pair
 of pants and that that data could be converted into a slice of apple pie.
 But for many people, it is not common sense. I think that people need
 to get this concept before they can understand how we use data to
-influence our world, and I've been teaching this concept in a few different ways.
+influence our world. Things that seemed impossible before one understands
+this concept become common sense after one really gets it, and I've been
+using interactive technology to teach people that.
 
 I break this article into three major sections.
 
@@ -151,3 +153,15 @@ Other people in CSV are quite into Twitter bots and into finding
 unintentional haikus. Check out our [TreasuryIO](http://twitter.com/TreasuryIO) bot!
 
 ## Conclusion
+When one wants to learn about the history of a topic or the use
+of a specific tool, I find that a typical book or class works quite
+well. I don't think they work as well for teaching more abstract ways
+of thinking, like the idea that data can be extracted from anything
+and that data can be turned into anything. 
+
+
+
+But for many people, it is not common sense. I think that people need
+to get this concept before they can understand how we use data to
+influence our world, and I've been using interactive technology to this
+concept in a few different ways.
