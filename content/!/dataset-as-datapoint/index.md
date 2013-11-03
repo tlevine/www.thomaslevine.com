@@ -20,7 +20,7 @@ for it? In studying metadata about 100,000 datasets, I started
 to see what it means.
 
 When people talk about "metadata", they're
-usually thinking of information that you'd use for cataloging
+usually thinking of stuff that you'd use for cataloging
 and framing the data rather than stuff on which you would do
 "data analysis". That is, metadata are things that you would use
 for styling webpages, titling graphs, and searching datasets,
@@ -32,39 +32,20 @@ Inside of our collection of datasets, we have a record for each
 sub-dataset, and this record is composed of metadata about that
 sub-dataset.
 
-## Creating new fields in our dataset of datasets
-Another thing about metadata is that they are usually recorded
-separately of the data. For example, the title of a dataset will
-probably be in the metadata, but the number of rows in the dataset
-might not be. This shouldn't stop us from from counting how many
-rows each sub-dataset has and putting that in our dataset-of-datasets.
+## Why this matters: Data-driven open data
+Part of our interest in opening government data is to allow
+people to make data-driven decisions. Ironically, our open data
+initiatives haven't been particularly data-driven. I've seen a
+[lot](http://beyondtransparency.org/)
+[of](http://www.socrata.com/case-studies/)
+[case](http://ckan.org/case-studies/)
+[studies](http://theodi.org/case-studies)
+about how to open government data, but these are based strongly
+on personal experience about opening data rather than being based
+more on precise, quantitative data about opening data.
 
-Don't get me wrong; there is much to be learned by studying the
-metadata alone. In a [couple](/!/socrata-formats)
-[cases](/!/socrata-deduplicate), I used data straight from
-Socrata's [DCAT]() endpoint,
-which only includes some minimal metadata.
-
-I'm still at the early stages of computing new fields to describe
-the different sub-datasets in our dataset-of-datasets, but some
-interesting things are already coming out of this approach.
-
-In many cases, I treated the names of the columns as a field.
-Thus, for each sub-dataset in the dataset of datasets, I had
-fields relating to the names and data types of different columns.
-I also treated the number of rows as a field. In concert, these
-fields allowed me to find [similar datasets](http://appgen.me/audit/report),
-[large datasets](/!/socrata-summary) and
-[changes to datasets](/!/socrata-genealogies).
-
-## Why this matters
 By treating datasets as datapoints, treating metadata as data
-and creating of new attributes to describe datasets, I am able
-to conduct all of these studies about open data. But why should
-anyone else treat open data this way? I believe that thinking
-of datasets as datapoints will lead to lots of useful things.
-For now, I'll talk about two things: searching for datasets,
-measuring data portal usage.
+and creating of new attributes to describe datasets
 
 ### Searching for datasets
 Part of the goal of a data catalog is to make it easier to find
