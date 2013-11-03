@@ -44,13 +44,13 @@ on personal experience about opening data rather than being based
 more on precise, quantitative data about opening data.
 
 I've seen [comparatively little](/open-data) work that uses data
-about open data initiatives to come up with guidelines or
-decisions about the opening of data. Similarly, I haven't seen
-
-
-By treating datasets as datapoints, treating metadata as data
-and creating of new attributes to describe datasets
-
+about open data efforts to come up with guidelines or
+decisions about the opening of data. Similarly, standard
+data-driven features like randomized experiments (A/B testing)
+and recommender systems aren't implemented in any data catalog
+software that I've seen. We are releasing lots of open data and
+producing data about our release of data, but we aren't taking
+advantage of these data to figure out how to make open data better.
 
 ## Conclusion
 Open data portals make it easier to consume data once someone
