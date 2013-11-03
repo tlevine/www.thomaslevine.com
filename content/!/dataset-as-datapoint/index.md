@@ -55,11 +55,12 @@ advantage of these data to figure out how to make open data better.
 ## Conclusion
 Open data portals make it easier to consume data once someone
 has decided to publish them, but they don't yet give us the
-bigger picture of what's going on inside an open data initiative.
-We can't really tell what datasets are available, who's using them,
+bigger picture of what's going on, what's working, and what isn't.
+We can't really tell what sorts of data are available, who's using them,
 what impact they're having, or whether they are of good quality.
 
 We need to give data publishers and data consumers a better picture
-of what is going on in open data portals. I don't know how we'll do
-that, but I think we'll get somewhere if we start thinking of datasets
-as datapoints.
+of what is going on in open data portals.
+
+Let's start thinking of datasets as datapoints so that we can use
+data about data to drive our open-data initatives.
