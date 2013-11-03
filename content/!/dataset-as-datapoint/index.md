@@ -33,8 +33,7 @@ sub-dataset, and this record is composed of metadata about that
 sub-dataset.
 
 ## Why this matters: Data-driven open data
-Part of our interest in opening government data is to allow
-people to make data-driven decisions. Ironically, our open data
+Ironically, our open data
 initiatives haven't been particularly data-driven. I've seen a
 [lot](http://beyondtransparency.org/)
 [of](http://www.socrata.com/case-studies/)
@@ -44,60 +43,14 @@ about how to open government data, but these are based strongly
 on personal experience about opening data rather than being based
 more on precise, quantitative data about opening data.
 
+I've seen [comparatively little](/open-data) work that uses data
+about open data initiatives to come up with guidelines or
+decisions about the opening of data. Similarly, I haven't seen
+
+
 By treating datasets as datapoints, treating metadata as data
 and creating of new attributes to describe datasets
 
-### Searching for datasets
-Part of the goal of a data catalog is to make it easier to find
-datasets, so that we don't need to ask someone where to find them.
-Data portal software lets us search the catalogs, but the search
-typically isn't very helpful. On all of the data portals I've
-looked at, the text search is just an ordinary text search on the
-metadata and, in some cases, the full dataset. We can do better.
-
-Datasets are highly structured, and we can use that to make the
-search better.  Let's say we have a dataset containing a post code
-column and we search for "crimes in Shoreditch". The dataset might
-not actually say "Shoreditch" anywhere because it just has post
-codes, but we should be able to find the dataset.
-
-If we're thinking about datasets and data points, this is sort of
-natural; here's a crude version. We get a list of all of the names
-of neighborhoods in London. We look at each dataset, determine
-the dataset contains data about each neighborhood, and assign a
-value of yes or no for each of these neighborhoods. Since we're
-thinking of the dataset as a row in a data table, we're just adding
-a bunch of columns to the data table. With these richer table, we
-can improve our search feature.
-
-### Data portal usage
-We often use the number of datasets on a portal as a measure of
-data portal quality. Unfortunately, this number isn't very meaningful.
-
-Depending on the situation, it could make sense to break up a
-larger dataset or to combine a bunch of smaller datasets.
-Neither of these manipulations really changes the amount of data
-on the portal, but they will substantially impact our metric
-(number of datasets on the portal). Thus, this isn't a particularly
-informative metric. Moreover, such a metric may encourage us to
-break up a larger dataset into pieces when it doesn't really
-make sense to.
-
-We can develop a better metric for the amount of data on a portal,
-but we should also come up with measures for the other things that
-we really care about. Here are some examples.
-
-* **Completeness**: What proportion of a government's data has been
-    released on the portal?
-* **User groups**: Does the dataset tend to be used by people inside
-    of government or outside of government? What proportion of dowloads
-    come from government buildings?
-* **Timeliness**: How up-to-date are the data? How many datasets
-    that were published more than a year ago have been updated within
-    the past year?
-
-If we think of datasets as data points, it is natural for us to
-get creative about the data that we collect about each dataset.
 
 ## Conclusion
 Open data portals make it easier to consume data once someone
