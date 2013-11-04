@@ -2,17 +2,10 @@
 title: Data set as Data point
 ---
 <!-- For the winter issue of Socrata's magazine -->
-I've recently been collecting and studying
-[data about open data](/open-data).
-
-The main inspiration for all of these studies is the idea that
-any collection of things could be seen as data to be analyzed.
 
 ## Data set as data point
-Specifically, even a collection of datasets could be treated
-as a dataset of datasets, with a record for each particular
-dataset.
-
+A collection of datasets could be treated as a dataset
+of datasets, with a record for each particular dataset.
 When datasets are points within a super-dataset,
 we can naturally do a bunch of standard data things.
 For example, we can calculate statistics like
