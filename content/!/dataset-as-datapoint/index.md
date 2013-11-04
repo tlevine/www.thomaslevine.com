@@ -17,10 +17,10 @@ of datasets, with a record for each particular dataset.
 When datasets are points within a super-dataset,
 we can naturally do a bunch of standard data things.
 For example, we can calculate statistics like
-[how many datasets have licenses](/!/open-data-licensing),
+[how many datasets have licenses](http://thomaslevine.com/!/open-data-licensing),
 we can model networks of the
 [use of the data](http://www.chriswhong.com/nycopendata/),
-and we can look for [out-lying data points](/!/socrata-users/).
+and we can look for [out-lying data points](http://thomaslevine.com/!/socrata-users/).
 
 ## Metadata as data
 The term "metadata" is sort of funny to me.
@@ -54,7 +54,7 @@ about how to open government data, but these are based strongly
 on personal experience about opening data and not on
 more on precise, quantitative data about opening data.
 
-I've seen [comparatively little](/open-data) work that uses data
+I've seen [comparatively little](http://thomaslevine.com/open-data) work that uses data
 about open data efforts to come up with guidelines or
 decisions about the opening of data. Similarly, no data catalog
 software I've seen implements standard
