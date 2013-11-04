@@ -22,8 +22,6 @@ we can model networks of the
 [use of the data](http://www.chriswhong.com/nycopendata/),
 and we can look for [out-lying data points](/!/socrata-users/).
 
-![](spreadsheet-spreadsheet.png)
-
 ## Metadata as data
 The term "metadata" is sort of funny to me.
 When people talk about "metadata", they're
@@ -32,6 +30,8 @@ and framing the data rather than stuff on which you would do
 "data analysis". That is, metadata are things that you would use
 for styling webpages, and searching datasets,
 but you would never put them in a spreadsheet.
+
+![Metadata in a spreadsheet](spreadsheet-spreadsheet.png)
 
 It doesn't have to be this way.
 If datasets are data points in a larger table, the metadata
