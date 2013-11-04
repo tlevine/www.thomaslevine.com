@@ -5,25 +5,39 @@ title: Data set as Data point
 I've recently been collecting and studying
 [data about open data](/open-data).
 
-## Data set as data point
 The main inspiration for all of these studies is the idea that
 any collection of things could be seen as data to be analyzed.
 
+## Data set as data point
 Specifically, even a collection of datasets could be treated
 as a dataset of datasets, with a record for each particular
 dataset.
 
-## Metadata as data
-The term "metadata" is sort of funny. Metadata are data about
-data, but they're still data, so do we really need another term
-for it? In studying metadata about 100,000 datasets, I started
-to see what it means.
+When datasets are points within a super-dataset,
+we can naturally do a bunch of standard data things.
+For example, we can calculate statistics like
+[how many datasets have licenses](/!/open-data-licensing),
+we can model networks of the
+[use of the data](http://www.chriswhong.com/nycopendata/),
+and we can look for [out-lying data points](/!/socrata-users/).
 
+## Metadata as data
+If datasets are data points in a larger table, the metadata
+about the included datasets correspond to the data in our
+super-dataset. I think this is a bit different from how people
+normally see metadata.
+The term "metadata" is sort of funny to me.
+Metadata are data about
+data, but they're still data, so do we really need another term
+for them?
+
+In studying metadata about 100,000 datasets, I started
+to see why this term exists.
 When people talk about "metadata", they're
 usually thinking of stuff that you'd use for cataloging
 and framing the data rather than stuff on which you would do
 "data analysis". That is, metadata are things that you would use
-for styling webpages, titling graphs, and searching datasets,
+for styling webpages, and searching datasets,
 but you would never put them in a spreadsheet.
 Of course, it doesn't have to be this way.
 
