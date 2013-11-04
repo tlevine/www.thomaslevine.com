@@ -51,7 +51,7 @@ initiatives haven't been particularly data-driven. I've seen a
 [case](http://ckan.org/case-studies/)
 [studies](http://theodi.org/case-studies)
 about how to open government data, but these are based strongly
-on personal experience about opening data rather than being based
+on personal experience about opening data and not on
 more on precise, quantitative data about opening data.
 
 I've seen [comparatively little](/open-data) work that uses data
@@ -72,11 +72,11 @@ and we automate some processes for checking the
 quality of datasets or for correcting them.
 This is what it would mean for our open data efforts to be driven by data.
 
-As far as I can tell, our open data efforts aren't data-driven right now.
-But it shouldn't be hard to change that. Most data catalogs are already
+Our open data efforts aren't data-driven right now,
+but it shouldn't be hard to change that. Most data catalogs are already
 collecting some sort of data about how people use their datasets, and we
 can study these existing data to drive our decisions about open data.
-The main thing that's missing is just a shift in our thinking.
+We're technically pretty close; we mostly need a shift in thinking.
 
 ## Conclusion
 Open data portals make it easier to organize our data for publication,
