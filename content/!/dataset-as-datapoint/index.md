@@ -1,5 +1,5 @@
 ---
-title: Data set as Data point
+title: Data set as data point
 ---
 <!-- For the winter issue of Socrata's magazine -->
 How can we tell whether our open data efforts are working,
