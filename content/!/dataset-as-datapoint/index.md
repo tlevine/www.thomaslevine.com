@@ -76,6 +76,9 @@ quality of datasets or for correcting them.
 But we aren't, and this is what I mean when I say that our open data
 iniatives aren't data-driven.
 
+I find it quite amusing to say that open data initatives aren't driven
+by data, but I'd much rather be able to say that they are.
+
 Amusingly and unfortunately, we aren't taking
 advantage of these data to figure out how to make open data better.
 
@@ -86,8 +89,8 @@ bigger picture of what's going on, what's working, and what isn't.
 We can't really tell what sorts of data are available, who's using them,
 what impact they're having, or whether they are of good quality.
 
-We need to give data publishers and data consumers a better picture
-of what is going on in open data portals.
+By collecting data about the use of open data, we can get a
+better picture of what is going on in open data.
 
 Let's start thinking of datasets as datapoints so that we can use
 data about data to drive our open-data initatives.
