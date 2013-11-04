@@ -88,5 +88,5 @@ what impact they're having, or whether they are of good quality.
 By collecting data about the use of open data, we can get a
 better picture of what is going on in open data and make data-driven
 decisions about open data.
-Let's start thinking of datasets as datapoints so that we can use
-data about data to drive our open data initatives.
+Let's start thinking of datasets as data points so that we can use
+data about data to drive our open data initiatives.
