@@ -59,11 +59,24 @@ more on precise, quantitative data about opening data.
 
 I've seen [comparatively little](/open-data) work that uses data
 about open data efforts to come up with guidelines or
-decisions about the opening of data. Similarly, standard
+decisions about the opening of data. Similarly, no data catalog
+software I've seen implements standard
 data-driven features like randomized experiments (A/B testing)
-and recommender systems aren't implemented in any data catalog
-software that I've seen. We are releasing lots of open data and
-producing data about our release of data, but we aren't taking
+and recommender systems.
+
+By releasing lots of open data, we are also
+producing data about our release of data.
+We could use these data to make our open data initiatives more data-driven.
+That is, we could measure people use the data that we are putting up;
+we could figure out who tends to use which datasets and which formats
+are best for different people; we could help people find datasets that
+they wouldn't have thought to search for;
+and we automate some processes for checking the
+quality of datasets or for correcting them.
+But we aren't, and this is what I mean when I say that our open data
+iniatives aren't data-driven.
+
+Amusingly and unfortunately, we aren't taking
 advantage of these data to figure out how to make open data better.
 
 ## Conclusion
