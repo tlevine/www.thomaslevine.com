@@ -2,6 +2,14 @@
 title: Data set as Data point
 ---
 <!-- For the winter issue of Socrata's magazine -->
+How can you tell whether your open data efforts are working,
+and how do you make decisions about your open data strategy?
+Maybe we can use data to drive some of these decisions.
+
+Our open data efforts have advanced enough that we have lots
+of data about how people publish and consume open data. With
+a slight shift in our way of thinking, we can use these data
+about open data to make our open data efforts data-driven.
 
 ## Data set as data point
 A collection of datasets could be treated as a dataset
@@ -15,29 +23,23 @@ we can model networks of the
 and we can look for [out-lying data points](/!/socrata-users/).
 
 ## Metadata as data
-If datasets are data points in a larger table, the metadata
-about the included datasets correspond to the data in our
-super-dataset. I think this is a bit different from how people
-normally see metadata.
 The term "metadata" is sort of funny to me.
-Metadata are data about
-data, but they're still data, so do we really need another term
-for them?
-
-In studying metadata about 100,000 datasets, I started
-to see why this term exists.
 When people talk about "metadata", they're
 usually thinking of stuff that you'd use for cataloging
 and framing the data rather than stuff on which you would do
 "data analysis". That is, metadata are things that you would use
 for styling webpages, and searching datasets,
 but you would never put them in a spreadsheet.
+
 Of course, it doesn't have to be this way.
+If datasets are data points in a larger table, the metadata
+about the included datasets correspond to the data in our
+super-dataset.
 
 When we see datasets as data points, we see metadata as data.
 Inside of our collection of datasets, we have a record for each
 sub-dataset, and this record is composed of metadata about that
-sub-dataset.
+sub-dataset. Metadata isn't any different from any other data.
 
 ## Why this matters: Data-driven open data
 Ironically, our open data
@@ -66,24 +68,23 @@ are best for different people; we could help people find datasets that
 they wouldn't have thought to search for;
 and we automate some processes for checking the
 quality of datasets or for correcting them.
-But we aren't, and this is what I mean when I say that our open data
-iniatives aren't data-driven.
+This is what it would mean for our open data efforts to be driven by data.
 
-I find it quite amusing to say that open data initatives aren't driven
-by data, but I'd much rather be able to say that they are.
-
-Amusingly and unfortunately, we aren't taking
-advantage of these data to figure out how to make open data better.
+As far as I can tell, our open data efforts aren't data-driven right now.
+But it shouldn't be hard to change that. Most data catalogs are already
+collecting some sort of data about how people use their datasets, and we
+can study these existing data to drive our decisions about open data.
+The main thing that's missing is just a shift in our thinking.
 
 ## Conclusion
-Open data portals make it easier to consume data once someone
-has decided to publish them, but they don't yet give us the
+Open data portals make it easier to organize our data for publication,
+but they don't yet give us the
 bigger picture of what's going on, what's working, and what isn't.
 We can't really tell what sorts of data are available, who's using them,
 what impact they're having, or whether they are of good quality.
 
 By collecting data about the use of open data, we can get a
-better picture of what is going on in open data.
-
+better picture of what is going on in open data and make data-driven
+decisions about open data.
 Let's start thinking of datasets as datapoints so that we can use
-data about data to drive our open-data initatives.
+data about data to drive our open data initatives.
