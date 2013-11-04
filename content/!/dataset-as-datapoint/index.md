@@ -2,14 +2,14 @@
 title: Data set as Data point
 ---
 <!-- For the winter issue of Socrata's magazine -->
-How can you tell whether your open data efforts are working,
-and how do you make decisions about your open data strategy?
+How can we tell whether our open data efforts are working,
+and how do we make decisions about our open data strategy?
 Maybe we can use data to drive some of these decisions.
 
 Our open data efforts have advanced enough that we have lots
 of data about how people publish and consume open data. With
 a slight shift in our way of thinking, we can use these data
-about open data to make our open data efforts data-driven.
+about open data to make better decisions about open data.
 
 ## Data set as data point
 A collection of datasets could be treated as a dataset
@@ -22,6 +22,8 @@ we can model networks of the
 [use of the data](http://www.chriswhong.com/nycopendata/),
 and we can look for [out-lying data points](/!/socrata-users/).
 
+![](spreadsheet-spreadsheet.png)
+
 ## Metadata as data
 The term "metadata" is sort of funny to me.
 When people talk about "metadata", they're
@@ -31,7 +33,7 @@ and framing the data rather than stuff on which you would do
 for styling webpages, and searching datasets,
 but you would never put them in a spreadsheet.
 
-Of course, it doesn't have to be this way.
+It doesn't have to be this way.
 If datasets are data points in a larger table, the metadata
 about the included datasets correspond to the data in our
 super-dataset.
