@@ -38,7 +38,7 @@ In a dataset of other datasets (e.g. a super-dataset), you create a single row o
 
 ![Number of datasets by data portal](http://thomaslevine.com/!/socrata-deduplicate/histogram.png)
 
-how data are [queried and reported](http://www.chriswhong.com/nycopendata/),
+how data is [queried and reported](http://www.chriswhong.com/nycopendata/),
 
 ![Visualizing NYC's open data](http://media.tumblr.com/615d48b9924a6d857937ef274133e944/tumblr_inline_mrsb74gFdc1qz4rgp.png)
 
