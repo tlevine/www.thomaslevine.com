@@ -5,7 +5,35 @@ title: How to Make Open Data Data-Driven
 
 The opening of data has advanced and is now a well-documented process. There is data on how people publish and consume open data, which means you can set up data-backed benchmarks and projections and make data-driven decisions about your strategy for opening data.
 
-How is this possible? Datasets are complicated, but we can extract simple properties from the datasets, like the number of missing values and the number of columns. In addition to the dataset itself, we also have metadata published alongside the dataset; metadata tells us things like who published the data and how many times it has been downloaded. By extracting some properties from each dataset and collecting metadata about each dataset, it’s possible to create a dataset about the structure, publication, and use of other datasets.
+How is this possible? Datasets are complicated, but we can extract simple properties from the datasets, like the number of missing values and the number of columns.
+
+![Extracting simple properties from datasets](dataset-features.png)
+
+In addition to the dataset itself, we also have metadata published alongside the dataset; metadata tells us things like who published the data and how many times it has been downloaded. Below are some metadata (from [here](https://data.mo.gov/views/mahp-izvx.json)) about Missouri's [open meetings calendar](https://data.mo.gov/Government-Administration/Open-Meetings-Calendar/mahp-izvx).
+
+    "id" : "mahp-izvx",
+    "name" : "Open Meetings Calendar",
+    "averageRating" : 0,
+    "category" : "Government Administration",
+    "createdAt" : 1337110426,
+    "description" : "Schedule of Missouri Open Meetings",
+    "displayType" : "calendar",
+    "downloadCount" : 68,
+    "iconUrl" : "10D0D792-72EC-474C-8605-2958B80EE8A2",
+    "moderationStatus" : true,
+    "newBackend" : false,
+    "numberOfComments" : 0,
+    "oid" : 6433334,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1384531257,
+    "publicationGroup" : 326921,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1384531248,
+    "rowsUpdatedBy" : "8xqn-4t42",
+
+By extracting some properties from each dataset and collecting metadata about each dataset, it’s possible to create a dataset about the structure, publication, and use of other datasets.
+
+
 
 ## Datasets as Data Points
 
