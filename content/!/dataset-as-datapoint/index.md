@@ -34,7 +34,21 @@ In addition to the dataset itself, we also have metadata published alongside the
 By extracting some properties from each dataset and collecting metadata about each dataset, it’s possible to create a dataset about the structure, publication, and use of other datasets.
 
 ## Datasets as Data Points
-In a dataset of other datasets (e.g. a super-dataset), you create a single row or record (a data point) about each dataset, containing information like when that dataset was published, what kind of data it contains, etc. With this setup, you can naturally perform all kinds of functions and analysis about the publication and use of other datasets: you can look for [outlying data points](http://thomaslevine.com/!/socrata-users/), model networks of [use of the data](http://www.chriswhong.com/nycopendata/), and calculate statistics like [how many datasets have licenses](http://thomaslevine.com/!/open-data-licensing).
+In a dataset of other datasets (e.g. a super-dataset), you create a single row or record (a data point) about each dataset, containing information like when that dataset was published, what kind of data it contains, etc. With this setup, you can naturally perform all kinds of functions and analysis about the publication and use of other datasets: you can look at [how many datasets are on different catalogs](http://thomaslevine.com/!/socrata-deduplicate/),
+
+![Number of datasets by data portal](http://thomaslevine.com/!/socrata-deduplicate/histogram.png)
+
+how data are [queried and reported](http://www.chriswhong.com/nycopendata/),
+
+![Visualizing NYC's open data](http://media.tumblr.com/615d48b9924a6d857937ef274133e944/tumblr_inline_mrsb74gFdc1qz4rgp.png)
+
+what [licenses](http://thomaslevine.com/!/open-data-licensing) datasets have,
+
+![What licenses do datasets have?](http://thomaslevine.com/!/open-data-licensing/p2.png)
+
+and how many of them are [traffic surveys](http://thomaslevine.com/!/missouri-data-licensing/).
+
+![Traffic surveys](http://thomaslevine.com/!/missouri-data-licensing/figure/pdf_trafficsurvey.png)
 
 So how do you obtain information about each dataset? First, you find a dataset online. Then, you look at the metadata for the website on which it was published. 
 
@@ -46,7 +60,6 @@ However, if you import metadata about a dataset into a super-dataset, that metad
 ![Metadata in a spreadsheet](spreadsheet-spreadsheet.png)
 
 ## Why This Matters
-
 Ironically, open data initiatives so far haven't been particularly data-driven. There are numerous case studies
 ([Code for America](http://beyondtransparency.org/),
 [Socrata](http://www.socrata.com/case-studies/),
@@ -61,7 +74,6 @@ By opening data, people are also producing data about their release of data, whi
 Open data efforts aren't very data-driven right now, but it shouldn't be hard to change that. Most data catalogs are already collecting some sort of data about how people use their datasets, and it’s possible to study existing data to drive decisions about open data. This is almost achievable and mostly just requires a shift in thinking.
 
 ## Open Data Should Be Data-Driven
-
 Open data portals make it easier to organize data for publication, but they don't yet provide the bigger picture of what's going on, what's working, and what isn't. It’s impossible to really tell what sorts of data are available, who's using them, what impact they're having, or whether they are of good quality.
 
 Collecting data about the use of open data forms a clearer picture of what is happening in open data. Making data-driven decisions about open data becomes achievable. All it takes is for people to start thinking of metadata as data and see datasets as data points.
