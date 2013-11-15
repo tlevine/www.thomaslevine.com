@@ -7,7 +7,7 @@ The opening of data has advanced and is now a well-documented process. There is 
 
 How is this possible? Datasets are complicated, but we can extract simple properties from the datasets, like the number of missing values and the number of columns.
 
-![Extracting simple properties from datasets](dataset-features.png)
+![Extracting simple properties from datasets](dataset-features.jpg)
 
 In addition to the dataset itself, we also have metadata published alongside the dataset; metadata tells us things like who published the data and how many times it has been downloaded. Below are some metadata (from [here](https://data.mo.gov/views/mahp-izvx.json)) about Missouri's [open meetings calendar](https://data.mo.gov/Government-Administration/Open-Meetings-Calendar/mahp-izvx).
 
