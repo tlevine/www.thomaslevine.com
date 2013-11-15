@@ -5,7 +5,7 @@ title: Open Data Had Better Be Data-Driven
 
 The opening of data has advanced and is now a well-documented process. There is data on how people publish and consume open data, which means you can set up data-backed benchmarks and projections and make data-driven decisions about your strategy for opening data.
 
-How is this possible? Datasets are complicated, but we can extract simple properties from the datasets, like the number of missing values and the number of columns.
+How is this possible? Datasets are complicated, but we can extract simple properties from the datasets, like the number of records, the number of missing values, and the date of the oldest record.
 
 ![Extracting simple properties from datasets](dataset-features.jpg)
 
