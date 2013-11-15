@@ -33,18 +33,15 @@ In addition to the dataset itself, we also have metadata published alongside the
 
 By extracting some properties from each dataset and collecting metadata about each dataset, it’s possible to create a dataset about the structure, publication, and use of other datasets.
 
-
-
 ## Datasets as Data Points
-
 In a dataset of other datasets (e.g. a super-dataset), you create a single row or record (a data point) about each dataset, containing information like when that dataset was published, what kind of data it contains, etc. With this setup, you can naturally perform all kinds of functions and analysis about the publication and use of other datasets: you can look for [outlying data points](http://thomaslevine.com/!/socrata-users/), model networks of [use of the data](http://www.chriswhong.com/nycopendata/), and calculate statistics like [how many datasets have licenses](http://thomaslevine.com/!/open-data-licensing).
 
 So how do you obtain information about each dataset? First, you find a dataset online. Then, you look at the metadata for the website on which it was published. 
 
 ## Metadata as Data
-Metadata is information about the creation and use of a web page and its contents. Metadata often doesn’t appear on the page itself, but in the page’s code. The term "metadata" is sort of funny because people don’t typically think of metadata as actual data, just information used to style webpages and make them appear on search engine queries. They don’t think of it as data capable of analysis. 
+Even though the word "metadata" contains the word "data", people don’t typically think of metadata as actual data. In the context of open data, we use metadata to search for data, label charts, and interpret specific datasets; we don’t think of metadata as data that we can analyze. 
 
-However, if you import metadata about a dataset into a super-dataset, that metadata suddenly becomes real data, offering meaningful information such as time of publication, description of content, download count, etc.
+However, if you import metadata about a dataset into a super-dataset, that metadata suddenly becomes real data, offering meaningful information such as time of publication, description of content, and download count.
 
 ![Metadata in a spreadsheet](spreadsheet-spreadsheet.png)
 
