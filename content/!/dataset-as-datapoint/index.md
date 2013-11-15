@@ -1,5 +1,5 @@
 ---
-title: How to Make Open Data Data-Driven
+title: Open Data Had Better Be Data-Driven
 ---
 <!-- For the winter issue of Socrata's magazine -->
 
