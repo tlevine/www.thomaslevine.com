@@ -56,6 +56,8 @@ In these cases, we're collecting a super-dataset about open data in order to stu
 ## Metadata as Data
 Even though the word "metadata" contains the word "data", people don’t typically think of metadata as actual data. In the context of open data, we use metadata to search for data, label charts, and interpret specific datasets; we don’t think of metadata as data that we can analyze. 
 
+![Metadata on a webpage](calendar-metadata.png)
+
 However, if you import metadata about a dataset into a super-dataset, that metadata suddenly becomes real data, offering meaningful information such as time of publication, description of content, and download count.
 
 ![Metadata in a spreadsheet](spreadsheet-spreadsheet.png)
