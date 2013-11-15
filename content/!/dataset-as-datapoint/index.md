@@ -5,7 +5,7 @@ title: How to Make Open Data Data-Driven
 
 The opening of data has advanced and is now a well-documented process. There is data on how people publish and consume open data, which means you can set up data-backed benchmarks and projections and make data-driven decisions about your strategy for opening data.
 
-How is this possible? The opening of data now takes the form of datasets being published online. Surrounding the publication and use of each dataset is metadata. By collecting this metadata, it’s possible to create a dataset about the publication and use of other datasets.
+How is this possible? Datasets are complicated, but we can extract simple properties from the datasets, like the number of missing values and the number of columns. In addition to the dataset itself, we also have metadata published alongside the dataset; metadata tells us things like who published the data and how many times it has been downloaded. By extracting some properties from each dataset and collecting metadata about each dataset, it’s possible to create a dataset about the structure, publication, and use of other datasets.
 
 ## Datasets as Data Points
 
