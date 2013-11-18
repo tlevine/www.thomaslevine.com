@@ -18,8 +18,7 @@ and the color pink.
 Playing with computers since he was young, Tom eventually developed back and wrist pain,
 so he started studying ergonomics and conducting quantitative ergonomics research.
 His back and wrists don't hurt as much, and now people call him a data scientist.
-He also has a band called
-[csv soundsystem](http://csvsoundsystem.com) that makes music from spreadsheets.
+He also has a [band](http://csvsoundsystem.com) that makes music from spreadsheets.
 
 ## Complicated version
 
@@ -89,6 +88,7 @@ And he's strange in other ways.
 > Thomas Levine... doesn't know who Messi is.
 >
 > [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
+-->
 
 ## About this site
 
