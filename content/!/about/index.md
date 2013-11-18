@@ -32,6 +32,7 @@ While it's nice that Tom can make things more efficient, he suspects that
 improving efficiency is more efficiently accomplished when he teaches other
 people to make things more efficient more efficiently.
 
+<% if false %>
 <!--
 Tom thinks that this
 explains why he does ergonomics research and data science. (By the way, Tom
@@ -89,6 +90,7 @@ And he's strange in other ways.
 >
 > [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
 -->
+<% end %>
 
 ## About this site
 
