@@ -12,4 +12,5 @@ facebook_description: Everyone wins when we open up data.
 <video poster="screenshot.png" src="open-data-in-plain-english.webm" controls width="100%"></video>
 
 I found this video [on YouTube](http://www.youtube.com/watch?v=aHxv_2BMJfw)
-and then translated the audio to English.
+and then [translated](https://github.com/tlevine/open-data-a-la-loupe)
+the audio to English.
