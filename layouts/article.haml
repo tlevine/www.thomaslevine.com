@@ -1,11 +1,10 @@
 %nav
   = render '_nav_boxes'
 
-%header.title-card
-  = render('_title_card', :item => item, :link => false)
-
 #article-wrapper
-  %article~yield
+  %article
+    %h1=@item[:title]
+    ~yield
 
 #pagination
   .base-little-card
