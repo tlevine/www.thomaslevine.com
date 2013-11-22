@@ -17,5 +17,10 @@ I wound up with "occurrence". Here are some other ideas.
 
 Some other ideas are [here](http://marvin.cs.uidaho.edu/misspell.html).
 
+By May 2013, I had
 I settled on a large list of them that randomly populates a field on my website.
-Now to make calling cards with random hard-to-spell words.
+
+Within a few months, however, I'd already come up with something
+[even more hilarious](/!/dot-at-thomaslevine-dot-com).
+
+But I might still make calling cards with those random hard-to-spell words.

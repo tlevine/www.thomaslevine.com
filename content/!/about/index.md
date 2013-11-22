@@ -11,9 +11,9 @@ pretend-ironic buzzwords
 and the color pink.
 
 ## Longer version
--->
 
 ## Simple version
+-->
 
 Playing with computers since he was young, Tom eventually developed back and wrist pain,
 so he started studying ergonomics and conducting quantitative ergonomics research.

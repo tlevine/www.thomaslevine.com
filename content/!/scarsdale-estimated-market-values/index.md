@@ -4,6 +4,7 @@ short_title: Tax bill "market value"
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2013-01-14
+other_source: https://github.com/tlevine/scarsdale-data
 ---
 Scarsdale's tax bills look like this.
 

@@ -4,6 +4,7 @@ short_title: Village funds
 tags: ['scarsdale', 'data']
 kind: article
 created_at: 2012-12-14
+other_source: https://github.com/tlevine/scarsdale-data
 ---
 
 What does Scarsdale Village spend money on, and how does it change over time?

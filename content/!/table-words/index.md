@@ -12,11 +12,12 @@ tags: ['datakind']
 }
 </style>
 
-## I like tables.
 In order to understand how the world works, I collect data
 about it and then apply a bunch of fancy quantitative methods
 A lot of these methods expect data to be represented in
-data tables. When people like me work with tables so much,
+data tables. I like tables.
+
+When people like me work with tables so much,
 we come up with lots of fancy words to describe all of the
 different parts of a table. Today, I hope to teach you what
 all of these different words mean.

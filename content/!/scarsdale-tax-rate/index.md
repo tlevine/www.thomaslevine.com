@@ -4,6 +4,7 @@ short_title: Taxes and inflation
 tags: ['scarsdale', 'data']
 created_at: 2013-03-27
 kind: article
+other_source: https://github.com/tlevine/scarsdale-data
 ---
 
 I took some [information](https://github.com/tlevine/scarsdale-data/blob/master/budget/appendix_a1-tax.csv)

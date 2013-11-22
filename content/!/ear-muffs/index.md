@@ -3,8 +3,6 @@ title: Earmuffs
 created_at: 2013-07-06
 kind: article
 ---
-
-## Previous ear muffs
 Ear plugs get annoying, so I got a pair of ear muffs two and a half years ago on
 Christmas. <!-- thread:00000000000116c9 -->
 They're the [Glock Peltor Hearing Protector Muffs AP60212](http://www.opticsplanet.com/glock-peltor-hearing-protector-muffs.html).

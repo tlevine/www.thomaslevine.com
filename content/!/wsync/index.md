@@ -2,6 +2,7 @@
 title: Datestamped archives of a webpage
 kind: article
 created_at: 2013-04-28
+other_source: https://github.com/tlevine/wsync
 ---
 I like to encapsulate the non-deterministic parts of data analysis systems,
 particularly the acquisition of data from a remote server.

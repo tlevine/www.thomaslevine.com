@@ -11,8 +11,6 @@ facebook_title: Lots of datasets on open data portals are openly licensed
 facebook_description: But most aren't.
 facebook_image: square.png
 ---
-## Open data are "open", but do their licenses reflect that?
-
 I downloaded all of the metadata files from 102 open data
 portals hosted on CKAN, Socrata and OpenDataSoft. Each of
 these data portal softwares has a metadata field for the

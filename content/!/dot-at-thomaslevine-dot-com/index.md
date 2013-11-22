@@ -9,8 +9,6 @@ facebook_image: facebook.png
 created_at: 2013-10-13
 kind: article
 ---
-
-## Choosing an email address
 Since I can have any address at thomaslevine.com,
 I've had a hard time choosing one. There's a fun,
 long story about previous email addresses, and I

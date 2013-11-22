@@ -3,6 +3,7 @@ title: setxkbmap aliases
 kind: article
 created_at: 2013-07-01
 tags: ['dotfiles']
+other_source: https://github.com/tlevine/.prophyl-teh-awesum
 ---
 
 I normally use the Dvorak keyboard layout, so I configure Dvorak to be the

@@ -11,11 +11,11 @@ tweet_link: https://twitter.com/thomaslevine/status/364801819756609536
 facebook_text: Is there a name for higher-power measures of center (beyond mode, median and mean)?
 facebook_link: https://www.facebook.com/perluette/posts/2513611884337
 ---
-## Sums of shapes
 Let's say we have a bunch of numbers, represented by the tick marks towards
 the bottom the fancy interactive plot drawing thingy below. Next, we chose
 some other number, represented by the big pink bar that you can drag.
 
+## Sums of shapes
 For each number in our bunch (each tick mark), we could draw a line from the
 number to the other number we chose (the pink bar). Then we could draw a square
 for each of these numbers with a side as long as the this line. (These squares

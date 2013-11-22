@@ -16,7 +16,7 @@ Perhaps you are wondering what a protocol is.
 
 "Protocol" is one of those words that sounds more special than it really is.
 The concept of a computer protocol might sound quite complex, but
-it's a rather generic concept that is something like a language,
+it's a rather generic concept; it's something like a language,
 an expectation, and a social norm.
 
 The way a particular protocol works might be quite complicated, but
@@ -72,7 +72,7 @@ intersection must have between one and four poles.
 
 Poles must be mounted within about ten feet of a corner of the intersection
 but not on the paved area of the street or the intersection. (It is okay for them
-to be mounted on the sidewalk.) It must stick straight out of the ground; the long
+to be mounted on the sidewalk.) Each pole must stick straight out of the ground; the long
 axis of the cylinder must be approximately in line with the direction of gravity.
 
 Each street sign displays the name of one street. The street sign must include the
@@ -98,7 +98,7 @@ outputs SSSP (two street signs mounted to a pole near the intersection).
     of sidewalks, the traffic patterns and the presence of visual obstacles
     like trees.
 2. Print the signs with the street names.
-3. Cast a pole.
+3. Fabricate a pole.
 4. Put a pole and street signs on a truck.
 5. Drive the truck to the intersection, and park nearby.
 6. Carry the materials and some tools to the intersection.

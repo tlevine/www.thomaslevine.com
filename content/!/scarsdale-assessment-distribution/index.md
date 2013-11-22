@@ -3,6 +3,7 @@ title: Assessed property values
 created_at: 2013-05-25
 kind: article
 tags: ['scarsdale']
+other_source: https://github.com/tlevine/scarsdale-data
 ---
 
 [Jake](https://twitter.com/jbialer/) found me the Scarsdale Assessor's 

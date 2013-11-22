@@ -53,11 +53,11 @@ the changes.
 Simplify
 -------------
 
-Let's write custom SQLite functions to simplify this retrieval.
+I suppose we could write custom functions to simplify this retrieval.
 
     SELECT * FROM foo WHERE version(*) = 12
 
-And let's allow you to specify tags.
+Maybe it lets you do tags too.
 
     SELECT * FROM foo WHERE version(*) = "master";
     SELECT * FROM foo WHERE version(*) = "0.2.1";

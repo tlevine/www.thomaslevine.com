@@ -1,5 +1,5 @@
 ---
-title: Who uses Socrata's analysis tools?
+title: Who uses Socrata's in-browser charting features?
 description: That time I downloaded all of the 80,000 Socrata datasets, I also downloaded the 10,000 users.
 tweet_text: That time I downloaded all of the 80,000 @socrata datasets, I also downloaded the 10,000 users.
 twitter_title: Some people actually use @socrata's web-based analysis tools!
@@ -8,6 +8,7 @@ created_at: 2013-07-25
 twitter_image: user-model.jpg
 kind: article
 tags: ['socrata', 'open-data']
+other_source: https://github.com/tlevine/socrata-analysis
 ---
 I recently downloaded the metadata files for all
 of the datasets on all of the Socrata portals (for a particular definition

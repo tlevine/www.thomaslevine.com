@@ -13,6 +13,7 @@ facebook_title: And guess which ones are the most popular.
 facebook_description: This one time, I downloaded all of Socrata's datasets and analyzed them.
 tweet_link: https://twitter.com/thomaslevine/status/353952098762760193
 facebook_link: https://www.facebook.com/perluette/posts/2480962388120
+other_source: https://github.com/tlevine/socrata-download
 ---
 <% root = 'https://github.com/tlevine/socrata-download/tree/master/' %>
 

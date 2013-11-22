@@ -6,6 +6,7 @@ tweet_text: Ironic hipsters do web bookmarking in shell.
 tweet_link: https://twitter.com/thomaslevine/status/348835176618553346
 description: Underwhelmed by existing bookmark programs, I wound up writing my own.
 twitter_image: tags.png
+other_source: https://github.com/tlevine/medial_temporal_lobe
 ---
 I used to use [delicious](https://delicious.com/tlevine),
 but I always found it rather clumsy. I tried

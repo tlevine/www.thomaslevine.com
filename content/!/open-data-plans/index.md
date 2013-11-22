@@ -8,9 +8,7 @@ tweet_link: https://twitter.com/thomaslevine/status/379995229018796032
 tweet_title: Or you can just steal them.
 description: Talking to lots of people, I've been accumulating lots of ideas of things you could do with data about open data.
 ---
-I've brief suspended my open data studies to prepare
-some things for [Zipfian Academy](http://zipfianacademy)'s
-first twelve-week course, but I've been accumulating
+I've been accumulating
 lots of ideas of things you could do with data about
 open data. I plan on doing a lot of them, but I
 probably can't do all, so you should take one of these

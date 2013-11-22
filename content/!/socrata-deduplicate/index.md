@@ -9,6 +9,7 @@ description: I finally deduplicated the Socrata dataset data.
 twitter_image: figure/network.png
 facebook_image: figure/network.png
 tags: ['socrata', 'open-data']
+other_source: https://github.com/tlevine/socrata-defederate
 ---
 Lots of governments use Socrata data portals to release their open data.
 This results in a super-dataset of datasets that tells us something about
@@ -90,7 +91,7 @@ My [first version](/!/socrata-summary/#sizes), also below, includes both types o
 The [version that uses `data.json`](/!/socrata-formats/#how-many-datasets), also below,
 doesn't have the derived-view duplication, but it does have the federation duplication.
 
-![data.json version](http://localhost:3000/!/socrata-formats/figure/portal-counts.png)
+![data.json version](/!/socrata-formats/figure/portal-counts.png)
 
 ### Dataset creation dates
 I also plotted dataset creation dates over time.
