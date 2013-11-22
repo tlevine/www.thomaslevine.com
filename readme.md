@@ -26,10 +26,13 @@ tags
 
 `main_class`
 : This is the body class. You probably don't want to use it inside an article; it's more
-    for layouts..
+    for layouts.
 
 `tweet_link`
 : The "Discuss" link sends people here.
+
+`other_source`
+: If you include this, an "Other source" link to `other_source` will appear under "View Source"
 
 `description`
 : This goes in the metadata in the page.

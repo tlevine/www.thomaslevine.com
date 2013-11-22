@@ -9,11 +9,9 @@ facebook_image: OAKVOLKER-5-HR-2009-A-TMC-diagram.png
 kind: article
 created_at: 2013-10-29
 tags: ['open-data']
+other_source: https://github.com/tlevine/socrata-catalog/
 ---
 
-<!-- https://github.com/tlevine/socrata-catalog/ -->
-
-## Which specific datasets have license metadata?
 I recently [found](/!/open-data-licensing) that most datasets on the
 open data portals I've been looking at don't have open licenses or
 public domain dedications.
