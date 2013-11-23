@@ -3,7 +3,15 @@
 
 #article-wrapper
   %article
-    %h1=@item[:title]
+    %header
+      %h1=@item[:title]
+      %em
+        %time{ :datetime => @item[:created_at]}
+          =@item[:created_at].strftime('%B %d, %Y') rescue ''
+      %span.tags
+        - (@item[:tags] || []).each do |tag|
+          =link_to(tag, '/' + tag)
+    %hr
     ~yield
 
 #pagination
