@@ -301,6 +301,18 @@ nav .link
         border-top: 0.25em solid
         border-top-color: $block-background
 
+article header span.tags, article header em
+  color: $article-text !important
+
+article header span.tags
+  float: right
+  a
+    color: $article-background !important
+    background-color: $article-text !important
+
+hr
+  border-color: $pink
+
 // Wide screen
 @media screen and (min-width: ($calling-card-long + $topic-card-width * $square))
   .tag-card, .title-card, .business-card
