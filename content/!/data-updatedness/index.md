@@ -14,7 +14,7 @@ other_source: https://github.com/tlevine/socrata-analysis/tree/master/words/15-d
 the [Sunlight Foundation](http://sunlightfoundation.com/opendataguidelines/#real-time-updates),
 a bunch of
 [open](http://le.utah.gov/~2013/bills/sbillenr/SB0283.pdf)
-[data](http://www.scribd.com/fullscreen/26442622?access_key=key-20rfsh26eu0ob66xlbmu))
+[data](http://www.scribd.com/fullscreen/26442622?access_key=key-20rfsh26eu0ob66xlbmu)
 [policies](http://www.governor.ny.gov/executiveorder/95),
 and probably everyone else says that it's important that open data
 be kept up-to-date. So I was wondering how up-to-date they actually are.
