@@ -1,7 +1,6 @@
 ---
 title: News Hack Day SF
 created_at: 2012-06-02
-tags: ['data']
 relationships: ['scraperwiki']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Scarsdale High School bus schedule weirdness
 short_title: Weird bus schedules
-tags: ['scarsdale', 'data']
+tags: ['scarsdale']
 kind: article
 created_at: 2013-01-25
 other_source: https://github.com/tlevine/scarsdale-data

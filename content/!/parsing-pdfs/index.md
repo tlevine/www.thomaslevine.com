@@ -2,7 +2,6 @@
 title: How I parse PDF files
 created_at: 2013-02-13
 kind: article
-tags: ['data']
 ---
 <style>
 article pre code { font-size: 0.7em; }

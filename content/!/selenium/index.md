@@ -2,7 +2,6 @@
 title: Installing Selenium
 created_at: 2012-04-24
 kind: article
-tags: ['data']
 ---
 
 The Selenium Server documentation is unnecessarily painful;

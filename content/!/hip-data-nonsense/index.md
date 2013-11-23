@@ -2,7 +2,6 @@
 title: Hip 'Data' Terms
 created_at: 2012-01-15
 kind: article
-tags: ['data']
 relationships: ['scraperwiki']
 ---
 I think that 'big data' and 'data science' are usually defined such that the

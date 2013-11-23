@@ -1,6 +1,5 @@
 ---
 title: Addiction Recovery Meetings
-tags: ['data']
 relationships: ['addicaid']
 created_at: 2013-04-07
 kind: article

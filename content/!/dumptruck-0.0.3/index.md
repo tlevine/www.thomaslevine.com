@@ -2,7 +2,6 @@
 title: DumpTruck Version 0.0.3
 created_at: 2012-08-02
 kind: article
-tags: ['data']
 relationships: ['scraperwiki']
 ---
 

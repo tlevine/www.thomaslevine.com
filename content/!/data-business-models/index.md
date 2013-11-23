@@ -2,7 +2,6 @@
 title: Data business models
 created_at: 2013-04-15
 kind: article
-tags: ['data']
 relationships: ['scraperwiki']
 ---
 

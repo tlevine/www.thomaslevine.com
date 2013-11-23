@@ -2,7 +2,6 @@
 title: Twitter Scraper Library 
 created_at: 2012-05-04
 kind: article
-tags: ['data']
 relationships: ['scraperwiki']
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Capital projects
-tags: ['scarsdale', 'data']
+tags: ['scarsdale']
 kind: article
 created_at: 2012-12-23
 ---
