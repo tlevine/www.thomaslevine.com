@@ -1,6 +1,6 @@
 ---
 title: My personal computer infrastructure
-tags: ['compumter']
+tags: ['computer']
 ---
 
 This is the architecture that runs my various sites and other services
