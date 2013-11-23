@@ -49,14 +49,9 @@
     -# Feed link
     %link{ :rel => "alternate", :type => "application/atom+xml", :title => "Thomas Levine", :href => "/!/feed.xml" }
 
-    :javascript
-      if (window.location.host === 'localhost:3000') {
-        // Local for development
-      } else {
-        // CDN otherwise
-        document.write('<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" type="text/css">')
-        document.write('<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML></' + 'script>')
-      }
+    -# CDN
+    %link{ :rel => "stylesheet", :href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700", :type => "text/css" }
+    %script{ :type => "text/javascript", :src => "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" }
 
     -# Style
     %link{ :rel => "stylesheet", :href => "/css/style.css" }
