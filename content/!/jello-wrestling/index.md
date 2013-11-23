@@ -2,7 +2,7 @@
 title: Nude Jello Wrestling
 kind: article
 created_at: 2011-04-21
-tags: ['performance', 'letterpress']
+tags: ['shenanigans', 'letterpress']
 ---
 
 I did a lot of letterpress printing in college.
