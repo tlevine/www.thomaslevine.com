@@ -15,10 +15,12 @@ and the color pink.
 ## Simple version
 -->
 
-Playing with computers since he was young, Tom eventually developed back and wrist pain,
-so he started studying ergonomics and conducting quantitative ergonomics research.
-His back and wrists don't hurt as much, and now people call him a data scientist.
-He also has a [band](http://csvsoundsystem.com) that makes music from spreadsheets.
+Playing with computers since he was young, Tom eventually developed back and
+wrist pain, so he started studying ergonomics and conducting quantitative
+ergonomics research. At some point, people started calling him a data scientist.
+And his back and wrists now hurt less. He recently been playing music with
+[csv soundsystem](http://csvsoundsystem.com) and studying how people publish
+and use [open data](/open-data).
 
 ## Complicated version
 
