@@ -2,7 +2,8 @@
 title: Can we open our open data questionnaires?
 description: I ponder whether GovLab and Sunlight Foundation are sharing data from their open data questionnaires.
 twitter_description: Also, would knowledge that an open data questionnaire was going to be open data get you to fill it out?
-tweet_text: '@GovLab and @SunFoundation, could you share your questionnaire data?'
+tweet_text: '@GovLab and @SunFoundation, I think you should open your open data questionnaire data. http://thomaslevine.com/!/open-data-500-global-open-data-initiative-survey'
+tweet_link: https://twitter.com/thomaslevine/status/405508863719260160
 kind: article
 created_at: 2013-11-27
 tags: ['open-data']
