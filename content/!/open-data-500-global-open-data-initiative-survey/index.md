@@ -2,9 +2,10 @@
 title: Can we open our open data questionnaires?
 description: I ponder whether GovLab and Sunlight Foundation are sharing data from their open data questionnaires.
 twitter_description: Also, would knowledge that an open data questionnaire was going to be open data get you to fill it out?
-tweet_text: @GovLab and @SunFoundation, could you share your questionnaire data?
+tweet_text: '@GovLab and @SunFoundation, could you share your questionnaire data?'
 kind: article
 created_at: 2013-11-27
+tags: ['open-data']
 ---
 On September 19, I got
 [this email](http://us6.campaign-archive2.com/?u=1a990feb5c&id=46f97c829f&e=f59483af9a)
@@ -31,21 +32,22 @@ have, as that probably would have saved some time. But even if they did,
 I find it hilarious that **I** haven't seen the results of at least the
 GovLab questionnaire.
 
-The first Sunlight Foundation's 32 open data guidelines is to
-[set the default to open](http://sunlightfoundation.com/opendataguidelines/#open-by-default),
-so you would think that raw results of at least the GovLab questionnaire
-would have been published by now.
+Lots of people say that much of open data is about
+[setting the default to open](http://sunlightfoundation.com/opendataguidelines/#open-by-default),
+so you would think that raw results of these questionnaires would be published.
+I guess Sunlight might want to wait until it closes the questionnaire before it
+publishes anything, but GovLab could totally have released its data by now.
 
 ## Sharing data to get people to contribute data?
-Each time I saw these questionnaires, I considered sending them to
+When I saw each of these questionnaires, I considered sending it to
 people, but nine days didn't seem like enough time for it to be worth
-me telling people about them. Well that's what I say to myself, but
-I feel like it's really an excuse; there's another reason I don't
-like filling out questionnaires.
+me telling people about them.
 
-That other reason is that I'm generally quite skeptical that anyone
-is going to look closely at the questionnaire. Assembling the questionnaire
-and sending it out is a lot of work already; are they actually going
+Actually, that's not really true; that's what I say to myself, but
+it's really an excuse; the real reason I didn't send them around is
+that I'm generally quite skeptical that anyone is going to look
+closely at the questionnaire. Assembling the questionnaire and
+sending it out is a lot of work already; are they actually going
 to have any energy left once they get the results back?
 
 I wonder: Would opening the results of questionnaires would get me
