@@ -14,7 +14,8 @@ It requested that tell them about companies who are using open data
 by filling out a questionnaire within two weeks (September 27).
 
 On November 24, I saw a tweet about a
-[strangely similar request](http://sunlightfoundation.com/blog/2013/11/20/the-global-open-data-initiative-needs-your-input/),
+[strangely similar request](http://sunlightfoundation.com/blog/2013/11/20/the-global-open-data-initiative-needs-your-input/)
+from the Sunlight Foundation,
 with the questionnaire due November 29.
 
 ## Sharing data to save time
