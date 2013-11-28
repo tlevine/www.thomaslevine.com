@@ -34,6 +34,13 @@ http://www.silentpcreview.com/forums/viewtopic.php?p=205981#p205981
 LCD is sharper and uses less power.
 http://www.projectorcentral.com/lcd_dlp.htm
 
+### Specific models
+P300 looked appealing, even after I saw this.
+http://www.pcmag.com/article2/0,2817,2419443,00.asp
+
+The LED Showtime 3D also looks good.
+http://www.pcmag.com/article2/0,2817,2417095,00.asp
+
 ## My thinking
 I'll get a good pico projector or mod an LCD projector.
 Also, I can check whether my motherboard supports two monitors;
