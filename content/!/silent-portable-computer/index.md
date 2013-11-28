@@ -27,6 +27,9 @@ http://www.silentpcreview.com/forums/viewtopic.php?f=19&t=60032
 This discussion suggests pico projectors as well
 http://www.silentpcreview.com/forums/viewtopic.php?f=19&t=55801
 
+Dampening
+http://www.silentpcreview.com/forums/viewtopic.php?p=205981#p205981
+
 ### I want LCD rather than DLP
 LCD is sharper and uses less power.
 http://www.projectorcentral.com/lcd_dlp.htm
