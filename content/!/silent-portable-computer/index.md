@@ -8,7 +8,9 @@ don't notice it and quite easy to fit in a suitcase. I would like
 to get replace this with something of similar scale that I can
 fit in a backpack.
 
-## SPCR Forums on quiet projectors
+## Review of literature
+
+### SPCR Forums on quiet projectors
 Put the projector far away
 http://www.silentpcreview.com/forums/viewtopic.php?p=573115#p573115
 
@@ -21,6 +23,13 @@ http://www.silentpcreview.com/forums/viewtopic.php?p=573454#p573454
 
 A thread from way back
 http://www.silentpcreview.com/forums/viewtopic.php?f=19&t=60032
+
+This discussion suggests pico projectors as well
+http://www.silentpcreview.com/forums/viewtopic.php?f=19&t=55801
+
+### I want LCD rather than DLP
+LCD is sharper and uses less power.
+http://www.projectorcentral.com/lcd_dlp.htm
 
 ## My thinking
 I'll get a good pico projector or mod an LCD projector.
