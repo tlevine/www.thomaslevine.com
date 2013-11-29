@@ -10,18 +10,18 @@ I'll also talk a bit about brainstorming and six thinking hats.
 ## Exercises
 
 ### Outline a program
-Choose an open data catalog from this list (link).
+Choose an open data catalog from this list.
 
-* http://data.dc.gov/
-* http://www.civicapps.org/datasets
-* http://data.raleighnc.gov
-* http://www.utah.gov/open/
-* http://nhopengov.org/
-* http://portal.louisvilleky.gov/service/data
-
-http://www.opendatadc.org/  n/a n/a n/a n/a n/a n/a n/a n/a n/a http://www.opendataphilly.org/  n/a n/a n/a n/a n/a http://hawaiiopendata.com/  n/a n/a n/a n/a http://data.openoakland.org/  n/a
+* [Washington, District of Columbia](http://data.dc.gov)
+* [Greater Portland, Oregon](http://www.civicapps.org/datasets)
+* [Utah](http://www.utah.gov/open)
+* [New Hampshire](http://nhopengov.org)
+* [Louisville, Kentucky](http://portal.louisvilleky.gov/service/data)
+* [Philidelphia, Pennsylvania](http://www.opendataphilly.org) (It runs [this software](https://github.com/azavea/Open-Data-Catalog/).)
 
 First, diagram how a person could manually download all of the datasets.
+You want to get the most raw form available, not the sort of aggregates
+that you might see in a plot.
 
 After you've done that, change the labels in the diagram so that it describes
 a computer program that downloads the datasets.
