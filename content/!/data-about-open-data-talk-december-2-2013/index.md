@@ -1,7 +1,22 @@
-I'm just spoke at [this](http://www.meetup.com/NYC-Open-Data/events/147380312/),
-so I prepared some materials for it, based largely on the stuff [here](/open-data).
+Here are some materials for
+[my talk at NYC Open Data](http://www.meetup.com/NYC-Open-Data/events/147380312/).
 
-## Open data
+## Data about open data
+Let's talk about some things I've been [learning about open data](/open-data).
+For the longest time, I had no idea what people meant when they were talking
+about "open data". But now I have [this video](/!/open-data-in-plain-english)
+that gives a decent explanation, at least for government data.
+
+To some degree, "open data" is just the sharing of data, but we have a word for
+it because people aren't used to this idea. Sharing data within just company is
+already pretty hard, but good things might happen once you do it.
+
+One benefit of open data might be the ability for people to use lots of different
+datasets in order to make data-driven decisions. The people who are releasing open
+data surely get this, so they're obviously using data to make decisions about their
+open data initiatives, right?
+
+Actually, they're not, so I started doing that.
 
 ## Brainstorming
 
