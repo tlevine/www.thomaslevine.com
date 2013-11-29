@@ -16,7 +16,10 @@ datasets in order to make data-driven decisions. The people who are releasing op
 data surely get this, so they're obviously using data to make decisions about their
 open data initiatives, right?
 
-Actually, they're not, so I started doing that.
+Actually, they're not, so I started doing that. Also, I'm doing it quite publicly,
+so you could say this is open data about open data.
+
+###
 
 ## Brainstorming
 
