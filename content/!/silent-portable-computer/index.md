@@ -38,8 +38,6 @@ http://www.projectorcentral.com/lcd_dlp.htm
 P300 looked appealing, even after I saw this.
 http://www.pcmag.com/article2/0,2817,2419443,00.asp
 
-The LED Showtime 3D also looks good.
-http://www.pcmag.com/article2/0,2817,2417095,00.asp
 
 ## My thinking
 I'll get a good pico projector or mod an LCD projector.
@@ -47,3 +45,6 @@ Also, I can check whether my motherboard supports two monitors;
 it has both an HDMI out and a DisplayPort out, so if it can do
 both at the same time, I go for two low-resolution projectors,
 and this might give more options.
+
+## Related
+http://trisquel.info/en/forum/prospects-gnulinux-tablet
