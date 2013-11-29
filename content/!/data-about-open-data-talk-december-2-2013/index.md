@@ -19,11 +19,31 @@ open data initiatives, right?
 Actually, they're not, so I started doing that. Also, I'm doing it quite publicly,
 so you could say this is open data about open data.
 
-###
+### Collecting data
+Explain [this](/!/socrata-summary). Also, explain other data catalog software
+
+* https://github.com/tlevine/open-data-download
+* http://openprism.thomaslevine.com
+
+### No metadata
+If we're lucky, we have some data about our datasets, but we don't have much data
+about the data about our datasets. If anything, there's API documentation, but it's
+usually pretty bad. So here's how I figure out what's going on.
+
+There are examples of this in most of the articles.
+Maybe also take screenshots of the site and compare site to the metadata files.
+
+
+
 
 ## Brainstorming
+I like to think of two approaches of deciding what to study.
 
-I'll also talk a bit about brainstorming and six thinking hats.
+1. We have all of these data, so something interesting must be in it.
+2. We are interested in something. Let's collect data that will tell us about that thing.
+
+I think the former is more obvious; let's talk a bit about the latter.
+Specifically, let's talk about brainstorming and six thinking hats.
 
 ## Exercises
 
