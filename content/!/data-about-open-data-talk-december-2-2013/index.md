@@ -79,8 +79,14 @@ Here are the some of fields I get from that.
 * tags
 
 #### What I found
-First, nobody has any idea of what is going on.
-[This article](/!/socrata-summary/) should not have been interesting, but people liked it.
+First, nobody has any idea of what is going on in open data.
+This was my main conclusion after I tweeted about [this article](/!/socrata-summary/);
+I thought it would not be that interesting, but people strangely liked it.
+Many people know about datasets that are relevant to their work,
+municipality, &c., but nobody seems to know about the availability of
+data on broader topics, and nobody seems to have a good way of
+finding out what is available. And nobody has a great idea of who
+is using which data.
 
 Second, resolving [duplicate datasets](/!/socrata-genealogies/#types-of-duplicate-datasets) is annoying. Three types of duplication
 
@@ -175,13 +181,36 @@ tools all that much. More specifically,
     things. I haven't really talked to any of them, but the little I do know of
     their stories is interesting.
 
-###
+### Finding data is hard
+I realized that I using my spreadsheet rather than Socrata's search tool to look
+up data. This was funny, and it pointed out to me an interesting phenomenon about
+the sharing of government data. As I said earlier, nobody has any idea of what is
+going on with open data. At a most basic level, even though we have these catalogs
+of datasets, people can't really figure out what is in the catalog.
+
+I have [identified](/!/openprism)
+two broad categories of issues related to this.
+
+1. Naive search method
+2. Siloed open data portals
+
+Let's talk about the second one.
+
+![Diagram about siloed open data portals and some layer to un-silo them]()
+
+I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
+
+
+
+
+
+
+
 
 Other data catalog software [works differently](https://github.com/tlevine/open-data-download),
 but the process it isn't any more fancy.
 
 ### What I found
-* http://openprism.thomaslevine.com
 
 ### No metadata
 If we're lucky, we have some data about our datasets, but we don't have much data
