@@ -94,7 +94,7 @@ Second, resolving [duplicate datasets](/!/socrata-genealogies/#types-of-duplicat
 Notice the "owner" and "tableAuthor" fields in the previous download.
 These refer to user accounts in Socrata. If I use just these columns,
 I now have a dataset of users. I didn't use SQL, but if I had, the
-query would have been this.
+query would have been sort of like this.
 
     SELECT * FROM (
       SELECT 
@@ -128,11 +128,19 @@ duplicates, I would have multiple rows per user.
 Don't worry if that didn't make sense to you; the point is that we can use
 datasets in different ways than they seem to be intended.
 
+### What I found
+The users who have owned and authored the most tables tend to either work for
+Socrata or work for clients of Socrata.
+/!/socrata-users/#also-no-tables
+
+
+
+###
 
 Other data catalog software [works differently](https://github.com/tlevine/open-data-download),
 but the process it isn't any more fancy.
 
-### What Iindings
+### What I found
 * http://openprism.thomaslevine.com
 
 ### No metadata
