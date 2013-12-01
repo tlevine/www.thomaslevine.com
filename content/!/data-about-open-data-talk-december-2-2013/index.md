@@ -124,6 +124,8 @@ query would have been sort of like this.
 That is, I combine stack the owner columns and tableAuthor columns into one
 table and then remove duplicates based on the `id` field. If I didn't remove
 duplicates, I would have multiple rows per user.
+(The query would actually be a bit more complicated than this because it would
+have to count how many times a user owns a view and has authored a table.)
 
 Don't worry if that didn't make sense to you; the point is that we can use
 datasets in different ways than they seem to be intended.
