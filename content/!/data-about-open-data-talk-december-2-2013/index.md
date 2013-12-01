@@ -145,6 +145,7 @@ Don't worry if that didn't make sense to you; the point is that we can use
 datasets in different ways than they seem to be intended.
 
 #### What I found
+My main conclusion is that people don’t use these charting tools all that much.
 
 ##### Big users
 Most of the users in the dataset (7790 to be exact) had made exactly one view.
@@ -164,8 +165,8 @@ I wanted to see examples of this consumerized data analysis that was being
 advertised, so I tried to find users who were not employed by Socrata or its
 clients. I eventually [found some](/!/socrata-users/#also-no-tables).
 
-My main conclusion is that people don’t use these charting tools all that much.
-More specifically,
+As I said above, my main conclusion is that people don’t use these charting
+tools all that much. More specifically,
 
 1. The people who create the most charts are people who maintain data portals
 2. Aside from those who maintain data portals, the people who create the most
