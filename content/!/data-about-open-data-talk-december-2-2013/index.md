@@ -19,10 +19,120 @@ open data initiatives, right?
 Actually, they're not, so I started doing that. Also, I'm doing it quite publicly,
 so you could say this is open data about open data.
 
-### Collecting data
-Explain [this](/!/socrata-summary). Also, explain other data catalog software
+### Data about data
 
-* https://github.com/tlevine/open-data-download
+#### How I got them
+[![Diagram about downloading Socrata data](/!/socrata-summary/architecture.jpg)](/!/socrata-summary)
+
+Now I have a spreadsheet of datasets.
+
+[![A spreadsheet of spreadsheets](/!/dataset-as-datapoint/spreadsheet-spreadsheet.png)](/!/dataset-as-datapoint)
+
+Here are the some of fields I get from that.
+
+* portal
+* id
+* name
+* attribution
+* averageRating
+* category
+* createdAt
+* description
+* displayType
+* downloadCount
+* numberOfComments
+* oid
+* publicationAppendEnabled
+* publicationDate
+* publicationStage
+* publicationGroup
+* rowsUpdatedBy
+* rowsUpdatedAt
+* signed
+* tableId
+* totalTimesRated
+* viewCount
+* viewLastModified
+* viewType
+* nrow
+* column names and types
+* owner.id
+* owner.displayName
+* owner.emailUnsubscribed
+* owner.privacyControl
+* owner.profileLastModified
+* owner.roleName
+* owner.screenName
+* owner.rights
+* tableAuthor.id
+* tableAuthor.displayName
+* tableAuthor.emailUnsubscribed
+* tableAuthor.privacyControl
+* tableAuthor.profileLastModified
+* tableAuthor.roleName
+* tableAuthor.screenName
+* tableAuthor.rights
+* displayFormat
+* flags
+* metadata
+* rights
+* tags
+
+#### What I found
+First, nobody has any idea of what is going on.
+[This article](/!/socrata-summary/) should not have been interesting, but people liked it.
+
+Second, resolving [duplicate datasets](/!/socrata-genealogies/#types-of-duplicate-datasets) is annoying. Three types of duplication
+
+1. SODA queries: Filtered views, charts, maps
+2. Federation
+3. Uploaded twice
+
+### Data about people who use data
+
+### How I got them
+Notice the "owner" and "tableAuthor" fields in the previous download.
+These refer to user accounts in Socrata. If I use just these columns,
+I now have a dataset of users. I didn't use SQL, but if I had, the
+query would have been this.
+
+    SELECT * FROM (
+      SELECT 
+        "owner.id",
+        "owner.displayName",
+        "owner.emailUnsubscribed",
+        "owner.privacyControl",
+        "owner.profileLastModified",
+        "owner.roleName",
+        "owner.screenName",
+        "owner.rights"
+      FROM "datasets"
+      UNION ALL
+      SELECT 
+        "tableAuthor.id",
+        "tableAuthor.displayName",
+        "tableAuthor.emailUnsubscribed",
+        "tableAuthor.privacyControl",
+        "tableAuthor.profileLastModified",
+        "tableAuthor.roleName",
+        "tableAuthor.screenName",
+        "tableAuthor.rights"
+      FROM "datasets"
+    )
+    GROUP BY "id"
+
+That is, I combine stack the owner columns and tableAuthor columns into one
+table and then remove duplicates based on the `id` field. If I didn't remove
+duplicates, I would have multiple rows per user.
+
+Don't worry if that didn't make sense to you; the point is that we can use
+datasets in different ways than they seem to be intended.
+
+
+Other data catalog software [works differently](https://github.com/tlevine/open-data-download),
+but the process it isn't any more fancy.
+
+### What Iindings
 * http://openprism.thomaslevine.com
 
 ### No metadata
