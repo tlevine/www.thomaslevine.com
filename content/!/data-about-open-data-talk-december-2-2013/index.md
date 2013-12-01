@@ -21,7 +21,7 @@ so you could say this is open data about open data.
 
 ### Data about data
 
-#### How I got them
+#### Getting the data
 [![Diagram about downloading Socrata data](/!/socrata-summary/architecture.jpg)](/!/socrata-summary)
 
 Now I have a spreadsheet of datasets.
@@ -89,10 +89,24 @@ Second, resolving [duplicate datasets](/!/socrata-genealogies/#types-of-duplicat
 3. Uploaded twice
 
 ### Data about people who use data
+Let's look a bit at how people interact with these data. One of Socrata's
+features is built-in charting tools that are supposed to
+"[consumeriz\[e\] the data experience](http://www.socrata.com/open-innovation/)"
+Basically, you can go to `data.cityofnewyork.us` or any Socrata site, find
+an existing dataset, and make a new chart, map, query, &c. from it.
+It turns out that Socrata exposes a lot of knowledge about how this feature
+gets used.
 
-### How I got them
+#### Getting the data
 Notice the "owner" and "tableAuthor" fields in the previous download.
-These refer to user accounts in Socrata. If I use just these columns,
+These refer to user accounts in Socrata.
+
+Internally, each new chart is represented as a "view" on the underlying
+data "table".
+
+[![A date table family in Socrata](/!/socrata-genealogies/family.jpg)](/!/socrata-genealogies#term-table)
+
+Anyway, if I use just these columns,
 I now have a dataset of users. I didn't use SQL, but if I had, the
 query would have been sort of like this.
 
@@ -130,12 +144,35 @@ have to count how many times a user owns a view and has authored a table.)
 Don't worry if that didn't make sense to you; the point is that we can use
 datasets in different ways than they seem to be intended.
 
-### What I found
-The users who have owned and authored the most tables tend to either work for
-Socrata or work for clients of Socrata.
-/!/socrata-users/#also-no-tables
+#### What I found
 
+##### Big users
+Most of the users in the dataset (7790 to be exact) had made exactly one view.
+Actually, there are probably even more with no views, but I don't have the
+data on them.
 
+![](/!/socrata-users/figure/n.views.png)
+
+Similarly, the users who have owned and authored the most tables tend to work
+for either Socrata or clients of Socrata.
+
+Neither of these discoveries should be a surprise; you can call it the
+[Pareto principle](http://en.wikipedia.org/wiki/Pareto_principle) if you want.
+
+##### Consumerizing
+I wanted to see examples of this consumerized data analysis that was being
+advertised, so I tried to find users who were not employed by Socrata or its
+clients. I eventually [found some](/!/socrata-users/#also-no-tables).
+
+My main conclusion is that people don’t use these charting tools all that much.
+More specifically,
+
+1. The people who create the most charts are people who maintain data portals
+2. Aside from those who maintain data portals, the people who create the most
+    charts are usually making different charts of the same data.
+3. I found a small number of people who seem to be using the charts for broader
+    things. I haven't really talked to any of them, but the little I do know of
+    their stories is interesting.
 
 ###
 
