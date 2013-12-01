@@ -210,9 +210,15 @@ than Socrata, but the process it isn't any more fancy. I downloaded data from mo
 
 http://thomaslevine.com/!/open-data-licensing/
 
-### What I found
+### Updating
+http://thomaslevine.com/!/data-updatedness/
 
-### No metadata
+### Specific interesting datasets
+
+* calendars
+* traffic surveys
+
+## No metadata
 If we're lucky, we have some data about our datasets, but we don't have much data
 about the data about our datasets. If anything, there's API documentation, but it's
 usually pretty bad. So here's how I figure out what's going on.
