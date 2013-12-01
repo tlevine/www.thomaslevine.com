@@ -200,15 +200,15 @@ Let's talk about the second one.
 
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
+### File formats
+http://thomaslevine.com/!/socrata-formats/
 
 
+### Licensing
+Other data catalog software [works differently](https://github.com/tlevine/open-data-download)
+than Socrata, but the process it isn't any more fancy. I downloaded data from more....
 
-
-
-
-
-Other data catalog software [works differently](https://github.com/tlevine/open-data-download),
-but the process it isn't any more fancy.
+http://thomaslevine.com/!/open-data-licensing/
 
 ### What I found
 
