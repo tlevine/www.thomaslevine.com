@@ -114,11 +114,11 @@ Also, I have some brief thoughts on brainstorming [here](/!/brainstorming).
 ### Data about data
 
 #### Getting the data
-[![Diagram about downloading Socrata data](/!/socrata-summary/architecture.jpg)](/!/socrata-summary)
+[![Diagram about downloading Socrata data](/!/socrata-summary/architecture.jpg){:.wide}](/!/socrata-summary)
 
 Now I have a spreadsheet of datasets.
 
-[![A spreadsheet of spreadsheets](/!/dataset-as-datapoint/spreadsheet-spreadsheet.png)](/!/dataset-as-datapoint)
+[![A spreadsheet of spreadsheets](/!/dataset-as-datapoint/spreadsheet-spreadsheet.png){:.wide}](/!/dataset-as-datapoint)
 
 Here are the some of fields I get from that.
 
@@ -202,7 +202,7 @@ These refer to user accounts in Socrata.
 Internally, each new chart is represented as a "view" on the underlying
 data "table".
 
-[![A date table family in Socrata](/!/socrata-genealogies/family.jpg)](/!/socrata-genealogies#term-table)
+[![A date table family in Socrata](/!/socrata-genealogies/family.jpg){:.wide}](/!/socrata-genealogies#term-table)
 
 Anyway, if I use just these columns,
 I now have a dataset of users. I didn't use SQL, but if I had, the
@@ -366,11 +366,11 @@ There might have been some bulk Socrata migration at the beginning of September 
 
 Here are the datasets that got published before 2013 and got updated during 2013.
 
-![Old data still kept up-to-date](/!/data-updatedness/figure/publish_v_update_2013.png)
+![Old data still kept up-to-date](/!/data-updatedness/figure/publish_v_update_2013.png){:.wide}
 
 It's only 13 datasets.
 
-![Those 13 datasets, by portal](/!/data-updatedness/figure/updates_2013_url.png)
+![Those 13 datasets, by portal](/!/data-updatedness/figure/updates_2013_url.png){:.wide}
 
 ## Exercises
 Attendees of this [NYC Open Data meetup](http://www.meetup.com/NYC-Open-Data/events/147380312/)
