@@ -23,6 +23,29 @@ each. Each group will choose one of the two exercises and work on it for half an
 At 8:45, each of the groups will have one minute to present its conclusions to the
 larger group.
 
+## Outline of the talk
+
+Introduction (4 minutes)
+
+* What are "open data"? Show the video.
+* Data about open data, data-driven open data
+
+Two approaches (2 minutes)
+
+1. We have all of these data, so something interesting must be in it.
+2. We are interested in something. Let's collect data that will tell us about that thing.
+
+My process and findings (6 minutes each)
+
+1. Data about open data.
+2. Data about people who use open data.
+3. Finding data is hard.
+4. File formats of open data
+5. Licensing of "open" data
+6. Updating of data
+
+Future things (3 minutes)
+
 ## Data about open data
 Let's talk about some things I've been [learning about open data](/open-data).
 For the longest time, I had no idea what people meant when they were talking
@@ -371,6 +394,22 @@ Here are the datasets that got published before 2013 and got updated during 2013
 It's only 13 datasets.
 
 ![Those 13 datasets, by portal](/!/data-updatedness/figure/updates_2013_url.png){:.wide}
+
+## Future things
+The general thing I'm doing here is just studying data about open data.
+People haven't done much of this, so it's turning up some interesting thing.
+
+I've started seeing four perspectives I could take in future study,
+and the general idea for all of these is to automate existing manual processes.
+
+1. Check how well open data guidelines are being followed.
+2. Help people find data of interest to them; come up with something better than our current search bars.
+3. Fill in blank metadata fields.
+4. Figure out what makes for good data sharing; what are the impacts of organizational structures, hackathons,
+    and open data policies on society?
+
+They're really all the same thing, actually, but
+I'm focusing on the first of these for the immediate future.
 
 ## Exercises
 Attendees of this [NYC Open Data meetup](http://www.meetup.com/NYC-Open-Data/events/147380312/)
