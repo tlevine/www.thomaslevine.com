@@ -138,6 +138,11 @@ In this approach of deciding what to study, the idea is that we can
 answer our curiosities by building on some existing data collection.
 Also, I have some brief thoughts on brainstorming [here](/!/brainstorming).
 
+If you want to really understand how I did all of this, pay attention to the following things throughout the talk.
+
+1. How I outlined my programs
+2. How I created simple variables to represent grand concepts
+
 ### Data about data
 
 #### Getting the data
@@ -448,7 +453,7 @@ For the one-minute presentation, walk through your outline of your program.
 You can draw a diagram, write out steps in words, click through the website,
 or just explain it without any visuals.
 
-### Operationalizing constructs
+### Using simple variables to represent grand concepts
 Select a document from this list, then select a single guideline within
 the document. Brainstorm ways that you could test how well the guideline
 is being followed. Try to come up with approaches that don't involve
