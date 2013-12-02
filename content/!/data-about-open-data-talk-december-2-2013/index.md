@@ -65,6 +65,10 @@ Actually, they're not, so I started doing that. Also, I'm doing it quite publicl
 so you could say this is open data about open data.
 
 ## My process and findings
+I was taught in school that you come up with your question and then collect data
+that perfectly answer that question. This way works, but you can often learn more
+faster and with less work if you're a bit sloppier.
+
 I like to think of two approaches of deciding what to study.
 
 1. We have all of these data, so something interesting must be in it.
@@ -311,7 +315,7 @@ two broad categories of issues related to this.
 
 Let's talk about the second one.
 
-![Diagram about siloed open data portals and some layer to un-silo them](){:.wide}
+![Diagram about siloed open data portals and some layer to un-silo them](unsilo.jpg){:.wide}
 
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
