@@ -405,8 +405,8 @@ and the general idea for all of these is to automate existing manual processes.
 1. Check how well open data guidelines are being followed.
 2. Help people find data of interest to them; come up with something better than our current search bars.
 3. Fill in blank metadata fields.
-4. Figure out what makes for good data sharing; what are the impacts of organizational structures, hackathons,
-    and open data policies on society?
+4. Figure out what makes for good data sharing; what are the impacts of organizational structures,
+    hackathons, data catalog software, and open data policies on things that we care about?
 
 They're really all the same thing, actually, but
 I'm focusing on the first of these for the immediate future.
