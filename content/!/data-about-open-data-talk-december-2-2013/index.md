@@ -19,6 +19,31 @@ open data initiatives, right?
 Actually, they're not, so I started doing that. Also, I'm doing it quite publicly,
 so you could say this is open data about open data.
 
+## My process and findings
+I like to think of two approaches of deciding what to study.
+
+1. We have all of these data, so something interesting must be in it.
+2. We are interested in something. Let's collect data that will tell us about that thing.
+
+I think the former is more obvious: Initially, I found it quite odd that
+nobody had looked at the data about the data. So I did.
+
+Let's talk a bit about the latter. Let's say we want to study someone's sleep patterns.
+In order to do this, we wind to find out when the person is sleeping. We could do this
+by having the person record on paper the times at which she goes to sleep and wakes up,
+but that would be a lot of work. Other ideas
+
+[Version control commits](http://yihui.name/en/2009/10/50000-revisions-committed-to-r/)
+
+![R commits](r-commits.gif)
+
+[Tweets](https://hackpad.com/Measuring-Socioeconomic-Indicators-in-Arabic-Tweets-IZ5ByP2LvIt)
+
+![Bar plot of Tweet times](tweet-times.jpg)
+
+
+I have some brief thoughts on brainstorming [here](/!/brainstorming).
+
 ### Data about data
 
 #### Getting the data
@@ -238,28 +263,7 @@ http://thomaslevine.com/!/data-updatedness/
 * traffic surveys
 
 
-## General conclusions
 
-### No metadata
-If we're lucky, we have some data about our datasets, but we don't have much data
-about the data about our datasets. If anything, there's API documentation, but it's
-usually pretty bad. So here's how I figure out what's going on.
-
-There are examples of this in most of the articles.
-Maybe also take screenshots of the site and compare site to the metadata files.
-
-### Our data portals are pretty bad
-
-
-
-## Brainstorming
-I like to think of two approaches of deciding what to study.
-
-1. We have all of these data, so something interesting must be in it.
-2. We are interested in something. Let's collect data that will tell us about that thing.
-
-I think the former is more obvious; let's talk a bit about the latter.
-Specifically, let's talk about brainstorming and six thinking hats.
 
 ## Exercises
 
@@ -279,6 +283,9 @@ that you might see in a plot.
 
 After you've done that, change the labels in the diagram so that it describes
 a computer program that downloads the datasets.
+
+If you're lucky, you'll find API documentation, but you don't need it;
+figure out what the API is, and write the documentation yourself.
 
 ### Operationalizing constructs
 Select a document from this list, then select a single guideline within
