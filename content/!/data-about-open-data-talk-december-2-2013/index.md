@@ -340,7 +340,37 @@ Also, they get this licensing right.
 > [Licensing is important because it reduces uncertainty.](http://opendatacommons.org/faq/)
 
 ### Updating
-http://thomaslevine.com/!/data-updatedness/
+Open government data are supposed to be kept up-to-date.
+[Pretty much nobody](http://thomaslevine.com/!/data-updatedness/#even-simpler) does this.
+
+#### Getting the data
+Recall that there were some date fields in those Socrata data.
+
+* `createdAt`
+* `publicationDate`
+* `rowsUpdatedAt`
+* `viewLastModified`
+
+Once I figured out what these meant and dealt with [duplicates](/!/data-updatedness#removing-duplicates),
+I could check whether datasets were being updated.
+
+#### What I found
+First, hardly any datasets ever get updated.
+
+![Hardly any datasets get updated](/!/data-updatedness/figure/any_update.png){:.wide}
+
+Second, the ones that have been updated were mostly updated two years ago.
+There might have been some bulk Socrata migration at the beginning of September 2011.
+
+![Bulk migration?](/!/data-updatedness/figure/publish_v_update.png){:.wide}
+
+Here are the datasets that got published before 2013 and got updated during 2013.
+
+![Old data still kept up-to-date](/!/data-updatedness/figure/publish_v_update_2013.png)
+
+It's only 13 datasets.
+
+![Those 13 datasets, by portal](/!/data-updatedness/figure/updates_2013_url.png)
 
 ## Exercises
 Attendees of this [NYC Open Data meetup](http://www.meetup.com/NYC-Open-Data/events/147380312/)
