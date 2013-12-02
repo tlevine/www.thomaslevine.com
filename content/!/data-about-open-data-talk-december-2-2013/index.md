@@ -201,8 +201,27 @@ Let's talk about the second one.
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
 ### File formats
-http://thomaslevine.com/!/socrata-formats/
 
+We're supposed to use certain file formats.
+
+* "Mandate open formats for government data" ([Sunlight Foundation](http://sunlightfoundation.com/opendataguidelines/#open-formats))
+* "structured data" ([5 stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/)
+* "Data Must Be Machine processable" ([Open Government Working Group](http://www.opengovdata.org/home/8principles))
+
+#### Getting the data
+This time, I used the `data.json` endpoint, which is supposed to return
+a [DCAT](http://project-open-data.github.io/schema/) listing of all of
+the datasets. It turns out that this endpoint
+[isn't implemented properly](/!/socrata-formats/#cutoff-at-1000),
+but we'll make do
+
+#### What I found
+What are the file formats?
+
+![Bar plot of file formats by portal](/!/socrata-formats/figure/all-formats.png)
+
+It turns out that file formats tell you quite a bit about the type of data too.
+Take a look at [Missouri](/!/missouri-data-licensing/)
 
 ### Licensing
 Other data catalog software [works differently](https://github.com/tlevine/open-data-download)
@@ -218,7 +237,10 @@ http://thomaslevine.com/!/data-updatedness/
 * calendars
 * traffic surveys
 
-## No metadata
+
+## General conclusions
+
+### No metadata
 If we're lucky, we have some data about our datasets, but we don't have much data
 about the data about our datasets. If anything, there's API documentation, but it's
 usually pretty bad. So here's how I figure out what's going on.
@@ -226,6 +248,7 @@ usually pretty bad. So here's how I figure out what's going on.
 There are examples of this in most of the articles.
 Maybe also take screenshots of the site and compare site to the metadata files.
 
+### Our data portals are pretty bad
 
 
 
