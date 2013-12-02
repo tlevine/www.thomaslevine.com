@@ -29,3 +29,5 @@ to the sentence "I like broccili".
   * "What is broccili?"
   * "What do you mean by 'like'?"
 * Motivation ("Why do you mention that you like broccili?")
+
+I should add something to this page about [Six Thinking Hats](http://en.wikipedia.org/wiki/Six_Thinking_Hats).
