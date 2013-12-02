@@ -15,19 +15,13 @@ The schedule for the talk will go sort of like this
 * 7:00 to 7:50 I'll talk about what I did
 * 7:50 to 8:00 Questions about what I did
 * 8:00 to 8:10 Introduce the exercises
-* 8:10 to 9:00 Work on the exercises.
+* 8:10 to 8:45 Work on the exercises
+* 8:45 to 9:00 Present findings from the exercises
 
-I think 50 minutes is a bit short to do both, so I have two ideas as to how that
-will go.
-
-1. We choose one of the two exercises, do that for 40 minutes, and then take
-    10 minutes to share our findings.
-2. Each group can choose between one exercise or the other exercise, and it's
-    otherwise the same as above.
-3. We do both exercises, each for 25 minutes.
-
-I'll decide the exact one based on how interested people seem in each of the exercises.
-Regardless of which exercises we do, we'll do them in groups of four people each.
+Here's how the exercises will work. Attendees will break into groups of four people
+each. Each group will choose one of the two exercises and work on it for half an hour. 
+At 8:45, each of the groups will have one minute to present its conclusions to the
+larger group.
 
 ## Data about open data
 Let's talk about some things I've been [learning about open data](/open-data).
@@ -348,10 +342,6 @@ Also, they get this licensing right.
 ### Updating
 http://thomaslevine.com/!/data-updatedness/
 
-
-
-
-
 ## Exercises
 Attendees of this [NYC Open Data meetup](http://www.meetup.com/NYC-Open-Data/events/147380312/)
 typically want to learn exactly how to do things, rather than just getting a general
@@ -359,7 +349,7 @@ idea of some new idea. (At least, this is the impression I get.) It's sort of "o
 from a different angle; if everyone knows how to do things with data, then even messy data
 would be quite open in a sense. But I digress.
 
-Let's learn how to plan a crazy project like this. I've prepared two exercises
+Let's learn how to plan a crazy project like this. I've prepared two exercises.
 
 ### Outlining a program
 Choose an open data catalog from this list.
@@ -381,6 +371,10 @@ a computer program that downloads the datasets.
 If you're lucky, you'll find API documentation, but you don't need it;
 figure out what the API is, and write the documentation yourself.
 
+For the one-minute presentation, walk through your outline of your program.
+You can draw a diagram, write out steps in words, click through the website,
+or just explain it without any visuals.
+
 ### Operationalizing constructs
 Select a document from this list, then select a single guideline within
 the document. Brainstorm ways that you could test how well the guideline
@@ -393,3 +387,10 @@ much manual work.
 * Open Government Working Group [8 Principles of Open Government Data](http://www.opengovdata.org/home/8principles)
 * Sunlight Foundation [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/)
 * Open Data Institute [Certificates](https://certificates.theodi.org/)
+
+For the one-minute presentation, show us the open data guidelines that you
+chose and explain the approaches you came up with.
+
+You'll probably have time to look at more than one guideline, but you probably
+won't have time to talk about more than two. If this is the case, choose
+one or two that you though were most interesting.
