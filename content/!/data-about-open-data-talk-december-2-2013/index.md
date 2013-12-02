@@ -5,7 +5,29 @@ kind: article
 tags: ['open-data']
 ---
 Here are some materials for
-[my talk at NYC Open Data](http://www.meetup.com/NYC-Open-Data/events/147380312/).
+[my talk at NYC Open Data](http://www.meetup.com/NYC-Open-Data/events/147380312/),
+but they're written in normal language, so they'll probably serve as a decent summary
+of my work thus far to people who are reading this on the internet.
+
+## Schedule
+The schedule for the talk will go sort of like this
+
+* 7:00 to 7:50 I'll talk about what I did
+* 7:50 to 8:00 Questions about what I did
+* 8:00 to 8:10 Introduce the exercises
+* 8:10 to 9:00 Work on the exercises.
+
+I think 50 minutes is a bit short to do both, so I have two ideas as to how that
+will go.
+
+1. We choose one of the two exercises, do that for 40 minutes, and then take
+    10 minutes to share our findings.
+2. Each group can choose between one exercise or the other exercise, and it's
+    otherwise the same as above.
+3. We do both exercises, each for 25 minutes.
+
+I'll decide the exact one based on how interested people seem in each of the exercises.
+Regardless of which exercises we do, we'll do them in groups of four people each.
 
 ## Data about open data
 Let's talk about some things I've been [learning about open data](/open-data).
@@ -301,24 +323,45 @@ Take a look at [Missouri](/!/missouri-data-licensing/)
 
 ### Licensing
 Other data catalog software [works differently](https://github.com/tlevine/open-data-download)
-than Socrata, but the process it isn't any more fancy. I downloaded data from more....
+than Socrata, but the process it isn't any more fancy. I downloaded data from catalogs running
+these software.
 
-http://thomaslevine.com/!/open-data-licensing/
+* Socrata
+* CKAN
+* OpenDataSoft
+* Junar
+
+And then I [looked at](http://thomaslevine.com/!/open-data-licensing/)
+the licenses that different datasets have.
+
+![Licenses across all portals](/!/open-data-licensing/p2.png){:.wide}
+
+Most data catalogs either have a license on everything or a license on nothing.)
+
+![Bar graph of proportion of datasets](/!/open-data-licensing/p1.png){:.wide}
+
+As I said before, [Missouri](/!/missouri-data-licensing/) is interesting.
+Also, they get this licensing right.
+
+> [Licensing is important because it reduces uncertainty.](http://opendatacommons.org/faq/)
 
 ### Updating
 http://thomaslevine.com/!/data-updatedness/
 
-### Specific interesting datasets
-
-* calendars
-* traffic surveys
 
 
 
 
 ## Exercises
+Attendees of this [NYC Open Data meetup](http://www.meetup.com/NYC-Open-Data/events/147380312/)
+typically want to learn exactly how to do things, rather than just getting a general
+idea of some new idea. (At least, this is the impression I get.) It's sort of "open data"
+from a different angle; if everyone knows how to do things with data, then even messy data
+would be quite open in a sense. But I digress.
 
-### Outline a program
+Let's learn how to plan a crazy project like this. I've prepared two exercises
+
+### Outlining a program
 Choose an open data catalog from this list.
 
 * [Washington, District of Columbia](http://data.dc.gov)
