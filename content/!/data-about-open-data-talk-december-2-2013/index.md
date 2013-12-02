@@ -1,3 +1,9 @@
+---
+title: 100,000 open data across 100 portal
+created_at: 2013-12-02
+kind: article
+tags: ['open-data']
+---
 Here are some materials for
 [my talk at NYC Open Data](http://www.meetup.com/NYC-Open-Data/events/147380312/).
 
@@ -35,11 +41,11 @@ but that would be a lot of work. Other ideas
 
 [Version control commits](http://yihui.name/en/2009/10/50000-revisions-committed-to-r/)
 
-![R commits](r-commits.gif)
+![R commits](r-commits.gif){:.wide}
 
 [Tweets](https://hackpad.com/Measuring-Socioeconomic-Indicators-in-Arabic-Tweets-IZ5ByP2LvIt)
 
-![Bar plot of Tweet times](tweet-times.jpg)
+![Bar plot of Tweet times](tweet-times.jpg){:.wide}
 
 If the person is me, we can use shell history activity.
 
@@ -228,7 +234,7 @@ Most of the users in the dataset (7790 to be exact) had made exactly one view.
 Actually, there are probably even more with no views, but I don't have the
 data on them.
 
-![](/!/socrata-users/figure/n.views.png)
+![](/!/socrata-users/figure/n.views.png){:.wide}
 
 Similarly, the users who have owned and authored the most tables tend to work
 for either Socrata or clients of Socrata.
@@ -266,7 +272,7 @@ two broad categories of issues related to this.
 
 Let's talk about the second one.
 
-![Diagram about siloed open data portals and some layer to un-silo them]()
+![Diagram about siloed open data portals and some layer to un-silo them](){:.wide}
 
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
@@ -288,7 +294,7 @@ but we'll make do
 #### What I found
 What are the file formats?
 
-![Bar plot of file formats by portal](/!/socrata-formats/figure/all-formats.png)
+![Bar plot of file formats by portal](/!/socrata-formats/figure/all-formats.png){:.wide}
 
 It turns out that file formats tell you quite a bit about the type of data too.
 Take a look at [Missouri](/!/missouri-data-licensing/)
