@@ -41,6 +41,11 @@ but that would be a lot of work. Other ideas
 
 ![Bar plot of Tweet times](tweet-times.jpg)
 
+If the person is me, we can use shell history activity.
+
+    for epochtime in $(grep '^#[0-9]\{10\}$' ~/.history/sh-2013-12-02*|cut -d\# -f2); do
+      date --date=@$epochtime +%H
+    done | sort | awk '{h[$2]++}END{for(i in h){print h[i],i|"sort -rn|head -20"}}' |awk '!max{max=$1;}{r="";i=s=60*$1/max;while(i--&gt;0)r=r"#";printf "%15s %5d %s %s",$2,$1,r,"\n";}'
 
 I have some brief thoughts on brainstorming [here](/!/brainstorming).
 
