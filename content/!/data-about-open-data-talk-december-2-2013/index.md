@@ -57,6 +57,7 @@ If the person is me, we can use shell history activity.
 
 Here's the resulting histogram.
 
+    $ ./history.sh
     00 =========
     01 =======
     02 =====
