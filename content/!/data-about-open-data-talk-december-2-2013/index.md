@@ -3,6 +3,9 @@ title: 100,000 open data across 100 portal
 created_at: 2013-12-02
 kind: article
 tags: ['open-data']
+twitter_image: unsilo.png
+facebook_image: unsilo.png
+description: A whirlwind tour of my studies about open data
 ---
 Here are some materials for
 [my talk at NYC Open Data](http://www.meetup.com/NYC-Open-Data/events/147380312/),
