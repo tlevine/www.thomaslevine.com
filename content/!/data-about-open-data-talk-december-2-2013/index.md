@@ -43,11 +43,50 @@ but that would be a lot of work. Other ideas
 
 If the person is me, we can use shell history activity.
 
-    for epochtime in $(grep '^#[0-9]\{10\}$' ~/.history/sh-2013-12-02*|cut -d\# -f2); do
+    #!/bin/sh
+    # This file is history.sh
+    for epochtime in $(grep '^#[0-9]\{10\}$' ~/.history/sh-2013-1[12]*|cut -d\# -f2); do
       date --date=@$epochtime +%H
-    done | sort | awk '{h[$2]++}END{for(i in h){print h[i],i|"sort -rn|head -20"}}' |awk '!max{max=$1;}{r="";i=s=60*$1/max;while(i--&gt;0)r=r"#";printf "%15s %5d %s %s",$2,$1,r,"\n";}'
+    done | sort | uniq -c | awk '{print $2, "%"$1"s"}' > /tmp/formatted
+    
+    while read line; do
+      # Remove the first space
+      nospace=$(echo $line | sed 's/ //')
+      printf "$line\n" | tr \  -|sed s/----------------------------------------/=/g|sed -e s/-//g -e 's/=/ =/'
+    done < /tmp/formatted
 
-I have some brief thoughts on brainstorming [here](/!/brainstorming).
+Here's the resulting histogram.
+
+    00 =========
+    01 =======
+    02 =====
+    03 ====
+    04 =======
+    05 ============
+    06 ======
+    07 ====
+    08 =
+    09 =
+    10 =====
+    11 ===
+    12 ==
+    13 ======
+    14 =====
+    15 ======
+    16 ==============
+    17 ==============================
+    18 =======================================
+    19 ============================
+    20 ===============
+    21 ==========
+    22 ==================
+    23 ==================
+
+Note that these times are in UTC because that's how I roll.
+
+In this approach of deciding what to study, the idea is that we can
+answer our curiosities by building on some existing data collection.
+Also, I have some brief thoughts on brainstorming [here](/!/brainstorming).
 
 ### Data about data
 
