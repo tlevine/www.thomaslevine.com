@@ -4,10 +4,10 @@ annoying quirks in the way the data are modeled. I haven't
 properly dealt with it yet. Until now!
 
 ## How data are stored on Socrata
-Data on Socrata is displayed in [views](#term-view),
-which are queries on [tables](#term-table).
+Data on Socrata is displayed in [views](/!/socrata-genealogies#term-view),
+which are queries on [tables](/!/socrata-genealogies#term-table).
 When you put a new data source on a Socrata portal, you get both
-a new table and a [dataset](#term-dataset)
+a new table and a [dataset](/!/socrata-genealogies#term-dataset)
 view that is a query of the full table.
 (So it would be `SELECT * FROM [table]` in SQL.)
 
@@ -15,20 +15,20 @@ view that is a query of the full table.
 In the Socrata web interface, you can create lots of different views
 on the same source data. You can make different queries on the same
 table, and you can visualize them as charts, maps, and a
-[bunch of other things]().
+[bunch of other things](/!/socrata-calendars).
 When you save your new view, it gets added to the data portal, and
 it will show up in searches.
 
 ### Federation
 Data are uploaded to one Socrata portal, but they can be
-[federated]()
+[federated](/!/socrata-genealogies#term-federation)
 to other Socrata portals. Thus, if you get all of the datasets from
 all of the portals, you can easily have duplicates and not know which
 portal they came from.
 
 ### Privacy
 Some data on Socrata are private. In many cases, the source data are
-private and a query on the data (a [filtered view]())
+private and a query on the data (a [filtered view](/!/socrata-genealogies#term-filtered-view))
 is public. Thus, it is possible that the most complete form of the data
 that a data publisher is releasing would be in a different type of view
 than dataset.
@@ -46,17 +46,23 @@ For example, here's the file for
 
 I'll refer to this "metadata file" quite a bit in the sections below.
 
-## Getting just the source data
+## Removing duplicates
 If we want just the source data, we have to remove these derivatives and
 these duplicates.
+
+### Not removing duplicates
+At first, I
+[didn't remove duplicates](/!/socrata-summary#acquiring-the-data).
+I just searched browsed through all of the search results, followed
+the links to the datasets, and downloaded all of the metadata files.
+This has problems, as I've explained above; below are some better
+approaches.
 
 ### Searching for only dataset views
 If you run an ordinary search on a portal, filtering for only dataset
 views, you'll get none of the derivatives. It's possible that you'll miss
 some data where the original dataset is private and only a filter on the
 dataset is public.
-
-(Search API?)
 
 Dealing with federation is quite easy. In the HTML search interface that
 is intended for humans, federated datasets are shaded blue and shown as
