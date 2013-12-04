@@ -332,7 +332,7 @@ I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate 
 We're supposed to use certain file formats.
 
 * "Mandate open formats for government data" ([Sunlight Foundation](http://sunlightfoundation.com/opendataguidelines/#open-formats))
-* "structured data" ([5 stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/)
+* "structured data" ([5 stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/))
 * "Data Must Be Machine processable" ([Open Government Working Group](http://www.opengovdata.org/home/8principles))
 
 #### Getting the data
