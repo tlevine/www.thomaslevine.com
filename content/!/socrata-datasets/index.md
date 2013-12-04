@@ -33,6 +33,19 @@ is public. Thus, it is possible that the most complete form of the data
 that a data publisher is releasing would be in a different type of view
 than dataset.
 
+### View metadata files
+Regardless of whether it's a dataset, filter, chart, map, or whatever,
+each view has a metadata file at a url like this.
+
+    https://data.maryland.gov/api/views/${id}.json
+
+For example, here's the file for
+[this view](https://data.maryland.gov/Energy-and-Environment/Certified-Cover-Crops-Planted-in-the-Chesapeake-Ba/w6r7-apye?)
+
+> [https://data.maryland.gov/api/views/w6r7-apye.json](https://data.maryland.gov/api/views/w6r7-apye.json)
+
+I'll refer to this "metadata file" quite a bit in the sections below.
+
 ## Getting just the source data
 If we want just the source data, we have to remove these derivatives and
 these duplicates.
@@ -51,9 +64,16 @@ links to other data portals, rather than being shaded white and linking
 within the same portal. When searching the site, simply ignore these
 federated datasets, and you're good.
 
+All of the links to datasets include the 4x4 identifier for the dataset,
+and you can use that to determine the URL of the corresponding metadata file.
+
 ### Using `/api/dcat.json`
 <!-- https://twitter.com/chrismetcalf/status/376079563240898560 -->
-Go the [`/api/dcat.json`](https://data.oaklandnet.com/api/dcat.json) page
+The [`/api/dcat.json`](https://data.oaklandnet.com/api/dcat.json) page
+is supposed to give us a listing of all of the official data in a portal.
+It provides different data from the metadata files I discuss above, but
+it includes the dataset identifiers, and you can use those to look up
+the corresponding metadata files.
 
 I was told that the `/api/dcat.json` endpoint shows only the source data.
 I haven't checked this myself, and I don't know how it handles datasets
@@ -111,6 +131,22 @@ I can figure out the genealogy by looking at the web pages, so a program
 could be written that does this. I think the site does some AJAXy something
 that I haven't figured out yet, but would be easy to parse this with
 something like Selenium, PhantomJS, or jsdom that renders the whole page.
+
+## Notable statistics I computed
+
+### Table size
+The metadata file does not explicitly state the number of columns and the
+number of rows in the dataset, but there's enough in the file to figure out
+what these two numbers are.
+
+The metadata files contain a "columns" field, which has a list
+of dictionaries. Each of these dictionaries has a count of null
+values and a count non-null values, and the sum of these two
+counts is the number of columns.
+
+[This](https://github.com/tlevine/socrata-analysis/blob/master/numbers/socrata/__init__.py#L93)
+is the relevant code, I think. If I'm reading my own code correctly,
+the `original_data` variable is just a parse of the JSON metadata file.
 
 ## Files I've produced
 Here are some files that I've already produced so that you don't have to
