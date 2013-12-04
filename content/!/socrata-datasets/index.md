@@ -46,9 +46,9 @@ For example, here's the file for
 
 I'll refer to this "metadata file" quite a bit in the sections below.
 
-## Removing duplicates
-If we want just the source data, we have to remove these derivatives and
-these duplicates.
+## Removing duplicates from derived view
+If we want just the source data, we have to remove these derivative
+datasets. I'll explain removing federated data later..
 
 ### Not removing duplicates
 At first, I
@@ -64,7 +64,8 @@ views, you'll get none of the derivatives. It's possible that you'll miss
 some data where the original dataset is private and only a filter on the
 dataset is public.
 
-Dealing with federation is quite easy. In the HTML search interface that
+If you use the ordinary search webpages rather than the API, you can ols
+deal with federation in the same step. In the HTML search interface that
 is intended for humans, federated datasets are shaded blue and shown as
 links to other data portals, rather than being shaded white and linking
 within the same portal. When searching the site, simply ignore these
@@ -89,36 +90,33 @@ the derivatives properly for us.
 
 In that case, we just have to deal with federation. The
 `/api/dcat.json` endpoint doesn't give you any indication as to whether a
-dataset is federated. Federated datasets share the same exact identifier
-across portals, so it is easy to separate distinct datasets, but it is
-less obvious how to tell which portals they came from.
-
-We can deal with that by looking at the network of federation from the
-portal hope pages. Each portal's homepage has a box like this that says
-which portals it federates.
-
-()
-
-The particular portal contains all of the datasets that all of these
-federated portals contain. If you construct the network of federation
-from these portal homepages, you can resolve duplicates properly. If
-the same dataset is on a few different portals, it's because the
-different portals all federate the same portal. Since you know what
-the network of federation is from the homepages, you can figure out
-which portal was the original portal.
+dataset is federated, but you can use the method that is described
+[below](#dealing-with-federation).
 
 The bigger problem with `/api/dcat.json` is that it only returns the
 first 1,000 datasets. I am told that you can use query arguments to
 get more, but I've never gotten this working.
 
 ### Collapsing by tableId
-This is the approach I wind up using most of the time. The metadata
+This is the approach I wind up using most of the time, mainly because
+the initial download of all the metadata took a long time and I didn't
+want to run one again.
+
+The metadata
 file for each view contains a `tableId` field corresponding to the
 table that stores the data corresponding to the particular view.
+
+If you download [without removing duplicates](#not-removing-duplicates),
+you'll wind up with multiple files that all have the same `tableId` field.
+If you put all of these files into a spreadsheet, with one row per metadata
+file, you'll wind up with a `tableId` column.
+
 If you group the table by `tableId`, you will wind up with one record
 per table. It's still difficult to figure out which view is the
 original, but you can aggregate the various fields in different ways
-to 
+depending on what you need.
+
+XXX Link to examples.
 
 ### Approaches I haven't tried yet
 I've tried not to concern myself so much with fixing Socrata's APIs,
@@ -132,11 +130,35 @@ is run on the original table to get the particular subset. By parsing
 these, you might be able to determine which view of the views belonging
 to one table is the original view.
 
+XXX Link to an example
+
 #### Parsing more web pages
 I can figure out the genealogy by looking at the web pages, so a program
 could be written that does this. I think the site does some AJAXy something
 that I haven't figured out yet, but would be easy to parse this with
 something like Selenium, PhantomJS, or jsdom that renders the whole page.
+
+## Dealing with federation
+We can deal with federation by looking at the network of federation from the
+portal hope pages. Each portal's homepage has a box like this that says
+which portals it federates.
+
+![Federated Domains](/!/socrata-deduplicate/federated-domains.png)
+
+The particular portal contains all of the datasets that all of these
+federated portals contain. If you construct the network of federation
+from these portal homepages, you can resolve duplicates properly. If
+the same dataset is on a few different portals, it's because the
+different portals all federate the same portal. Since you know what
+the network of federation is from the homepages, you can figure out
+which portal was the original portal.
+
+Regardless of the method you used to assemble your dataset of datasets,
+the resulting dataset will have a column for portal and a column for
+identifier. Once you determine what this network of federation is, you
+can look for identical datasets that are present in multiple portals
+and then remove datasets that are not from the original portal.
+I did that [here](/!/socrata-deduplicate).
 
 ## Notable statistics I computed
 
@@ -159,3 +181,5 @@ Here are some files that I've already produced so that you don't have to
 create your own. I've referenced the programs that produced these files,
 but haven't been trying to download the data more than once, so I suspect
 that the programs won't work quite as you expect them to.
+
+XXX Links
