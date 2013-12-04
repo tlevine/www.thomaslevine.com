@@ -37,7 +37,7 @@ than dataset.
 If we want just the source data, we have to remove these derivatives and
 these duplicates.
 
-### With a search
+### Searching for only dataset views
 If you run an ordinary search on a portal, filtering for only dataset
 views, you'll get none of the derivatives. It's possible that you'll miss
 some data where the original dataset is private and only a filter on the
@@ -51,7 +51,7 @@ links to other data portals, rather than being shaded white and linking
 within the same portal. When searching the site, simply ignore these
 federated datasets, and you're good.
 
-### With `/api/dcat.json`
+### Using `/api/dcat.json`
 <!-- https://twitter.com/chrismetcalf/status/376079563240898560 -->
 Go the [`/api/dcat.json`](https://data.oaklandnet.com/api/dcat.json) page
 
@@ -85,4 +85,29 @@ The bigger problem with `/api/dcat.json` is that it only returns the
 first 1,000 datasets. I am told that you can use query arguments to
 get more, but I've never gotten this working.
 
-### With a search
+### Collapsing by tableId
+This is the approach I wind up using most of the time. The metadata
+file for each view contains a `tableId` field corresponding to the
+table that stores the data corresponding to the particular view.
+If you group the table by `tableId`, you will wind up with one record
+per table. It's still difficult to figure out which view is the
+original, but you can aggregate the various fields in different ways
+to 
+
+### Approaches I haven't tried yet
+I've tried not to concern myself so much with fixing Socrata's APIs,
+so I've been trying to deal with duplication in ways that are easy
+rather than best. Here are two things you could do to figure out
+exactly which view is the original view within a table.
+
+#### Parsing queries
+Some view metadata files include a query, presumably the query that
+is run on the original table to get the particular subset. By parsing
+these, you might be able to determine which view of the views belonging
+to one table is the original view.
+
+#### Parsing more web pages
+I can figure out the genealogy by looking at the web pages, so a program
+could be written that does this. I think the site does some AJAXy something
+that I haven't figured out yet, but would be easy to parse this with
+something like Selenium, PhantomJS, or jsdom that renders the whole page.
