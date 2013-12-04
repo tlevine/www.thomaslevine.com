@@ -46,7 +46,7 @@ which are queries on [tables](/!/socrata-genealogies#term-table).
 When you put a new data source on a Socrata portal, you get both
 a new table and a [dataset](/!/socrata-genealogies#term-dataset)
 view that is a query of the full table.
-(So it would be `SELECT * FROM [table]` in SQL.)
+(The dataset view would be `SELECT * FROM [table]` in SQL.)
 
 ### Derivatives
 In the Socrata web interface, you can create lots of different views
