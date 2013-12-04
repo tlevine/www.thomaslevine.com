@@ -34,21 +34,34 @@ create your own. I've referenced the programs that produced these files,
 but haven't been trying to download the data more than once, so I suspect
 that the programs won't work quite as you expect them to.
 
-* [`socrata.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
-* [`users.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
-* [`socrata-deduplicated.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+These files include only Socrata data.
 
-* [`licensing.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks. query-licensing.py . also includes other portal software
-ckan_workingness.csv  licensing-by-portal.csv  licensing.csv
-
-
-
-* [`catalogs-2013-08-28.db`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+* [`socrata.csv`]()
+    is based on metadata files from all views as of July.
+    It includes duplicates from both federation and derived views.
+    I produced it by searching all the portals
+    [without attempting to remove duplicates](#not-removing-duplicates).
+    The code is [here]().
+* [`users.csv`]()
+    is a transformation of `socrata.csv` such that each row is a user.
+    It includes counts of views and tables belonging to each user, but
+    I don't remember how I handled duplicates there. The code for that
+    is [here]().
+* [`catalogs-2013-08-28.db`]() is a table of all of the Socrata DCAT files.
+    It has resolved these quirks in these ways, but it still has these quirks
+* [`socrata-deduplicated.csv`]()
+    is `socrata.csv` with
+    [federation-induced duplicates removed](#dealing-with-federation).
+    That is, if data were federated from one portal to three portals,
+    this file includes the data from only the first portal. It still
+    includes derived data. The code is [here]().
 * [`federation.json`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
     Makefile, make json, make csv
 
+These files include data from Socrata, CKAN, Junar, and OpenDataSoft.
 
-* [``]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+* [`licensing.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks. query-licensing.py . also includes other portal software
+ckan_workingness.csv  licensing-by-portal.csv  licensing.csv
 
 The remainder of this article summarizes the various quirks that I've dealt
 with and haven't dealt with.
@@ -98,7 +111,7 @@ I'll refer to this "metadata file" quite a bit in the sections below.
 
 ## Removing duplicates from derived view
 If we want just the source data, we have to remove these derivative
-datasets. I'll explain removing federated data later..
+datasets. I'll explain removing federated data later.
 
 ### Not removing duplicates
 At first, I
