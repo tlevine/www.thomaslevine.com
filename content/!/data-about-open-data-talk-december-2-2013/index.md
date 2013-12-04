@@ -3,6 +3,8 @@ title: 100,000 open data across 100 portal
 created_at: 2013-12-02
 kind: article
 tags: ['open-data']
+tweet_text: Here are the things about open data that I talked about Monday at NYC Open Data (http://www.meetup.com/NYC-Open-Data/events/147380312/) http://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/
+tweet_link: https://twitter.com/thomaslevine/status/408296807584628736
 twitter_image: unsilo.png
 facebook_image: unsilo.png
 description: A whirlwind tour of my studies about open data
