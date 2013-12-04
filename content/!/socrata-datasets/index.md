@@ -29,13 +29,26 @@ Also, I haven't prominently linked to these
 spreadsheets.
 
 ## Files I've produced
-
-XXX Links
-
 Here are some files that I've already produced so that you don't have to
 create your own. I've referenced the programs that produced these files,
 but haven't been trying to download the data more than once, so I suspect
 that the programs won't work quite as you expect them to.
+
+* [`socrata.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+* [`users.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+* [`socrata-deduplicated.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+
+* [`licensing.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks. query-licensing.py . also includes other portal software
+ckan_workingness.csv  licensing-by-portal.csv  licensing.csv
+
+
+
+* [`catalogs-2013-08-28.db`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+* [`federation.json`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
+    Makefile, make json, make csv
+
+
+* [``]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
 
 The remainder of this article summarizes the various quirks that I've dealt
 with and haven't dealt with.
