@@ -1,0 +1,21 @@
+
+> By size, I meant the number of columns and the number of rows.
+> Is that the meaning of "size" that you were thinking of?
+>
+> Well here's how I did it.
+> The metadata files contain a "columns" field, which has a list
+> of dictionaries. Each of these dictionaries has a count of null
+> values and a count non-null values, and the sum of these two
+> counts is the number of columns.
+>
+> It looks like the relevant code is here.
+>
+> https://github.com/tlevine/socrata-analysis/blob/master/numbers/socrata/__init__.py#L93
+>
+> I think the "original_data" variable is just a parse of the
+> JSON metadata file. Here's one of those.
+> https://data.maryland.gov/api/views/w6r7-apye.json
+>
+> I'd love to read about whatever you find!
+>
+> Tom

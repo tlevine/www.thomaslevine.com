@@ -1,0 +1,6 @@
+can you ping me the R data object or csv with all the socrata metadata? =
+I can=92t find it in your repo and would like to avoid any R =
+preprocessing seeing that you=92ve done that.
+
+We=92d like to do a count of the tags or categories. Or perhaps you=92ve =
+done that already?

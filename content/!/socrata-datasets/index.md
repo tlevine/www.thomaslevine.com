@@ -3,11 +3,11 @@ data in the Socrata portals and have had to deal with some
 annoying quirks in the way the data are modeled. I haven't
 properly dealt with it yet. Until now!
 
-## How data are stored
-Data on Socrata is displayed in [views](),
-which are queries on [tables]().
+## How data are stored on Socrata
+Data on Socrata is displayed in [views](#term-view),
+which are queries on [tables](#term-table).
 When you put a new data source on a Socrata portal, you get both
-a new table and a [dataset]()
+a new table and a [dataset](#term-dataset)
 view that is a query of the full table.
 (So it would be `SELECT * FROM [table]` in SQL.)
 
@@ -19,7 +19,7 @@ table, and you can visualize them as charts, maps, and a
 When you save your new view, it gets added to the data portal, and
 it will show up in searches.
 
-### Duplicates
+### Federation
 Data are uploaded to one Socrata portal, but they can be
 [federated]()
 to other Socrata portals. Thus, if you get all of the datasets from
@@ -61,7 +61,7 @@ where the original upload is private but a filter on it is public.
 Anyway, let's just hope that the `/api/dcat.json` endpoint lets deals with
 the derivatives properly for us.
 
-In that case, we just have to deal with federation. Unfortunately, the
+In that case, we just have to deal with federation. The
 `/api/dcat.json` endpoint doesn't give you any indication as to whether a
 dataset is federated. Federated datasets share the same exact identifier
 across portals, so it is easy to separate distinct datasets, but it is
@@ -80,3 +80,9 @@ the same dataset is on a few different portals, it's because the
 different portals all federate the same portal. Since you know what
 the network of federation is from the homepages, you can figure out
 which portal was the original portal.
+
+The bigger problem with `/api/dcat.json` is that it only returns the
+first 1,000 datasets. I am told that you can use query arguments to
+get more, but I've never gotten this working.
+
+### With a search
