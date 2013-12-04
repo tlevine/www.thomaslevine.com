@@ -1,7 +1,44 @@
-In my various studies of open data, I've been focusing on the
-data in the Socrata portals and have had to deal with some
-annoying quirks in the way the data are modeled. I haven't
-properly dealt with it yet. Until now!
+I've recently been [studying data about open data](/open-data),
+and I'm hearing that other people want to do the same. Yay!
+
+Some people have asked for the data that I've collected so that
+they can study things without spending a month downloading all
+the data and formatting them properly and whatnot.
+This article is for those people and for people wha wanted that
+but never asked.
+
+## Metadata about data about metadata from Socrata
+I've been using data from Socrata data portal websites for most
+of these studies. I think I've
+provided almost enough information so that people can reuse these
+data, and I hope that this article provides the remaining bits
+so that people can actually use the data to study open data.
+
+### What I've provided so far
+There are a lot of annoying quirks in the way
+data are modeled, and I've explained much of this before.
+
+I posted spreadsheets of these data quite a long while ago, and
+people have been able to download them.
+
+### What I haven't provided
+I haven't explained which of the annoying quirks are fixed in the
+various spreadsheets.
+
+Also, I haven't prominently linked to these
+spreadsheets.
+
+## Files I've produced
+
+XXX Links
+
+Here are some files that I've already produced so that you don't have to
+create your own. I've referenced the programs that produced these files,
+but haven't been trying to download the data more than once, so I suspect
+that the programs won't work quite as you expect them to.
+
+The remainder of this article summarizes the various quirks that I've dealt
+with and haven't dealt with.
 
 ## How data are stored on Socrata
 Data on Socrata is displayed in [views](/!/socrata-genealogies#term-view),
@@ -175,11 +212,3 @@ counts is the number of columns.
 [This](https://github.com/tlevine/socrata-analysis/blob/master/numbers/socrata/__init__.py#L93)
 is the relevant code, I think. If I'm reading my own code correctly,
 the `original_data` variable is just a parse of the JSON metadata file.
-
-## Files I've produced
-Here are some files that I've already produced so that you don't have to
-create your own. I've referenced the programs that produced these files,
-but haven't been trying to download the data more than once, so I suspect
-that the programs won't work quite as you expect them to.
-
-XXX Links
