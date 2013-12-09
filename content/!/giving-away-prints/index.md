@@ -6,11 +6,12 @@ Designer pizza boxes
 
 * [Paul Rand Pizza Box](/!/paul-rand-pizza-box)
 * [Modernist Pizza Box](/!/modernist-pizza-box)
+* I also have about 40 blank pizza boxes left.
 
 Trolling
 
 * [Nude Jello Wrestling posters](/!/jello-wrestling)
-* Notice regarding demolition that wasn't happening
+* Notice regarding the ficticious demolition of a very real parking lot
 
 Just pretty
 
