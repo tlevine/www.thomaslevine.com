@@ -12,6 +12,8 @@ Trolling
 
 * [Nude Jello Wrestling posters](/!/jello-wrestling)
 * Notice regarding the ficticious demolition of a very real parking lot
+* Artifacts of Tal and my exhibit on
+    [Desk Height and Other Ergonomic Delights](http://smug.thomaslevine.com/organize/Installations/Desks-and-Other-Ergonomic)
 
 Just pretty
 
