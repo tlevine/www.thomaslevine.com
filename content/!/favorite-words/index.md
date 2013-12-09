@@ -6,6 +6,7 @@ Words that I really like
 * créee
 * thus
 * ainsi
+* quite
 
 Words that I use a lot but don't particularly like
 
