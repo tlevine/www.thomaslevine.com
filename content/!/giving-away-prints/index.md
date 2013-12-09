@@ -22,3 +22,6 @@ Just pretty
 * [Bunnies]()
     (Although they're shirts, I recommend against wearing
     them because they're not that comfortable.)
+
+I also have some letterpress doodles that are mostly interesting
+because of the specifics of how they were printed.
