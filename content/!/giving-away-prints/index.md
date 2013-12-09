@@ -21,7 +21,7 @@ Just pretty
     for a Free Culture Cornell meeting featuring a
     Richard Stallman quote.
 * [Mind your p's and q's](/!/pbdq/)
-* [Bunnies]()
+* Deceptively cute shirts about [bunnies](/!/bunnies)
     (Although they're shirts, I recommend against wearing
     them because they're not that comfortable.)
 
