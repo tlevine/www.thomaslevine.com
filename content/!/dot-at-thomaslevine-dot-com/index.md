@@ -13,11 +13,15 @@ Since I can have any address at thomaslevine.com,
 I've had a hard time choosing one. There's a fun,
 long story about previous email addresses, and I
 can explain that some other time. Anyway, I've
-changed my email address yet again. Here it is.
+changed my email address yet again, and now it's
+[.@thomaslevine.com](mailto:.@thomaslevine.com).
 
-<blockquote id="e-post">
-<noscript>dot at thomaslevine dot com</noscript>
-</blockquote>
+*Actually, it has
+[changed since]();
+it turns out that that address wasn't valid.
+I haven't updated the rest of the present article,
+however, so it still incorrectly suggests that this
+address is valid.*
 
 ## Validity
 Most websites are fine with this new email address,
