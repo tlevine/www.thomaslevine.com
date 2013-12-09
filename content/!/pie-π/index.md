@@ -1,4 +1,5 @@
 ---
+title: Pie π
 ---
 I made a pie π! No, not a [pypy](),
 nor a [π pie](http://en.wikipedia.org/wiki/File:Pi_pie2.jpg),
