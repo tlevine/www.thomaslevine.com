@@ -7,6 +7,7 @@ Words that I really like
 * thus
 * ainsi
 * quite
+* anyway
 
 Words that I use a lot but don't particularly like
 
