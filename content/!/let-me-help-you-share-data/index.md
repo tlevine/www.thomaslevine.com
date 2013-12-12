@@ -1,5 +1,8 @@
 ---
-title: Let me help you share data
+title: I want to help you share data
+description: I'm looking for work that will let me study open data all day.
+twitter_description: That could mean "open data" or something else.
+tweet_text: Hi Twitter. I'm looking for work that will let me study open data all day.
 ---
 As you may have realized, I've recently been [studying](/open-data)
 data about open data so that we can use data to drive our opening of
@@ -28,7 +31,8 @@ and they can be aligned with quite a many different efforts/organizations.
 
 * If you work for a software company, I can prototype or implement new
     features in your product to make open data better.
-* If you work for an organization that wants to release open data,
+* If you work for an organization that wants to release open data
+    or share data internally,
     I can quantify how well your efforts are going, figure out what's
     working, and find ways of making things go better.
 * If you are giving grants in relation to open data, we should talk.
