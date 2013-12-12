@@ -133,7 +133,7 @@ We'll often solve the same equation as many times as we have rows in our
 table, so it's sort of like we're plugging a whole column of numbers into
 our equation rather than just a single number.
 
-![Explanatory picture could go here.](){:.wide}
+![Explanatory picture could go here.](variables.jpg){:.wide}
 
 ## Ask more questions
 What else are you wondering about data science?
