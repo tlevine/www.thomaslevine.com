@@ -4,7 +4,7 @@ and I'm hearing that other people want to do the same. Yay!
 Some people have asked for the data that I've collected so that
 they can study things without spending a month downloading all
 the data and formatting them properly and whatnot.
-This article is for those people and for people wha wanted that
+This article is for those people and for people who wanted that
 but never asked.
 
 ## Metadata about data about metadata from Socrata
@@ -36,17 +36,18 @@ that the programs won't work quite as you expect them to.
 
 These files include only Socrata data.
 
-* [`socrata.csv`]()
+* [`socrata.csv`](https://github.com/tlevine/socrata-analysis/blob/master/socrata.csv)
     is based on metadata files from all views as of July.
     It includes duplicates from both federation and derived views.
     I produced it by searching all the portals
     [without attempting to remove duplicates](#not-removing-duplicates).
     The code is [here]().
-* [`users.csv`]()
+* [`users.csv`](https://github.com/tlevine/socrata-analysis/blob/master/users.csv)
     is a transformation of `socrata.csv` such that each row is a user.
     It includes counts of views and tables belonging to each user, but
     I don't remember how I handled duplicates there. The code for that
-    is [here]().
+    is [here](),
+    and a high-level explanation is [here](100,000).
 * [`catalogs-2013-08-28.db`]() is a table of all of the Socrata DCAT files.
     It has resolved these quirks in these ways, but it still has these quirks
 * [`socrata-deduplicated.csv`]()
