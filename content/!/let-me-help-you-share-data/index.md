@@ -10,7 +10,7 @@ data. It has been more fun than many other things I've done, and I
 want to keep doing this research all day. So now I'm looking for work
 that will allow that. If anything below sounds interesting to you or
 if you think you have something interesting that I haven't thought of,
-email me at [_@thomaslevine.com](mailto:_@thomaslevine.com).
+email me at [\_@thomaslevine.com](mailto:_@thomaslevine.com).
 
 ## What I really mean when I say "open data"
 If you're calling your activities "open data", they're probably going
