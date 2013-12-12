@@ -70,7 +70,7 @@ These files include data from Socrata, CKAN, Junar, and OpenDataSoft.
     [`query-license.py`](https://github.com/tlevine/open-data-download/blob/8886bd048e1aafd9e5e64106c87f41394b6a7bcb/query-license.py) might get you thinking about how it was produced.
 * [OpenPrism](http://openprism.thomaslevine.com) lists a bunch of
     data catalog websites [in its source code](https://github.com/tlevine/openprism/blob/gh-pages/src/index.js).
-    I assembled these lists by checking [datacatalogs.org](http://datacatologs.org),
+    I assembled these lists by checking [datacatalogs.org](http://datacatalogs.org),
     by checking the since-changed Socrata status page
     and by contacting Junar and OpenDataSoft directly.
 * It turns out that a bunch of CKAN instances listed on
@@ -194,7 +194,10 @@ per table. It's still difficult to figure out which view is the
 original, but you can aggregate the various fields in different ways
 depending on what you need.
 
-XXX Link to examples.
+For example, I [aggregated](https://github.com/tlevine/socrata-analysis/blob/33af3a27f58a20828801fe750524cb687d66d4e9/words/15-dates.r#L17)
+to maximum family-wide row count and the sum of family-wide download
+counts when I looked at the
+[updating of datasets](/!/data-updatedness/).
 
 ### Approaches I haven't tried yet
 I've tried not to concern myself so much with fixing Socrata's APIs,
@@ -208,7 +211,7 @@ is run on the original table to get the particular subset. By parsing
 these, you might be able to determine which view of the views belonging
 to one table is the original view.
 
-XXX Link to an example
+<!-- XXX Link to examples. -->
 
 #### Parsing more web pages
 I can figure out the genealogy by looking at the web pages, so a program
