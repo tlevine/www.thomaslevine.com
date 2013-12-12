@@ -17,7 +17,7 @@ If you're calling your activities "open data", they're probably going
 to be interesting to me. On the other hand, a lot of other scenarios
 have similar characteristics; for example, if you use a lot of proprietary data
 in an organization of more than a few people, your situation is
-probably quite similar to that of this "open" data ecosystem.
+probably quite similar to that of this open data ecosystem.
 
 As far as I can tell, open data is really just about multiple people
 interacting with the same data. We call data "open" when anyone in the
