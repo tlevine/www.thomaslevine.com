@@ -1,3 +1,8 @@
+---
+title: Datasets about Socrata datasets
+description: I finally document my data about Socrata datasets
+tweet_text: Today I'm opening my data about open data.
+---
 I've recently been [studying data about open data](/open-data),
 and I'm hearing that other people want to do the same. Yay!
 
@@ -241,9 +246,7 @@ can look for identical datasets that are present in multiple portals
 and then remove datasets that are not from the original portal.
 I did that [here](/!/socrata-deduplicate).
 
-## Notable statistics I computed
-
-### Table size
+## Determining the size of data views
 The metadata file does not explicitly state the number of columns and the
 number of rows in the dataset, but there's enough in the file to figure out
 what these two numbers are.
