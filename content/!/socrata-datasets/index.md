@@ -63,8 +63,20 @@ These files include only Socrata data.
 
 These files include data from Socrata, CKAN, Junar, and OpenDataSoft.
 
-* [`licensing.csv`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks. query-licensing.py . also includes other portal software
-ckan_workingness.csv  licensing-by-portal.csv  licensing.csv
+* [`licensing.csv`](https://github.com/tlevine/open-data-download/blob/8886bd048e1aafd9e5e64106c87f41394b6a7bcb/licensing.csv)
+    contains a record for each dataset across a bunch of catalogs.
+    The column `license_standard` is the binned license.
+    (See [this plot](/!/open-data-licensing/#which-licenses).)
+    [`query-license.py`](https://github.com/tlevine/open-data-download/blob/8886bd048e1aafd9e5e64106c87f41394b6a7bcb/query-license.py) might get you thinking about how it was produced.
+* [OpenPrism](http://openprism.thomaslevine.com) lists a bunch of
+    data catalog websites [in its source code](https://github.com/tlevine/openprism/blob/gh-pages/src/index.js).
+    I assembled these lists by checking [datacatalogs.org](http://datacatologs.org),
+    by checking the since-changed Socrata status page
+    and by contacting Junar and OpenDataSoft directly.
+* It turns out that a bunch of CKAN instances listed on
+    [datacatalogs.org](http://datacatalogs.org) aren't up anymore.
+    [`ckan_workingness.csv`](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/ckan_workingness.csv) has a list of what's still working,
+    and [`download_ckan.py`](https://github.com/tlevine/open-data-download/blob/3115221f193e08d2e83eb753e8154ea9593fec55/download_ckan.py#L62) shows how that list was assembled.
 
 The remainder of this article summarizes the various quirks that I've dealt
 with and haven't dealt with.
