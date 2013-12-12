@@ -1,7 +1,9 @@
 ---
 title: Datasets about Socrata datasets
 description: I finally document my data about Socrata datasets
-tweet_text: Today I'm opening my data about open data.
+tweet_text: Today I'm opening my data about open data. http://thomaslevine.com/!/socrata-datasets
+kind: article
+created_at: 2013-12-12
 ---
 I've recently been [studying data about open data](/open-data),
 and I'm hearing that other people want to do the same. Yay!
@@ -9,8 +11,8 @@ and I'm hearing that other people want to do the same. Yay!
 Some people have asked for the data that I've collected so that
 they can study things without spending a month downloading all
 the data and formatting them properly and whatnot.
-This article is for those people and for people who wanted that
-but never asked.
+I haven't had particularly good answers for these requests, but
+the present writing should change that.
 
 ## Metadata about data about metadata from Socrata
 I've been using data from Socrata data portal websites for most
