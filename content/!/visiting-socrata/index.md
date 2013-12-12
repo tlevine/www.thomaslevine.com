@@ -1,5 +1,8 @@
 ---
 title: My visit to Socrata, and data analysis about data analysis
+tags: ['open-data']
+kind: article
+created_at: 2013-08-30
 ---
 A couple months ago, I downloaded the metadata files for all of the
 datasets on 60 Socrata open data portals. Interesting things
