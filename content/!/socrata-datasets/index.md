@@ -118,7 +118,7 @@ than dataset.
 
 ### View metadata files
 Regardless of whether it's a dataset, filter, chart, map, or whatever,
-each view has a metadata file at a url like this.
+each view has a metadata file at a URL like this.
 
     https://data.maryland.gov/api/views/${id}.json
 
@@ -147,7 +147,7 @@ views, you'll get none of the derivatives. It's possible that you'll miss
 some data where the original dataset is private and only a filter on the
 dataset is public.
 
-If you use the ordinary search webpages rather than the API, you can ols
+If you use the ordinary search webpages rather than the API, you can also
 deal with federation in the same step. In the HTML search interface that
 is intended for humans, federated datasets are shaded blue and shown as
 links to other data portals, rather than being shaded white and linking
