@@ -1,9 +1,10 @@
 ---
-title: Datasets about Socrata datasets
-description: I finally document my data about Socrata datasets
+title: Datasets about open data
+description: I finally document my data about open data.
 tweet_text: Today I'm opening my data about open data. http://thomaslevine.com/!/socrata-datasets
 kind: article
 created_at: 2013-12-12
+tags: ['open-data']
 ---
 I've recently been [studying data about open data](/open-data),
 and I'm hearing that other people want to do the same. Yay!
