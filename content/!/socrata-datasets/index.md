@@ -36,28 +36,30 @@ that the programs won't work quite as you expect them to.
 
 These files include only Socrata data.
 
-* [`socrata.csv`](https://github.com/tlevine/socrata-analysis/blob/master/socrata.csv)
+* [`socrata.csv`](https://github.com/tlevine/socrata-analysis/blob/33af3a27f58a20828801fe750524cb687d66d4e9/socrata.csv)
     is based on metadata files from all views as of July.
     It includes duplicates from both federation and derived views.
     I produced it by searching all the portals
     [without attempting to remove duplicates](#not-removing-duplicates).
     The code is [here]().
-* [`users.csv`](https://github.com/tlevine/socrata-analysis/blob/master/users.csv)
+* [`users.csv`](https://github.com/tlevine/socrata-analysis/blob/33af3a27f58a20828801fe750524cb687d66d4e9/users.csv)
     is a transformation of `socrata.csv` such that each row is a user.
     It includes counts of views and tables belonging to each user, but
     I don't remember how I handled duplicates there. The code for that
-    is [here](),
-    and a high-level explanation is [here](100,000).
-* [`catalogs-2013-08-28.db`]() is a table of all of the Socrata DCAT files.
+    is [here](https://github.com/tlevine/socrata-analysis/blob/33af3a27f58a20828801fe750524cb687d66d4e9/numbers/run.py#L207),
+    and a high-level explanation is [here](/!/data-about-open-data-talk-december-2-2013/#data-about-people-who-use-data).
+* [`catalogs-2013-08-28.db`](https://github.com/tlevine/socrata-catalog/blob/3a7d72b5b7332a26dd6066edb44749a634bfe48c/catalogs-2013-08-28.db) is a table of all of the Socrata DCAT files.
     It has resolved these quirks in these ways, but it still has these quirks
-* [`socrata-deduplicated.csv`]()
+* [`socrata-deduplicated.csv`](https://github.com/tlevine/socrata-analysis/blob/33af3a27f58a20828801fe750524cb687d66d4e9/socrata-deduplicated.csv)
     is `socrata.csv` with
     [federation-induced duplicates removed](#dealing-with-federation).
     That is, if data were federated from one portal to three portals,
     this file includes the data from only the first portal. It still
-    includes derived data. The code is [here]().
-* [`federation.json`]() is produced by this method. It has resolved these quirks in these ways, but it still has these quirks
-    Makefile, make json, make csv
+    includes derived data. The code is [here](https://github.com/tlevine/socrata-defederate/blob/c2c32f5f1db3563db8c4f671d7ebae6ab91c73ec/dedupe.py).
+* [`federation.json`](https://github.com/tlevine/socrata-defederate/blob/c2c32f5f1db3563db8c4f671d7ebae6ab91c73ec/federation.json) is also produced by
+    [`dedupe.py`](https://github.com/tlevine/socrata-defederate/blob/c2c32f5f1db3563db8c4f671d7ebae6ab91c73ec/dedupe.py).
+    (The [Makefile](https://github.com/tlevine/socrata-defederate/blob/c2c32f5f1db3563db8c4f671d7ebae6ab91c73ec/Makefile) may be informative.)
+    I used it to make [this plot](/!/socrata-deduplicate/#graph-diagram).
 
 These files include data from Socrata, CKAN, Junar, and OpenDataSoft.
 
