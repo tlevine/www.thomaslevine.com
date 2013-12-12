@@ -1,7 +1,8 @@
 ---
 title: Datasets about open data
 description: I finally document my data about open data.
-tweet_text: Today I'm opening my data about open data. http://thomaslevine.com/!/socrata-datasets
+tweet_text: Today I'm opening my data about open data. http://thomaslevine.com/!/my-datasets-about-open-data/
+tweet_link: https://twitter.com/thomaslevine/status/411227552015872000
 kind: article
 created_at: 2013-12-12
 tags: ['open-data']
