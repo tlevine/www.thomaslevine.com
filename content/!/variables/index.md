@@ -1,8 +1,8 @@
 ---
-title: Multiple meanings of the word "variable"
+title: Two meanings of "variable"
 tags: ['datakind']
 ---
-## Two meanings of "variable"
+## Introduction
 
 ### Variable in an equation
 If you ever took an algebra class, you'll think that
