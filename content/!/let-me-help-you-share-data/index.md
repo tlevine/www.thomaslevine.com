@@ -43,13 +43,3 @@ and they can be aligned with quite a many different efforts/organizations.
 
 I want to do lots of different small projects around this, so a
 consulting arrangement is probably what I'm looking for.
-
-## Things other than sharing of data
-I want to focus on making open data data-driven, but I'm quite open to
-other things if they're small. This might include the following sorts
-of things.
-
-* Methodological advice
-* Data strategy
-* Training
-* Data visualization, sonification, and gastronomification
