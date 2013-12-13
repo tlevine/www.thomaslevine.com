@@ -1,7 +1,7 @@
 ---
-title: I want to help you share data
+title: Can I help you share data?
 description: I'm looking for work that will let me study open data all day.
-twitter_description: And it's more than just open data
+twitter_description: That could be open data, but it's also a lot more.
 tweet_text: Hi Twitter. I'm looking for work that will let me study open data all day.
 ---
 As you may have realized, I've recently been [studying](/open-data)
@@ -36,9 +36,11 @@ and they can be aligned with quite a many different efforts/organizations.
     working, and find ways of making things go better.
 * If you are giving grants in relation to open data, we should talk.
 * It might be that you find my stuff useful but don't have any work
-    specific to you that they want me to do. I have a long list of things
-    that I want to do, and I can prioritize them somewhat based on what
-    would be most useful to you.
+    specific to you that they want me to do. I have a
+    [long list](https://github.com/tlevine/open-data-things) of things
+    that I want to do, and it's way more than I can possibly do, so
+    I can prioritize them somewhat based on what would be most useful
+    to you.
 
 I want to do lots of different small projects around this, so a
 consulting arrangement is probably what I'm looking for.
