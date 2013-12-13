@@ -8,9 +8,7 @@ As you may have realized, I've recently been [studying](/open-data)
 data about open data so that we can use data to drive our opening of
 data. It has been more fun than many other things I've done, and I
 want to keep doing this research all day. So now I'm looking for work
-that will allow that. If anything below sounds interesting to you or
-if you think you have something interesting that I haven't thought of,
-email me at [\_@thomaslevine.com](mailto:_@thomaslevine.com).
+that will allow that.
 
 ## What I really mean when I talk about open data
 If you're calling your activities "open data", they're probably going
@@ -42,5 +40,11 @@ and they can be aligned with quite a many different efforts/organizations.
     I can prioritize them somewhat based on what would be most useful
     to you.
 
-I want to do lots of different small projects around this, so a
-consulting arrangement is probably what I'm looking for.
+## Interested?
+If anything above sounded interesting to you or
+if you think you have something interesting that I haven't thought of,
+email me at [\_@thomaslevine.com](mailto:_@thomaslevine.com).
+
+For now, I want to do lots of different small projects around this,
+so a consulting arrangement is probably what I'm looking for, but
+I'll consider other things.
