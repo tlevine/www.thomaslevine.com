@@ -1,0 +1,42 @@
+          ID : 321138a5-e79b-4a1d-ba66-e5dc51309ad7
+  Short name : 215/321
+    Severity : minor
+      Status : open
+    Assigned : 
+    Reporter : Thomas Levine <occurrence@thomaslevine.com>
+     Creator : Thomas Levine <occurrence@thomaslevine.com>
+     Created : Thu, 19 Sep 2013 19:44 (Thu, 19 Sep 2013 19:44:11 +0000)
+Real-world algorithms and data structures
+--------- Comment ---------
+Name: 215/321/6bf
+From: Thomas Levine <occurrence@thomaslevine.com>
+Date: Thu, 19 Sep 2013 19:48:12 +0000
+
+MapReduce:
+
+#215# Storage
+We have a stack of books. They're heavy.
+We also have a bunch of workers.
+
+#215# Map
+Each worker picks up a book from the book pile.
+She copies the page count of each book and the
+number of books (1) onto a piece of paper and
+puts it in the paper stack.
+
+The paper stack is only allowed to get so big.
+
+#215# Reduce
+When the paper stack gets too big or when there
+are no more books, workers take papers from the
+paper stack, add up the page counts and numbers
+of books, and put the papers back into the paper
+stack.
+
+We end when there is only one piece of paper left.
+--------- Comment ---------
+Name: 215/321/af5
+From: Thomas Levine <occurrence@thomaslevine.com>
+Date: Thu, 19 Sep 2013 19:48:47 +0000
+
+linked lists, with people pointing to other people
