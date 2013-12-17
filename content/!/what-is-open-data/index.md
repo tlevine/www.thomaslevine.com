@@ -58,7 +58,7 @@ the concept of ownership changes. One person or group may initially
 collect most of the data, but other people may continuously audit the
 data, structure the dataset differently, or collect more data. We wind
 up with something more like
-[a cathedral than a bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/),
+[a bazaar than a cathedral](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/),
 just as we do in free software, wikis, and other forms of free culture.
 
 ## Plan for sharing
