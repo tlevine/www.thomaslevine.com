@@ -24,17 +24,19 @@ And the *open* data name might be helpful in distinguishing from the
 *closed* times of the past.
 
 ## Sharing data in general
-The main point that the above video misses is that many different people
-can release datasets and that several people can collaborate on one.
-Different government departments, companies, and ordinary people could
-all create their own datasets and assist in the collection or auditing
-of shared datasets.
+Because the above video is focusing on governments who are trying to
+start getting data out somewhere, it doesn't discuss more involved sorts
+of sharing.  Different government departments, companies, and ordinary
+people could all create their own datasets and assist in the collection
+or auditing of shared datasets.
 
-You don't have to be a government releasing data to the public in order
-
-For example, if you use a lot of proprietary data
-in an organization of more than a few people, your situation is
-probably quite similar to that of this open data ecosystem.
+And you don't have to be a government releasing data to the public in
+order to be sharing data. For example, if you use a lot of proprietary
+data in an organization of at least ten people, your situation is
+probably quite similar to that of this open data ecosystem. You have
+enough different data sources that not everyone will know everything
+about all of the data sources, so you'll come up with approaches for
+[finding datasets](/!/openprism), 
 
 As far as I can tell, open data is really just about multiple people
 interacting with the same data. We call data "open" when anyone in the
