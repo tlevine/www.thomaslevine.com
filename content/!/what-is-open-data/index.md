@@ -45,3 +45,7 @@ were asked not to share what he had said, so I'll just say that they
 were doing everything that I'd been wanting in the area of open data.
 And I've heard similary awesome things about managing data at
 Bridgewater and JP Morgan.
+
+##
+Something conclusionary about changing how we think about ownership
+and credibility and versioning
