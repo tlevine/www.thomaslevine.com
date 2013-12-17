@@ -3,6 +3,7 @@ title: What is open data?
 kind: article
 created_at: 2013-12-17
 tweet_text: I think I finally know what open data is. http://thomaslevine.com/!/what-is-open-data
+tweet_link: https://twitter.com/thomaslevine/status/413021209295466496
 twitter_description: A rather verbose definition
 tags: ['open-data']
 ---
