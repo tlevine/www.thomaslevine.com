@@ -16,8 +16,8 @@ and they can be aligned with quite a many different efforts/organizations.
 
 **If you work for a data-related software company**, I can prototype or implement new
 features in your product to make open data better. This could involve
-new ways of [checking for out-of-date data](/!/data-updatedness/) and
-new ways of [searching for data](/!/openprism/).
+things like [checking for out-of-date data](/!/data-updatedness/) and
+[new ways of searching for data](/!/openprism/).
 
 **If you work for an organization that wants to release open data**
 or share data internally, I can quantify how well your efforts are going,
