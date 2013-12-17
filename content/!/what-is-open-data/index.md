@@ -4,12 +4,11 @@ kind: article
 created_at: 2013-12-17
 tweet_text: I think I finally know what open data is. http://thomaslevine.com/!/what-is-open-data
 twitter_description: A rather verbose definition
+tags: ['open-data']
 ---
-People have said for while that I knew something about open data,
-even before I started [my recent studies](/open-data), but I never
-really knew what they meant. My confusion as to the meaning of the
-term might actually be part of the reason why I started these
-studies.
+Part of the reason for [my recent studies](/open-data) on open data
+has been unclarity as to what open data really is. This unclarity has
+recently become more clear to me.
 
 As far as I can tell, open data is the phenomenon of multiple people
 creating, sharing, and reading with the same data. We call data "open"
