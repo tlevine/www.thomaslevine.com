@@ -14,12 +14,12 @@ that will allow that.
 There are a lot of things about open data that I want to look at,
 and they can be aligned with quite a many different efforts/organizations.
 
-If you work for a software company, I can prototype or implement new
+**If you work for a data-related software company**, I can prototype or implement new
 features in your product to make open data better. This could involve
 new ways of [checking for out-of-date data](/!/data-updatedness/) and
 new ways of [searching for data](/!/openprism/).
 
-If you work for an organization that wants to release open data
+**If you work for an organization that wants to release open data**
 or share data internally, I can quantify how well your efforts are going,
 figure out what's working, and find ways of making things go better.
 I've previously looked at
@@ -27,7 +27,7 @@ I've previously looked at
 [how in-browser charting tools are used](/!/socrata-users/), and
 [what sorts of data are available in a data catalog](/!/missouri-data-licensing/).
 
-If you are giving grants in relation to open data, we should talk.
+**If you are giving grants in relation to open data**, we should talk.
 I have a [long list](https://github.com/tlevine/open-data-things) of things
 that I want to do, and it's way more than I can possibly do;
 I can prioritize them somewhat based on your interests.
