@@ -142,6 +142,9 @@ nav
   .logo
     margin-top: 1 * $square
 
+.explain-home-page
+  @extend .base-big-card
+  height: $topic-card-width
 
 // Hack so that overflows but is still centered
 .e-post
@@ -375,12 +378,17 @@ hr
       left: 0
       right: 0
 
+  .explain-home-page
+    height: $topic-card-width
+
 @media screen and (min-width: 2 * $calling-card-long)
 
   article
     // Four little-card margins plus five little cards
     width: 4 * (($calling-card-long - (3 * $topic-card-width * $square))/2) + 5 * $topic-card-width * $square 
 
+  .explain-home-page
+    height: $topic-card-width
 
 @media print
   nav, #pagination
