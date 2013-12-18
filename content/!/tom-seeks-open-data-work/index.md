@@ -6,7 +6,8 @@ tweet_text: Hi Twitter. Can I help you with your open data?
 As you may have realized, I've recently been [studying](/open-data)
 data about [open data](/!/what-is-open-data)
 so that we can use data to drive our opening of
-data. (Data, data, data!)
+data. Because data. Data, data, data!
+
 I want to keep doing this research all day.
 
 ## Things I can do for you
