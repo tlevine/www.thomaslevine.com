@@ -1,7 +1,7 @@
 ---
-title: Tom seeks open data work.
-description: I'm looking for work that will let me study open data all day.
-tweet_text: Hi Twitter. Can I help you with your open data?
+title: I want open data work.
+description: I want to study open data all day.
+tweet_text: Tom wants you to hire him to do data about open data.
 ---
 As you may have realized, I've recently been [studying](/open-data)
 data about [open data](/!/what-is-open-data)
@@ -21,8 +21,8 @@ or share data internally, I can quantify how well your efforts are going,
 figure out what's working, and find ways of making things go better.
 I've previously looked at
 [whether datasets are appropriately licensed](/!/open-data-licensing/),
-[how in-browser charting tools are used](/!/socrata-users/), and
-[what sorts of data are available in a data catalog](/!/missouri-data-licensing/).
+[what sorts of data are available in a data catalog](/!/missouri-data-licensing/), and
+[how in-browser charting tools are used](/!/socrata-users/).
 
 **If you are giving grants in relation to open data**, we should talk.
 I have a [long list](https://github.com/tlevine/open-data-things) of things
