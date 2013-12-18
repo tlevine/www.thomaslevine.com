@@ -1,5 +1,5 @@
 ---
-title: I want open data work.
+title: Get Meta! (Hire me.)
 description: I want to study open data all day.
 twitter_title: Have you looked at the data about your open data?
 twitter_description: Tom wants to study open data all day.
