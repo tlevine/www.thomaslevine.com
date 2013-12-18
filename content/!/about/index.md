@@ -1,6 +1,9 @@
 ---
 title: About Thomas Levine
 ---
+
+![A picture of Tom from when he had pink hair](/img/me.png){:style="background-color: inherit;"}
+
 Playing with computers since he was young, Tom eventually developed back and
 wrist pain, so he started studying ergonomics and conducting quantitative
 ergonomics research. At some point, people started calling him a data scientist.
@@ -78,7 +81,6 @@ And he's strange in other ways.
 >
 > [Mariano Blejman](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
 -->
-<% end %>
 
 ## About this site
 
@@ -89,3 +91,4 @@ finding things on it, particularly his email address.
 Thomas Levine reads the text before images and he doesn't really pay attention
 to images unless he is explicitly told to do so, so he has avoided putting many
 images on the site.
+<% end %>
