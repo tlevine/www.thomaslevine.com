@@ -6,14 +6,10 @@ tweet_text: Hi Twitter. Can I help you with your open data?
 As you may have realized, I've recently been [studying](/open-data)
 data about [open data](/!/what-is-open-data)
 so that we can use data to drive our opening of
-data. It has been more fun than many other things I've done, and I
-want to keep doing this research all day. So now I'm looking for work
-that will allow that.
+data. (Data, data, data!)
+I want to keep doing this research all day.
 
 ## Things I can do for you
-There are a lot of things about open data that I want to look at,
-and they can be aligned with quite a many different efforts/organizations.
-
 **If you work for a data-related software company**, I can prototype or implement new
 features in your product to make open data better. This could involve
 things like [checking for out-of-date data](/!/data-updatedness/) and
