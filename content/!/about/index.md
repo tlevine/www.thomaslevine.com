@@ -7,7 +7,7 @@ Playing with computers since he was young, Tom eventually developed back and
 wrist pain, so he started studying ergonomics and conducting quantitative
 ergonomics research. At some point, people started calling him a data scientist.
 And his back and wrists now hurt less. He recently been
-playing [music](http://csvsoundsystem.com),
+playing [music](http://csvsoundsystem.com) and
 studying [open data](/open-data).
 
 <!--
