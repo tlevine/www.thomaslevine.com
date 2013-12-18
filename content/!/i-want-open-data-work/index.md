@@ -3,7 +3,7 @@ title: I want open data work.
 description: I want to study open data all day.
 twitter_title: Tom wants open data work.
 twitter_description: Tom wants to study open data all day.
-tweet_text: Tom wants you to hire him to do data about open data.
+tweet_text: Tom wants you to hire him to do data about open data. http://thomaslevine.com/!/i-want-open-data-work
 kind: article
 created_at: 2013-12-18
 tags: ['open-data']
