@@ -17,23 +17,23 @@ I want to keep doing this research all day.
 
 ## Things I can do for you
 **If you work for a data-related software company**, I can prototype or implement new
-features in your product to make open data better. This could involve
+features in your product to make your product more awesome. This could involve
 things like [identification of out-of-date data](/!/data-updatedness/) and
 [new ways of searching for data](/!/openprism/).
 
 **If you work for an organization that wants to release open data**
-or share data internally, I can quantify how well your efforts are going,
-figure out what's working, and find ways of making things go better.
-I've previously looked at
-[whether datasets are appropriately licensed](/!/open-data-licensing/),
-[what sorts of data are available in a data catalog](/!/missouri-data-licensing/), and
-[how in-browser charting tools are used](/!/socrata-users/).
+or share data internally, I can help you do that better.
+By collecting data about your data, I can figure out what's working
+and what isn't to help you decide what to do next. For example,
+I can determine
+[what sorts of data you have](/!/missouri-data-licensing/),
+[whether your datasets are licensed properly](/!/open-data-licensing/), and
+[how people are using your data](/!/socrata-users/).
 
 **If you are giving grants in relation to open data**, we should talk.
 I have a [long list](https://github.com/tlevine/open-data-things) of things
 that I want to do.
 
 ## Interested?
-If anything above sounded interesting to you or
-if you think you have something interesting that I haven't thought of,
+If you want any of the things above,
 email me at [\_@thomaslevine.com](mailto:_@thomaslevine.com).
