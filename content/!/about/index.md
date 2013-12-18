@@ -1,20 +1,6 @@
 ---
 title: About Thomas Levine
 ---
-<!--
-## Short version
-
-Data science, ergonomics,
-typography, toilets, data
-gastronomy, free software,
-pretend-ironic buzzwords
-and the color pink.
-
-## Longer version
-
-## Simple version
--->
-
 Playing with computers since he was young, Tom eventually developed back and
 wrist pain, so he started studying ergonomics and conducting quantitative
 ergonomics research. At some point, people started calling him a data scientist.
@@ -22,6 +8,7 @@ And his back and wrists now hurt less. He recently been playing music with
 [csv soundsystem](http://csvsoundsystem.com) and studying how people publish
 and use [open data](/open-data).
 
+<% if false %>
 ## Complicated version
 
 Thomas Levine likes to help people make things work more smoothly. When he was a
@@ -34,7 +21,6 @@ While it's nice that Tom can make things more efficient, he suspects that
 improving efficiency is more efficiently accomplished when he teaches other
 people to make things more efficient more efficiently.
 
-<% if false %>
 <!--
 Tom thinks that this
 explains why he does ergonomics research and data science. (By the way, Tom
