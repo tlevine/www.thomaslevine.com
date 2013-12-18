@@ -4,6 +4,7 @@ description: I want to study open data all day.
 twitter_title: Have you looked at the data about your open data?
 twitter_description: Tom wants to study open data all day.
 tweet_text: Get meta! Have Tom do data about your open data http://thomaslevine.com/!/get-meta #opendata #metadata #DataDrivenData #d3 #otherD3 #BecauseData
+tweet_link: https://twitter.com/thomaslevine/status/413375919927996416
 kind: article
 created_at: 2013-12-18
 tags: ['open-data']
