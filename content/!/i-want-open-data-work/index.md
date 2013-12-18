@@ -1,13 +1,25 @@
 ---
 title: I want open data work.
 description: I want to study open data all day.
-twitter_title: Tom wants open data work.
+twitter_title: Have you looked at the data about your open data?
 twitter_description: Tom wants to study open data all day.
 tweet_text: Tom wants you to hire him to do data about open data. http://thomaslevine.com/!/i-want-open-data-work
 kind: article
 created_at: 2013-12-18
 tags: ['open-data']
 ---
+
+<!--
+Tweet and title ideas
+
+Sure you have open data. But do you have data about your open data? I can help.
+
+Open data decision-maker: Do you use data to make decisions about your open data
+
+Data-driven open data 
+The other D3: Data-driven data 
+-->
+
 As you may have realized, I've recently been [studying](/open-data)
 data about [open data](/!/what-is-open-data)
 so that we can use data to drive our opening of
