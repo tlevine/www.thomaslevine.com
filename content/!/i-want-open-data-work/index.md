@@ -6,6 +6,7 @@ twitter_description: Tom wants to study open data all day.
 tweet_text: Tom wants you to hire him to do data about open data.
 kind: article
 created_at: 2013-12-18
+tags: ['open-data']
 ---
 As you may have realized, I've recently been [studying](/open-data)
 data about [open data](/!/what-is-open-data)
