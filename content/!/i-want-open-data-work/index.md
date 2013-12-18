@@ -31,8 +31,8 @@ I can determine
 [how people are using your data](/!/socrata-users/).
 
 **If you are giving grants in relation to open data**, we should talk.
-I have a [long list](https://github.com/tlevine/open-data-things) of things
-that I want to do.
+I have a [long list](https://github.com/tlevine/open-data-things/tree/master/.plans/proposed)
+of things that I want to do.
 
 ## Interested?
 If you want any of the things above,
