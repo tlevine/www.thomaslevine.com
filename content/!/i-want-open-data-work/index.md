@@ -17,8 +17,8 @@ I want to keep doing this research all day.
 
 ## Things I can do for you
 **If you work for a data-related software company**, I can prototype or implement new
-features in your product to make your product more awesome. This could involve
-things like [identification of out-of-date data](/!/data-updatedness/) and
+features in your product to help your users find value in open data. This could involve
+[identification of out-of-date data](/!/data-updatedness/) and
 [new ways of searching for data](/!/openprism/).
 
 **If you work for an organization that wants to release open data**
