@@ -25,8 +25,7 @@ I've previously looked at
 
 **If you are giving grants in relation to open data**, we should talk.
 I have a [long list](https://github.com/tlevine/open-data-things) of things
-that I want to do, and it's way more than I can possibly do;
-I can prioritize them somewhat based on your interests.
+that I want to do.
 
 ## Interested?
 If anything above sounded interesting to you or
