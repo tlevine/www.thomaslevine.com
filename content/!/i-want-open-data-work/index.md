@@ -1,7 +1,11 @@
 ---
 title: I want open data work.
 description: I want to study open data all day.
+twitter_title: Tom wants open data work.
+twitter_description: Tom wants to study open data all day.
 tweet_text: Tom wants you to hire him to do data about open data.
+kind: article
+created_at: 2013-12-18
 ---
 As you may have realized, I've recently been [studying](/open-data)
 data about [open data](/!/what-is-open-data)
