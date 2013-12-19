@@ -34,3 +34,7 @@ But you're better off <a href="mailto:_@thomaslevine.com">emailing me</a>
 because I hardly ever look at GitHub notifications.
 
 ## Git way
+There are some problems with the GitHub approach above. In particular,
+it involves using the proprietary GitHub web interface, you probably
+need a mouse to do it, and you can't create your own git branch. Thus,
+you may prefer using git directly.
