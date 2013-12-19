@@ -281,7 +281,7 @@ converting it into a spreadsheet that is hosted on a website.
 
 This function is contains all of the parsing functions for a specific page of
 the pdf file once it has been converted to SVG. It takes an
-`lxml.etree._ElementTree` object like the one we get from lxml.etree.parse,
+`lxml.etree._ElementTree` object like the one we get from `lxml.etree.parse`,
 along with some metadata. It runs a crazy XPath selector (determined only after
 much test-driven development) to pick out the table rows, and then runs a bunch
 of functions (not included) to pick out the cells within the rows.
@@ -323,17 +323,17 @@ use Inkscape. If I don't, I'd probably use `pdfimages`, as I did here.
 ## Review
 When I'm parsing PDFs, I use some combination of these tools.
 
-I prefer the
-ones earlier in the list when the parsing is less involved because the tools
-do more of the work for me. I prefer the ones towards the end as the job gets
-more complex because these tools give me more control.
-
 1. Basic file analysis tools (`ls` or another language's equivalent)
 2. PDF metadata tools (`pdfinfo` or an equivalent)
 3. `pdftotext`
 4. `pdftohtml -xml`
 5. Inkscape via [`pdf2svg`](https://github.com/scraperwiki/pdf2svg)
 6. [PDFMiner](http://www.unixuser.org/~euske/python/pdfminer/)
+
+I prefer the
+ones earlier in the list when the parsing is less involved because the tools
+do more of the work for me. I prefer the ones towards the end as the job gets
+more complex because these tools give me more control.
 
 If I need OCR, I use `pdfimages` to remove the images and `tesseract` to run
 OCR. If I needed to run OCR and know more about the layout, I might convert the
