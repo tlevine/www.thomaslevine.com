@@ -1,5 +1,6 @@
 ---
 title: Edit my site
+description: This is how you make changes to www.thomaslevine.com.
 ---
 Most of the articles on my site are quite a mess, and it would be nice if
 that could change. Here's how you can help.
