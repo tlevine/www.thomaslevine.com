@@ -52,7 +52,7 @@ The portfolio must look kind of nice, and it must have a shoulder
 strap or some other fancy carrying mechanism.
 
 ## Suitable portfolios
-The [Alvin Elegance](http://www.aifriedman.com/browse.cfm/prat-soft-side-2-portfolio-26x20-black/4,8923.html) looks best.
+The [Alvin Elegance](http://www.dickblick.com/products/alvin-elegance-portfolios/) looks best.
 
 * It's sturdy.
 * It's big.
