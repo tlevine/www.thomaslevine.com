@@ -32,6 +32,13 @@ item. That is, it should be less than 45 linear inches (easy) and
 fit in the carry-on bag check thingy, which is 22" by 14" by 9".
 That won't work with the present monitor. :(
 
+Given that it isn't going to fit in carryon, it might be fun just
+to go for the biggest thing I can, in all dimensions. Though maybe
+it would be nice for the depth dimension to collapse a bit.
+
+On the other hand, I find that my big notebooks have been a bit too
+big, so maybe I'll try to go for just big enough.
+
 ### Sturdiness
 The only fragile thing in the portfolio is the monitor, and it
 will be protected by the table top, the paper, and the styrofoam
