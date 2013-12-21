@@ -57,10 +57,9 @@ strap or some other fancy carrying mechanism.
 * http://www.davinciartistsupply.com/product_info.php?products_id=121955
 * http://www.davinciartistsupply.com/product_info.php?products_id=121955
 * http://www.dickblick.com/products/itoya-art-profolio-all-weather-portfolio/#photos
-* http://www.dickblick.com/products/prat-start-4-portfolios/ (nice but too small)
 * http://www.dickblick.com/products/blick-student-portfolio/
 * http://www.dickblick.com/products/blick-studio-portfolios/
 * http://www.dickblick.com/products/alvin-elegance-portfolios/
 * http://www.dickblick.com/products/weber-quilted-artists-portfolios/
 * http://www.dickblick.com/products/prat-start-softside-portfolios/
-* 
+* http://www.utrechtart.com/Utrecht-Studio-Series-Portfolio--3-Inch-Gusset-MP-15136-001-i1013786.utrecht
