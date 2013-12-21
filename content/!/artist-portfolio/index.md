@@ -57,6 +57,9 @@ it would be nice for the depth dimension to collapse a bit.
 On the other hand, I find that my big notebooks have been a bit too
 big, so maybe I'll try to go for just big enough.
 
+The main difficulty with sizing will be finding a portfolio case
+that is deep enough.
+
 ### Sturdiness
 The only fragile thing in the portfolio is the monitor, and it
 will be protected by the table top, the paper, and the styrofoam
