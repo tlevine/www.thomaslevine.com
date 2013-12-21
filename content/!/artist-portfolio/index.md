@@ -19,7 +19,25 @@ the things that don't fit in the backpack. These things are
 * A [folding chair](http://www.bjindustriesinc.com/backjack-chairs.htm), possibly
 
 ## How they fit
+The following thinking figures no styrofoam thingy.
 
+The table top has a top and bottom; the bottom is the side to which
+leg stubs are glued.
+The monitor screen touches the bottom of the table top; the table top
+protects the screen from impacts.
+
+The folding chair goes behind the monitor, so the order is now table top,
+monitor, chair. The leg stubs on the table top are tall enough to extend
+past the back-most part of the monitor, and they are positioned such that
+the chair touches them rather than the monitor. Thus, the chair protects
+the back of the monitor.
+
+The paper goes on top of the desk. (The complete order is paper, table
+top, monitor, chair.) This adds some protection for the monitor, but it's
+mainly to protect the paper; this is the only place were the paper can be
+up against a very flat surface.
+
+All gaps in the case get filled in by clothing.
 
 ## Portfolio specifications
 
