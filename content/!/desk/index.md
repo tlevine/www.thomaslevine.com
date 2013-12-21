@@ -1,6 +1,7 @@
 My desk will be a table top
 with stubs onto which disposible legs can be attached.
 
+## Table
 The table top is made of
 [tempered hardboard](http://www.homedepot.com/p/Unbranded-3-16-in-x-48-in-x-96-in-Tempered-Hard-Board-832780/202404545),
 and it is sized in order that it just fits in my
@@ -15,3 +16,8 @@ I'm going to go.
 To assemble the desk, I poke holes in the cardboard tubes, slide
 them over the stubs, and put some string or a dowel or screw or something
 through the holes to fix them in place.
+
+## Chair
+The chair is the [BackJack](http://www.bjindustriesinc.com/backjack-chairs.htm),
+either the original or the folding but not the XL. Either of these models will
+fit in the backpack.

@@ -16,7 +16,6 @@ the things that don't fit in the backpack. These things are
 * A [27" monitor](http://www.newegg.com/Product/Product.aspx?Item=N82E16824005419)
 * Maybe the styrofoam thingy to protect the monitor screen
 * A table top (for my [desk](/!/desk)) made of
-* A [folding chair](http://www.bjindustriesinc.com/backjack-chairs.htm), possibly
 
 ## How they fit
 The following thinking figures no styrofoam thingy.
