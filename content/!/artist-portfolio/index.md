@@ -52,14 +52,19 @@ The portfolio must look kind of nice, and it must have a shoulder
 strap or some other fancy carrying mechanism.
 
 ## Suitable portfolios
+Deep enough
 
-* [Prat Soft Side 23" x 31" Black](http://www.aifriedman.com/browse.cfm/prat-soft-side-2-portfolio-23x31-black/4,8926.html)
-* http://www.davinciartistsupply.com/product_info.php?products_id=121955
-* http://www.davinciartistsupply.com/product_info.php?products_id=121955
-* http://www.dickblick.com/products/itoya-art-profolio-all-weather-portfolio/#photos
-* http://www.dickblick.com/products/blick-student-portfolio/
-* http://www.dickblick.com/products/blick-studio-portfolios/
+* http://www.aifriedman.com/browse.cfm/prat-soft-side-2-portfolio-26x20-black/4,8923.html
 * http://www.dickblick.com/products/alvin-elegance-portfolios/
 * http://www.dickblick.com/products/weber-quilted-artists-portfolios/
 * http://www.dickblick.com/products/prat-start-softside-portfolios/
 * http://www.utrechtart.com/Utrecht-Studio-Series-Portfolio--3-Inch-Gusset-MP-15136-001-i1013786.utrecht
+
+Maybe deep enough
+
+* http://www.dickblick.com/products/blick-studio-portfolios/
+
+Unspecified depth
+
+* http://www.dickblick.com/products/itoya-art-profolio-all-weather-portfolio/#photos
+* http://www.dickblick.com/products/blick-student-portfolio/
