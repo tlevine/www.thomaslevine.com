@@ -46,3 +46,21 @@ will be protected by the table top, the paper, and the styrofoam
 thingy (if I choose to use that), so the portfolio case itself
 doesn't need to be very sturdy. I could thus save some weight and
 money, perhaps, by choosing a more basic case.
+
+## Aesthetics
+The portfolio must look kind of nice, and it must have a shoulder
+strap or some other fancy carrying mechanism.
+
+## Suitable portfolios
+
+* [Prat Soft Side 23" x 31" Black](http://www.aifriedman.com/browse.cfm/prat-soft-side-2-portfolio-23x31-black/4,8926.html)
+* http://www.davinciartistsupply.com/product_info.php?products_id=121955
+* http://www.davinciartistsupply.com/product_info.php?products_id=121955
+* http://www.dickblick.com/products/itoya-art-profolio-all-weather-portfolio/#photos
+* http://www.dickblick.com/products/prat-start-4-portfolios/ (nice but too small)
+* http://www.dickblick.com/products/blick-student-portfolio/
+* http://www.dickblick.com/products/blick-studio-portfolios/
+* http://www.dickblick.com/products/alvin-elegance-portfolios/
+* http://www.dickblick.com/products/weber-quilted-artists-portfolios/
+* http://www.dickblick.com/products/prat-start-softside-portfolios/
+* 
