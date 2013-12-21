@@ -24,7 +24,13 @@ the things that don't fit in the backpack. These things are
 ## Portfolio specifications
 
 ### Dimensions
-The case needs to be 
+The case needs to be deep enough to fit everything and long and
+wide enough to fit the monitor. The monitor is 25.3" by 15.4" by 1.9".
+
+It would also be nice if it could fit in as an airplane carry-on
+item. That is, it should be less than 45 linear inches (easy) and
+fit in the carry-on bag check thingy, which is 22" by 14" by 9".
+That won't work with the present monitor. :(
 
 ### Sturdiness
 The only fragile thing in the portfolio is the monitor, and it
