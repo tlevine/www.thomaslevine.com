@@ -58,7 +58,8 @@ On the other hand, I find that my big notebooks have been a bit too
 big, so maybe I'll try to go for just big enough.
 
 The main difficulty with sizing will be finding a portfolio case
-that is deep enough.
+that is deep enough. Hmm maybe I can put the chair in my backpack
+instead; then I'd only need a 2"-deep portfolio.
 
 ### Sturdiness
 The only fragile thing in the portfolio is the monitor, and it
