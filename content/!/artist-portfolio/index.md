@@ -14,6 +14,7 @@ the things that don't fit in the backpack. These things are
 
 * Paper
 * A [27" monitor](http://www.newegg.com/Product/Product.aspx?Item=N82E16824005419)
+* Maybe the styrofoam thingy to protect the monitor screen
 * A table top (for my [desk](/!/desk)) made of
 * A [folding chair](http://www.bjindustriesinc.com/backjack-chairs.htm), possibly
 
@@ -21,3 +22,13 @@ the things that don't fit in the backpack. These things are
 
 
 ## Portfolio specifications
+
+### Dimensions
+The case needs to be 
+
+### Sturdiness
+The only fragile thing in the portfolio is the monitor, and it
+will be protected by the table top, the paper, and the styrofoam
+thingy (if I choose to use that), so the portfolio case itself
+doesn't need to be very sturdy. I could thus save some weight and
+money, perhaps, by choosing a more basic case.
