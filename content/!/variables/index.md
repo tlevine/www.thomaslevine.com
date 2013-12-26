@@ -1,6 +1,8 @@
 ---
 title: Two meanings of "variable"
 tags: ['datakind']
+created_at: 2013-12-22
+kind: article
 ---
 ## Introduction
 
