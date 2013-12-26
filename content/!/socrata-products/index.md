@@ -1,7 +1,8 @@
 ---
 title: Semi-open data about pricing of open data
 description: Socrata has a bunch of products. Who's buying which ones?
-tweet_text: I try to figure out what people are paying Socrata
+tweet_text: What people are buying from Socrata and how much it all costs. http://thomaslevine.com/!/socrata-products/
+tweet_link: https://twitter.com/thomaslevine/status/416278017347166208
 kind: article
 created_at: 2013-12-26
 tags: ['open-data']
