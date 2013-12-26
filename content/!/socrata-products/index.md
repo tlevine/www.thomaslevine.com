@@ -207,7 +207,7 @@ plans people are on. I'm guessing about the following products
 As I explain [below](#validation), these guesses are based only
 on public data, so I think that they are low.
 
-|catalog                      |data.portal.plan  |data.collect.plan  |has.311  |
+|Catalog                      |Data Portal plan  |DataCollect plan   |Has 311? |
 |:----------------------------|:-----------------|:------------------|:--------|
 |bronx.lehman.cuny.edu        |Extended          |None               |Yes      |
 |controllerdata.lacity.org    |Basic             |Basic              |No       |
