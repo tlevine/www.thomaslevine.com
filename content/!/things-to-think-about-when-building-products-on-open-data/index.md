@@ -75,6 +75,14 @@ but the entirity of those fields might also fall into this category.
 And a bunch of nominally data "analysis" products do this to some degree
 as well.
 
+Recognizing this might give you some ideas.
+For example, if you want to publish your data to the world, don't worry
+about [letting people make graphs from the data](/!/socrata-users); instead,
+just expose it as a simple file/API that people can find and make sense of,
+and let people use better products for that. Similarly, note that there's
+a lot of data floating around that is hard enough just to find and that there
+is value in even being able to search them.
+
 ## Breaking the linear flow of data
 There's this idea that open data come from the government or a scientist and
 then someone uses them (and then profit). That is, some special person produces
