@@ -40,6 +40,11 @@ because I was uploading lots of pictures to SmugMug. The point
 is that you don't need to have a fancy website before you can
 create content for the website.
 
+Also, **don't proofread**. Well, more accurately, only proofread
+after you've posted something on the internet and a few hundred
+people have read it. Nobody is ever going to see most of your stuff,
+so don't waste time on making it good.
+
 ## Organizing your works
 Nobody other than you is going to read your website once
 you have it, at least at first, so don't worry about
@@ -105,6 +110,11 @@ like [this](http://chainsaw.thomaslevine.com/).
 I suspect there's even some fancy easy-to-use
 drag-files-somewhere-and-have-them-magically-served thing.
 
+I got this idea while talking with
+[Marina](http://cooperation.io/).
+Her site is a bunch of files served by a
+[wonderfully sloppy script](https://gist.github.com/mk30/8210642).
+
 ## Make a fancy website
 By now, you have a lot of nicely organized content on the web.
 This is still not quite what you want; the following things
@@ -149,10 +159,14 @@ not the sort of person who knows what text files and Git are,
 you might want to [skip this section](#repeat).
 
 ### Copying it
-You are welcome to base your website on mine; the source code
+But before I explain any further, I would like to note that
+you are welcome to base your website on mine; the source code
 is [here](https://github.com/tlevine/www.thomaslevine.com).
-That said, the process for editing it is designed very specifically
-for me and is not very well documented, so you might not like it.
+
+The process for editing it is designed very specifically for me,
+so you might not like it. Also, it is not very well documented,
+but if you're having trouble figuring out how it works, write to
+me, and I'll document it better.
 
 If you want to use it, start by keeping all of the logic the same
 and just changing things in the `content/!` directory and in the
