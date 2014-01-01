@@ -20,7 +20,8 @@ acceptable.)
 Before I had a good system, I stored things in email
 attachments, Google Docs, hard drives, Gitorious (git
 repositories), Tumblr, SmugMug, S3, Twitter, Facebook,
-and probably other places.
+a CouchDB, and in a 60-page book written in $$LaTeX$$.
+I probably used other places too.
 
 ## Organizing your works
 Nobody other than you is going to read your website once
@@ -39,12 +40,20 @@ you could just list the names of the works and search terms
 that will find them. I actually didn't do this, but the point
 is that it doesn't have to be fancy.
 
-![Example]()
-
 Most of my things were already publically accessible on the web,
 so I mostly made a list of all of the links to them. I did this
 as a [webpage](),
 but you could do it in an email or blog post or whatever.
+
+## Write about your stuff
+You probably want to write a little something about each thing.
+At the very least, you might want to give them titles.
+
+I wrote these descriptions all over the place, but a lot were
+as captions on SmugMug. This was sort of a good idea, but only
+because I was uploading lots of pictures to SmugMug. The point
+is that you don't need to have a fancy website before you can
+create content for the website.
 
 ### Get them into files on a filesystem
 For anything you have been storing as ordinary files, copy the
@@ -62,16 +71,9 @@ For example,
 
 Don't worry yet about writing the web page about it.
 
-
-## Write about your stuff
-You probably want to write a little something about each thing.
-At the very least, you might want to give them titles.
-
-I wrote these descriptions all over the place, but a lot were
-as captions on SmugMug. This was sort of a good idea, but only
-because I was uploading lots of pictures to SmugMug. The point
-is that you don't need to have a fancy website before you can
-create content for the website.
+[Here](https://github.com/tlevine/thomaslevine.com/tree/master/hack/blog)'s
+me putting the things into directories before I was using my current
+website-generator system.
 
 ## Make a simple website
 The point was to make a website, so start putting stuff up
