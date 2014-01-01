@@ -5,22 +5,23 @@
   #contact.clearfix
     .words
       .name thomas levine
-      %a{ :href => 'mailto:_@thomaslevine.com' } _@thomaslevine.com
-      .phone
+      %a{ :rel => "me", :href => 'mailto:_@thomaslevine.com' } _@thomaslevine.com
+      %a{ :rel => "me", :href => 'sms:+19145741328' } +1 914 574 1328
         
       .social
-        %a.elsewhere{ :href => "http://facebook.com/perluette"}
+        %a.elsewhere{ :rel => "me", :href => "http://facebook.com/perluette"}
           fb
-        %a.elsewhere{ :href => "http://twitter.com/thomaslevine"}
+        %a.elsewhere{ :rel => "me", :href => "http://twitter.com/thomaslevine"}
           tw
-        %a.elsewhere{ :href => "https://www.linkedin.com/in/tlevine"}
+        %a.elsewhere{ :rel => "me", :href => "https://www.linkedin.com/in/tlevine"}
           li
-        %a.elsewhere{ :href => "http://stackexchange.com/users/176493"}
+        %a.elsewhere{ :rel => "me", :href => "http://stackexchange.com/users/176493"}
           se
-        %a.elsewhere{ :href => "https://plus.google.com/112237825767532686869"}
+        %a.elsewhere{ :rel => "me", :href => "https://plus.google.com/112237825767532686869"}
           g+
-        %a.elsewhere{ :href => "https://joindiaspora.com/u/tlevine"}
+        -#%a.elsewhere{ :rel => "me", :href => "https://joindiaspora.com/u/tlevine"}
           d* 
+        %a.elsewhere{ :rel => "me", :href => 'https://github.com/tlevine' }
     .logo
       %img{ :src => "/img/pink_hat_icon-200.png", :alt => "Tom's hat" }
 
@@ -29,7 +30,7 @@
   into boxes of two to five things.
 
 #links.clearfix
-  #repositories.link-group
+  -#repositories.link-group
     = render('_topic_box', :topic => 'repositories', :links => [['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
 
   #serious.link-group
