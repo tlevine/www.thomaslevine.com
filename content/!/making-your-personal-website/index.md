@@ -114,31 +114,90 @@ Try to keep this fancy system simple. When it has to be complicated,
 let the complicated things be either things you already understand
 well or things that you'll learn quickly.
 
-## Copy my website if you like
-I've put some thought in my website, so it might be useful to you.
+## My particular website
+You probably want a website that isn't exactly like mine, but it
+might be worth explaining how my website works right now.
 
-Lots of blog
-software suggests a structure like this.
+### Copying it
+You are welcome to base your website on mine; the source code
+is [here]().
+That said, the process for editing it is designed very specifically
+for me and is not very well documented, so you might not like it.
 
-    /posts/this-cool-thing.html
-    /posts/that-cool-thing.html
+If you want to use it, start by keeping all of the logic the same
+and just changing things in the `content/!` directory and in the
+`content/index.haml` file. Get something working, and worry later
+about making it look pretty.
 
-I went with a slightly different structure.
+### Notable featurues
+If you don't want to use it, you still might take some inspiration
+from some of the decisions I made
 
-    /posts/this-cool-thing/index.html
-    /posts/that-cool-thing/index.html
+#### Static website generator
+My website doesn't have anything where people log in or upload files
+or otherwise send input to the server. Thus, I can serve my website
+as ordinary files.
+
+Editing these files is annoying, so I use a static website generator that writes these files based on the simpler and less-annoying files
+with which I configure my website. I happen to use
+[nanoc](http://nanoc.ws/), but there are tons of them.
+
+#### Git
+It scares me to edit things without tracking their history. I settled
+a few years ago on using [Git](http://git-scm.com) for this, so that's
+what I use for versioning the all of the content on my website.
+(The distinction isn't always clear, but I'm right now making a
+distinction between content and logic.)
+
+When I build the site with nanoc, the resulting files go into the
+`output` directory, and then I upload them to a static file hosting
+service (more on that later).
+
+This `output` directory is a
+[git submodule](http://git-scm.com/book/en/Git-Tools-Submodules)
+with just the resulting website. This is cool in case I ever can't
+get nanoc working in the future; even if I can't rebuild the site,
+I'll be able to see what old versions looked like.
+
+#### Git remotes
+It also scares me to edit things without having multiple backups on
+different continents, so I have Git remotes. I used to use Gitorious,
+and I still have my own server that I push things to, but I wind up
+using GitHub a lot of the time. It works decently and isn't annoying
+once you've set things up the first time, but I don't like this
+because it's proprietary
+
+#### GitHub Pages
+If you already have everything in Git and you've already given in to
+proprietary GitHub software, you might as well use GitHub Pages to
+host your website. GitHub Pages serves a website from files committed
+to a Git repository.
+
+Recall that the compiled website goes into the `output` directory and
+that this directory is a git submodule. I push that submodule to
+GitHub, and it gets served through GitHub Pages.
+
+I must point out that there are some things I don't like about GitHub
+Pages. First, as I said above, it's proprietary. Second, I can't serve
+different pages depending on the
+[Accept-Language header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html).
+
+#### Directory structure
+I went with this directory structure for pages.
+
+    /!/this-cool-thing/index.html
+    /!/that-cool-thing/index.html
+
+This results in two pages, one at
+`http://thomaslevine.com/!/this-cool-thing`,
+and the other at
+`http://thomaslevine.com/!/that-cool-thing`.
 
 This structure is nice because it gives me a place to put more
 than one file per page.
 
-    /posts/this-cool-thing/index.html
-    /posts/this-cool-thing/picture-of-thing.jpg
-    /posts/that-cool-thing/index.html
-    /posts/that-cool-thing/ugh-microsoft-word.docx
+    /!/this-cool-thing/index.html
+    /!/this-cool-thing/picture-of-thing.jpg
+    /!/that-cool-thing/index.html
+    /!/that-cool-thing/ugh-microsoft-word.docx
 
-You are welcome to base your website on mine; the source code
-is [here]().
-You can even keep all of the logic the same and just change
-things in the `content/!` directory and in the `content/index.haml`
-file. Get something working, and worry later about making it look
-pretty.
