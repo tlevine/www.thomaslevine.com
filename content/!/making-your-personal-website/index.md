@@ -244,7 +244,7 @@ go through those old things and copy them to the site.
 ## Review
 Making your personal website might seem daunting, but it's easy if you
 break it into tiny pieces. Start by saving everything. Once you have
-a lot of things, organize them, and write about them. Don't worry very
+a lot of things, organize them and write about them. Don't worry very
 much at first about making the website pretty; just get things started.
 And in designing your website, focus on making it easy for you to add
 content rather than on making it pleasant for other people to view.
