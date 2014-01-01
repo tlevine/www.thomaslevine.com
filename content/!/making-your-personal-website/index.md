@@ -23,6 +23,8 @@ repositories), Tumblr, SmugMug, S3, Twitter, Facebook,
 a CouchDB, and in a 60-page book written in $$LaTeX$$.
 I probably used other places too.
 
+This approach was inspired somewhat by 
+
 ## Organizing your works
 Nobody other than you is going to read your website once
 you have it, at least at first, so don't worry about
@@ -81,14 +83,15 @@ somewhere. I wound up with a list of links before I had nicely
 structured files, so I just put that up. It went through
 many incarnations, but here are a few.
 
-* XXX
-* XXX
+* SmugMug photo gallery thing
+* A bunch of files that I edited manually
+* Pages generated from that 60-page $$LaTeX$$ book with
+    [HeVeA](http://hevea.inria.fr/) and a hacky shell script
 
 If you have nicely structured files and no other list, you
 could just dump them on a plain Apache web server,
 like [this](http://chainsaw.thomaslevine.com/).
-
-You know, I suspect there's even some fancy easy-to-use
+I suspect there's even some fancy easy-to-use
 drag-files-somewhere-and-have-them-magically-served thing.
 
 ## Make a fancy website
@@ -129,7 +132,7 @@ might be worth explaining how my website works right now.
 
 ### Copying it
 You are welcome to base your website on mine; the source code
-is [here]().
+is [here](https://github.com/tlevine/www.thomaslevine.com).
 That said, the process for editing it is designed very specifically
 for me and is not very well documented, so you might not like it.
 
