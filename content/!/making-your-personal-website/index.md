@@ -20,7 +20,7 @@ acceptable.)
 Before I had a good system, I stored things in email
 attachments, Google Docs, hard drives, Gitorious (git
 repositories), Tumblr, SmugMug, S3, Twitter, Facebook,
-a CouchDB, and in a 60-page book written in $$LaTeX$$.
+a CouchDB, and in a 60-page book written in LaTeX.
 I probably used other places too.
 
 I was somewhat inspired by [The Dump](http://www.the-dump.net/).
@@ -85,7 +85,7 @@ many incarnations, but here are a few.
 
 * SmugMug photo gallery thing
 * A bunch of files that I edited manually
-* Pages generated from that 60-page $$LaTeX$$ book with
+* Pages generated from that 60-page LaTeX book with
     [HeVeA](http://hevea.inria.fr/) and a hacky shell script
 
 If you have nicely structured files and no other list, you
