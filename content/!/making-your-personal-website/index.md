@@ -82,7 +82,41 @@ like [this](http://chainsaw.thomaslevine.com/).
 You know, I suspect there's even some fancy easy-to-use
 drag-files-somewhere-and-have-them-magically-served thing.
 
-## Make a fancy website with a static website generator
+## Make a fancy website
+By now, you have a lot of nicely organized content on the web.
+This is still not quite what you want; the following things
+could be improved.
+
+* You want it to be easy for you to add new material to the
+    website.
+* You want the website to look pretty.
+
+Now that you have a bunch of content, you can play around with
+a few different ways of accomplishing that. There are all sorts
+of things that you can do. Here are two main things to think about.
+
+### How do you like to add new content?
+I like working with ordinary files, so I make new webpages by
+making new files inside of a terminal. But you might prefer to
+use a word processor on a website or to take videos with your phone.
+
+### How can you make this whole system easy to manage?
+Lots of
+things could go wrong when things get fancy like this. Pay attention
+to things that seem annoying, and come up with ways around this.
+Annoying things might include
+
+* Maintaining whatever server you have
+* The process for uploading new files to the site
+* Having the appropriate software to edit your site
+
+Try to keep this fancy system simple. When it has to be complicated,
+let the complicated things be either things you already understand
+well or things that you'll learn quickly.
+
+## Copy my website if you like
+I've put some thought in my website, so it might be useful to you.
+
 Lots of blog
 software suggests a structure like this.
 
@@ -101,3 +135,10 @@ than one file per page.
     /posts/this-cool-thing/picture-of-thing.jpg
     /posts/that-cool-thing/index.html
     /posts/that-cool-thing/ugh-microsoft-word.docx
+
+You are welcome to base your website on mine; the source code
+is [here]().
+You can even keep all of the logic the same and just change
+things in the `content/!` directory and in the `content/index.haml`
+file. Get something working, and worry later about making it look
+pretty.
