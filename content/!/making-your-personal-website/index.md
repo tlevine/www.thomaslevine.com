@@ -42,8 +42,9 @@ create content for the website.
 
 Also, **don't proofread**. Well, more accurately, only proofread
 after you've posted something on the internet and a few hundred
-people have read it. Nobody is ever going to see most of your stuff,
-so don't waste time on making it good.
+people have read it and complimented you on it. Nobody is ever
+going to see most of your stuff, so don't waste time on making
+it good.
 
 ## Organizing your works
 Nobody other than you is going to read your website once
