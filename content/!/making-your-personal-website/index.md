@@ -174,8 +174,7 @@ with which I configure my website. I happen to use
 It scares me to edit things without tracking their history. I settled
 a few years ago on using [Git](http://git-scm.com) for this, so that's
 what I use for versioning the all of the content on my website.
-(The distinction isn't always clear, but I'm right now making a
-distinction between content and logic.)
+(I'm right now making a distinction between content and logic.)
 
 When I build the site with nanoc, the resulting files go into the
 `output` directory, and then I upload them to a static file hosting
