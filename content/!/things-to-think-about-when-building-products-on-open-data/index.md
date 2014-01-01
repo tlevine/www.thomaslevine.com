@@ -76,9 +76,11 @@ And a bunch of nominally data "analysis" products do this to some degree
 as well.
 
 ## Breaking the linear flow of data
-I should note that this is still somewhat problematic because it encourages a
-linear flow of data, and that doesn't help people collaborate on the editing of
-datasets.
+There's this idea that open data come from the government or a scientist and
+then someone uses them (and then profit). That is, some special person produces
+the data and then other people use them. If you see open data
+[as I do](/!/what-is-open-data), it doesn't have to be this way.
+Wouldn't it be cool if we could collaborate on the editing of datasets?
 
 ## Storing all these datasets
 If you're storing lots of datasets, they'll take up lots of space, but that doesn't
