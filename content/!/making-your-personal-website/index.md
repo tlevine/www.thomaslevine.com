@@ -42,7 +42,7 @@ is that it doesn't have to be fancy.
 
 Most of my things were already publically accessible on the web,
 so I mostly made a list of all of the links to them. I did this
-as a [webpage](),
+as a [webpage](https://github.com/tlevine/www.thomaslevine.com/blob/c1e1302b2fe43bbe98902a08367bb4d01feea66e/content/index.html),
 but you could do it in an email or blog post or whatever.
 
 ## Write about your stuff
