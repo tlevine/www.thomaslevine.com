@@ -30,7 +30,6 @@ open data, but open data isn't fundamentally different from any other files.
 
 
 ## Publishing verses consumption
-I think this is the interesting data-preparation issue with open data:
 Data are released by government/organization, but you might not be interested
 in data by government.
 
@@ -46,28 +45,40 @@ Maybe you're not interested in data specifically about Paris; maybe you're
 actually interested in coffee and wifi in general. Or maybe you're interested
 in a different subset, like wifi access in places other than cafes.
 
-People can consume Paris's data by going to Paris's data portal, but they might
-not be interested in data about Paris specifically. It would be nice to have one
-place with all of the relevant data, and your software can help with that.
-
-### Relating datasets
+### Connecting organizations and relating datasets
 Different cities are all still cities, so they collect similar data. But they
 have different policies and different bookkeeping practices, so not all of their
-data are out, and the data have different schemas. There are so many different
-people working on this that it's not worth getting them to use the same procedures.
+data are out, and the data have different schemas. And, of course, all of the data
+are on different websites.
 
-But your product can help to connect all of these datasets. At the least, you can
-help people find out about related datasets. Build a fancier version of search;
-you might even call it a recommender.
+As I see it, products like [Socrata](http://socrata.com), [CKAN](http://ckan.org),
+and [OpenDataSoft](http://opendatasoft.com) wind up focusing much more on helping
+the publishers get the data out than on helping consumers find and use data.
 
-You can also get fancier about combining datasets. Figure out what schemas
-are common for particular sorts of data, and get different datasets into a reasonable
-schema so that you can query across all cities at once.
+How do we help the consumers? Rather than getting everyone to adopt
+[specific standards](http://www.w3.org/standards/semanticweb/data),
+I think we can just roll with this and make products that fill this gap between
+the publisher and the consumer.
 
-This might sound like [linked data](http://www.w3.org/standards/semanticweb/data),
-and that can scare people. My advice above has similar goals to linked data, but I
-think we can accomplish some of them with simpler approaches than the Semantic Web
-technologies.
+![Magic middle layer for consumers](../data-about-open-data-talk-december-2-2013/unsilo.jpg)
+
+Products like [Enigma](http://enigma.io) try fill this gap by making it easier
+for ordinary humans to find public data. If you take this further, you can wind
+up with something that feels more like a new dataset rather than a bunch of
+existing datasets; [OpenCorporates](https://opencorporates.com) is an example of
+that.
+
+This sort of thing has surely been around for a while. I think Bloomberg and
+Palantir are this but with datasets that we don't think of as "open". Also,
+I don't really know what "data warehousing" and "business intelligence" are,
+but the entirity of those fields might also fall into this category.
+And a bunch of nominally data "analysis" products do this to some degree
+as well.
+
+## Breaking the linear flow of data
+I should note that this is still somewhat problematic because it encourages a
+linear flow of data, and that doesn't help people collaborate on the editing of
+datasets.
 
 ## Storing all these datasets
 If you're storing lots of datasets, they'll take up lots of space, but that doesn't
