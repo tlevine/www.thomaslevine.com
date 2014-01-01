@@ -23,7 +23,7 @@ repositories), Tumblr, SmugMug, S3, Twitter, Facebook,
 a CouchDB, and in a 60-page book written in $$LaTeX$$.
 I probably used other places too.
 
-This approach was inspired somewhat by 
+I was somewhat inspired by [The Dump](http://www.the-dump.net/).
 
 ## Organizing your works
 Nobody other than you is going to read your website once
