@@ -23,8 +23,8 @@ repositories), Tumblr, SmugMug, S3, Twitter, Facebook,
 a CouchDB, and in a 60-page book written in LaTeX.
 I probably used other places too.
 
-*Fun fact: I named my 60-page book *The Dump*, after
-Maurice Benayoun's [The Dump](http://www.the-dump.net/).*
+<small>Fun fact: I named my 60-page book *The Dump*, after
+Maurice Benayoun's [The Dump](http://www.the-dump.net/).</small>
 
 The main thing is to get everything digital so that you can
 carry the stuff around and search through it easily.
