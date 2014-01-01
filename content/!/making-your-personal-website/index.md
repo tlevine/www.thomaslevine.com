@@ -23,7 +23,21 @@ repositories), Tumblr, SmugMug, S3, Twitter, Facebook,
 a CouchDB, and in a 60-page book written in LaTeX.
 I probably used other places too.
 
-I was somewhat inspired by [The Dump](http://www.the-dump.net/).
+*Fun fact: I named my 60-page book *The Dump*, after
+Maurice Benayoun's [The Dump](http://www.the-dump.net/).*
+
+The main thing is to get everything digital so that you can
+carry the stuff around and search through it easily.
+
+## Write about your stuff
+You probably want to write a little something about each thing.
+At the very least, you might want to give them titles.
+
+I wrote these descriptions all over the place, but a lot were
+as captions on SmugMug. This was sort of a good idea, but only
+because I was uploading lots of pictures to SmugMug. The point
+is that you don't need to have a fancy website before you can
+create content for the website.
 
 ## Organizing your works
 Nobody other than you is going to read your website once
@@ -42,22 +56,15 @@ you could just list the names of the works and search terms
 that will find them. I actually didn't do this, but the point
 is that it doesn't have to be fancy.
 
-Most of my things were already publically accessible on the web,
+I had already been doing this to some degree as I was recording
+things in my 60-page LaTeX book and in my SmugMug galleries.
+
+Most of everything else was already publically accessible on the web,
 so I mostly made a list of all of the links to them. I did this
 as a [webpage](https://github.com/tlevine/www.thomaslevine.com/blob/c1e1302b2fe43bbe98902a08367bb4d01feea66e/content/index.html),
 but you could do it in an email or blog post or whatever.
 
-## Write about your stuff
-You probably want to write a little something about each thing.
-At the very least, you might want to give them titles.
-
-I wrote these descriptions all over the place, but a lot were
-as captions on SmugMug. This was sort of a good idea, but only
-because I was uploading lots of pictures to SmugMug. The point
-is that you don't need to have a fancy website before you can
-create content for the website.
-
-### Get them into files on a filesystem
+### Make a consistent file structure
 For anything you have been storing as ordinary files, copy the
 files into a new place with standard naming conventions.
 I suggest the following structure.
@@ -217,6 +224,12 @@ than one file per page.
 I just explained how my site works, but you are probably not a clone
 of me. Starting with my ideas might not be a bad idea, but try to come
 up with something that suits you better.
+
+## Repeat
+It's not like each of these steps only happens once.
+I still have most of my lifetime of stuff that I've written about, 
+photographed, &c. but haven't published on my website. I periodically
+go through those old things and copy them to the site.
 
 ## Review
 Making your personal website might seem daunting, but it's easy if you
