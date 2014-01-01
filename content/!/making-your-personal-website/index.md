@@ -115,8 +115,13 @@ could be improved.
 * You want the website to look pretty.
 
 Now that you have a bunch of content, you can play around with
-a few different ways of accomplishing that. There are all sorts
-of things that you can do. Here are two main things to think about.
+a few different ways of arranging them fancy-like. So many
+possibilities! Here are two main things to think about.
+
+* How to add new content
+* How to manage the whole system
+
+Don't worry about making it pretty or easy for other people to use.
 
 ### How do you like to add new content?
 I like working with ordinary files, so I make new webpages by
