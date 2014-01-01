@@ -144,7 +144,9 @@ well or things that you'll learn quickly.
 
 ## My particular website
 You probably want a website that isn't exactly like mine, but it
-might be worth explaining how my website works right now.
+might be worth explaining how my website works right now. If you're
+not the sort of person who knows what text files and Git are,
+you might want to [skip this section](#repeat).
 
 ### Copying it
 You are welcome to base your website on mine; the source code
@@ -235,7 +237,7 @@ up with something that suits you better.
 
 ## Repeat
 It's not like each of these steps only happens once.
-I still have most of my lifetime of stuff that I've written about, 
+I still have at least half a lifetime of stuff that I've written about, 
 photographed, &c. but haven't published on my website. I periodically
 go through those old things and copy them to the site.
 
