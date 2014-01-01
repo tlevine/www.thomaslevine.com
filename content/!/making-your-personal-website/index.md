@@ -1,5 +1,10 @@
 ---
 title: How to make a personal website, in 9001 easy steps
+tweet_text: Here's the lazy proces I went through for making my fancy website.
+description: Making your own personal website might seem daunting, but it's not hard if you break it into smaller steps.
+twitter_description: Because New Years resolutions are a thing
+kind: article
+created_at: 2014-01-01
 ---
 Making your own personal website might seem daunting, but
 it's not hard if you break it into smaller steps.
@@ -60,6 +65,8 @@ Don't worry yet about writing the web page about it.
 
 ## Write about your stuff
 You probably want to write a little something about each thing.
+At the very least, you might want to give them titles.
+
 I wrote these descriptions all over the place, but a lot were
 as captions on SmugMug. This was sort of a good idea, but only
 because I was uploading lots of pictures to SmugMug. The point
@@ -201,3 +208,15 @@ than one file per page.
     /!/that-cool-thing/index.html
     /!/that-cool-thing/ugh-microsoft-word.docx
 
+### Remember, you might be different
+I just explained how my site works, but you are probably not a clone
+of me. Starting with my ideas might not be a bad idea, but try to come
+up with something that suits you better.
+
+## Review
+Making your personal website might seem daunting, but it's easy if you
+break it into tiny pieces. Start by saving everything. Once you have
+a lot of things, organize them, and write about them. Don't worry very
+much at first about making the website pretty; just get things started.
+And in designing your website, focus on making it easy for you to add
+content rather than on making it pleasant for other people to view.
