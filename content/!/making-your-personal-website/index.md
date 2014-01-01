@@ -31,7 +31,8 @@ carry the stuff around and search through it easily.
 
 ## Write about your stuff
 You probably want to write a little something about each thing.
-At the very least, you might want to give them titles.
+At the very least, you probably want to give them a title.
+A paragraph and a date might be good too.
 
 I wrote these descriptions all over the place, but a lot were
 as captions on SmugMug. This was sort of a good idea, but only
@@ -85,13 +86,16 @@ me putting the things into directories before I was using my current
 website-generator system.
 
 ## Make a simple website
-The point was to make a website, so start putting stuff up
-somewhere. I wound up with a list of links before I had nicely
+You wanted a website, so start putting stuff up on the web
+in whatever way is easy.
+
+I wound up with a list of links before I had nicely
 structured files, so I just put that up. It went through
 many incarnations, but here are a few.
 
-* SmugMug photo gallery thing
 * A bunch of files that I edited manually
+* SmugMug photo gallery thing
+* More files that I edited manually
 * Pages generated from that 60-page LaTeX book with
     [HeVeA](http://hevea.inria.fr/) and a hacky shell script
 
