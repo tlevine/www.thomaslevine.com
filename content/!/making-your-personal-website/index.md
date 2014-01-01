@@ -67,6 +67,20 @@ is that you don't need to have a fancy website before you can
 create content for the website.
 
 ## Make a simple website
+The point was to make a website, so start putting stuff up
+somewhere. I wound up with a list of links before I had nicely
+structured files, so I just put that up. It went through
+many incarnations, but here are a few.
+
+* XXX
+* XXX
+
+If you have nicely structured files and no other list, you
+could just dump them on a plain Apache web server,
+like [this](http://chainsaw.thomaslevine.com/).
+
+You know, I suspect there's even some fancy easy-to-use
+drag-files-somewhere-and-have-them-magically-served thing.
 
 ## Make a fancy website with a static website generator
 Lots of blog
