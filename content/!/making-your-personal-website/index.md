@@ -1,6 +1,6 @@
 ---
 title: How to make a personal website, in 9001 easy steps
-tweet_text: Here's the lazy proces I went through for making my fancy website.
+tweet_text: Here's the lazy proces I went through for making my fancy website. http://thomaslevine.com/!/making-your-personal-website/
 description: Making your own personal website might seem daunting, but it's not hard if you break it into smaller steps.
 twitter_description: Because New Years resolutions are a thing
 kind: article
