@@ -11,6 +11,8 @@ selling peripheral "data" products. If you're working on one of these data
 products, even if you haven't been thinking about open data, here are some
 tips for you.
 
+I noticed that this was becoming a listicle, but I 
+
 <!--
 ## 
 I've lately been studying [data about open data](/open-data). This has led me to,
@@ -54,8 +56,8 @@ Paris's government has lots of data, and they're just trying to get it out there
 in a place where people can find it.
 
 You can go to the Paris data portal and get data about
-[coffee]() and
-[wifi]().
+[coffee](http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=167&portlet_id=102) and
+[wifi](http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=125&portlet_id=106).
 Maybe you're not interested in data specifically about Paris; maybe you're
 actually interested in coffee and wifi in general. Or maybe you're interested
 in a different subset, like wifi access in places other than cafes.
@@ -114,10 +116,11 @@ mean that your storage system needs to be complicated.
 ### More centralized
 Most people seem to start with storing everything in one relational database,
 with one database row per dataset row (possibly across tables or in one table).
-I'm told that this is how [ScraperWiki](https://scraperwiki.com),
-[Exversion](https://exversion.com), and
-[Socrata](https://socrata.com) all started out.
-<!-- http://www.youtube.com/watch?v=CnurrM06oyM -->
+I'm told that this is how [ScraperWiki](https://scraperwiki.com)
+and [Socrata](https://socrata.com) started out,
+and a [video](http://www.youtube.com/watch?v=CnurrM06oyM) tells me that this
+is how [Exversion](https://exversion.com) started out.
+If this is easy for you, do it.
 
 ### Less centralized
 You probably don't need your data to be this centralized. You'll have a lot of
@@ -126,11 +129,12 @@ datasets in a simple way (like as ordinary files, maybe across a few computers),
 you're probably fine. This simplifies things like backing up data and
 parallelizing across datasets.
 
-You might want to do something that involves lots of datasets, like grouping datasets by schema.
+You might want to do something that involves lots of datasets, like grouping
+datasets by schema.
 In such cases, treat each dataset as an observation in a larger dataset, calculate
 whatever numbers/features/statistics you need, and put them into a new dataset.
-Said more fancy-like, apply/map across each of the datasets and combine them into
-a new dataset.
+Said more fancy-like, apply/map across each of the datasets and combine the
+results into a new dataset.
 
 In my [recent studies](/open-data), I've just been storing data as ordinary files on
 an ordinary filesystem and loading them all into memory. This is partly because I
