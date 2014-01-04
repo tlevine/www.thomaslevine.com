@@ -1,39 +1,54 @@
 ---
-title: Building products on open data
+title: Open Data for Data Pickaxe Factories
 tags: ['open-data']
 ---
+I've heard that the real money in gold rushes was made by people selling
+pickaxes rather than by people mining gold. I've yet to find any convincing
+evidence of this, but it's a nice narrative.
+
+With today's hype about "open data", there's probably money to be made by
+selling peripheral "data" products. If you're working on one of these data
+products, even if you haven't been thinking about open data, here are some
+tips for you.
+
+<!--
+## 
 I've lately been studying [data about open data](/open-data). This has led me to,
 among other things, some ideas of things you might want to know if they're making
 products that use open data. So here they are.
+-->
 
 ## Open data isn't that special
 People write and talk a lot about
 [why we need open data](http://opendatahandbook.org/en/why-open-data/) and 
 [how to release open data](http://www.codeforamerica.org/09-24-2013/).
+
 Part of the strategy for making open data useful is getting people to
-make [software](http://youtu.be/6cRtbA_d4RI?t=12m40s) that use them.
-
-<!--
-To this end, 
+make [software](http://youtu.be/6cRtbA_d4RI?t=12m40s) that use them,
+so people even organize
 "[app](http://nycbigapps.com/)" [competitions](http://opendatachallenge.org/)
+around open data.
 
-http://www.youtube.com/watch?v=LijchWVlirc
--->
-
+It's great if people want to use the open data, but it's still just data.
 I've seen writing and talk about how to make software that uses open data,
 but it's usually limited to an explanation that data exist on some website
 and maybe that you can query them with an "API". And that's because there
-isn't anything special about it. People will get excited that your app uses
-open data, but open data isn't fundamentally different from any other files.
+isn't anything special about it. But open data isn't fundamentally different
+from any other files.
 
-
-
+## Open data is sort of special
+There are some noteworthy characteristics that I see in open data, and these
+can mostly (all?) be thought
+of as issues with generic [sharing](/!/what-is-open-data) of data. These
+come about when lots of people are updating and reading the same datasets,
+even when the data are only shared within a small company.
 
 ## Publishing verses consumption
-Data are released by government/organization, but you might not be interested
-in data by government.
+Data are released from separate groups who collected the data
+(researchers, governments, organizations, &c.)
+but you might not be interested in this grouping of data.
 
-### Different portals
+### Different catalogs
 Paris publishes its data to the Paris data portal. This makes a lot of sense;
 Paris's government has lots of data, and they're just trying to get it out there
 in a place where people can find it.
@@ -85,7 +100,9 @@ is value in even being able to search them.
 
 ## Breaking the linear flow of data
 There's this idea that open data come from the government or a scientist and
-then someone uses them (and then profit). That is, some special person produces
+then someone uses them
+(and then profit or [humanity](http://www.youtube.com/watch?v=LijchWVlirc&html5=1)).
+That is, some special person produces
 the data and then other people use them. If you see open data
 [as I do](/!/what-is-open-data), it doesn't have to be this way.
 Wouldn't it be cool if we could collaborate on the editing of datasets?
@@ -145,9 +162,3 @@ That said, it might still be fine to use data from these sites. Here are two rea
 If you're using data from a site without an obvious license, you might want to talk
 to a lawyer about it. Actually, you should totally do this and then tell me about it
 afterwards because I'm curious to hear more thoughts on the matter.
-
-## The sharing of data
-Most of the special characteristics that I see in open data can be thought
-of as issues with generic [sharing](/!/what-is-open-data) of data. These
-come about when lots of people are updating and reading the same datasets,
-even when the data are only shared within a small company.
