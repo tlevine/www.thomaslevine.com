@@ -1,5 +1,6 @@
 ---
 title: Six Open Data Tips for Data Pickaxe Factories
+tweet_text: Here's what I think you should know if you do some data something and want to make money from open data.
 tags: ['open-data']
 ---
 I've heard that the real money in gold rushes was made by people selling
@@ -15,7 +16,7 @@ I noticed that this was becoming a listicle, but I didn't have any special
 ordering for these tips, so I gave them all random numbers.
 {:#random-numbers}
 
-## 92. Open data isn't that special
+## 92. Open data isn't that special.
 People write and talk a lot about
 [why we need open data](http://opendatahandbook.org/en/why-open-data/) and 
 [how to release open data](http://www.codeforamerica.org/09-24-2013/).
@@ -33,14 +34,17 @@ and maybe that you can query them with an "API". And that's because there
 isn't anything special about it. But open data isn't fundamentally different
 from any other files.
 
-## 73. Open data is sort of special
+## 73. Open data is sort of special.
 There are some noteworthy characteristics that I see in open data, and these
 can mostly (all?) be thought
 of as issues with generic [sharing](/!/what-is-open-data) of data. These
 come about when lots of people are updating and reading the same datasets,
 even when the data are only shared within a small company.
 
-## 50. Publishing verses consumption
+Also, for the remainder of this article, when I say "open data", I also mean
+"the generic sharing of data".
+
+## 50. Consider the flow from publishing to consumption.
 Data are released from separate groups who collected the data
 (researchers, governments, organizations, &c.)
 but you might not be interested in this grouping of data.
@@ -95,7 +99,7 @@ and let people use better products for that. Similarly, note that there's
 a lot of data floating around that is hard enough just to find and that there
 is value in even being able to search them.
 
-## 50. Breaking the linear flow of data
+## 50. Break the linear flow of data through people.
 There's this idea that open data come from the government or a scientist and
 then someone uses them
 (and then profit or [humanity](http://www.youtube.com/watch?v=LijchWVlirc&html5=1)).
@@ -104,7 +108,11 @@ the data and then other people use them. If you see open data
 [as I do](/!/what-is-open-data), it doesn't have to be this way.
 Wouldn't it be cool if we could collaborate on the editing of datasets?
 
-## 54. Storing all these datasets
+To be clear, I still like the model of linear flow of data through purely
+functional pipes; I just think we should have these pipes go back and forth
+between separate people/organizations.
+
+## 54. Storing your datasets can be simple.
 If you're storing lots of datasets, they'll take up lots of space, but that doesn't
 mean that your storage system needs to be complicated.
 
@@ -140,7 +148,7 @@ Perhaps I should mention that I apply this thinking more broadly; I think people
 jump to using fancy databases too quickly; much (most?) of the time, ordinary files
 work just fine.
 
-## 18. Licensing
+## 18. The licensing is not always clear.
 You might be wondering what legal issues you'll have to deal with if you use open data.
 Ideally, you wouldn't have to worry about such things. In fact,
 the [Open Knowledge Foundation](http://okfn.org/) [defines](http://opendefinition.org/)
