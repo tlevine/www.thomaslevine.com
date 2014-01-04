@@ -1,5 +1,6 @@
 ---
 title: Six Open Data Tips for Data Pickaxe Factories
+description: If you're working some data software product, here are some tips for you.
 tweet_text: Here's what I think you should know if you do some data something and want to make money from open data.
 tags: ['open-data']
 ---
