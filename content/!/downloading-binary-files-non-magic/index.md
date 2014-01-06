@@ -49,8 +49,18 @@ This is what I get back from head.
       <!--<![endif]-->
       <head>
 
-### More about HTTP for the curious
-If you're curious, you can read a bit more about how that
+### As one code block
+The code above is separated across multiple blocks.
+Here is the code for downloading the file and then
+saving it to a file, in one code block.
+
+    # Python
+    import requests
+    response = requests.get('http://thomaslevine.com')
+    open('/tmp/www.thomaslevine.com', 'wb').write(response.content)
+
+### More about HTTP
+If you're curious, you can read a bit more about how HTTP
 works in these places:
 
 * a
@@ -58,7 +68,78 @@ works in these places:
 * c
 
 ## Bytes and bits
+The `response.content` is displayed as a series of characters, but it is
+stored in Python as bytes.
 
+    In [14]: type(response.content)
+    Out[14]: builtins.bytes
+
+### Bytes as characters
+It's easy to confuse the two because we often
+represent bytes as characters when displaying them.
+At a lower level, bytes represent numbers between 0 and 255 (inclusive),
+so we can also represent bytes as a series of numbers; here are the first
+ten bytes represented as characters.
+
+    print(response.content[:10])
+    # b'<!DOCTYPE '
+
+### Bytes as numbers
+And here they are represented as numbers.
+
+    print([x for x in response.content[:10]])
+    # [60, 33, 68, 79, 67, 84, 89, 80, 69, 32]
+
+### Bytes as base 2 numbers
+We happen to represent numbers in base 10 usually, but
+we could also represent these bytes as numbers in base two.
+
+    print([bin(x) for x in response.content[:10]])
+    # [ '0b111100',  '0b100001', '0b1000100',
+    #  '0b1001111', '0b1000011', '0b1010100',
+    #  '0b1011001', '0b1010000', '0b1000101',
+    #   '0b100000']
+
+The number is the part after `0b`; the following representation
+might be more clear
+
+    print([bin(x)[2:].zfill(8) for x in response.content[:10]])
+    # ['00111100', '00100001', '01000100',
+    #  '01001111', '01000011', '01010100',
+    #  '01011001', '01010000', '01000101',
+    #  '00100000']
+
+### Bytes are eight bits
+To be clear, I've shown these three representations of the
+first byte.
+
+1. As a character, it's `<`.
+2. As a base 10 number, it's 60.
+3. As a base 2 number, it's 111100.
+
+Each byte is made of eight bits. Each bit can be on or off.
+If you have eight light switches, there are 256 different lighting
+combinations ($$2^8$$), and this is how we arrive at the aforementioned
+range of byte values.
+
+To say it another way, the highest possible value for a byte is 255.
+
+    In [50]: bytes([255])
+    Out[50]: b'\xff'
+
+I'll get an error if I try to make a byte of value 256.
+
+    In [51]: bytes([256])                                                                                                                   
+    ---------------------------------------------------------------------------
+    ValueError                                Traceback (most recent call last)
+    <ipython-input-51-a19a7ec1812b> in <module>()
+    ----> 1 bytes([256])
+
+    ValueError: bytes must be in range(0, 256)
+
+### Bits
+So far, I've been representing the HTML as a series of bytes.
+We could also represent it as a series of bits.
 
 ## Downloading an image
 
