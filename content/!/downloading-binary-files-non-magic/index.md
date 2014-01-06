@@ -8,21 +8,29 @@ complicated but not magic
 ## Downloading a text file
 When you type in a URL in your web browser and hit enter,
 your web browser usually makes an HTTP GET request.[^protocol]
-You can do that like so in [Python]()
-with [requests]().
+You can do that like so in [Python](http://python.org/)
+with [requests](http://www.python-requests.org/).
 
-    #! Python
+    # Python
     import requests
     response = requests.get('http://thomaslevine.com')
 
-This response object contains a lot of things, including
-the body of the response, which is the HTML of the webpage.
-Let's look at the first 200 characters.
+*(I say "usually" because this only happens if you are using
+HTTP; if the url you enter starts with "ftp://", for example,
+it does something different.)*
+
+This response object contains a lot of things related to HTTP. If you're
+curious, you can read more about that [here](/!/street-sign-protocol).
+For now, just know that the file that you are downloading is inside this
+response object.
+
+In this particular example, the HTML of the webpage is the file that we
+are downloading. Let's look at the first 200 characters of the file.
 
     # Python
     print(response.content[:200])
 
-This is the result.
+This is what gets printed.
 
     b'<!DOCTYPE html>\n<!--[if lt IE 7]> <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">\n<html class="no-js lt-ie9 lt-ie8 lt-ie7"></html>\n <![endif]'
 
@@ -36,7 +44,7 @@ And once I do that, it's an ordinary text file.
     # Shell
     head /tmp/www.thomaslevine.com
 
-This is what I get back from head.
+This is what gets printed.
 
     <!DOCTYPE html>
     <!--[if lt IE 7]> <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
@@ -59,20 +67,12 @@ saving it to a file, in one code block.
     response = requests.get('http://thomaslevine.com')
     open('/tmp/www.thomaslevine.com', 'wb').write(response.content)
 
-### More about HTTP
-If you're curious, you can read a bit more about how HTTP
-works in these places:
-
-* a
-* b
-* c
-
 ## Bytes and bits
 The `response.content` is displayed as a series of characters, but it is
 stored in Python as bytes.
 
-    In : type(response.content)
-    Out: builtins.bytes
+    print(type(response.content))
+    # builtins.bytes
 
 Starting with the above example, it becomes relevant that I'm using Python 3
 (specifically, 3.3.3) and not Python 2.
@@ -249,9 +249,3 @@ that understands WebM.
 
     mplayer /tmp/open-data-in-plain-english.webm
 
-## Footnotes
-
-[^protocol]:
-    (I say "usually" because this only happens if you are using
-    HTTP; if the url you enter starts with "ftp://", for example,
-    it does something different.)
