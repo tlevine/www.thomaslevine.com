@@ -164,6 +164,7 @@ latin1 has representations for only 256 characters.
                       227, 128, 130])
 
     print(sentence.decode('latin1'))
+    # åª½åª½é¨é¦¬ï¼é¦¬æ¢ï¼åª½åª½ç½µé¦¬ã
 
 ## Downloading an image
 
