@@ -139,7 +139,11 @@ I'll get an error if I try to make a byte of value 256.
 
 ### Bits
 So far, I've been representing the HTML as a series of bytes.
-We could also represent it as a series of bits.
+We could also represent it as a series of bits, not grouped
+into bytes.
+
+    print(''.join(bin(x)[2:].zfill(8) for x in response.content[:10]))
+    # 00111100001000010100010001001111010000110101010001011001010100000100010100100000
 
 ## Downloading an image
 
