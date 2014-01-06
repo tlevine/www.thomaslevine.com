@@ -249,3 +249,6 @@ that understands WebM.
 
     mplayer /tmp/open-data-in-plain-english.webm
 
+## Files are files
+Files are files, even when they're not text that you can read, and even when
+you're downloading them from the internet.
