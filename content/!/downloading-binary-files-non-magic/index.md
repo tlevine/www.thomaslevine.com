@@ -152,6 +152,41 @@ into bytes.
 a string of zeros and ones.
 
 ### Encodings
+If I wanted to remember that mommy was riding a horse, I might use a pen to
+write "Mommy is riding a horse." When I type this on a keyboard and save it
+as a file, I'm representing the sentence as a series of bytes (numbers between 0 and 255).
+
+There are all sorts of methods by which we could represent the sentence as
+numbers, and each of these different methods is called an "encoding".
+For example, we could assign a number to each sentence.
+
+|Number|Sentence|
+|------|--------|
+|     0|Mommy is riding a horse.|
+|     1|Daddy is riding a horse.|
+|     2|Mommy is riding an elephant.|
+|     3|Daddy is riding an elephant.|
+
+Or we could assign a number to each word.
+
+|Number|Sentence|
+|------|--------|
+|     0|Mommy|
+|     1|is|
+|     2|riding|
+|     3|a|
+|     4|horse|
+|     5|.|
+|     6|Daddy|
+|     7|elephant|
+
+We could also do something more complicated, like having numbers for different
+languages, grammatical constructs, and capitalizations.
+
+It's a lot of work to explain how an encoding works, so it's nice if we can
+all use the same encodings rather than always inventing our own. By now,
+we have a few standard ways of encoding text.
+
 I downloaded a text webpage, and it got sent to me as bytes, and there are a
 lot of ways we can represent bytes. One way we can represent bytes is as
 characters, through an encoding called [latin1](http://en.wikipedia.org/wiki/ISO/IEC_8859-1).
@@ -174,19 +209,45 @@ It turns out that it was encoded as [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
     print(sentence.decode('utf-8'))
     # 媽媽騎馬，馬慢，媽媽罵馬。
 
-## Downloading an image
+## Downloading a video
+A video file is also a series of bytes, but it is not encoded as latin1.
+It's also not encoded as utf-8. For example, this
+[video about open data](http://thomaslevine.com/!/open-data-in-plain-english/open-data-in-plain-english.webm)
+is encoded as [WebM](http://en.wikipedia.org/wiki/WebM).
 
-import requests
-response = requests.get('
-http://thomaslevine.com/!/open-data-in-plain-english/open-data-in-plain-english.webm
-')
-response.status_code
-response.headers
-response.content[:10]
-fp = open('/tmp/a.webm', 'wb')
-fp.write(response.content)
-open('/tmp/aasdfasdf', 'w').write('subway')
-history
+Regardless of the encoding, it's still a series of bytes, and we don't need to
+know anything about the encoding in order to download a series of bytes;
+downloading this file is the same as downloading a text file.
+
+    # Python
+    import requests
+    url = 'http://thomaslevine.com/!/open-data-in-plain-english/open-data-in-plain-english.webm'
+    response = requests.get(url)
+    open('/tmp/open-data-in-plain-english.webm', 'wb').write(response.content)
+
+We could decode the bytes with one of our text decoders, but it will probably
+look pretty nonsense.
+
+    In [153]: print(response.content[:10])
+    b'\x1aE\xdf\xa3\x01\x00\x00\x00\x00\x00'
+
+    In [154]: print(response.content[:20].decode('latin1'))
+    '\x1aEß£\x01\x00\x00\x00\x00\x00\x00\x1fB\x86\x81\x01B÷\x81\x01'
+
+Yep, nonsense. And the UTF-8 decoder doesn't even understand it.
+
+    In [155]: print(response.content[:20].decode('utf-8'))
+    ---------------------------------------------------------------------------
+    UnicodeDecodeError                        Traceback (most recent call last)
+    <ipython-input-155-c3e10d8dd816> in <module>()
+    ----> 1 response.content.decode('utf-8')
+
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x86 in position 13: invalid start byte
+
+It might make more sense if we play the file with a video player
+that understands WebM.
+
+    mplayer /tmp/open-data-in-plain-english.webm
 
 ## Footnotes
 
