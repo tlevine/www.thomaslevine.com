@@ -71,8 +71,11 @@ works in these places:
 The `response.content` is displayed as a series of characters, but it is
 stored in Python as bytes.
 
-    In [14]: type(response.content)
-    Out[14]: builtins.bytes
+    In : type(response.content)
+    Out: builtins.bytes
+
+Starting with the above example, it becomes relevant that I'm using Python 3
+(specifically, 3.3.3) and not Python 2.
 
 ### Bytes as characters
 It's easy to confuse the two because we often
@@ -144,6 +147,16 @@ into bytes.
 
     print(''.join(bin(x)[2:].zfill(8) for x in response.content[:10]))
     # 00111100001000010100010001001111010000110101010001011001010100000100010100100000
+
+ print("{0:03d}".format(4))
+
+`bin(x)[2:].zfill(8)` is my hacky and concise way of converting an integer into
+a string of zeros and ones.
+
+### Decoding bytes
+I downloaded a text webpage, and it got sent to me as bytes, and there are a
+lot of ways we can represent bytes. One way we can represent bytes is as
+characters, through an encoding called 
 
 ## Downloading an image
 
