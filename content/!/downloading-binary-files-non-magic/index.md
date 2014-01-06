@@ -148,15 +148,22 @@ into bytes.
     print(''.join(bin(x)[2:].zfill(8) for x in response.content[:10]))
     # 00111100001000010100010001001111010000110101010001011001010100000100010100100000
 
- print("{0:03d}".format(4))
-
 `bin(x)[2:].zfill(8)` is my hacky and concise way of converting an integer into
 a string of zeros and ones.
 
 ### Decoding bytes
 I downloaded a text webpage, and it got sent to me as bytes, and there are a
 lot of ways we can represent bytes. One way we can represent bytes is as
-characters, through an encoding called 
+characters, through an encoding called [latin1](http://en.wikipedia.org/wiki/ISO/IEC_8859-1).
+latin1 has representations for only 256 characters.
+
+    sentence = bytes([229, 170, 189, 229, 170, 189, 233, 168, 142,
+                      233, 166, 172, 239, 188, 140, 233, 166, 172,
+                      230, 133, 162, 239, 188, 140, 229, 170, 189,
+                      229, 170, 189, 231, 189, 181, 233, 166, 172,
+                      227, 128, 130])
+
+    print(sentence.decode('latin1'))
 
 ## Downloading an image
 
