@@ -151,11 +151,11 @@ into bytes.
 `bin(x)[2:].zfill(8)` is my hacky and concise way of converting an integer into
 a string of zeros and ones.
 
-### Decoding bytes
+### Encodings
 I downloaded a text webpage, and it got sent to me as bytes, and there are a
 lot of ways we can represent bytes. One way we can represent bytes is as
 characters, through an encoding called [latin1](http://en.wikipedia.org/wiki/ISO/IEC_8859-1).
-latin1 has representations for only 256 characters.
+But there are other encodings. Here's a sentence.
 
     sentence = bytes([229, 170, 189, 229, 170, 189, 233, 168, 142,
                       233, 166, 172, 239, 188, 140, 233, 166, 172,
@@ -163,8 +163,16 @@ latin1 has representations for only 256 characters.
                       229, 170, 189, 231, 189, 181, 233, 166, 172,
                       227, 128, 130])
 
+Let's decode it with latin1.
+
     print(sentence.decode('latin1'))
     # åª½åª½é¨é¦¬ï¼é¦¬æ¢ï¼åª½åª½ç½µé¦¬ã
+
+That looks ugly; maybe it was encoded as something other than latin1.
+It turns out that it was encoded as [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
+
+    print(sentence.decode('utf-8'))
+    # 媽媽騎馬，馬慢，媽媽罵馬。
 
 ## Downloading an image
 
