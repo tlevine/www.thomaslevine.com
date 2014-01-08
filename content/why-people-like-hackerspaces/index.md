@@ -30,5 +30,9 @@ and
 > **We** know how this complex fancy thing works, but a lot of other people don't, and it's hard to explain the thing.
 > Let's make so **other people** can do the thing without needing to understand how it works.
 
-In the first of these attitudes, we are special people who are able to do these things,
+In the first of these attitudes, we are special people
+
+who are able to  these things,
+
+
 and we need to simplify the things that we do so that normal people can do them too.
