@@ -22,26 +22,19 @@ We are special people who know how to do complex fancy things, and we need to
 simplify the things that we do so that normal people can do them too.
 
 ## Specialness
-This specialness is unpleasant to me.
-
-### Maybe not a real distinction
 People sometimes talk like they know a lot about a thing even though they really don't.
 Similarly, people sometimes say that they fundamentally don't have the ability to do some sort of thing.
 I suspect that the distinction between special people and ordinary people is more about these
 ways of thinking than about the knowledge of "technical" things.
 
+More importantly, I don't like being in one of these special groups; can we all just be people?
 
-### Doesn't feel good
-http://en.wikipedia.org/wiki/Hacker_ethic
-
-## Speed
-
-## V
+## Fancy things aren't magic
 It's not worth learning all of the things; that would take a while.
 On the other hand, you don't need permission to learn the things.
 And you're allowed to learn the things in weird ways, like by taking
 them apart and seeing what breaks.
 
-People seem to think I'm good at computer stuff. And I am, but I find
-them to be pretty boring. The deeper thing is that I don't see fancy things
-as magical and I feel like I'm allowed to understand how they work.
+People seem to think I'm good at computer stuff. I suppose I am,
+but the deeper thing is that I don't see fancy things as magical and
+I feel like I'm allowed to understand how they work.
