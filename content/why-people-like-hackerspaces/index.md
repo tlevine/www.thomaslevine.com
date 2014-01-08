@@ -1,38 +1,47 @@
 
 
 ## Using technology to enable people
-I see this attitude a lot.
-
-> We are going to talk about how this complex fancy thing works so that we understand it better.
-
-For example, we R-users are going to talk about how to run R with Hadoop.
-Or, we JavaScript-users are going to talk about how to use Ember.
-
-I also see the following attitude a lot, especially in San Francisco.
+I see this attitude a lot, especially in San Francisco.
 
 > We know how this complex fancy thing works, but a lot of other people don't, and it's hard to explain the thing.
 > Let's make tools so other people can do the thing without needing to understand how it works.
 
 For example, running R and Hadoop is hard, so we're going to make a phone
 app that lets normal people do it. And making websites is hard, so we'll
-make a web application that let's you make websites by pointing and clicking.
+make a web application in which one can make websites by pointing and clicking.
 
-Both of those are great! This stuff is hard, so we're going to make it easy,
-and then more people are going to be able to do it!
+This stuff is hard, so we're going to make it easy, and then more people are going to be able to do it. Great!
 
 ## Using technology to enable people?
-I phrased those attitudes quite carefully; look at what happens when I bold some of the words.
-
-> **We** are going to talk about how this complex fancy thing works so that **we** understand it better.
-
-and
+Look at what happens when I bold some of the words.
 
 > **We** know how this complex fancy thing works, but a lot of other people don't, and it's hard to explain the thing.
 > Let's make so **other people** can do the thing without needing to understand how it works.
 
-In the first of these attitudes, we are special people
+We are special people who know how to do complex fancy things, and we need to
+simplify the things that we do so that normal people can do them too.
 
-who are able to  these things,
+## Specialness
+This specialness is unpleasant to me.
+
+### Maybe not a real distinction
+People sometimes talk like they know a lot about a thing even though they really don't.
+Similarly, people sometimes say that they fundamentally don't have the ability to do some sort of thing.
+I suspect that the distinction between special people and ordinary people is more about these
+ways of thinking than about the knowledge of "technical" things.
 
 
-and we need to simplify the things that we do so that normal people can do them too.
+### Doesn't feel good
+http://en.wikipedia.org/wiki/Hacker_ethic
+
+## Speed
+
+## V
+It's not worth learning all of the things; that would take a while.
+On the other hand, you don't need permission to learn the things.
+And you're allowed to learn the things in weird ways, like by taking
+them apart and seeing what breaks.
+
+People seem to think I'm good at computer stuff. And I am, but I find
+them to be pretty boring. The deeper thing is that I don't see fancy things
+as magical and I feel like I'm allowed to understand how they work.
