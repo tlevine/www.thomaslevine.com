@@ -1,4 +1,7 @@
-
+---
+title: Using technology to enable people
+description: I think this is why people like hackerspaces.
+---
 
 ## Using technology to enable people
 I see this attitude a lot, especially in San Francisco.
@@ -27,7 +30,7 @@ Similarly, people sometimes say that they fundamentally don't have the ability t
 I suspect that the distinction between special people and ordinary people is more about these
 ways of thinking than about the knowledge of "technical" things.
 
-More importantly, I don't like being in one of these special groups; can we all just be people?
+More importantly, I don't like being in a special groups; can we all just be people?
 
 ## Fancy things aren't magic
 It's not worth learning all of the things; that would take a while.
