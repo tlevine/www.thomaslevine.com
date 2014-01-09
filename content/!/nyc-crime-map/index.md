@@ -9,12 +9,12 @@ created_at: 2014-01-09
 ---
 People have been complaining a lot about how you can't get the raw data out of this
 [NYC Crime Map](http://maps.nyc.gov/crime/). I don't know what they're talking about.
-Here they are.
+Here are the data, as two geojson files.
 
 * [Separated by crime type](http://chainsaw.thomaslevine.com/nyc-crime-data/02378420399528461352-17772055697785505571.geojson)
 * [Totals across crime types](http://chainsaw.thomaslevine.com/nyc-crime-data/02378420399528461352-11853667273131550346.geojson)
 
-Read on to see how I got them.
+Read on to see how I got these files.
 
 ## API for the data
 Go to the crime map, and look at the network requests that are being made.
