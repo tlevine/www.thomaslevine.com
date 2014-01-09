@@ -9,6 +9,12 @@ created_at: 2014-01-09
 ---
 People have been complaining a lot about how you can't get the raw data out of this
 [NYC Crime Map](http://maps.nyc.gov/crime/). I don't know what they're talking about.
+Here they are.
+
+* [Separated by crime type](http://chainsaw.thomaslevine.com/nyc-crime-data/)
+* [Totals across crime types](http://chainsaw.thomaslevine.com/nyc-crime-data/)
+
+Read on to see how I got them.
 
 ## API for the data
 Go to the crime map, and look at the network requests that are being made.
