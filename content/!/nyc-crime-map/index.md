@@ -113,3 +113,14 @@ might be columns in the table that aren't exposed in the crime map website.
 I downloaded the full tables from the Google Maps Engine API,
 so now you can download them as ordinary GeoJSON files, one per table.
 Read more [here](https://github.com/tlevine/nyc-crime-map).
+
+## More seriously
+While everyone has permission to download these data, I do know that getting
+them seems impossible to some people. It's funny, though, that it has taken
+me so long to do something so simple.
+
+It usually takes quite a lot to convince me that something might be vaguely
+useful. People complained a bunch about this map, so I finally got the
+data into a nicer form, but I'm still skeptical that it's really useful at all.
+
+So please convince me that I didn't just waste two hours.
