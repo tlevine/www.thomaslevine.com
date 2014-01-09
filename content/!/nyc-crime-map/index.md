@@ -61,9 +61,9 @@ The data are stored in two tables.
 * 02378420399528461352-17772055697785505571
 
 The latter of these tables contains a "CR" field for the crime type;
-the former does not.
-
-I don't know why they do this.
+the former does not. I presume that the former has one row per location
+and that the latter has one row per crime type per location,
+but I haven't checked.
 
 ## Table schema
 You can supposedly get the table schema with the
