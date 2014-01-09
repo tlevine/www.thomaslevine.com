@@ -2,7 +2,7 @@
 title: NYC Crime Map Data API
 description: How to call the API for the NYC crime map
 kind: article
-tweet_text: The API for the NYC Crime Map is pretty nice. http://thomaslevine.com/!/nyc-crime-map https://github.com/tlevine/nyc-crime-map
+tweet_text: The API for the NYC Crime Map is pretty nice. https://github.com/tlevine/nyc-crime-map http://thomaslevine.com/!/nyc-crime-map
 twitter_image: firefox.png
 facebook_image: firefox.png
 created_at: 2014-01-09
