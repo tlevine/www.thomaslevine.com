@@ -11,8 +11,8 @@ People have been complaining a lot about how you can't get the raw data out of t
 [NYC Crime Map](http://maps.nyc.gov/crime/). I don't know what they're talking about.
 Here they are.
 
-* [Separated by crime type](http://chainsaw.thomaslevine.com/nyc-crime-data/)
-* [Totals across crime types](http://chainsaw.thomaslevine.com/nyc-crime-data/)
+* [Separated by crime type](http://chainsaw.thomaslevine.com/nyc-crime-data/02378420399528461352-17772055697785505571.geojson)
+* [Totals across crime types](http://chainsaw.thomaslevine.com/nyc-crime-data/02378420399528461352-11853667273131550346.geojson)
 
 Read on to see how I got them.
 
