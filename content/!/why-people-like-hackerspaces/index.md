@@ -4,7 +4,7 @@ description: I think this is why people like hackerspaces.
 ---
 
 ## Using technology to enable people
-I see this attitude a lot, especially in San Francisco.
+I see the following attitude a lot, especially in San Francisco.
 
 > We know how this complex fancy thing works, but a lot of other people don't, and it's hard to explain the thing.
 > Let's make tools so other people can do the thing without needing to understand how it works.
@@ -25,12 +25,20 @@ We are special people who know how to do complex fancy things, and we need to
 simplify the things that we do so that normal people can do them too.
 
 ## Specialness
-People sometimes talk like they know a lot about a thing even though they really don't.
-Similarly, people sometimes say that they fundamentally don't have the ability to do some sort of thing.
-I suspect that the distinction between special people and ordinary people is more about these
-ways of thinking than about the knowledge of "technical" things.
+It's great to have tools that make annoying things less annoying, but this attitude goes much further than that;
+you can see it in how people talk.
+People sometimes talk like they know a lot about a thing even though they really don't,
+and people other times say that they fundamentally don't have the ability to do some thing.
 
-More importantly, I don't like being in a special groups; can we all just be people?
+You might not know much about something right now, and you might not be in the mood to learn it,
+but it's really hard to say that you are innately inclined to something or unable to do something else.
+
+I think the deeper difference between these fancy smart people
+(who can make computer and do internet and build things and so on)
+from everyone else is that the first group feels like they have permission
+to learn things and to make things.
+
+I don't like being in a special group; can we all just be people?
 
 ## Fancy things aren't magic
 It's not worth learning all of the things; that would take a while.
