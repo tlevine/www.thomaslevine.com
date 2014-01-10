@@ -25,20 +25,18 @@ We are special people who know how to do complex fancy things, and we need to
 simplify the things that we do so that normal people can do them too.
 
 ## Specialness
-It's great to have tools that make annoying things less annoying, but this attitude goes much further than that;
-you can see it in how people talk.
+It's great to have tools that make annoying things less annoying,
+but this attitude goes much further than that. You can see it in how people talk.
+
 People sometimes talk like they know a lot about a thing even though they really don't,
 and people other times say that they fundamentally don't have the ability to do some thing.
 
 You might not know much about something right now, and you might not be in the mood to learn it,
 but it's really hard to say that you are innately inclined to something or unable to do something else.
+The idea of one special person saving the world from a trendy inconvenience makes for a nice
+narrative, but I'm skeptical that such persons are all that special.
 
-I think the deeper difference between these fancy smart people
-(who can make computer and do internet and build things and so on)
-from everyone else is that the first group feels like they have permission
-to learn things and to make things.
-
-I don't like being in a special group; can we all just be people?
+Also, I don't like being in a special group; can we all just be people?
 
 ## Fancy things aren't magic
 It's not worth learning all of the things; that would take a while.
@@ -49,3 +47,10 @@ them apart and seeing what breaks.
 People seem to think I'm good at computer stuff. I suppose I am,
 but the deeper thing is that I don't see fancy things as magical and
 I feel like I'm allowed to understand how they work.
+
+If I make a computer thing that lots of people use, I might have had a good impact
+on the world. On the other hand, it's hard to say how much of that good impact is
+worth attributing me. It's hard enough to tell whether you're doing good for the
+world that I think you're better off just worrying about having fun yourself.
+
+
