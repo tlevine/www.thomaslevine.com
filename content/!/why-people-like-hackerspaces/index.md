@@ -1,9 +1,7 @@
 ---
 title: Using technology to enable people
-description: I think this is why people like hackerspaces.
+description: And why Tom likes hackerspaces
 ---
-
-## Using technology to enable people
 I see the following attitude a lot, especially in San Francisco.
 
 > We know how this complex fancy thing works, but a lot of other people don't, and it's hard to explain the thing.
@@ -15,7 +13,7 @@ make a web application in which one can make websites by pointing and clicking.
 
 This stuff is hard, so we're going to make it easy, and then more people are going to be able to do it. Great!
 
-## Using technology to enable people?
+## Really?
 Look at what happens when I bold some of the words.
 
 > **We** know how this complex fancy thing works, but a lot of other people don't, and it's hard to explain the thing.
@@ -48,9 +46,6 @@ People seem to think I'm good at computer stuff. I suppose I am,
 but the deeper thing is that I don't see fancy things as magical and
 I feel like I'm allowed to understand how they work.
 
-If I make a computer thing that lots of people use, I might have had a good impact
-on the world. On the other hand, it's hard to say how much of that good impact is
-worth attributing me. It's hard enough to tell whether you're doing good for the
-world that I think you're better off just worrying about having fun yourself.
-
-
+## Hackerspaces
+This attitude tends to be relatively absent from hackerspaces,
+and that's why I like them so much.
