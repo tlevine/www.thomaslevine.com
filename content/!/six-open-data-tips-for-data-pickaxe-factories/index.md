@@ -1,5 +1,5 @@
 ---
-title: Six Open Data Tips for Data Pickaxe Factories
+title: Seven Open Data Tips for Data Pickaxe Factories
 description: If you're working some data software product, here are some tips for you.
 tweet_text: Here's what I think you should know if you do some data something and want to make money from open data.
 tags: ['open-data']
@@ -171,7 +171,7 @@ If you're using data from a site without an obvious license, you might want to t
 to a lawyer about it. Actually, you should totally do this and then tell me about it
 afterwards because I'm curious to hear more thoughts on the matter.
 
-## Many datasets at a time
+## 72. Many datasets at a time
 With so much data, there is probably something you can find in publically available data
 that you can use to enrich your private data. For example, if your private data includes
 IP addresses of someone who clicked on an add, you can convert that to an approximate
@@ -192,5 +192,5 @@ dataset is about counties and then suggests other datasets that are about counti
 As I said [earlier](#random-numbers), I chose the numbers above randomly.
 I sloppily sampled with replacement, and that's how there are two 50s.
 
-    $ Rscript -e 'set.seed(8923489);round(runif(6,1,100))'
-    [1] 92 73 50 50 54 18
+    $ Rscript -e 'set.seed(8923489);round(runif(7,1,100))'
+    [1] 92 73 50 50 54 18 72
