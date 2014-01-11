@@ -171,6 +171,23 @@ If you're using data from a site without an obvious license, you might want to t
 to a lawyer about it. Actually, you should totally do this and then tell me about it
 afterwards because I'm curious to hear more thoughts on the matter.
 
+## Many datasets at a time
+With so much data, there is probably something you can find in publically available data
+that you can use to enrich your private data. For example, if your private data includes
+IP addresses of someone who clicked on an add, you can convert that to an approximate
+geographic location and then use public data to determine how common murder and trees are
+in that location.
+
+Open data might allow for a slightly different mode of exploring this stuff. It might take
+a lot of work/money to get a dataset, so it might not be worth doing that unless you know
+that it will be worthwhile. On the other hand, if data are freely accessible and
+free-of-charge, it might make sense to try out a bunch of datasets.
+
+Cool things happen when you combine datasets that you previously hadn't combined.
+I want to see a product that helps people find datasets that they can incorporate
+into whatever analysis they are presently working on. Maybe it detects that your
+dataset is about counties and then suggests other datasets that are about counties.
+
 ## Random numbers
 As I said [earlier](#random-numbers), I chose the numbers above randomly.
 I sloppily sampled with replacement, and that's how there are two 50s.
