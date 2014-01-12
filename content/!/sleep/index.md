@@ -36,3 +36,7 @@ Sleep for five minutes in different languages.
     func main() {
       time.Sleep(5 * time.Minute)
     }
+
+## PostScript
+
+[Here](http://computer-programming-forum.com/36-postscript/690b094ddc0d0a26.htm)'s a hack.
