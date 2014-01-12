@@ -1,31 +1,35 @@
-Sleep for five minutes in different languages.
+I like sleeping.
+
+![Picture of Tom sleeping and looking happy.]()
+
+Here's how you sleep for nine hours in a few different languages.
 
 ## Haskell
 
     #!/usr/bin/env runhaskell
     import Control.Concurrent (threadDelay)
     main = do
-      threadDelay $ 5 * 60 * (round $ 1e6)
+      threadDelay $ 9 * 60 * 60 * (round $ 1e6)
 
 ## Shell
 
     #!/bin/sh
-    sleep 5m
+    sleep 9h
 
 ## Python
 
     #!/usr/bin/env python
     from time import sleep
-    sleep(5 * 60)
+    sleep(9 * 60 * 60)
 
 ## JavaScript
 
     #!/usr/bin/env node
-    setTimeout(function(){}, 5 * 60 * 1e6)
+    setTimeout(function(){}, 9 * 60 * 60 * 1e6)
 
 ## PostgreSQL
 
-    SELECT pg_sleep(5 * 60);
+    SELECT pg_sleep(9 * 60 * 60);
 
 ## Go
 
@@ -34,7 +38,7 @@ Sleep for five minutes in different languages.
     import "time"
 
     func main() {
-      time.Sleep(5 * time.Minute)
+      time.Sleep(9 * time.Hour)
     }
 
 ## PostScript
@@ -47,5 +51,14 @@ Sleep for five minutes in different languages.
 
     main()
     {
-      sleep(5 * 60);
+      sleep(9 * 60 * 60);
     }
+
+## GProlog
+I haven't figured out how to do arithmetic yet.
+
+    sleep(32400).
+
+## Vim
+
+    :sleep 32400
