@@ -26,3 +26,13 @@ Sleep for five minutes in different languages.
 ## PostgreSQL
 
     SELECT pg_sleep(5 * 60);
+
+## Go
+
+    package main
+
+    import "time"
+
+    func main() {
+      time.Sleep(5 * time.Minute)
+    }
