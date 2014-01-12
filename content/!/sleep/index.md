@@ -40,3 +40,12 @@ Sleep for five minutes in different languages.
 ## PostScript
 
 [Here](http://computer-programming-forum.com/36-postscript/690b094ddc0d0a26.htm)'s a hack.
+
+## C
+
+    #include <unistd.h>
+
+    main()
+    {
+      sleep(5 * 60);
+    }
