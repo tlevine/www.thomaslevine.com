@@ -22,3 +22,7 @@ Sleep for five minutes in different languages.
 
     #!/usr/bin/env node
     setTimeout(function(){}, 5 * 60 * 1e6)
+
+## PostgreSQL
+
+    SELECT pg_sleep(5 * 60);
