@@ -131,9 +131,7 @@ That's a big difference.
 Rather than looking at just whether there are any externally stored datasets at all,
 let's now look at what proportion of the datasets are stored externally.
 
-![plot of chunk software_all_types](figure/software_all_types.png) 
-
-{:.wide,#all-types-of-link}
+![plot of chunk software_all_types](figure/software_all_types.png){:.wide,#all-types-of-link}
 
 Whether a dataset is stored internally or externally is related to whether it
 stays alive. This is a plot of what proportion of datasets on Socrata are stored
@@ -162,9 +160,7 @@ stored datasets, and check what proportion of those are alive.
 ## Warning: Removed 34 rows containing missing values (position_stack).
 ```
 
-![plot of chunk software_only_links](figure/software_only_links.png) 
-
-{:.wide}
+![plot of chunk software_only_links](figure/software_only_links.png){:.wide}
 
 Some data catalogs are better than others, but about half of externally stored
 datasets tend to be dead. Thus, when we make more externally stored datasets,
