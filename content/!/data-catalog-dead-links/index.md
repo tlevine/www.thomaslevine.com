@@ -54,7 +54,9 @@ and [a list of CKAN catalogs](http://instances.ckan.org/config/instances.json)
 
 I tried querying the APIs for all of these sites.
 I couldn't do this for some of the sites, mainly because they required
-authorization (lolz open data) that I did not have.
+authorization (lolz open data) that I did not have or because
+the URL I found for the catalog did not correspond with the
+domain for the CKAN or Socrata API.
 I continued with all of the sites for which I could get the data;
 this wound up being
 44 CKAN catalogs and
@@ -70,8 +72,11 @@ to the [main repository](https://github.com/tlevine/open-data/tree/master).
 
 ### Link liveliness
 From the metadata for each dataset, I pulled out the
-[URL]()
+URL
 for the dataset if there was a URL.
+Here's the code
+for [Socrata](https://github.com/tlevine/open-data/blob/master/links.py#L13) and
+for [CKAN](https://github.com/tlevine/open-data/blob/master/links.py#L32).
 
 I checked whether datasets were alive by trying to download them.
 ([More precisely](https://github.com/tlevine/open-data/blob/master/links.py#L37),
