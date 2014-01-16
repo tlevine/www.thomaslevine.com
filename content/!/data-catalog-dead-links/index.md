@@ -144,7 +144,7 @@ Socrata data catalogs with more externally stored data tend to have more dead li
 
 The above plot was for just Socrata; let's see what happens when we add CKAN.
 
-![CKAN catalogs have more externally stored datasets and more dead datasets](figure/prop_links.png) 
+![CKAN catalogs have more externally stored datasets and more dead datasets](figure/prop_links.png){:.wide}
 
 CKAN catalogs tend to have more externally stored data. When we add CKAN, the
 association between externally stored data and dead links continues.
