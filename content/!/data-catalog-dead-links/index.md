@@ -8,8 +8,11 @@ tags: ['open-data']
 kind: article
 created_at: 2014-01-16
 ---
+As I started looking at data on [CKAN](http://ckan.org/) sites, I noticed that a lot of the
+datasets were links to files on other websites and that a lot of these links
+were dead. Then I started wondering how many and which ones.
 
-
+## Why study dead links
 It goes without saying that websites usually shouldn't have dead links, but
 here are a bunch of fancy reasons why dead links are bad on open data sites.
 
@@ -32,10 +35,6 @@ In summary, dead links are bad.
 That said, if the alternative to having a dead link to a dataset is having no
 link to a dataset, I'd say it's better to have the dead link so we know that the
 data exist. But live links are better; let's move on.
-
-As I started looking at data on [CKAN](http://ckan.org/) sites, I noticed that a lot of the
-datasets were links to files on other websites and that a lot of these links
-were dead. Then I started wondering how many and which ones.
 
 ## Acquiring the data
 I collected data about dead links from CKAN and
