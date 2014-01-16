@@ -14,7 +14,7 @@ were dead. Then I started wondering how many and which ones.
 
 ## Why study dead links
 It goes without saying that websites usually shouldn't have dead links, but
-here are a bunch of fancy reasons why dead links are bad on open data sites.
+here are a bunch of fancy reasons why dead links shouldn't be on open data sites.
 
 * [Sunlight Foundation](http://sunlightfoundation.com/opendataguidelines/#permanent-access)
     says to "Create permanent, lasting access to data".
