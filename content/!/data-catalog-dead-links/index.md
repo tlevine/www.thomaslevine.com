@@ -156,10 +156,6 @@ Here's another way of seeing the above relationship. Let's look at only the exte
 stored datasets, and check what proportion of those are alive.
 
 
-```
-## Warning: Removed 34 rows containing missing values (position_stack).
-```
-
 ![plot of chunk software_only_links](figure/software_only_links.png){:.wide}
 
 Some data catalogs are better than others, but about half of externally stored
@@ -169,10 +165,6 @@ we should expect more dead datasets.
 Possibly interesting: the catalogs in this plot are ordered the same way they
 are in the [earlier similar-looking plot](#all-types-of-link), so higher catalogs
 are ones with fewer dead links.
-
-### Fun facts
-
-* 
 
 ## Software suggests behavior
 While both softwares support both storage methods, Socrata encourages the
