@@ -81,12 +81,3 @@ The former is the default; to get the latter, pass the `-u` flag.
 The search tool will be released as free software, and I will build the
 underlying search libraries with the intent that other people may easily use
 them in their own programs, without calling superprism from the command line.
-
-### Possible future work
-At the moment, I want to focus on an initial dataset search tool, and the
-program mocked-up above is all that I propose for the grant. Once that is
-working, however, I plan on expanding this project in the following areas.
-
-* Make a website where one can search by uploading a dataset
-* Collect data about what people are searching for, in order to improve the search
-* 
