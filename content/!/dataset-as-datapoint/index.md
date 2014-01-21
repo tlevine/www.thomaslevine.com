@@ -1,7 +1,7 @@
 ---
 title: Open Data Had Better Be Data-Driven
 ---
-<!-- For the winter issue of Socrata's magazine -->
+*A version of this article was published in the winter 2014 issue of [Socrata's magazine](http://www.socrata.com/magazine/).*
 
 The opening of data has advanced and is now a well-documented process. There is data on how people publish and consume open data, which means you can set up data-backed benchmarks and projections and make data-driven decisions about your strategy for opening data.
 
