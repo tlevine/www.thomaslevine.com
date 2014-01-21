@@ -55,7 +55,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Digital literacy
 -->
 
-## Short courses
+## Short courses I've taught
 * NICAR 2012
 * Cindy Royal Advanced Online Media
 * News Hack Day SF
@@ -77,4 +77,4 @@ Hunter R. Rawlings III Presidential Research Scholar
 * R Spells for Data wizards
 
 ## Societies
-* CSV Soundsystem
+* csv soundsystem
