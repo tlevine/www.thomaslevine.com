@@ -72,15 +72,19 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Statistics doodles
 
 ## Invited and reviewed articles
-* The Hovering Cycle (Plush)
-* [The New British Invasion: Scraper Wiki hits the Big Apple](http://datadrivenjournalism.net/news_and_analysis/scraperwiki_new_york_data_camp)
-* Effect of the number pad on mousing location
-* Keyboard orientation
-* TechSoup
-* Socrata
-* DataKind
-* [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/)
+* Thomas Levine (2008). Effect of the number pad on mousing location. Human Factors and Ergonomics Society Annual Meeting Proceedings, 52, 1307-1311.
+* Thomas Levine (2009). How do people position keyboards?. International Ergonomics Association World Congress Proceedings, 17.
+* Thomas Levine (2012).
+    [The New British Invasion: Scraper Wiki hits the Big Apple](http://datadrivenjournalism.net/news_and_analysis/scraperwiki_new_york_data_camp)
+    Data Driven Journalism.
+* Thomas Levine (2013).
+    [The Hovering Cycle](http://www.phlush.org/2013/02/23/the-hovering-cycle/).
+    Phlush Blog.
+* Thomas Levine (2013). [Searching lots of inconveniently formatted files at once](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once).
+* csv soundsystem (2013). [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/). OpenNews Source Blog.
 * Thomas Levine (2013). [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/). Socrata.
+* Thomas Levine (2013). [Two meanings of "variable".](http://www.datakind.org/blog/multiple-meanings-of-the-word-variable/). DataKind Blog.
+* Thomas Levine (2014). Open data had better be data-driven. Open Innovation, winter 2014.
 
 ## Other notable articles
 * Parsing PDF files
