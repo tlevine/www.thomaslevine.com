@@ -21,6 +21,13 @@ Hunter R. Rawlings III Presidential Research Scholar
 * DataKind [Data Hero](http://datakind.org/2012/08/data-heroes-tom-levine/)
 * National Science Graduate Research Fellowship Program honorable mention
 
+## Long-term gigs
+* ScraperWiki (2012)
+* Microfinance Information Exchange (2012)
+* Gulf Restoration Network (2012--present)
+* DataPad (2013)
+* Zipfian Academy (2013)
+
 ## Press
 * [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/)
 * [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
@@ -76,6 +83,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Keyboard orientation
 * TechSoup
 * Socrata
+* DataKind
 
 ## Other notable articles
 * Parsing PDF files
