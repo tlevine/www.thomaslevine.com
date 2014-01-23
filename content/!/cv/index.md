@@ -21,13 +21,6 @@ Hunter R. Rawlings III Presidential Research Scholar
 * DataKind [Data Hero](http://datakind.org/2012/08/data-heroes-tom-levine/)
 * National Science Graduate Research Fellowship Program honorable mention
 
-## Long-term gigs
-* ScraperWiki (2012)
-* Microfinance Information Exchange (2012)
-* Gulf Restoration Network (2012--present)
-* DataPad (2013)
-* Zipfian Academy (2013)
-
 ## Press
 * [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/)
 * [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
@@ -103,3 +96,24 @@ Hunter R. Rawlings III Presidential Research Scholar
 ## Installations
 * Desk Height and Other Ergonomic Delights
 * OpenPrism
+
+## Long-term gigs
+* I was on the development team at [ScraperWiki](https://scraperwiki.com),
+    where I helped design and build data processing systems and infrastructures.
+    I also taught courses on the cleaning and analysis of data. (2012)
+* I used collected data about the locations of finance institutions in South
+    Africa (primarily) to assist the
+    [Microfinance Information Exchange](http://mixmarket.org) with
+    [mapping the financial sector](http://www.themix.org/publications/mix-microfinance-world/2012/05/mapping-financial-sector-south-africa).
+    They use these data to understand who has access to financial products
+    in order that people make more informed investment decisions regarding microfinance. (2012)
+<!--
+    http://www.themix.org/publications/mix-microfinance-world/2012/06/mapping-financial-sector-kenya
+    http://developmentseed.org/blog/2011/aug/15/mapping-microfinance-banking-nigeria/
+-->
+* I developed and continue to maintain a system that streamlines
+    environmental advocacy efforts of the
+    [Gulf Restoration Network](https://healthygulf.org/). (2012--present)
+* DataPad (2013)
+* I developed the curriculum for [Zipfian Academy](http://zipfianacademy.com)
+    and taught the first class of students. (2013)
