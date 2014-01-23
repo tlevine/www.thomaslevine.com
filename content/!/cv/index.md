@@ -107,10 +107,6 @@ Hunter R. Rawlings III Presidential Research Scholar
     [mapping the financial sector](http://www.themix.org/publications/mix-microfinance-world/2012/05/mapping-financial-sector-south-africa).
     They use these data to understand who has access to financial products
     in order that people make more informed investment decisions regarding microfinance. (2012)
-<!--
-    http://www.themix.org/publications/mix-microfinance-world/2012/06/mapping-financial-sector-kenya
-    http://developmentseed.org/blog/2011/aug/15/mapping-microfinance-banking-nigeria/
--->
 * I developed and continue to maintain a system that streamlines
     environmental advocacy efforts of the
     [Gulf Restoration Network](https://healthygulf.org/). (2012--present)
