@@ -4,7 +4,7 @@ title: Curriculum vitae
 I wonder what the point of a CV is. If I'm not doing the conventional
 academic thing, I don't really need the typical CV. But why is it desireable?
 To some degree, it's a summary of a person. But my website is a summary
-of me too and it ignores some typical contents of a CV.
+of me too and it ignores some typical contents of a CV....
 
 I think a CV is intended to make someone sound impressive. I sort
 of don't like doing that, but I'm curious about what it would sound like,
@@ -94,5 +94,12 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Socrata products
 * Open data licensing
 
-## Societies
-* csv soundsystem
+## Notable software
+* OpenPrism
+* DumpTruck
+* Urchin
+* My website
+
+## Installations
+* Desk Height and Other Ergonomic Delights
+* OpenPrism
