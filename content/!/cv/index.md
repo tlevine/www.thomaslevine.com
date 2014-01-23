@@ -18,24 +18,23 @@ GPA 3.5<br>
 Hunter R. Rawlings III Presidential Research Scholar
 
 ## Awards
-* DataKind [Data Hero](http://datakind.org/2012/08/data-heroes-tom-levine/)
+* DataKind [Data Hero](http://www.datakind.org/featuredvolunteers/thomas-levine/)
 * National Science Graduate Research Fellowship Program honorable mention
 
 ## Press
-* [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/)
-* [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html)
-* [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets)
-* [Geek Philanthropy: Data huggers](http://www.economist.com/news/international/21564831-innovative-charity-rallies-geeks-good-cause)
-* [R makes a T-shirt](http://blog.revolutionanalytics.com/2009/06/r-makes-a-tshirt.html)
-* [Time capsule to be opened in 2065 preserves Cornell history](http://news.cornell.edu/stories/2012/11/time-capsule-preserves-cornell-history-until-2065)
-* [Inside Risley's Castle](http://cornellsun.com/node/33124)
-* [http://cornellsun.com/node/41218](The Spirit of the Arts)
-* [Datenschau 008](http://www.kuechenstud.io/datenschau/podcast/ds008/)
-* [Conversation with Tom Levine](http://www.youtube.com/watch?v=wX7IedZCTSo)
-* Revolution R about my R spells
-* Revolution R about FMS Symphony
-* [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/)
-* treasuryio
+* Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
+* Mariano Blejman (2012). [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html). Página 12.
+* Meredith Hoffman (2013). [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets). DNA Info.
+* (2012). [Geek Philanthropy: Data huggers](http://www.economist.com/news/international/21564831-innovative-charity-rallies-geeks-good-cause). Economist.
+* David Smith (2009). [R makes a T-shirt](http://blog.revolutionanalytics.com/2009/06/r-makes-a-tshirt.html). Revolution Analytics.
+* [Time capsule to be opened in 2065 preserves Cornell history](http://news.cornell.edu/stories/2012/11/time-capsule-preserves-cornell-history-until-2065). Cornell University.
+* Sydney Arkin (2008). [Inside Risley's Castle](http://cornellsun.com/node/33124). Cornell Daily Sun.
+* Emily Greenberg (2010). [The Spirit of the Arts](http://cornellsun.com/node/41218). Cornell Daily Sun.
+* Anna Lena Schiller, Lorenz Matzat Philip Banse (2013). [Datenschau 008](http://www.kuechenstud.io/datenschau/podcast/ds008/). Datenschau.
+* Teresa Bouza (2013). [Conversation with Tom Levine](http://www.youtube.com/watch?v=wX7IedZCTSo).
+* Kathy Kiely (2013). [Datafest project opens Uncle Sam's daily ledger](http://sunlightfoundation.com/blog/2013/07/25/datafest-project-opens-uncle-sams-daily-ledger/). Sunlight Foundation.
+* Caroline O'Donovan (2014). [Making government spending data more legible](http://www.niemanlab.org/2014/01/making-government-spending-data-more-legible/). Nieman Journalism Lab.
+* Melissa Smolensky (2013). [Chartio Takes Over the Big Apple](http://chartio.com/blog/2013/03/chartiosheadstonyc). Chartio.
 
 ## Invited talks
 * Cleaning Gritty Data to tell a story in the News Room or the Board Room, [Strata London 2012](http://strataconf.com/strataeu/public/schedule/detail/25890)
@@ -57,8 +56,11 @@ Hunter R. Rawlings III Presidential Research Scholar
 * [Association of Public Data Users, 2013](http://apdu.org/events/conference/apdu-2013/).
     ([slides](https://github.com/tlevine/social-media-public-data))
 * Screen-scraping workshop, [The Big CLean 2012](http://bigclean.techlib.cz/en/805-workshop/).
-* PyData 2013
-* 100,000
+* Data-Driven Music for Big Data Analysis, PyData 2013.
+    ([video](https://vimeo.com/79859345))
+* 100,000 open data across 100 portal, NYC Open Data.
+    ([non-slides](http://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/))
+* Data Scientist Panel, [data io](http://www.meetup.com/data-io/events/109303752/), March 21, 2013
 
 ## Short courses I've taught
 * NICAR 2012
@@ -77,6 +79,8 @@ Hunter R. Rawlings III Presidential Research Scholar
 * TechSoup
 * Socrata
 * DataKind
+* [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/)
+* Thomas Levine (2013). [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/). Socrata.
 
 ## Other notable articles
 * Parsing PDF files
