@@ -57,14 +57,8 @@ Hunter R. Rawlings III Presidential Research Scholar
 * [Association of Public Data Users, 2013](http://apdu.org/events/conference/apdu-2013/).
     ([slides](https://github.com/tlevine/social-media-public-data))
 * Screen-scraping workshop, [The Big CLean 2012](http://bigclean.techlib.cz/en/805-workshop/).
-
-<!--
-## Contests I won
-* Toilet Hackers
-* Highground
-* Bicoastal Datafest
-* Digital literacy
--->
+* PyData 2013
+* 100,000
 
 ## Short courses I've taught
 * NICAR 2012
@@ -79,13 +73,18 @@ Hunter R. Rawlings III Presidential Research Scholar
 * The Hovering Cycle (Plush)
 * [The New British Invasion: Scraper Wiki hits the Big Apple](http://datadrivenjournalism.net/news_and_analysis/scraperwiki_new_york_data_camp)
 * Effect of the number pad on mousing location
+* Keyboard orientation
 * TechSoup
+* Socrata
 
 ## Other notable articles
 * Parsing PDF files
 * Beaglebone power supplies
 * [Unsanitary conditions in the Risley Hall bathrooms](/!/risley-toilets/)
 * R Spells for Data wizards
+* Socrata summary
+* Socrata products
+* Open data licensing
 
 ## Societies
 * csv soundsystem
