@@ -5,7 +5,8 @@ I wonder what the point of a CV is. If I'm not doing the conventional
 academic thing, I don't really need the typical CV. But why is it desireable?
 To some degree, it's a summary of a person. But my website is a summary
 of me too and it ignores some typical contents of a CV.
-So I think a CV is intended to make someone sound impressive. I sort
+
+I think a CV is intended to make someone sound impressive. I sort
 of don't like doing that, but I'm curious about what it would sound like,
 so here I go.
 
@@ -37,15 +38,25 @@ Hunter R. Rawlings III Presidential Research Scholar
 * treasuryio
 
 ## Invited talks
-* Web scraping, Strata London 2012
-* Music Videos in R, NYOSPM
-* Urchin, NYU ACM
-* Geometric computations of fundamental statistical concepts, NYU ACM
-* Interactive Data, CUSD
-* Hacks/Hackers Buenos Aires Media Party
-* Zipfian Academy July 2
-* Socrata August 23
-* APDU
+* Cleaning Gritty Data to tell a story in the News Room or the Board Room, [Strata London 2012](http://strataconf.com/strataeu/public/schedule/detail/25890)
+* Music Videos in R,
+    [New York Open Statistical Programming Meetup. April 9, 2013.](http://www.meetup.com/nyhackr/events/111193682/)
+* [Urchin](https://github.com/scraperwiki/urchin),
+    New York University Association for Computing Machinery chapter.
+* Geometric computations of fundamental statistical concepts,
+    New York University Association for Computing Machinery chapter.
+* Interactive Data,
+    Cornell University Sustainable Design Symposium.
+* Web Scraping, [Hacks/Hackers Buenos Aires Media Party 2012](http://www.mediaparty.info/).
+* Multisensory data,
+    [Zipfian Academy](http://zipfianacademy.com) guest lecture, July 2 2013.
+    ([slides](https://github.com/tlevine/multisensory-data-zipfian))
+* Meta data science,
+    [Socrata](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/),
+    August 23, 2014. ([slides](https://github.com/tlevine/meta-data-science-socrata))
+* [Association of Public Data Users, 2013](http://apdu.org/events/conference/apdu-2013/).
+    ([slides](https://github.com/tlevine/social-media-public-data))
+* Screen-scraping workshop, [The Big CLean 2012](http://bigclean.techlib.cz/en/805-workshop/).
 
 <!--
 ## Contests I won
