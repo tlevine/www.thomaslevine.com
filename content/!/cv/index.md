@@ -101,7 +101,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
     where I helped design and build data processing systems and infrastructures.
     I also taught courses on the cleaning and analysis of data. (2012)
-* I used collected data about the locations of finance institutions in South
+* I collected data about the locations of finance institutions in South
     Africa (primarily) to assist the
     [Microfinance Information Exchange](http://mixmarket.org) with
     [mapping the financial sector](http://www.themix.org/publications/mix-microfinance-world/2012/05/mapping-financial-sector-south-africa).
@@ -110,6 +110,9 @@ Hunter R. Rawlings III Presidential Research Scholar
 * I developed and continue to maintain a system that streamlines
     environmental advocacy efforts of the
     [Gulf Restoration Network](https://healthygulf.org/). (2012--present)
-* DataPad (2013)
+* I conducted early data engineering on the [DataPad](http://datapad.io)
+    data analysis product. (2013)
 * I developed the curriculum for [Zipfian Academy](http://zipfianacademy.com)
     and taught the first class of students. (2013)
+* As part of the hacker collective [csv soundsystem](http://csvsoundsystem.com).
+    I did engineering and product management on [treasury.io](http://treasury.io). (2013)
