@@ -69,7 +69,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * ScraperWiki Data Camp New York
 * ScraperWiki Data Camp DC
 * The Big Clean
-* Statistics doodles
+* [Statistics through doodles](/!/statistics-with-doodles-sudoroom)
 
 ## Invited and reviewed articles
 * Thomas Levine (2008). Effect of the number pad on mousing location. Human Factors and Ergonomics Society Annual Meeting Proceedings, 52, 1307-1311.
@@ -84,26 +84,27 @@ Hunter R. Rawlings III Presidential Research Scholar
 * csv soundsystem (2013). [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/). OpenNews Source Blog.
 * Thomas Levine (2013). [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/). Socrata.
 * Thomas Levine (2013). [Two meanings of "variable".](http://www.datakind.org/blog/multiple-meanings-of-the-word-variable/). DataKind Blog.
+* Thomas Levine (2013). [What's in a table?](http://www.datakind.org/blog/whats-in-a-table/). DataKind Blog.
 * Thomas Levine (2014). Open data had better be data-driven. Open Innovation, winter 2014.
 
 ## Other notable articles
-* Parsing PDF files
-* Beaglebone power supplies
+* [How I parse PDF files](/!/parsing-pdfs)
+* [Beaglebone power supplies](/!/beaglebone-power)
 * [Unsanitary conditions in the Risley Hall bathrooms](/!/risley-toilets/)
-* R Spells for Data wizards
-* Socrata summary
-* Socrata products
-* Open data licensing
+* [R Spells for Data wizards](/!/r-spells-for-data-wizards)
+* [Socrata summary](/!/socrata-summary)
+* [Socrata products](/!/socrata-products)
+* [Open data licensing](/!/open-data-licensing)
 
 ## Notable software
-* OpenPrism
-* DumpTruck
-* Urchin
-* My website
+* [OpenPrism](http://openprism.thomaslevine.com)
+* [DumpTruck](https://github.com/scraperwiki/dumptruck)
+* [Urchin](https://github.com/scraperwiki/urchin)
+* [My website](https://github.com/tlevine/www.thomaslevine.com)
 
 ## Installations
-* Desk Height and Other Ergonomic Delights
-* OpenPrism
+* Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
+* Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition), Eyebeam.
 
 ## Long-term gigs
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
