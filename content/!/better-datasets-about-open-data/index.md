@@ -1,15 +1,15 @@
 ---
-title: Consolidating my data about data
+title: Organizing my data about data
 description: I'm starting to put my data data in one code repository.
-tweet_text: Making my data about open data less confusing. http://thomaslevine.com/!/better-datasets-about-open-data/
+tweet_text: Making my data about open data less confusing http://thomaslevine.com/!/better-datasets-about-open-data/
 tweet_link: ''
 kind: article
 created_at: 2014-01-27
 tags: ['open-data']
 ---
 I've recently been [studying data about open data](/open-data),
-and I keep hearing that other people want to do the same.
-
+and I want to make it easy for other people to use my data data for more
+data data studies.
 I previously [documented](/!/my-datasets-about-open-data)
 much of the data data that I'd collected, but that was all a mess,
 so I've been organizing them a bit more nicely. All of the old stuff
@@ -23,10 +23,11 @@ Get it like so.
 
     git clone git@github.com:tlevine/open-data.git --recursive
 
-There are separate modules for different data data sources.
+You need `--recursive` because
+there are separate submodules for different data data sources.
 
 ## Running things
-Most of the directions for collecting data from other places are written as
+Most of the directions for downloading stuff from other places are written as
 Python modules and are stored in the root of the repository. I intend for
 `run.py` to be the entry point to all of these modules. In some cases,
 however, I copied a file from another place and didn't integrate it into this
