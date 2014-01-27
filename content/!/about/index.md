@@ -8,7 +8,7 @@ wrist pain, so he started studying ergonomics and conducting quantitative
 ergonomics research. At some point, people started calling him a data scientist.
 And his back and wrists now hurt less. He recently been
 playing [music](http://csvsoundsystem.com) and
-studying [open data](/open-data).
+studying [how people share data](/open-data).
 
 <!--
 Other possibilities
@@ -22,8 +22,8 @@ Other possibilities
 Thomas is a recursive data researcher.
 He has received any number of degrees, grants, and other awards
 from any number of prestigious and intellectual institutions.
-He serves on any number of boards of any number of big important
-things and has authored over 9000 articles.
+He serves on any number of boards of any number of established
+and important things and has authored over 9000 articles.
 
 He uses data-driven methods to understand social processes involved
 in the interactions between humans and their constructed environments.
