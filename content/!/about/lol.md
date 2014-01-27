@@ -22,3 +22,11 @@ to provoke collective inquiry into the origins of present realities and
 to call attention to the complexities of social inertia.
 
 ## Businessy version
+Thomas has worked with any number of hip startups and
+big-people-you've-heard-of on any number of massively hard problems for
+critical business systems. He is a recognized expert in all of the data
+things and is on the cutting edge of data-driven open data, and big data
+gastronomification.
+
+He has over 24 years of experience in data and tech and has received
+any number of sexy awards from any number of buzzy places.
