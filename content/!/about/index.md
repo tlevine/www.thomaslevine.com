@@ -36,10 +36,9 @@ Thomas is a dada artist with a background in toilets.
 He holds and has held any number of positions at
 any number of prestigious artistic institutions.
 
-In his work,
-he creates political performances for specialized audiences in order
-to provoke collective inquiry into the origins of present realities and
-to call attention to the complexities of social inertia.
+In his work, he creates political performances for specialized audiences.
+He seeks to provoke collective inquiry into the origins of present realities
+and to call attention to the complexities of social inertia.
 
 ## Businessy version
 Thomas has worked with any number of hip startups and
