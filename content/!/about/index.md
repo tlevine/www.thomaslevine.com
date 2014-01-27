@@ -1,7 +1,7 @@
 ---
 title: About Thomas Levine
 ---
-![A picture of Tom from when he had pink hair](/img/me.png){:style="background-color: inherit;"}
+![A picture of Tom from when he had pink hair](/img/me-420.png){:style="background-color: inherit;"}
 
 Playing with computers since he was young, Tom eventually developed back and
 wrist pain, so he started studying ergonomics and conducting quantitative
