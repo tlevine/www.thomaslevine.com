@@ -105,17 +105,13 @@ of companies that meet the Open Data 500 eligibility criteria; there is not
 a control group of companies that do not meet the criteria.
 
 ## Just a questionnaire
-This is the main thing that confused me about the study, so I'm going to
-explain this part in a bit more depth in case anyone else was also confused.
-
 Aside from the undocumented data collection, which produces only coarse information,
 the data collection for the Open Data 500 is just the questionnaire.
-**Really**.
+**Really**. (This is the main thing that confused me.)
+
 For example, the Team isn't looking at companies products to see which open data
 are used, and it isn't looking at annual reports to determine whether the
-company does a lot of business in the United States. This is confusing because
-the data releases do not look like the questionnaire, but I'm pretty sure that
-the data come rather directly from the questionnaire.
+company does a lot of business in the United States.
 
 ## Sample size
 It is unclear to me how many companies responded to the questionnaire, but I
@@ -725,5 +721,5 @@ Team does!
 **The different data files present conflicting versions of the data**,
 and I haven't figured out how to resolve this.
 The different data files do largely agree with each other,
-so they should be okay for prototyping your analyses, but you should contact the
+so any one should be okay for prototyping your analyses, but you should contact the
 Open Data 500 Team for clarification if this starts to matter.
