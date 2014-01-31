@@ -1,7 +1,8 @@
 ---
 title: A data dictionary of the Open Data 500 data
-description: I like writing documentation
-tweet_text: This morning I wrote a data dictionary about the Open Data 500 data.
+description: I really like writing documentation
+tweet_text: This morning I wrote a data dictionary about the Open Data 500 data. http://thomaslevine.com/!/open-data-500-data-dictionary/
+tweet_link: https://twitter.com/thomaslevine/status/429261601829822464
 tags: ['open-data']
 created_at: 2014-01-31
 kind: article
