@@ -724,5 +724,5 @@ Team does!
 **The different data files present conflicting versions of the data**,
 and I haven't figured out how to resolve this.
 The different data files do largely agree with each other,
-so any one should be okay for prototyping your analyses, but you should contact the
-Open Data 500 Team for clarification if this starts to matter.
+so any one should be okay for prototyping your analyses. You should contact the
+Open Data 500 Team for clarification when this starts to matter.
