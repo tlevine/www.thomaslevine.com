@@ -28,6 +28,9 @@ her own purposes, so here it is. The present article discusses
 * Clarification of some possible points of confusion
 * Recommendations as to how to work with the data
 
+This article has more detail than most people will want, so
+[jump to the summary](#key-points-and-recommendations) if you like.
+
 ## Data collection methods
 The Open Data 500 looks a bit scary and complicated when you read its website
 and the articles about it, but the Open Data 500 is pretty much just a
