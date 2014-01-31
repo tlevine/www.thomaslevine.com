@@ -17,7 +17,7 @@ You may have read about it in.
 [Forbes](http://www.forbes.com/sites/bethsimonenoveck/2014/01/08/from-faith-based-to-evidence-based-the-open-data-500-and-understanding-how-open-data-helps-the-american-economy/),
 [Information Week](http://www.informationweek.com/government/open-government/open-government-data-companies-cash-in/d/d-id/1113143), or
 [Fedscoop](http://fedscoop.com/open-data-500-intersection-open-data-economy/)
-This is [data about open data](/open-data), so I naturally wanted it.
+This is [data about open data](/open-data)!
 
 The Open Data 500 Team doesn't provide a data dictionary, so I pieced one
 together for my own purposes. And I figured somebody else might want it for
