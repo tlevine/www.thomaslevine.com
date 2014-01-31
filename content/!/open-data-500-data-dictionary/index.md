@@ -60,7 +60,7 @@ understood the questionnaire properly.
 The Open Data 500 uses a sampling strategy that they term "comprehensive call".
 That sounds really complicated, but it's actually quite simple.
 
-The questionnaire results can be considered a convenience sample
+The questionnaire results can be considered a 
 [convenience sample](http://en.wikipedia.org/wiki/Accidental_sampling)
 of companies that meet the Open Data 500 eligibility criteria.
 
