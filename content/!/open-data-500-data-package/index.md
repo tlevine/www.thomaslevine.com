@@ -161,9 +161,9 @@ You can download the files here.
 
 I've also packaged the it as a
 [Data Package](http://data.okfn.org/standards/data-package),
-check out the git repository 
+so you can check out the git repository 
 (`git://github.com/tlevine/open-data-500.git`)
-so you can use any of
+and use any of
 [these fancy tools](http://data.okfn.org/tools)
 to load the `datapackage.json` file.
 
