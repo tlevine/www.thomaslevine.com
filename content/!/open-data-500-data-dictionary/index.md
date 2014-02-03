@@ -8,6 +8,7 @@ created_at: 2014-01-31
 kind: article
 twitter_image: figure/preview_v_candidates.png
 facebook_image: figure/preview_v_candidates.png
+other_source: https://github.com/tlevine/open-data-500
 ---
 <style>
 tr { text-align: left; }

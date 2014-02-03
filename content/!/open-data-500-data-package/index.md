@@ -4,6 +4,7 @@ tags: ['open-data']
 kind: article
 tweet_text: I made a data package of the Open Data 500 data! http://thomaslevine.com/!/open-data-500-data-package
 created_at: 2014-02-03
+other_source: https://github.com/tlevine/open-data-500
 ---
 I recently took a stab at documenting the
 [Open Data 500](http://www.opendata500.com) data format,
