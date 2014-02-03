@@ -9,10 +9,10 @@ other_source: https://github.com/tlevine/open-data-500
 I recently took a stab at documenting the
 [Open Data 500](http://www.opendata500.com) data format,
 but my [work thus far](/!/open-data-500-data-dictionary)
-leaves much to be desired. Over the weekend, I looked at
-it a bit more, and I think I have a pretty good idea about
-it now, and I've packaged the data in a way that should be
-a bit easier to work with.
+leaves much to be desired. I looked at it a bit more over the weekend,
+and I think I have a pretty good idea about it now.
+Collecting all of my findings about the data format,
+I packaged the data in a way that should be a bit easier to work with.
 
 ## More stuff I figured out about the Open Data 500 data
 It was pretty simple to convert the data formats once I figured them out, but
