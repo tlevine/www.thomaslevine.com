@@ -52,12 +52,14 @@ I scraped the data from the various HTML pages on the site, and I noticed
 that there is indeed quite complete data for all of these 100 companies.
 I thus think that these companies responded to the questionnaire.
 
-Separately, I know for sure that the "download"
-section isn't being updated because I downloaded those files when they
-were first released in December, and they haven't changed. I haven't
-been downloading the HTML files regularly, 
+Also, I noticed that the "download" section isn't being updated.
+I downloaded the JSON and CSV files in this section when they
+were first released in December, and they files on the website
+haven't changed since.
 
-I found [this git repository](https://github.com/GovLab/OpenData500),
+I haven't been downloading the HTML files regularly, but it looks like the
+site is being updated.
+I found [this code repository](https://github.com/GovLab/OpenData500),
 which seems to be the code for the site. In that repository as well,
 the "download" files have never been updated. But recent development on
 the site has been happening, so I find it conceivable that the data behind
@@ -87,7 +89,8 @@ I used the value on the company's particular page rather than the value on the
 main "full list" page.
 
 ### Schema of the companies file
-The dataset is a single CSV file, where each row is a company and most columns
+This version of the dataset is a single CSV file,
+where each row is a company and most columns
 are answers to questionnaire questions. (I think! Remember that I'm guessing at
 all of this.) Here are the columns that I think to come from the first page of
 the questionnaire.
