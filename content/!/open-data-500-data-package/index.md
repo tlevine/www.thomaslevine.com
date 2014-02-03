@@ -2,7 +2,7 @@
 title: Open Data 500 Data Package
 tags: ['open-data']
 kind: article
-tweet_text: I made a data package of the Open Data 500 data! http://thomaslevine.com/!/open-data-500-data-package
+tweet_text: I cleaned up the Open Data 500 data. My first data package! http://thomaslevine.com/!/open-data-500-data-package
 created_at: 2014-02-03
 other_source: https://github.com/tlevine/open-data-500
 ---
