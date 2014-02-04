@@ -10,7 +10,7 @@ it all.
 I've since gotten the stuff down to a small suitcase and a small
 messenger bag; here it is.
 
-![Stuff laid out on a floor](stuff-annotated.jpg)
+![Stuff laid out on a floor](stuff-annotated.jpg){:.wide}
 
 The larger things are
 
