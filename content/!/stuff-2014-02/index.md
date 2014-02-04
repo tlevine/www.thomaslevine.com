@@ -4,9 +4,9 @@ title: Tom's stuff as of February 2014
 Three months ago, I noticed that everything in my apartment that
 I cared about fit in a big suitcase and a big backpack. That was
 small enough that I thought it would be fun and easy to bounce
-around between different places. But I still felt weird carrying
-it all.
+around between different places.
 
+But it felt silly to carry all that stuff, so
 I've since gotten the stuff down to a small suitcase and a small
 messenger bag; here it is.
 
