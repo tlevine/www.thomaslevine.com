@@ -242,7 +242,7 @@ nav .link
     h1, h2, h3, h4, h5
       margin-bottom: 0.25em
 
-    table, pre, code
+    pre, code
       font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace !important
       color: $article-text
       background-color: $block-background
@@ -291,19 +291,20 @@ nav .link
       font-weight: bold
   
     table
-      width: 100%
-      text-align: right
-      border:
-        bottom: 0.25em solid
-        bottom-color: $block-background
-        top: 0.25em solid
-        top-color: $block-background
-      thead
-        border-bottom: 0.25em solid
-        border-bottom-color: $block-background
-      tfoot
-        border-top: 0.25em solid
-        border-top-color: $block-background
+      font-family: mono
+      tr
+        display: block
+        td
+            margin-right: -0.5em
+        td:nth-child(n+2):before
+            content: ','
+
+    table, thead, tbody, tfoot, td
+      display: inline
+
+    table, thead, tbody, tfoot, tr, td
+      margin: 0
+      padding: 0
 
 article header span.tags, article header em
   color: $article-text !important
