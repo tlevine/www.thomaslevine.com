@@ -6,7 +6,7 @@ title: About Thomas Levine
 Playing with computers since he was young, Tom eventually developed back and
 wrist pain, so he started studying ergonomics and conducting quantitative
 ergonomics research. At some point, people started calling him a data scientist.
-And his back and wrists now hurt less. He recently been
+And his back and wrists now hurt less. He has recently been
 playing [music](http://csvsoundsystem.com) and
 studying [how people share data](/open-data).
 
