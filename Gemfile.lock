@@ -60,7 +60,7 @@ GEM
       nanoc (>= 3.3.1)
     nanoc-javascript-concatenator (0.0.2)
       nanoc (>= 3.3.0)
-    nokogiri (1.5.9)
+    nokogiri (1.6.1)
     progress (2.4.0)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
