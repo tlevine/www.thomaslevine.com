@@ -13,11 +13,6 @@ tags: ['socrata', 'open-data']
 twitter_image: figure/csv-cum-facet.png
 facebook_image: figure/csv-cum-facet.png
 ---
-<style>
-table {
-  font-size: 0.7em;
-}
-</style>
 I found some more open data about open data to [study](/socrata)!
 While [at Socrata's office](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/) on Friday,
 I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.

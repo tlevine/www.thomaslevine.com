@@ -10,9 +10,6 @@ twitter_image: figure/preview_v_candidates.png
 facebook_image: figure/preview_v_candidates.png
 other_source: https://github.com/tlevine/open-data-500
 ---
-<style>
-tr { text-align: left; }
-</style>
 The [Open Data 500](http://www.opendata500.com/download/) is
 "the first comprehensive study of U.S. companies using open government data to develop new products and services."
 You may have read about it in.

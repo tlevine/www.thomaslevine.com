@@ -6,7 +6,6 @@ tweet_text: I cleaned up the Open Data 500 data. My first data package! http://t
 created_at: 2014-02-03
 other_source: https://github.com/tlevine/open-data-500
 ---
-<style>tr { text-align: left; }</style>
 I recently took a stab at documenting the
 [Open Data 500](http://www.opendata500.com) data format,
 but my [work thus far](/!/open-data-500-data-dictionary)
