@@ -347,7 +347,7 @@ public and private scenarios were the response variables. I haven't figured
 out a straightforward way of writing that, so here are three rows from the
 response variable matrix.
 
-unspecified, defecate | unspecified, urinate | clean, defecate | clean, urinate | dirty, defecate | dirty, urinate
+unspecified&defecate | unspecified&urinate | clean&defecate | clean&urinate | dirty&defecate | dirty&urinate
 --- | --- | --- | --- | --- | --- | --- | ---
 FALSE | TRUE | TRUE | TRUE | FALSE | TRUE
 TRUE | TRUE | TRUE | TRUE | TRUE | TRUE
