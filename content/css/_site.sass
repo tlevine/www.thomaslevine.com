@@ -297,10 +297,8 @@ nav .link
         td, th
           margin-right: -0.5em
         td, th
-          &:after
+          &:nth-last-child(n+2):after
             content: ','
-            &:last-child
-              content: ''
 
     thead, tbody, tfoot, td, th
       display: inline
