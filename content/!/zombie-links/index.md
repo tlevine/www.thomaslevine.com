@@ -150,12 +150,11 @@ The following plot should make it more clear.
 
 Recall that people thought that CKAN doesn't respond to HEAD requests. It might
 just be that CKAN is slow to respond to requests. Here is a plot with datasets
-color-coded based on whether they appear to be served from a CKAN filestore.
+color-coded based on whether they appear to be served from a CKAN FileStore.
 
-![plot of chunk storage](figure/storage.png) 
+![plot of chunk storage](figure/storage.png){:.wide}
 
-
-(The `/storage` endpoint is typically used for the CKAN filestore.)
+(The `/storage` endpoint is typically used for the CKAN FileStore.)
 
 It looks like the CKAN FileStore can take a while to respond, and that might be
 why people thought that HEAD requests fail.
@@ -169,15 +168,7 @@ To illustrate this, see below a plot of the number of CKAN datasets for which my
 data has duplicate records. The top bar graph is for datasets that were stored internally, and
 the bottom bar graph is for datasets that were stored externally.
 
-
-```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust
-## this. stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to
-## adjust this.
-```
-
-![plot of chunk p_duplicates_ckan](figure/p_duplicates_ckan.png) 
-
+![plot of chunk p_duplicates_ckan](figure/p_duplicates_ckan.png){:.wide}
 
 We see that there were quite a many duplicates, particularly for datasets that were stored
 externally. This happened because I ran my downloader script multiple times, thinking that
@@ -192,7 +183,7 @@ Because of how I set up the database, it's hard to see this in the Socrata data.
 ## adjust this.
 ```
 
-![plot of chunk p_duplicates_socrata](figure/p_duplicates_socrata.png) 
+![plot of chunk p_duplicates_socrata](figure/p_duplicates_socrata.png){:.wide}
 
 
 This plot shows that I have hundreds of duplicates of the same dataset.
@@ -212,14 +203,14 @@ is colored differently at different segments to represent different categories o
 The first plot shows that most datasets within a given catalog are alive, either because
 they are internally stored or because they are stored externally and have live links.
 
-![plot of chunk p_link_types](figure/p_link_types.png) 
+![plot of chunk p_link_types](figure/p_link_types.png){:.wide}
 
 
 Let's ignore the datasets that are stored internally. The bars will represent only the
 datasets that are external links, and the missing bars correspond to catalogs with no
 external links.
 
-![plot of chunk p_link_types_onlylinks](figure/p_link_types_onlylinks.png) 
+![plot of chunk p_link_types_onlylinks](figure/p_link_types_onlylinks.png){:.wide}
 
 
 One of my main conclusions in the prior article was that Socrata and CKAN encourage
@@ -232,7 +223,7 @@ CKAN sites than in Socrata sites. I made this plot to explain that.
 
 The plot looks a bit different with the fixed data (below),
 
-![plot of chunk p_prop_links](figure/p_prop_links.png) 
+![plot of chunk p_prop_links](figure/p_prop_links.png){:.wide}
 
 
 but conclusion still seems reasonable.
@@ -240,7 +231,7 @@ but conclusion still seems reasonable.
 ## Unexplained
 Let's look closely at the two catalogs for which my prior results didn't seem right.
 
-![plot of chunk p_link_types_specifics](figure/p_link_types_specifics.png) 
+![plot of chunk p_link_types_specifics](figure/p_link_types_specifics.png){:.wide}
 
 
 OpenVA is looking more alive than it did before, and the links that I marked as dead
@@ -274,29 +265,16 @@ I started out by considering whether this was an appropriate test.
 Here are all of the status codes that I received, from all of the different
 links from all of the catalogs.
 
-![plot of chunk status_codes](figure/status_codes.png) 
-
+![plot of chunk status_codes](figure/status_codes.png){:.wide}
 
 Let's look at this for just the specific catalogs that those Tweets were about.
+Here's OpenVA.
 
-![plot of chunk status_codes_trentino_va](figure/status_codes_trentino_va.png) 
+![plot of chunk status_codes_va](figure/status_codes_va.png) 
 
+And here's Trentino.
 
-
-```
-## 
-##         200 No response    Not link         404         203 
-##          18           4           3           2           0
-```
-
-
-
-```
-## 
-## No response         200    Not link         500         203 
-##         516          51          42           4           0
-```
-
+![plot of chunk status_codes_trentino](figure/status_codes_trentino.png) 
 
 Aside from 200, all of those status codes are errors, so this method of checking
 seems fine. On the other hand, it seems like there were a lot of non-responses....
@@ -312,27 +290,22 @@ Then I wound up changing my mind and using the links table to store a single rec
 per dataset. Here arose a problem; there was no unique index on this datasets table,
 but I thought there was, so I added multiple records for each link.
 
-
-```
-## |catalog                 |identifier                                             |  count(*)|
-## |:-----------------------|:------------------------------------------------------|---------:|
-## |dartportal.leeds.ac.uk  |dart_excavation_data                                   |         5|
-## |dartportal.leeds.ac.uk  |dart_geophysics_cmdminiexplorer                        |         5|
-## |dartportal.leeds.ac.uk  |dart_geophysics_flashres64                             |         5|
-## |dartportal.leeds.ac.uk  |dart_geophysics_geoscanrm15                            |         5|
-## |dartportal.leeds.ac.uk  |dart_laboratorydata                                    |         5|
-## |dartportal.leeds.ac.uk  |dart_monitoring_apparent_permitivity_cstdr100          |         5|
-## |dartportal.leeds.ac.uk  |dart_monitoring_bulk_electrical_conductivity_cstdr100  |         5|
-## |dartportal.leeds.ac.uk  |dart_monitoring_soilconductivity_imko_pico_t3p         |         5|
-## |dartportal.leeds.ac.uk  |dart_monitoring_temperature_cs107l                     |         5|
-## |dartportal.leeds.ac.uk  |dart_monitoring_weather_data                           |         5|
-```
-
+|catalog                 |identifier                                             |  count(*)|
+|:-----------------------|:------------------------------------------------------|---------:|
+|dartportal.leeds.ac.uk  |dart_excavation_data                                   |         5|
+|dartportal.leeds.ac.uk  |dart_geophysics_cmdminiexplorer                        |         5|
+|dartportal.leeds.ac.uk  |dart_geophysics_flashres64                             |         5|
+|dartportal.leeds.ac.uk  |dart_geophysics_geoscanrm15                            |         5|
+|dartportal.leeds.ac.uk  |dart_laboratorydata                                    |         5|
+|dartportal.leeds.ac.uk  |dart_monitoring_apparent_permitivity_cstdr100          |         5|
+|dartportal.leeds.ac.uk  |dart_monitoring_bulk_electrical_conductivity_cstdr100  |         5|
+|dartportal.leeds.ac.uk  |dart_monitoring_soilconductivity_imko_pico_t3p         |         5|
+|dartportal.leeds.ac.uk  |dart_monitoring_temperature_cs107l                     |         5|
+|dartportal.leeds.ac.uk  |dart_monitoring_weather_data                           |         5|
 
 I had thought that there was a unique index on
 `links.software, links.catalog, links.identifier`,
 but there wasn't!
-
 
 ## Misinterpreting NULLs
 Another issue: I had interpreted NULL as meaning that the dataset is not a link,
@@ -362,25 +335,25 @@ all datasets that had timed out. Results didn't remarkably change.
 ## Slow datasets
 Those links took a while to download. Maybe my timeout threshold is being hit?
 
-  url = 'http://dati.trentino.it/storage/f/2013-06-16T114537/_EBmYVk.csv'
-  import requests
+    url = 'http://dati.trentino.it/storage/f/2013-06-16T114537/_EBmYVk.csv'
+    import requests
 
-  timeout = requests.head(url, timeout = 2)
-  # timeout error
+    timeout = requests.head(url, timeout = 2)
+    # timeout error
 
 So it is. More detail follows.
 
-  get = requests.get(url)
-  head = requests.head(url)
+    get = requests.get(url)
+    head = requests.head(url)
 
-  print(get)
-  # <Response [200]>
+    print(get)
+    # <Response [200]>
 
-  print(head)
-  # <Response [200]>
+    print(head)
+    # <Response [200]>
 
-  print(head.elapsed)
-  # datetime.timedelta(0, 3, 353558)
+    print(head.elapsed)
+    # datetime.timedelta(0, 3, 353558)
 
 The link is alive, but my timeout of 2 seconds was too short.
 In this case, the request with a timeout failed, so the initial
@@ -392,12 +365,8 @@ which the request will time out, but they're related.
 A bunch of datasets have a field for an external link but provided
 an empty URL.
 
-
-```
-## [1] catalog  count(*)
-## <0 rows> (or 0-length row.names)
-```
-
+    [1] catalog  count(*)
+    <0 rows> (or 0-length row.names)
 
 Aside from being interesting in itself, this pointed out to me that
 there were probably lots of types of errors that I hadn't really
@@ -419,68 +388,50 @@ is "thomaslevine.com".) So I wrote a sloppy function to detect these hostnames.
 Here are the top few hostnames and the number of datasets with each hostname.
 
 
-```
-## 
-##                          \t 0ccfs001.sussex.nhs.uk\\csu 
-##                           1                           1 
-##            10.96.9.105:8080               176.32.230.19 
-##                           1                           1 
-##             192.171.153.213               194.151.67.33 
-##                           1                           1 
-##               195.217.160.2              195.55.247.252 
-##                           1                           1 
-##             2010.census.gov              207.251.86.229 
-##                           1                           1
-```
-
+                  \t 0ccfs001.sussex.nhs.uk\\csu 
+                   1                           1 
+    10.96.9.105:8080               176.32.230.19 
+                   1                           1 
+     192.171.153.213               194.151.67.33 
+                   1                           1 
+       195.217.160.2              195.55.247.252 
+                   1                           1 
+     2010.census.gov              207.251.86.229 
+                   1                           1
 
 Having come up with this variable, I now could look at error types by hostname.
 
 ### Base error rate
-![](figure/p_errors_total.png) 
+![](figure/p_errors_total.png){:.wide}
 
+![](figure/p_hostname_total.png){:.wide}
 
-![](figure/p_hostname_total.png) 
+![](figure/p_hostname_error.png){:.wide}
 
-
-![](figure/p_hostname_error.png) 
-
-
-![](figure/p_hostname_facet.png) 
+![](figure/p_hostname_facet.png){:.wide}
 
 
 ### Invalid URLs
 The "http:" datasets weren't valid URLs.
 
-
-```
-##             error_type
-## 88     ConnectionError
-## 132    ConnectionError
-## 133    ConnectionError
-## 343    ConnectionError
-## 695 LocationParseError
-##                                                                                                        url
-## 88                                                  http:// Localisation des accès des offices de tourisme
-## 132                                                                                 http://nullFPM.shp.zip
-## 133                                                                                     http:// 2012_PNOA.
-## 343                                                         http://fotovoltaico.provincia.tn.it\\solar.xml
-## 695 http://2011 NFL draft: Andrew Luck is cementing his status as the No. 1 overall prospect on the board.
-```
-
+|Error type         | URL |
+|-------------------|-----|
+|    ConnectionError|http:// Localisation des accès des offices de tourisme|
+|    ConnectionError|http://nullFPM.shp.zip|
+|    ConnectionError|http:// 2012_PNOA.|
+|    ConnectionError|http://fotovoltaico.provincia.tn.it\\solar.xml|
+| LocationParseError|http://2011 NFL draft: Andrew Luck is cementing his status as the No. 1 overall prospect on the board.|
 
 ### Connection errors
 Connection errors seem to correspond to some datasets with strange URLs and others for
 which the site just can't be contacted.
 
-![plot of chunk connectionerror](figure/connectionerror.png) 
-
+![plot of chunk connectionerror](figure/connectionerror.png){:.wide}
 
 ### Invalid schemas
 Invalid schemas are for datasets sent over protocals other than HTTP, like FTP.
 
-![plot of chunk invalidschema](figure/invalidschema.png) 
-
+![plot of chunk invalidschema](figure/invalidschema.png){:.wide}
 
 Most of these schemas indicate that the files are stored on local systems
 rather than being accessible from the internet. But a large minority of these
@@ -491,18 +442,13 @@ check them properly.
 Missing schemas tend to be for datasets where the hostname was not specified.
 Examples:
 
-
-```
-## [1] "/storage/f/2012-08-13T002240/COSCParks.kmz"                             
-## [2] "/storage/f/2012-08-22T025312/prod_test.csv"                             
-## [3] "/storage/f/2012-08-10T100153/sc_addies.csv"                             
-## [4] "/en/storage/f/2013-02-11T170442/Copy-of-GB_Certified_130211_for-map.csv"
-## [5] "/storage/f/2012-08-10T071459/annual-new-h2o-meters-2000-2010.csv"
-```
-
+    [1] "/storage/f/2012-08-13T002240/COSCParks.kmz"
+    [2] "/storage/f/2012-08-22T025312/prod_test.csv"
+    [3] "/storage/f/2012-08-10T100153/sc_addies.csv"
+    [4] "/en/storage/f/2013-02-11T170442/Copy-of-GB_Certified_130211_for-map.csv"
+    [5] "/storage/f/2012-08-10T071459/annual-new-h2o-meters-2000-2010.csv"
 
 ![plot of chunk missingschema](figure/missingschema.png) 
-
 
 This is a valid relative URL. I could have gotten the hostname from the site
 from which I got the link, but I did not do this.
@@ -510,23 +456,13 @@ from which I got the link, but I did not do this.
 ### SSL Errors
 A bunch of sites did not have SSL certificates that I recognized.
 
-![plot of chunk p_ssl_error](figure/p_ssl_error.png) 
-
+![plot of chunk p_ssl_error](figure/p_ssl_error.png){:.wide}
 
 I could ignore the certificates and download the dataset, but the SSL warning
 is slightly unnerving.
 
 SSL errors explain only a small part of the links I marked as dead. Of the
-datasets that I'd marked as dead before, here are the numbers of datasets
-with and without SSL errors.
-
-
-```
-## 
-## FALSE  TRUE 
-##  7630   457
-```
-
+datasets that I'd marked as dead before, 457 had SSL errors and 7630 did not.
 
 They are interesting, but they don't explain my strange results.
 
@@ -535,29 +471,10 @@ Once we get rid of the strange URLs, most of these links have no errors or have
 timeouts. (Remember, these are the links that I marked as dead in my previous
 analysis, and I tried downloading again for the present analysis.)
 
-![](figure/p_hostname_facet.png) 
+![](figure/p_hostname_facet.png){:.wide}
 
 The "www-genesis.destatis.de" datasets seem mostly okay, though there are some timeouts.
 
-![plot of chunk plot_destatis](figure/plot_destatis.png) 
+![plot of chunk plot_destatis](figure/plot_destatis.png){:.wide}
 
-
-
-```
-##     error_type
-## 730   No error
-## 732   No error
-## 735   No error
-## 742   No error
-## 743   No error
-##                                                                                                          url
-## 730                      https://www-genesis.destatis.de/genesis/online/link/tabelleDownload/61351-0011.html
-## 732                      https://www-genesis.destatis.de/genesis/online/link/tabelleDownload/52911-0003.html
-## 735 https://www-genesis.destatis.de/genesis/online?sequenz=tabelleAufbau&selectionname=23611-0004&sprache=de
-## 742  https://www-genesis.destatis.de/genesis/online?sequenz=tabelleKarte&selectionname=22541-0001&sprache=de
-## 743                      https://www-genesis.destatis.de/genesis/online/link/tabelleDownload/46241-0009.html
-```
-
-
-![plot of chunk p_elapsed](figure/p_elapsed.png) 
-
+![plot of chunk p_elapsed](figure/p_elapsed.png){:.wide}
