@@ -41,7 +41,7 @@ CKAN does just fine on HEAD requests.
 
     get = requests.get(url)
     head = requests.head(url)
-    
+
     print(get.status_code)
     # 200
     print(head.status_code)
@@ -74,7 +74,7 @@ yields three URLs with that characteristic.
 
 They have issues with SSL certificates,
 
-    requests.head('https://data.openva.com.s3.amazonaws.com/2013-06-30T21:27:16.600Z/2013.json')   
+    requests.head('https://data.openva.com.s3.amazonaws.com/2013-06-30T21:27:16.600Z/2013.json')
     # SSLError: hostname 'data.openva.com.s3.amazonaws.com' doesn't match either of '*.s3.amazonaws.com', 's3.amazonaws.com'
 
 and they work just fine with unencrypted HTTP.
@@ -145,7 +145,7 @@ Aside from the invalid URLs, most of the bad links gave a timeout.
 As we saw above, different websites (hostnames) tend to give different errors.
 The following plot should make it more clear.
 
-![](figure/p_hostname_facet.png) 
+![](figure/p_hostname_facet.png){:.wide}
 
 
 Recall that people thought that CKAN doesn't respond to HEAD requests. It might
@@ -269,11 +269,11 @@ links from all of the catalogs.
 Let's look at this for just the specific catalogs that those Tweets were about.
 Here's OpenVA.
 
-![plot of chunk status_codes_va](figure/status_codes_va.png) 
+![plot of chunk status_codes_va](figure/status_codes_va.png){:.wide}
 
 And here's Trentino.
 
-![plot of chunk status_codes_trentino](figure/status_codes_trentino.png) 
+![plot of chunk status_codes_trentino](figure/status_codes_trentino.png){:.wide}
 
 Aside from 200, all of those status codes are errors, so this method of checking
 seems fine. On the other hand, it seems like there were a lot of non-responses....
@@ -387,15 +387,15 @@ is "thomaslevine.com".) So I wrote a sloppy function to detect these hostnames.
 Here are the top few hostnames and the number of datasets with each hostname.
 
 
-                  \t 0ccfs001.sussex.nhs.uk\\csu 
-                   1                           1 
-    10.96.9.105:8080               176.32.230.19 
-                   1                           1 
-     192.171.153.213               194.151.67.33 
-                   1                           1 
-       195.217.160.2              195.55.247.252 
-                   1                           1 
-     2010.census.gov              207.251.86.229 
+                  \t 0ccfs001.sussex.nhs.uk\\csu
+                   1                           1
+    10.96.9.105:8080               176.32.230.19
+                   1                           1
+     192.171.153.213               194.151.67.33
+                   1                           1
+       195.217.160.2              195.55.247.252
+                   1                           1
+     2010.census.gov              207.251.86.229
                    1                           1
 
 Having come up with this variable, I now could look at error types by hostname.
@@ -447,7 +447,7 @@ Examples:
     [4] "/en/storage/f/2013-02-11T170442/Copy-of-GB_Certified_130211_for-map.csv"
     [5] "/storage/f/2012-08-10T071459/annual-new-h2o-meters-2000-2010.csv"
 
-![plot of chunk missingschema](figure/missingschema.png) 
+![plot of chunk missingschema](figure/missingschema.png){:.wide}
 
 This is a valid relative URL. I could have gotten the hostname from the site
 from which I got the link, but I did not do this.
