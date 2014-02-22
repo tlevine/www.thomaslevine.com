@@ -62,14 +62,6 @@ That said, it's possible that people uploaded the data to the CKAN FileStore and
 then told CKAN that it was an external link; it turns out that this was the case
 for OpenVA
 
-<!--
-sqlite> select is_link,count(url like 'data.openva.com.s3.amazonaws.com%') 'aws', count(*) 'total' from links where catalog = 'data.openva.com' group by is_link;
-is_link     aws         total     
-----------  ----------  ----------
-0           9           9         
-1           99          99        
--->
-
 Running this query
 
     SELECT DISTINCT url FROM links WHERE catalog = 'data.openva.com' AND NOT is_link;
@@ -92,7 +84,7 @@ and they work just fine with unencrypted HTTP.
 
 Moreover, there aren't very many redirect status codes across all the links.
 
-![plot of chunk p_no_redirects](figure/p_no_redirects.png) 
+![](figure/p_no_redirects.png){:.wide}
 
 
 Redirects are normally of status code 301 or 303, or at least in the 300-399
@@ -123,42 +115,37 @@ Here are the main factors I see as leading to the strange results.
 I looked at the different sorts of errors that I got when I requested links
 to different hostnames.
 
-![plot of chunk p_hostname_error_2](figure/p_hostname_error_2.png) 
+![](figure/p_hostname_error.png){:.wide}
 
 
 That the left-most bar, for the hostname `http:`, is quite large and has
 a lot of invalid URLs. Things that my hostname-parser detected as `http:` are
 usually invalid URLs.
 
-
-```
-## [1] "http://"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-## [2] "http://www..ic.nhs.uk/catalogue/PUB09271/per-soc-ser-adu-soc-car-sur-eng-2011-12-fin-tables-charts.xls"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-## [3] "http://Gemeente-Den-Haag-open-data-Bodemenergie-restwarmtelocaties-bestaande-warmte-koude-opslag.zip"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-## [4] "http://financial-transactions-data-west-midlands-strategic-health-authority-October-2012"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-## [5] "http://Con la legge 18 giugno 2009, n. 69 è stato previsto, all’art. 21, che le pubbliche amministrazioni pubblichino sui rispettivi siti internet le retribuzioni annuali, i curricula vitae, gli indirizzi di posta elettronica e i numeri telefonici ad uso professionale dei dirigenti, nonché le statistiche sui tassi di assenza e di maggiore presenza del personale distinti per uffici di livello dirigenziale.  La Presidenza è quindi impegnata nella necessaria raccolta dei dati trattati dai diversi Uffici del Segretariato generale e dei Ministri senza portafoglio, anche al fine di assicurarne l’omogeneità indispensabile per poter presentare elaborazioni attendibili e significative di una realtà complessa ed articolata come quella della Presidenza del Consiglio. "
-```
-
-
-Many of the URLs were intranet file paths (like `S:Foo\Bar\Baz.xls`).
-Not all datasets are public yet, so this is better than nothing.
-That said, I wonder whether people realize that these intranet paths are not
-accessible on the normal internet.
+    [1] "http://"
+    [2] "http://www..ic.nhs.uk/catalogue/PUB09271/per-soc-ser-adu-soc-car-sur-eng-2011-12-fin-tables-charts.xls"
+    [3] "http://Gemeente-Den-Haag-open-data-Bodemenergie-restwarmtelocaties-bestaande-warmte-koude-opslag.zip"
+    [4] "http://financial-transactions-data-west-midlands-strategic-health-authority-October-2012"
+    [5] "http://Con la legge 18 giugno 2009, n. 69 è stato previsto, all’art. 21, che le pubbliche amministrazioni pubblichino sui rispettivi siti internet le retribuzioni annuali, i curricula vitae, gli indirizzi di posta elettronica e i numeri telefonici ad uso professionale dei dirigenti, nonché le statistiche sui tassi di assenza e di maggiore presenza del personale distinti per uffici di livello dirigenziale.  La Presidenza è quindi impegnata nella necessaria raccolta dei dati trattati dai diversi Uffici del Segretariato generale e dei Ministri senza portafoglio, anche al fine di assicurarne l’omogeneità indispensabile per poter presentare elaborazioni attendibili e significative di una realtà complessa ed articolata come quella della Presidenza del Consiglio. "
 
 Many of the links were specified as relative URLs, and I didn't try to parse them.
 I could have known to look for this, but having absolute URLs would still have
 been easier.
 
+Also, some of the URLs were intranet file paths (like `S:Foo\Bar\Baz.xls`).
+Not all datasets are public yet, so this is better than nothing.
+That said, I wonder whether people realize that these intranet paths are not
+accessible on the normal internet.
+
 ### Low Timeout
 Aside from the invalid URLs, most of the bad links gave a timeout.
 
-![plot of chunk p_errors_total_2](figure/p_errors_total_2.png) 
-
+![](figure/p_errors_total.png){:.wide}
 
 As we saw above, different websites (hostnames) tend to give different errors.
 The following plot should make it more clear.
 
-![plot of chunk p_hostname_facet_again_2](figure/p_hostname_facet_again_2.png) 
+![](figure/p_hostname_facet.png) 
 
 
 Recall that people thought that CKAN doesn't respond to HEAD requests. It might
@@ -450,16 +437,16 @@ Here are the top few hostnames and the number of datasets with each hostname.
 Having come up with this variable, I now could look at error types by hostname.
 
 ### Base error rate
-![plot of chunk p_errors_total](figure/p_errors_total.png) 
+![](figure/p_errors_total.png) 
 
 
-![plot of chunk p_hostname_total](figure/p_hostname_total.png) 
+![](figure/p_hostname_total.png) 
 
 
-![plot of chunk p_hostname_error](figure/p_hostname_error.png) 
+![](figure/p_hostname_error.png) 
 
 
-![plot of chunk p_hostname_facet](figure/p_hostname_facet.png) 
+![](figure/p_hostname_facet.png) 
 
 
 ### Invalid URLs
@@ -548,8 +535,7 @@ Once we get rid of the strange URLs, most of these links have no errors or have
 timeouts. (Remember, these are the links that I marked as dead in my previous
 analysis, and I tried downloading again for the present analysis.)
 
-![plot of chunk p_hostname_facet_again](figure/p_hostname_facet_again.png) 
-
+![](figure/p_hostname_facet.png) 
 
 The "www-genesis.destatis.de" datasets seem mostly okay, though there are some timeouts.
 
