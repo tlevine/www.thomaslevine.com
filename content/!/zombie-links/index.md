@@ -6,7 +6,7 @@ twitter_image: figure/prop_links.png
 facebook_image: figure/prop_links.png
 tags: ['open-data']
 kind: article
-created_at: 2014-01-28
+created_at: 2014-02-22
 ---
 After I wrote about
 [dead links on data catalogs](/!/dead-links-on-data-catalogs),
