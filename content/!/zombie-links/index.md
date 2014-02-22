@@ -1,7 +1,7 @@
 ---
 title: Zombie links on data catalogs
 description: Some of these links were less dead than I'd thought.
-tweet_text: Are they dead, or are they alive? http://thomaslevine.com/!/data-catalog-dead-links #opendata
+tweet_text: You won't believe how little went wrong when I messed up my database schema. http://thomaslevine.com/!/data-catalog-dead-links #opendata
 twitter_image: figure/prop_links.png
 facebook_image: figure/prop_links.png
 tags: ['open-data']
