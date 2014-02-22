@@ -1,7 +1,7 @@
 ---
 title: Zombie links on data catalogs
 description: Some of these links were less dead than I'd thought.
-tweet_text: You won't believe how little went wrong when I messed up my database schema. http://thomaslevine.com/!/data-catalog-dead-links #opendata
+tweet_text: You won't believe how little went wrong when I messed up my database schema. http://thomaslevine.com/!/zombie-links #opendata
 twitter_image: figure/prop_links.png
 facebook_image: figure/prop_links.png
 tags: ['open-data']
@@ -219,12 +219,11 @@ have internally stored data, and CKAN sites are more likely to have externally s
 data. On the other hand, externally stored datasets are more likely to be alive in
 CKAN sites than in Socrata sites. I made this plot to explain that.
 
-![Old version of the plot](/!/data-catalog-dead-links/figure/prop_links.png)
+![Old version of the plot](/!/data-catalog-dead-links/figure/prop_links.png){:.wide}
 
 The plot looks a bit different with the fixed data (below),
 
 ![plot of chunk p_prop_links](figure/p_prop_links.png){:.wide}
-
 
 but conclusion still seems reasonable.
 
