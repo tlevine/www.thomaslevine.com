@@ -32,6 +32,11 @@ How I collect these data
 
 Cool things that happen
 
+1. Better ways of searching
+2. Dealing with bad (meta)data.
+3. Quantifying data quality
+4. Causal inferences: Do open data do anything?
+
 ## Introduction
 Let's talk about some things I've been [learning about open data](/open-data).
 For the longest time, I had no idea what people meant when they were talking
@@ -252,6 +257,11 @@ Combining the metadata and the new dataset statistics, I create
 a spreadsheet of datasets, in which each record corresponds to a dataset.
 
 [![A spreadsheet of spreadsheets](/!/dataset-as-datapoint/spreadsheet-spreadsheet.png){:.wide}](/!/dataset-as-datapoint)
+
+## Cool things
+
+
+
 
 
 ## What I found
