@@ -272,24 +272,42 @@ Many people know about datasets that are relevant to their work,
 municipality, &c., but nobody seems to know about the availability of
 data on broader topics, and nobody seems to have a good way of
 finding out what is available. And nobody has a great idea of who
-is using which data.
-
-I use my spreadsheet rather than Socrata's search tool to look up data.
-And I'm not the only person who does this! Noel Hidalgo keeps his own
-spreadsheet of New York City data.
-
-I have [identified](/!/openprism)
-two broad categories of issues related to this.
+is using which data. Here are two aspects of the difficulty.
 
 1. Naive search method
 2. Siloed open data portals
 
-Let's talk about the second one.
+(Read more [here](/!/openprism).)
+
+#### Search method
+We search for prose by typing prose into a search bar; why don't
+we search for spreadsheets by typing spreadsheets into a search bar?
+Aside frorm finding datasets that contain particular keywords, here
+are some other ways we could search.
+
+* Datasets that were produced by the same program as this dataset
+* Datasets that I can join to this dataset
+* Datasets that pertain to this particular geographic region
+* Datasets in long format (rather than wide format)
+
+Here are some things that might get you thinking about the possibilities.
+
+* [http://appgen.me/audit/report](Datasets with the same schema)
+* [`special_snowflake`](https://pypi.python.org/pypi/special_snowflake)
+* Group by an arbitrary key, aggregate, join. The most common column
+    in New York City's data catalog was zip code. The zip code dataset!
+
+#### Siloed data catalogs.
+Different people put out their datasets on their own websites.
+These sites work as a way of getting the data on the internet, but
+they aren't really designed for accessing data around a specific analytical
+inquiry. For example, if I want to know where in Austin to build a house,
+I don't necessarily just data from the City of Austin; I might want data from
+other cities, from the county, or from the state.
 
 ![Diagram about siloed open data portals and some layer to un-silo them](../data-about-open-data-talk-december-2-2013/unsilo.jpg){:.wide}
 
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
-
 
 ### Cause
 
