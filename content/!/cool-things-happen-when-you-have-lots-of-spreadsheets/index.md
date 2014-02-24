@@ -260,83 +260,36 @@ a spreadsheet of datasets, in which each record corresponds to a dataset.
 
 ## Cool things
 
+They're really all the same thing, actually.
 
-
-
-
-## What I found
-First, nobody has any idea of what is going on in open data.
-This was my main conclusion after I tweeted about [this article](/!/socrata-summary/);
-I thought it would not be that interesting, but people strangely liked it.
+### Searching
 Many people know about datasets that are relevant to their work,
 municipality, &c., but nobody seems to know about the availability of
 data on broader topics, and nobody seems to have a good way of
 finding out what is available. And nobody has a great idea of who
 is using which data.
 
-Second, resolving [duplicate datasets](/!/socrata-genealogies/#types-of-duplicate-datasets) is annoying. Three types of duplication
+I realized that I using my spreadsheet rather than Socrata's search tool to look
+up data. This was funny, and it pointed out to me an interesting phenomenon about
+the sharing of government data. As I said earlier, nobody has any idea of what is
+going on with open data. At a most basic level, even though we have these catalogs
+of datasets, people can't really figure out what is in the catalog.
 
-1. SODA queries: Filtered views, charts, maps
-2. Federation
-3. Uploaded twice
+I have [identified](/!/openprism)
+two broad categories of issues related to this.
 
-### Data about people who use data
-Let's look a bit at how people interact with these data. One of Socrata's
-features is built-in charting tools that are supposed to
-"[consumeriz\[e\] the data experience](http://www.socrata.com/open-innovation/)"
-Basically, you can go to `data.cityofnewyork.us` or any Socrata site, find
-an existing dataset, and make a new chart, map, query, &c. from it.
-It turns out that Socrata exposes a lot of knowledge about how this feature
-gets used.
+1. Naive search method
+2. Siloed open data portals
 
-#### Getting the data
-Notice the "owner" and "tableAuthor" fields in the previous download.
-These refer to user accounts in Socrata.
+Let's talk about the second one.
 
-Internally, each new chart is represented as a "view" on the underlying
-data "table".
+![Diagram about siloed open data portals and some layer to un-silo them](../data-about-open-data-talk-december-2-2013/unsilo.jpg){:.wide}
 
-[![A date table family in Socrata](/!/socrata-genealogies/family.jpg){:.wide}](/!/socrata-genealogies#term-table)
+I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
-Anyway, if I use just these columns,
-I now have a dataset of users. I didn't use SQL, but if I had, the
-query would have been sort of like this.
 
-    SELECT * FROM (
-      SELECT 
-        "owner.id",
-        "owner.displayName",
-        "owner.emailUnsubscribed",
-        "owner.privacyControl",
-        "owner.profileLastModified",
-        "owner.roleName",
-        "owner.screenName",
-        "owner.rights"
-      FROM "datasets"
-      UNION ALL
-      SELECT 
-        "tableAuthor.id",
-        "tableAuthor.displayName",
-        "tableAuthor.emailUnsubscribed",
-        "tableAuthor.privacyControl",
-        "tableAuthor.profileLastModified",
-        "tableAuthor.roleName",
-        "tableAuthor.screenName",
-        "tableAuthor.rights"
-      FROM "datasets"
-    )
-    GROUP BY "id"
+### Cause
 
-That is, I combine stack the owner columns and tableAuthor columns into one
-table and then remove duplicates based on the `id` field. If I didn't remove
-duplicates, I would have multiple rows per user.
-(The query would actually be a bit more complicated than this because it would
-have to count how many times a user owns a view and has authored a table.)
-
-Don't worry if that didn't make sense to you; the point is that we can use
-datasets in different ways than they seem to be intended.
-
-#### What I found
 My main conclusion is that people don’t use these charting tools all that much.
 
 ##### Big users
@@ -367,47 +320,7 @@ tools all that much. More specifically,
     things. I haven't really talked to any of them, but the little I do know of
     their stories is interesting.
 
-### Finding data is hard
-I realized that I using my spreadsheet rather than Socrata's search tool to look
-up data. This was funny, and it pointed out to me an interesting phenomenon about
-the sharing of government data. As I said earlier, nobody has any idea of what is
-going on with open data. At a most basic level, even though we have these catalogs
-of datasets, people can't really figure out what is in the catalog.
-
-I have [identified](/!/openprism)
-two broad categories of issues related to this.
-
-1. Naive search method
-2. Siloed open data portals
-
-Let's talk about the second one.
-
-![Diagram about siloed open data portals and some layer to un-silo them](../data-about-open-data-talk-december-2-2013/unsilo.jpg){:.wide}
-
-I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
-
-### File formats
-
-We're supposed to use certain file formats.
-
-* "Mandate open formats for government data" ([Sunlight Foundation](http://sunlightfoundation.com/opendataguidelines/#open-formats))
-* "structured data" ([5 stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/))
-* "Data Must Be Machine processable" ([Open Government Working Group](http://www.opengovdata.org/home/8principles))
-
-#### Getting the data
-This time, I used the `data.json` endpoint, which is supposed to return
-a [DCAT](http://project-open-data.github.io/schema/) listing of all of
-the datasets. It turns out that this endpoint
-[isn't implemented properly](/!/socrata-formats/#cutoff-at-1000),
-but we'll make do
-
-#### What I found
-What are the file formats?
-
-![Bar plot of file formats by portal](/!/socrata-formats/figure/all-formats.png){:.wide}
-
-It turns out that file formats tell you quite a bit about the type of data too.
-Take a look at [Missouri](/!/missouri-data-licensing/)
+### Quantifying data quality
 
 ### Licensing
 Other data catalog software [works differently](https://github.com/tlevine/open-data-download)
@@ -466,60 +379,10 @@ It's only 13 datasets.
 
 ![Those 13 datasets, by portal](/!/data-updatedness/figure/updates_2013_url.png){:.wide}
 
-## Future things
-The general thing I'm doing here is just studying data about open data.
-People haven't done much of this, so it's turning up some interesting thing.
 
-I've started seeing four perspectives I could take in future study,
-and the general idea for all of these is to automate existing manual processes.
 
-1. Check how well open data guidelines are being followed.
-2. Help people find data of interest to them; come up with something better than our current search bars.
-3. Fill in blank metadata fields.
-4. Figure out what makes for good data sharing; what are the impacts of organizational structures,
-    hackathons, data catalog software, and open data policies on things that we care about?
 
-They're really all the same thing, actually, but
-I'm focusing on the first of these for the immediate future.
 
-## Exercises
-Attendees of this [NYC Open Data meetup](http://www.meetup.com/NYC-Open-Data/events/147380312/)
-typically want to learn exactly how to do things, rather than just getting a general
-idea of some new idea. (At least, this is the impression I get.) It's sort of "open data"
-from a different angle; if everyone knows how to do things with data, then even messy data
-would be quite open in a sense. But I digress.
-
-Let's learn how to plan a crazy project like this. I've prepared two exercises.
-
-### Outlining a program
-Choose an open data catalog from this list.
-
-* [Washington, District of Columbia](http://data.dc.gov)
-* [Greater Portland, Oregon](http://www.civicapps.org/datasets)
-* [Utah](http://www.utah.gov/open)
-* [New Hampshire](http://nhopengov.org)
-* [Louisville, Kentucky](http://portal.louisvilleky.gov/service/data)
-* [Philidelphia, Pennsylvania](http://www.opendataphilly.org) (It runs [this software](https://github.com/azavea/Open-Data-Catalog/).)
-
-First, diagram how a person could manually download all of the datasets.
-You want to get the most raw form available, not the sort of aggregates
-that you might see in a plot.
-
-After you've done that, change the labels in the diagram so that it describes
-a computer program that downloads the datasets.
-
-If you're lucky, you'll find API documentation, but you don't need it;
-figure out what the API is, and write the documentation yourself.
-
-For the one-minute presentation, walk through your outline of your program.
-You can draw a diagram, write out steps in words, click through the website,
-or just explain it without any visuals.
-
-### Using simple variables to represent grand concepts
-Select a document from this list, then select a single guideline within
-the document. Brainstorm ways that you could test how well the guideline
-is being followed. Try to come up with approaches that don't involve
-much manual work.
 
 * Open Knowledge Foundation [Open Data Census](http://census.okfn.org/)
 * Tim Berners-Lee [Five Stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/) of open linked data.
@@ -528,9 +391,3 @@ much manual work.
 * Sunlight Foundation [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/)
 * Open Data Institute [Certificates](https://certificates.theodi.org/)
 
-For the one-minute presentation, show us the open data guidelines that you
-chose and explain the approaches you came up with.
-
-You'll probably have time to look at more than one guideline, but you probably
-won't have time to talk about more than two. If this is the case, choose
-one or two that you though were most interesting.
