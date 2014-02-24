@@ -87,7 +87,7 @@ but that would be a lot of work. Other ideas
 
 [Tweets](https://hackpad.com/Measuring-Socioeconomic-Indicators-in-Arabic-Tweets-IZ5ByP2LvIt)
 
-![Bar plot of Tweet times](../data-about-open-data-talk-december-2-2013tweet-times.jpg){:.wide}
+![Bar plot of Tweet times](../data-about-open-data-talk-december-2-2013/tweet-times.jpg){:.wide}
 
 If the person is me, we can use shell history activity.
 
@@ -136,11 +136,6 @@ Note that these times are in UTC because that's how I roll.
 In this approach of deciding what to study, the idea is that we can
 answer our curiosities by building on some existing data collection.
 Also, I have some brief thoughts on brainstorming [here](/!/brainstorming).
-
-If you want to really understand how I did all of this, pay attention to the following things throughout the talk.
-
-1. How I outlined my programs
-2. How I created simple variables to represent grand concepts
 
 ### Data about data
 
@@ -319,7 +314,7 @@ two broad categories of issues related to this.
 
 Let's talk about the second one.
 
-![Diagram about siloed open data portals and some layer to un-silo them](../data-about-open-data-talk-december-2-2013unsilo.jpg){:.wide}
+![Diagram about siloed open data portals and some layer to un-silo them](../data-about-open-data-talk-december-2-2013/unsilo.jpg){:.wide}
 
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
