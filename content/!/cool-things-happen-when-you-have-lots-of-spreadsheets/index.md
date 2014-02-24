@@ -235,62 +235,23 @@ adding `/download?format=csv` to the above URL.
 > http://parisdata.opendatasoft.com/explore/dataset/arbresremarquablesparis2011/download?format=csv
 
 ### Putting them in a spreadsheet
-Once I get all these data together
+A statistic is a single number that describes a bunch of numbers.
 
+    4
+    2
+    8    --mean--> 5.8
+    12
+    3
 
-Now I have a spreadsheet of datasets.
+I create statistics about each dataset.
+
+![](/!/dataset-as-datapoint/dataset-features.jpg){:.wide}
+
+And I put these in a spreadsheet of datasets.
 
 [![A spreadsheet of spreadsheets](/!/dataset-as-datapoint/spreadsheet-spreadsheet.png){:.wide}](/!/dataset-as-datapoint)
 
-Here are the some of fields I get from that.
-
-* portal
-* id
-* name
-* attribution
-* averageRating
-* category
-* createdAt
-* description
-* displayType
-* downloadCount
-* numberOfComments
-* oid
-* publicationAppendEnabled
-* publicationDate
-* publicationStage
-* publicationGroup
-* rowsUpdatedBy
-* rowsUpdatedAt
-* signed
-* tableId
-* totalTimesRated
-* viewCount
-* viewLastModified
-* viewType
-* nrow
-* column names and types
-* owner.id
-* owner.displayName
-* owner.emailUnsubscribed
-* owner.privacyControl
-* owner.profileLastModified
-* owner.roleName
-* owner.screenName
-* owner.rights
-* tableAuthor.id
-* tableAuthor.displayName
-* tableAuthor.emailUnsubscribed
-* tableAuthor.privacyControl
-* tableAuthor.profileLastModified
-* tableAuthor.roleName
-* tableAuthor.screenName
-* tableAuthor.rights
-* displayFormat
-* flags
-* metadata
-* rights
-* tags
+### Looking inside datasets
 
 #### What I found
 First, nobody has any idea of what is going on in open data.
