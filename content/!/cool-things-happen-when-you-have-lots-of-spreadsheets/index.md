@@ -260,7 +260,12 @@ a spreadsheet of datasets, in which each record corresponds to a dataset.
 
 ## Cool things
 
-They're really all the same thing, actually.
+1. Better ways of searching
+2. Dealing with bad (meta)data.
+3. Quantifying data quality
+4. Causal inferences: Do open data do anything?
+
+(They're really all the same thing, actually.)
 
 ### Searching
 Many people know about datasets that are relevant to their work,
@@ -269,11 +274,9 @@ data on broader topics, and nobody seems to have a good way of
 finding out what is available. And nobody has a great idea of who
 is using which data.
 
-I realized that I using my spreadsheet rather than Socrata's search tool to look
-up data. This was funny, and it pointed out to me an interesting phenomenon about
-the sharing of government data. As I said earlier, nobody has any idea of what is
-going on with open data. At a most basic level, even though we have these catalogs
-of datasets, people can't really figure out what is in the catalog.
+I use my spreadsheet rather than Socrata's search tool to look up data.
+And I'm not the only person who does this! Noel Hidalgo keeps his own
+spreadsheet of New York City data.
 
 I have [identified](/!/openprism)
 two broad categories of issues related to this.
