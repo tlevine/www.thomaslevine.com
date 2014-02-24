@@ -27,8 +27,8 @@ Two approaches
 How I collect these data
 
 1. Downloading the data
-2. Looking into datasets
-3. Representing all the spreadsheets as one spreadsheet
+2. Representing all the spreadsheets as one spreadsheet
+3. Looking inside the various datasets
 
 Cool things that happen
 
@@ -139,6 +139,13 @@ answer our curiosities by building on some existing data collection.
 of interest.
 
 ## Collecting the data about data
+First I download a bunch of spreadsheets and spreadsheet metadata.
+Then I assemble all this stuff into a spreadsheet about spreadsheets.
+In this super-spreadsheet, each record corresponds to a full
+sub-spreadsheet; you could say that I am aggregating each spreadsheet
+to produce a few statistics that get put into this spreadsheet.
+
+### Downloading
 Data catalogs make it kind of easy to get a bunch of spreadsheets all together.
 The basic approach is this.
 
@@ -157,7 +164,7 @@ This allows me to get all of the data from most of the open data catalogs I know
 
 Let's walk through how that works for the different softwares.
 
-### Socrata
+#### Socrata
 In Socrata, I hit the `/api/views` endpoint to get all of the datasets.
 (They're spread across different pages, but they're all returned.)
 
@@ -179,7 +186,7 @@ you can download those by appending `/rows.csv?accessType=DOWNLOAD`.
 It took me a while to figure all of this out, so a lot of what I was doing over
 the summer was writing documentation.
 
-### CKAN
+#### CKAN
 Someone wrote a good CKAN client, so I use that to download the CKAN stuff.
 This is how I get a list of all the dataset identifiers.
 
@@ -200,7 +207,7 @@ an example of one such metadata file.
 Most datasets on CKAN catalogs link to other websites for the main "data"
 files, and the links are stored in the matadata files.
 
-### Junar
+#### Junar
 In Junar, it's hard to get a list of all of the datasets. You can do a
 search like so.
 
@@ -211,7 +218,7 @@ Well at least that used to work. It seems that that API key doesn't work anymore
 I'm pretty sure that the rest of the process works just fine once you have
 a dataset identifier, but I don't remember how that all works at the moment.
 
-### OpenDataSoft
+#### OpenDataSoft
 In OpenDataSoft, you can run an empty search to get the metadata about all
 of the datasets in a single file.
 
@@ -227,8 +234,9 @@ adding `/download?format=csv` to the above URL.
 
 > http://parisdata.opendatasoft.com/explore/dataset/arbresremarquablesparis2011/download?format=csv
 
-#### Getting the data
-[![Diagram about downloading Socrata data](/!/socrata-summary/architecture.jpg){:.wide}](/!/socrata-summary)
+### Putting them in a spreadsheet
+Once I get all these data together
+
 
 Now I have a spreadsheet of datasets.
 
