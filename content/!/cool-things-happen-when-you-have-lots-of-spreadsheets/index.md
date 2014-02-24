@@ -135,9 +135,70 @@ Note that these times are in UTC because that's how I roll.
 
 In this approach of deciding what to study, the idea is that we can
 answer our curiosities by building on some existing data collection.
-Also, I have some brief thoughts on brainstorming [here](/!/brainstorming).
+[These](/!/brainstorming) brief thoughts on brainstorming might be
+of interest.
 
-### Data about data
+## Collecting the data about data
+Data catalogs make it kind of easy to get a bunch of spreadsheets all together.
+The basic approach is this.
+
+1. Run an empty search on a data catalog to get all of the dataset identifiers.
+2. Download the metadata document about each dataset.
+3. Download data files about each dataset.
+
+I've implemented this for the following data catalog softwares.
+
+* Socrata
+* CKAN
+* Junar (kind of)
+* OpenDataSoft
+
+This allows me to get all of the data from most of the open data catalogs I know about.
+
+Let's walk through how that works for the different softwares.
+
+## Socrata
+In Socrata, I hit the `/api/views` endpoint to get all of the datasets.
+(They're spread across different pages, but they're all returned.)
+
+> http://data.austintexas.gov//api/views?page=3
+
+All of the metadata are returned in the search results, so this also accomplishes
+the second step of downloading the metadata documents.
+
+That said, you can also download the metadata documents separately;
+[here](https://data.austintexas.gov/api/views/5tye-7ray.json)'s one of them.
+
+It took me a while to figure all of this out, so a lot of what I was doing was
+writing documentation.
+
+## CKAN
+Someone wrote a good CKAN client, so I use that to download the CKAN stuff.
+This is how I get a list of all the dataset identifiers.
+
+    #!/usr/bin/env python
+    import ckanapi
+    portal = ckanapi.RemoteCKAN('http://data.gov.uk')
+    datasets = portal.action.package_list()
+
+That only provides the identifiers, so I continue with the following code
+to get the metadata documents.
+
+    for dataset in datasets:
+        dataset_information = portal.action.package_show(id = dataset)
+
+[Here](http://data.gov.uk/api/2/rest/package/index-of-multiple-deprivation)'s
+an example of one such metadata file.
+
+Most datasets on CKAN catalogs link to other websites for the main "data"
+files, and the links are stored in the matadata files.
+
+## OpenDataSoft
+
+
+This URL gets me all of the metadata
+http://parisdata.opendatasoft.com/api/datasets/1.0/search?rows=1000000
+
 
 #### Getting the data
 [![Diagram about downloading Socrata data](/!/socrata-summary/architecture.jpg){:.wide}](/!/socrata-summary)
