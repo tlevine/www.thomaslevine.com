@@ -1,0 +1,1912 @@
+{
+  "id" : "5tye-7ray",
+  "name" : "Water Quality Sampling Data",
+  "attribution" : "City of Austin Watershed Protection Environmental Resource Management",
+  "averageRating" : 0,
+  "category" : "Environmental",
+  "createdAt" : 1325602534,
+  "description" : "Data collected to assess water quality conditions in the natural creeks, aquifers and lakes in the Austin area. This is raw data, provided directly from our Field Sample database (FSDB) and should be considered provisional. Data may or may not have been reviewed by project staff. Data quality (QC) flags have been provided to aid in the assessment of the data; R-flagged data should be considered suspect, but is provided as it represents taxpayer expenditure and the efforts undertaken to characterize the status of our environment. Note that some data over time will be improved and edited for accuracy and that QC flags can change based upon changes in project criteria.  Additional data may be availabe from other agencies (USGS, TCEQ, LCRA) and should be requested from them directly; some of this data may appear in those datasets.",
+  "displayType" : "table",
+  "downloadCount" : 260,
+  "indexUpdatedAt" : 1392744684,
+  "newBackend" : false,
+  "numberOfComments" : 9,
+  "oid" : 6783062,
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1386896101,
+  "publicationGroup" : 268384,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1386891071,
+  "rowsUpdatedBy" : "buxt-jupg",
+  "tableId" : 1396766,
+  "totalTimesRated" : 0,
+  "viewCount" : 3613,
+  "viewLastModified" : 1386896101,
+  "viewType" : "tabular",
+  "columns" : [ {
+    "id" : 121991687,
+    "name" : "WATERSHED",
+    "dataTypeName" : "text",
+    "description" : " The watershed where this data was collected (some data represents laboratory samples from products or other non-spatial data).",
+    "fieldName" : "watershed",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894172,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "Barton Creek",
+      "null" : 0,
+      "largest" : "Willow Creek",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Barton Creek"
+      }, {
+        "count" : 19,
+        "item" : "Bear Creek"
+      }, {
+        "count" : 18,
+        "item" : "Bee Creek"
+      }, {
+        "count" : 17,
+        "item" : "Blunn Creek"
+      }, {
+        "count" : 16,
+        "item" : "Boggy Creek"
+      }, {
+        "count" : 15,
+        "item" : "Bull Creek"
+      }, {
+        "count" : 14,
+        "item" : "Colorado River"
+      }, {
+        "count" : 13,
+        "item" : "Country Club West"
+      }, {
+        "count" : 12,
+        "item" : "Decker Creek"
+      }, {
+        "count" : 11,
+        "item" : "Eanes Creek"
+      }, {
+        "count" : 10,
+        "item" : "East Bouldin Creek"
+      }, {
+        "count" : 9,
+        "item" : "Elm Creek"
+      }, {
+        "count" : 8,
+        "item" : "Fort Branch"
+      }, {
+        "count" : 7,
+        "item" : "Gilleland Creek"
+      }, {
+        "count" : 6,
+        "item" : "Lady Bird Lake"
+      }, {
+        "count" : 5,
+        "item" : "Lake Austin"
+      }, {
+        "count" : 4,
+        "item" : "Lake Creek"
+      }, {
+        "count" : 3,
+        "item" : "Little Barton Creek"
+      }, {
+        "count" : 2,
+        "item" : "Little Walnut Creek"
+      }, {
+        "count" : 1,
+        "item" : "Marble Creek"
+      } ]
+    },
+    "format" : {
+      "aggregate" : "count",
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991688,
+    "name" : "SAMPLE_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date and time at which the sample was collected. Time is in 24 hour notation where 15:00:00 represents 3pm. Check against TIME_NULL column -- if that is set to true, then time is set to default.",
+    "fieldName" : "sample_date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 1894175,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "1982-05-01T00:00:00",
+      "null" : 0,
+      "largest" : "2013-12-03T12:50:00",
+      "top" : [ {
+        "count" : 20,
+        "item" : "2001-02-14T00:00:00"
+      }, {
+        "count" : 19,
+        "item" : "2000-07-07T12:45:00"
+      }, {
+        "count" : 18,
+        "item" : "1999-12-06T00:00:00"
+      }, {
+        "count" : 17,
+        "item" : "1999-03-16T00:00:00"
+      }, {
+        "count" : 16,
+        "item" : "1997-10-01T00:00:00"
+      }, {
+        "count" : 15,
+        "item" : "1997-07-03T14:00:00"
+      }, {
+        "count" : 14,
+        "item" : "1997-03-27T00:00:00"
+      }, {
+        "count" : 13,
+        "item" : "1996-11-22T14:10:00"
+      }, {
+        "count" : 12,
+        "item" : "1996-11-21T16:30:00"
+      }, {
+        "count" : 11,
+        "item" : "1996-07-09T11:00:00"
+      }, {
+        "count" : 10,
+        "item" : "1996-04-22T00:00:00"
+      }, {
+        "count" : 9,
+        "item" : "1996-03-26T12:10:00"
+      }, {
+        "count" : 8,
+        "item" : "1996-03-26T11:25:00"
+      }, {
+        "count" : 7,
+        "item" : "1996-02-22T14:30:00"
+      }, {
+        "count" : 6,
+        "item" : "1995-07-07T00:00:00"
+      }, {
+        "count" : 5,
+        "item" : "1995-06-30T00:00:00"
+      }, {
+        "count" : 4,
+        "item" : "1995-06-28T00:00:00"
+      }, {
+        "count" : 3,
+        "item" : "1995-06-27T00:00:00"
+      }, {
+        "count" : 2,
+        "item" : "1995-06-20T15:15:00"
+      }, {
+        "count" : 1,
+        "item" : "1995-06-01T15:05:00"
+      } ]
+    },
+    "format" : {
+      "view" : "date_time",
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991689,
+    "name" : "SITE_NAME",
+    "dataTypeName" : "text",
+    "description" : "The name we use to identify the site. Most often this name is  adequately descriptive to give you a good idea of where it is located  if you have a detailed City of Austin map. Sometimes this descriptor is non-geographic.",
+    "fieldName" : "site_name",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894179,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "304 Stay Black Asphalt Driving Patching Mix",
+      "null" : 0,
+      "largest" : "Zilker Park Spring",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Barton Spring"
+      }, {
+        "count" : 19,
+        "item" : "Old Mill (Sunken Gardens) Spring"
+      }, {
+        "count" : 18,
+        "item" : "Eliza Spring"
+      }, {
+        "count" : 17,
+        "item" : "Lady Bird Lake @ Basin (AC)"
+      }, {
+        "count" : 16,
+        "item" : "Onion Creek @ McKinney Falls ds Lower Falls"
+      }, {
+        "count" : 15,
+        "item" : "Onion Creek @ Twin Creeks Road (OC1)"
+      }, {
+        "count" : 14,
+        "item" : "Fertilizer Study Test Area @ LBJ Wildflower Center"
+      }, {
+        "count" : 13,
+        "item" : "Waller Creek Upstream of 23rd Street"
+      }, {
+        "count" : 12,
+        "item" : "Walnut Creek Upstream of Freescale"
+      }, {
+        "count" : 11,
+        "item" : "Walnut Creek Downstream of Metric Blvd"
+      }, {
+        "count" : 10,
+        "item" : "Walnut Creek @ Old Manor Road"
+      }, {
+        "count" : 9,
+        "item" : "Walnut Creek Downstream of IH35"
+      }, {
+        "count" : 8,
+        "item" : "Walnut Creek @ Loyola Lane"
+      }, {
+        "count" : 7,
+        "item" : "Walnut Creek @ SPRR Bridge"
+      }, {
+        "count" : 6,
+        "item" : "Lake Long @ Dam (LWL3)"
+      }, {
+        "count" : 5,
+        "item" : "Lake Long mid-lake of Eastern Arm (LWL4)"
+      }, {
+        "count" : 4,
+        "item" : "Lake Long mid-lake of Western Arm (LWL5)"
+      }, {
+        "count" : 3,
+        "item" : "Wells Branch Creek @ Walnut Metro Park"
+      }, {
+        "count" : 2,
+        "item" : "West Bull Creek @ Bell Mt. Road (ED)"
+      }, {
+        "count" : 1,
+        "item" : "West Bull Creek Upstream of Bull Creek (EK)"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991690,
+    "name" : "SITE_TYPE",
+    "dataTypeName" : "text",
+    "description" : "Useful for grouping sites by springs creeks sediment and bmp locations. This also implies the type of data that we primarily collect at this site.",
+    "fieldName" : "site_type",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894180,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "BMP/Structure",
+      "null" : 0,
+      "largest" : "Well",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Spring"
+      }, {
+        "count" : 19,
+        "item" : "Stream"
+      }, {
+        "count" : 18,
+        "item" : "Well"
+      }, {
+        "count" : 17,
+        "item" : "Vegetation Patch"
+      }, {
+        "count" : 16,
+        "item" : "Water Wastewater System"
+      }, {
+        "count" : 15,
+        "item" : "Sediment"
+      }, {
+        "count" : 14,
+        "item" : "Dye Trace Injection Point"
+      }, {
+        "count" : 13,
+        "item" : "Parking Lot"
+      }, {
+        "count" : 12,
+        "item" : "Storm Drain"
+      }, {
+        "count" : 11,
+        "item" : "Soil"
+      }, {
+        "count" : 10,
+        "item" : "Sampled Product"
+      }, {
+        "count" : 9,
+        "item" : "BMP - Inlet Filter"
+      }, {
+        "count" : 8,
+        "item" : "BMP - Detention Pond"
+      }, {
+        "count" : 7,
+        "item" : "BMP - Sed. Filt. Basin"
+      }, {
+        "count" : 6,
+        "item" : "Cave Drip"
+      }, {
+        "count" : 5,
+        "item" : "Cave Pool"
+      }, {
+        "count" : 4,
+        "item" : "Recharge Feature"
+      }, {
+        "count" : 3,
+        "item" : "Drinking Water Tap"
+      }, {
+        "count" : 2,
+        "item" : "BMP/Structure"
+      }, {
+        "count" : 1,
+        "item" : "Wastewater Plant Effluent"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991691,
+    "name" : "MEDIUM",
+    "dataTypeName" : "text",
+    "description" : "The type of material (groundwater, surface water, sediment)  analyzed.",
+    "fieldName" : "medium",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894181,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "Aesthetics",
+      "null" : 0,
+      "largest" : "Water Standard",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Benthic Cover"
+      }, {
+        "count" : 19,
+        "item" : "Ground Water"
+      }, {
+        "count" : 18,
+        "item" : "Surface Water"
+      }, {
+        "count" : 17,
+        "item" : "Sediment"
+      }, {
+        "count" : 16,
+        "item" : "Aesthetics"
+      }, {
+        "count" : 15,
+        "item" : "Benthic Macroinvertebrate"
+      }, {
+        "count" : 14,
+        "item" : "Channel Assessment"
+      }, {
+        "count" : 13,
+        "item" : "Diatom"
+      }, {
+        "count" : 12,
+        "item" : "Habitat"
+      }, {
+        "count" : 11,
+        "item" : "Habitat Belt Transect"
+      }, {
+        "count" : 10,
+        "item" : "Vegetation"
+      }, {
+        "count" : 9,
+        "item" : "Sewage"
+      }, {
+        "count" : 8,
+        "item" : "Artificial"
+      }, {
+        "count" : 7,
+        "item" : "Storm Water"
+      }, {
+        "count" : 6,
+        "item" : "Soil"
+      }, {
+        "count" : 5,
+        "item" : "Asphalt"
+      }, {
+        "count" : 4,
+        "item" : "Pore Water"
+      }, {
+        "count" : 3,
+        "item" : "Fish/Salamander"
+      }, {
+        "count" : 2,
+        "item" : "Cave Drips"
+      }, {
+        "count" : 1,
+        "item" : "Leaf Pack"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991692,
+    "name" : "PARAM_TYPE",
+    "dataTypeName" : "text",
+    "description" : "A classification or grouping value for different parameters.",
+    "fieldName" : "param_type",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894184,
+    "width" : 220,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "Alcohols",
+      "null" : 0,
+      "largest" : "Xanthophyte",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Benthic Macroinvertebrates"
+      }, {
+        "count" : 19,
+        "item" : "Grain Size/Substrate Characterization"
+      }, {
+        "count" : 18,
+        "item" : "Habitat Evaluation"
+      }, {
+        "count" : 17,
+        "item" : "Physicals"
+      }, {
+        "count" : 16,
+        "item" : "Salamanders"
+      }, {
+        "count" : 15,
+        "item" : "Spatial"
+      }, {
+        "count" : 14,
+        "item" : "Temporal"
+      }, {
+        "count" : 13,
+        "item" : "Conventionals"
+      }, {
+        "count" : 12,
+        "item" : "Environmental Conditions"
+      }, {
+        "count" : 11,
+        "item" : "Oxygen"
+      }, {
+        "count" : 10,
+        "item" : "Flow/Rainfall"
+      }, {
+        "count" : 9,
+        "item" : "Alkalinity/Hardness/pH"
+      }, {
+        "count" : 8,
+        "item" : "Solids/Conductivity"
+      }, {
+        "count" : 7,
+        "item" : "Bacteria/Pathogens"
+      }, {
+        "count" : 6,
+        "item" : "Clarity"
+      }, {
+        "count" : 5,
+        "item" : "Nutrients"
+      }, {
+        "count" : 4,
+        "item" : "Major Ions"
+      }, {
+        "count" : 3,
+        "item" : "Metals"
+      }, {
+        "count" : 2,
+        "item" : "Hydrocarbons"
+      }, {
+        "count" : 1,
+        "item" : "Organochlorines"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991693,
+    "name" : "PARAMETER",
+    "dataTypeName" : "text",
+    "description" : "The \"thing\" that we analyzed the sample for or measured in the field (aka, the analyte).",
+    "fieldName" : "parameter",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894185,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "# OF 1M GAPS",
+      "null" : 0,
+      "largest" : "ZYGNEMA",
+      "top" : [ {
+        "count" : 20,
+        "item" : "PH"
+      }, {
+        "count" : 19,
+        "item" : "WATER TEMPERATURE"
+      }, {
+        "count" : 18,
+        "item" : "CONDUCTIVITY"
+      }, {
+        "count" : 17,
+        "item" : "DISSOLVED OXYGEN"
+      }, {
+        "count" : 16,
+        "item" : "NATIVE SPECIES"
+      }, {
+        "count" : 15,
+        "item" : "NO VEGETATIVE COVER"
+      }, {
+        "count" : 14,
+        "item" : "LIGUS2 LIGUSTRUM"
+      }, {
+        "count" : 13,
+        "item" : "ORGANIC CARBON"
+      }, {
+        "count" : 12,
+        "item" : "COPPER"
+      }, {
+        "count" : 11,
+        "item" : "LEAD"
+      }, {
+        "count" : 10,
+        "item" : "ZINC"
+      }, {
+        "count" : 9,
+        "item" : "AMMONIA AS N"
+      }, {
+        "count" : 8,
+        "item" : "NITRATE AS N"
+      }, {
+        "count" : 7,
+        "item" : "TOTAL KJELDAHL NITROGEN AS N"
+      }, {
+        "count" : 6,
+        "item" : "METHYL CHLORIDE (CHLOROMETHANE)"
+      }, {
+        "count" : 5,
+        "item" : "METHYLENE CHLORIDE"
+      }, {
+        "count" : 4,
+        "item" : "STYRENE"
+      }, {
+        "count" : 3,
+        "item" : "TETRACHLOROETHYLENE (TETRACHLOROETHENE)"
+      }, {
+        "count" : 2,
+        "item" : "TOLUENE"
+      }, {
+        "count" : 1,
+        "item" : "TRANS-1_2-DICHLOROETHENE (TRANS-1_2-DICHLOROETHYLENE)"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991694,
+    "name" : "QUALIFIER",
+    "dataTypeName" : "text",
+    "description" : "When the qualifier code = '<' or '<J' it means that the value in the result column represents the lowest possible limit of detection for that date and lab; if there was any of the analyte in the sample, it was present at less than the result value.",
+    "fieldName" : "qualifier",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894186,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : 124187,
+      "smallest" : " -",
+      "null" : 846840,
+      "largest" : "U",
+      "top" : [ {
+        "count" : 20,
+        "item" : ">"
+      }, {
+        "count" : 19,
+        "item" : "<"
+      }, {
+        "count" : 18,
+        "item" : "<J"
+      }, {
+        "count" : 17,
+        "item" : "J"
+      }, {
+        "count" : 16,
+        "item" : "JN"
+      }, {
+        "count" : 15,
+        "item" : "A"
+      }, {
+        "count" : 14,
+        "item" : "R"
+      }, {
+        "count" : 13,
+        "item" : "BJ"
+      }, {
+        "count" : 12,
+        "item" : "N"
+      }, {
+        "count" : 11,
+        "item" : "NS"
+      }, {
+        "count" : 10,
+        "item" : "JA"
+      }, {
+        "count" : 9,
+        "item" : "<JA"
+      }, {
+        "count" : 8,
+        "item" : "C"
+      }, {
+        "count" : 7,
+        "item" : "HJ"
+      }, {
+        "count" : 6,
+        "item" : "H"
+      }, {
+        "count" : 5,
+        "item" : "HH"
+      }, {
+        "count" : 4,
+        "item" : "LE"
+      }, {
+        "count" : 3,
+        "item" : "B"
+      }, {
+        "count" : 2,
+        "item" : "CG"
+      }, {
+        "count" : 1,
+        "item" : "< J"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991695,
+    "name" : "RESULT",
+    "dataTypeName" : "number",
+    "description" : "This is the \"RESULT.\"",
+    "fieldName" : "result",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1894187,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : 970879,
+      "smallest" : "-100",
+      "sum" : "12350000000006256870027.57882167616869904436",
+      "null" : 148,
+      "average" : "12720431691288260",
+      "largest" : "2470000000000000000000",
+      "top" : [ {
+        "count" : 20,
+        "item" : "1"
+      }, {
+        "count" : 19,
+        "item" : "0"
+      }, {
+        "count" : 18,
+        "item" : "5"
+      }, {
+        "count" : 17,
+        "item" : "2"
+      }, {
+        "count" : 16,
+        "item" : "3"
+      }, {
+        "count" : 15,
+        "item" : "4"
+      }, {
+        "count" : 14,
+        "item" : "6"
+      }, {
+        "count" : 13,
+        "item" : "10"
+      }, {
+        "count" : 12,
+        "item" : "8"
+      }, {
+        "count" : 11,
+        "item" : "0.02"
+      }, {
+        "count" : 10,
+        "item" : "1313.9"
+      }, {
+        "count" : 9,
+        "item" : "0.01"
+      }, {
+        "count" : 8,
+        "item" : "0.05"
+      }, {
+        "count" : 7,
+        "item" : "18.3"
+      }, {
+        "count" : 6,
+        "item" : "756.1"
+      }, {
+        "count" : 5,
+        "item" : "0.1"
+      }, {
+        "count" : 4,
+        "item" : "0.0050000000000000001"
+      }, {
+        "count" : 3,
+        "item" : "0.5"
+      }, {
+        "count" : 2,
+        "item" : "0.04"
+      }, {
+        "count" : 1,
+        "item" : "0.06"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 121991696,
+    "name" : "UNIT",
+    "dataTypeName" : "text",
+    "description" : "Commonly used unit descriptions:\n mg/kg -- milligrams/kilogram aka Parts Per Million in sediment   \n mg/l -- milligrams/liter aka PPM in water   \n ug/kg; ug/l -- micrograms per unit volume aka Parts Per Billion in   \n                sediment and water  \n ",
+    "fieldName" : "unit",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894188,
+    "width" : 148,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "(%) Percent",
+      "null" : 0,
+      "largest" : "VIP Rating (1-4)",
+      "top" : [ {
+        "count" : 20,
+        "item" : "1=Present; 0=Absent"
+      }, {
+        "count" : 19,
+        "item" : "Relative Abundance (1): <20 (2): 21-50 (3): >50"
+      }, {
+        "count" : 18,
+        "item" : "(%) Percent"
+      }, {
+        "count" : 17,
+        "item" : "Inches"
+      }, {
+        "count" : 16,
+        "item" : "Count"
+      }, {
+        "count" : 15,
+        "item" : "Minutes"
+      }, {
+        "count" : 14,
+        "item" : "Deg. Celsius"
+      }, {
+        "count" : 13,
+        "item" : "MG/L"
+      }, {
+        "count" : 12,
+        "item" : "Standard units"
+      }, {
+        "count" : 11,
+        "item" : "Cubic Feet Per Second"
+      }, {
+        "count" : 10,
+        "item" : "None"
+      }, {
+        "count" : 9,
+        "item" : "uS/cm"
+      }, {
+        "count" : 8,
+        "item" : "NTU"
+      }, {
+        "count" : 7,
+        "item" : "UG/L"
+      }, {
+        "count" : 6,
+        "item" : "mm of Hg"
+      }, {
+        "count" : 5,
+        "item" : "MG/KG"
+      }, {
+        "count" : 4,
+        "item" : "Feet"
+      }, {
+        "count" : 3,
+        "item" : "Rating 1-20(Poor-Optimal)"
+      }, {
+        "count" : 2,
+        "item" : "Rating"
+      }, {
+        "count" : 1,
+        "item" : "Rating 1-10(Poor-Optimal)"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991697,
+    "name" : "FILTER",
+    "dataTypeName" : "text",
+    "description" : "Filter Fraction: most often used to distinguish between dissolved and total analyte or juvenile/adult macroinvertebrates.",
+    "fieldName" : "filter",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894189,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "10mm in length",
+      "null" : 0,
+      "largest" : "Total",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Total"
+      }, {
+        "count" : 19,
+        "item" : "Larvae"
+      }, {
+        "count" : 18,
+        "item" : "Dissolved"
+      }, {
+        "count" : 17,
+        "item" : "N/A"
+      }, {
+        "count" : 16,
+        "item" : "Suspended"
+      }, {
+        "count" : 15,
+        "item" : "Immature"
+      }, {
+        "count" : 14,
+        "item" : "Seedling"
+      }, {
+        "count" : 13,
+        "item" : "Mature"
+      }, {
+        "count" : 12,
+        "item" : "Snag"
+      }, {
+        "count" : 11,
+        "item" : "Filtered"
+      }, {
+        "count" : 10,
+        "item" : "Adult"
+      }, {
+        "count" : 9,
+        "item" : "Live Bivalve"
+      }, {
+        "count" : 8,
+        "item" : "Sapling"
+      }, {
+        "count" : 7,
+        "item" : "Pupae"
+      }, {
+        "count" : 6,
+        "item" : "Nymph"
+      }, {
+        "count" : 5,
+        "item" : "10mm in length"
+      }, {
+        "count" : 4,
+        "item" : "3mm in length"
+      }, {
+        "count" : 3,
+        "item" : "4mm in length"
+      }, {
+        "count" : 2,
+        "item" : "5mm in length"
+      }, {
+        "count" : 1,
+        "item" : "2mm in length"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991698,
+    "name" : "SAMPLE_ID",
+    "dataTypeName" : "text",
+    "description" : "Most commonly used to differentiate between different transects or survey areas at the same Sample location.",
+    "fieldName" : "sample_id",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894183,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : 617279,
+      "smallest" : "(1064: ELM TREE)",
+      "null" : 353748,
+      "largest" : "Zion",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Surber"
+      }, {
+        "count" : 19,
+        "item" : "Bio Sediment"
+      }, {
+        "count" : 18,
+        "item" : "At Spill"
+      }, {
+        "count" : 17,
+        "item" : "Below Spill"
+      }, {
+        "count" : 16,
+        "item" : "Above Spill"
+      }, {
+        "count" : 15,
+        "item" : "223"
+      }, {
+        "count" : 14,
+        "item" : "Williamson"
+      }, {
+        "count" : 13,
+        "item" : "WIA"
+      }, {
+        "count" : 12,
+        "item" : "WIB"
+      }, {
+        "count" : 11,
+        "item" : "SWE 1B"
+      }, {
+        "count" : 10,
+        "item" : "SWE 3A"
+      }, {
+        "count" : 9,
+        "item" : "SWE 1A"
+      }, {
+        "count" : 8,
+        "item" : "SWJ 4A"
+      }, {
+        "count" : 7,
+        "item" : "SWJ 4B"
+      }, {
+        "count" : 6,
+        "item" : "SWJ 5A"
+      }, {
+        "count" : 5,
+        "item" : "SWJ 5B"
+      }, {
+        "count" : 4,
+        "item" : "MK960326"
+      }, {
+        "count" : 3,
+        "item" : "RK960326"
+      }, {
+        "count" : 2,
+        "item" : "KIZER WELL"
+      }, {
+        "count" : 1,
+        "item" : "Metric calculations for sample # 26884; Sample ID = "
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991699,
+    "name" : "SAMPLE_SITE_NO",
+    "dataTypeName" : "number",
+    "description" : "System-assigned primary key for all Sample locations represented in this dataset.",
+    "fieldName" : "sample_site_no",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1894176,
+    "width" : 268,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "1",
+      "sum" : "1931341452",
+      "null" : 0,
+      "average" : "1988.967816548870",
+      "largest" : "10352",
+      "top" : [ {
+        "count" : 20,
+        "item" : "35"
+      }, {
+        "count" : 19,
+        "item" : "422"
+      }, {
+        "count" : 18,
+        "item" : "428"
+      }, {
+        "count" : 17,
+        "item" : "1"
+      }, {
+        "count" : 16,
+        "item" : "255"
+      }, {
+        "count" : 15,
+        "item" : "236"
+      }, {
+        "count" : 14,
+        "item" : "3885"
+      }, {
+        "count" : 13,
+        "item" : "624"
+      }, {
+        "count" : 12,
+        "item" : "503"
+      }, {
+        "count" : 11,
+        "item" : "895"
+      }, {
+        "count" : 10,
+        "item" : "502"
+      }, {
+        "count" : 9,
+        "item" : "464"
+      }, {
+        "count" : 8,
+        "item" : "465"
+      }, {
+        "count" : 7,
+        "item" : "4021"
+      }, {
+        "count" : 6,
+        "item" : "4344"
+      }, {
+        "count" : 5,
+        "item" : "4345"
+      }, {
+        "count" : 4,
+        "item" : "4346"
+      }, {
+        "count" : 3,
+        "item" : "463"
+      }, {
+        "count" : 2,
+        "item" : "148"
+      }, {
+        "count" : 1,
+        "item" : "343"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right",
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 121991700,
+    "name" : "DEPTH_IN_METERS",
+    "dataTypeName" : "number",
+    "description" : "The depth at which the sample was collected in meters. This is a useful field for Lake data (specifically our Lady Bird Lake data collection) and is null for other samples.",
+    "fieldName" : "depth_in_meters",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1894182,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : 115933,
+      "smallest" : "0",
+      "sum" : "339024.8030499999987114867",
+      "null" : 855094,
+      "average" : "2.924316657465950",
+      "largest" : "2124.000",
+      "top" : [ {
+        "count" : 20,
+        "item" : "1.859"
+      }, {
+        "count" : 19,
+        "item" : "0.2"
+      }, {
+        "count" : 18,
+        "item" : "0.200"
+      }, {
+        "count" : 17,
+        "item" : "1.000"
+      }, {
+        "count" : 16,
+        "item" : "2.000"
+      }, {
+        "count" : 15,
+        "item" : "4.000"
+      }, {
+        "count" : 14,
+        "item" : "3.000"
+      }, {
+        "count" : 13,
+        "item" : "6.000"
+      }, {
+        "count" : 12,
+        "item" : "5.000"
+      }, {
+        "count" : 11,
+        "item" : "7.000"
+      }, {
+        "count" : 10,
+        "item" : "4.500"
+      }, {
+        "count" : 9,
+        "item" : "5.200"
+      }, {
+        "count" : 8,
+        "item" : "7.500"
+      }, {
+        "count" : 7,
+        "item" : "5.500"
+      }, {
+        "count" : 6,
+        "item" : "2.800"
+      }, {
+        "count" : 5,
+        "item" : "0.100"
+      }, {
+        "count" : 4,
+        "item" : "0.300"
+      }, {
+        "count" : 3,
+        "item" : "0.660"
+      }, {
+        "count" : 2,
+        "item" : "9.000"
+      }, {
+        "count" : 1,
+        "item" : "8.000"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 121991701,
+    "name" : "METHOD",
+    "dataTypeName" : "text",
+    "description" : "The \"standard\" method designation.  Some labs use their own custom methods however we most often insist on EPA or EPA-approved methods.  Unknown means we haven't gotten a description of the method from the lab.",
+    "fieldName" : "method",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894190,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "agraTronix Soil Meter",
+      "null" : 0,
+      "largest" : "YSI Probe",
+      "top" : [ {
+        "count" : 20,
+        "item" : "VISUAL ASSESSMENT"
+      }, {
+        "count" : 19,
+        "item" : "CALCULATION"
+      }, {
+        "count" : 18,
+        "item" : "HYDROLAB"
+      }, {
+        "count" : 17,
+        "item" : "EPA 200.7"
+      }, {
+        "count" : 16,
+        "item" : "TCEQ RWA PROTOCOL"
+      }, {
+        "count" : 15,
+        "item" : "SURBER"
+      }, {
+        "count" : 14,
+        "item" : "EPA 8270C"
+      }, {
+        "count" : 13,
+        "item" : "UNKNOWN"
+      }, {
+        "count" : 12,
+        "item" : "TCEQ HABITAT EVALUATION"
+      }, {
+        "count" : 11,
+        "item" : "Habitat Assessment--High Gradient Streams"
+      }, {
+        "count" : 10,
+        "item" : "Alex Duncan Invasive Assessment Method"
+      }, {
+        "count" : 9,
+        "item" : "TAMU Extraction"
+      }, {
+        "count" : 8,
+        "item" : "Channel Stability Evaluation"
+      }, {
+        "count" : 7,
+        "item" : "VIP (Post April 1999 Method)"
+      }, {
+        "count" : 6,
+        "item" : "SM 9222 D"
+      }, {
+        "count" : 5,
+        "item" : "EPA 8310"
+      }, {
+        "count" : 4,
+        "item" : "EPA 1618"
+      }, {
+        "count" : 3,
+        "item" : "NONE"
+      }, {
+        "count" : 2,
+        "item" : "KICK NET"
+      }, {
+        "count" : 1,
+        "item" : "COA LAKE HABITAT ASSESSMENT"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991702,
+    "name" : "QC_FLAG",
+    "dataTypeName" : "text",
+    "description" : "Flag assigned by an automated comparison process using guidelines set by COA  staff.\n\nFlag  Description\nU  Results are completely usable.\nR  Results are completely unusable.\nJ  Results are qualified as estimated.\nG  No guidelines exist for this data.",
+    "fieldName" : "qc_flag",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894191,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "?",
+      "null" : 0,
+      "largest" : "U",
+      "top" : [ {
+        "count" : 20,
+        "item" : "U"
+      }, {
+        "count" : 19,
+        "item" : "R"
+      }, {
+        "count" : 18,
+        "item" : "J"
+      }, {
+        "count" : 17,
+        "item" : "S"
+      }, {
+        "count" : 16,
+        "item" : "?"
+      }, {
+        "count" : 15,
+        "item" : "u"
+      }, {
+        "count" : 14,
+        "item" : "B"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991703,
+    "name" : "PROJECT",
+    "dataTypeName" : "text",
+    "description" : "This is the Quality Assurance Project Plan Name under which the data was collected.",
+    "fieldName" : "project",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1894174,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "24-Hour DO Monitoring",
+      "null" : 0,
+      "largest" : "WTP #4 Surface Water",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Barton Springs Salamander"
+      }, {
+        "count" : 19,
+        "item" : "Barton Springs Bi-weekly TPDES"
+      }, {
+        "count" : 18,
+        "item" : "EII - Water Quality and CR"
+      }, {
+        "count" : 17,
+        "item" : "Barton Springs Quarterly"
+      }, {
+        "count" : 16,
+        "item" : "TPDES Sediment Data"
+      }, {
+        "count" : 15,
+        "item" : "Groundwater"
+      }, {
+        "count" : 14,
+        "item" : "EII - Aquatic Life"
+      }, {
+        "count" : 13,
+        "item" : "EII - Channel Stability Evaluation"
+      }, {
+        "count" : 12,
+        "item" : "EII - Habitat"
+      }, {
+        "count" : 11,
+        "item" : "EII - Sediment"
+      }, {
+        "count" : 10,
+        "item" : "Sapling Survival Assessment"
+      }, {
+        "count" : 9,
+        "item" : "Barton Creek Pool Study"
+      }, {
+        "count" : 8,
+        "item" : "Canyon Study"
+      }, {
+        "count" : 7,
+        "item" : "Water Watch Dog"
+      }, {
+        "count" : 6,
+        "item" : "Bioassessment Grant"
+      }, {
+        "count" : 5,
+        "item" : "Austin Invasives Management Project"
+      }, {
+        "count" : 4,
+        "item" : "Jollyville Water Quality and Salamander Assessment"
+      }, {
+        "count" : 3,
+        "item" : "Jollyville Transmission Main Monitoring"
+      }, {
+        "count" : 2,
+        "item" : "Bull Creek Study"
+      }, {
+        "count" : 1,
+        "item" : "Stillhouse Soil and Fertilizer Outreach"
+      } ]
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 121991704,
+    "name" : "Location",
+    "dataTypeName" : "location",
+    "fieldName" : "location",
+    "position" : 18,
+    "renderTypeName" : "location",
+    "tableColumnId" : 1894192,
+    "width" : 196,
+    "cachedContents" : {
+      "non_null" : 957154,
+      "smallest" : {
+        "longitude" : "-97.7709796798271",
+        "latitude" : "30.2635351223695"
+      },
+      "null" : 13873,
+      "largest" : {
+        "longitude" : "-97.4621238586619",
+        "latitude" : "30.3231550306272"
+      },
+      "top" : [ {
+        "count" : 20,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 19,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 18,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 17,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 16,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 15,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 14,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 13,
+        "item" : {
+          "longitude" : "-97.7222983619913",
+          "latitude" : "30.188862909377"
+        }
+      }, {
+        "count" : 12,
+        "item" : {
+          "longitude" : "-97.4621238586619",
+          "latitude" : "30.3231550306272"
+        }
+      } ]
+    },
+    "format" : {
+    },
+    "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+  }, {
+    "id" : 121991705,
+    "name" : "DATA_REF_NO",
+    "dataTypeName" : "number",
+    "description" : "This is a database reference number that can help us answer any  questions you might have about a specific sample; primary key for this dataset (guaranteed unique but not necessarily contiguous).",
+    "fieldName" : "ref_no",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1894173,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "68",
+      "sum" : "1276357993235",
+      "null" : 0,
+      "average" : "1314441.301050331",
+      "largest" : "2297430",
+      "top" : [ {
+        "count" : 20,
+        "item" : "366920"
+      }, {
+        "count" : 19,
+        "item" : "366921"
+      }, {
+        "count" : 18,
+        "item" : "366922"
+      }, {
+        "count" : 17,
+        "item" : "366925"
+      }, {
+        "count" : 16,
+        "item" : "366924"
+      }, {
+        "count" : 15,
+        "item" : "366923"
+      }, {
+        "count" : 14,
+        "item" : "394723"
+      }, {
+        "count" : 13,
+        "item" : "366919"
+      }, {
+        "count" : 12,
+        "item" : "366917"
+      }, {
+        "count" : 11,
+        "item" : "366918"
+      }, {
+        "count" : 10,
+        "item" : "543356"
+      }, {
+        "count" : 9,
+        "item" : "653007"
+      }, {
+        "count" : 8,
+        "item" : "1052600"
+      }, {
+        "count" : 7,
+        "item" : "1050265"
+      }, {
+        "count" : 6,
+        "item" : "653014"
+      }, {
+        "count" : 5,
+        "item" : "653013"
+      }, {
+        "count" : 4,
+        "item" : "653011"
+      }, {
+        "count" : 3,
+        "item" : "653010"
+      }, {
+        "count" : 2,
+        "item" : "653012"
+      }, {
+        "count" : 1,
+        "item" : "653006"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right",
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 121991706,
+    "name" : "LAT_DD_WGS84",
+    "dataTypeName" : "number",
+    "description" : "Y coordinate in WGS_1984 decimal degrees (Commonly referred to as Latitude)",
+    "fieldName" : "lat_dd_wgs84",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1894177,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : 957154,
+      "smallest" : "29.715492256655999",
+      "sum" : "28990277.831616657042053",
+      "null" : 13873,
+      "average" : "30.28799736679433",
+      "largest" : "30.7032794983431",
+      "top" : [ {
+        "count" : 20,
+        "item" : "30.2635351223695"
+      }, {
+        "count" : 19,
+        "item" : "30.2635848609854"
+      }, {
+        "count" : 18,
+        "item" : "30.264246157930199"
+      }, {
+        "count" : 17,
+        "item" : "30.2471428466364"
+      }, {
+        "count" : 16,
+        "item" : "30.125463632961601"
+      }, {
+        "count" : 15,
+        "item" : "30.188456632289299"
+      }, {
+        "count" : 14,
+        "item" : "30.1831389483247"
+      }, {
+        "count" : 13,
+        "item" : "30.285381969522401"
+      }, {
+        "count" : 12,
+        "item" : "30.271762266324799"
+      }, {
+        "count" : 11,
+        "item" : "30.405907132247901"
+      }, {
+        "count" : 10,
+        "item" : "30.3224175078823"
+      }, {
+        "count" : 9,
+        "item" : "30.3883595526829"
+      }, {
+        "count" : 8,
+        "item" : "30.266344235729299"
+      }, {
+        "count" : 7,
+        "item" : "30.302479856564599"
+      }, {
+        "count" : 6,
+        "item" : "30.286179735290698"
+      }, {
+        "count" : 5,
+        "item" : "30.301840075422199"
+      }, {
+        "count" : 4,
+        "item" : "30.292153127237398"
+      }, {
+        "count" : 3,
+        "item" : "30.400393198804"
+      }, {
+        "count" : 2,
+        "item" : "30.3763008300674"
+      }, {
+        "count" : 1,
+        "item" : "30.359421530708801"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 121991707,
+    "name" : "LON_DD_WGS84",
+    "dataTypeName" : "number",
+    "description" : "X coordinate in WGS_1984 decimal degrees (Commonly referred to as Longitude)",
+    "fieldName" : "lon_dd_wgs84",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1894178,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : 957154,
+      "smallest" : "-98.402136001288099",
+      "sum" : "-93582901.128051451922674",
+      "null" : 13873,
+      "average" : "-97.77204204135536",
+      "largest" : "-97.317658268111998",
+      "top" : [ {
+        "count" : 20,
+        "item" : "-97.770979679827093"
+      }, {
+        "count" : 19,
+        "item" : "-97.768075736617305"
+      }, {
+        "count" : 18,
+        "item" : "-97.770060585911807"
+      }, {
+        "count" : 17,
+        "item" : "-97.716376174840605"
+      }, {
+        "count" : 16,
+        "item" : "-97.822250806955694"
+      }, {
+        "count" : 15,
+        "item" : "-97.719640459604406"
+      }, {
+        "count" : 14,
+        "item" : "-97.876366567320403"
+      }, {
+        "count" : 13,
+        "item" : "-97.733989646786995"
+      }, {
+        "count" : 12,
+        "item" : "-97.656245187512795"
+      }, {
+        "count" : 11,
+        "item" : "-97.697000602763396"
+      }, {
+        "count" : 10,
+        "item" : "-97.650512162427802"
+      }, {
+        "count" : 9,
+        "item" : "-97.672084361821405"
+      }, {
+        "count" : 8,
+        "item" : "-97.656915066444398"
+      }, {
+        "count" : 7,
+        "item" : "-97.653142582731206"
+      }, {
+        "count" : 6,
+        "item" : "-97.597246766741506"
+      }, {
+        "count" : 5,
+        "item" : "-97.600311672569305"
+      }, {
+        "count" : 4,
+        "item" : "-97.609228965742801"
+      }, {
+        "count" : 3,
+        "item" : "-97.681680260124807"
+      }, {
+        "count" : 2,
+        "item" : "-97.804592474079897"
+      }, {
+        "count" : 1,
+        "item" : "-97.788295070308095"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 121991708,
+    "name" : "SAMPLE_REF_NO",
+    "dataTypeName" : "number",
+    "description" : "System-assigned unique key [Field_Sample_No] from FSDB that represents unique ID on samples.",
+    "fieldName" : "sample_ref_no",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 3499328,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "6",
+      "sum" : "249868762204",
+      "null" : 0,
+      "average" : "257324.2167354770",
+      "largest" : "447277",
+      "top" : [ {
+        "count" : 20,
+        "item" : "87952"
+      }, {
+        "count" : 19,
+        "item" : "20512"
+      }, {
+        "count" : 18,
+        "item" : "258205"
+      }, {
+        "count" : 17,
+        "item" : "257619"
+      }, {
+        "count" : 16,
+        "item" : "257617"
+      }, {
+        "count" : 15,
+        "item" : "26876"
+      }, {
+        "count" : 14,
+        "item" : "257616"
+      }, {
+        "count" : 13,
+        "item" : "258139"
+      }, {
+        "count" : 12,
+        "item" : "26875"
+      }, {
+        "count" : 11,
+        "item" : "6118"
+      }, {
+        "count" : 10,
+        "item" : "27719"
+      }, {
+        "count" : 9,
+        "item" : "27718"
+      }, {
+        "count" : 8,
+        "item" : "27717"
+      }, {
+        "count" : 7,
+        "item" : "27722"
+      }, {
+        "count" : 6,
+        "item" : "27723"
+      }, {
+        "count" : 5,
+        "item" : "56600"
+      }, {
+        "count" : 4,
+        "item" : "27727"
+      }, {
+        "count" : 3,
+        "item" : "27729"
+      }, {
+        "count" : 2,
+        "item" : "27728"
+      }, {
+        "count" : 1,
+        "item" : "27720"
+      } ]
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 121991709,
+    "name" : "TIME_NULL",
+    "dataTypeName" : "text",
+    "description" : "When true, indicates that the Time in the Date/Time field is not precise; there was no sample_time recorded in the original data.",
+    "fieldName" : "time_null",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 3499344,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : 971027,
+      "smallest" : "0",
+      "null" : 0,
+      "largest" : "1",
+      "top" : [ {
+        "count" : 20,
+        "item" : "0"
+      }, {
+        "count" : 19,
+        "item" : "1"
+      } ]
+    },
+    "format" : {
+    }
+  }, {
+    "id" : 121991710,
+    "name" : "QC_TYPE",
+    "dataTypeName" : "text",
+    "description" : "For samples that were collected as part of a QA/QC plan ... Splits, Reps, Blanks, Etc.",
+    "fieldName" : "qc_type",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 3499345,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : 35961,
+      "smallest" : "Assumption Check",
+      "null" : 935066,
+      "largest" : "Standard",
+      "top" : [ {
+        "count" : 20,
+        "item" : "Field Split"
+      }, {
+        "count" : 19,
+        "item" : "Field Replica"
+      }, {
+        "count" : 18,
+        "item" : "Detritus Check (Microscope)"
+      }, {
+        "count" : 17,
+        "item" : "Field Blank"
+      }, {
+        "count" : 16,
+        "item" : "Detritus Check (Visual)"
+      }, {
+        "count" : 15,
+        "item" : "Assumption Check"
+      }, {
+        "count" : 14,
+        "item" : "Benthic Large Scan"
+      }, {
+        "count" : 13,
+        "item" : "Lab Control Standard"
+      }, {
+        "count" : 12,
+        "item" : "Standard"
+      } ]
+    },
+    "format" : {
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "custom_fields" : {
+      "Additional Information" : {
+        "Frequency" : "Quarterly"
+      }
+    },
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "buxt-jupg",
+    "displayName" : "WRE_ADMIN",
+    "profileImageUrlLarge" : "/images/profile/8597/4544/wre_adminimage_large.jpg",
+    "profileImageUrlMedium" : "/images/profile/8597/4544/wre_adminimage_thumb.jpg",
+    "profileImageUrlSmall" : "/images/profile/8597/4544/wre_adminimage_tiny.jpg",
+    "roleName" : "publisher",
+    "screenName" : "WRE_ADMIN",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : true,
+      "expression" : {
+        "columnId" : 121991687,
+        "type" : "column"
+      }
+    }, {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 121991688,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "sortBys" : [ {
+    "id" : 0,
+    "viewColumnId" : 121991687,
+    "flags" : [ "asc" ]
+  }, {
+    "id" : 0,
+    "viewColumnId" : 121991688
+  } ],
+  "tableAuthor" : {
+    "id" : "buxt-jupg",
+    "displayName" : "WRE_ADMIN",
+    "profileImageUrlLarge" : "/images/profile/8597/4544/wre_adminimage_large.jpg",
+    "profileImageUrlMedium" : "/images/profile/8597/4544/wre_adminimage_thumb.jpg",
+    "profileImageUrlSmall" : "/images/profile/8597/4544/wre_adminimage_tiny.jpg",
+    "roleName" : "publisher",
+    "screenName" : "WRE_ADMIN",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+  },
+  "tags" : [ "water quality", "eii", "ali", "barton springs", "lady bird lake", "lake austin", "salamanders", "barton creek", "bull creek", "bacteria", "coli" ],
+  "flags" : [ "default" ]
+}
