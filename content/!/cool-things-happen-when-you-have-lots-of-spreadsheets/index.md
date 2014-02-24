@@ -27,8 +27,8 @@ Two approaches
 How I collect these data
 
 1. Downloading the data
-2. Representing all the spreadsheets as one spreadsheet
-3. Looking inside the various datasets
+2. Looking inside the various datasets
+3. Representing all the spreadsheets as one spreadsheet
 
 Cool things that happen
 
@@ -234,7 +234,7 @@ adding `/download?format=csv` to the above URL.
 
 > http://parisdata.opendatasoft.com/explore/dataset/arbresremarquablesparis2011/download?format=csv
 
-### Putting them in a spreadsheet
+### Looking inside datasets
 A statistic is a single number that describes a bunch of numbers.
 
     4
@@ -247,13 +247,14 @@ I create statistics about each dataset.
 
 ![](/!/dataset-as-datapoint/dataset-features.jpg){:.wide}
 
-And I put these in a spreadsheet of datasets.
+### Putting them in a spreadsheet
+Combining the metadata and the new dataset statistics, I create
+a spreadsheet of datasets, in which each record corresponds to a dataset.
 
 [![A spreadsheet of spreadsheets](/!/dataset-as-datapoint/spreadsheet-spreadsheet.png){:.wide}](/!/dataset-as-datapoint)
 
-### Looking inside datasets
 
-#### What I found
+## What I found
 First, nobody has any idea of what is going on in open data.
 This was my main conclusion after I tweeted about [this article](/!/socrata-summary/);
 I thought it would not be that interesting, but people strangely liked it.
