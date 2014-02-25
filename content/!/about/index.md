@@ -23,6 +23,6 @@ I have this crazy dream where I can dada all day, afford to eat,
 and still have time to sleep. Please consider donating to me if you find
 my dada worthwhile.
 
-[Gittip](https://www.gittip.com/thomaslevine) is an easy way to donate money.
+[Gittip](https://www.gittip.com/thomaslevine) is an easy way to donate money to me.
 Since I'm so mobile, I also accept donations of sleeping quarters;
 [email me](mailto:_@thomaslevine.com) about that.
