@@ -309,51 +309,27 @@ other cities, from the county, or from the state.
 
 I made a [rather simple site](http://openprism.thomaslevine.com) to demonstrate this idea.
 
-### Cause
+### Dealing with bad (meta)data
+People complain about how data are bad and metadata are bad. Rather than
+fixing it on a case-by-case basis, I think we should just come up with ways
+of dealing with it.
 
-My main conclusion is that people don’t use these charting tools all that much.
+[Missouri](/!/missouri-data-licensing/) provides a good illustration of this.
+The titles of datasets are related to the contents of datasets.
 
-##### Big users
-Most of the users in the dataset (7790 to be exact) had made exactly one view.
-Actually, there are probably even more with no views, but I don't have the
-data on them.
-
-![](/!/socrata-users/figure/n.views.png){:.wide}
-
-Similarly, the users who have owned and authored the most tables tend to work
-for either Socrata or clients of Socrata.
-
-Neither of these discoveries should be a surprise; you can call it the
-[Pareto principle](http://en.wikipedia.org/wiki/Pareto_principle) if you want.
-
-##### Consumerizing
-I wanted to see examples of this consumerized data analysis that was being
-advertised, so I tried to find users who were not employed by Socrata or its
-clients. I eventually [found some](/!/socrata-users/#also-no-tables).
-
-As I said above, my main conclusion is that people don’t use these charting
-tools all that much. More specifically,
-
-1. The people who create the most charts are people who maintain data portals
-2. Aside from those who maintain data portals, the people who create the most
-    charts are usually making different charts of the same data.
-3. I found a small number of people who seem to be using the charts for broader
-    things. I haven't really talked to any of them, but the little I do know of
-    their stories is interesting.
+You can see my alternative search approaches as ways of guessing metadata.
 
 ### Quantifying data quality
 
-### Licensing
-Other data catalog software [works differently](https://github.com/tlevine/open-data-download)
-than Socrata, but the process it isn't any more fancy. I downloaded data from catalogs running
-these software.
+* Open Knowledge Foundation [Open Data Census](http://census.okfn.org/)
+* Tim Berners-Lee [Five Stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/) of open linked data.
+    <!-- http://opendata.stackexchange.com/a/529 -->
+* Open Government Working Group [8 Principles of Open Government Data](http://www.opengovdata.org/home/8principles)
+* Sunlight Foundation [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/)
+* Open Data Institute [Certificates](https://certificates.theodi.org/)
 
-* Socrata
-* CKAN
-* OpenDataSoft
-* Junar
-
-And then I [looked at](http://thomaslevine.com/!/open-data-licensing/)
+#### Licensing
+I [looked at](http://thomaslevine.com/!/open-data-licensing/)
 the licenses that different datasets have.
 
 ![Licenses across all portals](/!/open-data-licensing/p2.png){:.wide}
@@ -362,27 +338,15 @@ Most data catalogs either have a license on everything or a license on nothing.)
 
 ![Bar graph of proportion of datasets](/!/open-data-licensing/p1.png){:.wide}
 
-As I said before, [Missouri](/!/missouri-data-licensing/) is interesting.
-Also, they get this licensing right.
+[Licensing is important because it reduces uncertainty.](http://opendatacommons.org/faq/)
 
-> [Licensing is important because it reduces uncertainty.](http://opendatacommons.org/faq/)
-
-### Updating
+#### Updating
 Open government data are supposed to be kept up-to-date.
 [Pretty much nobody](http://thomaslevine.com/!/data-updatedness/#even-simpler) does this.
 
 #### Getting the data
-Recall that there were some date fields in those Socrata data.
+Socrata has some date fields in the metadata, so I could look at the update behavior.
 
-* `createdAt`
-* `publicationDate`
-* `rowsUpdatedAt`
-* `viewLastModified`
-
-Once I figured out what these meant and dealt with [duplicates](/!/data-updatedness#removing-duplicates),
-I could check whether datasets were being updated.
-
-#### What I found
 First, hardly any datasets ever get updated.
 
 ![Hardly any datasets get updated](/!/data-updatedness/figure/any_update.png){:.wide}
@@ -400,15 +364,56 @@ It's only 13 datasets.
 
 ![Those 13 datasets, by portal](/!/data-updatedness/figure/updates_2013_url.png){:.wide}
 
+Data are probably being updated thorugh other means,
+
+* Adding new data as a separate dataset (a 2011 dataset and a 2012 dataset)
+* Deleting the old dataset and adding a new one
+
+but these aren't as good because they don't preserve URIs.
 
 
+### Causal inferences: How things work
+It would be great to tie the release of spreadsheets to outcomes that people really
+care about, like levels of corruption, life expectancies, and employment rates.
+But that's hard, so I'm starting simpler; we can start by seeing what different
+software products do.
 
+#### Charting tools
+These open data catalog softwares all have charting tools built in. Socrata's
+is the most built-out. People don’t use these charting tools all that much.
 
+The Socrata metadata indicate the users that updated the data.
+Most of the users in the dataset (7790 to be exact) had made exactly one view.
 
-* Open Knowledge Foundation [Open Data Census](http://census.okfn.org/)
-* Tim Berners-Lee [Five Stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/) of open linked data.
-    <!-- http://opendata.stackexchange.com/a/529 -->
-* Open Government Working Group [8 Principles of Open Government Data](http://www.opengovdata.org/home/8principles)
-* Sunlight Foundation [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/)
-* Open Data Institute [Certificates](https://certificates.theodi.org/)
+![](/!/socrata-users/figure/n.views.png){:.wide}
 
+Actually, there are probably even more with no views, but I don't have the
+data on them. Also, about four-fifths of Socrata's data is private, (Several
+people who work for Socrata have told me this.) so I'm probably missing even
+more. Oh well.
+
+Similarly, the users who have owned and authored the most tables tend to work
+for either Socrata or clients of Socrata.
+
+Neither of these discoveries should be a surprise; you can call it the
+[Pareto principle](http://en.wikipedia.org/wiki/Pareto_principle) if you want.
+
+Socrata is trying to "consumerize" the data experience, so 
+I tried to find users who were not employed by Socrata or its
+clients. I eventually [found some](/!/socrata-users/#also-no-tables).
+
+As I said above, my main conclusion is that people don’t use these charting
+tools all that much. More specifically,
+
+1. The people who create the most charts are people who maintain data portals
+2. Aside from those who maintain data portals, the people who create the most
+    charts are usually making different charts of the same data.
+3. I found a small number of people who seem to be using the charts for broader
+    things. I haven't really talked to any of them, but the little I do know of
+    their stories is interesting.
+
+#### Links
+(I'll fill this in later.)
+
+## Final thoughts
+(???)
