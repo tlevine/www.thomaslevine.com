@@ -12,6 +12,10 @@ Here are some materials for
 but they're written in normal language, so they'll probably serve as a decent summary
 of my work thus far to people who are reading this on the internet.
 
+## Before we start: Why I can be here.
+
+https://github.com/tlevine/undervalued-sublets
+
 ## Outline of the talk
 
 Introduction
