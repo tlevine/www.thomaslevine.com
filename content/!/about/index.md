@@ -1,7 +1,7 @@
 ---
 title: About Thomas Levine
 ---
-![A picture of Tom from when he had pink hair](/img/me-420.png){:style="background-color: inherit;"}{:.wide}
+![A picture of Tom from when he had pink hair](/img/govlab-experiment.jpg)
 
 <!-- http://www.nga.gov/exhibitions/2006/dada/cities/index.shtm -->
 Thomas Levine is a dada artist who
@@ -16,9 +16,9 @@ and studying [how people share data](/open-data).
 
 ## Donations
 <!-- https://web.archive.org/web/20111007065304/http://vihart.com/vi/ -->
-I have this crazy dream where I can do this stuff all day, afford to eat,
+I have this crazy dream where I can dada all day, afford to eat,
 and still have time to sleep. Please consider donating to me if you find
-my work worthwhile.
+my dada worthwhile.
 
 [Gittip](https://www.gittip.com/thomaslevine) is an easy way to donate money.
 Since I'm so mobile, I also accept donations of sleeping quarters;
