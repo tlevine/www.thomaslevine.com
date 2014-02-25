@@ -11,7 +11,7 @@ He seems to be curious about why people do things.
 
 Playing with computers since he was young, Tom eventually developed back and
 wrist pain, so he started studying ergonomics. And his back and wrists now hurt less.
-He has recently been playing [music](/music), [teaching](/teaching) data things,
+He has recently been playing [music](/music), teaching data things,
 and studying [how people share spreadsheets](/open-data).
 
 ## Donations
