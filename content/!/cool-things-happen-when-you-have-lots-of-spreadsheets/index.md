@@ -429,6 +429,9 @@ tools all that much. More specifically,
     Socrata's is the most built-out, so I doubt that we'll see more usage
     in other sites' charting tools.
 
+If you are making a data catalog for your organization, I recommend that you
+not worry about including data visualization things in the catalog.
+
 #### Links
 Links can go [dead](/404.html). I looked at dataset liveliness for Socrata
 and CKAN.
