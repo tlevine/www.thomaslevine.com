@@ -378,9 +378,18 @@ care about, like levels of corruption, life expectancies, and employment rates.
 But that's hard, so I'm starting simpler; we can start by seeing what different
 software products do.
 
+What do I mean by different products? Any of the below things would count.
+
+* Different features within a product
+* Different vendors (Socrata, Open Knowledge Foundation, Junar, OpenDataSoft, &c.)
+* Different plugins and [extensions](http://ckan.org/category/extensions/)
+* Different [products and services](/!/socrata-products) sold by one company
+
+This can be framed as practical questions like "Which data catalog software should I use?"
+
 #### Charting tools
-These open data catalog softwares all have charting tools built in. Socrata's
-is the most built-out. People don’t use these charting tools all that much.
+These open data catalog softwares all have charting tools built in.
+Basically, people don’t use these charting tools all that much.
 
 The Socrata metadata indicate the users that updated the data.
 Most of the users in the dataset (7790 to be exact) had made exactly one view.
@@ -402,6 +411,7 @@ Socrata is trying to "consumerize" the data experience, so
 I tried to find users who were not employed by Socrata or its
 clients. I eventually [found some](/!/socrata-users/#also-no-tables).
 
+
 As I said above, my main conclusion is that people don’t use these charting
 tools all that much. More specifically,
 
@@ -411,9 +421,14 @@ tools all that much. More specifically,
 3. I found a small number of people who seem to be using the charts for broader
     things. I haven't really talked to any of them, but the little I do know of
     their stories is interesting.
+4. All of the data catalog softwares have charting tools like this.
+    Socrata's is the most built-out, so I doubt that we'll see more usage
+    in other sites' charting tools.
 
 #### Links
-(I'll fill this in later.)
+
+* http://thomaslevine.com/!/data-catalog-dead-links/
+* http://thomaslevine.com/!/zombie-links/
 
 ## Final thoughts
 (???)
