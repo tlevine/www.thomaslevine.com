@@ -7,12 +7,15 @@ title: About Thomas Levine
 Thomas Levine is a dada artist who
 [whimsically moves](https://github.com/tlevine/pal-public/blob/master/current)
 now that his apartment fits in a [small suitcase](/!/stuff-2014-02).
-He seems to be curious about why people do things.
+He likes to sleep, and he's usually curious about why people do things.
 
 Playing with computers since he was young, Tom eventually developed back and
-wrist pain, so he started studying ergonomics. And his back and wrists now hurt less.
-He has recently been playing [music](/music), teaching data things,
+wrist pain, and then he started studying ergonomics. His back and wrists now hurt less.
+
+He has recently been playing [music](/sensing-data), teaching data things,
 and studying [how people share spreadsheets](/open-data).
+
+His favorite color is [pink](http://thomaslevine.com/img/me-420.png).
 
 ## Donations
 <!-- https://web.archive.org/web/20111007065304/http://vihart.com/vi/ -->
