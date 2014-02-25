@@ -426,9 +426,29 @@ tools all that much. More specifically,
     in other sites' charting tools.
 
 #### Links
+Links can go [dead](/404.html). I looked at dataset liveliness for Socrata
+and CKAN.
 
-* http://thomaslevine.com/!/data-catalog-dead-links/
-* http://thomaslevine.com/!/zombie-links/
+![](http://thomaslevine.com/!/zombie-links/figure/p_prop_links.png){:.wide}
+
+In Socrata, datasets tend to be stored in the Socrata application and strongly
+associated with the entity on the data portal. All of these internally stored
+datasets stay alive (presumably). There are a few externally stored datasets,
+and some of those are dead.
+
+In CKAN, datasets tend to reference external files, and a lot of them are dead.
+That said, it seems to be better at keeping external links alive than Socrata is.
+
+This difference totally makes sense if you look at the processes for
+[uploading data](/!/data-catalog-dead-links/#software-suggests-behavior).
+
+We can also see what sorts of problems are arising.
+
+![](/!/zombie-links/figure/p_no_redirects.png){:.wide}
+
+![](/!/zombie-links/figure/storage.png){:.wide}
+
+Read more [here](http://thomaslevine.com/!/zombie-links/#new-results)
 
 ## Final thoughts
 
