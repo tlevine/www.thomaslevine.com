@@ -431,4 +431,10 @@ tools all that much. More specifically,
 * http://thomaslevine.com/!/zombie-links/
 
 ## Final thoughts
-(???)
+
+1. Ways of inquiring
+  * Question to data
+  * Data to question
+2. Open data is about sharing.
+3. You can collect data about data.
+4. You don't really need to distinguish between metadata and data.
