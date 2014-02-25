@@ -1,7 +1,7 @@
 ---
 title: About Thomas Levine
 ---
-![A picture of Tom from when he had pink hair](/img/govlab-experiment.jpg)
+![A picture of Tom](/img/govlab-experiment.jpg)
 
 <!-- http://www.nga.gov/exhibitions/2006/dada/cities/index.shtm -->
 Thomas Levine is a dada artist who
