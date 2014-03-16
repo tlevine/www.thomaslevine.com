@@ -58,7 +58,9 @@ metadata; here is their reasoning: If it's easy to add metadata, then people wil
 add metadata, and if the data have good metadata, then people will use them.
 
 ### Too big for CSV!?
-Here's an error I came across when parsing [this CSV file](http://public.opendatasoft.com/explore/dataset/scisf_housing_affordability_gap_by_neighborhood_san_francisco_ca/download?format=csv)
+A few of the files contained cells that were too big for the CSV parser I was using.
+Here's an example of the error, which happened on
+[this CSV file](http://public.opendatasoft.com/explore/dataset/scisf_housing_affordability_gap_by_neighborhood_san_francisco_ca/download?format=csv).
 
     Traceback (most recent call last):
       File "/lockers/tlevine_vol/git/featured-spreadsheets/featured_spreadsheets/examine.py", line 26, in featurize
@@ -72,9 +74,14 @@ Here's an error I came across when parsing [this CSV file](http://public.opendat
     _csv.Error: field larger than field limit (131072)
 
 It turns out that that field contains some larger geojson (I think?) features
-and represented in OpenDataSoft as having a "geom_{}" type. Rather than dealing
+and represented in OpenDataSoft as having a "geom_{}" type.
+
+
+Rather than dealing
 with this in a smart way, I just ignored all spreadsheets containing "geom_{}"
 types.
+
+
 
 ## Finding the unique keys
 My approach for finding the unique keys in a spreadsheet is explained
