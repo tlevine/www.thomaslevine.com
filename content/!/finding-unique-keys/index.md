@@ -17,7 +17,21 @@ and then I encourage you to do something cool with the resulting graph.
 
 ## Collecting the spreadsheets
 I used all of the spreadsheets in all of the [OpenDataSoft](https://opendatasoft.com)
-catalogs that I knew about. The process for downloading them is reasonably
+catalogs that I knew about.
+
+* [http://data.iledefrance.fr](http://data.iledefrance.fr)
+* [http://opendata.paris.fr.opendatasoft.com](http://opendata.paris.fr.opendatasoft.com)
+* [http://tourisme04.opendatasoft.com](http://tourisme04.opendatasoft.com)
+* [http://tourisme62.opendatasoft.com](http://tourisme62.opendatasoft.com)
+* [http://grandnancy.opendatasoft.com](http://grandnancy.opendatasoft.com)
+* [http://bistrotdepays.opendatasoft.com](http://bistrotdepays.opendatasoft.com)
+* [http://scisf.opendatasoft.com](http://scisf.opendatasoft.com)
+* [http://pod.opendatasoft.com](http://pod.opendatasoft.com)
+* [http://dataratp.opendatasoft.com](http://dataratp.opendatasoft.com)
+* [http://public.opendatasoft.com](http://public.opendatasoft.com)
+* [http://ressources.data.sncf.com](http://ressources.data.sncf.com)
+
+The process for downloading them is reasonably
 similar to the process for any other data catalog software, and it's explained
 [here]().
 
