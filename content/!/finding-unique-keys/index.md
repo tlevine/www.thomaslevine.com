@@ -83,6 +83,15 @@ below and is codified in the
 [https://pypi.python.org/pypi/special_snowflake](special_snowflake) package.
 
 ### Choosing candidates
+special_snowflake takes three parameters
 
+* A spreadsheet (or other form of data table)
+* `n_columns`: Across how many columns the unique index should span
+* `only_adjacent`: Whether columns in the unique index must be adjacent to each other
+
+To get all possible candidates, set `only_adjacent` to false
+and `n_columns` to the number of columns in the spreadsheet.
+
+For the present... I ran it with `only_adjacent` ...
 
 ### Checking whether each candidate index is unique
