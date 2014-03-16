@@ -21,6 +21,17 @@ catalogs that I knew about. The process for downloading them is reasonably
 similar to the process for any other data catalog software, and it's explained
 [here]().
 
+### Why OpenDataSoft
+Here are a few reasons why I chose OpenDataSoft.
+
+1. All of the data are stored on OpenDataSoft's system, at very predictable URLs
+    based on the dataset identifiers. (This is
+    [similar to Socrata and different from CKAN]().)
+    This makes it easy to download all of the datasets.
+2. OpenDataSoft is easier for me to work with than Socrata; it is much faster,
+    it doesn't have the same [duplication issues](),
+    and the API is a bit simpler and better documented.
+3. 
 
 
 ## Too big for CSV!?
