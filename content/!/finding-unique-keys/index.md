@@ -21,6 +21,10 @@ catalogs that I knew about. The process for downloading them is reasonably
 similar to the process for any other data catalog software, and it's explained
 [here]().
 
+The "CSV" files that come out of OpenDataSoft are delimited by semicolons;
+I guess we could call them "SSV" files or "SCSV" files, but I'm going to keep
+calling them "CSV".
+
 ### Why OpenDataSoft
 Here are a few reasons why I chose OpenDataSoft.
 
@@ -39,8 +43,7 @@ and Benoit. They explained to me that they focus a lot on making it easy to add
 metadata; here is their reasoning: If it's easy to add metadata, then people will
 add metadata, and if the data have good metadata, then people will use them.
 
-
-## Too big for CSV!?
+### Too big for CSV!?
 Here's an error I came across when parsing [this CSV file](http://public.opendatasoft.com/explore/dataset/scisf_housing_affordability_gap_by_neighborhood_san_francisco_ca/download?format=csv)
 
     Traceback (most recent call last):
@@ -54,4 +57,7 @@ Here's an error I came across when parsing [this CSV file](http://public.opendat
         row = next(self.reader)
     _csv.Error: field larger than field limit (131072)
 
-It turns out that that field contains some larger geojson (I think?) features.
+It turns out that that field contains some larger geojson (I think?) features
+and represented in OpenDataSoft as having a "geom_{}" type. Rather than dealing
+with this in a smart way, I just ignored all spreadsheets containing "geom_{}"
+types.
