@@ -73,15 +73,9 @@ Here's an example of the error, which happened on
         row = next(self.reader)
     _csv.Error: field larger than field limit (131072)
 
-It turns out that that field contains some larger geojson (I think?) features
-and represented in OpenDataSoft as having a "geom_{}" type.
-
-
-Rather than dealing
-with this in a smart way, I just ignored all spreadsheets containing "geom_{}"
-types.
-
-
+It turns out that that field contains some large geojson features.
+Rather than dealing with this in a smart way, I just ignored all
+spreadsheets containing that type of column ("geo_shape").
 
 ## Finding the unique keys
 My approach for finding the unique keys in a spreadsheet is explained
