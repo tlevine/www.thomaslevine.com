@@ -12,10 +12,16 @@ than trying to get people to write metadata in the way that we're used to.
 
 In [playing with lots of spreadsheets](/open-data), I've started thinking
 that we can just figure out the metadata given an ordinary CSV file.
-Today, I explain how I identified unique indices in a bunch of spreadsheets,,
+Today, I explain how I identified unique indices in a bunch of spreadsheets,
 and then I encourage you to do something cool with the resulting graph.
 
 ## Collecting the spreadsheets
+I used all of the spreadsheets in all of the [OpenDataSoft](https://opendatasoft.com)
+catalogs that I knew about. The process for downloading them is reasonably
+similar to the process for any other data catalog software, and it's explained
+[here]().
+
+
 
 ## Too big for CSV!?
 Here's an error I came across when parsing [this CSV file](http://public.opendatasoft.com/explore/dataset/scisf_housing_affordability_gap_by_neighborhood_san_francisco_ca/download?format=csv)
