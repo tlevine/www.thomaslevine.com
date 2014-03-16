@@ -61,3 +61,13 @@ It turns out that that field contains some larger geojson (I think?) features
 and represented in OpenDataSoft as having a "geom_{}" type. Rather than dealing
 with this in a smart way, I just ignored all spreadsheets containing "geom_{}"
 types.
+
+## Finding the unique keys
+My approach for finding the unique keys in a spreadsheet is explained
+below and is codified in the
+[https://pypi.python.org/pypi/special_snowflake](special_snowflake) package.
+
+### Choosing candidates
+
+
+### Checking whether each candidate index is unique
