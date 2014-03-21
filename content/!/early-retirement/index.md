@@ -44,6 +44,8 @@ I've also been making money myself. About $XXX of my savings
 can be attributed to my own earnings, and I'm presently making
 $XXX.
 
+## Immediate life plans
+
 ## What to do with the money I can't spend
 I want to give grants of the following format.
 
