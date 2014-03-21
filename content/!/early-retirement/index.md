@@ -32,3 +32,16 @@ thoughts about housing
 alcohal, weed, cigarettes, coffee, tea
 
 ## Assets
+My parents saved money for me to go to college, and I only
+spent half of that. I'd rather not put the remaining money
+to ordinary living expenses, but I'm comfortable putting it
+towards schooling for a child, should I have one. If we assume
+an inflation-adjusted interest rate of 5% per year, this money
+will triple in 25 years, so it should be more than enough to
+put someone through college
+
+
+## What to do with the money I can't spend
+I want to give grants of the following format.
+
+Random person, low, for life until making money
