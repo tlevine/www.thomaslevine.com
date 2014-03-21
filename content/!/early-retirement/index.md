@@ -38,8 +38,11 @@ to ordinary living expenses, but I'm comfortable putting it
 towards schooling for a child, should I have one. If we assume
 an inflation-adjusted interest rate of 5% per year, this money
 will triple in 25 years, so it should be more than enough to
-put someone through college
+put someone through college.
 
+I've also been making money myself. About $XXX of my savings
+can be attributed to my own earnings, and I'm presently making
+$XXX.
 
 ## What to do with the money I can't spend
 I want to give grants of the following format.
