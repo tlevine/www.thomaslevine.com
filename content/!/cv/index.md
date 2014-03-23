@@ -20,6 +20,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 ## Awards
 * DataKind [Data Hero](http://www.datakind.org/featuredvolunteers/thomas-levine/)
 * National Science Graduate Research Fellowship Program honorable mention
+* Enigma Fellow
 
 ## Press
 * Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
@@ -58,9 +59,15 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Screen-scraping workshop, [The Big CLean 2012](http://bigclean.techlib.cz/en/805-workshop/).
 * Data-Driven Music for Big Data Analysis, PyData 2013.
     ([video](https://vimeo.com/79859345))
-* 100,000 open data across 100 portal, NYC Open Data.
+* What I learned from 100,000 open data across 100 portal, NYC Open Data.
     ([non-slides](http://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/))
 * Data Scientist Panel, [data io](http://www.meetup.com/data-io/events/109303752/), March 21, 2013
+* Statistics with Doodles, 
+* Data Science Roundtable, BrightTalk
+* Data music videos and data gastronomification for big data analysis, Strata 2014
+* Berekely RUG
+* OpenAustin
+* Free Software Kosovo
 
 ## Short courses I've taught
 * NICAR 2012
@@ -70,6 +77,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * ScraperWiki Data Camp DC
 * The Big Clean
 * [Statistics through doodles](/!/statistics-with-doodles-sudoroom)
+* Hacks/Hackers DC
 
 ## Invited and reviewed articles
 * Thomas Levine (2008). Effect of the number pad on mousing location. Human Factors and Ergonomics Society Annual Meeting Proceedings, 52, 1307-1311.
@@ -97,16 +105,25 @@ Hunter R. Rawlings III Presidential Research Scholar
 * [Open data licensing](/!/open-data-licensing)
 
 ## Notable software
-* [OpenPrism](http://openprism.thomaslevine.com)
-* [DumpTruck](https://github.com/scraperwiki/dumptruck)
-* [Urchin](https://github.com/scraperwiki/urchin)
-* [My website](https://github.com/tlevine/www.thomaslevine.com)
+I've written quite a lot of software. Here are some free software projects that lots of people seem to use.
+
+* [OpenPrism](http://openprism.thomaslevine.com) has become the defacto standard site for searching for United States government data.
+* [DumpTruck](https://github.com/scraperwiki/dumptruck) is a light, Python-style interface to SQLite3.
+* [Urchin](https://github.com/scraperwiki/urchin) is a test framework for shell.
+* People seem to like my website's [source code](https://github.com/tlevine/www.thomaslevine.com).
+* special_snowflake
+* pickle_warehouse
+* browserify-fs ?
+* treasury.io
+* grn
+* scraperwiki
+* mix
 
 ## Installations
 * Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
 * Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition), Eyebeam.
 
-## Long-term gigs
+## Consulting work
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
     where I helped design and build data processing systems and infrastructures.
     I also taught courses on the cleaning and analysis of data. (2012)
@@ -125,3 +142,7 @@ Hunter R. Rawlings III Presidential Research Scholar
     and taught the first class of students. (2013)
 * As part of the hacker collective [csv soundsystem](http://csvsoundsystem.com).
     I did engineering and product management on [treasury.io](http://treasury.io). (2013)
+* At present, I'm developing large-scale data-acquisition systems for [Vy Capital](http://vycapital.com).
+    We're using these systems to collect data about the growth of companies.
+* As a fellow at Enigma, I am conducting my spreadsheet research and advising
+    Enigma about issues relating to the scaling of their product.
