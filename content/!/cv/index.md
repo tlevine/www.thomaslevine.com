@@ -23,6 +23,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Enigma Fellow
 
 ## Press
+
 * Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
 * Mariano Blejman (2012). [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html). Página 12.
 * Meredith Hoffman (2013). [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets). DNA Info.
