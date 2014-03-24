@@ -1,5 +1,5 @@
 ---
-title: Cool things happen when you look at lots of spreadsheets at once
+title: Cool things when you look at lots of spreadsheets at once
 created_at: 2014-02-24
 kind: article
 tags: ['open-data']
@@ -7,9 +7,9 @@ twitter_image: unsilo.png
 facebook_image: unsilo.png
 description: A whirlwind tour of my studies about open data
 ---
-Here are some materials for
-[my talk at Open Austin](),
-but they're written in normal language, so they'll probably serve as a decent summary
+Here are some materials for my talk at
+[Open Austin](http://www.open-austin.org/).
+They're written in normal language, so they'll probably serve as a decent summary
 of my work thus far to people who are reading this on the internet.
 
 ## Before we start: Why I can be here.
