@@ -12,8 +12,6 @@ I doodled some statistics
 [last night](http://www.meetup.com/NYC-Machine-Learning/events/170546362/),
 with some alarming breaks for non-fires!
 
-![Beginning to draw covariance](doodle.png)
-
 ## Materials
 Here are the
 [slides](https://raw.githubusercontent.com/tlevine/statistics-doodles/master/doodles.pdf),
