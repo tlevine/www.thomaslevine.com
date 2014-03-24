@@ -56,9 +56,6 @@ header, footer, #main
 span.home-char
   display: none
 
-.logo
-  width: 100%
-
 // Links ================================================= //
 
 a, a:visited, a:hover, a:focus
@@ -120,11 +117,14 @@ nav
 // The calling card
 .business-card
   @extend .base-big-card
+  height: $calling-card-short
   .words > a
     display: block
 
   .logo
     margin-top: 1 * $square
+    width: 4 * $square
+    display: inline
 
 .explain-home-page
   @extend .base-big-card
@@ -317,14 +317,6 @@ hr
     width: $calling-card-long
     text-align: left
 
-  .business-card
-    .logo
-      width: 5 * $square
-      float: left
-      margin:
-        left: auto
-        right: auto
-
   nav, #categories
     display: block
     height: ($topic-card-width + 1) * $square
@@ -377,4 +369,7 @@ hr
       text-align: left
 
   @page
-    margin: 0pt auto
+    margin: 48pt 32pt
+
+  article
+    @include lean
