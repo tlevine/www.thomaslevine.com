@@ -1,5 +1,5 @@
 ---
-title: Cool things when you look at lots of spreadsheets at once
+title: Talking at Open Austin
 created_at: 2014-02-24
 kind: article
 tags: ['open-data']
@@ -17,6 +17,8 @@ of my work thus far to people who are reading this on the internet.
 https://github.com/tlevine/undervalued-sublets
 
 ## Outline of the talk
+
+**Cool things happen when you look at lots of spreadsheets a once**.
 
 Introduction
 
