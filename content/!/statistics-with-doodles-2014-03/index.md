@@ -5,17 +5,19 @@ kind: article
 description: People usually explain statistics with symbols, but I prefer colorful drawings.
 tweet_text: Statistics with doodles and fire alarms http://thomaslevine.com/!/statistics-with-doodles-2014-03/
 facebook_text: Statistics with doodles and fire alarms http://thomaslevine.com/!/statistics-with-doodles-2014-03/
-twitter_image: doodle.jpg
-facebook_image: doodle.jpg
+twitter_image: doodle.png
+facebook_image: doodle.png
 ---
 I doodled some statistics
 [last night](http://www.meetup.com/NYC-Machine-Learning/events/170546362/),
 with some alarming breaks for non-fires!
 
+![Beginning to draw covariance](doodle.png)
+
 ## Materials
 Here are the
 [slides](https://raw.githubusercontent.com/tlevine/statistics-doodles/master/doodles.pdf),
-and [here]https://raw.githubusercontent.com/tlevine/statistics-doodles/master/formulae.pdf)'s
+and [here](https://raw.githubusercontent.com/tlevine/statistics-doodles/master/formulae.pdf)'s
 a more conventional write-up of the concepts I discussed.
 The source codes for these two files are
 [here](https://github.com/tlevine/statistics-doodles/blob/master/doodles.r) and
