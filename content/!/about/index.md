@@ -5,12 +5,12 @@ title: About Thomas Levine
 
 <!-- http://www.nga.gov/exhibitions/2006/dada/cities/index.shtm -->
 Thomas Levine is a dada artist who
-[whimsically moves](https://github.com/tlevine/pal-public/blob/master/current)
+whimsically moves
 now that his apartment fits in a [small suitcase](/!/stuff-2014-02).
 He likes to sleep, and he's usually curious about why people do things.
 He has recently been playing [music](/sensing-data), teaching data things,
 and studying [how people share spreadsheets](/open-data).
-His favorite color is [pink](http://thomaslevine.com/img/me-420.png).
+His favorite color is [pink](/img/me-420.png).
 
 ## History
 Playing with computers since he was young, Thomas eventually developed back and
