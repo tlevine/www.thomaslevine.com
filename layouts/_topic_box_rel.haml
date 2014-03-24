@@ -1,0 +1,7 @@
+%strong
+  #{topic}
+%ul
+  - links.each do |link|
+    %li
+      %a{ :href => "#{link[1]}", :rel => 'me'}
+        #{link[0]}
