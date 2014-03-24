@@ -1,3 +1,13 @@
+---
+title: Statistics with Doodles
+created_at: 2014-03-21
+kind: article
+description: People usually explain statistics with symbols, but I prefer colorful drawings.
+tweet_text: Statistics with doodles and fire alarms http://thomaslevine.com/!/statistics-with-doodles-2014-03/
+facebook_text: Statistics with doodles and fire alarms http://thomaslevine.com/!/statistics-with-doodles-2014-03/
+twitter_image: doodle.jpg
+facebook_image: doodle.jpg
+---
 I doodled some statistics
 [last night](http://www.meetup.com/NYC-Machine-Learning/events/170546362/),
 with some alarming breaks for non-fires!
