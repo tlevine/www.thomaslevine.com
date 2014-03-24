@@ -6,22 +6,7 @@
     .words
       %a{ :rel => "me", :href => '/'} thomas levine
       %a{ :rel => "me", :href => 'mailto:_@thomaslevine.com' } _@thomaslevine.com
-      %a{ :rel => "me", :href => 'sms:+19145741328' } +1 914 574 1328
-        
-      .social
-        %a.elsewhere{ :rel => "me", :href => "http://facebook.com/perluette"}
-          fb
-        %a.elsewhere{ :rel => "me", :href => "https://twitter.com/thomaslevine"}
-          tw
-        %a.elsewhere{ :rel => "me", :href => "https://www.linkedin.com/in/tlevine"}
-          li
-        %a.elsewhere{ :rel => "me", :href => "http://stackexchange.com/users/176493"}
-          se
-        %a.elsewhere{ :rel => "me", :href => "https://plus.google.com/112237825767532686869"}
-          g+
-        -#%a.elsewhere{ :rel => "me", :href => "https://joindiaspora.com/u/tlevine"}
-          d* 
-        %a.elsewhere{ :rel => "me", :href => 'https://github.com/tlevine' } gh
+      %a{ :rel => "me", :href => 'sms:+19145741328' } +1 914 574 1328    
     .logo
       %img{ :src => "/img/pink_hat_icon-200.png", :alt => "Tom's hat" }
 
@@ -30,8 +15,14 @@
   into boxes of two to five things.
 
 #links.clearfix
-  -#repositories.link-group
-    = render('_topic_box', :topic => 'repositories', :links => [['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
+  #surveilling.link-group
+    = render('_topic_box_rel', :topic => 'surveil me', :links => [['facebook',"http://facebook.com/perluette"],['twitter',"https://twitter.com/thomaslevine"],['linkedin', "https://www.linkedin.com/in/tlevine"], ['google', "https://plus.google.com/112237825767532686869"]])
+  
+  #software-repositories.link-group
+    = render('_topic_box_rel', :topic => 'repositories', :links => [['github', 'https://github.com/tlevine'], ['bitbucket', "https://bitbucket.org/tlevine"], ['scraperwiki', "https://scraperwiki.com/profiles/tlevine"], ['gitorious', "https://gitorious.org/tlevine"]])
+
+  -#questions.link-group
+      %a.elsewhere{ :rel => "me", :href => "http://stackexchange.com/users/176493"}
 
   #serious.link-group
     = render('_topic_box', :topic => 'serious', :links => [['microfinance', '/!/mix-data-scraping/'], ['wetlands', 'http://scott.thomaslevine.com'], ['occupy', 'http://occupydatanyc.org/2013/03/14/external-stresses-mediate-an-association-between-negative-perception-of-activism-and-a-decision-never-to-participate/'], ['tahrir', "http://blog.scraperwiki.com/2011/11/25/mapping-tahrirsupplies/"]])
