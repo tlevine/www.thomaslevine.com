@@ -119,7 +119,7 @@ Here are some audiences for which I've given it.
 * Thomas Levine (2014). Open data had better be data-driven. Open Innovation, winter 2014.
 
 ## Other notable articles
-* Thomas Levine (2011). [Unsanitary conditions in the Risley Hall bathrooms](http://thomaslevine.com(!/risley-toilets/)
+* Thomas Levine (2011). [Unsanitary conditions in the Risley Hall bathrooms](http://thomaslevine.com/!/risley-toilets/)
 * Thomas Levine (2012). [Beaglebone power supplies](http://thomaslevine.com(!/beaglebone-power)
 * Thomas Levine (2013). [How I parse PDF files](http://thomaslevine.com(!/parsing-pdfs)
 * Thomas Levine (2013). [R Spells for Data wizards](http://thomaslevine.com(!/r-spells-for-data-wizards)
