@@ -88,7 +88,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * March 20, 2014. From Hadoop to Visualization. BrightTalk Data Science Roundtable.
     [video](https://www.brighttalk.com/webcast/9059/103723).
 * March 20, 2014. Statistics with Doodles. [NYC Machine Learning](http://www.meetup.com/NYC-Machine-Learning/events/170546362/).
-    [slides and materials](http://thomaslevine.com/!/statistics-with-doodles-2014-03)
+    [slides and materials](http://thomaslevine.com/!/statistics-with-doodles-2014-03).
 * April 2, 2014. [Parsing PDFs](http://www.meetup.com/Data-Wranglers-DC/events/160592492/).
     Data Wranglers DC.
 * April 3, 2014. Advanced web scraping. Hacks/Hackers DC.
