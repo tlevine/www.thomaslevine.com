@@ -23,7 +23,6 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Enigma Fellow
 
 ## Press
-
 * Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
 * Mariano Blejman (2012). [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html). Página 12.
 * Meredith Hoffman (2013). [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets). DNA Info.
@@ -73,24 +72,26 @@ Hunter R. Rawlings III Presidential Research Scholar
     [Strata 2014](http://strataconf.com/strata2014/).
     ([slides](http://cdn.oreillystatic.com/en/assets/1/event/105/Music%20Videos%20and%20Gastronomification%20for%20Big%20Data%20Analysis%20Presentation.pdf)
     and [video](http://mediaservice.mirror-image.com/videos/7c2ae7a293147/assets/7938403/file.mp4))
-* Berekely RUG
-* OpenAustin
+* February 18, 2014. Data cleaning. Berekely RUG.
+* February 24, 2014. Cool things happen when you look at lots of spreadsheets. OpenAustin.
 * March 20, 2014. From Hadoop to Visualization. BrightTalk Data Science Roundtable.
     ([video](https://www.brighttalk.com/webcast/9059/103723)).
 * March 20, 2014. Statistics with Doodles. [NYC Machine Learning](http://www.meetup.com/NYC-Machine-Learning/events/170546362/).
     ([slides and materials](http://thomaslevine.com/!/statistics-with-doodles-2014-03))
 * April 2, 2014. [Parsing PDFs](http://www.meetup.com/Data-Wranglers-DC/events/160592492/).
     Data Wranglers DC.
+* April 3, 2014. Advanced web scraping. Hacks/Hackers DC.
 * October 2014 (tentative). Title to be determined. Free Software Kosovo.
 
-## Short courses I've taught
+## Short courses on web scraping
+I often give short courses on collecting data on the internet.
+Here are some audiences for which I've given it.
+
 * NICAR 2012
 * Cindy Royal Advanced Online Media
 * News Hack Day SF
 * ScraperWiki Data Camp New York
 * ScraperWiki Data Camp DC
-* The Big Clean
-* Hacks/Hackers DC
 
 ## Invited and reviewed articles
 * Thomas Levine (2008). Effect of the number pad on mousing location. Human Factors and Ergonomics Society Annual Meeting Proceedings, 52, 1307-1311.
