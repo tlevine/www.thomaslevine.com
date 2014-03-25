@@ -22,17 +22,19 @@ to play the real-world game.
 <p class="printonly">+1 914 574 1328</p>
 
 ## Current engagements
-* [Vy Capital](http://vycapital.com) is a venture capital firm.
-    I'm developing large-scale data-acquisition systems
-    for them that collect data about the growth of companies.
-* [Enigma](https://enigma.io) collects a plethora of public
-    data and develops a product with which people search the data.
-    Enigma is sponsoring some of my spreadsheet research.
-    In addition, I am advising them about issues
-    relating to the scaling of their product.
-* [DataKind](http://datakind.org/) connects data scientists
-    to high impact social organizations. I regularly do assorted
-    data-related work and advising for them.
+[Vy Capital](http://vycapital.com) is a venture capital firm.
+I'm developing large-scale data-acquisition systems
+for them that collect data about the growth of companies.
+
+[Enigma](https://enigma.io) collects a plethora of public
+data and develops a product with which people search the data.
+Enigma is sponsoring some of my spreadsheet research.
+In addition, I am advising them about issues
+relating to the scaling of their product.
+
+[DataKind](http://datakind.org/) connects data scientists
+to high impact social organizations. I regularly do assorted
+data-related work and advising for them.
 
 ## Education
 Cornell University, Bachelor's of Science (May 2011)<br>
