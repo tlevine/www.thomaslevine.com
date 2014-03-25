@@ -100,7 +100,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 I often give short courses on collecting data on the internet.
 Here are some audiences for which I've given it.
 
-* NICAR 2012
+* National Institute for Computer-Assisted Reporting annual meeting 2012
 * Cindy Royal Advanced Online Media
 * News Hack Day SF
 * ScraperWiki Data Camp New York
