@@ -68,7 +68,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * July 20, 2013. Statistics with doodles.
   [Today I learned](https://sudoroom.org/wiki/Today_I_Learned#July_20:_Statistics_through_doodles:_Geometric_computations_of_fundamental_statistical_concepts)
   at [sudoroom](https://sudoroom.org).
-  [video and materials](http://thomaslevine.com(!/statistics-with-doodles-sudoroom).
+  [video and materials](http://thomaslevine.com/!/statistics-with-doodles-sudoroom).
 * August 23, 2013. Meta data science.
     [Socrata](http://www.socrata.com/) tech talk.
     [slides](https://github.com/tlevine/meta-data-science-socrata).
