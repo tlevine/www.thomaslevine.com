@@ -26,7 +26,7 @@ to play the real-world game.
 I'm developing large-scale data-acquisition systems
 for them that collect data about the growth of companies.
 
-[Enigma](https://enigma.io) collects a plethora of public
+[Enigma](http://enigma.io) collects a plethora of public
 data and develops a product with which people search the data.
 Enigma is sponsoring some of my spreadsheet research.
 In addition, I am advising them about issues
