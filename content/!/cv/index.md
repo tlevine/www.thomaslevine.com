@@ -12,17 +12,12 @@ of don't like doing that, but I'm curious about what it would sound like.
 And I'm applying to a graduate school (April 1, 2014). So here I go.
 {:.webonly}
 
-<p class="vcard printonly">
-  <span class="n">
-    <span class="given-name">Thomas</span>
-    <abbr class="additional-name">Kai</abbr>
-    <span class="family-name">Levine</span>
-  </span>
-  <a rel="me" class="url" href="http://thomaslevine.com">thomaslevine.com</a>
-  <a rel="me" class="email" href="mailto:_@thomaslevine.com">_@thomaslevine.com</a>
-  <a rel="me" href="sms:+19145741328" class="tel">+1 914 574 1328</a>
-  <img class="photo" src="/img/me.png"/>
-</p>
+<p class="printonly">Thomas Kay Levine</p>
+<p class="printonly">thomaslevine.com</p>
+<p class="printonly">_@thomaslevine.com</p>
+<p class="printonly">+1 914 574 1328</p>
+
+![]("/img/me.png"){:.wide.printonly}
 
 ## Current engagements
 * [Vy Capital](http://vycapital.com) is a venture capital firm.
