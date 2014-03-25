@@ -12,6 +12,10 @@ of don't like doing that, but I'm curious about what it would sound like.
 And I'm applying to a graduate school (April 1, 2014). So here I go.
 {:.webonly}
 
+If you dare read this, keep in mind that I'm inflating things in order
+to play the real-world game.
+{:.webonly}
+
 <p class="printonly">Thomas Kay Levine</p>
 <p class="printonly">thomaslevine.com</p>
 <p class="printonly">_@thomaslevine.com</p>
