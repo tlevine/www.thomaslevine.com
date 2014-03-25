@@ -16,7 +16,7 @@ If you dare read this, keep in mind that I'm inflating things in order
 to play the real-world game.
 {:.webonly}
 
-<p class="printonly">Thomas Kay Levine</p>
+<p class="printonly">Thomas Kai Levine</p>
 <p class="printonly">thomaslevine.com</p>
 <p class="printonly">_@thomaslevine.com</p>
 <p class="printonly">+1 914 574 1328</p>
