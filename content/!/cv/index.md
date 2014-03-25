@@ -143,8 +143,6 @@ I've written quite a lot of software. Here are some free software projects that 
 * The [NYC Crime Map Data API scraper](http://thomaslevine.com/!/nyc-crime-map)
   collects and reformats data released by the New York City Police Department.
 
-## Notable videos
-
 ## Art Installations
 
 * Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
