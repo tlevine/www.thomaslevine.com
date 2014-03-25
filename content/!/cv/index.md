@@ -12,6 +12,18 @@ of don't like doing that, but I'm curious about what it would sound like.
 And I'm applying to a graduate school (April 1, 2014). So here I go.
 </div>
 
+<div class="vcard">
+  <span class="n">
+    <span class="given-name">Thomas</span>
+    <abbr class="additional-name">Kai</abbr>
+    <span class="family-name">Levine</span>
+  </span>
+  <img class="photo" src="http://thomaslevine.com/img/me.jpg"/>
+  <a rel="me" class="url" href="http://thomaslevine.com">thomaslevine.com</a><br/>
+  <a rel="me" class="email" href="mailto:_@thomaslevine.com">_@thomaslevine.com</a><br/>
+  <a rel="me" href="sms:+19145741328" class="tel">+1 914 574 1328</a><br/>
+</div>
+
 ## Current engagements
 * [Vy Capital](http://vycapital.com) is a venture capital firm.
     I'm developing large-scale data-acquisition systems
