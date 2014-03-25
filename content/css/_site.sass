@@ -374,7 +374,11 @@ hr
       text-align: left
 
   @page
-    margin: 48pt 32pt
+    margin:
+      top: 4 * 12pt
+      bottom: 6 * 12pt
+      left: 3 * 12pt
+      right: 3 * 12pt
 
   article
     margin: 0 !important
@@ -388,3 +392,6 @@ hr
 
   .vcard > *
     text-align: center
+
+  h1, h2, h3, h4, h5, h6
+    page-break-after: avoid
