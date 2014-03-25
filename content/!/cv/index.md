@@ -5,15 +5,14 @@ I wonder what the point of a CV is. If I'm not doing the conventional
 academic thing, I don't really need the typical CV. But why is it desireable?
 To some degree, it's a summary of a person. My website is also a summary
 of me too, but it ignores some typical contents of a CV.
-{:.dontprint}
+{:.webonly}
 
-<p class="dontprint">
 I think a CV is intended to make someone sound impressive. I sort
 of don't like doing that, but I'm curious about what it would sound like.
 And I'm applying to a graduate school (April 1, 2014). So here I go.
-</p>
+{:.webonly}
 
-<p class="vcard">
+<p class="vcard printonly">
   <span class="n">
     <span class="given-name">Thomas</span>
     <abbr class="additional-name">Kai</abbr>

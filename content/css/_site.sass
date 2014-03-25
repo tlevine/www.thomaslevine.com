@@ -59,6 +59,9 @@ span.home-char
 .vcard > *
   display: block
 
+.printonly
+  display: none
+
 // Links ================================================= //
 
 a, a:visited, a:hover, a:focus
@@ -377,8 +380,11 @@ hr
     margin: 0 !important
     padding: 0 !important
 
-  .dontprint
+  .webonly
     display: none
+
+  .printonly
+    display: block
 
   .vcard > *
     text-align: center
