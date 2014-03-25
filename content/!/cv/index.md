@@ -64,29 +64,29 @@ Hunter R. Rawlings III Presidential Research Scholar
     New York University Association for Computing Machinery chapter.
 * July 2, 2013. Multisensory data.
     [Zipfian Academy](http://zipfianacademy.com) guest lecture.
-    [slides](https://github.com/tlevine/multisensory-data-zipfian)
+    [slides](https://github.com/tlevine/multisensory-data-zipfian).
 * July 20, 2013. Statistics with doodles.
   [Today I learned](https://sudoroom.org/wiki/Today_I_Learned#July_20:_Statistics_through_doodles:_Geometric_computations_of_fundamental_statistical_concepts)
   at [sudoroom](https://sudoroom.org).
-  [video and materials](http://thomaslevine.com(!/statistics-with-doodles-sudoroom)
+  [video and materials](http://thomaslevine.com(!/statistics-with-doodles-sudoroom).
 * August 23, 2013. Meta data science.
     [Socrata](http://www.socrata.com/) tech talk.
-    [slides](https://github.com/tlevine/meta-data-science-socrata)
+    [slides](https://github.com/tlevine/meta-data-science-socrata).
 * September 16, 2013. Social Media Data as a Public Data Resource.
   [Association of Public Data Users, 2013](http://apdu.org/events/conference/apdu-2013/).
-    [slides](https://github.com/tlevine/social-media-public-data)
+    [slides](https://github.com/tlevine/social-media-public-data).
 * November 8, 2013. Data-Driven Music for Big Data Analysis, PyData 2013.
-    [video](https://vimeo.com/79859345)
+    [video](https://vimeo.com/79859345).
 * December 2, 2013. What I learned from 100,000 open data across 100 portal, NYC Open Data.
-    [non-slides](http://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/)
+    [non-slides](http://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/).
 * February 12, 2013. Data music videos and data gastronomification for big data analysis.
     [Strata 2014](http://strataconf.com/strata2014/).
     [slides](http://cdn.oreillystatic.com/en/assets/1/event/105/Music%20Videos%20and%20Gastronomification%20for%20Big%20Data%20Analysis%20Presentation.pdf)
-    and [video](http://mediaservice.mirror-image.com/videos/7c2ae7a293147/assets/7938403/file.mp4)
+    and [video](http://mediaservice.mirror-image.com/videos/7c2ae7a293147/assets/7938403/file.mp4).
 * February 18, 2014. Data cleaning. Berekely RUG.
 * February 24, 2014. Cool things happen when you look at lots of spreadsheets. OpenAustin.
 * March 20, 2014. From Hadoop to Visualization. BrightTalk Data Science Roundtable.
-    [video](https://www.brighttalk.com/webcast/9059/103723)
+    [video](https://www.brighttalk.com/webcast/9059/103723).
 * March 20, 2014. Statistics with Doodles. [NYC Machine Learning](http://www.meetup.com/NYC-Machine-Learning/events/170546362/).
     [slides and materials](http://thomaslevine.com/!/statistics-with-doodles-2014-03)
 * April 2, 2014. [Parsing PDFs](http://www.meetup.com/Data-Wranglers-DC/events/160592492/).
