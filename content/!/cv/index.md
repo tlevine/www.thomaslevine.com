@@ -126,12 +126,12 @@ Here are some audiences for which I've given it.
 These are articles on my own website that many people have read and cited.
 
 * Thomas Levine (2011). [Unsanitary conditions in the Risley Hall bathrooms](http://thomaslevine.com/!/risley-toilets/)
-* Thomas Levine (2012). [Beaglebone power supplies](http://thomaslevine.com(!/beaglebone-power)
-* Thomas Levine (2013). [How I parse PDF files](http://thomaslevine.com(!/parsing-pdfs)
-* Thomas Levine (2013). [R Spells for Data wizards](http://thomaslevine.com(!/r-spells-for-data-wizards)
-* Thomas Levine (2013). [Socrata summary](http://thomaslevine.com(!/socrata-summary)
-* Thomas Levine (2013). [Socrata products](http://thomaslevine.com(!/socrata-products)
-* Thomas Levine (2013). [Open data licensing](http://thomaslevine.com(!/open-data-licensing)
+* Thomas Levine (2012). [Beaglebone power supplies](http://thomaslevine.com/!/beaglebone-power)
+* Thomas Levine (2013). [How I parse PDF files](http://thomaslevine.com/!/parsing-pdfs)
+* Thomas Levine (2013). [R Spells for Data wizards](http://thomaslevine.com/!/r-spells-for-data-wizards)
+* Thomas Levine (2013). [Socrata summary](http://thomaslevine.com/!/socrata-summary)
+* Thomas Levine (2013). [Socrata products](http://thomaslevine.com/!/socrata-products)
+* Thomas Levine (2013). [Open data licensing](http://thomaslevine.com/!/open-data-licensing)
 
 ## Notable software
 I've written quite a lot of software. Here are some free software projects that a lot of people seem to use.
