@@ -1,28 +1,29 @@
 ---
 title: Curriculum vitae
 ---
-<div class="dontprint">
 I wonder what the point of a CV is. If I'm not doing the conventional
 academic thing, I don't really need the typical CV. But why is it desireable?
 To some degree, it's a summary of a person. My website is also a summary
 of me too, but it ignores some typical contents of a CV.
+{:.dontprint}
 
+<p class="dontprint">
 I think a CV is intended to make someone sound impressive. I sort
 of don't like doing that, but I'm curious about what it would sound like.
 And I'm applying to a graduate school (April 1, 2014). So here I go.
-</div>
+</p>
 
-<div class="vcard">
+<p class="vcard">
   <span class="n">
     <span class="given-name">Thomas</span>
     <abbr class="additional-name">Kai</abbr>
     <span class="family-name">Levine</span>
   </span>
-  <img class="photo" src="http://thomaslevine.com/img/me.jpg"/>
   <a rel="me" class="url" href="http://thomaslevine.com">thomaslevine.com</a><br/>
   <a rel="me" class="email" href="mailto:_@thomaslevine.com">_@thomaslevine.com</a><br/>
   <a rel="me" href="sms:+19145741328" class="tel">+1 914 574 1328</a><br/>
-</div>
+  <img class="photo" src="http://thomaslevine.com/img/me.jpg"/>
+</p>
 
 ## Current engagements
 * [Vy Capital](http://vycapital.com) is a venture capital firm.
