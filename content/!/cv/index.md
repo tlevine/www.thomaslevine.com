@@ -155,7 +155,7 @@ I've written quite a lot of software. Here are some free software projects that 
 ## Art Installations
 
 * Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
-* Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition), Eyebeam.
+* Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition). Eyebeam.
 
 ## Prior full-time employment
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
