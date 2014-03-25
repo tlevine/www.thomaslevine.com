@@ -16,10 +16,11 @@ If you dare read this, keep in mind that I'm inflating things in order
 to play the real-world game.
 {:.webonly}
 
-<p class="printonly">Thomas Kai Levine</p>
-<p class="printonly">thomaslevine.com</p>
-<p class="printonly">_@thomaslevine.com</p>
-<p class="printonly">+1 914 574 1328</p>
+Thomas Kai Levine<br/>
+thomaslevine.com<br/>
+_@thomaslevine.com<br/>
++1 914 574 1328
+{:.printonly}
 
 ## Current engagements
 [Vy Capital](http://vycapital.com) is a venture capital firm.
