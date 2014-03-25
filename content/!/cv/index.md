@@ -17,7 +17,7 @@ And I'm applying to a graduate school (April 1, 2014). So here I go.
 <p class="printonly">_@thomaslevine.com</p>
 <p class="printonly">+1 914 574 1328</p>
 
-![]("/img/me.png"){:.wide.printonly}
+![](/img/me.png){:.wide.printonly}
 
 ## Current engagements
 * [Vy Capital](http://vycapital.com) is a venture capital firm.
@@ -103,6 +103,7 @@ Here are some audiences for which I've given it.
 * ScraperWiki Data Camp DC
 
 ## Invited and reviewed articles
+* csv soundsystem (2013). [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/). OpenNews Source Blog.
 * Thomas Levine (2008). Effect of the number pad on mousing location. Human Factors and Ergonomics Society Annual Meeting Proceedings, 52, 1307-1311.
 * Thomas Levine (2009). How do people position keyboards?. International Ergonomics Association World Congress Proceedings, 17.
 * Thomas Levine (2012).
@@ -112,7 +113,6 @@ Here are some audiences for which I've given it.
     [The Hovering Cycle](http://www.phlush.org/2013/02/23/the-hovering-cycle/).
     Phlush Blog.
 * Thomas Levine (2013). [Searching lots of inconveniently formatted files at once](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once). Community Boost\_r Resources.
-* csv soundsystem (2013). [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/). OpenNews Source Blog.
 * Thomas Levine (2013). [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/). Socrata.
 * Thomas Levine (2013). [Two meanings of "variable".](http://www.datakind.org/blog/multiple-meanings-of-the-word-variable/). DataKind Blog.
 * Thomas Levine (2013). [What's in a table?](http://www.datakind.org/blog/whats-in-a-table/). DataKind Blog.
@@ -128,7 +128,7 @@ Here are some audiences for which I've given it.
 * Thomas Levine (2013). [Open data licensing](http://thomaslevine.com(!/open-data-licensing)
 
 ## Notable software
-I've written quite a lot of software. Here are some free software projects that people seem to use.
+I've written quite a lot of software. Here are some free software projects that a lot of people seem to use.
 
 * [OpenPrism](http://openprism.thomaslevine.com) has become the defacto standard site for searching for United States government data.
 * [DumpTruck](https://github.com/scraperwiki/dumptruck) is a light, Python-style interface to SQLite3.
@@ -155,24 +155,6 @@ I've written quite a lot of software. Here are some free software projects that 
 * Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
 * Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition), Eyebeam.
 
-## Press about me
-
-* Sydney Arkin (2008). [Inside Risley's Castle](http://cornellsun.com/node/33124). Cornell Daily Sun.
-* Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
-* Teresa Bouza (2013). [Conversation with Tom Levine](http://www.youtube.com/watch?v=wX7IedZCTSo).
-* Mariano Blejman (2012). [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html). Página 12.
-* (2012). [Geek Philanthropy: Data huggers](http://www.economist.com/news/international/21564831-innovative-charity-rallies-geeks-good-cause). Economist.
-* Emily Greenberg (2010). [The Spirit of the Arts](http://cornellsun.com/node/41218). Cornell Daily Sun.
-* Meredith Hoffman (2013). [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets). DNA Info.
-* Eric Johnson (2012). [ScraperWiki Tries to Turn Journalists Into Hackers](http://allthingsd.com/20120623/scraperwiki-tries-to-turn-journalists-into-hackers/)
-* Kathy Kiely (2013). [Datafest project opens Uncle Sam's daily ledger](http://sunlightfoundation.com/blog/2013/07/25/datafest-project-opens-uncle-sams-daily-ledger/). Sunlight Foundation.
-* Caroline O'Donovan (2014). [Making government spending data more legible](http://www.niemanlab.org/2014/01/making-government-spending-data-more-legible/). Nieman Journalism Lab.
-* Anna Lena Schiller and Lorenz Matzat Philip Banse (2013). [Datenschau 008](http://www.kuechenstud.io/datenschau/podcast/ds008/). Datenschau.
-* David Smith (2009). [R makes a T-shirt](http://blog.revolutionanalytics.com/2009/06/r-makes-a-tshirt.html). Revolution Analytics.
-* Daniel Sinker (2013). [OpenNews: Code Sprints do some spring cleaning on data](http://dansinker.com/post/49856260511/opennews-code-sprints-do-some-spring-cleaning-on-data).
-* Melissa Smolensky (2013). [Chartio Takes Over the Big Apple](http://chartio.com/blog/2013/03/chartiosheadstonyc). Chartio.
-* [Time capsule to be opened in 2065 preserves Cornell history](http://news.cornell.edu/stories/2012/11/time-capsule-preserves-cornell-history-until-2065). Cornell University.
-
 ## Prior full-time employment
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
     where I helped design and build data processing systems and infrastructures.
@@ -192,5 +174,5 @@ I've written quite a lot of software. Here are some free software projects that 
     [Gulf Restoration Network](https://healthygulf.org/). (2012--present)
 * I conducted early data engineering on the [DataPad](http://datapad.io)
     data analysis product. (2013)
-* As part of the hacker collective [csv soundsystem](http://csvsoundsystem.com).
+* As part of [csv soundsystem](http://csvsoundsystem.com),
     I did engineering and product management on [treasury.io](http://treasury.io). (2013)
