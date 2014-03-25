@@ -55,19 +55,26 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Meta data science,
     [Socrata](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/),
     August 23, 2014. ([slides](https://github.com/tlevine/meta-data-science-socrata))
-* [Association of Public Data Users, 2013](http://apdu.org/events/conference/apdu-2013/).
+* July 20, 2013. Statistics with doodles.
+  [Today I learned](https://sudoroom.org/wiki/Today_I_Learned#July_20:_Statistics_through_doodles:_Geometric_computations_of_fundamental_statistical_concepts)
+  at [sudoroom](https://sudoroom.org).
+  ([video and materials](http://thomaslevine.com(!/statistics-with-doodles-sudoroom))
+* September 16, 2013. Social Media Data as a Public Data Resource.
+  [Association of Public Data Users, 2013](http://apdu.org/events/conference/apdu-2013/).
     ([slides](https://github.com/tlevine/social-media-public-data))
-* Screen-scraping workshop, [The Big CLean 2012](http://bigclean.techlib.cz/en/805-workshop/).
+* Screen-scraping workshop. [The Big Clean 2012](http://bigclean.techlib.cz/en/805-workshop/).
 * Data-Driven Music for Big Data Analysis, PyData 2013.
     ([video](https://vimeo.com/79859345))
 * What I learned from 100,000 open data across 100 portal, NYC Open Data.
     ([non-slides](http://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/))
-* Data Scientist Panel, [data io](http://www.meetup.com/data-io/events/109303752/), March 21, 2013
-* Statistics with Doodles, 
-* Data Science Roundtable, BrightTalk
+* Data Scientist Panel. [data io](http://www.meetup.com/data-io/events/109303752/), March 21, 2013.
 * Data music videos and data gastronomification for big data analysis, Strata 2014
 * Berekely RUG
 * OpenAustin
+* March 20, 2013. Statistics with Doodles. [NYC Machine Learning](http://www.meetup.com/NYC-Machine-Learning/events/170546362/).
+    ([slides and materials](http://thomaslevine.com/!/statistics-with-doodles-2014-03))
+* March 20, 2013. From Hadoop to Visualization. BrightTalk Data Science Roundtable.
+    ([video](https://www.brighttalk.com/webcast/9059/103723)).
 * Free Software Kosovo
 
 ## Short courses I've taught
@@ -77,7 +84,6 @@ Hunter R. Rawlings III Presidential Research Scholar
 * ScraperWiki Data Camp New York
 * ScraperWiki Data Camp DC
 * The Big Clean
-* [Statistics through doodles](/!/statistics-with-doodles-sudoroom)
 * Hacks/Hackers DC
 
 ## Invited and reviewed articles
@@ -89,7 +95,7 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Thomas Levine (2013).
     [The Hovering Cycle](http://www.phlush.org/2013/02/23/the-hovering-cycle/).
     Phlush Blog.
-* Thomas Levine (2013). [Searching lots of inconveniently formatted files at once](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once).
+* Thomas Levine (2013). [Searching lots of inconveniently formatted files at once](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once). Community Boost\_r Resources.
 * csv soundsystem (2013). [Introducing treasury.io](https://source.opennews.org/en-US/articles/introducing-treasuryio/). OpenNews Source Blog.
 * Thomas Levine (2013). [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/). Socrata.
 * Thomas Levine (2013). [Two meanings of "variable".](http://www.datakind.org/blog/multiple-meanings-of-the-word-variable/). DataKind Blog.
@@ -97,37 +103,49 @@ Hunter R. Rawlings III Presidential Research Scholar
 * Thomas Levine (2014). Open data had better be data-driven. Open Innovation, winter 2014.
 
 ## Other notable articles
-* [How I parse PDF files](/!/parsing-pdfs)
-* [Beaglebone power supplies](/!/beaglebone-power)
-* [Unsanitary conditions in the Risley Hall bathrooms](/!/risley-toilets/)
-* [R Spells for Data wizards](/!/r-spells-for-data-wizards)
-* [Socrata summary](/!/socrata-summary)
-* [Socrata products](/!/socrata-products)
-* [Open data licensing](/!/open-data-licensing)
+* Thomas Levine (2011). [Unsanitary conditions in the Risley Hall bathrooms](http://thomaslevine.com(!/risley-toilets/)
+* Thomas Levine (2012). [Beaglebone power supplies](http://thomaslevine.com(!/beaglebone-power)
+* Thomas Levine (2013). [How I parse PDF files](http://thomaslevine.com(!/parsing-pdfs)
+* Thomas Levine (2013). [R Spells for Data wizards](http://thomaslevine.com(!/r-spells-for-data-wizards)
+* Thomas Levine (2013). [Socrata summary](http://thomaslevine.com(!/socrata-summary)
+* Thomas Levine (2013). [Socrata products](http://thomaslevine.com(!/socrata-products)
+* Thomas Levine (2013). [Open data licensing](http://thomaslevine.com(!/open-data-licensing)
 
 ## Notable software
-I've written quite a lot of software. Here are some free software projects that lots of people seem to use.
+I've written quite a lot of software. Here are some free software projects that people seem to use.
 
 * [OpenPrism](http://openprism.thomaslevine.com) has become the defacto standard site for searching for United States government data.
 * [DumpTruck](https://github.com/scraperwiki/dumptruck) is a light, Python-style interface to SQLite3.
 * [Urchin](https://github.com/scraperwiki/urchin) is a test framework for shell.
-* People seem to like my website's [source code](https://github.com/tlevine/www.thomaslevine.com).
-* special_snowflake
-* pickle_warehouse
-* browserify-fs ?
-* treasury.io
-* grn
-* scraperwiki
-* mix
+* My website's [source code](https://github.com/tlevine/www.thomaslevine.com)
+    is quite popular.
+* [special_snowflake](https://pypi.python.org/pypi/special_snowflake)
+    detects unique keys in spreadsheets.
+* [pickle-warehouse](https://pypi.python.org/pypi/pickle-warehouse) acts like a
+    Python dictionary, but it saves things to disk.
+* [craigsgenerator](https://pypi.python.org/pypi/craigsgenerator) retrieves listings
+    from craigslist in a Pythonic way.
+* [treasury.io](http://treasury.io) provides daily data on the flows of money through
+    the United States treasury.
+* [Scott](https://github.com/tlevine/scott) is a system for obtaining and collaboratively
+    annotating information about the dredging and filling of wetlands.
+* [ScraperWiki](https://scraperwiki.com) provides tools for acquiring and analyzing data.
+* [South Africa Map of Financial Inclusion](http://maps.mixmarket.org/south-africa/)
+* The [NYC Crime Map Data API scraper](http://thomaslevine.com/!/nyc-crime-map)
+  collects and reformats data released by the New York City Police Department.
 
 ## Installations
 * Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
 * Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition), Eyebeam.
 
-## Consulting work
+## Full-time employment
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
     where I helped design and build data processing systems and infrastructures.
     I also taught courses on the cleaning and analysis of data. (2012)
+* I developed the curriculum for [Zipfian Academy](http://zipfianacademy.com)
+    and taught the first class of students. (2013)
+
+## Consulting work
 * I collected data about the locations of finance institutions in South
     Africa (primarily) to assist the
     [Microfinance Information Exchange](http://mixmarket.org) with
@@ -139,11 +157,10 @@ I've written quite a lot of software. Here are some free software projects that 
     [Gulf Restoration Network](https://healthygulf.org/). (2012--present)
 * I conducted early data engineering on the [DataPad](http://datapad.io)
     data analysis product. (2013)
-* I developed the curriculum for [Zipfian Academy](http://zipfianacademy.com)
-    and taught the first class of students. (2013)
 * As part of the hacker collective [csv soundsystem](http://csvsoundsystem.com).
     I did engineering and product management on [treasury.io](http://treasury.io). (2013)
 * At present, I'm developing large-scale data-acquisition systems for [Vy Capital](http://vycapital.com).
     We're using these systems to collect data about the growth of companies.
-* As a fellow at Enigma, I am conducting my spreadsheet research and advising
-    Enigma about issues relating to the scaling of their product.
+* [Enigma](https://enigma.io) is sponsoring my spreadsheet research.
+    In addition, I am advising them about issues relating to the scaling of
+    their product.
