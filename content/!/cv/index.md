@@ -112,13 +112,15 @@ Here are some audiences for which I've given it.
 * Thomas Levine (2013).
     [The Hovering Cycle](http://www.phlush.org/2013/02/23/the-hovering-cycle/).
     Phlush Blog.
-* Thomas Levine (2013). [Searching lots of inconveniently formatted files at once](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once). Community Boost\_r Resources.
 * Thomas Levine (2013). [My Visit to Socrata, and Data Analysis About Data Analysis](http://www.socrata.com/blog/my-visit-to-socrata-and-data-analysis-about-data-analysis/). Socrata.
+* Thomas Levine (2013). [Searching lots of inconveniently formatted files at once](http://communityboostr.org/resource/searching-lots-inconveniently-formatted-files-once). Community Boost\_r Resources.
 * Thomas Levine (2013). [Two meanings of "variable".](http://www.datakind.org/blog/multiple-meanings-of-the-word-variable/). DataKind Blog.
-* Thomas Levine (2013). [What's in a table?](http://www.datakind.org/blog/whats-in-a-table/). DataKind Blog.
+* Thomas Levine (2013). [What's in a table](http://www.datakind.org/blog/whats-in-a-table/). DataKind Blog.
 * Thomas Levine (2014). Open data had better be data-driven. Open Innovation, winter 2014.
 
 ## Other notable articles
+These are articles on my own website that many people have read and cited.
+
 * Thomas Levine (2011). [Unsanitary conditions in the Risley Hall bathrooms](http://thomaslevine.com/!/risley-toilets/)
 * Thomas Levine (2012). [Beaglebone power supplies](http://thomaslevine.com(!/beaglebone-power)
 * Thomas Levine (2013). [How I parse PDF files](http://thomaslevine.com(!/parsing-pdfs)
