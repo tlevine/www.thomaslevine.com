@@ -1,14 +1,30 @@
 ---
 title: Curriculum vitae
 ---
+<div class="dontprint">
 I wonder what the point of a CV is. If I'm not doing the conventional
 academic thing, I don't really need the typical CV. But why is it desireable?
-To some degree, it's a summary of a person. But my website is a summary
-of me too and it ignores some typical contents of a CV....
+To some degree, it's a summary of a person. My website is also a summary
+of me too, but it ignores some typical contents of a CV.
 
 I think a CV is intended to make someone sound impressive. I sort
-of don't like doing that, but I'm curious about what it would sound like,
-so here I go.
+of don't like doing that, but I'm curious about what it would sound like.
+And I'm applying to a graduate school (April 1, 2014). So here I go.
+</div>
+
+## Current engagements
+* [Vy Capital](http://vycapital.com) is a venture capital firm.
+    I'm developing large-scale data-acquisition systems
+    for them that collect data about the growth of companies.
+* [Enigma](https://enigma.io) collects a plethora of public
+    data and develops a product with which people may search
+    the data.
+    Enigma is sponsoring some of my spreadsheet research.
+    In addition, I am advising them about issues
+    relating to the scaling of their product.
+* [DataKind](http://datakind.org/) connects data scientists
+    to high impact social organizations. I regularly do assorted
+    data-related work and advising for them.
 
 ## Education
 Cornell University, Bachelor's of Science (May 2011)<br>
@@ -20,22 +36,6 @@ Hunter R. Rawlings III Presidential Research Scholar
 ## Awards
 * DataKind [Data Hero](http://www.datakind.org/featuredvolunteers/thomas-levine/)
 * National Science Graduate Research Fellowship Program honorable mention
-* Enigma Fellow
-
-## Press
-* Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
-* Mariano Blejman (2012). [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html). Página 12.
-* Meredith Hoffman (2013). [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets). DNA Info.
-* (2012). [Geek Philanthropy: Data huggers](http://www.economist.com/news/international/21564831-innovative-charity-rallies-geeks-good-cause). Economist.
-* David Smith (2009). [R makes a T-shirt](http://blog.revolutionanalytics.com/2009/06/r-makes-a-tshirt.html). Revolution Analytics.
-* [Time capsule to be opened in 2065 preserves Cornell history](http://news.cornell.edu/stories/2012/11/time-capsule-preserves-cornell-history-until-2065). Cornell University.
-* Sydney Arkin (2008). [Inside Risley's Castle](http://cornellsun.com/node/33124). Cornell Daily Sun.
-* Emily Greenberg (2010). [The Spirit of the Arts](http://cornellsun.com/node/41218). Cornell Daily Sun.
-* Anna Lena Schiller, Lorenz Matzat Philip Banse (2013). [Datenschau 008](http://www.kuechenstud.io/datenschau/podcast/ds008/). Datenschau.
-* Teresa Bouza (2013). [Conversation with Tom Levine](http://www.youtube.com/watch?v=wX7IedZCTSo).
-* Kathy Kiely (2013). [Datafest project opens Uncle Sam's daily ledger](http://sunlightfoundation.com/blog/2013/07/25/datafest-project-opens-uncle-sams-daily-ledger/). Sunlight Foundation.
-* Caroline O'Donovan (2014). [Making government spending data more legible](http://www.niemanlab.org/2014/01/making-government-spending-data-more-legible/). Nieman Journalism Lab.
-* Melissa Smolensky (2013). [Chartio Takes Over the Big Apple](http://chartio.com/blog/2013/03/chartiosheadstonyc). Chartio.
 
 ## Invited talks
 * August 31, 2012. Web Scraping. [Hacks/Hackers Buenos Aires Media Party 2012](http://www.mediaparty.info/).
@@ -145,14 +145,29 @@ I've written quite a lot of software. Here are some free software projects that 
 * Tal Gluck and Thomas Levine (2011). Desk Height and Other Ergonomic Delights. Mann Library, Cornell University.
 * Thomas Levine (2013). OpenPrism. [PRISM Break-up](http://prismbreakup.org/#/exhibition), Eyebeam.
 
-## Full-time employment
+## Press
+* Emily Badger (2013). [Visualizing the Impact of Mega-Storms on Transit](http://www.theatlanticcities.com/commute/2013/05/visualizing-impact-mega-storms-transit/5660/). The Atlantic Cities.
+* Mariano Blejman (2012). [Periodismo reiniciado](http://www.pagina12.com.ar/diario/cdigital/31-202522-2012-09-04.html). Página 12.
+* Meredith Hoffman (2013). [Data-Driven Band 'CSV Soundsystem' Makes Music From Spreadsheets](http://www.dnainfo.com/new-york/20130429/greenpoint/data-driven-band-csv-soundsystem-makes-music-from-spreadsheets). DNA Info.
+* (2012). [Geek Philanthropy: Data huggers](http://www.economist.com/news/international/21564831-innovative-charity-rallies-geeks-good-cause). Economist.
+* David Smith (2009). [R makes a T-shirt](http://blog.revolutionanalytics.com/2009/06/r-makes-a-tshirt.html). Revolution Analytics.
+* [Time capsule to be opened in 2065 preserves Cornell history](http://news.cornell.edu/stories/2012/11/time-capsule-preserves-cornell-history-until-2065). Cornell University.
+* Sydney Arkin (2008). [Inside Risley's Castle](http://cornellsun.com/node/33124). Cornell Daily Sun.
+* Emily Greenberg (2010). [The Spirit of the Arts](http://cornellsun.com/node/41218). Cornell Daily Sun.
+* Anna Lena Schiller, Lorenz Matzat Philip Banse (2013). [Datenschau 008](http://www.kuechenstud.io/datenschau/podcast/ds008/). Datenschau.
+* Teresa Bouza (2013). [Conversation with Tom Levine](http://www.youtube.com/watch?v=wX7IedZCTSo).
+* Kathy Kiely (2013). [Datafest project opens Uncle Sam's daily ledger](http://sunlightfoundation.com/blog/2013/07/25/datafest-project-opens-uncle-sams-daily-ledger/). Sunlight Foundation.
+* Caroline O'Donovan (2014). [Making government spending data more legible](http://www.niemanlab.org/2014/01/making-government-spending-data-more-legible/). Nieman Journalism Lab.
+* Melissa Smolensky (2013). [Chartio Takes Over the Big Apple](http://chartio.com/blog/2013/03/chartiosheadstonyc). Chartio.
+
+## Prior full-time employment
 * I was on the development team at [ScraperWiki](https://scraperwiki.com),
     where I helped design and build data processing systems and infrastructures.
     I also taught courses on the cleaning and analysis of data. (2012)
 * I developed the curriculum for [Zipfian Academy](http://zipfianacademy.com)
     and taught the first class of students. (2013)
 
-## Consulting work
+## Prior consulting work
 * I collected data about the locations of finance institutions in South
     Africa (primarily) to assist the
     [Microfinance Information Exchange](http://mixmarket.org) with
@@ -166,8 +181,3 @@ I've written quite a lot of software. Here are some free software projects that 
     data analysis product. (2013)
 * As part of the hacker collective [csv soundsystem](http://csvsoundsystem.com).
     I did engineering and product management on [treasury.io](http://treasury.io). (2013)
-* At present, I'm developing large-scale data-acquisition systems for [Vy Capital](http://vycapital.com).
-    We're using these systems to collect data about the growth of companies.
-* [Enigma](https://enigma.io) is sponsoring my spreadsheet research.
-    In addition, I am advising them about issues relating to the scaling of
-    their product.
