@@ -19,9 +19,9 @@ And I'm applying to a graduate school (April 1, 2014). So here I go.
     <abbr class="additional-name">Kai</abbr>
     <span class="family-name">Levine</span>
   </span>
-  <a rel="me" class="url" href="http://thomaslevine.com">thomaslevine.com</a><br/>
-  <a rel="me" class="email" href="mailto:_@thomaslevine.com">_@thomaslevine.com</a><br/>
-  <a rel="me" href="sms:+19145741328" class="tel">+1 914 574 1328</a><br/>
+  <a rel="me" class="url" href="http://thomaslevine.com">thomaslevine.com</a>
+  <a rel="me" class="email" href="mailto:_@thomaslevine.com">_@thomaslevine.com</a>
+  <a rel="me" href="sms:+19145741328" class="tel">+1 914 574 1328</a>
   <img class="photo" src="http://thomaslevine.com/img/me.jpg"/>
 </p>
 
