@@ -1,27 +1,47 @@
 ---
 title: Teaching Data Science
 ---
-I've recently been around several people who have been teaching data science in
-various ways. I've always been skeptical of the utility of the educational
+I think that people usually see disciplines as being distinguished by their
+methods, literature, and topics of study/work. For example, the plumber does
+plumbing, the lawyer knows the law, and the chemist understands chemicals.
+
+This manner of categorization didn't seem right to me. The study of plumbing
+surely involves understanding the law and the chemicals, right? And how do you
+draw lines between plumbing, electricity, chemistry, physics and architecture?
+
+A few years ago, I started looking at disciplines as mindsets and languages.
+And I think it's relevent that my thing at the time was "ergonomics".
+
+## Ergonomics as mindset
+I apparently know something about ergonomics, but none of the definitions ever
+seemed quite right. The
+International Ergonomics Association
+defines it (paraphrased) as the scientific discipline (and associated applied
+discipline) that studies how systems involving people work in order to make
+them more productive and better for people.
+
+All sorts of things get binned into ergonomics, like reducing errors by airplane
+pilots, making assembly lines run more smoothly, making chairs more comfortable,
+and keeping noise levels safe.
+So it's nice that this definition isn't overly specific
+
+But the definition is also too broad. The study of the interactions between
+cancer cells and drugs is surely a scientific discipline that studies systems
+with people in order to make people more productive and to make people healthier.
+So is it ergonomics?
+
+##
+A bunch of people were telling me a year ago that I should teach data science.
+I figured that I'd better define it if Iwas going to teach it.
+
+I've always been skeptical of the utility of the educational
 "data science" that I've seen, but that might be because I'm always skeptical
 of schooling and of anything termed "data science". Or maybe I'm just skeptical
 of everything. My distaste for the buzzterms tends to relate largely to the
 semantic ambiguity of the terms, but the various related concepts tend to be
-meaningful and appealing, so it is worth defining and teaching them. My
-conclusion from this ramble on the utility of teaching the nebulous concept of
-"data science" was that it would be nice to figure out what data science
-involves and how I would teach it.
+meaningful and appealing, so it is worth defining and teaching them.
 
-The only data science course syllabus that I recall reading is the one from
-General Assebly in New York, and I haven't read any books with "data science"
-in the title. After I write all this, it'll be fun to compare this with what
-other people think should be taught.
-
-## The mindset
-First, I see data science as a mindset. I also see ergonomics (another thing
-I apparently know a lot about) as a mindset, so it might just be that everything
-becomes a mindset once you get good at it. Here are some main aspects of this
-mindset.
+## Disciplines as mindsets
 
 1. It is fun to learn how complex systems work and to apply the resulting
     knowledge, and quantitative information can assist in this fun.
