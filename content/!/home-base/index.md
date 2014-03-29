@@ -23,3 +23,9 @@ Some notable [features](http://www.mailboxforwarding.com/pricing.php)
 
 The $15/month plan should cover everything I need, but I'd need to pay
 extra for forwarding mail.
+
+## My US PostBox
+It has [good stuff](https://www.myuspostbox.com/setup.php?lang=eng),
+but the per-item fees are [expensive](http://www.myuspostbox.com/schedule.php?lang=eng)
+
+
