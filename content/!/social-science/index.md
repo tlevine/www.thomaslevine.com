@@ -19,4 +19,5 @@ On a related note, I like to see science/technology/engineering/math as a
 religion. When we want to convince ourselves of a thing today, we frame it
 in terms of this fancy smart-people stuff. I think it was the same in other
 times, except that people were relating the arguments to other religious texts.
+
 But that's a story for another day.
