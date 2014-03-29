@@ -13,3 +13,13 @@ Per-item fees
 
 * $1.50 for scanning
 * $1 for pickup
+
+## Mailbox Forwarding
+Some notable [features](http://www.mailboxforwarding.com/pricing.php)
+
+* [Registered Agent](http://www.mailboxforwarding.com/support/knowledgebase.php?article=13)
+* You can receive packages.
+* The mailboxes are in [inconvenient places](http://www.mailboxforwarding.com/address.php).
+
+The $15/month plan should cover everything I need, but I'd need to pay
+extra for forwarding mail.
