@@ -8,5 +8,5 @@ how people are using them, and how we can
 make them better.
 
 If you haven't read any of this, you might start with
-[this summary](/!/data-about-open-data-talk-december-2-2013/)
-of the more interesting discoveries.
+[this summary](/!/data-data-themes/)
+of the broad themes.
