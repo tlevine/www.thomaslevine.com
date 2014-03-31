@@ -20,7 +20,7 @@ Usually, each record corresponds to a full sub-spreadsheet; you could say
 that I am aggregating each spreadsheet to produce a few statistics that
 get put into this spreadsheet.
 
-[![](/!/dataset-as-datapoint/dataset-features.jpg){:.wide}](/!/dataset-as-datapoint)
+[![A drawing of spreadsheets being turned statistics about spreadsheets](/!/dataset-as-datapoint/dataset-features.jpg){:.wide}](/!/dataset-as-datapoint)
 
 ## Relevance
 As I see it, the recent "open data" efforts have come about because we see
