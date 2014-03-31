@@ -1,6 +1,6 @@
 ---
 title: Themes in my data research about data
-kind: article
+tags: ['open-data']
 ---
 ## Premise
 I've been looking at what happens when download lots of spreadsheets
@@ -81,3 +81,8 @@ trust in government and economic growth, but that's a lot of work. The closest
 I've gotten is by looking at the
 [different software products](/!/socrata-products/) that people use and at
 how these products get used.
+
+## Thoughtful thought
+I would love for [most of our content to be shared](/!/openprism/), even the
+sloppy drafts and incomplete spreadsheets. Rather than making everything nice
+before we release it, let's just get better at dealing with messy stuff.
