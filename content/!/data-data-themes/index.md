@@ -57,4 +57,4 @@ the metadata that we wished we had.
 
 ### Quantifying data quality
 
-### Causal inferences: Do open data do anything?
+### Effects of releasing data
