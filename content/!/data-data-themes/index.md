@@ -56,5 +56,28 @@ expect metadata to be useful. We can build search tools that can figure out
 the metadata that we wished we had.
 
 ### Quantifying data quality
+Lots of people say we should have good quality data, and some people have
+articulated what would make data good.
+
+* Open Knowledge Foundation [Open Data Census](http://census.okfn.org/)
+* Tim Berners-Lee [Five Stars](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/) of open linked data.
+    <!-- http://opendata.stackexchange.com/a/529 -->
+* Open Government Working Group [8 Principles of Open Government Data](http://www.opengovdata.org/home/8principles)
+* Sunlight Foundation [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/)
+* Open Data Institute [Certificates](https://certificates.theodi.org/)
+
+These are written out in words. If we write them out as numbers, we might be
+able to calculate them more easily. For example, if we
+[automatically check whether links are alive](http://thomaslevine.com/!/zombie-links/),
+we can tell quite quickly when things break.
 
 ### Effects of releasing data
+People say that open data is good, that good data have the above-linked
+characteristics, and that good things will happen when people release the
+data. But is any of that actually the case?
+
+I would love to asses how the release a dataset impacts real things like
+trust in government and economic growth, but that's a lot of work. The closest
+I've gotten is by looking at the
+[different software products](/!/socrata-products/) that people use and at
+how these products get used.
