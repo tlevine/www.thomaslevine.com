@@ -32,9 +32,29 @@ datasets (spreadsheets).
 ## Applications
 In looking at all these spreadsheets, I've wound up studying how people share
 data, and I've been coming up with some things to assist in the sharing of
-data.
+data. I describe below three ways of thinking about what I've been doing, but
+they're really all the same thing.
 
-1. Better ways of searching
-2. Dealing with bad (meta)data.
-3. Quantifying data quality
-4. Causal inferences: Do open data do anything?
+### Finding relevant data without good metadata
+I think about two broad issues relating to the
+[searching of spreadsheets](/!/searching-open-data).
+
+**Searching across publishers**.
+It's hard to search for the turnstile turn log data for the New York Subways
+without knowing that the data get released by the Metropolitan Transit Authority.
+What if we didn't have to know that, just like with the modern internet search
+engines. [OpenPrism](http://openprism.thomaslevine.com) is a prototype of that idea.
+
+**Using the structure of spreadsheets**.
+We search for spreadsheets the same way we search for news articles. What if
+we took advantage of the structure that is present in spreadsheets? I think we
+can improve our search by looking at the numerical relationships among different
+spreadsheets. 
+
+People always complain about the inadequete quality of metadata, so I don't
+expect metadata to be useful. We can build search tools that can figure out
+the metadata that we wished we had.
+
+### Quantifying data quality
+
+### Causal inferences: Do open data do anything?
