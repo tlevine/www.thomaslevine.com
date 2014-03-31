@@ -10,51 +10,27 @@ tags: ['socrata', 'open-data']
 kind: article
 created_at: 2013-08-12
 ---
-There are loads of open data portals
-There's even [portal about data portals](http://datacatalogs.org).
-And each of these portals has loads of datasets.
+*The page that was once here has been [renamed](/!/searching-data-tables).*
 
-[OpenPrism](http://openprism.thomaslevine.com) is my most recent
-attempt at understanding what is going on in all of these portals.
-Read on if you want to see why I made it, or just go to the site
-and start playing with it.
+I quite like the surveillance lifestyle, and my concern is simply that it does not go far enough;
+a privileged elite of governments and big companies keep my private information to itself rather
+than disseminating it the common people, who are the very creators of this information. Surveillance
+in its conventional form exploits the work of the masses to create massive databases that maintain
+the power of the powerful.
 
-## People don't know much about open data
-Nobody seems to know what is in the data portals.
-Many people know about datasets that are relevant to their work,
-municipality, &c., but nobody seems to know about the availability of
-data on broader topics, and nobody seems to have a good way of
-finding out what is available.
+[OpenPrism](http://openprism.thomaslevine.com)
+proposes an alternative surveillance lifestyle that rejects these class hierarchies,
+where information flows freely in a distributed fashion rather than stagnating in private vaults,
+where the people have the means to surveil each other rather than being slave to a secret
+surveillance authority.
 
-If someone does know any of this, he probably works for an open data
-portal. Still, he probably doesn't know much about what is going on in
-other portals.
+Open data initiatives weaken the class hierarchy of access to knowledge by releasing data that were
+once private. I suggest that this is a model that should be taken further. To demonstrate the power
+of this model, OpenPrism lets you search for datasets across more than 100 open data portals,
+encouraging the common person to explore and utilize the vast troves of open data.
 
-## Naive search method
-One difficulty in discovering open data is the search paradigm.
-
-Open data portals approach searching data as if data were normal prose;
-your search terms are some keywords, a category, &c., and your results are
-dataset titles and descriptions.
-
-There are other approaches.
-For example, [AppGen](http://www.appgen.me/)
-searches for datasets with the same variables as each other,
-and the results are automatically generated app prototypes.
-
-## Siloed open data portals
-Another issue is that people tend to use data from only one portal;
-they use their local government's portals or their organizations' portals.
-
-Let me give you a couple examples of why this should maybe be different.
-Perhaps I'm considering making an app to help people find parking, and
-I want to see what parking lot data are available before I put much work
-into the app.
-Or maybe I want to find all of the data about sewer overflows so that I
-can expand my initiative to [reduce water pollution](http://dontflush.me).
-
-[OpenPrism](http://openprism.thomaslevine.com) is one small attempt
-at making it easier to search. Rather than going to all of the different
-portals and making a separate search for each portal, you type your
-search in one search bar, and you get results from a bunch of different
-Socrata, CKAN and Junar portals.
+I am lucky enough not to be persecuted by any government, so I can use my life as an experiment in
+extreme openness. I post information as openly as I conveniently can, and I am personally quite
+comforted by the knowledge that everyone is reading it. This allows people to recognize my
+accomplishments, build on my work, and take action if I suddenly get kidnapped. 
+I dream of a world where everyone can be as open as I am.

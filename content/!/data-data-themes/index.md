@@ -37,7 +37,7 @@ they're really all the same thing.
 
 ### Finding relevant data without good metadata
 I think about two broad issues relating to the
-[searching of spreadsheets](/!/searching-open-data).
+[searching of spreadsheets](/!/searching-data-tables).
 
 **Searching across publishers**.
 It's hard to search for the turnstile turn log data for the New York Subways
