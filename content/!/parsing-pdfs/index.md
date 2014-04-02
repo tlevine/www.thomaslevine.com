@@ -17,7 +17,8 @@ I sort of follow this decision process.
 
 ## Example PDFs
 I'll show a few different approaches to parsing and analyzing
-[these](https://github.com/tlevine/scott-documents) PDF files.
+[these](https://github.com/tlevine/scott-documents) PDF files
+(also available [here](http://tlevine.the-nsa.org/big/scott-documents.tar.gz)).
 Different approaches make sense depending on the question you ask.
 
 These files are public notices of applications for permits to dredge or fill
@@ -28,9 +29,11 @@ about what sorts of construction is permissible.
 
 Theses files are
 [downloaded daily](https://github.com/tlevine/scott/tree/master/reader)
-from the [New Orleans Army Corps of Engineers website](http://www2.mvn.usace.army.mil/ops/regulatory/publicnotices.asp?ShowLocationOrder=False)
+from a no-longer-available version of the
+New Orleans Army Corps of Engineers website
+<!-- http://www2.mvn.usace.army.mil/ops/regulatory/publicnotices.asp?ShowLocationOrder=False -->
 and renamed according to the permit application and the date of download.
-They feed into [this website](http://scott.thomaslevine.com), which is primarily
+They feed into [this program](https://github.com/tlevine/scott), which is primarily
 used by the Gulf Restoration Network in their efforts to protect the wetlands.
 
 ## If I don't need the file contents
@@ -204,7 +207,8 @@ with "MVN", but other agencies use different numbers. I also search for two
 key paragraphs
 
 [My approach](https://github.com/tlevine/scott/blob/master/reader/bin/translate)
-is pretty crude. For the PDFs that aren't scans, I just use `pdftotext`.
+is pretty crude. For the PDFs that aren't scans, I just use `pdftotext`,
+which is part of `poppler-utils`.
 
     # translate
     pdftotext "$FILE" "$FILE"
@@ -233,7 +237,8 @@ but if I did, I'd use something like
 [PDFMiner](http://www.unixuser.org/~euske/python/pdfminer/).
 
 ### pdftohtml
-`pdftohtml` is useful because of its `-xml` flag.
+`pdftohtml`, also part of `poppler-utils`,
+is particularly useful because of its `-xml` flag.
 
     $ pdftohtml -xml MVN-2013-00180-ETT/public_notice.pdf
     Page-1
