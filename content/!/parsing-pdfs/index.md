@@ -218,7 +218,10 @@ Then I just use regular expressions to search the resulting text file.
 `pdftotext` normally screws up the layout of PDF files, especially when they
 have multiple columns, but it's fine for what I'm doing because I only need to
 find small chunks of text rather than a whole table or a specific line on
-multiple pages.
+multiple pages. You can try `pdftotext -layout` if you need to preserve more
+of the layout.
+
+    pdftotext -layout file.pdf
 
 As we saw earlier, most of the files contain images, so I need to run OCR.
 Like `pdftotext`, OCR programs often mess up the page layout, but I don't
