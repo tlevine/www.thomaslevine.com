@@ -344,3 +344,21 @@ If I need OCR, I use `pdfimages` to remove the images and `tesseract` to run
 OCR. If I needed to run OCR and know more about the layout, I might convert the
 PDFs to SVG with Inkscape and, and then take the images out of the SVG in order
 to know more precisely where they are in the page's structure.
+
+## Broader ideas
+PDF has a weird semi-proprietary binary format that can be annoying to read,
+so my first step in reading PDF files is converting them to something that is
+supported better and that I'm more used to.
+
+There are all sorts of ways of encoding data in PDF files, so it's not like
+there's a straightforward PDF-to-spreadsheet conversion. (This is just like
+any other file format.) Figure out what data you want to extract from the
+files, and select your parsing strategy accordingly.
+
+And if it seems like too much work to get exactly what you want, try to come
+up with something else that is easier to extract and that will still tell you
+something similar.
+
+Finally, it's quite hard to convert data formats without losing information,
+so don't worry about losing information. You can always write a new parser
+for any other information that you want.
