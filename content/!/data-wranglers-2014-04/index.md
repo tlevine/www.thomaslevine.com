@@ -1,6 +1,9 @@
 ---
 title: Data Wranglers DC PDF parsing
 ---
+I'm talking about PDFs
+[at Data Wranglers DC](http://www.meetup.com/Data-Wranglers-DC/events/160592492/).
+
 ## Abstract
 Much of the world’s data are stored in portable document format (PDF) files. This is not my preferred storage or presentation format, so I often convert such files
 into databases, graphs, or spreadsheets. When I'm reading PDF files, I ask these questions.
