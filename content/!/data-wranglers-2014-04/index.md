@@ -8,3 +8,6 @@ I'm dumping everything in the following git repository.
 
 You can also view the files in a web browser
 [here](https://github.com/tlevine/data-wranglers-dc-pdfs).
+
+You can follow along with what files I'm editing by going
+[here](http://tlevine.the-nsa.org/data-wranglers-dc-pdfs/).
