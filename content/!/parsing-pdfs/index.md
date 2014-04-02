@@ -276,7 +276,9 @@ Here are some XPath selectors that get us somewhere.
 ### Inkscape
 Inkscape can convert a PDF page to an SVG file. I have a
 [little script](https://github.com/scraperwiki/pdf2svg) that runs this across
-all pages within a PDF file.
+all pages within a PDF file. You can also install it from NPM.
+
+    npm install -g pdf2svg
 
 Once you've converted the PDF file to a bunch of SVG files, you can open it
 with an XML parser just like you could with the `pdftohtml` output, except
