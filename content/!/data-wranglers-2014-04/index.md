@@ -27,3 +27,7 @@ You can also view the files in a web browser
 
 You can follow along with what files I'm editing by going
 [here](http://tlevine.the-nsa.org/data-wranglers-dc-pdfs/).
+
+Take notes
+[on my wiki](http://wiki.thomaslevine.com/misc/data-wranglers-dc-2014-04),
+and other people will be able to see them!
