@@ -95,6 +95,29 @@ Here are some other articles about other parsing methods.
 * [Portable document format](/!/parsing-pdfs/)
 * [strptime](http://linux.die.net/man/3/strptime)
 
+### Saving
+I'm presuming that you want to save the data as a
+[data table](http://www.datakind.org/blog/whats-in-a-table/).
+You might prefer a graph structure or something else,
+but that won't make things much different.
+
+Once your program has read the web page, you have the data
+saved in data structures in your programming language. Now you
+just need to write them out to structured files. You can use
+an ordinary CSV or JSON writer to write to simple files, and
+you can use a database driver to write to a fancier database.
+
+You can also convert to some intermediary data structure before
+saving to a file. In R, you might use data frames. In Python,
+you might use SQLAlchemy. Surrounding both these structures
+are a slew of tools that will convert to all different formats.
+
+Regardless of which of these methods I use, I set up my program
+such that I can whimsically destroy the table and regenerate it
+based on other files that I have saved to my computer. Things
+gen annoyingly complicated when the parsing depends on the data
+in the output table.
+
 ## Libraries you want
 As a summary, here are the sorts of libraries that you might want.
 
@@ -112,6 +135,9 @@ As a summary, here are the sorts of libraries that you might want.
   * Images
   * Video
   * &c.
+
+Most of these probably exist in whatever language you're using,
+so you probably just need to figure out what the right library is.
 
 ## Starting a project
 Here's what I do when I'm contemplating getting data tables out of websites.
