@@ -155,6 +155,12 @@ do whatever is desired.
 Fourth, I start automating just part of the human process. I try to start with
 a tiny part that is easy and will be useful quickly.
 
+## Units of a project
+I like to break my program into units for each type of file that is downloaded.
+Every time I acquire a new file from a webpage, I have to form an HTTP request,
+parse the file, save some results. And depending on the results, I might decide
+to look for yet another file.
+
 ## Examples
 
 * Scott
