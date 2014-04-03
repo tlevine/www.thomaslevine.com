@@ -8,9 +8,9 @@ I'm talking about PDFs
 Much of the world’s data are stored in portable document format (PDF) files. This is not my preferred storage or presentation format, so I often convert such files
 into databases, graphs, or spreadsheets. When I'm reading PDF files, I ask these questions.
 
-* Do we need to read the file contents at all?
-* Do we only need to extract the text and/or images?
-* Do we care about the layout of the file?
+* Do we need to read the file contents at all?
+* Do we only need to extract the text and/or images?
+* Do we care about the layout of the file?
 
 I take different approaches to parsing depending on the answers to these questions.
 In the talk, I’ll show a few different approaches to parsing and analyzing PDF
