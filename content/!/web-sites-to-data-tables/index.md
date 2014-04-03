@@ -33,9 +33,6 @@ The API might be a little easier to read, but you're still going to the
 API, asking it for something, getting stuff back, and continuing on to
 wherever it points you.
 
-## Choosing a project
-
-
 ## Concepts
 
 1. Download a web page (HTTP)
@@ -56,3 +53,25 @@ wherever it points you.
 * PDFs and images
   * http://thomaslevine.com/!/parsing-pdfs
   * https://www.meetup.com/Data-Wranglers-DC/events/160592492/
+
+## Starting a project
+Here's what I do when I'm contemplating getting data tables out of websites.
+
+First, I ponder whether it's worth doing at all. I first want to know that
+someone will use the data table that I produce.
+
+Second, I ponder whether it's worth automating nicely. If the data are just
+a few numbers spread across a few pages, it's probably not worth writing a
+special thing.
+
+Third, I figure out how a person would navigate all of the websites and
+do whatever is desired.
+
+Fourth, I start automating just part of the human process. I try to start with
+a tiny part that is easy and will be useful quickly.
+
+## Examples
+
+* Scott
+* Scarsdale property
+* Craigslist
