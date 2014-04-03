@@ -65,6 +65,14 @@ responses. In Python, I like to save the responses with
 This is also nice because you can load the HTTP responses from
 your own computer rather than downloading them each time.
 
+### Parsing
+Once we've downloaded the data, we have files sitting on our computer.
+HTML files are quite common on the web, so I'll discuss some parsing
+methods that are specific to HTML files.
+
+As I said, there are a lot of HTML files on the web, but there are other
+file formats too. You'll have to parse them
+
 ## Libraries you want
 
 * HTTP client
