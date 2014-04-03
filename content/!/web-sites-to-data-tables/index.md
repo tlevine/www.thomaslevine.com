@@ -34,11 +34,36 @@ API, asking it for something, getting stuff back, and continuing on to
 wherever it points you.
 
 ## Concepts
+I like to think of three main components of a system that converts
+webpages into data tables.
 
 1. Download a web page (HTTP)
-2. Save results for reproducability
-3. Read file formats (HTML, JSON, Javascript, RSS)
-4. Save the data as a table
+2. Read file formats (HTML, JSON, Javascript, RSS, &c.)
+3. Save the data as a table (CSV, JSON, SQL, &c.)
+
+### Downloading
+Web browsers and web servers communicate over the
+[hypertext transfer protocol](/!/street-sign-protocol/).
+Thus, I like to use an HTTP client when downloading webpages.
+I usually use [requests](http://python-requests.org)
+if I'm working in Python.
+
+    import requests
+    response = requests.get('http://thomaslevine.com')
+
+This downloading step is the one scary step of the process.
+It's scary because we don't know how the download is going to
+go. Moreover, our internet connection might go down, and
+the webpage might get updated. Thus, it's good to save HTTP
+responses. In Python, I like to save the responses with
+[pickle_warehouse](http://pypi.python.org/pypi/pickle_warehouse).
+
+    import pickle_warehouse
+    w = pickle_warehouse.Warehouse('responses')
+    w['http://thomaslevine.com'] = response
+
+This is also nice because you can load the HTTP responses from
+your own computer rather than downloading them each time.
 
 ## Libraries you want
 
