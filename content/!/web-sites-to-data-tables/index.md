@@ -89,20 +89,29 @@ library; this way, your skills will transfer easily to other libraries.
 
 As I said, there are a lot of HTML files on the web, but there are other
 file formats too. You'll have to use other methods to parse other file formats.
+Here are some other articles about other parsing methods.
+
+* [Regular expressions](http://www.grymoire.com/Unix/Regular.html)
+* [Portable document format](/!/parsing-pdfs/)
+* [strptime](http://linux.die.net/man/3/strptime)
 
 ## Libraries you want
+As a summary, here are the sorts of libraries that you might want.
 
 * HTTP client
-* Storage of some sort (for example, files)
-* Fancy parsers
+* Storage of some sort
+  * Files
+  * Relational database
+* Text parsers
   * HTML/XML, XPath, CSS
   * JSON
-* General parsers
   * Regular expressions
   * strptime
-* PDFs and images
-  * http://thomaslevine.com/!/parsing-pdfs
-  * https://www.meetup.com/Data-Wranglers-DC/events/160592492/
+* Other parsers
+  * PDF
+  * Images
+  * Video
+  * &c.
 
 ## Starting a project
 Here's what I do when I'm contemplating getting data tables out of websites.
