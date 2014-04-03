@@ -5,8 +5,19 @@ I apparently know a lot about making websites into data tables.
 You might call this "web scraping". Here's a bit of how I go about
 writing computer programs that do that.
 
+## What I mean by "making websites into data tables"
+Much of the world's data are stored in ways that are annoying for me
+to work with. For example, they might be on paper,
+in [PDF files](/!/parsing-pdfs/), or in HTML files. And they might be
+spread across many files of various formats. Sometimes we're lucky enough
+that the files are available on a website.
+
+When one format doesn't work for me, I convert the data to a different format.
+In the present article, I focus on getting data out of HTML files that were
+downloaded over the web (with the hypertext transfer protocal).
+
 ## Human parallels
-Once you figure out how a human could acquire the data from the
+Once you figure out how a human could acquire the
 data from the website, it's rather straightforward (though probably
 still tedious) to get a computer to do it. Imagine that different
 websites are different buildings and that you are running around
@@ -21,6 +32,9 @@ you're using calls itself an "application programming interface" (API).
 The API might be a little easier to read, but you're still going to the
 API, asking it for something, getting stuff back, and continuing on to
 wherever it points you.
+
+## Choosing a project
+
 
 ## Concepts
 
