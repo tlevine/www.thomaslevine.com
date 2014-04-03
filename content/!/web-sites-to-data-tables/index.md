@@ -67,11 +67,28 @@ your own computer rather than downloading them each time.
 
 ### Parsing
 Once we've downloaded the data, we have files sitting on our computer.
-HTML files are quite common on the web, so I'll discuss some parsing
-methods that are specific to HTML files.
+HTML files are quite common on the web, so let's discuss how I parse
+HTML files. I use an HTML parser to convert the raw HTML text into a
+fancy HTML object in whatever programming language I'm using. This lets
+me search the HTML in lots of fancy ways. In Python, I would use lxml.
+
+    import lxml.html
+    html = lxml.html.fromstring(response.text)
+
+Once the HTML is parsed, I usually use one of two languages for
+searching within the parsed html object. These languages are CSS selectors
+and XPath, and lxml supports both of them. For example, here's how
+you might select a table.
+
+    html.xpath('//id("main")/table')
+    html.cssselect('#main > table')
+
+Regardless of what HTML parser you use, I recommend that you use CSS selectors
+or XPath rather than using a special language that is specific to your particular
+library; this way, your skills will transfer easily to other libraries.
 
 As I said, there are a lot of HTML files on the web, but there are other
-file formats too. You'll have to parse them
+file formats too. You'll have to use other methods to parse other file formats.
 
 ## Libraries you want
 
