@@ -163,6 +163,6 @@ to look for yet another file.
 
 ## Examples
 
-* Scott
-* Scarsdale property
-* Craigslist
+* [Scott](https://github.com/tlevine/scott)
+* [Scarsdale property](https://github.com/tlevine/scarsdale-property-inquiry)
+* [Craigslist](https://pypi.python.org/pypi/craigsgenerator)
