@@ -43,3 +43,12 @@ make Chromium look like Chrome; run this as your user.
 
 The previous two code blocks must be run in the same shell session as the one
 where you are going to run `java -jar selenium-server-standalone-2.21.0.jar -port 4443`.
+
+And then you need the driver for the language from which you are controlling
+the browser; in Python, install it from pypi like so.
+
+    pip install selenium
+
+And import it like so.
+
+    from selenium import webdriver
