@@ -130,6 +130,10 @@ As a summary, here are the sorts of libraries that you might want.
   * JSON
   * Regular expressions
   * strptime
+* Running Javascript
+  * Selenium ([installing](/!/selenium))
+  * PhantomJS
+  * jsdom
 * Other parsers
   * PDF
   * Images
