@@ -172,4 +172,7 @@ to look for yet another file.
 * [Craigslist](https://pypi.python.org/pypi/craigsgenerator)
 
 ## Also
-[Selenium](/!/selenium)
+
+* [Selenium](/!/selenium)
+* http://ruby.bastardsbook.com/chapters/web-scraping/
+* http://docs.python-guide.org/en/latest/scenarios/scrape/
