@@ -1,13 +1,9 @@
-If you have some idea of how to write a website,
-you 
-
-complicated but not magic
-
-
+Binary files might seem scary if you're used to looking at text.
+Today I try to calm your fears.
 
 ## Downloading a text file
 When you type in a URL in your web browser and hit enter,
-your web browser usually makes an HTTP GET request.[^protocol]
+your web browser usually makes an [HTTP GET request](/!/street-sign-protocol).
 You can do that like so in [Python](http://python.org/)
 with [requests](http://www.python-requests.org/).
 
@@ -90,7 +86,7 @@ ten bytes represented as characters.
 ### Bytes as numbers
 And here they are represented as numbers.
 
-    print([x for x in response.content[:10]])
+    print(list(response.content[:10]))
     # [60, 33, 68, 79, 67, 84, 89, 80, 69, 32]
 
 ### Bytes as base 2 numbers
@@ -117,8 +113,8 @@ To be clear, I've shown these three representations of the
 first byte.
 
 1. As a character, it's `<`.
-2. As a base 10 number, it's 60.
-3. As a base 2 number, it's 111100.
+2. As a base 10 number, it's `60`.
+3. As a base 2 number, it's `111100`.
 
 Each byte is made of eight bits. Each bit can be on or off.
 If you have eight light switches, there are 256 different lighting
