@@ -1,4 +1,12 @@
+---
+title: Don't let binary files scare you
+description: Binary files might seem scary if you're used to looking at text, but most of what you know about text files is the same for binary files in general.
+kind: article
+created_at: 2014-04-15
+---
 Binary files might seem scary if you're used to looking at text.
+They might be even scarier if they're floating around in the internet
+rather than sitting on your hard drive.
 Today I try to calm your fears.
 
 ## Downloading a text file
@@ -210,8 +218,10 @@ A video file is also a series of bytes, but it is not encoded as latin1.
 It's also not encoded as utf-8. For example, this
 [video about open data](http://thomaslevine.com/!/open-data-in-plain-english/open-data-in-plain-english.webm)
 is encoded as [WebM](http://en.wikipedia.org/wiki/WebM).
+Text files are a binary file where the data are encoded with a text encoding
+(like latin1 or utf-8 rather than webm).
 
-Regardless of the encoding, it's still a series of bytes, and we don't need to
+Regardless of its encoding, a file still a series of bytes, and we don't need to
 know anything about the encoding in order to download a series of bytes;
 downloading this file is the same as downloading a text file.
 
