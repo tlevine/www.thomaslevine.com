@@ -2,7 +2,8 @@
 title: Don't let binary files scare you
 description: Binary files might seem scary if you're used to looking at text, but most of what you know about text files is the same for binary files in general.
 kind: article
-created_at: 2014-04-15
+created_at: 2014-04-16
+tweet_text: Don't let binary files scare you! http://thomaslevine.com/!/downloading-binary-files-is-not-magic/
 ---
 Binary files might seem scary if you're used to looking at text.
 They might be even scarier if they're floating around in the internet
@@ -102,9 +103,9 @@ We happen to represent numbers in base 10 usually, but
 we could also represent these bytes as numbers in base two.
 
     print([bin(x) for x in response.content[:10]])
-    # [ '0b111100',  '0b100001', '0b1000100',
-    #  '0b1001111', '0b1000011', '0b1010100',
-    #  '0b1011001', '0b1010000', '0b1000101',
+    # [ '0b111100',  '0b100001',  '0b1000100',
+    #   '0b1001111', '0b1000011', '0b1010100',
+    #   '0b1011001', '0b1010000', '0b1000101',
     #   '0b100000']
 
 The number is the part after `0b`; the following representation
