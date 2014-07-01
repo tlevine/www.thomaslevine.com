@@ -283,7 +283,7 @@ idea as to how wrong this is.
 Most of the documents I found about pricing are just price
 lists, but two of them indicate specific proposed purchases.
 One of them is a super-basic plan (more basic than `Soc-OD-B`)
-for Sacramento, and Sacramento doesn't appear in the present data.
+for the City of West Sacramento, and West Sacramento doesn't appear in the present data.
 The other is for Hawaii, and that one does.
 
 ![Picture of proposed purchases from Socrata by Hawaii](hawaii.png){:.wide}
